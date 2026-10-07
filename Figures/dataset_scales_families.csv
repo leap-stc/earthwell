@@ -1,0 +1,71 @@
+panel,family,n,static,type,x_lo,x_hi,y_lo,y_hi
+Atmosphere,ERA5 reanalysis,42,False,Observation / reanalysis,4.447158031342219,7.6020599913279625,4.334453751150931,9.023496338362722
+Atmosphere,Other observation: global,29,False,Observation / reanalysis,4.744292983122676,7.6020599913279625,4.936513742478893,9.017608899040233
+Atmosphere,Other observation: site/point,28,False,Observation / reanalysis,-5.638272163982407,-5.638272163982407,4.936513742478893,8.614104650516962
+Atmosphere,Other model simulation: process-scale,18,False,Model simulation,2.899670274726791,5.991135616519784,4.033423755486949,7.784261147577547
+Atmosphere,SPCAM / SPCESM superparameterized runs,17,False,Model simulation,3.6020599913279625,7.6020599913279625,3.255272505103306,7.535904122883814
+Atmosphere,Other model simulation: global,16,False,Model simulation,5.045322978786658,7.6020599913279625,3.4682568712394466,7.551853133052131
+Atmosphere,Other derived: global,16,False,Derived / generated product,4.045322978786658,7.6020599913279625,4.936513742478893,8.976212377117378
+Atmosphere,Other derived: regional,14,False,Derived / generated product,3.6989700043360187,6.342422680822207,6.414973347970818,8.97622522180489
+Atmosphere,CESM2/CAM6 perturbed parameter ensembles,13,False,Model simulation,5.0,7.6020599913279625,6.414973347970818,7.97592786165503
+Atmosphere,GISS ModelE runs (incl. PPE/CPE),12,False,Model simulation,5.346352974450639,7.6020599913279625,3.794863128127118,7.799836602599349
+Atmosphere,Other (misc.),11,False,Idealized benchmark,3.1760912590556813,6.3979400086720375,4.033423755486949,6.427875436313166
+Atmosphere,ClimSim (E3SM-MMF),11,False,Model simulation,5.221414237842339,7.6020599913279625,3.0791812460476247,8.498806606935368
+Atmosphere,"DYAMOND / ICON storm-resolving (NARVAL, QUBICC)",10,False,Model simulation,3.510594649534969,7.6020599913279625,3.794863128127118,6.630208655648258
+Atmosphere,Other observation: regional,9,False,Observation / reanalysis,4.079181246047625,6.3979400086720375,5.413634997198556,9.067297657067849
+Atmosphere,"Satellite precipitation (GPCP, IMERG)",8,False,Derived / generated product,4.593777985290686,7.6020599913279625,5.6750743698387245,8.898869375104832
+Atmosphere,CERES radiative fluxes,6,False,Observation / reanalysis,5.045322978786658,7.6020599913279625,6.414973347970818,8.777271731194949
+Atmosphere,CMIP5/6 multi-model archive,6,False,Model simulation,5.198970004336019,7.6020599913279625,6.956889977453093,9.895348278648468
+Atmosphere,Cloud-scene LES + 3D radiation (Powell),6,False,Model simulation,1.6020599913279623,4.408239965311849,2.7781512503836434,4.459392487759231
+Atmosphere,Warm-rain bin microphysics box/column (TAU),5,False,Model simulation,1.3979400086720377,3.806179973983887,3.0791812460476247,4.334453751150931
+Atmosphere,CloudSat / CALIPSO,5,False,Observation / reanalysis,3.146128035678238,7.6020599913279625,6.277134361166687,6.95681491253593
+Atmosphere,MAC-LWP liquid water path,5,False,Derived / generated product,5.045322978786658,7.6020599913279625,6.414973347970818,6.414973347970818
+Atmosphere,JRA-55 reanalysis / JRA55-do forcing,5,False,Observation / reanalysis,4.740362689494244,7.6020599913279625,4.033423755486949,9.284415933738826
+Atmosphere,MERRA-2 reanalysis,4,False,Observation / reanalysis,4.744292983122676,7.6020599913279625,4.484968748982921,8.93236400162301
+Atmosphere,GOES geostationary imagery,4,False,Observation / reanalysis,3.1760912590556813,6.332320987778063,2.4771212547196626,7.533110838105354
+Atmosphere,Convective boundary layer LES/DNS,3,False,Model simulation,1.380211241711606,3.7884512070234555,2.9736188039353335,4.522073810439362
+Atmosphere,E3SM-MMF online / hybrid runs,3,False,Model simulation,6.106020819140269,7.6020599913279625,3.0791812460476247,8.198657086954423
+Atmosphere,ChaosBench S2S benchmark,3,False,Observation / reanalysis,4.443262987458695,7.6020599913279625,4.936513742478893,9.152288344383056
+Coupled & idealized,Other idealized benchmark: misc.,20,False,Idealized benchmark,-1.0,2.0,3.5563025007672873,7.799836602599349
+Coupled & idealized,CMIP5/6 multi-model archive,17,False,Model simulation,5.0,7.6020599913279625,6.414973347970818,9.503806362689481
+Coupled & idealized,Other (misc.),16,False,Idealized benchmark,4.5433578319724415,7.2462405050644385,7.498806606935368,9.064250360750217
+Coupled & idealized,Other model simulation: global,15,False,Model simulation,4.443262987458695,7.6020599913279625,6.958967957338672,9.072189216627219
+Coupled & idealized,Other derived: regional,9,False,Derived / generated product,1.4771212547196624,6.903089986991944,6.2174121481342475,8.190513419475934
+Coupled & idealized,CESM / multi-model large ensembles,8,False,Model simulation,5.045322978786658,7.6020599913279625,6.414304172584687,9.555854110287495
+Coupled & idealized,Other derived: global,8,False,Derived / generated product,4.045322978786658,7.6020599913279625,7.498806606935368,9.132579847659738
+Coupled & idealized,Quasi-geostrophic turbulence (pyqg),6,False,Idealized benchmark,3.5917322389518356,6.0,3.5563025007672873,8.498806606935368
+Coupled & idealized,"S2S forecast archives (ECMWF, NCEP, UKMO, CMA)",4,False,Model simulation,5.221414237842339,7.6020599913279625,4.936513742478893,8.40226138245468
+Coupled & idealized,ERA5 reanalysis,3,False,Observation / reanalysis,4.7462405050644385,7.6020599913279625,4.484968748982921,9.186371125796343
+Coupled & idealized,GFDL CM2.6 eddy-resolving,3,False,Model simulation,4.045322978786658,7.6020599913279625,4.936513742478893,8.799836602599349
+Land & hydrology,Other derived: global,26,False,Derived / generated product,3.7442929831226763,7.6020599913279625,5.413634997198556,8.879315208796834
+Land & hydrology,Other derived: regional,21,False,Derived / generated product,3.6020599913279625,6.3979400086720375,6.414973347970818,8.800133962749209
+Land & hydrology,FLUXNET / FLUXCOM eddy covariance,17,False,Observation / reanalysis,3.7442929831226763,7.6020599913279625,4.936513742478893,7.97592786165503
+Land & hydrology,Other observation: regional,17,False,Observation / reanalysis,1.0,6.0,4.936513742478893,8.198073971421246
+Land & hydrology,MODIS products,14,False,Derived / generated product,2.6989700043360187,7.6020599913279625,5.237543738142874,8.61398569831407
+Land & hydrology,CLM5 perturbed parameter ensembles,11,False,Model simulation,5.346352974450639,7.6020599913279625,6.419625360887744,8.675195226140909
+Land & hydrology,Other observation: global,9,False,Observation / reanalysis,4.3979400086720375,7.6020599913279625,4.936513742478893,8.525304009958239
+Land & hydrology,Other (misc.),9,False,Model simulation,3.854347027142704,7.6020599913279625,4.936513742478893,8.90887143089472
+Land & hydrology,Site eddy covariance + SIF,8,False,Observation / reanalysis,3.7216314937293475,7.6020599913279625,4.24640812162309,7.825611081309146
+Land & hydrology,ERA5 reanalysis,8,False,Observation / reanalysis,4.045322978786658,7.6020599913279625,4.24640812162309,8.165410901095486
+Land & hydrology,Other derived: site/point,5,False,Derived / generated product,3.9542425094393248,7.6020599913279625,4.936513742478893,8.76464937622099
+Land & hydrology,Other model simulation: regional,4,False,Model simulation,3.0,5.301029995663981,4.936513742478893,9.055406467852515
+Land & hydrology,WUMI wildfire dataset,3,False,Derived / generated product,4.079181246047625,6.301029995663981,6.419625360887744,9.06744284277638
+Ocean & cryosphere,Other derived: global,40,False,Derived / generated product,5.045322978786658,7.6020599913279625,6.414973347970818,8.97622522180489
+Ocean & cryosphere,SOCAT surface ocean CO2,18,False,Observation / reanalysis,5.045322978786658,7.6020599913279625,6.414973347970818,9.090172602230407
+Ocean & cryosphere,Other observation: global,16,False,Observation / reanalysis,4.744292983122676,7.6020599913279625,6.414973347970818,9.043214474841248
+Ocean & cryosphere,Other model simulation: global,14,False,Model simulation,5.022661489393329,7.6020599913279625,6.414973347970818,9.043214474841248
+Ocean & cryosphere,Other observation: regional,13,False,Observation / reanalysis,0.6989700043360189,5.903089986991944,4.204662511748219,6.890756251918218
+Ocean & cryosphere,Other derived: regional,12,False,Derived / generated product,2.065166884247503,6.150514997831991,6.652864799944519,8.552560271834231
+Ocean & cryosphere,GLODAP ocean carbon/bottle data,10,False,Observation / reanalysis,5.045322978786658,7.6020599913279625,8.976349979003274,8.976349979003274
+Ocean & cryosphere,Other model simulation: regional,9,False,Model simulation,3.4779208880496104,6.309677123257188,4.936513742478893,8.703223949741153
+Ocean & cryosphere,NOAA OISST sea surface temperature,9,False,Derived / generated product,5.045322978786658,7.6020599913279625,4.936513742478893,9.078590203552178
+Ocean & cryosphere,Met Office EN4 temperature/salinity,7,False,Derived / generated product,5.045322978786658,7.6020599913279625,6.414973347970818,9.078590203552178
+Ocean & cryosphere,NSIDC sea-ice concentration,6,False,Observation / reanalysis,4.3979400086720375,7.6020599913279625,4.936513742478893,9.06741545943557
+Ocean & cryosphere,CMIP5/6 multi-model archive,4,False,Model simulation,5.045322978786658,7.6020599913279625,6.414973347970818,9.483105682258058
+Ocean & cryosphere,Other model simulation: process-scale,4,False,Model simulation,3.5917600346881504,6.0,3.5563025007672873,5.714664992862537
+Ocean & cryosphere,GFDL SPEAR sea-ice DA increments,4,False,Model simulation,5.045322978786658,7.6020599913279625,5.635483746814912,8.626442859487021
+Ocean & cryosphere,"MOM6 idealized (NeverWorld2, double gyre)",3,False,Model simulation,3.4771212547196626,6.346352974450639,8.800133962749209,8.800133962749209
+Ocean & cryosphere,ERA5 reanalysis,3,False,Observation / reanalysis,4.744292983122676,7.6020599913279625,4.936513742478893,9.017608899040233
+Ocean & cryosphere,pCO2 Large Ensemble Testbed,3,False,Model simulation,5.045322978786658,7.6020599913279625,6.419625360887744,9.043912167101254
+Ocean & cryosphere,GFDL OM4 / MOM6 ocean runs,3,False,Model simulation,4.443262987458695,7.6020599913279625,6.419625360887744,9.277255217468872
+Ocean & cryosphere,Argo / BGC-Argo floats,3,False,Observation / reanalysis,5.477121254719663,7.6020599913279625,5.936513742478893,8.703223949741153

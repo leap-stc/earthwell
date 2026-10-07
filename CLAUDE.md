@@ -44,6 +44,7 @@ python3 scripts/plot_authors.py                                    # Figures/aut
 python3 scripts/plot_testbed.py                                    # Figures/testbed_scales{,_slide}.{png,pdf} + .csv: testbed families on one space-time plot; "slide" style = 16:9, big type, fewer labels (STYLES)
 python3 scripts/plot_top_datasets.py                               # Figures/top_datasets.{png,pdf,csv}: top-10 dataset families by number of publications
 python3 scripts/plot_pain_points.py                                # Figures/pain_points.{png,pdf,csv}: pain-point categories overall + per-domain heatmap
+python3 scripts/plot_scales_families.py                            # Figures/dataset_scales_families.{png,pdf,csv}: all datasets by family, legoESM-style ellipses per domain
 ```
 
 - `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.
@@ -56,6 +57,7 @@ python3 scripts/plot_pain_points.py                                # Figures/pai
 - The testbed tables (`testbed_datasets.csv`, `testbed_families.csv`) group dataset names into families via the hand-written `FAMILIES` regex list in summarize.py (first match wins; unmatched names stay as their own row).
 - Pain points are categorized by the keyword rules in `PAIN_POINTS` (summarize.py), multi-label. About 19% fall to "Other".
 - `FAMILIES` is shared by the testbed tables/figure and top_datasets. After editing it, rerun summarize.py, plot_testbed.py and plot_top_datasets.py.
+- `plot_scales_families.py` pools families per panel: named families with fewer than `MIN_FAMILY` datasets, and unmatched datasets, go to type/scale pools, and pools under `MIN_POOL` go to "Other (misc.)". Markers are nudged apart (`spread`), so they can sit off their ellipse centres.
 - Venv setup: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `data/text/` and `.venv/` are gitignored. Pushing anything to GitHub, or sending papers to an API, needs the user's confirmation (global rule).
 
 ## Tools available
