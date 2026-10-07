@@ -1,0 +1,23 @@
+category,pct_all_papers,pct_Atmosphere,pct_Ocean,pct_Land & hydrology,pct_Cryosphere
+Computational cost / scaling,33.7,36.5,22.1,37.3,33.3
+Sparse / limited observations,31.2,24.4,51.5,38.6,20.0
+Uncertainty quantification / ensembles,29.7,31.4,38.2,25.3,26.7
+Scale mismatch / resolution / subgrid,29.0,32.1,33.8,26.5,20.0
+Online stability / offline–online gap,29.0,34.0,36.8,20.5,33.3
+Structural / model error & biases,27.5,27.6,29.4,20.5,40.0
+Generalization / out-of-distribution,23.6,23.1,27.9,22.9,26.7
+Missing / simplified process representation,21.4,22.4,19.1,16.9,26.7
+Parameter calibration / tuning,21.0,22.4,17.6,22.9,26.7
+Measurement noise / data quality,20.3,23.1,13.2,21.7,33.3
+Extremes / tails / imbalance,19.9,19.9,11.8,30.1,13.3
+Numerics / boundaries / discretization,19.6,23.1,20.6,13.3,40.0
+Nonlinearity / high dimensionality,19.6,25.6,16.2,15.7,6.7
+Interpretability / causality / equifinality,17.0,17.3,14.7,24.1,6.7
+Predictability / initialization / skill,15.6,19.9,16.2,13.3,13.3
+Software / model–ML integration,14.1,14.7,13.2,13.3,13.3
+Physical consistency / conservation,13.0,15.4,17.6,8.4,20.0
+Smoothing / loss of small-scale variance,12.0,13.5,13.2,8.4,6.7
+Data harmonization / mismatch,9.4,7.7,8.8,13.3,0.0
+Data volume / access / storage,8.0,10.9,4.4,9.6,13.3
+Ill-posed inverse problems / non-uniqueness,4.3,4.5,4.4,7.2,0.0
+papers (n),276,156,68,83,15
