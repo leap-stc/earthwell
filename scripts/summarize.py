@@ -65,8 +65,8 @@ def top(counter, n=4):
     return ", ".join(f"{k} ({v})" for k, v in counter.most_common(n))
 
 
-def main():
-    OUT.mkdir(exist_ok=True)
+def load():
+    """Papers (deduped by DOI, with 'domains') and their datasets."""
     papers, seen, dropped = {}, set(), 0
     # earliest LEAP year wins when the same paper was filed twice as different PDFs (inventory missed it)
     for p in sorted((json.loads(f.read_text()) for f in (DATA / "papers").glob("*.json")),
@@ -76,12 +76,17 @@ def main():
             dropped += 1
             continue
         seen.add(k)
+        p["domains"] = domains_of(p)
         papers[p["paper_id"]] = p
     datasets = [d for d in (json.loads(f.read_text()) for f in sorted((DATA / "datasets").glob("*.json")))
                 if d["paper_id"] in papers]
+    return papers, datasets, dropped
+
+
+def main():
+    OUT.mkdir(exist_ok=True)
+    papers, datasets, dropped = load()
     print(f"{len(papers)} papers ({dropped} same-DOI duplicates dropped), {len(datasets)} datasets\n")
-    for p in papers.values():
-        p["domains"] = domains_of(p)
 
     # --- multi-scale (DNS/LES/CRM) dataset table
     ms = []
