@@ -36,7 +36,7 @@ There is no code yet — this is currently a corpus plus a brief. Git repo on `m
 python3 scripts/extract_text.py                                    # PDFs -> data/text/<sha>.txt + data/inventory.csv (local, ~90s, cached by hash)
 set -a; . ~/.claude/credentials/credentials.env; set +a            # loads GEMINI_API_KEY
 .venv/bin/python scripts/extract_metadata.py --year 1             # Gemini API -> data/papers/, data/datasets/; also --limit N; no flags = all
-python3 scripts/summarize.py > data/summary/summary.md         # DOI dedupe, DNS/LES/CRM table, domain summary -> data/summary/*.csv
+python3 scripts/summarize.py > data/summary/summary.md         # DOI dedupe, DNS/LES/CRM table, domain summary, testbed families -> data/summary/*.csv
 python3 scripts/plot_domains_by_year.py                           # Figures/papers_by_domain_by_year.{png,pdf,csv} (needs matplotlib; IceSciML env has it)
 (cd scripts && ../.venv/bin/python extract_scales.py)              # 2nd Gemini pass: numeric dx/extent/dt/duration/size/domain -> "scales" key in data/datasets/*.json
 python3 scripts/plot_scales.py                                     # Figures/dataset_scales.{png,pdf,csv}: Stommel-style space-time diagram
@@ -50,6 +50,7 @@ python3 scripts/plot_authors.py                                    # Figures/aut
 - `extract_scales.py` sends each paper plus its existing dataset list, so dataset IDs stay stable. It is resumable: papers whose datasets all have `scales` are skipped. In `scales`, `domain` is a per-dataset Earth-system component (more reliable than the keyword `DOMAINS` in summarize.py) and `scales` is a multi-label list that tags ClimSim/SPCAM-type data as `MMF_superparameterized`. Most values are `estimated_from_paper` (see `basis`).
 - The process ellipses in `plot_scales.py` (`PROCESSES`) were traced by eye from the LEAP multi-scale slide (atmosphere/ocean only).
 - `plot_authors.py` merges author names on first initial + surname (`author_key`), so two people who share both are merged. Papers with more than `MAX_AUTHORS` (30) authors add no co-author links.
+- The testbed tables (`testbed_datasets.csv`, `testbed_families.csv`) group dataset names into families via the hand-written `FAMILIES` regex list in summarize.py (first match wins; unmatched names stay as their own row).
 - Venv setup: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `data/text/` and `.venv/` are gitignored. Pushing anything to GitHub, or sending papers to an API, needs the user's confirmation (global rule).
 
 ## Tools available

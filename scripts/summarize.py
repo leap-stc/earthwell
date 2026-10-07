@@ -28,6 +28,51 @@ DOMAINS = {
 }
 CARBON = r"carbon|co2|biogeochem"  # cross-cutting tag, reported alongside the physical domain
 
+# Dataset families for the testbed table: regex on dataset name -> family. First match wins; unmatched
+# datasets stay as their own row. ponytail: hand-curated from the testbed-candidate names; extend as needed.
+FAMILIES = [
+    (r"climsim", "ClimSim (E3SM-MMF)"),
+    (r"e3sm-mmf|hr-mmf", "E3SM-MMF online / hybrid runs"),
+    (r"spcam|spcesm", "SPCAM / SPCESM superparameterized runs"),
+    (r"dyamond|qubicc|narval", "DYAMOND / ICON storm-resolving (NARVAL, QUBICC)"),
+    (r"\bsam\b.*(aquaplanet|hypohydro)", "SAM hypohydrostatic aquaplanet"),
+    (r"(dns|les).*(boundary layer|channel)|a posteriori \(online\) les", "Convective boundary layer LES/DNS"),
+    (r"monte carlo ray tracer|cloud botany|pinacles|trmm lba", "Cloud-scene LES + 3D radiation (Powell)"),
+    (r"rising thermal bubble", "Rising thermal bubble LES (LEX / CM1)"),
+    (r"tau |tau\)|kinematic driver|warm rain initiation|dsd", "Warm-rain bin microphysics box/column (TAU)"),
+    (r"aida|levitation|button electrode", "Ice-growth cloud/diffusion chamber data"),
+    (r"cam6.*ppe|cam6.*perturbed|cam6-ml", "CESM2/CAM6 perturbed parameter ensembles"),
+    (r"clm", "CLM5 perturbed parameter ensembles"),
+    (r"giss|modele", "GISS ModelE PPE / calibrated physics ensemble"),
+    (r"cesm2.*coupled and land", "CESM2 coupled + land PPE"),
+    (r"chaosbench", "ChaosBench S2S benchmark"),
+    (r"s2s forecasts", "S2S forecast archives (ECMWF, NCEP, UKMO, CMA)"),
+    (r"neverworld|double gyre", "MOM6 idealized (NeverWorld2, double gyre)"),
+    (r"pyqg|quasi-geostrophic", "Quasi-geostrophic turbulence (pyqg)"),
+    (r"cm2\.6", "GFDL CM2.6 eddy-resolving"),
+    (r"om4|mom6.*epbl", "GFDL OM4 / MOM6 ocean runs"),
+    (r"spear", "GFDL SPEAR sea-ice DA increments"),
+    (r"gotm|second-moment closure", "Ocean boundary-layer single-column (GOTM / SMC)"),
+    (r"llc4320", "MITgcm LLC4320"),
+    (r"the well", "The Well (Polymathic AI)"),
+    (r"lens|large ensemble testbed", "pCO2 Large Ensemble Testbed"),
+    (r"socat", "SOCAT surface ocean CO2"),
+    (r"argo", "Argo / BGC-Argo floats"),
+    (r"ceres", "CERES radiative fluxes"),
+    (r"era5", "ERA5 reanalysis"),
+    (r"gpcp|imerg|trmm tmpa", "Satellite precipitation (GPCP, IMERG)"),
+    (r"mac-lwp|liquid water path", "MAC-LWP liquid water path"),
+    (r"fluxnet|fluxcom|metaflux", "FLUXNET / FLUXCOM eddy covariance"),
+    (r"eddy covariance and sif|sif", "Site eddy covariance + SIF"),
+    (r"nsidc", "NSIDC sea-ice concentration"),
+    (r"wumi", "WUMI wildfire dataset"),
+]
+
+
+def family(name):
+    n = name.lower()
+    return next((f for pat, f in FAMILIES if re.search(pat, n)), name)
+
 
 def doi_key(p):
     m = re.search(r"10\.\d{4,}/\S+", (p["doi_or_url"] or "").lower())
@@ -139,6 +184,45 @@ def main():
     print(f"\n## Papers by domain ({len(papers)} papers; {multi} span more than one domain)\n")
     print(md_table(rows, ["domain", "papers", "carbon_bgc_papers", "datasets", "testbed_candidates",
                           "parameterization_papers", "top_ml_tasks", "dataset_scales"]))
+
+    # --- testbed candidates: datasets of papers flagged testbed_candidate, used for training/evaluation
+    tb = []
+    for d in datasets:
+        p = papers[d["paper_id"]]
+        if not (p["testbed_candidate"] and p["in_scope"]) or d["role"] not in ("training", "both", "evaluation") \
+                or d["access_kind"] == "proprietary":
+            continue
+        sc = d.get("scales", {})
+        tb.append({"family": family(d["name"]), "dataset": d["name"], "domain": sc.get("domain", ""),
+                   "scales": ";".join(sc.get("scales", [])), "access_kind": d["access_kind"],
+                   "access": d["access"] or "", "size_gb": sc.get("size_gb") or "",
+                   "dx_min_m": sc.get("dx_min_m") or "", "dt_min_s": sc.get("dt_min_s") or "",
+                   "first_author": (p["authors"] or [""])[0], "pub_year": p["pub_year"] or "",
+                   "paper": p["title"], "rationale": p["testbed_rationale"], "dataset_id": d["dataset_id"]})
+    tb.sort(key=lambda r: (r["family"].lower(), r["dataset"].lower()))
+    write_csv("testbed_datasets.csv", tb, list(tb[0]))
+    rank = ["public_url_or_doi", "pangeo_or_cloud", "on_request", "hpc_only", "not_stated"]
+    fams = collections.defaultdict(list)
+    for r in tb:
+        fams[r["family"]].append(r)
+    frows = []
+    for f, rs in fams.items():
+        sizes = [float(r["size_gb"]) for r in rs if r["size_gb"]]
+        frows.append({
+            "family": f, "domain": collections.Counter(r["domain"] for r in rs).most_common(1)[0][0],
+            "scales": ";".join(sorted({t for r in rs for t in r["scales"].split(";") if t})),
+            "mentions": len(rs), "papers": len({r["paper"] for r in rs}),
+            "best_access": min((r["access_kind"] for r in rs), key=lambda a: rank.index(a) if a in rank else 9),
+            "pangeo_or_cloud": any(r["access_kind"] == "pangeo_or_cloud" for r in rs),
+            "max_size_gb": max(sizes) if sizes else "",
+            "authors": ", ".join(sorted({f"{r['first_author'].split()[-1]} {r['pub_year']}".strip()
+                                         for r in rs if r["first_author"]})),
+            "example_access": next((r["access"] for r in rs if r["access"].startswith("http")), rs[0]["access"]),
+        })
+    frows.sort(key=lambda r: (r["domain"], -r["papers"], r["family"]))
+    write_csv("testbed_families.csv", frows, list(frows[0]))
+    print(f"\n## Testbed candidate datasets ({len(tb)} datasets in {len(frows)} families)\n")
+    print(md_table(frows, ["family", "domain", "scales", "papers", "best_access", "max_size_gb", "authors"]))
     print(f"\nCSVs -> {OUT}")
 
 

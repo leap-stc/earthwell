@@ -54,4 +54,76 @@
 | Climate system / methods (general) | 12 | 0 | 28 | 0 | 1 | classification_detection (5), emulation (2), forecasting (2), interpretability_xai (2) | regional (21), point_or_site (3), other (2), GCM_ESM (1), global_obs (1) |
 | Out of scope | 18 | 1 | 20 | 0 | 0 | uncertainty_quantification (3), forecasting (1), classification_detection (1), reconstruction_gapfilling (1) | other (16), point_or_site (2), regional (1), global_obs (1) |
 
+## Testbed candidate datasets (152 datasets in 67 families)
+
+| family | domain | scales | papers | best_access | max_size_gb | authors |
+|---|---|---|---|---|---|---|
+| SPCAM / SPCESM superparameterized runs | atmosphere | CRM;GCM_ESM;MMF_superparameterized | 8 | public_url_or_doi | 3400.0 | Behrens 2022, Behrens 2025, Beucler 2024, Bhouri 2023, Iglesias-Suarez 2024, Lin 2024, Mooers 2023, Rasp 2018 |
+| DYAMOND / ICON storm-resolving (NARVAL, QUBICC) | atmosphere | CRM;GCM_ESM;regional | 6 | public_url_or_doi | 2000000.0 | Beucler 2025, Grundner 2022, Grundner 2024, Hafner 2026, Mooers 2023, Shamekh 2023 |
+| CERES radiative fluxes | atmosphere | global_obs | 4 | public_url_or_doi |  | Eidhammer 2024, Peng 2025, Song 2024, Yang 2026 |
+| CESM2/CAM6 perturbed parameter ensembles | atmosphere | GCM_ESM | 4 | public_url_or_doi |  | Eidhammer 2024, Song 2024, Yang 2024, Yang 2026 |
+| ClimSim (E3SM-MMF) | atmosphere | CRM;GCM_ESM;MMF_superparameterized | 4 | public_url_or_doi | 41200.0 | Hu 2025, Lin 2026, Yu 2023, Yu 2024 |
+| E3SM-MMF online / hybrid runs | atmosphere | CRM;GCM_ESM;MMF_superparameterized | 3 | public_url_or_doi |  | Hu 2025, Lin 2026, Peng 2025 |
+| Satellite precipitation (GPCP, IMERG) | atmosphere | global_obs;regional | 3 | public_url_or_doi |  | Behrens 2025, Ferretti 2026, Yang 2026 |
+| ChaosBench S2S benchmark | atmosphere | GCM_ESM | 2 | public_url_or_doi | 15.3 | Nathaniel 2024, Nathaniel 2026 |
+| Convective boundary layer LES/DNS | atmosphere | DNS;LES | 2 | public_url_or_doi |  | Cheng 2022, Shamekh 2023 |
+| ERA5 reanalysis | atmosphere | GCM_ESM | 2 | public_url_or_doi |  | Grundner 2024, Peng 2025 |
+| GISS ModelE PPE / calibrated physics ensemble | atmosphere | GCM_ESM | 2 | public_url_or_doi |  | Elsaesser 2025, Yang 2024 |
+| MAC-LWP liquid water path | atmosphere | global_obs | 2 | public_url_or_doi |  | Eidhammer 2024, Song 2024 |
+| Warm-rain bin microphysics box/column (TAU) | atmosphere | column_or_box | 2 | public_url_or_doi |  | Lamb 2023, Morrison 2025 |
+| Berkeley Earth Surface Temperatures (BEST) | atmosphere | global_obs | 1 | public_url_or_doi |  | Immorlano 2025 |
+| CAM5 +8K Prescribed SST Simulation Dataset | atmosphere | GCM_ESM | 1 | public_url_or_doi | 48.4 | Bhouri 2023 |
+| CMIP6 Earth system model surface air temperature projections | atmosphere | GCM_ESM | 1 | public_url_or_doi | 0.54 | Immorlano 2025 |
+| CTRLCAM standard parameterization simulation | atmosphere | GCM_ESM | 1 | not_stated |  | Rasp 2018 |
+| Cloud-scene LES + 3D radiation (Powell) | atmosphere | LES | 1 | public_url_or_doi |  | Powell 2026 |
+| Constrained climate projection model outputs and processed benchmark data | atmosphere | GCM_ESM | 1 | public_url_or_doi |  | Immorlano 2025 |
+| GFS v16 RRTM shortwave radiative transfer dataset | atmosphere | GCM_ESM;column_or_box | 1 | public_url_or_doi |  | Beucler 2025 |
+| JCM and SPEEDY 3-year simulation output datasets | atmosphere | GCM_ESM | 1 | public_url_or_doi |  | Davenport 2026 |
+| MODIS cloud droplet number concentration (Nd) | atmosphere | global_obs | 1 | public_url_or_doi |  | Song 2024 |
+| Numerically generated black carbon fractal aggregate optical properties dataset | atmosphere | other | 1 | public_url_or_doi |  | Lamb 2023 |
+| Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv) | atmosphere | global_obs | 1 | public_url_or_doi |  | Yang 2026 |
+| Rising thermal bubble LES (LEX / CM1) | atmosphere | LES | 1 | public_url_or_doi |  | Zhu 2026 |
+| SAM hypohydrostatic aquaplanet | atmosphere | CRM | 1 | public_url_or_doi | 3000.0 | Beucler 2024 |
+| Spherical shallow water equations dataset | atmosphere | other | 1 | public_url_or_doi | 7.6 | Nathaniel 2026 |
+| CMIP archive | coupled_earth_system | GCM_ESM | 1 | not_stated |  | Watson-Parris 2025 |
+| Coupled and Land-Only Perturbed Parameter Ensemble (PPE) in CESM2 | coupled_earth_system | GCM_ESM | 1 | public_url_or_doi |  | Zarakas 2024 |
+| Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset | coupled_earth_system | GCM_ESM | 1 | pangeo_or_cloud |  | Busecke 2025 |
+| NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset | coupled_earth_system | global_obs;point_or_site | 1 | public_url_or_doi | 0.001 | Wu 2025 |
+| Paleoclimate reconstructions (LGM, LIG, Mid-Holocene) | coupled_earth_system | global_obs | 1 | not_stated |  | Watson-Parris 2025 |
+| S2S forecast archives (ECMWF, NCEP, UKMO, CMA) | coupled_earth_system | GCM_ESM | 1 | public_url_or_doi |  | Nathaniel 2024 |
+| Satellite-era observations (1980–present) | coupled_earth_system | global_obs | 1 | not_stated |  | Watson-Parris 2025 |
+| GFDL SPEAR sea-ice DA increments | cryosphere | GCM_ESM | 3 | public_url_or_doi | 43.0 | Gregory 2023, Gregory 2024, Zanna 2025 |
+| NSIDC sea-ice concentration | cryosphere | global_obs | 2 | public_url_or_doi |  | Gregory 2024, Zanna 2025 |
+| MAR simulation daily surface fields and meltwater production over Greenland (1979–2024) | cryosphere | regional | 1 | public_url_or_doi |  | Tedesco 2026 |
+| MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6) | cryosphere | global_obs;regional | 1 | public_url_or_doi |  | Antwerpen 2026 |
+| Ice-growth cloud/diffusion chamber data | idealized_or_other | other;point_or_site | 1 | public_url_or_doi |  | Lamb 2025 |
+| Kolmogorov flow synthetic simulation dataset | idealized_or_other | DNS | 1 | public_url_or_doi | 8.6 | Nathaniel 2026 |
+| The Well (Polymathic AI) | idealized_or_other | other | 1 | public_url_or_doi | 342.0 | Accarino 2026 |
+| CLM5 perturbed parameter ensembles | land_hydrology | GCM_ESM;other;regional | 4 | public_url_or_doi | 2000.0 | Foster 2026, Kennedy 2024, Kennedy 2025, Silwimba 2025 |
+| FLUXNET / FLUXCOM eddy covariance | land_hydrology | global_obs;point_or_site | 3 | public_url_or_doi | 50.0 | Cattry 2025, ElGhawi 2023, Nathaniel 2023 |
+| Site eddy covariance + SIF | land_hydrology | global_obs;point_or_site | 2 | public_url_or_doi |  | Nathaniel 2023, Zhan 2022 |
+| WUMI wildfire dataset | land_hydrology | regional | 2 | public_url_or_doi |  | Buch 2022, Buch 2023 |
+| General Lake Model (GLM) simulated lake temperature profiles | land_hydrology | column_or_box | 1 | not_stated |  | Jia 2021 |
+| North Temperate Lakes LTER Lake Mendota water temperature observations | land_hydrology | column_or_box;point_or_site | 1 | public_url_or_doi |  | Jia 2021 |
+| ParFlow synthetic rainfall-runoff simulations for Taylor River and Little Washita basins | land_hydrology | regional | 1 | public_url_or_doi |  | Tran 2021 |
+| Synthetic Harvard Forest SCOPE simulations | land_hydrology | column_or_box;point_or_site | 1 | public_url_or_doi |  | Zhan 2022 |
+| Argo / BGC-Argo floats | ocean | global_obs;point_or_site | 3 | public_url_or_doi |  | Moseley 2025, Sane 2023, Zanna 2025 |
+| GFDL OM4 / MOM6 ocean runs | ocean | GCM_ESM | 3 | public_url_or_doi |  | Perezhogin 2025, Sane 2023, Zanna 2025 |
+| MOM6 idealized (NeverWorld2, double gyre) | ocean | regional | 3 | public_url_or_doi |  | Perezhogin 2024, Perezhogin 2025, Zhang 2023 |
+| GFDL CM2.6 eddy-resolving | ocean | GCM_ESM | 2 | public_url_or_doi |  | Perezhogin 2025, Zanna 2025 |
+| Ocean boundary-layer single-column (GOTM / SMC) | ocean | column_or_box | 2 | public_url_or_doi |  | Sane 2023, Zanna 2025 |
+| Quasi-geostrophic turbulence (pyqg) | ocean | other;regional | 2 | public_url_or_doi |  | Hou 2025, Ross 2022 |
+| SOCAT surface ocean CO2 | ocean | global_obs;point_or_site | 2 | public_url_or_doi |  | Hou 2025, Kim 2024 |
+| pCO2 Large Ensemble Testbed | ocean | GCM_ESM | 2 | public_url_or_doi |  | Hou 2025, Kim 2024 |
+| ASTE-BGC Model Simulations (B1, B2, B3, Opt) | ocean | regional | 1 | public_url_or_doi |  | Moseley 2025 |
+| CMEMS GlobColour merged surface chlorophyll-a | ocean | global_obs;regional | 1 | public_url_or_doi |  | Moseley 2025 |
+| GESLA3 (Global Extreme Sea Level Analysis version 3) | ocean | point_or_site | 1 | public_url_or_doi |  | Hermans 2025 |
+| GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology | ocean | point_or_site;regional | 1 | public_url_or_doi |  | Moseley 2025 |
+| GOBAI-O2 | ocean | global_obs | 1 | public_url_or_doi |  | Moseley 2025 |
+| Global gridded monthly pCO2 estimates (1982–2017) | ocean | global_obs | 1 | public_url_or_doi |  | Kim 2024 |
+| LDEO-HPD and pCO2-Residual surface ocean pCO2 | ocean | global_obs;regional | 1 | public_url_or_doi |  | Moseley 2025 |
+| MITgcm LLC4320 | ocean | regional | 1 | pangeo_or_cloud |  | Bodner 2025 |
+| NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1) | ocean | global_obs | 1 | public_url_or_doi |  | Zanna 2025 |
+| World Ocean Atlas 2018 (WOA18) | ocean | global_obs | 1 | public_url_or_doi |  | Sane 2023 |
+
 CSVs -> /Users/karalamb/Columbia/Projects/EarthWell/data/summary
