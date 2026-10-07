@@ -1,0 +1,1140 @@
+author_a,author_b,joint_papers
+Michael S. Pritchard,Tom Beucler,13
+Pierre Gentine,Veronika Eyring,13
+Michael S. Pritchard,Pierre Gentine,12
+Pierre Gentine,Juan Nathaniel,12
+Gregory Elsaesser,Qingyuan Yang,12
+Marcus van Lier-Walqui,Kara D. Lamb,12
+Pierre Gentine,Tom Beucler,11
+Amanda R. Fay,Galen A. McKinley,10
+Gregory Elsaesser,Marcus van Lier-Walqui,10
+Laure Zanna,Pavel Perezhogin,9
+Laure Zanna,Alistair Adcroft,9
+Pierre Gentine,Yongquan Qu,9
+Linnia Hawkins,Katherine Dagon,9
+Xiaowei Jia,Vipin Kumar,8
+Pierre Gentine,Sara Shamekh,8
+Kara D. Lamb,Joseph Ko,8
+Daniel Kennedy,Katherine Dagon,8
+Michael S. Pritchard,Liran Peng,7
+Pierre Gentine,Fernando Iglesias-Suarez,7
+Pierre Gentine,Jiangong Liu,7
+Fernando Iglesias-Suarez,Veronika Eyring,7
+Daniel Kennedy,Linnia Hawkins,7
+Da Fan,Addisu Semie,7
+Michael S. Pritchard,Jerry Lin,6
+Pierre Gentine,Yu Huang,6
+Pierre Gentine,Jatan Buch,6
+Galen A. McKinley,Thea H. Heimdal,6
+Gregory Elsaesser,Addisu Semie,6
+Gregory Elsaesser,Brian Medeiros,6
+Gregory Elsaesser,Da Fan,6
+Gregory Elsaesser,Trude Eidhammer,6
+Marcus van Lier-Walqui,Hugh Morrison,6
+Marcus van Lier-Walqui,Trude Eidhammer,6
+Marcus van Lier-Walqui,Qingyuan Yang,6
+Tom Beucler,Veronika Eyring,6
+Kara D. Lamb,Jerry Y. Harrington,6
+Qingyuan Yang,Addisu Semie,6
+Qingyuan Yang,Brian Medeiros,6
+Qingyuan Yang,Da Fan,6
+Da Fan,Brian Medeiros,6
+Brian Medeiros,Addisu Semie,6
+Arvind Renganathan,Vipin Kumar,5
+Xiaowei Jia,Jared Willard,5
+Vipin Kumar,Jared Willard,5
+Laure Zanna,Carlos Fernandez-Granda,5
+Michael S. Pritchard,Sungduk Yu,5
+Michael S. Pritchard,Veronika Eyring,5
+Pierre Gentine,Liran Peng,5
+Pierre Gentine,Kara D. Lamb,5
+Pierre Gentine,Upmanu Lall,5
+Pierre Gentine,Tian Zheng,5
+Amanda R. Fay,Thea H. Heimdal,5
+Galen A. McKinley,Val Bennington,5
+Marcus van Lier-Walqui,Joseph Ko,5
+Marcus van Lier-Walqui,Gavin Schmidt,5
+Tom Beucler,Fernando Iglesias-Suarez,5
+Tom Beucler,Jerry Lin,5
+Kara D. Lamb,Kara Sulia,5
+Kara D. Lamb,Vanessa Przybylo,5
+Pavel Perezhogin,Carlos Fernandez-Granda,5
+Pavel Perezhogin,Alistair Adcroft,5
+Joseph Ko,Kara Sulia,5
+Joseph Ko,Vanessa Przybylo,5
+Kara Sulia,Vanessa Przybylo,5
+Daniel Kennedy,David M. Lawrence,5
+Daniel Kennedy,Rosie A. Fisher,5
+David M. Lawrence,Katherine Dagon,5
+David M. Lawrence,Linnia Hawkins,5
+Linnia Hawkins,Rosie A. Fisher,5
+Katherine Dagon,Rosie A. Fisher,5
+Ryan Abernathey,Julius J. M. Busecke,4
+Julius J. M. Busecke,Dhruv Balwada,4
+Laure Zanna,Cheng Zhang,4
+Laure Zanna,Mitchell Bushuk,4
+Laure Zanna,William Gregory,4
+Laure Zanna,Brandon G. Reichl,4
+Michael S. Pritchard,Stephan Mandt,4
+Michael S. Pritchard,Fernando Iglesias-Suarez,4
+Pierre Gentine,Weiwei Zhan,4
+Pierre Gentine,Sungduk Yu,4
+Pierre Gentine,Mohamed Aziz Bhouri,4
+Pierre Gentine,Xu Lian,4
+Pierre Gentine,Ben Fei,4
+Pierre Gentine,Fenghua Ling,4
+Pierre Gentine,Hang Fan,4
+Pierre Gentine,Lei Bai,4
+Pierre Gentine,Yi Xiao,4
+Pierre Gentine,Linnia Hawkins,4
+Pierre Gentine,Adam Nayak,4
+Galen A. McKinley,Viviana Acquaviva,4
+Gregory Elsaesser,Andrew Gettelman,4
+Marcus van Lier-Walqui,Kara Sulia,4
+Marcus van Lier-Walqui,Vanessa Przybylo,4
+Marcus van Lier-Walqui,Jerry Y. Harrington,4
+Tom Beucler,Liran Peng,4
+Tom Beucler,Sungduk Yu,4
+Tian Zheng,Shuolin Li,4
+Jerry Lin,Sungduk Yu,4
+Kara D. Lamb,Hugh Morrison,4
+Pavel Perezhogin,Cheng Zhang,4
+Carlos Fernandez-Granda,Alistair Adcroft,4
+Carlos Fernandez-Granda,Cheng Zhang,4
+Cheng Zhang,Alistair Adcroft,4
+Alistair Adcroft,Mitchell Bushuk,4
+Alistair Adcroft,William Gregory,4
+Dhruv Balwada,Manuel O. Gutierrez-Villanueva,4
+Qingyuan Yang,Trude Eidhammer,4
+Kaitlyn Loftus,Hugh Morrison,4
+Hugh Morrison,Sean Patrick Santos,4
+Daniel Kennedy,C. D. Koven,4
+Daniel Kennedy,Benjamin M. Sanderson,4
+William Gregory,Mitchell Bushuk,4
+Da Fan,David John Gagne II,4
+David M. Lawrence,C. D. Koven,4
+David M. Lawrence,Adrianna Foster,4
+Upmanu Lall,Adam Nayak,4
+Linnia Hawkins,Adrianna Foster,4
+Linnia Hawkins,Benjamin M. Sanderson,4
+Linnia Hawkins,Sudhanshu Kumar,4
+Katherine Dagon,C. D. Koven,4
+Katherine Dagon,Benjamin M. Sanderson,4
+Katherine Dagon,Sudhanshu Kumar,4
+Hang Fan,Ben Fei,4
+Hang Fan,Fenghua Ling,4
+Hang Fan,Lei Bai,4
+Hang Fan,Yi Xiao,4
+Lei Bai,Ben Fei,4
+Lei Bai,Fenghua Ling,4
+Lei Bai,Yi Xiao,4
+Ben Fei,Fenghua Ling,4
+Ben Fei,Yi Xiao,4
+Yi Xiao,Fenghua Ling,4
+Rosie A. Fisher,Benjamin M. Sanderson,4
+Rahul Ghosh,Vipin Kumar,3
+Kshitij Tayal,Vipin Kumar,3
+Kshitij Tayal,Xiaowei Jia,3
+Xiaowei Jia,Michael Steinbach,3
+Xiaowei Jia,Jordan Read,3
+Vipin Kumar,Michael Steinbach,3
+Vipin Kumar,Jordan Read,3
+Ryan Abernathey,Paige E. Martin,3
+Ryan Abernathey,Dhruv Balwada,3
+Julius J. M. Busecke,Laure Zanna,3
+Julius J. M. Busecke,Paige E. Martin,3
+Julius J. M. Busecke,Roderik S.W. van de Wal,3
+Julius J. M. Busecke,Tim H.J. Hermans,3
+Laure Zanna,Dhruv Balwada,3
+Laure Zanna,Aakash Sane,3
+Stephan Rasp,Michael S. Pritchard,3
+Stephan Rasp,Pierre Gentine,3
+Michael S. Pritchard,Griffin Mooers,3
+Michael S. Pritchard,Zeyuan Hu,3
+Michael S. Pritchard,Savannah L. Ferretti,3
+Michael S. Pritchard,Christopher S. Bretherton,3
+Michael S. Pritchard,David John Gagne,3
+Michael S. Pritchard,Walter M. Hannah,3
+Michael S. Pritchard,Gregory Elsaesser,3
+Pierre Gentine,Youngryel Ryu,3
+Pierre Gentine,Marco A. Giorgetta,3
+Pierre Gentine,Jakob Runge,3
+Pierre Gentine,Jerry Lin,3
+Pierre Gentine,A. Park Williams,3
+Pierre Gentine,Stephan Mandt,3
+Pierre Gentine,Shuolin Li,3
+Pierre Gentine,Katherine Dagon,3
+Pierre Gentine,Francesco Immorlano,3
+Pierre Gentine,David M. Lawrence,3
+Pierre Gentine,Margaret Powell,3
+Pierre Gentine,Robert Pincus,3
+Pierre Gentine,Carla Roesch,3
+Amanda R. Fay,Abby P. Shaum,3
+Amanda R. Fay,Viviana Acquaviva,3
+Galen A. McKinley,Luke Gregor,3
+Galen A. McKinley,Nicolas Gruber,3
+Galen A. McKinley,Lucas Gloege,3
+Galen A. McKinley,Judith Hauck,3
+Galen A. McKinley,Abby P. Shaum,3
+Jared Willard,Michael Steinbach,3
+Jared Willard,Jordan Read,3
+Weiwei Zhan,Xu Lian,3
+Yu Huang,Jiangong Liu,3
+Gregory Elsaesser,Daniel T. McCoy,3
+Gregory Elsaesser,Gavin Schmidt,3
+Marcus van Lier-Walqui,Kaitlyn Loftus,3
+Marcus van Lier-Walqui,Kostas Tsigaridis,3
+Marcus van Lier-Walqui,Mohammad H. Erfani,3
+Marcus van Lier-Walqui,Susanne E. Bauer,3
+Arthur Grundner,Tom Beucler,3
+Tom Beucler,Griffin Mooers,3
+Tom Beucler,Stephan Mandt,3
+Fernando Iglesias-Suarez,Marco A. Giorgetta,3
+Marco A. Giorgetta,Veronika Eyring,3
+Veronika Eyring,Katharina Hafner,3
+Veronika Eyring,Robert Pincus,3
+Veronika Eyring,Sara Shamekh,3
+Luke Gregor,Nicolas Gruber,3
+Tian Zheng,Zhewen Hou,3
+Liran Peng,Jerry Lin,3
+Jerry Lin,Zeyuan Hu,3
+Robert Pincus,Katharina Hafner,3
+Robert Pincus,Sara Shamekh,3
+Griffin Mooers,Stephan Mandt,3
+Stephan Mandt,Francesco Immorlano,3
+Jatan Buch,Kara D. Lamb,3
+Kara D. Lamb,Duncan Watson-Parris,3
+Kara D. Lamb,Marcus van Lier Walqui,3
+Kara D. Lamb,Gavin Schmidt,3
+Kara D. Lamb,Kostas Tsigaridis,3
+Kara D. Lamb,Mohammad H. Erfani,3
+Kara D. Lamb,Susanne E. Bauer,3
+Pavel Perezhogin,Brandon G. Reichl,3
+Sara Shamekh,Katharina Hafner,3
+Alistair Adcroft,Aakash Sane,3
+Alistair Adcroft,Brandon G. Reichl,3
+Dhruv Balwada,Bruce D. Cornuelle,3
+Dhruv Balwada,Matthew R. Mazloff,3
+Dhruv Balwada,Sarah T. Gille,3
+Rose Yu,Stephan Hoyer,3
+Jiangong Liu,Xu Lian,3
+Juan Nathaniel,Yongquan Qu,3
+Juan Nathaniel,Carla Roesch,3
+Marcus van Lier Walqui,Hugh Morrison,3
+Yongquan Qu,Ben Fei,3
+Yongquan Qu,Fenghua Ling,3
+Yongquan Qu,Hang Fan,3
+Yongquan Qu,Lei Bai,3
+Yongquan Qu,Yi Xiao,3
+Daniel Kennedy,Abigail L. S. Swann,3
+Daniel Kennedy,Claire Marie Zarakas,3
+Daniel Kennedy,Danica Lombardozzi,3
+Daniel Kennedy,Adrianna Foster,3
+Daniel Kennedy,W. R. Wieder,3
+Aakash Sane,Brandon G. Reichl,3
+Andrew Osten Hoffman,Jonathan Kingslake,3
+Viviana Acquaviva,Abby P. Shaum,3
+Viviana Acquaviva,Thea H. Heimdal,3
+David M. Lawrence,Abigail L. S. Swann,3
+David M. Lawrence,Claire Marie Zarakas,3
+David M. Lawrence,Danica Lombardozzi,3
+David M. Lawrence,Rosie A. Fisher,3
+David M. Lawrence,W. R. Wieder,3
+Gavin Schmidt,Kostas Tsigaridis,3
+Gavin Schmidt,Mohammad H. Erfani,3
+Gavin Schmidt,Susanne E. Bauer,3
+Andrew Gettelman,Daniel T. McCoy,3
+Thea H. Heimdal,Abby P. Shaum,3
+Tim H.J. Hermans,Roderik S.W. van de Wal,3
+Linnia Hawkins,C. D. Koven,3
+Linnia Hawkins,W. R. Wieder,3
+Katherine Dagon,Abigail L. S. Swann,3
+Katherine Dagon,Claire Marie Zarakas,3
+Katherine Dagon,Danica Lombardozzi,3
+Katherine Dagon,Adrianna Foster,3
+Katherine Dagon,W. R. Wieder,3
+Adrianna Foster,C. D. Koven,3
+Adrianna Foster,Rosie A. Fisher,3
+Adrianna Foster,W. R. Wieder,3
+Claire Marie Zarakas,Abigail L. S. Swann,3
+Claire Marie Zarakas,C. D. Koven,3
+Claire Marie Zarakas,Danica Lombardozzi,3
+C. D. Koven,Abigail L. S. Swann,3
+C. D. Koven,Danica Lombardozzi,3
+C. D. Koven,Rosie A. Fisher,3
+C. D. Koven,W. R. Wieder,3
+Danica Lombardozzi,Abigail L. S. Swann,3
+Mohammad H. Erfani,Kostas Tsigaridis,3
+Mohammad H. Erfani,Susanne E. Bauer,3
+Susanne E. Bauer,Kostas Tsigaridis,3
+Rosie A. Fisher,W. R. Wieder,3
+Manuel O. Gutierrez-Villanueva,Bruce D. Cornuelle,3
+Manuel O. Gutierrez-Villanueva,Matthew R. Mazloff,3
+Manuel O. Gutierrez-Villanueva,Sarah T. Gille,3
+Bruce D. Cornuelle,Matthew R. Mazloff,3
+Bruce D. Cornuelle,Sarah T. Gille,3
+Sarah T. Gille,Matthew R. Mazloff,3
+Othmane Echchabi,Aya Lahlou,3
+Othmane Echchabi,Josh Malcolm Manto,3
+Othmane Echchabi,Ka Leung Lam,3
+Othmane Echchabi,Nizar Talty,3
+Aya Lahlou,Josh Malcolm Manto,3
+Aya Lahlou,Ka Leung Lam,3
+Aya Lahlou,Nizar Talty,3
+Nizar Talty,Josh Malcolm Manto,3
+Nizar Talty,Ka Leung Lam,3
+Josh Malcolm Manto,Ka Leung Lam,3
+Rahul Ghosh,Arvind Renganathan,2
+Rahul Ghosh,Kshitij Tayal,2
+Rahul Ghosh,Xiaowei Jia,2
+Arvind Renganathan,Kshitij Tayal,2
+Arvind Renganathan,Xiaowei Jia,2
+Ryan Abernathey,Laure Zanna,2
+Ryan Abernathey,Charles I. Stern,2
+Julius J. M. Busecke,Alistair Adcroft,2
+Julius J. M. Busecke,Aakash Sane,2
+Julius J. M. Busecke,Brandon G. Reichl,2
+Julius J. M. Busecke,Carlos Fernandez-Granda,2
+Julius J. M. Busecke,Cheng Zhang,2
+Julius J. M. Busecke,Mitchell Bushuk,2
+Julius J. M. Busecke,Pavel Perezhogin,2
+Julius J. M. Busecke,William Gregory,2
+Julius J. M. Busecke,Charles I. Stern,2
+Laure Zanna,Hannah Christensen,2
+Laure Zanna,Yongfei Zhang,2
+Laure Zanna,Jakob Runge,2
+Laure Zanna,Christopher S. Bretherton,2
+Laure Zanna,David John Gagne,2
+Laure Zanna,Elizabeth A. Barnes,2
+Laure Zanna,Michael S. Pritchard,2
+Laure Zanna,Pierre Gentine,2
+Laure Zanna,Rose Yu,2
+Laure Zanna,Stephan Hoyer,2
+Laure Zanna,Veronika Eyring,2
+Laure Zanna,William D. Collins,2
+Laure Zanna,Jingbo Wu,2
+Paige E. Martin,Charles I. Stern,2
+Paige E. Martin,Dhruv Balwada,2
+Stephan Rasp,Tom Beucler,2
+Michael S. Pritchard,Fiaz Ahmed,2
+Michael S. Pritchard,J. David Neelin,2
+Michael S. Pritchard,Jakob Runge,2
+Michael S. Pritchard,Gunnar Behrens,2
+Michael S. Pritchard,Mohamed Aziz Bhouri,2
+Michael S. Pritchard,Andrea M. Jenney,2
+Michael S. Pritchard,Hannah Christensen,2
+Michael S. Pritchard,Rose Yu,2
+Michael S. Pritchard,Stephan Hoyer,2
+Michael S. Pritchard,William D. Collins,2
+Michael S. Pritchard,Addisu Semie,2
+Michael S. Pritchard,Brian Medeiros,2
+Michael S. Pritchard,Da Fan,2
+Michael S. Pritchard,Qingyuan Yang,2
+Pierre Gentine,Arthur Grundner,2
+Pierre Gentine,J. David Neelin,2
+Pierre Gentine,Marco G. Giometto,2
+Pierre Gentine,Li Li,2
+Pierre Gentine,Yongfei Zhang,2
+Pierre Gentine,Gustau Camps-Valls,2
+Pierre Gentine,Gunnar Behrens,2
+Pierre Gentine,Markus Reichstein,2
+Pierre Gentine,Seungbum Kim,2
+Pierre Gentine,Zeyuan Hu,2
+Pierre Gentine,Christopher S. Bretherton,2
+Pierre Gentine,Hannah Christensen,2
+Pierre Gentine,Rose Yu,2
+Pierre Gentine,Stephan Hoyer,2
+Pierre Gentine,William D. Collins,2
+Pierre Gentine,Gabriele Accarino,2
+Pierre Gentine,Katharina Hafner,2
+Pierre Gentine,Benjamin M. Sanderson,2
+Pierre Gentine,Daniel Kennedy,2
+Pierre Gentine,Natasha MacBean,2
+Pierre Gentine,Rosie A. Fisher,2
+Pierre Gentine,T. Luke Smallman,2
+Pierre Gentine,Duncan Watson-Parris,2
+Pierre Gentine,Aya Lahlou,2
+Pierre Gentine,Gregory Elsaesser,2
+Amanda R. Fay,Nicole S. Lovenduski,2
+Amanda R. Fay,Adrienne J. Sutton,2
+Galen A. McKinley,Marion Gehlen,2
+Galen A. McKinley,Peter Landschützer,2
+Galen A. McKinley,Dorothee C. E. Bakker,2
+Galen A. McKinley,Nicole S. Lovenduski,2
+Galen A. McKinley,Adrienne J. Sutton,2
+Galen A. McKinley,Dustin Carroll,2
+Galen A. McKinley,Dimitris Menemenlis,2
+Michael Steinbach,Jordan Read,2
+Weiwei Zhan,Yu Huang,2
+Weiwei Zhan,Youngryel Ryu,2
+Weiwei Zhan,Jiangong Liu,2
+Yu Huang,Sara Shamekh,2
+Yu Huang,Xu Lian,2
+Gregory Elsaesser,Jingbo Wu,2
+Gregory Elsaesser,Maxwell Kelley,2
+Gregory Elsaesser,David John Gagne II,2
+Gregory Elsaesser,Duncan Watson-Parris,2
+Gregory Elsaesser,Linnia Hawkins,2
+Gregory Elsaesser,William D. Collins,2
+Gregory Elsaesser,Wayne Chuang,2
+Gregory Elsaesser,David John Gagne,2
+Marcus van Lier-Walqui,Jingbo Wu,2
+Marcus van Lier-Walqui,Sean Patrick Santos,2
+Marcus van Lier-Walqui,Po-Lun Ma,2
+Marcus van Lier-Walqui,Andrew Gettelman,2
+Marcus van Lier-Walqui,Daniel T. McCoy,2
+Marcus van Lier-Walqui,Linnia Hawkins,2
+Jingbo Wu,Brandon G. Reichl,2
+Jingbo Wu,Pavel Perezhogin,2
+Arthur Grundner,Veronika Eyring,2
+Tom Beucler,Jakob Runge,2
+Tom Beucler,Gunnar Behrens,2
+Tom Beucler,Zeyuan Hu,2
+Tom Beucler,Hannah Christensen,2
+Tom Beucler,Sara Shamekh,2
+Fernando Iglesias-Suarez,Jakob Runge,2
+Fernando Iglesias-Suarez,Gunnar Behrens,2
+Fernando Iglesias-Suarez,Katharina Hafner,2
+Fernando Iglesias-Suarez,Robert Pincus,2
+Fernando Iglesias-Suarez,Sara Shamekh,2
+Marco A. Giorgetta,Katharina Hafner,2
+Marco A. Giorgetta,Robert Pincus,2
+Marco A. Giorgetta,Sara Shamekh,2
+Veronika Eyring,Jakob Runge,2
+Veronika Eyring,Gustau Camps-Valls,2
+Veronika Eyring,Gunnar Behrens,2
+Veronika Eyring,Christopher S. Bretherton,2
+Veronika Eyring,Rose Yu,2
+Veronika Eyring,Stephan Hoyer,2
+Veronika Eyring,William D. Collins,2
+Veronika Eyring,David M. Lawrence,2
+Luke Gregor,Marion Gehlen,2
+Luke Gregor,Peter Landschützer,2
+Luke Gregor,Dorothee C. E. Bakker,2
+Luke Gregor,Judith Hauck,2
+Peter Landschützer,Marion Gehlen,2
+Peter Landschützer,Nicolas Gruber,2
+Nicolas Gruber,Marion Gehlen,2
+Nicolas Gruber,Dorothee C. E. Bakker,2
+Nicolas Gruber,Judith Hauck,2
+Maxwell Kelley,Gavin Schmidt,2
+Gustau Camps-Valls,Markus Reichstein,2
+Tian Zheng,Candace Agonafir,2
+Tian Zheng,Aya Lahlou,2
+Tian Zheng,Josh Malcolm Manto,2
+Tian Zheng,Ka Leung Lam,2
+Tian Zheng,Nizar Talty,2
+Tian Zheng,Othmane Echchabi,2
+Tian Zheng,Subashree Venkatasubramanian,2
+Judith Hauck,Dorothee C. E. Bakker,2
+Liran Peng,Fiaz Ahmed,2
+Liran Peng,Sungduk Yu,2
+Liran Peng,Zeyuan Hu,2
+Liran Peng,Savannah L. Ferretti,2
+Liran Peng,Walter M. Hannah,2
+Jerry Lin,Walter M. Hannah,2
+Sungduk Yu,Zeyuan Hu,2
+Yifan Cheng,Adrianna Foster,2
+Yifan Cheng,Abigail L. S. Swann,2
+Yifan Cheng,Benjamin M. Sanderson,2
+Yifan Cheng,C. D. Koven,2
+Yifan Cheng,Claire Marie Zarakas,2
+Yifan Cheng,Daniel Kennedy,2
+Yifan Cheng,David M. Lawrence,2
+Yifan Cheng,Danica Lombardozzi,2
+Yifan Cheng,F. M. Hoffman,2
+Yifan Cheng,Katherine Dagon,2
+Yifan Cheng,Linnia Hawkins,2
+Yifan Cheng,Rosie A. Fisher,2
+Yifan Cheng,Sudhanshu Kumar,2
+Yifan Cheng,W. R. Wieder,2
+Marco G. Giometto,Ensheng Weng,2
+Yongfei Zhang,Alistair Adcroft,2
+Yongfei Zhang,Mitchell Bushuk,2
+Yongfei Zhang,William Gregory,2
+Jatan Buch,A. Park Williams,2
+Jatan Buch,Carla Roesch,2
+Jatan Buch,Juan Nathaniel,2
+A. Park Williams,Duncan Watson-Parris,2
+A. Park Williams,Rose Yu,2
+A. Park Williams,Stephan Hoyer,2
+Kara D. Lamb,Sean Patrick Santos,2
+Kara D. Lamb,Po-Lun Ma,2
+Duncan Watson-Parris,Gabriele Accarino,2
+Duncan Watson-Parris,Sara Shamekh,2
+Duncan Watson-Parris,Viviana Acquaviva,2
+Duncan Watson-Parris,Rose Yu,2
+Duncan Watson-Parris,Stephan Hoyer,2
+Duncan Watson-Parris,David M. Lawrence,2
+Chaopeng Shen,Da Fan,2
+Chaopeng Shen,David John Gagne II,2
+Pavel Perezhogin,Aakash Sane,2
+Pavel Perezhogin,Dhruv Balwada,2
+Pavel Perezhogin,Mitchell Bushuk,2
+Pavel Perezhogin,William Gregory,2
+Carlos Fernandez-Granda,Aakash Sane,2
+Carlos Fernandez-Granda,Brandon G. Reichl,2
+Carlos Fernandez-Granda,Dhruv Balwada,2
+Carlos Fernandez-Granda,Mitchell Bushuk,2
+Carlos Fernandez-Granda,William Gregory,2
+Sara Shamekh,Gabriele Accarino,2
+Sara Shamekh,Viviana Acquaviva,2
+Sara Shamekh,Yongquan Qu,2
+Joseph Ko,Jerry Y. Harrington,2
+Joseph Ko,Hugh Morrison,2
+Kara Sulia,Jerry Y. Harrington,2
+Vanessa Przybylo,Jerry Y. Harrington,2
+Cheng Zhang,Aakash Sane,2
+Cheng Zhang,Brandon G. Reichl,2
+Cheng Zhang,Dhruv Balwada,2
+Cheng Zhang,Mitchell Bushuk,2
+Cheng Zhang,William Gregory,2
+Alistair Adcroft,Dhruv Balwada,2
+Dhruv Balwada,Aakash Sane,2
+Dhruv Balwada,Brandon G. Reichl,2
+Dhruv Balwada,Mitchell Bushuk,2
+Dhruv Balwada,William Gregory,2
+Dhruv Balwada,Charles I. Stern,2
+Zeyuan Hu,Walter M. Hannah,2
+Mohamed Aziz Bhouri,Hugh Morrison,2
+Mohamed Aziz Bhouri,Kamal Kant Chandrakar,2
+Mohamed Aziz Bhouri,Kaitlyn Loftus,2
+Mohamed Aziz Bhouri,Sean Patrick Santos,2
+Elizabeth A. Barnes,Katherine Dagon,2
+Elizabeth A. Barnes,William D. Collins,2
+Christopher S. Bretherton,Rose Yu,2
+Christopher S. Bretherton,Stephan Hoyer,2
+Christopher S. Bretherton,William D. Collins,2
+Rose Yu,William D. Collins,2
+Wayne Chuang,Addisu Semie,2
+Wayne Chuang,Brian Medeiros,2
+Wayne Chuang,Da Fan,2
+Wayne Chuang,Qingyuan Yang,2
+Qingyuan Yang,David John Gagne II,2
+Qingyuan Yang,Linnia Hawkins,2
+Qingyuan Yang,David John Gagne,2
+Juan Nathaniel,Ben Fei,2
+Juan Nathaniel,Fenghua Ling,2
+Juan Nathaniel,Hang Fan,2
+Juan Nathaniel,Lei Bai,2
+Juan Nathaniel,Yi Xiao,2
+Kaitlyn Loftus,Kamal Kant Chandrakar,2
+Kaitlyn Loftus,Marcus van Lier Walqui,2
+Kaitlyn Loftus,Sean Patrick Santos,2
+Marcus van Lier Walqui,Sean Patrick Santos,2
+Hugh Morrison,Kamal Kant Chandrakar,2
+Hugh Morrison,Trude Eidhammer,2
+Kamal Kant Chandrakar,Sean Patrick Santos,2
+Yongquan Qu,Shuolin Li,2
+Daniel Kennedy,F. M. Hoffman,2
+Daniel Kennedy,Sudhanshu Kumar,2
+Daniel Kennedy,Natasha MacBean,2
+Daniel Kennedy,T. Luke Smallman,2
+T. Luke Smallman,Benjamin M. Sanderson,2
+T. Luke Smallman,Katherine Dagon,2
+T. Luke Smallman,Linnia Hawkins,2
+T. Luke Smallman,Natasha MacBean,2
+T. Luke Smallman,Rosie A. Fisher,2
+Adrienne J. Sutton,Thea H. Heimdal,2
+William Gregory,Aakash Sane,2
+William Gregory,Brandon G. Reichl,2
+Mitchell Bushuk,Aakash Sane,2
+Mitchell Bushuk,Brandon G. Reichl,2
+Da Fan,David John Gagne,2
+David John Gagne II,Addisu Semie,2
+David John Gagne II,Brian Medeiros,2
+Brian Medeiros,David John Gagne,2
+Addisu Semie,David John Gagne,2
+Subashree Venkatasubramanian,Shuolin Li,2
+Subashree Venkatasubramanian,Zhewen Hou,2
+Andrew Osten Hoffman,Racheet Matai,2
+Jonathan Kingslake,Racheet Matai,2
+Viviana Acquaviva,Gabriele Accarino,2
+David M. Lawrence,Benjamin M. Sanderson,2
+David M. Lawrence,F. M. Hoffman,2
+David M. Lawrence,Sudhanshu Kumar,2
+Gavin Schmidt,William D. Collins,2
+Trude Eidhammer,Andrew Gettelman,2
+Trude Eidhammer,Daniel T. McCoy,2
+Trude Eidhammer,Linnia Hawkins,2
+Shuolin Li,Zhewen Hou,2
+Linnia Hawkins,Abigail L. S. Swann,2
+Linnia Hawkins,Claire Marie Zarakas,2
+Linnia Hawkins,Danica Lombardozzi,2
+Linnia Hawkins,F. M. Hoffman,2
+Linnia Hawkins,Natasha MacBean,2
+Linnia Hawkins,Aya Lahlou,2
+William D. Collins,Katherine Dagon,2
+William D. Collins,Stephan Hoyer,2
+Katherine Dagon,David John Gagne,2
+Katherine Dagon,F. M. Hoffman,2
+Katherine Dagon,Natasha MacBean,2
+Adrianna Foster,Abigail L. S. Swann,2
+Adrianna Foster,Benjamin M. Sanderson,2
+Adrianna Foster,Claire Marie Zarakas,2
+Adrianna Foster,Danica Lombardozzi,2
+Adrianna Foster,F. M. Hoffman,2
+Adrianna Foster,Sudhanshu Kumar,2
+Claire Marie Zarakas,Benjamin M. Sanderson,2
+Claire Marie Zarakas,F. M. Hoffman,2
+Claire Marie Zarakas,Rosie A. Fisher,2
+Claire Marie Zarakas,Sudhanshu Kumar,2
+Claire Marie Zarakas,W. R. Wieder,2
+C. D. Koven,Benjamin M. Sanderson,2
+C. D. Koven,F. M. Hoffman,2
+C. D. Koven,Sudhanshu Kumar,2
+Danica Lombardozzi,Benjamin M. Sanderson,2
+Danica Lombardozzi,F. M. Hoffman,2
+Danica Lombardozzi,Rosie A. Fisher,2
+Danica Lombardozzi,Sudhanshu Kumar,2
+Danica Lombardozzi,W. R. Wieder,2
+Abigail L. S. Swann,Benjamin M. Sanderson,2
+Abigail L. S. Swann,F. M. Hoffman,2
+Abigail L. S. Swann,Rosie A. Fisher,2
+Abigail L. S. Swann,Sudhanshu Kumar,2
+Abigail L. S. Swann,W. R. Wieder,2
+Rosie A. Fisher,F. M. Hoffman,2
+Rosie A. Fisher,Sudhanshu Kumar,2
+Rosie A. Fisher,Natasha MacBean,2
+Benjamin M. Sanderson,F. M. Hoffman,2
+Benjamin M. Sanderson,Sudhanshu Kumar,2
+Benjamin M. Sanderson,W. R. Wieder,2
+Benjamin M. Sanderson,Natasha MacBean,2
+F. M. Hoffman,Sudhanshu Kumar,2
+F. M. Hoffman,W. R. Wieder,2
+Sudhanshu Kumar,W. R. Wieder,2
+Dustin Carroll,Dimitris Menemenlis,2
+Rahul Ghosh,Jordan Read,1
+Rahul Ghosh,Jared Willard,1
+Kshitij Tayal,Jordan Read,1
+Kshitij Tayal,Jared Willard,1
+Xiaowei Jia,Alison P. Appling,1
+Vipin Kumar,Alison P. Appling,1
+Nora Loose,Julius J. M. Busecke,1
+Nora Loose,Laure Zanna,1
+Nora Loose,Paige E. Martin,1
+Nora Loose,Ryan Abernathey,1
+Ryan Abernathey,Hongmei Li,1
+Ryan Abernathey,Marco G. Giometto,1
+Ryan Abernathey,Pierre Gentine,1
+Ryan Abernathey,Yifan Cheng,1
+Ryan Abernathey,Yu Huang,1
+Ryan Abernathey,Alistair Adcroft,1
+Ryan Abernathey,Aakash Sane,1
+Ryan Abernathey,Brandon G. Reichl,1
+Ryan Abernathey,Carlos Fernandez-Granda,1
+Ryan Abernathey,Cheng Zhang,1
+Ryan Abernathey,Mitchell Bushuk,1
+Ryan Abernathey,Pavel Perezhogin,1
+Ryan Abernathey,William Gregory,1
+Julius J. M. Busecke,Juan Nathaniel,1
+Julius J. M. Busecke,Pierre Gentine,1
+Julius J. M. Busecke,Sungduk Yu,1
+Julius J. M. Busecke,Yongquan Qu,1
+Julius J. M. Busecke,Gavin Schmidt,1
+Julius J. M. Busecke,Maxwell Kelley,1
+Julius J. M. Busecke,Amanda R. Fay,1
+Julius J. M. Busecke,Abby P. Shaum,1
+Julius J. M. Busecke,Galen A. McKinley,1
+Julius J. M. Busecke,Thea H. Heimdal,1
+Julius J. M. Busecke,Viviana Acquaviva,1
+Julius J. M. Busecke,Jingbo Wu,1
+Laure Zanna,Paige E. Martin,1
+Laure Zanna,Gustau Camps-Valls,1
+Laure Zanna,Fernando Iglesias-Suarez,1
+Laure Zanna,Katherine Dagon,1
+Laure Zanna,Tom Beucler,1
+Laure Zanna,Andrew Osten Hoffman,1
+Laure Zanna,Jonathan Kingslake,1
+Laure Zanna,Racheet Matai,1
+Laure Zanna,A. Park Williams,1
+Laure Zanna,David M. Lawrence,1
+Laure Zanna,Duncan Watson-Parris,1
+Laure Zanna,Gregory Elsaesser,1
+Laure Zanna,Gavin Schmidt,1
+Laure Zanna,J. David Neelin,1
+Laure Zanna,Kevin W Bowman,1
+Laure Zanna,Ralph F. Keeling,1
+Stephan Rasp,Fiaz Ahmed,1
+Stephan Rasp,Jerry Lin,1
+Stephan Rasp,J. David Neelin,1
+Stephan Rasp,Janni Yuval,1
+Stephan Rasp,Liran Peng,1
+Stephan Rasp,Nicholas J. Lutsko,1
+Stephan Rasp,Sungduk Yu,1
+Michael S. Pritchard,Janni Yuval,1
+Michael S. Pritchard,Nicholas J. Lutsko,1
+Michael S. Pritchard,Justus C. Will,1
+Michael S. Pritchard,Kara D. Lamb,1
+Michael S. Pritchard,Marcus van Lier-Walqui,1
+Michael S. Pritchard,Po-Lun Ma,1
+Michael S. Pritchard,Elizabeth A. Barnes,1
+Michael S. Pritchard,Katherine Dagon,1
+Michael S. Pritchard,Akshay Subramaniam,1
+Michael S. Pritchard,Noah D. Brenowitz,1
+Michael S. Pritchard,Helge Heuer,1
+Michael S. Pritchard,Ritwik Gupta,1
+Michael S. Pritchard,Tian Zheng,1
+Michael S. Pritchard,A. Park Williams,1
+Michael S. Pritchard,David M. Lawrence,1
+Michael S. Pritchard,Duncan Watson-Parris,1
+Michael S. Pritchard,Gavin Schmidt,1
+Michael S. Pritchard,Kevin W Bowman,1
+Michael S. Pritchard,Ralph F. Keeling,1
+Michael S. Pritchard,Sara Shamekh,1
+Pierre Gentine,Xiaojuan Yang,1
+Pierre Gentine,Fiaz Ahmed,1
+Pierre Gentine,Janni Yuval,1
+Pierre Gentine,Nicholas J. Lutsko,1
+Pierre Gentine,Hongmei Li,1
+Pierre Gentine,Yifan Cheng,1
+Pierre Gentine,Griffin Mooers,1
+Pierre Gentine,Alison P. Appling,1
+Pierre Gentine,Chaopeng Shen,1
+Pierre Gentine,Philippe Ciais,1
+Pierre Gentine,Zhu Liu,1
+Pierre Gentine,David John Gagne,1
+Pierre Gentine,Elizabeth A. Barnes,1
+Pierre Gentine,Zhewen Hou,1
+Pierre Gentine,Po-Lun Ma,1
+Pierre Gentine,Qing Sun,1
+Pierre Gentine,Viviana Acquaviva,1
+Pierre Gentine,Helge Heuer,1
+Pierre Gentine,Ritwik Gupta,1
+Pierre Gentine,Walter M. Hannah,1
+Pierre Gentine,Andrew Gettelman,1
+Pierre Gentine,Addisu Semie,1
+Pierre Gentine,Brian Medeiros,1
+Pierre Gentine,Da Fan,1
+Pierre Gentine,David John Gagne II,1
+Pierre Gentine,Qingyuan Yang,1
+Pierre Gentine,Wayne Chuang,1
+Pierre Gentine,Hugh Morrison,1
+Pierre Gentine,Joseph Ko,1
+Pierre Gentine,Kaitlyn Loftus,1
+Pierre Gentine,Marcus van Lier Walqui,1
+Pierre Gentine,Gavin Schmidt,1
+Pierre Gentine,Kevin W Bowman,1
+Pierre Gentine,Ralph F. Keeling,1
+Pierre Gentine,Adrianna Foster,1
+Amanda R. Fay,Alizée Roobaert,1
+Amanda R. Fay,Christian Rödenbeck,1
+Amanda R. Fay,Jiye Zeng,1
+Amanda R. Fay,Luke Gregor,1
+Amanda R. Fay,Marion Gehlen,1
+Amanda R. Fay,Nicolas Gruber,1
+Amanda R. Fay,Peter Landschützer,1
+Amanda R. Fay,Yosuke Iida,1
+Amanda R. Fay,Lucas Gloege,1
+Amanda R. Fay,Dustin Carroll,1
+Amanda R. Fay,Dimitris Menemenlis,1
+Amanda R. Fay,Val Bennington,1
+Galen A. McKinley,Alizée Roobaert,1
+Galen A. McKinley,Christian Rödenbeck,1
+Galen A. McKinley,Jiye Zeng,1
+Galen A. McKinley,Yosuke Iida,1
+Galen A. McKinley,Tian Zheng,1
+Galen A. McKinley,D. Crisp,1
+Galen A. McKinley,David John Gagne II,1
+Galen A. McKinley,Elizabeth A. Barnes,1
+Jared Willard,Alison P. Appling,1
+Michael Steinbach,Alison P. Appling,1
+Weiwei Zhan,Xiaojuan Yang,1
+Xiaojuan Yang,Yu Huang,1
+Xiaojuan Yang,Youngryel Ryu,1
+Youngryel Ryu,Yu Huang,1
+Youngryel Ryu,Jiangong Liu,1
+Youngryel Ryu,Xu Lian,1
+Yu Huang,Hongmei Li,1
+Yu Huang,Marco G. Giometto,1
+Yu Huang,Yifan Cheng,1
+Yu Huang,Kara D. Lamb,1
+Gregory Elsaesser,Subashree Venkatasubramanian,1
+Gregory Elsaesser,Hugh Morrison,1
+Gregory Elsaesser,Kaitlyn Loftus,1
+Gregory Elsaesser,Benjamin M. Sanderson,1
+Gregory Elsaesser,Shuolin Li,1
+Gregory Elsaesser,A. Park Williams,1
+Gregory Elsaesser,Christopher S. Bretherton,1
+Gregory Elsaesser,David M. Lawrence,1
+Gregory Elsaesser,J. David Neelin,1
+Gregory Elsaesser,Kevin W Bowman,1
+Gregory Elsaesser,Ralph F. Keeling,1
+Gregory Elsaesser,Rose Yu,1
+Gregory Elsaesser,Stephan Hoyer,1
+Gregory Elsaesser,Veronika Eyring,1
+Marcus van Lier-Walqui,Kamal Kant Chandrakar,1
+Marcus van Lier-Walqui,Mohamed Aziz Bhouri,1
+Marcus van Lier-Walqui,Andrea M. Jenney,1
+Marcus van Lier-Walqui,Justus C. Will,1
+Marcus van Lier-Walqui,Stephan Mandt,1
+Marcus van Lier-Walqui,Duncan Watson-Parris,1
+Marcus van Lier-Walqui,Maxwell Kelley,1
+Marcus van Lier-Walqui,William D. Collins,1
+Marcus van Lier-Walqui,Benjamin M. Sanderson,1
+Marcus van Lier-Walqui,Shuolin Li,1
+Jingbo Wu,David John Gagne,1
+Jingbo Wu,Gavin Schmidt,1
+Jingbo Wu,Maxwell Kelley,1
+Jingbo Wu,Qingyuan Yang,1
+Jingbo Wu,Alistair Adcroft,1
+Jingbo Wu,Aakash Sane,1
+Jingbo Wu,Carlos Fernandez-Granda,1
+Jingbo Wu,Cheng Zhang,1
+Jingbo Wu,Dhruv Balwada,1
+Jingbo Wu,Mitchell Bushuk,1
+Jingbo Wu,William Gregory,1
+Arthur Grundner,Fernando Iglesias-Suarez,1
+Arthur Grundner,Marco A. Giorgetta,1
+Arthur Grundner,Sara Shamekh,1
+Tom Beucler,Marco A. Giorgetta,1
+Tom Beucler,Fiaz Ahmed,1
+Tom Beucler,J. David Neelin,1
+Tom Beucler,Janni Yuval,1
+Tom Beucler,Nicholas J. Lutsko,1
+Tom Beucler,Mohamed Aziz Bhouri,1
+Tom Beucler,Christopher S. Bretherton,1
+Tom Beucler,David John Gagne,1
+Tom Beucler,Elizabeth A. Barnes,1
+Tom Beucler,Katherine Dagon,1
+Tom Beucler,Rose Yu,1
+Tom Beucler,Stephan Hoyer,1
+Tom Beucler,William D. Collins,1
+Tom Beucler,Helge Heuer,1
+Tom Beucler,Ritwik Gupta,1
+Tom Beucler,Tian Zheng,1
+Tom Beucler,Walter M. Hannah,1
+Tom Beucler,Savannah L. Ferretti,1
+Fernando Iglesias-Suarez,Sungduk Yu,1
+Fernando Iglesias-Suarez,Christopher S. Bretherton,1
+Fernando Iglesias-Suarez,David John Gagne,1
+Fernando Iglesias-Suarez,Elizabeth A. Barnes,1
+Fernando Iglesias-Suarez,Hannah Christensen,1
+Fernando Iglesias-Suarez,Katherine Dagon,1
+Fernando Iglesias-Suarez,Rose Yu,1
+Fernando Iglesias-Suarez,Stephan Hoyer,1
+Fernando Iglesias-Suarez,William D. Collins,1
+Veronika Eyring,Sungduk Yu,1
+Veronika Eyring,David John Gagne,1
+Veronika Eyring,Elizabeth A. Barnes,1
+Veronika Eyring,Hannah Christensen,1
+Veronika Eyring,Katherine Dagon,1
+Veronika Eyring,Francesco Immorlano,1
+Veronika Eyring,Gabriele Accarino,1
+Veronika Eyring,Stephan Mandt,1
+Veronika Eyring,Markus Reichstein,1
+Veronika Eyring,A. Park Williams,1
+Veronika Eyring,Duncan Watson-Parris,1
+Veronika Eyring,Gavin Schmidt,1
+Veronika Eyring,J. David Neelin,1
+Veronika Eyring,Kevin W Bowman,1
+Veronika Eyring,Ralph F. Keeling,1
+Jordan Read,Alison P. Appling,1
+Alison P. Appling,Chaopeng Shen,1
+Alison P. Appling,Li Li,1
+Luke Gregor,Alizée Roobaert,1
+Luke Gregor,Christian Rödenbeck,1
+Luke Gregor,Jiye Zeng,1
+Luke Gregor,Yosuke Iida,1
+Peter Landschützer,Alizée Roobaert,1
+Peter Landschützer,Christian Rödenbeck,1
+Peter Landschützer,Jiye Zeng,1
+Peter Landschützer,Yosuke Iida,1
+Peter Landschützer,Dorothee C. E. Bakker,1
+Peter Landschützer,Judith Hauck,1
+Nicolas Gruber,Alizée Roobaert,1
+Nicolas Gruber,Christian Rödenbeck,1
+Nicolas Gruber,Jiye Zeng,1
+Nicolas Gruber,Yosuke Iida,1
+Marion Gehlen,Alizée Roobaert,1
+Marion Gehlen,Christian Rödenbeck,1
+Marion Gehlen,Jiye Zeng,1
+Marion Gehlen,Yosuke Iida,1
+Marion Gehlen,Dorothee C. E. Bakker,1
+Marion Gehlen,Judith Hauck,1
+Yosuke Iida,Alizée Roobaert,1
+Yosuke Iida,Christian Rödenbeck,1
+Yosuke Iida,Jiye Zeng,1
+Christian Rödenbeck,Alizée Roobaert,1
+Christian Rödenbeck,Jiye Zeng,1
+Alizée Roobaert,Jiye Zeng,1
+Maxwell Kelley,Qingyuan Yang,1
+Val Bennington,Lucas Gloege,1
+Val Bennington,Abby P. Shaum,1
+Val Bennington,Thea H. Heimdal,1
+Val Bennington,Viviana Acquaviva,1
+Lucas Gloege,Tian Zheng,1
+Lucas Gloege,Adrienne J. Sutton,1
+Lucas Gloege,Thea H. Heimdal,1
+Gustau Camps-Valls,Jakob Runge,1
+Gustau Camps-Valls,David M. Lawrence,1
+Markus Reichstein,David M. Lawrence,1
+Tian Zheng,Juan Nathaniel,1
+Tian Zheng,Seungbum Kim,1
+Tian Zheng,Yongquan Qu,1
+Tian Zheng,Francesco Immorlano,1
+Tian Zheng,Hannah Christensen,1
+Tian Zheng,Helge Heuer,1
+Tian Zheng,Jerry Lin,1
+Tian Zheng,Liran Peng,1
+Tian Zheng,Ritwik Gupta,1
+Tian Zheng,Walter M. Hannah,1
+Tian Zheng,Zeyuan Hu,1
+Tian Zheng,Linnia Hawkins,1
+Jakob Runge,Christopher S. Bretherton,1
+Jakob Runge,David John Gagne,1
+Jakob Runge,Elizabeth A. Barnes,1
+Jakob Runge,Hannah Christensen,1
+Jakob Runge,Katherine Dagon,1
+Jakob Runge,Rose Yu,1
+Jakob Runge,Stephan Hoyer,1
+Jakob Runge,William D. Collins,1
+D. Crisp,Judith Hauck,1
+Janni Yuval,Fiaz Ahmed,1
+Janni Yuval,Jerry Lin,1
+Janni Yuval,J. David Neelin,1
+Janni Yuval,Liran Peng,1
+Janni Yuval,Nicholas J. Lutsko,1
+Janni Yuval,Sungduk Yu,1
+Liran Peng,J. David Neelin,1
+Liran Peng,Nicholas J. Lutsko,1
+Liran Peng,Griffin Mooers,1
+Liran Peng,Stephan Mandt,1
+Liran Peng,Mohamed Aziz Bhouri,1
+Liran Peng,Hannah Christensen,1
+Liran Peng,Helge Heuer,1
+Liran Peng,Ritwik Gupta,1
+Liran Peng,Andrea M. Jenney,1
+Liran Peng,Christopher S. Bretherton,1
+Jerry Lin,Fiaz Ahmed,1
+Jerry Lin,J. David Neelin,1
+Jerry Lin,Nicholas J. Lutsko,1
+Jerry Lin,Mohamed Aziz Bhouri,1
+Jerry Lin,Akshay Subramaniam,1
+Jerry Lin,Noah D. Brenowitz,1
+Jerry Lin,Hannah Christensen,1
+Jerry Lin,Helge Heuer,1
+Jerry Lin,Ritwik Gupta,1
+Jerry Lin,Savannah L. Ferretti,1
+Jerry Lin,Sara Shamekh,1
+Sungduk Yu,Fiaz Ahmed,1
+Sungduk Yu,J. David Neelin,1
+Sungduk Yu,Nicholas J. Lutsko,1
+Sungduk Yu,Juan Nathaniel,1
+Sungduk Yu,Yongquan Qu,1
+Sungduk Yu,Mohamed Aziz Bhouri,1
+Sungduk Yu,Gunnar Behrens,1
+Sungduk Yu,Akshay Subramaniam,1
+Sungduk Yu,Noah D. Brenowitz,1
+Sungduk Yu,Walter M. Hannah,1
+Fiaz Ahmed,J. David Neelin,1
+Fiaz Ahmed,Nicholas J. Lutsko,1
+Fiaz Ahmed,Savannah L. Ferretti,1
+J. David Neelin,Nicholas J. Lutsko,1
+J. David Neelin,A. Park Williams,1
+J. David Neelin,Christopher S. Bretherton,1
+J. David Neelin,David M. Lawrence,1
+J. David Neelin,Duncan Watson-Parris,1
+J. David Neelin,Gavin Schmidt,1
+J. David Neelin,Kevin W Bowman,1
+J. David Neelin,Ralph F. Keeling,1
+J. David Neelin,Rose Yu,1
+J. David Neelin,Stephan Hoyer,1
+J. David Neelin,William D. Collins,1
+Nicholas J. Lutsko,A. Park Williams,1
+Nicholas J. Lutsko,Duncan Watson-Parris,1
+Nicholas J. Lutsko,Rose Yu,1
+Nicholas J. Lutsko,Stephan Hoyer,1
+Nicholas J. Lutsko,Zhu Liu,1
+Yifan Cheng,Hongmei Li,1
+Yifan Cheng,Marco G. Giometto,1
+Marco G. Giometto,Hongmei Li,1
+Marco G. Giometto,David M. Lawrence,1
+Robert Pincus,Margaret Powell,1
+Li Li,Yongfei Zhang,1
+Li Li,Chaopeng Shen,1
+Li Li,David John Gagne,1
+Li Li,Daniel Kennedy,1
+Li Li,Katherine Dagon,1
+Li Li,Linnia Hawkins,1
+Yongfei Zhang,Juan Nathaniel,1
+Stephan Mandt,Andrea M. Jenney,1
+Stephan Mandt,Justus C. Will,1
+Stephan Mandt,Kara D. Lamb,1
+Stephan Mandt,Po-Lun Ma,1
+Stephan Mandt,Gabriele Accarino,1
+Jatan Buch,Hugh Morrison,1
+Jatan Buch,Joseph Ko,1
+Jatan Buch,Kaitlyn Loftus,1
+Jatan Buch,Margaret Powell,1
+Jatan Buch,Marcus van Lier Walqui,1
+A. Park Williams,Zhu Liu,1
+A. Park Williams,Christopher S. Bretherton,1
+A. Park Williams,David M. Lawrence,1
+A. Park Williams,Gavin Schmidt,1
+A. Park Williams,Kevin W Bowman,1
+A. Park Williams,Ralph F. Keeling,1
+A. Park Williams,William D. Collins,1
+Kara D. Lamb,Sara Shamekh,1
+Kara D. Lamb,Andrea M. Jenney,1
+Kara D. Lamb,Justus C. Will,1
+Kara D. Lamb,Kamal Kant Chandrakar,1
+Kara D. Lamb,Trude Eidhammer,1
+Kara D. Lamb,Carla Roesch,1
+Kara D. Lamb,Juan Nathaniel,1
+Kara D. Lamb,Kaitlyn Loftus,1
+Kara D. Lamb,Margaret Powell,1
+Duncan Watson-Parris,Andrew Gettelman,1
+Duncan Watson-Parris,Daniel T. McCoy,1
+Duncan Watson-Parris,Hugh Morrison,1
+Duncan Watson-Parris,Trude Eidhammer,1
+Duncan Watson-Parris,Carla Roesch,1
+Duncan Watson-Parris,Juan Nathaniel,1
+Duncan Watson-Parris,Zhu Liu,1
+Duncan Watson-Parris,Christopher S. Bretherton,1
+Duncan Watson-Parris,Gavin Schmidt,1
+Duncan Watson-Parris,Kevin W Bowman,1
+Duncan Watson-Parris,Ralph F. Keeling,1
+Duncan Watson-Parris,William D. Collins,1
+Duncan Watson-Parris,Joseph Ko,1
+Duncan Watson-Parris,Kara Sulia,1
+Duncan Watson-Parris,Vanessa Przybylo,1
+Hannah Christensen,Christopher S. Bretherton,1
+Hannah Christensen,David John Gagne,1
+Hannah Christensen,Elizabeth A. Barnes,1
+Hannah Christensen,Katherine Dagon,1
+Hannah Christensen,Rose Yu,1
+Hannah Christensen,Stephan Hoyer,1
+Hannah Christensen,William D. Collins,1
+Hannah Christensen,Helge Heuer,1
+Hannah Christensen,Ritwik Gupta,1
+Hannah Christensen,Walter M. Hannah,1
+Hannah Christensen,Zeyuan Hu,1
+Pavel Perezhogin,David John Gagne,1
+Sara Shamekh,Jiangong Liu,1
+Sara Shamekh,Xu Lian,1
+Sara Shamekh,Carla Roesch,1
+Sara Shamekh,Juan Nathaniel,1
+Sara Shamekh,Savannah L. Ferretti,1
+Sara Shamekh,David M. Lawrence,1
+Joseph Ko,Kamal Kant Chandrakar,1
+Joseph Ko,Addisu Semie,1
+Joseph Ko,Da Fan,1
+Joseph Ko,Helge Heuer,1
+Joseph Ko,Racheet Matai,1
+Joseph Ko,Trude Eidhammer,1
+Joseph Ko,Kaitlyn Loftus,1
+Joseph Ko,Margaret Powell,1
+Joseph Ko,Marcus van Lier Walqui,1
+Zeyuan Hu,Akshay Subramaniam,1
+Zeyuan Hu,Noah D. Brenowitz,1
+Zeyuan Hu,Helge Heuer,1
+Zeyuan Hu,Ritwik Gupta,1
+Akshay Subramaniam,Noah D. Brenowitz,1
+Akshay Subramaniam,Walter M. Hannah,1
+Walter M. Hannah,Noah D. Brenowitz,1
+Walter M. Hannah,Helge Heuer,1
+Walter M. Hannah,Ritwik Gupta,1
+Walter M. Hannah,Andrea M. Jenney,1
+Walter M. Hannah,Christopher S. Bretherton,1
+Walter M. Hannah,Savannah L. Ferretti,1
+Mohamed Aziz Bhouri,Marcus van Lier Walqui,1
+Mohamed Aziz Bhouri,Yongquan Qu,1
+Ritwik Gupta,Helge Heuer,1
+Justus C. Will,Andrea M. Jenney,1
+Justus C. Will,Po-Lun Ma,1
+Helge Heuer,Addisu Semie,1
+Helge Heuer,Da Fan,1
+Helge Heuer,Racheet Matai,1
+Andrea M. Jenney,Po-Lun Ma,1
+Andrea M. Jenney,Christopher S. Bretherton,1
+Andrea M. Jenney,Savannah L. Ferretti,1
+Elizabeth A. Barnes,David John Gagne II,1
+Elizabeth A. Barnes,Viviana Acquaviva,1
+Elizabeth A. Barnes,Christopher S. Bretherton,1
+Elizabeth A. Barnes,David John Gagne,1
+Elizabeth A. Barnes,Rose Yu,1
+Elizabeth A. Barnes,Stephan Hoyer,1
+Christopher S. Bretherton,David John Gagne,1
+Christopher S. Bretherton,Katherine Dagon,1
+Christopher S. Bretherton,Savannah L. Ferretti,1
+Christopher S. Bretherton,David M. Lawrence,1
+Christopher S. Bretherton,Gavin Schmidt,1
+Christopher S. Bretherton,Kevin W Bowman,1
+Christopher S. Bretherton,Ralph F. Keeling,1
+Rose Yu,David John Gagne,1
+Rose Yu,Katherine Dagon,1
+Rose Yu,Zhu Liu,1
+Rose Yu,David M. Lawrence,1
+Rose Yu,Gavin Schmidt,1
+Rose Yu,Kevin W Bowman,1
+Rose Yu,Ralph F. Keeling,1
+Wayne Chuang,Andrew Gettelman,1
+Wayne Chuang,David John Gagne II,1
+Po-Lun Ma,Margaret Powell,1
+Po-Lun Ma,Marcus van Lier Walqui,1
+Po-Lun Ma,Hugh Morrison,1
+Qingyuan Yang,Subashree Venkatasubramanian,1
+Qingyuan Yang,Kaitlyn Loftus,1
+Qingyuan Yang,Gavin Schmidt,1
+Qingyuan Yang,Andrew Gettelman,1
+Jiangong Liu,Juan Nathaniel,1
+Juan Nathaniel,Shuolin Li,1
+Juan Nathaniel,Seungbum Kim,1
+Juan Nathaniel,Zhewen Hou,1
+Juan Nathaniel,Gabriele Accarino,1
+Juan Nathaniel,Viviana Acquaviva,1
+Kaitlyn Loftus,Margaret Powell,1
+Marcus van Lier Walqui,Kamal Kant Chandrakar,1
+Marcus van Lier Walqui,Margaret Powell,1
+Hugh Morrison,Andrew Gettelman,1
+Hugh Morrison,Daniel T. McCoy,1
+Hugh Morrison,Margaret Powell,1
+Seungbum Kim,Zhewen Hou,1
+Seungbum Kim,Katherine Dagon,1
+Philippe Ciais,Zhu Liu,1
+Ralph F. Keeling,David M. Lawrence,1
+Ralph F. Keeling,Gavin Schmidt,1
+Ralph F. Keeling,Kevin W Bowman,1
+Ralph F. Keeling,Stephan Hoyer,1
+Ralph F. Keeling,William D. Collins,1
+Daniel Kennedy,David John Gagne,1
+Zhu Liu,Stephan Hoyer,1
+Brandon G. Reichl,David John Gagne,1
+Da Fan,Subashree Venkatasubramanian,1
+Da Fan,Racheet Matai,1
+Da Fan,Andrew Gettelman,1
+David John Gagne II,Subashree Venkatasubramanian,1
+David John Gagne II,Viviana Acquaviva,1
+David John Gagne II,Andrew Gettelman,1
+Brian Medeiros,Subashree Venkatasubramanian,1
+Brian Medeiros,Andrew Gettelman,1
+Addisu Semie,Subashree Venkatasubramanian,1
+Addisu Semie,Racheet Matai,1
+Addisu Semie,Andrew Gettelman,1
+Viviana Acquaviva,Carla Roesch,1
+Viviana Acquaviva,David M. Lawrence,1
+Ensheng Weng,David M. Lawrence,1
+David M. Lawrence,Gavin Schmidt,1
+David M. Lawrence,Kevin W Bowman,1
+David M. Lawrence,Stephan Hoyer,1
+David M. Lawrence,William D. Collins,1
+David M. Lawrence,Aya Lahlou,1
+David M. Lawrence,Gabriele Accarino,1
+Gavin Schmidt,Kevin W Bowman,1
+Gavin Schmidt,Stephan Hoyer,1
+Andrew Gettelman,Benjamin M. Sanderson,1
+Andrew Gettelman,Shuolin Li,1
+Daniel T. McCoy,Benjamin M. Sanderson,1
+Daniel T. McCoy,Shuolin Li,1
+Candace Agonafir,Linnia Hawkins,1
+Shuolin Li,Benjamin M. Sanderson,1
+Linnia Hawkins,David John Gagne,1
+William D. Collins,David John Gagne,1
+William D. Collins,Kevin W Bowman,1
+Katherine Dagon,Stephan Hoyer,1
+David John Gagne,Stephan Hoyer,1
+Stephan Hoyer,Kevin W Bowman,1
+Adrianna Foster,Aya Lahlou,1
+Francesco Immorlano,Gabriele Accarino,1
+Gabriele Accarino,Carla Roesch,1

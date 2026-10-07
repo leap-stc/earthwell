@@ -1,0 +1,186 @@
+author,papers,coauthors_in_network,main_domain
+Pierre Gentine,88,102,Atmosphere
+Kara D. Lamb,30,28,Atmosphere
+Galen A. McKinley,27,25,Ocean
+Laure Zanna,25,41,Ocean
+Marcus van Lier-Walqui,25,31,Atmosphere
+Michael S. Pritchard,24,51,Atmosphere
+Gregory Elsaesser,19,34,Atmosphere
+Tom Beucler,18,35,Atmosphere
+Veronika Eyring,16,34,Atmosphere
+Tian Zheng,16,26,Atmosphere
+Sara Shamekh,14,22,Atmosphere
+Qingyuan Yang,14,18,Atmosphere
+Linnia Hawkins,14,26,Land & hydrology
+Katherine Dagon,14,32,Land & hydrology
+Julius J. M. Busecke,13,28,Ocean
+Amanda R. Fay,12,19,Ocean
+Juan Nathaniel,12,22,Atmosphere
+Vipin Kumar,11,8,Land & hydrology
+Stephan Mandt,11,13,Atmosphere
+Joseph Ko,11,18,Atmosphere
+Jiangong Liu,11,7,Land & hydrology
+David M. Lawrence,11,37,Land & hydrology
+Duncan Watson-Parris,10,31,Atmosphere
+Dhruv Balwada,10,18,Ocean
+Yongquan Qu,10,13,Atmosphere
+Da Fan,10,15,Atmosphere
+Fernando Iglesias-Suarez,9,21,Atmosphere
+Liran Peng,9,22,Atmosphere
+Pavel Perezhogin,9,13,Ocean
+Alistair Adcroft,9,13,Ocean
+Mohamed Aziz Bhouri,9,13,Atmosphere
+Hugh Morrison,9,17,Atmosphere
+Daniel Kennedy,9,19,Land & hydrology
+Shuolin Li,9,11,Atmosphere
+Xiaowei Jia,8,8,Land & hydrology
+Yu Huang,8,12,Atmosphere
+Jerry Lin,8,21,Atmosphere
+Sungduk Yu,8,21,Atmosphere
+Addisu Semie,8,14,Atmosphere
+Ryan Abernathey,7,19,Atmosphere
+Jatan Buch,7,10,Atmosphere
+Viviana Acquaviva,7,15,Ocean
+Gavin Schmidt,7,24,Atmosphere
+Trude Eidhammer,7,10,Atmosphere
+Luke Gregor,6,11,Ocean
+Nicolas Gruber,6,11,Ocean
+Judith Hauck,6,7,Ocean
+Robert Pincus,6,7,Atmosphere
+Elizabeth A. Barnes,6,17,Atmosphere
+Po-Lun Ma,6,10,Atmosphere
+Jerry Y. Harrington,6,5,Atmosphere
+Brian Medeiros,6,11,Atmosphere
+Thea H. Heimdal,6,8,Ocean
+C. D. Koven,6,14,Land & hydrology
+Arvind Renganathan,5,4,Land & hydrology
+Jared Willard,5,7,Land & hydrology
+Peter Landschützer,5,11,Ocean
+Val Bennington,5,6,Ocean
+Griffin Mooers,5,5,Atmosphere
+Carlos Fernandez-Granda,5,12,Ocean
+Kara Sulia,5,6,Atmosphere
+Vanessa Przybylo,5,6,Atmosphere
+Walter M. Hannah,5,16,Atmosphere
+Christopher S. Bretherton,5,26,Atmosphere
+Savannah L. Ferretti,5,9,Atmosphere
+Rose Yu,5,24,Atmosphere
+Kaitlyn Loftus,5,13,Atmosphere
+Adrienne J. Sutton,5,4,Ocean
+David John Gagne II,5,13,Atmosphere
+Upmanu Lall,5,2,Land & hydrology
+David John Gagne,5,25,Atmosphere
+Adrianna Foster,5,16,Land & hydrology
+Rosie A. Fisher,5,17,Land & hydrology
+Benjamin M. Sanderson,5,22,Land & hydrology
+Sudhanshu Kumar,5,14,Land & hydrology
+Dustin Carroll,5,3,Ocean
+Aya Lahlou,5,9,Land & hydrology
+Weiwei Zhan,4,6,Land & hydrology
+Jingbo Wu,4,17,Atmosphere
+Marion Gehlen,4,11,Ocean
+Yosuke Iida,4,9,Ocean
+Christian Rödenbeck,4,9,Ocean
+Jiye Zeng,4,9,Ocean
+Lucas Gloege,4,6,Ocean
+Gustau Camps-Valls,4,6,Atmosphere
+Jakob Runge,4,15,Atmosphere
+Fiaz Ahmed,4,11,Atmosphere
+J. David Neelin,4,23,Atmosphere
+Nicholas J. Lutsko,4,15,Atmosphere
+Marco G. Giometto,4,7,Atmosphere
+Li Li,4,8,Land & hydrology
+Yongfei Zhang,4,7,Cryosphere
+Dorothee C. E. Bakker,4,6,Ocean
+A. Park Williams,4,18,Land & hydrology
+Nicole S. Lovenduski,4,2,Ocean
+Chaopeng Shen,4,5,Land & hydrology
+Gunnar Behrens,4,6,Atmosphere
+Cheng Zhang,4,12,Ocean
+Zeyuan Hu,4,13,Atmosphere
+Charles I. Stern,4,4,Atmosphere
+Andrea M. Jenney,4,10,Atmosphere
+Wayne Chuang,4,8,Atmosphere
+Marcus van Lier Walqui,4,11,Atmosphere
+Sean Patrick Santos,4,7,Atmosphere
+Zhu Liu,4,7,Atmosphere
+T. Luke Smallman,4,7,Land & hydrology
+William Gregory,4,13,Ocean
+Mitchell Bushuk,4,13,Ocean
+Brandon G. Reichl,4,13,Ocean
+Andrew Gettelman,4,15,Atmosphere
+William D. Collins,4,23,Atmosphere
+Xu Lian,4,6,Land & hydrology
+Francesco Immorlano,4,5,Atmosphere
+Gabriele Accarino,4,10,Atmosphere
+Racheet Matai,4,7,Cryosphere
+Hang Fan,4,7,Atmosphere
+Lei Bai,4,7,Atmosphere
+Ben Fei,4,7,Atmosphere
+Yi Xiao,4,7,Atmosphere
+Fenghua Ling,4,7,Atmosphere
+F. M. Hoffman,4,14,Land & hydrology
+Natasha MacBean,4,7,Land & hydrology
+Dimitris Menemenlis,4,3,Ocean
+Manuel O. Gutierrez-Villanueva,4,4,Ocean
+Adam Nayak,4,2,Land & hydrology
+Rahul Ghosh,3,6,Land & hydrology
+Kshitij Tayal,3,6,Land & hydrology
+Nora Loose,3,4,Atmosphere
+Paige E. Martin,3,6,Ocean
+Stephan Rasp,3,10,Atmosphere
+Michael Steinbach,3,5,Land & hydrology
+Xiaojuan Yang,3,4,Atmosphere
+Youngryel Ryu,3,6,Land & hydrology
+Arthur Grundner,3,6,Atmosphere
+Marco A. Giorgetta,3,8,Atmosphere
+Jordan Read,3,7,Land & hydrology
+Alison P. Appling,3,8,Land & hydrology
+Alizée Roobaert,3,9,Ocean
+Maxwell Kelley,3,6,Atmosphere
+Markus Reichstein,3,4,Land & hydrology
+D. Crisp,3,2,Ocean
+Janni Yuval,3,10,Atmosphere
+Yifan Cheng,3,19,Land & hydrology
+Hongmei Li,3,5,Atmosphere
+Hannah Christensen,3,21,Atmosphere
+Akshay Subramaniam,3,6,Atmosphere
+Ritwik Gupta,3,10,Atmosphere
+Justus C. Will,3,6,Atmosphere
+Helge Heuer,3,14,Atmosphere
+Noah D. Brenowitz,3,6,Atmosphere
+Kamal Kant Chandrakar,3,8,Atmosphere
+Seungbum Kim,3,5,Atmosphere
+Philippe Ciais,3,2,Atmosphere
+Ralph F. Keeling,3,15,Atmosphere
+Qing Sun,3,1,Land & hydrology
+Aakash Sane,3,12,Ocean
+Subashree Venkatasubramanian,3,9,Atmosphere
+Andrew Osten Hoffman,3,3,Cryosphere
+Jonathan Kingslake,3,3,Cryosphere
+Ensheng Weng,3,2,Land & hydrology
+Daniel T. McCoy,3,8,Atmosphere
+Tim H.J. Hermans,3,2,Ocean
+Roderik S.W. van de Wal,3,2,Ocean
+Candace Agonafir,3,2,Land & hydrology
+Stephan Hoyer,3,24,Atmosphere
+Abby P. Shaum,3,6,Ocean
+Zhewen Hou,3,6,Ocean
+Claire Marie Zarakas,3,14,Land & hydrology
+Danica Lombardozzi,3,14,Land & hydrology
+Abigail L. S. Swann,3,14,Land & hydrology
+Margaret Powell,3,9,Atmosphere
+Mohammad H. Erfani,3,5,Atmosphere
+Susanne E. Bauer,3,5,Atmosphere
+Kostas Tsigaridis,3,5,Atmosphere
+Katharina Hafner,3,6,Atmosphere
+W. R. Wieder,3,14,Land & hydrology
+Bruce D. Cornuelle,3,4,Ocean
+Sarah T. Gille,3,4,Ocean
+Matthew R. Mazloff,3,4,Ocean
+Carla Roesch,3,8,Atmosphere
+Othmane Echchabi,3,5,Climate system / methods (general)
+Nizar Talty,3,5,Climate system / methods (general)
+Josh Malcolm Manto,3,5,Climate system / methods (general)
+Ka Leung Lam,3,5,Climate system / methods (general)
+Kevin W Bowman,3,15,Ocean
