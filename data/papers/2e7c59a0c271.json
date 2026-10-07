@@ -1,0 +1,38 @@
+{
+  "paper_id": "2e7c59a0c271",
+  "year": "3",
+  "filename": "Intrinsic dimension of spatio-temporal chaotic systems .pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Intrinsic dimension of spatio-temporal chaotic systems",
+  "authors": [
+    "Pierre Gentine",
+    "Juan Nathaniel"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFMGC22C..02G/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "climate_and_weather_forecasting",
+  "processes": [
+    "3D turbulence",
+    "Rayleigh-Bénard convection",
+    "multiscale chaotic dynamics"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific datasets, code, or quantitative results detailed.",
+  "pain_points": [
+    "Loss functions targeting single next-time-step prediction focus on high-frequency noise and high dimensionality, failing to capture low-frequency dynamics critical for long-range prediction"
+  ],
+  "extraction_notes": "Very brief conference abstract from AGU Fall Meeting 2023; specific ML architectures and concrete dataset names are not detailed.",
+  "dataset_ids": []
+}

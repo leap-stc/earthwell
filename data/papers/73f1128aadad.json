@@ -1,0 +1,56 @@
+{
+  "paper_id": "73f1128aadad",
+  "year": "5",
+  "filename": " Improving extreme precipitation representation with machine learning-based warm rain microphysics in CESM._",
+  "model": "gemini-3.8-flash",
+  "title": "Improving Extreme Precipitation Representation with ML Based Warm Rain Microphysics in CAM6",
+  "authors": [
+    "Addisu Semie",
+    "Qingyuan Yang",
+    "Brian Medeiros",
+    "Gregory Elsaesser",
+    "Pierre Gentine",
+    "Da Fan",
+    "Wayne Chuang",
+    "Andrew Gettelman",
+    "David John Gagne II"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "warm rain microphysics",
+    "autoconversion",
+    "accretion",
+    "deep convection",
+    "extreme precipitation"
+  ],
+  "ml_methods": [
+    "neural networks"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "parameter_calibration"
+  ],
+  "parameterization_target": "warm rain microphysics (autoconversion and accretion tendencies, TAU-ML emulator replacing KK2000)",
+  "online_coupled": true,
+  "host_model": "CAM6 / CESM (CESM3-MLe)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Presentation slides without links to access the underlying simulation data or model code.",
+  "pain_points": [
+    "Structural error within the model revealed during history matching",
+    "Bin microphysics schemes are 30-300x too slow to run directly in Earth system models",
+    "Underestimation of extreme precipitation upper tails remains even with TAU-ML",
+    "Strong parameter sensitivity and coupling interactions with deep convection schemes (e.g., Zhang-McFarlane parameter interactions)"
+  ],
+  "extraction_notes": "The document is a slide presentation describing the TAU-ML warm rain microphysics emulator integrated into CAM6/CESM, paired with perturbed parameter ensembles (PPE) and history matching for auto-calibration.",
+  "dataset_ids": [
+    "73f1128aadad-01",
+    "73f1128aadad-02"
+  ]
+}

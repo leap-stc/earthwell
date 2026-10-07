@@ -1,0 +1,18 @@
+{
+  "dataset_id": "26adf7d40c29-02",
+  "paper_id": "26adf7d40c29",
+  "name": "NOAA Climgrid",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly, 12 km x 12 km aggregated",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

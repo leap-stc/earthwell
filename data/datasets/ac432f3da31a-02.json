@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ac432f3da31a-02",
+  "paper_id": "ac432f3da31a",
+  "name": "Fully coupled CESM2 ensemble simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "18-member ensemble",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

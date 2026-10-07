@@ -1,0 +1,19 @@
+{
+  "dataset_id": "26adf7d40c29-01",
+  "paper_id": "26adf7d40c29",
+  "name": "Western US MTBS-Interagency (WUMI) wildfire dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Monitoring Trends in Burn Severity (MTBS) program and federal agencies (CalFire, FWS, FS, BIA, BLM, BOR, NPS)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "18646 fire locations and burned areas",
+  "size_gb_estimate": null,
+  "resolution": "12 km x 12 km grid cells, monthly, 1984-2020",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5061/dryad.sf7m0cg72",
+  "access_kind": "public_url_or_doi"
+}

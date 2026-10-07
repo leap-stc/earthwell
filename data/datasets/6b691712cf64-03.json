@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6b691712cf64-03",
+  "paper_id": "6b691712cf64",
+  "name": "ERA5 reanalysis single levels 10 m wind",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1/4° (~25 km x 25 km)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.24381/cds.4991cf48",
+  "access_kind": "public_url_or_doi"
+}

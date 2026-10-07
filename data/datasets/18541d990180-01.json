@@ -1,0 +1,19 @@
+{
+  "dataset_id": "18541d990180-01",
+  "paper_id": "18541d990180",
+  "name": "FLUXNET2015",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "eddy covariance flux towers",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "44 sites",
+  "size_gb_estimate": null,
+  "resolution": "half-hourly",
+  "produced_in_this_study": false,
+  "access": "https://fluxnet.org/data/fluxnet2015-dataset/",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bd2e6ef762ef-02",
+  "paper_id": "bd2e6ef762ef",
+  "name": "Minimal CMIP Emulator v1.2 (MCE v1.2) CO2 equivalent concentrations",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Minimal CMIP Emulator (MCE v1.2)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Annual global mean (1850–2100)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

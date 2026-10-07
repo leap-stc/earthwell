@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bec8e33adb6f-03",
+  "paper_id": "bec8e33adb6f",
+  "name": "CMIP6 ESM Simulations (CESM2-FV2, CMCC-CM2-HR4, GFDL-ESM4)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2-FV2, CMCC-CM2-HR4, GFDL-ESM4",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Remapped to 73 × 144 (Z500), 72 × 144 (precip), 89 × 180 (SST)",
+  "produced_in_this_study": false,
+  "access": "https://leap-stc.github.io/intro.html",
+  "access_kind": "pangeo_or_cloud"
+}

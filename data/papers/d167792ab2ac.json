@@ -1,0 +1,54 @@
+{
+  "paper_id": "d167792ab2ac",
+  "year": "4",
+  "filename": "Sensitivity of Ocean Carbon Sink Estimates to Rare Observations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Sensitivity of Ocean Carbon Sink Estimates to Rare Observations",
+  "authors": [
+    "Amanda R. Fay",
+    "Thea H. Heimdal",
+    "Viviana Acquaviva",
+    "Abby P. Shaum",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2025,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2025GL117961",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 flux",
+    "surface ocean carbon cycle",
+    "ocean carbon uptake"
+  ],
+  "ml_methods": [
+    "XGBoost"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Data analysis scripts and supporting files for the LDEO reconstruction methods are publicly available at https://github.com/OceanCarbon-LDEO-Columbia/ and at https://github.com/OceanCarbon-LDEO-Columbia/pCO2Residual_Testbed for the CMIP6 testbed.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The CMIP6 testbed and observational workflows in this study are designed for observing system simulation experiments (OSSEs) and spatiotemporal reconstruction/gap-filling of surface ocean pCO2, rather than for training or evaluating ML parameterizations or climate model emulators.",
+  "pain_points": [
+    "Severe observational data sparsity (SOCAT represents roughly 2% of the global ocean surface) causing high reconstruction sensitivity to small numbers of observations in under-sampled regions like the Southern Ocean.",
+    "Decadal and interannual divergence between model ensembles (GOBMs) and observation-based statistical reconstructions.",
+    "Declining annual additions of in situ fCO2 measurements to SOCAT since 2017.",
+    "Susceptibility of ML reconstructions to observational bias when sparse cruise observations are added."
+  ],
+  "extraction_notes": "The paper uses two ML methods (pCO2-Residual and LDEO-HPD), both utilizing XGBoost, to evaluate the effect of adding SOCATv2024 data (specifically in the Southern Ocean) on air-sea carbon sink estimates and evaluates reconstruction fidelity using a 45-member CMIP6 model testbed.",
+  "dataset_ids": [
+    "d167792ab2ac-01",
+    "d167792ab2ac-02",
+    "d167792ab2ac-03",
+    "d167792ab2ac-04",
+    "d167792ab2ac-05",
+    "d167792ab2ac-06",
+    "d167792ab2ac-07",
+    "d167792ab2ac-08"
+  ]
+}

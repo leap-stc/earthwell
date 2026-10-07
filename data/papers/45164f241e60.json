@@ -1,0 +1,53 @@
+{
+  "paper_id": "45164f241e60",
+  "year": "5",
+  "filename": "Land Modeling with Machine Learning_ Parameter Sensitivity, Calibration, and Hybrid Modeling.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Land Modeling with Machine Learning: Parameter Sensitivity, Calibration, and Hybrid Modeling",
+  "authors": [
+    "Katie Dagon",
+    "Linnia Hawkins",
+    "Daniel Kennedy",
+    "David Lawrence"
+  ],
+  "pub_year": 2025,
+  "venue": "CLIVAR Summit",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "land surface modeling",
+  "processes": [
+    "carbon cycle",
+    "gross primary production",
+    "leaf area index",
+    "biomass accumulation",
+    "terrestrial carbon sink"
+  ],
+  "ml_methods": [
+    "neural network",
+    "random forest",
+    "Gaussian process model"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CLM6",
+  "code_availability": "https://gpxqz5-adrianna-foster.shinyapps.io/shiny_app/",
+  "testbed_candidate": false,
+  "testbed_rationale": "While the 1500-member CLM6 perturbed parameter ensemble dataset is ideal for training and evaluating Earth system model emulators and parameter calibration methods, direct data download paths, repositories, or full access specifications are not provided in the slide deck.",
+  "pain_points": [
+    "Large and poorly constrained parameter space (>200 parameters with complex interactions in CLM).",
+    "Plant functional type (PFT) specificity requiring separate parameter settings for each PFT.",
+    "Substantial computational expense due to long carbon residence times and path dependence during spin-up/transient runs.",
+    "Spatial variation across diverse biomes requiring specialized clustering and history matching designs."
+  ],
+  "extraction_notes": "The document is a slide presentation delivered at the CLIVAR Summit on July 22, 2025. It describes an offline ML emulator-based calibration/history matching approach using Latin hypercube sampling across 56 CLM6 parameters.",
+  "dataset_ids": [
+    "45164f241e60-01",
+    "45164f241e60-02"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "paper_id": "03cbd882667f",
+  "year": "5",
+  "filename": "Systematic Cloud Microphysics Scheme Development with Machine Learning Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Systematic Cloud Microphysics Scheme Development with Machine Learning",
+  "authors": [
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2026,
+  "venue": "106th AMS Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/106ANNUAL/meetingapp.cgi/Paper/474184",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric Science - Cloud Physics",
+  "processes": [
+    "cloud microphysics",
+    "cloud droplet formation and evolution",
+    "ice crystal formation and evolution",
+    "precipitation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "parameterization",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "cloud microphysics",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract discussing concepts and challenges in ML for cloud microphysics; does not present or release specific datasets.",
+  "pain_points": [
+    "Parametric uncertainty linked to physical parameter values",
+    "Structural uncertainty arising from incomplete physical understanding and computational approximations",
+    "Aleatoric (statistical) and epistemic (systematic) errors contributing to microphysics parameterization uncertainty",
+    "Bridging the scale gap between microphysical processes and resolved grid scales across weather and climate models"
+  ],
+  "extraction_notes": "Single-page conference presentation abstract from the 106th AMS Annual Meeting. No specific ML models, algorithms, numerical datasets, or software repositories are described.",
+  "dataset_ids": []
+}

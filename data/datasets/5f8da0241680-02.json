@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5f8da0241680-02",
+  "paper_id": "5f8da0241680",
+  "name": "GSWP3 historical atmospheric forcing dataset",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "Global Soil Wetness Project Phase 3 (GSWP3)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "2° sparse grid (29 CONUS cells), monthly (TSA and PRECIP)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

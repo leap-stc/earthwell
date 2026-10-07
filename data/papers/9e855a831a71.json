@@ -1,0 +1,32 @@
+{
+  "paper_id": "9e855a831a71",
+  "year": "3",
+  "filename": "The Past and Future of Corporate Sustainability Research.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The Past and Future of Corporate Sustainability Research",
+  "authors": [
+    "Vanessa C. Burbano",
+    "Magali A. Delmas",
+    "Manuel Jesus Cobo"
+  ],
+  "pub_year": 2024,
+  "venue": "Organization & Environment",
+  "doi_or_url": "https://doi.org/10.1177/10860266231213105",
+  "doc_kind": "journal_article",
+  "in_scope": false,
+  "research_field": "Corporate Sustainability / Management",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Bibliometric/science-mapping review of corporate sustainability in business management research; unrelated to Earth system parameterization or physical climate machine learning.",
+  "pain_points": [],
+  "extraction_notes": "Out of scope per guidelines regarding management and social science studies.",
+  "dataset_ids": []
+}

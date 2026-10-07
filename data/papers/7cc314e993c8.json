@@ -1,0 +1,50 @@
+{
+  "paper_id": "7cc314e993c8",
+  "year": "3",
+  "filename": "Understanding Precipitation Changes through Unsupervised Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Understanding Precipitation Changes through Unsupervised Machine Learning",
+  "authors": [
+    "Griffin Mooers",
+    "Tom Beucler",
+    "Mike Pritchard",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2023,
+  "venue": "Environmental Data Science",
+  "doi_or_url": "https://doi.org/10.5281/zenodo.7693052",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "deep convection",
+    "shallow convection",
+    "precipitation extremes",
+    "atmospheric dynamics",
+    "condensation"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder (VAE)",
+    "k-means clustering",
+    "vector quantization"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "SPCAM (CESM1.1.1 / UltraCAM)",
+  "code_availability": "Training and postprocessing scripts, as well as saved model weights and Python environments, are available on GitHub at 10.5281/zenodo.7693052.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study uses simulation output for offline unsupervised analysis and regime decomposition rather than training an online/offline climate parameterization or emulator testbed.",
+  "pain_points": [
+    "Massive volume of high-resolution multi-scale 3D storm-resolving simulation data (3.4 TB for 90 days)",
+    "High spatiotemporal correlations in meteorological fields require huge sample sizes (1,000,000 test fields) for robust lat/lon localized statistical analysis",
+    "Data sparsity at extreme upper quantiles (>99.9th percentile) causing noisy/pixelated spatial fields"
+  ],
+  "extraction_notes": "The simulation code is openly available, and model weights/scripts are on Zenodo (10.5281/zenodo.7693052). However, full simulation output datasets are not explicitly hosted via a public URL directly in the text, only the simulation code repository is referenced.",
+  "dataset_ids": [
+    "7cc314e993c8-01"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fe5718b56f53-03",
+  "paper_id": "fe5718b56f53",
+  "name": "ECMWF ERA5 and ERA-Interim Atmospheric Reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

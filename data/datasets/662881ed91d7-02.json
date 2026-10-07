@@ -1,0 +1,19 @@
+{
+  "dataset_id": "662881ed91d7-02",
+  "paper_id": "662881ed91d7",
+  "name": "PRMS-SNTemp simulated hydrologic and thermal states",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Precipitation-Runoff Modeling System (PRMS-IV) coupled with Stream Network Temperature Model (SNTemp)",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "13,149 daily time steps for 42 river segments across 36 years (1980-2016)",
+  "size_gb_estimate": null,
+  "resolution": "daily; 42 river segments",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

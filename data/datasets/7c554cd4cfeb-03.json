@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7c554cd4cfeb-03",
+  "paper_id": "7c554cd4cfeb",
+  "name": "NSIDC NASA Team Sea Ice Concentrations",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "Nimbus-7 SMMR and DMSP SSM/I-SSMIS passive microwave data",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "25 km",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5067/8GQ8LZQVL0VL",
+  "access_kind": "public_url_or_doi"
+}

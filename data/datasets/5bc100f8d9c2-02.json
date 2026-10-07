@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5bc100f8d9c2-02",
+  "paper_id": "5bc100f8d9c2",
+  "name": "Caravan",
+  "role": "reference_only",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "6830 catchments across the world, 70 catchment attributes",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

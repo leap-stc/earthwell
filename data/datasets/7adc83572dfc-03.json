@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7adc83572dfc-03",
+  "paper_id": "7adc83572dfc",
+  "name": "ESA Cloud_cci L3U (AVHRR-PMv3)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "AVHRR on NOAA polar-orbiting satellites",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "Daily L3U dataset for June 2009 up to and including December 2011 (excluding July 2010)",
+  "size_gb_estimate": null,
+  "resolution": "0.05° spatial resolution, 1/2 day revisit",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

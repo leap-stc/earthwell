@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3768091195d8-01",
+  "paper_id": "3768091195d8",
+  "name": "Pangeo-ESGF CMIP6 Zarr Data (CMIP6 testbed)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "45 members from 9 CMIP6 ESMs: ACCESS-ESM1-5, CanESM5, CanESM5-CanOE, CESM2, CESM2-WACCM, CMCC-ESM2, GFDL-ESM4, MPI-ESM1-2-LR, UKESM1-0-LL",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "45 members from nine independent CMIP6 ESMs (1982 to 2022)",
+  "size_gb_estimate": null,
+  "resolution": "monthly 1°x1°",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.10621538",
+  "access_kind": "pangeo_or_cloud"
+}

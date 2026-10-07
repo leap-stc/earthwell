@@ -1,0 +1,19 @@
+{
+  "dataset_id": "18541d990180-02",
+  "paper_id": "18541d990180",
+  "name": "TROPOMI far-red solar-induced chlorophyll fluorescence (SIF)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "TROPOMI spectrometer on Sentinel-5 Precursor",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.083° (resampled to 0.05°), annual average for 2020",
+  "produced_in_this_study": false,
+  "access": "ftp://fluo.gps.caltech.edu/data/tropomi/",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "11a897504521-02",
+  "paper_id": "11a897504521",
+  "name": "ECMWF ORAS5 Ocean Reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ORAS5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1979-2019 detrended SST anomalies and thermocline depth across regional climate mode indices",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

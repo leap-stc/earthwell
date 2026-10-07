@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0a557d1c4c2e-02",
+  "paper_id": "0a557d1c4c2e",
+  "name": "CESM2 CAM6 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NCAR CESM2 CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "262 members (210 training, 52 validation)",
+  "size_gb_estimate": null,
+  "resolution": "0.9° × 1.1°, 32 vertical levels",
+  "produced_in_this_study": false,
+  "access": "The datasets used in this work can be found in the supporting documents of this work. The codes and datasets used in this work are also made available on github (https://github.com/yiqioyang/ppesage).",
+  "access_kind": "public_url_or_doi"
+}

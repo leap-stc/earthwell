@@ -1,0 +1,62 @@
+{
+  "paper_id": "589440f0ebac",
+  "year": "3",
+  "filename": "Dryland evapotranspiration from remote sensing solar-induced chlorophyll fluorescence_ Constraining an optimal stomatal model within a two-source energy balance model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Dryland evapotranspiration from remote sensing solar-induced chlorophyll fluorescence: Constraining an optimal stomatal model within a two-source energy balance model",
+  "authors": [
+    "Jingyi Bu",
+    "Guojing Gan",
+    "Jiahao Chen",
+    "Yanxin Su",
+    "Mengjia Yuan",
+    "Yanchun Gao",
+    "Francisco Domingo",
+    "Ana López-Ballesteros",
+    "Mirco Migliavacca",
+    "Tarek S. El-Madany",
+    "Pierre Gentine",
+    "Jingfeng Xiao",
+    "Monica Garcia"
+  ],
+  "pub_year": 2024,
+  "venue": "Remote Sensing of Environment",
+  "doi_or_url": "https://doi.org/10.1016/j.rse.2024.113999",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "evapotranspiration",
+    "plant transpiration",
+    "soil evaporation",
+    "canopy conductance",
+    "photosynthesis",
+    "surface energy balance"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "parameter_calibration"
+  ],
+  "parameterization_target": "canopy conductance and evapotranspiration partitioning",
+  "online_coupled": false,
+  "host_model": "Gc-TSEB",
+  "code_availability": "Data and Gc-TSEB code will be made available on request.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops a semi-mechanistic physical land-surface model (Gc-TSEB) calibrated with MCMC rather than training an ML parameterization, and model code is available only on request.",
+  "pain_points": [
+    "Spatial scale mismatch between 0.05-degree remote sensing SIF pixels and sub-kilometer eddy covariance tower footprints",
+    "High sub-pixel landscape heterogeneity in drylands and tree-grass savanna ecosystems",
+    "Decoupling of the SIF-photosynthesis relationship under intense water stress, drought, and heatwaves",
+    "Lack of reliable, high-resolution root-zone soil water content estimates to constrain stomatal regulation",
+    "Errors in satellite land surface temperature retrievals used for model calibration"
+  ],
+  "extraction_notes": "The study focuses on physically based and semi-mechanistic modelling (Two-Source Energy Balance model coupled with Medlyn optimal stomatal conductance model), using MCMC for parameter calibration. ML is involved upstream in the creation of the CSIF input product (Zhang et al. 2018a), but no new ML architecture is developed in this work.",
+  "dataset_ids": [
+    "589440f0ebac-01",
+    "589440f0ebac-02",
+    "589440f0ebac-03",
+    "589440f0ebac-04",
+    "589440f0ebac-05",
+    "589440f0ebac-06"
+  ]
+}

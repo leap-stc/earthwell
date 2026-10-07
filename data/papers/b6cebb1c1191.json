@@ -1,0 +1,54 @@
+{
+  "paper_id": "b6cebb1c1191",
+  "year": "4",
+  "filename": "Interpretable Machine Learning-based Radiation Emulation for ICON.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Interpretable Machine Learning-based Radiation Emulation for ICON",
+  "authors": [
+    "Katharina Hafner",
+    "Fernando Iglesias-Suarez",
+    "Sara Shamekh",
+    "Pierre Gentine",
+    "Marco A. Giorgetta",
+    "Robert Pincus",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": "https://doi.org/10.22541/essoar.173169996.65100750/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "shortwave radiation",
+    "longwave radiation",
+    "cloud-radiation interactions",
+    "radiative transfer"
+  ],
+  "ml_methods": [
+    "Bi-LSTM",
+    "Convolutional Neural Network",
+    "Fully Connected Neural Network",
+    "SHAP"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "radiative heating rates and surface/TOA fluxes",
+  "online_coupled": false,
+  "host_model": "ICON-A",
+  "code_availability": "The code will be published under https://github.com/EyringMLClimateGroup/hafner24jgrml MLradiationemulation offline. The software code for the ICON model is available from https://icon-model.org.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The simulation dataset itself does not have an explicit open data download URL or repository specified (only the ML code repo is provided, along with the ICON model source URL).",
+  "pain_points": [
+    "Larger errors under cloudy sky conditions compared to clear sky conditions due to horizontal cloud heterogeneity at coarse scales",
+    "Omits interactive aerosols and varying greenhouse gases (fixed annual mean CO2)",
+    "Independent prediction of vertical heating rates and boundary fluxes does not guarantee exact conservation/energy consistency, though checked a posteriori to be within ~1 W/m2",
+    "Direct flux components show lower R2 (<0) compared to diffuse and total components"
+  ],
+  "extraction_notes": "The manuscript describes an offline emulation of the RTE+RRTMGP scheme within ICON-A. Online coupling is planned for future work.",
+  "dataset_ids": [
+    "b6cebb1c1191-01"
+  ]
+}

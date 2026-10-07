@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ce54e4a6c53c-02",
+  "paper_id": "ce54e4a6c53c",
+  "name": "CESM 1.1 High-Resolution Simulation Output",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM 1.1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1° ocean, 0.25° atmosphere; daily averages over 2 years",
+  "produced_in_this_study": false,
+  "access": "Atmospheric fields: https://ncsa.osn.xsede.org/Pangeo/pangeo-forge-test/prod/recipe-run-502/pangeo-forge/cesm-atm-025deg-feedstock/cesm-atm-025deg.zarr; Ocean fields: gs://pangeo-cesm-pop/control",
+  "access_kind": "pangeo_or_cloud"
+}

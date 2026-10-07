@@ -1,0 +1,19 @@
+{
+  "dataset_id": "1dc1d9ed975c-01",
+  "paper_id": "1dc1d9ed975c",
+  "name": "SPCAM Control and +4K Warmed simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM (Super Parameterized Community Atmospheric Model)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "3.4 Terabytes of data, with 76,944,384 samples",
+  "size_gb_estimate": 3400.0,
+  "resolution": "Host GCM: 1.9° x 2.5°; Embedded CRM: 128 columns spaced 4 km apart (512 km physical extent), 30 vertical levels; 15S-15N latitude band",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

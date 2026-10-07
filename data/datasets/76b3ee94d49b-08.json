@@ -1,0 +1,18 @@
+{
+  "dataset_id": "76b3ee94d49b-08",
+  "paper_id": "76b3ee94d49b",
+  "name": "OAFlux net surface heat flux",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "OAFlux",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Climatology 1981-2010",
+  "produced_in_this_study": false,
+  "access": "https://oaflux.whoi.edu/data-access/",
+  "access_kind": "public_url_or_doi"
+}

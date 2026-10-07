@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a4d0f7df7f2c-01",
+  "paper_id": "a4d0f7df7f2c",
+  "name": "PINACLES LES simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Predicting INteractions of Aerosol and Clouds in Large Eddy Simulations (PINACLES)",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

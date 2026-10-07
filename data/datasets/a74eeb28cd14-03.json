@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a74eeb28cd14-03",
+  "paper_id": "a74eeb28cd14",
+  "name": "CAM5 standard parameterization simulation",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "123,420,672 atmospheric columns simulated",
+  "size_gb_estimate": null,
+  "resolution": "1.9°×2.5°×15 min, 93 days",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

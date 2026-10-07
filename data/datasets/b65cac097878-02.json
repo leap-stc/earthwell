@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b65cac097878-02",
+  "paper_id": "b65cac097878",
+  "name": "GPM IMERG V06",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPM constellation",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "half-hourly native 0.1° × 0.1° aggregated to hourly and regridded to 1.0° × 1.0°",
+  "produced_in_this_study": false,
+  "access": "https://planetarycomputer.microsoft.com/dataset/gpm-imerg-hhr",
+  "access_kind": "pangeo_or_cloud"
+}

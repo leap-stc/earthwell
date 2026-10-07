@@ -1,0 +1,48 @@
+{
+  "paper_id": "256b2a11ab7f",
+  "year": "5",
+  "filename": "Structural error-aware climate model calibration with global, local and zonal climatologies using Perturbed Parameter Ensembles (PPEs) Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Structural error-aware climate model calibration with global, local and zonal climatologies using Perturbed Parameter Ensembles (PPEs)",
+  "authors": [
+    "Qingyuan Yang",
+    "Addisu Semie",
+    "Gregory Elsaesser",
+    "Brian Medeiros",
+    "Da Fan"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1973654",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "warm rain microphysics",
+    "cloud microphysics"
+  ],
+  "ml_methods": [
+    "emulator"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "emulation",
+    "parameterization",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "warm rain microphysics",
+  "online_coupled": true,
+  "host_model": "CESM2 CAM6",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific public dataset or code links provided.",
+  "pain_points": [
+    "Implementation of the proposed calibration steps requires a significant number of emulated samples (over one million), necessitating sequential sampling.",
+    "Strong structural errors cannot be resolved simply by tuning or modifying parameter values.",
+    "High dimensionality and computational cost in efficiently constraining parameter space using climate model PPEs."
+  ],
+  "extraction_notes": "The study tests a calibration method on a 100-member PPE generated from CESM2 CAM6 coupled with an ML-based warm rain microphysics parameterization. Specific architecture of the emulator or parameterization is not stated in the abstract.",
+  "dataset_ids": [
+    "256b2a11ab7f-01"
+  ]
+}

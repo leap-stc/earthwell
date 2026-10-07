@@ -1,0 +1,18 @@
+{
+  "dataset_id": "589440f0ebac-06",
+  "paper_id": "589440f0ebac",
+  "name": "Gridded GPP benchmark products (MODIS GPP, PML GPP, FLUXCOM GPP)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS, PML-V2, and FLUXCOM upscaled EC",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily to 8-day",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1b93d9b00aae-03",
+  "paper_id": "1b93d9b00aae",
+  "name": "Cheorwon rice paddy eddy covariance and SIF measurements",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Automated spectroscopy system (QE Pro-spectrometer) and eddy covariance tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "half-hourly, growing season 2016 (DOY 120 to 248)",
+  "produced_in_this_study": false,
+  "access": "The Cheorwon site observations are public on the FLUXNET website (https://fluxnet.org/doi/FLUXNET-CH4/KR-CRK).",
+  "access_kind": "public_url_or_doi"
+}

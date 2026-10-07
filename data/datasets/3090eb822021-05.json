@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3090eb822021-05",
+  "paper_id": "3090eb822021",
+  "name": "GPCP V2.3 and TRMM TMPA V7 Surface Precipitation Rate (PRECT/pr)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPCP V2.3 (1979-2014) and TRMM TMPA V7 (1998-2013)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": "1979-2014 / 1998-2013 blend",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Obs4MIPS archive",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "8210b7390744",
+  "year": "2",
+  "filename": "Correcting Systematic and State‐Dependent Errors in the NOAA FV3‐GFS Using Neural Networks - Chen - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Correcting Systematic and State-Dependent Errors in the NOAA FV3-GFS Using Neural Networks",
+  "authors": [
+    "Tse-Chun Chen",
+    "Stephen G. Penny",
+    "Jeffrey S. Whitaker",
+    "Sergey Frolov",
+    "Robert Pincus",
+    "Stefan Tulich"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2022MS003309",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "numerical weather prediction",
+  "processes": [
+    "systematic model error correction",
+    "atmospheric boundary layer processes",
+    "moist convection and precipitation",
+    "atmospheric radiation",
+    "gravity wave drag"
+  ],
+  "ml_methods": [
+    "neural network",
+    "column neural network",
+    "convolutional neural network"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "data_assimilation",
+    "forecasting",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "analysis increments / systematic model error tendencies for temperature, specific humidity, and horizontal winds",
+  "online_coupled": true,
+  "host_model": "NOAA FV3-GFS",
+  "code_availability": "The source code for the FV3-GFS model can be found at https://github.com/ufs-community/ufs-weather-model. The data assimilation and replay workflows are available at https://github.com/jswhit/da_scripts and https://github.com/jswhit/replay_scripts. The data reduction and training scripts are available at https://github.com/NOAA-PSL/model_error_correction.",
+  "testbed_candidate": false,
+  "testbed_rationale": "While the training and workflow scripts are open on GitHub, the multi-terabyte replay output dataset itself is not hosted in a permanent public data repository or downloadable cloud archive.",
+  "pain_points": [
+    "Language/framework interface barrier: interfacing Fortran FV3-GFS with Python ML required stop-and-restart execution with intermediate files every 6 hours, creating an operational bottleneck.",
+    "Low signal-to-noise ratio in training data: analysis increments conflate systematic model error with observational network heterogeneity, measurement noise, and initial condition errors.",
+    "Resolution transferability: 2D CNN kernels trained on T21 could not be directly executed on C192, necessitating spectral truncation and zero-padding upscaling pipelines.",
+    "Generalization breakdown for specific variables: u-wind showed skill offline but degraded online forecast performance in upper atmospheric levels, indicating state-dependent increments contained confounding non-model-error information."
+  ],
+  "extraction_notes": "Robert Pincus was supported via NSF STC Learning the Earth with Artificial Intelligence and Physics (LEAP), NSF Award 2019625. Online coupling was achieved at 6-hour discrete intervals via intermediate forecast files.",
+  "dataset_ids": [
+    "8210b7390744-01",
+    "8210b7390744-02"
+  ]
+}

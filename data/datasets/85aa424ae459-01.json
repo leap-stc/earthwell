@@ -1,0 +1,18 @@
+{
+  "dataset_id": "85aa424ae459-01",
+  "paper_id": "85aa424ae459",
+  "name": "ERA5",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System (IFS)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

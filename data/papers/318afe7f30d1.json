@@ -1,0 +1,46 @@
+{
+  "paper_id": "318afe7f30d1",
+  "year": "3",
+  "filename": "Memory-based parameterization with differentiable solver_ Application to Lorenz ’96.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Memory-based parameterization with differentiable solver: Application to Lorenz ’96",
+  "authors": [
+    "Mohamed Aziz Bhouri",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Chaos: An Interdisciplinary Journal of Nonlinear Science",
+  "doi_or_url": "https://doi.org/10.1063/5.0131929",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "multiscale interactions",
+    "subgrid coupling",
+    "chaotic dynamics"
+  ],
+  "ml_methods": [
+    "Fully Connected Neural Networks",
+    "Differentiable ODE/DDE solver",
+    "Delay Differential Equations"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "forecasting"
+  ],
+  "parameterization_target": "Subgrid coupling tendency / closure term of the fast variables onto the slow variables",
+  "online_coupled": true,
+  "host_model": "Lorenz '96",
+  "code_availability": "All codes and data presented in this section are made publicly available at https://github.com/bhouri0412/Hist_Bayesian_Closure.",
+  "testbed_candidate": false,
+  "testbed_rationale": "Uses a low-dimensional idealized dynamical system (Lorenz '96) rather than realistic Earth system model or atmospheric/oceanic dataset.",
+  "pain_points": [
+    "Standard instantaneous parameterizations fail over long time horizons due to stochasticity and unobserved fast variables.",
+    "Delay Differential Equations with standard Runge-Kutta schemes risk requiring data interpolation across time-lags; avoided here by doubling integration time step.",
+    "Temporal coarse-graining and discretization introduce significant numerical errors in online integration."
+  ],
+  "extraction_notes": "The paper uses the Lorenz '96 model as an idealized testbed for memory-based parameterization with a differentiable solver.",
+  "dataset_ids": [
+    "318afe7f30d1-01"
+  ]
+}

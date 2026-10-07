@@ -1,0 +1,20 @@
+{
+  "dataset_id": "25cb33f5f0a6-01",
+  "paper_id": "25cb33f5f0a6",
+  "name": "Global Carbon Budget 2024 Synthesis Dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "GCM_ESM",
+  "data_types": [
+    "time_series",
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Annual, global and gridded (0.25° to model resolution)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.18160/GCP-2024",
+  "access_kind": "public_url_or_doi"
+}

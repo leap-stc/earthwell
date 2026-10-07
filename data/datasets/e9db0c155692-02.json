@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e9db0c155692-02",
+  "paper_id": "e9db0c155692",
+  "name": "Earth System Data Lab (ESDL) carbon and water cycle data",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Harmonized satellite Earth observation products",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25 degree, 8-day temporal resolution (2001–2011)",
+  "produced_in_this_study": false,
+  "access": "https://www.earthsystemdatalab.net/",
+  "access_kind": "public_url_or_doi"
+}

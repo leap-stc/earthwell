@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9a0484dcafbe-03",
+  "paper_id": "9a0484dcafbe",
+  "name": "COCPIT (Classification of Cloud Particle Images with Transferability) dataset",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI)",
+  "scale": "other",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "154,222 bullet rosettes across 11 airborne field campaigns",
+  "size_gb_estimate": null,
+  "resolution": "2.3 um pixel resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

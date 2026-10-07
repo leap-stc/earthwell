@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e00413d4876d-02",
+  "paper_id": "e00413d4876d",
+  "name": "DiSKICE bin microphysics model simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Diffusion Surface Kinetics Ice Crystal Evolution (DiSKICE)",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

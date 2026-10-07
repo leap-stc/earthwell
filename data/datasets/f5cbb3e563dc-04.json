@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f5cbb3e563dc-04",
+  "paper_id": "f5cbb3e563dc",
+  "name": "CLM5.1-BGC One-at-a-Time Perturbed Parameter Ensemble (PPE) raw dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM5.1-BGC (CTSM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": ">2 TB",
+  "size_gb_estimate": 2000.0,
+  "resolution": "400-cluster sparse grid based on nominal 2°",
+  "produced_in_this_study": true,
+  "access": "NSF-NCAR computing system (Cheyenne / CISL)",
+  "access_kind": "hpc_only"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e381babe14cf-01",
+  "paper_id": "e381babe14cf",
+  "name": "ClimSim",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF (cloud-resolving model embedded in host GCM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "ten years of globally distributed input-output pairs",
+  "size_gb_estimate": null,
+  "resolution": "~1.5 horizontal resolution, 20-minute temporal intervals",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.11578/E3SM/dc.20230110.5",
+  "access_kind": "public_url_or_doi"
+}

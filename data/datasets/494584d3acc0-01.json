@@ -1,0 +1,18 @@
+{
+  "dataset_id": "494584d3acc0-01",
+  "paper_id": "494584d3acc0",
+  "name": "Coarse-grained LES dry convective boundary layer simulation suite",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Large Eddy Simulation code (Albertson 1996; Bou-Zeid et al. 2005; Kumar et al. 2006)",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "600k samples across 6 simulations, 5 scalars, and 20k samples each",
+  "size_gb_estimate": null,
+  "resolution": "Original LES: 256^3 cubic domain, dx=dy=24 m, dz=6 m; coarse-grained horizontally to 1.5 km (4x4 grids) and 128 vertical levels",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.8039033",
+  "access_kind": "public_url_or_doi"
+}

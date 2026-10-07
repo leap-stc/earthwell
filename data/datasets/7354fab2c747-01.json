@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7354fab2c747-01",
+  "paper_id": "7354fab2c747",
+  "name": "Synthetic ice growth dataset",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Nelson and Baker (2005) functional model",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

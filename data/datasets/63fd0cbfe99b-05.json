@@ -1,0 +1,18 @@
+{
+  "dataset_id": "63fd0cbfe99b-05",
+  "paper_id": "63fd0cbfe99b",
+  "name": "Modelled global water table depth (WTD)",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "Equilibrium groundwater model (Fan et al., 2017)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Averaged from 0.0083° x 0.0083° to 0.083° x 0.083°",
+  "produced_in_this_study": false,
+  "access": "http://thredds-gfnl.usc.es/thredds/catalog/GLOBALWTDFTP/annualmeans/catalog.html",
+  "access_kind": "public_url_or_doi"
+}

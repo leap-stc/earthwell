@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ce8197c246db-02",
+  "paper_id": "ce8197c246db",
+  "name": "Global Carbon Budget 2024 surface ocean fCO2 products (CMEMS, fCO2-Residual, SOM-FFN, OceanSODAv2)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ML-based mapping products (ensemble of feed-forward neural networks, XGBoost, SOM-FFN)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "regridded to 1°x1°, monthly (native 0.25° to 1°, 8-daily to monthly)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.14092496",
+  "access_kind": "public_url_or_doi"
+}

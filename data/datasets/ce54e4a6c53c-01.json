@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ce54e4a6c53c-01",
+  "paper_id": "ce54e4a6c53c",
+  "name": "GFDL CM2.6 Control Simulation Output",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL CM2.6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1° ocean, 0.5° atmosphere; daily averages over 20 years",
+  "produced_in_this_study": false,
+  "access": "gs://cmip6/GFDL_CM2_6/",
+  "access_kind": "pangeo_or_cloud"
+}

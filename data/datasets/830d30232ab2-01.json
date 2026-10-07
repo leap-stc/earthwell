@@ -1,0 +1,19 @@
+{
+  "dataset_id": "830d30232ab2-01",
+  "paper_id": "830d30232ab2",
+  "name": "NCAR SCAM Perturbed Parameter Ensemble (PPE) SPARTICUS simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NCAR SCAM",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "500 members per PPE",
+  "size_gb_estimate": null,
+  "resolution": "single column",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

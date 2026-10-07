@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d606ef6024cb-01",
+  "paper_id": "d606ef6024cb",
+  "name": "SPCAM3 aquaplanet simulations (-4K, +0K, +4K)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM3 (Super-Parameterized Community Atmosphere Model version 3.0)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "(2.8°×2.8°) T42 × 30 levels × 30 min",
+  "produced_in_this_study": true,
+  "access": "Raw output of the (+0K) simulation can be found at https://zenodo.org/record/1402384#.YaUCsdDMI-w. The full simulations output, which is several TB, is archived on the GreenPlanet cluster at UC Irvine and available upon request. Data accompanying paper: https://doi.org/10.5281/zenodo.8140536",
+  "access_kind": "public_url_or_doi"
+}

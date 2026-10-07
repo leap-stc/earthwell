@@ -1,0 +1,31 @@
+{
+  "paper_id": "eaf9e28350b0",
+  "year": "2",
+  "filename": "Doing Well by Requiring Employees to Do Good_ Field Experimental Evidence of the Effects of a One-time, Mandatory Corporate Social Intervention on Employees.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Doing Well by Requiring Employees to Do Good: Field Experimental Evidence of the Effects of a One-time, Mandatory Corporate Social Intervention on Employees",
+  "authors": [
+    "Florencio Portocarrero",
+    "Vanessa C. Burbano"
+  ],
+  "pub_year": 2022,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "Organizational Behavior / Management",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Out of scope: management and organizational psychology study testing corporate social responsibility interventions on employee stress and turnover. Contains no Earth system, climate, or environmental simulation data.",
+  "pain_points": [],
+  "extraction_notes": "Working paper examining a randomized field experiment of corporate social employee interventions (CSEIs) at a Latin American bank.",
+  "dataset_ids": []
+}

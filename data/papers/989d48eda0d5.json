@@ -1,0 +1,50 @@
+{
+  "paper_id": "989d48eda0d5",
+  "year": "3",
+  "filename": "Stress-testing the coupled behavior of hybrid physics-machine learning climate simulations on an unseen, warmer climate.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Stress-testing the coupled behavior of hybrid physics-machine learning climate simulations on an unseen, warmer climate",
+  "authors": [
+    "Jerry Lin",
+    "Mohamed Aziz Bhouri",
+    "Tom Beucler",
+    "Sungduk Yu",
+    "Michael Pritchard"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2401.02098",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "convection",
+    "radiation",
+    "subgrid_cloud_physics",
+    "turbulence"
+  ],
+  "ml_methods": [
+    "dense feedforward neural networks"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "subgrid convection and radiation (heating and moistening tendencies)",
+  "online_coupled": true,
+  "host_model": "SPCAM 3",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The simulation datasets and code are not explicitly provided with a public URL, DOI, or repository link in the text.",
+  "pain_points": [
+    "Unstable coupled simulations (premature simulation termination in online coupled testing, only 4.5% to 23% completed a full year)",
+    "Poor out-of-distribution generalization in warmer climates (+4K SST), where uncoupled errors spike and baseline models fail",
+    "Coupled moisture errors are consistently worse in out-of-distribution climates than in-distribution",
+    "Models performing best in one climate do not necessarily perform best in another",
+    "Current single-climate architectural adjustments (climate-invariant features, expanded inputs, memory) do not preclude the need for multi-climate training data"
+  ],
+  "extraction_notes": "The study tests ML parameterizations coupled into SPCAM 3 using Fortran-Keras Bridge (FKB) across 330 neural network configurations under control and +4K warm climate conditions.",
+  "dataset_ids": [
+    "989d48eda0d5-01"
+  ]
+}

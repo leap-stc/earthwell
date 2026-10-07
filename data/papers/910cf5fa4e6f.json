@@ -1,0 +1,49 @@
+{
+  "paper_id": "910cf5fa4e6f",
+  "year": "3",
+  "filename": "HISTORY-BASED, BAYESIAN, CLOSURE FOR STOCHASTIC PARAMETERIZATION_ APPLICATION TO LORENZ ’96.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "History-based, Bayesian, Closure for Stochastic Parameterization: Application to Lorenz '96",
+  "authors": [
+    "Mohamed Aziz Bhouri",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2022,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2210.14488",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modelling",
+  "processes": [
+    "subgrid scale interactions",
+    "atmospheric dynamics",
+    "multiscale chaotic dynamics"
+  ],
+  "ml_methods": [
+    "fully connected neural networks",
+    "Hamiltonian Monte Carlo",
+    "Markov Chain Monte Carlo",
+    "Bayesian neural networks"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "uncertainty_quantification",
+    "forecasting"
+  ],
+  "parameterization_target": "subgrid coupling term in Lorenz '96 system representing unresolved fast variables",
+  "online_coupled": true,
+  "host_model": "Lorenz '96 (delay differential equation formulation)",
+  "code_availability": "https://github.com/bhouri0412/Hist_Bayesian_Closure",
+  "testbed_candidate": false,
+  "testbed_rationale": "Uses an idealized, low-dimensional toy model (Lorenz '96) rather than realistic Earth system, climate, or weather data/models, so it is not a direct candidate for the Earth Well benchmark dataset testbed.",
+  "pain_points": [
+    "High computational cost of standard MCMC in high-dimensional neural network parameter spaces.",
+    "Temporal discretization errors and numerical stability issues when using coarse time steps in online integration.",
+    "Absence of information on unobserved fast/subgrid variables causing non-Markovian memory effects and stochastic mismatch.",
+    "Observational noise and temporal sparsity in data causing parameter and forecast uncertainty."
+  ],
+  "extraction_notes": "The study demonstrates a delay-differential equation (history-based) parameterization using Hamiltonian Monte Carlo (HMC) sampling within JAX for the Lorenz '96 system.",
+  "dataset_ids": [
+    "910cf5fa4e6f-01"
+  ]
+}

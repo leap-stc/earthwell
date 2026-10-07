@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5b59e74827e4-01",
+  "paper_id": "5b59e74827e4",
+  "name": "CLM perturbed parameter simulation ensemble outputs",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Community Land Model (CLM)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

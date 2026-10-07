@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d76ff1a406ad-04",
+  "paper_id": "d76ff1a406ad",
+  "name": "Processed state-level electricity generation, carbon emissions, and population-weighted temperature dataset",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily, state-level (48 US states + DC), July 2018 to April 2023",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.10161493",
+  "access_kind": "public_url_or_doi"
+}

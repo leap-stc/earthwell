@@ -1,0 +1,19 @@
+{
+  "dataset_id": "8210b7390744-01",
+  "paper_id": "8210b7390744",
+  "name": "FV3-GFS Replay Analysis Increments Dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NOAA FV3-GFS (C192, 127 vertical levels)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "C192 (~50 km) coarsened/sampled to T21 (~64x32 grid), 127 vertical levels, 6-hourly over 15 months",
+  "produced_in_this_study": true,
+  "access": "https://github.com/NOAA-PSL/model_error_correction",
+  "access_kind": "on_request"
+}

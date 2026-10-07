@@ -1,0 +1,61 @@
+{
+  "paper_id": "d2ef340cbf2d",
+  "year": "5",
+  "filename": "Understanding Ice Crystal Habit Diversity with Self-Supervised Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Understanding Ice Crystal Habit Diversity with Self-Supervised Learning",
+  "authors": [
+    "Joseph Ko",
+    "Hariprasath Govindarajan",
+    "Fredrik Lindsten",
+    "Vanessa Przybylo",
+    "Kara Sulia",
+    "Marcus van Lier-Walqui",
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2025,
+  "venue": "Tackling Climate Change with Machine Learning: workshop at NeurIPS 2025",
+  "doi_or_url": "https://arxiv.org/abs/2509.07688",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "ice crystal morphology",
+    "cloud microphysics",
+    "ice habit diversity"
+  ],
+  "ml_methods": [
+    "Vision Transformer (ViT-Small)",
+    "iBOT-vMF",
+    "iBOT",
+    "DINOv3",
+    "VGG16",
+    "logistic regression",
+    "k-nearest neighbors",
+    "hierarchical k-means",
+    "UMAP",
+    "PCA"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Public third-party code repositories referenced in footnotes: iBOT (https://github.com/bytedance/ibot/) and SSL data curation (https://github.com/facebookresearch/ssl-data-curation). Code for this study is not explicitly provided in the manuscript.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets consist of microscopic in situ cloud particle images and co-located flight measurements for self-supervised representation learning and habit classification, rather than grid-cell forcing/target states suitable for atmospheric parameterization or emulation.",
+  "pain_points": [
+    "Class imbalance in self-supervised learning datasets leading to prototype collapse or poor representation balance in DINO models.",
+    "Very high computational cost of self-supervised learning pre-training on millions of domain-specific scientific images.",
+    "Difficulty of scaling manual habit labeling for millions of in situ cloud particle probe images."
+  ],
+  "extraction_notes": "The paper uses self-supervised learning (iBOT-vMF with ViT-Small) to learn latent representations of ice crystal morphology without manual supervision, and validates it using a hand-labeled test set and a downstream application relating concentration parameter kappa to temperature, particle size, and campaign.",
+  "dataset_ids": [
+    "d2ef340cbf2d-01",
+    "d2ef340cbf2d-02",
+    "d2ef340cbf2d-03",
+    "d2ef340cbf2d-04"
+  ]
+}

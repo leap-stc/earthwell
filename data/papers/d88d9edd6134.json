@@ -1,0 +1,54 @@
+{
+  "paper_id": "d88d9edd6134",
+  "year": "3",
+  "filename": "Machine Learning for Online Sea Ice Bias Correction Within Global Ice‐Ocean Simulations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Machine Learning for Online Sea Ice Bias Correction Within Global Ice‐Ocean Simulations",
+  "authors": [
+    "William Gregory",
+    "Mitchell Bushuk",
+    "Yongfei Zhang",
+    "Alistair Adcroft",
+    "Laure Zanna"
+  ],
+  "pub_year": 2024,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "10.1029/2023GL106776",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "sea_ice",
+  "processes": [
+    "sea ice concentration dynamics",
+    "sea ice thermodynamics",
+    "ice-ocean coupling",
+    "sea ice edge evolution"
+  ],
+  "ml_methods": [
+    "Convolutional Neural Network",
+    "CNN"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "data_assimilation"
+  ],
+  "parameterization_target": "sea ice concentration increments / bias correction",
+  "online_coupled": true,
+  "host_model": "GFDL SPEAR (MOM6 and SIS2)",
+  "code_availability": "All data from the 1982–2017 DAZ21 experiment are available on Zenodo (https://doi.org/10.5281/zenodo.7818178). Code to implement the CNN into the SIS2 sea ice model and perform DA are available on Zenodo (https://doi.org/10.5281/zenodo.10359842).",
+  "testbed_candidate": true,
+  "testbed_rationale": "Publicly archived dataset of data assimilation increments and code implementing online ML correction inside a production global sea-ice model (SIS2 in GFDL SPEAR) provide a clear testbed for data-driven parameterization and bias correction.",
+  "pain_points": [
+    "Online climate drift and large summertime residual errors requiring iterative online data augmentation to sample state trajectories post-correction",
+    "Model shock in online simulations characterized by 5-day cyclic shocks in sea ice extent because corrections are disproportionately applied to the thinnest ice category (5 cm)",
+    "Lack of mass, heat, and salt conservation when directly altering sea ice concentration state variables",
+    "Generalization challenges when moving from ocean-ice forced runs to fully coupled atmosphere-ocean-sea ice models with interactive feedbacks"
+  ],
+  "extraction_notes": "The paper uses CNNs trained to emulate data assimilation increments from an ensemble Kalman filter (EAKF) as an online subgrid bias-correction/parameterization within GFDL's SIS2/MOM6 models.",
+  "dataset_ids": [
+    "d88d9edd6134-01",
+    "d88d9edd6134-02",
+    "d88d9edd6134-03",
+    "d88d9edd6134-04",
+    "d88d9edd6134-05"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "paper_id": "be371321361e",
+  "year": "4",
+  "filename": "A Generative Super‐Resolution Model for EnhancingTropical Cyclone Wind Field Intensity and Resolution.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Generative Super‐Resolution Model for Enhancing Tropical Cyclone Wind Field Intensity and Resolution",
+  "authors": [
+    "Joseph W. Lockwood",
+    "Avantika Gori",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Geophysical Research: Machine Learning and Computation",
+  "doi_or_url": "https://doi.org/10.1029/2024JH000375",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "tropical meteorology",
+  "processes": [
+    "tropical cyclone wind fields",
+    "extreme surface winds",
+    "inner-core tropical cyclone dynamics"
+  ],
+  "ml_methods": [
+    "Multilayer Perceptron",
+    "U-Net",
+    "Denoising Diffusion Probabilistic Model (DDPM)",
+    "Classifier-Free Guidance",
+    "Integrated Gradients"
+  ],
+  "ml_tasks": [
+    "downscaling_superres",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.14029551",
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on statistical post-processing/downscaling and super-resolution of tropical cyclone wind fields rather than physical subgrid parameterization or online model coupling.",
+  "pain_points": [
+    "Chronic underprediction of tropical cyclone intensity and loss of core structure in coarse climate and weather reanalyses/models (0.25°–1°).",
+    "Limited observational coverage and time window smoothing in HWind data (3–6 hour assimilation windows rather than instantaneous snapshots).",
+    "Stochastic variability in diffusion sampling leading to occasional over- or under-estimation of peak wind speeds.",
+    "Non-stationarity and out-of-distribution generalization challenges when applying trained models under climate change."
+  ],
+  "extraction_notes": "The framework cascades an MLP debiasing network (ERA5 -> debiased low-resolution target) with a conditional U-Net DDPM (super-resolving from 0.25° to 0.05° and generating a 40-member ensemble).",
+  "dataset_ids": [
+    "be371321361e-01",
+    "be371321361e-02",
+    "be371321361e-03"
+  ]
+}

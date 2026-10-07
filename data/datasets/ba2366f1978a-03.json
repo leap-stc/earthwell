@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ba2366f1978a-03",
+  "paper_id": "ba2366f1978a",
+  "name": "Synthetic multimodal regression dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Synthetic function generator (sinusoidal, linear, quadratic, l1 norm, hyperbolic tangent)",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "112,500 functions for train, 37,500 functions for test",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

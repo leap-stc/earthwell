@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5b39153c87f9-01",
+  "paper_id": "5b39153c87f9",
+  "name": "1D kinematic driver model with TAU spectral bin microphysics simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "1D kinematic driver model with Tel Aviv University (TAU) spectral bin microphysical scheme",
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": "230,080 samples",
+  "size_gb_estimate": null,
+  "resolution": "2 km domain depth, 20 vertical levels, 5 s time step, 35 mass-doubling bins",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.7487288",
+  "access_kind": "public_url_or_doi"
+}

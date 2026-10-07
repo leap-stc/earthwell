@@ -1,0 +1,57 @@
+{
+  "paper_id": "a076629e05e7",
+  "year": "1",
+  "filename": "Development of a Deep Learning Emulator for a Distributed Groundwater–Surface Water Model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Development of a Deep Learning Emulator for a Distributed Groundwater–Surface Water Model: ParFlow-ML",
+  "authors": [
+    "Hoang Tran",
+    "Elena Leonarduzzi",
+    "Luis De la Fuente",
+    "Robert Bruce Hull",
+    "Vineet Bansal",
+    "Calla Chennault",
+    "Pierre Gentine",
+    "Peter Melchior",
+    "Laura E. Condon",
+    "Reed M. Maxwell"
+  ],
+  "pub_year": 2021,
+  "venue": "Water",
+  "doi_or_url": "https://doi.org/10.3390/w13233393",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "groundwater flow",
+    "unsaturated flow",
+    "overland flow",
+    "surface-subsurface hydrologic interactions",
+    "streamflow routing"
+  ],
+  "ml_methods": [
+    "PredRNN",
+    "Causal LSTM",
+    "Gradient Highway Unit (GHU)"
+  ],
+  "ml_tasks": [
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "ParFlow",
+  "code_availability": "https://github.com/hoangtv1899/ParFlow-NN and ParFlow model at https://github.com/parflow/parflow",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a reproducible benchmark for spatiotemporal emulation of a 3D coupled surface-subsurface physical model with available GitHub code and well-defined test domains.",
+  "pain_points": [
+    "High computational burden of resolving 3D Richards equation and 2D kinematic wave overland flow equations at high spatial resolution",
+    "Vanishing gradients in recurrent neural networks over long time-horizon predictions",
+    "Lack of strict mass balance conservation enforcement in deep learning emulators",
+    "Spurious noise and fluctuation artifacts predicted by the recurrent architecture over cells with near-constant steady-state values"
+  ],
+  "extraction_notes": "ParFlow-ML emulates the entire 3D transient state (pressure head and relative saturation across five layers) of the distributed hydrologic model rather than a subgrid parameterization scheme.",
+  "dataset_ids": [
+    "a076629e05e7-01",
+    "a076629e05e7-02"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2e434d4762d9-01",
+  "paper_id": "2e434d4762d9",
+  "name": "Western US MTBS-Interagency (WUMI) wildfire dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MTBS, CalFire, US FWS, US FS, BIA, BLM, BOR, NPS",
+  "scale": "regional",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "18 646 fire locations and burned areas from 1984 to 2020",
+  "size_gb_estimate": null,
+  "resolution": "fire-level events, aggregated to 12 km x 12 km grid cells",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5061/dryad.sf7m0cg72",
+  "access_kind": "public_url_or_doi"
+}

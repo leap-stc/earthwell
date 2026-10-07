@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9895f2e76861-01",
+  "paper_id": "9895f2e76861",
+  "name": "PYROCAST database",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Himawari-8, GOES-16, GOES-17, ERA5 reanalysis",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "148 PyroCb events linked to 111 wildfires between 2018 and 2022, equivalent to over 18 thousand hourly observations; cropped to 200 by 200-pixel images",
+  "size_gb_estimate": null,
+  "resolution": "1 km spatial, 1-hour temporal",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.56272/fpib2524",
+  "access_kind": "public_url_or_doi"
+}

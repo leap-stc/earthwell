@@ -1,0 +1,66 @@
+{
+  "paper_id": "18b0ca3448bd",
+  "year": "1",
+  "filename": "Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems",
+  "authors": [
+    "Jared Willard",
+    "Xiaowei Jia",
+    "Shaoming Xu",
+    "Michael Steinbach",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2020,
+  "venue": "ACM Computing Surveys",
+  "doi_or_url": "https://doi.org/10.1145/1122445.1122456",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "interdisciplinary",
+  "processes": [
+    "lake temperature dynamics",
+    "streamflow and river water temperature",
+    "atmospheric convection and cloud processes",
+    "turbulent flow",
+    "seismic wave propagation",
+    "heat transfer"
+  ],
+  "ml_methods": [
+    "physics-informed neural networks",
+    "physics-guided recurrent neural networks",
+    "convolutional neural networks",
+    "generative adversarial networks",
+    "variational autoencoders",
+    "Gaussian process regression",
+    "symbolic regression",
+    "Hamiltonian neural networks",
+    "Fourier neural operators",
+    "echo state networks",
+    "graph neural networks"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "downscaling_superres",
+    "forecasting",
+    "uncertainty_quantification",
+    "equation_discovery",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a survey and review paper synthesizing physics-guided machine learning methods across engineering and environmental systems; no new datasets or benchmarks are created or distributed.",
+  "pain_points": [
+    "High labeled data requirements for black-box ML models in scientific domains",
+    "Physical inconsistency of standard ML predictions violating conservation laws",
+    "Poor out-of-sample generalization to unseen regimes",
+    "Prohibitive computational expense of high-resolution mechanistic simulations and traditional PDE solvers",
+    "Ill-posedness and high computational complexity in inverse modeling",
+    "Difficult scalability of Gaussian processes and Bayesian neural networks for uncertainty quantification in high dimensions"
+  ],
+  "extraction_notes": "The paper is a broad review and taxonomy covering physics-guided loss functions, initializations, architectures, and hybrid models. No primary simulation or observational dataset is produced or directly trained on within the manuscript itself.",
+  "dataset_ids": []
+}

@@ -1,0 +1,65 @@
+{
+  "paper_id": "d606ef6024cb",
+  "year": "1",
+  "filename": "Climate-Invariant Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Climate-Invariant Machine Learning",
+  "authors": [
+    "Tom Beucler",
+    "Pierre Gentine",
+    "Janni Yuval",
+    "Ankitesh Gupta",
+    "Liran Peng",
+    "Jerry Lin",
+    "Sungduk Yu",
+    "Stephan Rasp",
+    "Fiaz Ahmed",
+    "Paul A. O'Gorman",
+    "J. David Neelin",
+    "Nicholas J. Lutsko",
+    "Michael Pritchard"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2112.08440",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "moist convection",
+    "atmospheric thermodynamics",
+    "radiative transfer",
+    "turbulent mixing",
+    "subgrid cloud processes"
+  ],
+  "ml_methods": [
+    "MLP",
+    "multiple linear regression",
+    "batch normalization",
+    "dropout",
+    "SHAP KernelExplainer"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "subgrid thermodynamic tendencies (heating, moistening, radiative heating rates)",
+  "online_coupled": false,
+  "host_model": "SPCAM3, SPCESM2, SAM",
+  "code_availability": "https://github.com/tbeucler/CBRAIN-CAM archived at https://zenodo.org/record/8140413; accompanying data at https://doi.org/10.5281/zenodo.8140536; Colab notebook at https://colab.research.google.com/github/tbeucler/CBRAIN-CAM/blob/master/Climate_Invariant_Guide.ipynb",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-quality benchmark for climate out-of-distribution generalization across SST changes (-4K, +0K, +4K) and configurations (aquaplanet vs. Earth-like), archived on Zenodo with accessible notebooks and datasets.",
+  "pain_points": [
+    "Machine learning parameterizations fail drastically when extrapolating out-of-distribution to warmer/colder climates (e.g. 10x error increase in warm Tropics).",
+    "Independent variable transformations may appear counterproductive until combined (e.g., temperature transformation required humidity transformation to show benefit).",
+    "Transforming outputs in probability space (quantile space) prior to training led to poor results due to challenges designing the loss function in probability space.",
+    "Physical transformations during GPU training can slow down training speed substantially if implemented sequentially in custom layers; preprocessing or CPU data generator pipelines were necessary.",
+    "Evaluating callbacks across ~100M samples at the end of each training epoch was computationally expensive."
+  ],
+  "extraction_notes": "The paper demonstrates offline parameterization of subgrid thermodynamic tendencies using multi-model datasets across varying surface temperature climates and land configurations. The study was conducted offline (prognostic online coupled simulations not performed in this specific paper, though motivated by prior coupled stability studies).",
+  "dataset_ids": [
+    "d606ef6024cb-01",
+    "d606ef6024cb-02",
+    "d606ef6024cb-03"
+  ]
+}

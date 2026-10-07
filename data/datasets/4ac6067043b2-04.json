@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4ac6067043b2-04",
+  "paper_id": "4ac6067043b2",
+  "name": "OpenFEMA flood loss datasets (NFIP Claims, Hazard Mitigation Assistance Buyouts, Disaster Aid Individual Assistance)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "FEMA administrative records",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "over 2,000,000 claim records, over 80,000,000 policy records, over 68,000 records of hazard mitigation assistance, over 250,000 county-level records of individual assistance grants",
+  "size_gb_estimate": null,
+  "resolution": "county-level and household records (1978 to 2024)",
+  "produced_in_this_study": false,
+  "access": "https://www.fema.gov/about/openfema/data-sets",
+  "access_kind": "public_url_or_doi"
+}

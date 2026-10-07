@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b10f4cc342fd-01",
+  "paper_id": "b10f4cc342fd",
+  "name": "GRAiCE",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "LSTM and BiLSTM models",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "4 separate netCDF files",
+  "size_gb_estimate": null,
+  "resolution": "0.5°, monthly, 1984–2021",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.10953658",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,44 @@
+{
+  "paper_id": "a8db6bfca0cf",
+  "year": "3",
+  "filename": "Background Pycnocline Depth Constrains Future Ocean Heat Uptake Efficiency.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Background Pycnocline Depth Constrains Future Ocean Heat Uptake Efficiency",
+  "authors": [
+    "Emily Newsom",
+    "Laure Zanna",
+    "Jonathan Gregory"
+  ],
+  "pub_year": 2023,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2023GL105673",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "physical_oceanography",
+  "processes": [
+    "ocean heat uptake",
+    "pycnocline ventilation",
+    "ocean stratification",
+    "ocean mesoscale eddies",
+    "diapycnal mixing"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The figure-making code uses Matplotlib version 3.5.2 (Caswell et al., 2022) and is publicly available in the Zenodo repository (Newsom, 2023) at https://doi.org/10.5281/zenodo.8357059.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study analyzes diagnostic physical relationships between stratification and heat uptake across CMIP and MITgcm simulations without introducing high-resolution benchmark datasets for ML parameterization.",
+  "pain_points": [
+    "Two-fold spread in Ocean Heat Uptake Efficiency (OHUE) across contemporary climate models",
+    "Substantial sensitivity of stratification and ocean heat uptake to parameterized eddy diffusivity (kappa_GM) and vertical mixing (kappa_nu) in coarse-resolution models"
+  ],
+  "extraction_notes": "No machine learning models were developed or evaluated; data-driven closures are mentioned in the discussion as a prospective motivation.",
+  "dataset_ids": [
+    "a8db6bfca0cf-01",
+    "a8db6bfca0cf-02"
+  ]
+}

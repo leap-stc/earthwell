@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c1a8dd04e194-01",
+  "paper_id": "c1a8dd04e194",
+  "name": "nextGEMS Cycle 3 ICON simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "5.5 years of global climate simulation at approximately 6.3 km horizontal resolution. Training period covers 11680 time steps (20 Jan 2020 - 19 Jan 2024); test period spans 2920 time steps (20 Jan 2024 - 20 Jan 2025); validation spans 21 Jan 2025 - 20 Jul 2025. 320x320 grid-point patches.",
+  "size_gb_estimate": null,
+  "resolution": "6.3 km high-resolution, coarsened to 63 km; 3-hourly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.15024577",
+  "access_kind": "public_url_or_doi"
+}

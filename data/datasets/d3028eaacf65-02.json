@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d3028eaacf65-02",
+  "paper_id": "d3028eaacf65",
+  "name": "NASA POWER climate dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "NASA POWER API",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "six numerical features; 4,000 points normal class, nT varying 25 to 250, nS up to 2,500, test set 2,000 heavy rain and 5,000 non-heavy rain",
+  "size_gb_estimate": null,
+  "resolution": "regional clusters in U.S. and Africa",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "318afe7f30d1-01",
+  "paper_id": "318afe7f30d1",
+  "name": "Two-scale Lorenz '96 simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Lorenz '96 two-scale model (RK4 solver)",
+  "scale": "other",
+  "data_types": [
+    "time_series",
+    "trajectories"
+  ],
+  "size_as_stated": "9995 points for memory-based parameterization and 9999 points for instantaneous parameterizations",
+  "size_gb_estimate": null,
+  "resolution": "K=8 slow variables, J=32 fast variables per slow variable (total dim 264); simulated dt=0.005, sub-sampled to 1t=0.01; t=0 to 100 MTU (500 ATM days)",
+  "produced_in_this_study": true,
+  "access": "https://github.com/bhouri0412/Hist_Bayesian_Closure",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "eb1d9d26052e-01",
+  "paper_id": "eb1d9d26052e",
+  "name": "SPCAM aquaplanet simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM v3.0 (Community Atmosphere Model CAM v3.0 with embedded 2D cloud-resolving model)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": "order of several TBs (raw), order of 1 TB (preprocessed)",
+  "size_gb_estimate": 1000.0,
+  "resolution": "Coarse horizontal resolution ~300 km near equator, 30 vertical hybrid levels, 30-min time step; embedded CRM has 8 2D columns at 4 km sub-grid resolution and 20 s time step",
+  "produced_in_this_study": false,
+  "access": "The full SPCAM raw data, of the order of several TBs, is archived on the GreenPlanet cluster at UC Irvine and available upon request. Additionally the preprocessed SPCAM data, of the order of 1 TB, used in this study is archived on DKRZ and is also available upon request. An example of SPCAM data was archived on Zenodo for Rasp et al. (2018) and can be found here: https://zenodo.org/record/2559313#.YlVG0tPP25c.",
+  "access_kind": "on_request"
+}

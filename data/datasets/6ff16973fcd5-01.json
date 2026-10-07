@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6ff16973fcd5-01",
+  "paper_id": "6ff16973fcd5",
+  "name": "West Antarctic glaciers dataset (Pine Island, Thwaites, Dotson-Crosson)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

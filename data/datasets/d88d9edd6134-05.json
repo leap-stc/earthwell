@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d88d9edd6134-05",
+  "paper_id": "d88d9edd6134",
+  "name": "SPEAR 2018–2022 ice-ocean simulations (FREE, DAZ21, CNNG23, CNNopt)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL SPEAR (MOM6 + SIS2)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° horizontal, daily / 5-day intervals",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.10359842",
+  "access_kind": "public_url_or_doi"
+}

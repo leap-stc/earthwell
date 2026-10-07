@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c0774f58a23e-02",
+  "paper_id": "c0774f58a23e",
+  "name": "GPM IMERG v07",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPM IMERG",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "30 mins, 0.1° × 0.1°",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

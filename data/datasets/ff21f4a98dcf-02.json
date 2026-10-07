@@ -1,0 +1,20 @@
+{
+  "dataset_id": "ff21f4a98dcf-02",
+  "paper_id": "ff21f4a98dcf",
+  "name": "Global Daily Summary (GSOD) weather records",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "weather stations",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series",
+    "tabular",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily (1975–2017)",
+  "produced_in_this_study": false,
+  "access": "www.ncei.noaa.gov/data/global-summary-of-the-day/archive/",
+  "access_kind": "public_url_or_doi"
+}

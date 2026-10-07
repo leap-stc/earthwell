@@ -1,0 +1,18 @@
+{
+  "dataset_id": "50adaee28640-02",
+  "paper_id": "50adaee28640",
+  "name": "Lake Mendota surface meteorological drivers",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "surface meteorological station recordings",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "continuous daily basis from April 02, 1980 to December 30, 2014 (7 driver variables)",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": "See Read et al. [2019] for data access and description of inputs",
+  "access_kind": "public_url_or_doi"
+}

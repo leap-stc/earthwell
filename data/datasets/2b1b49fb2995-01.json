@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2b1b49fb2995-01",
+  "paper_id": "2b1b49fb2995",
+  "name": "C24Hn=0,6,12,18,24 cluster potential energy surface exploration geometries and energies",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ASE genetic algorithm interfaced with deMonNano (DFTB0 and SCC-DFTB)",
+  "scale": "other",
+  "data_types": [
+    "tabular",
+    "other"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.4787816",
+  "access_kind": "public_url_or_doi"
+}

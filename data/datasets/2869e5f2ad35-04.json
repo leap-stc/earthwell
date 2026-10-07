@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2869e5f2ad35-04",
+  "paper_id": "2869e5f2ad35",
+  "name": "Hatepe tephra isopach dataset",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "7 isopachs",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Walker, 1981; Fierstein and Nathenson, 1992; Bonadonna and Costa, 2012",
+  "access_kind": "public_url_or_doi"
+}

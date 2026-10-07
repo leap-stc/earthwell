@@ -1,0 +1,20 @@
+{
+  "dataset_id": "e71b14b65755-01",
+  "paper_id": "e71b14b65755",
+  "name": "MAR v3.12 simulations",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "Modèle Atmosphérique Régional (MAR) v3.12 forced by ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "5,384,250 data points spread over 22 years with 92 days in each year and with 14 environmental features from MAR",
+  "size_gb_estimate": null,
+  "resolution": "6.5 km grid, daily (JJA 2000-2021)",
+  "produced_in_this_study": true,
+  "access": "ftp://ftp.climato.be/fettweis/MARv3.12",
+  "access_kind": "public_url_or_doi"
+}

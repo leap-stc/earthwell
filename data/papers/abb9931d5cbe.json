@@ -1,0 +1,56 @@
+{
+  "paper_id": "abb9931d5cbe",
+  "year": "2",
+  "filename": "Parametrization in Weather and Climate Models _ Oxford Research Encyclopedia of Climate Science.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Parametrization in Weather and Climate Models",
+  "authors": [
+    "Hannah Christensen",
+    "Laure Zanna"
+  ],
+  "pub_year": 2022,
+  "venue": "Oxford Research Encyclopedia of Climate Science",
+  "doi_or_url": "https://doi.org/10.1093/acrefore/9780190228620.013.826",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "moist convection",
+    "cloud microphysics",
+    "radiative transfer",
+    "boundary layer turbulent mixing",
+    "ocean mesoscale eddies",
+    "ocean sub-mesoscale eddies",
+    "gravity wave drag",
+    "air-sea fluxes"
+  ],
+  "ml_methods": [
+    "deep learning",
+    "neural networks",
+    "convolutional neural networks",
+    "generative adversarial networks",
+    "transfer learning",
+    "equation discovery"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "equation_discovery"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a review article synthesizing parametrization concepts, traditional physical closures, stochastic formulations, and machine learning approaches across atmospheric and oceanic models. No new dataset is created or distributed.",
+  "pain_points": [
+    "Lack of clear scale separation / the gray zone where unresolved and resolved fluxes are of comparable magnitude",
+    "Compartmentalization of processes leading to compensating biases between parameterization schemes",
+    "Online numerical instability of ML parameterizations despite high offline training accuracy",
+    "Difficulty enforcing conservation laws (mass, momentum, energy) in ML and stochastic parameterizations",
+    "Generalization/universality to unseen climate regimes and across different model resolutions or configurations",
+    "Data scarcity and computational cost of generating high-resolution simulations needed for training"
+  ],
+  "extraction_notes": "Encyclopedia review paper providing conceptual framing of subgrid parameterization, Reynolds decomposition, stochastic schemes, and machine learning methods in atmospheric and oceanic models.",
+  "dataset_ids": []
+}

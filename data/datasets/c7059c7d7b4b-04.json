@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c7059c7d7b4b-04",
+  "paper_id": "c7059c7d7b4b",
+  "name": "ImageNet SR3 Test Set",
+  "role": "evaluation",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "1000-image SR3 test list",
+  "size_gb_estimate": null,
+  "resolution": "256x256",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

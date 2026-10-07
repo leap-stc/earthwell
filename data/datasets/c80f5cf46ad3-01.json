@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c80f5cf46ad3-01",
+  "paper_id": "c80f5cf46ad3",
+  "name": "SOCAT (Surface Ocean CO2 Atlas)",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Shipboard, mooring, and autonomous surface vehicle pCO2 sensors",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "28 million in 2020",
+  "size_gb_estimate": null,
+  "resolution": "1° x 1° gridded / point observations",
+  "produced_in_this_study": false,
+  "access": "https://www.socat.info; doi:10.25921/4xkx-ss49",
+  "access_kind": "public_url_or_doi"
+}

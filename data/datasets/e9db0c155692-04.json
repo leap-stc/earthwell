@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e9db0c155692-04",
+  "paper_id": "e9db0c155692",
+  "name": "Idealized ocean turbulence simulations (eddy and jet regimes)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Idealized ocean primitive equation / QG model",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "High-resolution and coarse-resolution grids",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

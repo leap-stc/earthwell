@@ -1,0 +1,57 @@
+{
+  "paper_id": "d8e2b9ac3d8b",
+  "year": "3",
+  "filename": "Projecting Changes in the Drivers of Compound Flooding in Europe Using CMIP6 Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Projecting Changes in the Drivers of Compound Flooding in Europe Using CMIP6 Models",
+  "authors": [
+    "Tim H.J. Hermans",
+    "Julius J.M. Busecke",
+    "Thomas Wahl",
+    "Víctor Malagón-Santos",
+    "Michael G. Tadesse",
+    "Robert A. Jane",
+    "Roderik S.W. van de Wal"
+  ],
+  "pub_year": 2023,
+  "venue": null,
+  "doi_or_url": "https://doi.org/10.22541/essoar.169841704.46464014/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_extremes",
+  "processes": [
+    "storm surge",
+    "extreme precipitation",
+    "surface winds",
+    "atmospheric circulation",
+    "compound flooding"
+  ],
+  "ml_methods": [
+    "multi-linear regression",
+    "empirical orthogonal functions"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The code to analyze the CMIP6 simulations on Google Cloud, make the projections and reproduce the figures in this manuscript is available at GitHub (https://github.com/Timh37/CMIP6cex) and will be published on Zenodo at a later stage (DOI to be added).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study applies a statistical/empirical multi-linear regression model with EOF reduction to estimate storm surge at European tide gauges and evaluates compound flood driver probabilities. It does not provide a subgrid physics parameterization testbed dataset.",
+  "pain_points": [
+    "Storm surge and river discharge are not direct climate model outputs and require computationally demanding hydrodynamic modeling or offline statistical surrogates.",
+    "Enormous data volume (>20 TB daily multi-model CMIP6 output) necessitated cloud-optimized data formats and cloud computing (Pangeo / Google Cloud) to be tractable.",
+    "Internal climate variability causes high sampling noise in compound extreme estimates when small ensembles or single initial condition realizations are used.",
+    "Sub-daily output is rare across CMIP6, restricting analysis to daily mean and daily accumulated variables, dampening sub-daily peak co-occurrence dynamics."
+  ],
+  "extraction_notes": "The document notes funding by the NSF STC 'Learning the Earth with Artificial intelligence and Physics (LEAP)'. The machine learning component consists of an EOF-based multi-linear regression model trained on ERA5 predictors against GESLA2 non-tidal residuals to emulate storm surge from climate model wind and pressure forcing.",
+  "dataset_ids": [
+    "d8e2b9ac3d8b-01",
+    "d8e2b9ac3d8b-02",
+    "d8e2b9ac3d8b-03",
+    "d8e2b9ac3d8b-04",
+    "d8e2b9ac3d8b-05"
+  ]
+}

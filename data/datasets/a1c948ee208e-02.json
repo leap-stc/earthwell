@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a1c948ee208e-02",
+  "paper_id": "a1c948ee208e",
+  "name": "2020 US presidential election polling and economic data",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Placing data and code on GitHub allowed outsiders to download, run themselves, and explore places where something could be going wrong.",
+  "access_kind": "public_url_or_doi"
+}

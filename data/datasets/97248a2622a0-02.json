@@ -1,0 +1,18 @@
+{
+  "dataset_id": "97248a2622a0-02",
+  "paper_id": "97248a2622a0",
+  "name": "ERA5 global reanalysis near-surface and flux variables over Greenland",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "~31 km horizontal resolution, 137 vertical levels, reprojected to MAR grid",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

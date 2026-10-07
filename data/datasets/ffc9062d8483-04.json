@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ffc9062d8483-04",
+  "paper_id": "ffc9062d8483",
+  "name": "ECMWF ORAS5",
+  "role": "reference_only",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Ocean Reanalysis System 5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly (1959–2014)",
+  "produced_in_this_study": false,
+  "access": "http://icdc.cen.uni-hamburg.de/thredds/catalog/ftpthredds/EASYInit/oras5/catalog.html",
+  "access_kind": "public_url_or_doi"
+}

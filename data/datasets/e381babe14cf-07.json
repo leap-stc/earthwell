@@ -1,0 +1,19 @@
+{
+  "dataset_id": "e381babe14cf-07",
+  "paper_id": "e381babe14cf",
+  "name": "Large Ensemble Testbed GOBM simulations and SOCAT v2",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GOBMs (CESM, MPI, CanESM) and SOCAT observations",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "Monthly pCO2 from 1982 to 2017",
+  "size_gb_estimate": null,
+  "resolution": "1x1 degree monthly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1038/s41597-024-03959-w",
+  "access_kind": "public_url_or_doi"
+}

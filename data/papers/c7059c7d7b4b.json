@@ -1,0 +1,56 @@
+{
+  "paper_id": "c7059c7d7b4b",
+  "year": "5",
+  "filename": "Calibrated Test-Time Guidance for Bayesian Inference.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Calibrated Test-Time Guidance for Bayesian Inference",
+  "authors": [
+    "Daniel Geyfman",
+    "Felix Draxler",
+    "Jan Groeneveld",
+    "Hyunsoo Lee",
+    "Theofanis Karaletsos",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2026,
+  "venue": "Proceedings of the 43rd International Conference on Machine Learning (ICML)",
+  "doi_or_url": "https://github.com/mandt-lab/Calibrated-Guidance",
+  "doc_kind": "conference_paper",
+  "in_scope": false,
+  "research_field": "Machine Learning",
+  "processes": [],
+  "ml_methods": [
+    "Denoising Diffusion Probabilistic Models (DDPM)",
+    "Flow Matching",
+    "Pixel Mean Flows (pMF)",
+    "Calibrated Bayesian Guidance (CBG)",
+    "REINFORCE estimator",
+    "Diffusion Posterior Sampling (DPS)",
+    "SANA (Linear Diffusion Transformer)",
+    "Skywork-VL Reward Model"
+  ],
+  "ml_tasks": [
+    "uncertainty_quantification",
+    "reconstruction_gapfilling",
+    "downscaling_superres"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/mandt-lab/Calibrated-Guidance",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study addresses general machine learning algorithms for posterior sampling in diffusion models and benchmarks on synthetic statistical tasks, astrophysics (black hole imaging), and natural image datasets, with no Earth system or climate parameterization focus.",
+  "pain_points": [
+    "Existing diffused likelihood approximations (posterior mean, Gaussian proxy, gradient scaling) are mathematically biased and do not sample from the true Bayesian posterior.",
+    "Evaluating the true diffusion posterior via full inner DDPM diffusion rollouts requires quadratic complexity O(KN^2) in evaluations.",
+    "Scalar likelihood rewards in high-dimensional image problems provide sparse guidance signals where individual candidates fail to capture global coherent structures unless localized spatial tiling is applied.",
+    "The calibrated sampler requires support overlap between the prior and likelihood in measure; it fails if likelihood concentrates on measure-zero manifolds."
+  ],
+  "extraction_notes": "Stephan Mandt acknowledges funding support from the NSF LEAP Center, but the work is purely general machine learning and inverse problems in astrophysics and computer vision, so in_scope is set to false.",
+  "dataset_ids": [
+    "c7059c7d7b4b-01",
+    "c7059c7d7b4b-02",
+    "c7059c7d7b4b-03",
+    "c7059c7d7b4b-04"
+  ]
+}

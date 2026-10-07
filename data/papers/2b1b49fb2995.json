@@ -1,0 +1,42 @@
+{
+  "paper_id": "2b1b49fb2995",
+  "year": "3",
+  "filename": "Hydrogenation of C24 Carbon Clusters_ Structural Diversity and Energetic Properties.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Hydrogenation of C24 Carbon Clusters: Structural Diversity and Energetic Properties",
+  "authors": [
+    "Paula Pla",
+    "Clément Dubosq",
+    "Mathias Rapacioli",
+    "Evgeny Posenitskiy",
+    "Manuel Alcamí",
+    "Aude Simon"
+  ],
+  "pub_year": 2021,
+  "venue": "The Journal of Physical Chemistry A",
+  "doi_or_url": "https://doi.org/10.1021/acs.jpca.1c02359",
+  "doc_kind": "journal_article",
+  "in_scope": false,
+  "research_field": "Other",
+  "processes": [
+    "Interstellar carbonaceous dust and cluster chemistry",
+    "Photoelectric heating and ionization in the interstellar medium"
+  ],
+  "ml_methods": [
+    "Genetic algorithm"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Out of scope: quantum chemical / astrochemistry exploration of interstellar carbon clusters, unrelated to Earth/climate system modeling or climate parameterizations.",
+  "pain_points": [],
+  "extraction_notes": "The paper uses a genetic algorithm for potential energy surface global optimization in combination with DFTB for astrochemistry applications (interstellar medium). Not in scope for Earth Well.",
+  "dataset_ids": [
+    "2b1b49fb2995-01"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1a47f956f011-01",
+  "paper_id": "1a47f956f011",
+  "name": "MOM6 Double Gyre simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL MOM6",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1/64° (1.5 km), 1/16°, 1/8°, 1/7°, 1/6°, 1/5°, 1/4°, 1/3°, 1/2°; 2 vertical layers",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.12682093",
+  "access_kind": "public_url_or_doi"
+}

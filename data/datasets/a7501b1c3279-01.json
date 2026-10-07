@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a7501b1c3279-01",
+  "paper_id": "a7501b1c3279",
+  "name": "AnyLogic LEM auction simulation data",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "AnyLogic",
+  "scale": "other",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "50 auction rounds",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

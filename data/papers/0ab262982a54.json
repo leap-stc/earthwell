@@ -1,0 +1,51 @@
+{
+  "paper_id": "0ab262982a54",
+  "year": "1",
+  "filename": "Deep learning to represent sub-grid processes in climate models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep learning to represent sub-grid processes in climate models",
+  "authors": [
+    "Stephan Rasp",
+    "Michael S. Pritchard",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2018,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/1806.04731",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "atmospheric convection",
+    "cloud microphysics",
+    "sub-grid turbulence",
+    "radiative transfer",
+    "precipitation"
+  ],
+  "ml_methods": [
+    "deep fully-connected neural network",
+    "multilayer perceptron",
+    "LeakyReLU"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "atmospheric sub-grid convective and radiative tendencies of temperature and moisture, surface precipitation, and radiative fluxes at TOA and surface",
+  "online_coupled": true,
+  "host_model": "CAM v3.0 / SPCAM v3.0",
+  "code_availability": "https://gitlab.com/mspritch/spcam3.0-neural-net (branch: nn fbp engy ess) and https://github.com/raspstephan/CBRAIN-CAM",
+  "testbed_candidate": true,
+  "testbed_rationale": "Seminal study coupling deep learning sub-grid parameterization into a global GCM (CBRAIN-CAM) trained on multi-scale CRM data; codebase and methodology form a standard testbed for ML parameterization research.",
+  "pain_points": [
+    "Poor generalization/extrapolation to out-of-sample climate regimes (e.g., temperatures exceeding the training distribution by 4K)",
+    "Reduced variability and overly smooth sub-grid heating/moistening tendencies in the boundary layer due to deterministic MSE minimization on chaotic targets",
+    "Omission of condensed water species prevents exact moisture conservation",
+    "Instabilities and unphysical artifacts when using shallow neural network architectures in prognostic mode",
+    "Inability to tune the parameterization once deployed online without parallel coupled retraining"
+  ],
+  "extraction_notes": "The preprint document is arXiv:1806.04731v3, later published in PNAS (2018). Input vector size is 94 and output vector size is 65 across 30 vertical levels.",
+  "dataset_ids": [
+    "0ab262982a54-01",
+    "0ab262982a54-02"
+  ]
+}

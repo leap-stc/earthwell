@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a74eeb28cd14-04",
+  "paper_id": "a74eeb28cd14",
+  "name": "DYAMOND Initiative global storm-resolving models",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON, IFS, NICAM, UM, SHIELD, GEM, SAM, ARPEGE",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "images"
+  ],
+  "size_as_stated": "nearly 2 PBytes per SRM; 125,000 samples extracted per model across 15S-15N",
+  "size_gb_estimate": null,
+  "resolution": "kilometer-scale (<= 5 km), 3-hour snapshot interval",
+  "produced_in_this_study": false,
+  "access": "DYAMOND data management provided by the German Climate Computing Center (DKRZ) under project IDs bk1040 and bb1153",
+  "access_kind": "hpc_only"
+}

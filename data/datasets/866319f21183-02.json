@@ -1,0 +1,19 @@
+{
+  "dataset_id": "866319f21183-02",
+  "paper_id": "866319f21183",
+  "name": "CAM6 TAU-ML Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "100 members, 3 years each, monthly intervals (excluding month 1)",
+  "size_gb_estimate": null,
+  "resolution": "0.9° x 1.25°, 32 vertical levels (analyzed between 65.5°S and 65.5°N)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.22943628",
+  "access_kind": "public_url_or_doi"
+}

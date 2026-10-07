@@ -1,0 +1,19 @@
+{
+  "dataset_id": "528f51b3a8d6-03",
+  "paper_id": "528f51b3a8d6",
+  "name": "NOAA Optimum Interpolation Sea Surface Temperature (OISST)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

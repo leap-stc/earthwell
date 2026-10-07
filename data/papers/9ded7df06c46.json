@@ -1,0 +1,69 @@
+{
+  "paper_id": "9ded7df06c46",
+  "year": "4",
+  "filename": "Using machine learning to generate a GISS ModelE calibrated physics ensemble (CPE).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Using Machine Learning to Generate a GISS ModelE Calibrated Physics Ensemble (CPE)",
+  "authors": [
+    "Gregory S. Elsaesser",
+    "Marcus van Lier-Walqui",
+    "Qingyuan Yang",
+    "Maxwell Kelley",
+    "Andrew S. Ackerman",
+    "Ann M. Fridlind",
+    "Gregory V. Cesana",
+    "Gavin A. Schmidt",
+    "Jingbo Wu",
+    "Ali Behrangi",
+    "Suzana J. Camargo",
+    "Bithi De",
+    "Kuniaki Inoue",
+    "Nicolas M. Leitmann-Niimi",
+    "Jeffrey D. O. Strong"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2024MS004713",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Climate Modeling",
+  "processes": [
+    "Atmospheric convection",
+    "Cloud microphysics",
+    "Cloud macrophysics",
+    "Planetary boundary layer turbulence",
+    "Cloud radiative forcing"
+  ],
+  "ml_methods": [
+    "Multi-layer perceptron",
+    "Neural network ensemble",
+    "Markov Chain Monte Carlo"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "NASA GISS ModelE (version E3)",
+  "code_availability": "GISS Model (version E3) atmosphere forcing data and atmosphere code are available at https://doi.org/10.5281/zenodo.15171581 (Elsaesser, 2025). The penalty scores and parameter data for the full PPE and CPEs are available at https://doi.org/10.5281/zenodo.13765601 (Elsaesser, 2024).",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a 45-parameter perturbed parameter ensemble and calibrated physics ensemble simulation benchmark with public data on Zenodo, suitable for training and benchmarking Earth system model surrogate models and Bayesian parameter estimation algorithms.",
+  "pain_points": [
+    "High dimensionality (45 parameters) makes standard Latin Hypercube sampling sparse, requiring iterative calibrate-emulate-sample workflows.",
+    "Observational product discrepancy across independent satellite retrievals significantly alters the posterior distribution of calibrated parameters if unaddressed.",
+    "Compensating model errors can produce good cloud radiative forcing for the wrong physical reasons, necessitating simultaneous constraints across numerous cloud, environment, and radiative metrics.",
+    "Linear parameter-metric correlation screening in PPEs can wrongly classify parameters as unimportant due to strong non-linear interactions and state-dependent effects.",
+    "Host model structural deficiencies push posterior parameter estimates against prior boundary limits."
+  ],
+  "extraction_notes": "The ML emulator predicts performance penalty metrics directly (which already incorporate observational discrepancies) from 45 atmospheric physics parameters, rather than predicting raw 3D atmospheric states directly. An ensemble of 6 neural networks with varied hyperparameters is averaged to mitigate overfitting and random emulator errors.",
+  "dataset_ids": [
+    "9ded7df06c46-01",
+    "9ded7df06c46-02",
+    "9ded7df06c46-03",
+    "9ded7df06c46-04",
+    "9ded7df06c46-05",
+    "9ded7df06c46-06",
+    "9ded7df06c46-07"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f8a21622a265-02",
+  "paper_id": "f8a21622a265",
+  "name": "Two-scale Lorenz 96 synthetic simulation and assimilation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Two-scale Lorenz 96 model (RK4)",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "trajectories"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "time step Δt = 0.005, K=8, J=32; observation interval Δtobs = 0.2",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

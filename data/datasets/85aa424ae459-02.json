@@ -1,0 +1,19 @@
+{
+  "dataset_id": "85aa424ae459-02",
+  "paper_id": "85aa424ae459",
+  "name": "ClimateBench v2 benchmark data collection",
+  "role": "reference_only",
+  "source_kind": "benchmark",
+  "model_or_instrument": "Multiple (GISS, Berkeley Earth, HadCRUT, GPCP, IMERG, MSWEP, CERES EBAF, CERES SYN, NSIDC, OSI SAF, CESM2, MPI-ESM, GISS ModelE2)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

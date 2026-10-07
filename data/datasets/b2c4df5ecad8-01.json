@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b2c4df5ecad8-01",
+  "paper_id": "b2c4df5ecad8",
+  "name": "Global solar-induced fluorescence (LCSIF / CSIF)",
+  "role": "training",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

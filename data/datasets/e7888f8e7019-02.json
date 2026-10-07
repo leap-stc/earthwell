@@ -1,0 +1,20 @@
+{
+  "dataset_id": "e7888f8e7019-02",
+  "paper_id": "e7888f8e7019",
+  "name": "CLM and CLM-FATES One-At-A-Time Parameter Perturbation Ensembles (PPE)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM 6.0 and CLM6.0-FATES",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "∼3 GB",
+  "size_gb_estimate": 3.0,
+  "resolution": "400 representative sparse grid cells (sampled from nominal 2° grid), 15 years analysis period (GSWP3 2000-2014 cycle)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.18203140; web app: https://ppeviewer.k8s.ucar.edu/; full raw output on NSF NCAR computing systems",
+  "access_kind": "public_url_or_doi"
+}

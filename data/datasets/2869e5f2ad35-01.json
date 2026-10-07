@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2869e5f2ad35-01",
+  "paper_id": "2869e5f2ad35",
+  "name": "1815 Tambora eruption isopach dataset",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "3 isopachs",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Kandlbauer and Sparks, 2014",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "83fdefd50e14-01",
+  "paper_id": "83fdefd50e14",
+  "name": "CESM2 Large Ensemble (SSP3-7.0)",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Standard resolution (~1°)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

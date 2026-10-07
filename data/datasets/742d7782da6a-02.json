@@ -1,0 +1,19 @@
+{
+  "dataset_id": "742d7782da6a-02",
+  "paper_id": "742d7782da6a",
+  "name": "Idealized Baroclinic Wave Test Results from SFNO",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Spherical Fourier Neural Operators (SFNO)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "The results of the idealized baroclinic wave run with the SFNO model of Bonev et al. (2023) that were subsequently used to generate Figure 2 are available from Elms (2024): https://doi.org/10.5281/zenodo.13993647",
+  "access_kind": "public_url_or_doi"
+}

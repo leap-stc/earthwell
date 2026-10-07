@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d3028eaacf65-04",
+  "paper_id": "d3028eaacf65",
+  "name": "Synthetic Gaussian dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Standard Gaussian distribution generation",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "15 features, 4,000 normal target points, nT = 50, nS between 100 and 2,500",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

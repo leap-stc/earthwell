@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9ccce3cf53db-04",
+  "paper_id": "9ccce3cf53db",
+  "name": "DeepCarbon",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Knowledge-guided deep learning models",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 day and 0.05° spatiotemporal resolution across -65° S to 80° N from 2001 to 2024",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

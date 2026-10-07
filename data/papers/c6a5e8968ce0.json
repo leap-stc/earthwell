@@ -1,0 +1,44 @@
+{
+  "paper_id": "c6a5e8968ce0",
+  "year": "1",
+  "filename": "Causal inference for process understanding in Earth sciences.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Causal inference for process understanding in Earth sciences",
+  "authors": [
+    "Adam Massmann",
+    "Pierre Gentine",
+    "Jakob Runge"
+  ],
+  "pub_year": 2021,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2105.00912",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_general",
+  "processes": [
+    "cloud-aerosol-radiation interactions",
+    "orographic precipitation enhancement"
+  ],
+  "ml_methods": [
+    "linear regression"
+  ],
+  "ml_tasks": [
+    "causal_inference"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/massma/causality-earth-science",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a conceptual and methodological overview/perspective on applying Pearlian causal inference, directed acyclic graphs (DAGs), and do-calculus in Earth sciences, accompanied only by a 1D synthetic toy model and conceptual case studies.",
+  "pain_points": [
+    "Incomplete observation / partial observation of the Earth system state space leading to unobserved confounding",
+    "Feedbacks creating cycles in causal graphs (addressed by resolving temporal dynamics)",
+    "Unidentifiability when backdoor paths cannot be blocked",
+    "Observational selection bias (e.g., satellite sampling and cloud masking)"
+  ],
+  "extraction_notes": "The paper also mentions the Chilean Coastal Orographic Precipitation Experiment (CCOPE, Massmann et al. 2017) as a conceptual example/case study for constructing causal graphs, but does not use or generate CCOPE data directly within this manuscript.",
+  "dataset_ids": [
+    "c6a5e8968ce0-01"
+  ]
+}

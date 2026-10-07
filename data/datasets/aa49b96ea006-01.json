@@ -1,0 +1,18 @@
+{
+  "dataset_id": "aa49b96ea006-01",
+  "paper_id": "aa49b96ea006",
+  "name": "Two-layer quasi-geostrophic (QG) model simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "PyQG (JAX port)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "60 simulations for deterministic training and Bayesian inference, with additional 10 for testing; 10 years per simulation (5 years spin-up excluded)",
+  "size_gb_estimate": null,
+  "resolution": "256x256 high-resolution ground truth on 1,000 km x 1,000 km domain; coarse-grained to 32x32 mesh; temporal resolution 1 hour (daily sampling for training trajectories)",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

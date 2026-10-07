@@ -1,0 +1,61 @@
+{
+  "paper_id": "c926c4c93a95",
+  "year": "1",
+  "filename": "Estimating historical air-sea CO2 fluxes_ Incorporating physical knowledge within a data-only approach _ ESS Open Archive.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Estimating historical air-sea CO2 fluxes: Incorporating physical knowledge within a data-only approach",
+  "authors": [
+    "Val Bennington",
+    "Tomislav Galjanic",
+    "Galen A McKinley"
+  ],
+  "pub_year": 2022,
+  "venue": "ESS Open Archive (submitted to Journal of Advances in Modeling Earth Systems)",
+  "doi_or_url": "https://doi.org/10.1002/essoar.10510196.1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean carbon cycle",
+    "surface ocean pCO2 variability",
+    "gas transfer velocity"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "SHAP",
+    "Quantile regression",
+    "Self-organizing maps"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Python scripts are made available at https://github.com/valbennington/JAMES_pub_2022",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an observation-based reconstructed surface pCO2 and air-sea CO2 flux product (gap-filling), rather than training an online parameterization or process emulator suitable for climate models.",
+  "pain_points": [
+    "Sparsity of in situ pCO2 observations across the Southern Ocean and during winter months.",
+    "Lack of continuous satellite chlorophyll-a observations prior to 1998 requiring climatological substitution.",
+    "Uncertainties in wind speed products and gas transfer velocity (piston velocity) dominating flux calculation errors.",
+    "Non-linear competing effects of temperature (thermodynamic solubility vs. biology/stratification) confounding ML reconstruction."
+  ],
+  "extraction_notes": "The paper uses XGBoost to learn the non-thermal component of pCO2 (pCO2 - pCO2_T), removing direct temperature dependence via Takahashi et al. formulation. Self-organizing maps (SOMPY) were also tested for clustering but found not to improve skill.",
+  "dataset_ids": [
+    "c926c4c93a95-01",
+    "c926c4c93a95-02",
+    "c926c4c93a95-03",
+    "c926c4c93a95-04",
+    "c926c4c93a95-05",
+    "c926c4c93a95-06",
+    "c926c4c93a95-07",
+    "c926c4c93a95-08",
+    "c926c4c93a95-09",
+    "c926c4c93a95-10",
+    "c926c4c93a95-11"
+  ]
+}

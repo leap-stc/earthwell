@@ -1,0 +1,54 @@
+{
+  "paper_id": "984ddfea1c66",
+  "year": "3",
+  "filename": "Data-driven dimensionality reduction and causal inference for spatiotemporal climate fields.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Data-driven dimensionality reduction and causal inference for spatiotemporal climate fields",
+  "authors": [
+    "Fabrizio Falasca",
+    "Pavel Perezhogin",
+    "Laure Zanna"
+  ],
+  "pub_year": 2024,
+  "venue": "Physical Review E",
+  "doi_or_url": "10.1103/PhysRevE.109.044202",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_diagnostics",
+  "processes": [
+    "sea surface temperature variability",
+    "tropical teleconnections",
+    "El Niño Southern Oscillation (ENSO)",
+    "Indian Ocean Basin mode",
+    "Atlantic Niño"
+  ],
+  "ml_methods": [
+    "Infomap community detection",
+    "Graph inference with distance-constrained adjacency matrix",
+    "Fluctuation-dissipation relation (linear response theory)",
+    "Analytical null model for fluctuation-response inference"
+  ],
+  "ml_tasks": [
+    "causal_inference",
+    "clustering_dimensionality_reduction",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/FabriFalasca/Linear-Response-and-Causal-Inference",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper focuses on data-driven dimensionality reduction and linear-response-based causal inference diagnostics for large-scale SST variability, not on developing parameterization or emulation testbeds.",
+  "pain_points": [
+    "Standard causal discovery tools (e.g., conditional independence tests) do not scale computationally to high-dimensional spatial climate fields.",
+    "Ill-conditioning and non-invertibility of the lag-0 covariance matrix C(0) when the spatial dimension N exceeds or approaches sample size T.",
+    "Finite sample size and autocorrelation lead to spurious response functions in linear response theory.",
+    "Unobserved/hidden state variables can violate Markovianity assumptions when relying solely on SST fields.",
+    "Quasi-Gaussian assumption requires pre-processing (e.g., high-pass filtering or non-linear coordinate transforms) when applied to non-Gaussian climate fields."
+  ],
+  "extraction_notes": "The study presents a two-stage diagnostic framework: (1) distance-constrained network community detection (Infomap) to reduce 31,141 grid points to 19 regional patterns, and (2) fluctuation-dissipation response theory with an analytical null model to quantify causal interbasin linkages.",
+  "dataset_ids": [
+    "984ddfea1c66-01",
+    "984ddfea1c66-02"
+  ]
+}

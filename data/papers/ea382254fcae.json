@@ -1,0 +1,43 @@
+{
+  "paper_id": "ea382254fcae",
+  "year": "4",
+  "filename": "Disentangling Representations of Ice Crystals with In Situ Imagery and Unsupervised Learning Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Disentangling Representations of Ice Crystals with In Situ Imagery and Unsupervised Learning",
+  "authors": [],
+  "pub_year": 2025,
+  "venue": "105th AMS Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/457160",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "ice microphysics",
+    "ice crystal habit",
+    "cloud radiative transfer"
+  ],
+  "ml_methods": [
+    "variational autoencoders",
+    "k-means",
+    "disentangled representation learning"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Short conference abstract focusing on representation learning for in situ cloud particle images; no links or datasets are provided for parameterization benchmarking.",
+  "pain_points": [
+    "Large scale disparities and incomplete understanding of ice cloud microphysics",
+    "Limited utilization and analysis of vast datasets of millions of CPI images",
+    "Difficulty in capturing and categorizing the underlying diversity of ice crystal habits without supervised labels"
+  ],
+  "extraction_notes": "Author names were omitted from the provided document page text. The conference presentation was scheduled for January 16, 2025 at the 105th AMS Annual Meeting.",
+  "dataset_ids": [
+    "ea382254fcae-01"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "22396cba1b19-01",
+  "paper_id": "22396cba1b19",
+  "name": "DYAMOND ICON Summer and Winter coarse-grained cloud cover dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "Coarse-grained from 2.5 km / 58 vertical levels to ~80 km / 27 vertical levels",
+  "produced_in_this_study": false,
+  "access": "https://github.com/EyringMLClimateGroup/grundner23james_EquationDiscovery_CloudCover/tree/main and https://doi.org/10.5281/zenodo.8220333; full DYAMOND data on DKRZ HPC via https://www.esiwace.eu/services/dyamond-initiative",
+  "access_kind": "public_url_or_doi"
+}

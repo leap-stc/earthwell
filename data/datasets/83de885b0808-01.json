@@ -1,0 +1,18 @@
+{
+  "dataset_id": "83de885b0808-01",
+  "paper_id": "83de885b0808",
+  "name": "Satellite wildfire and GPP observations",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

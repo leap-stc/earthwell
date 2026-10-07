@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a1c948ee208e-01",
+  "paper_id": "a1c948ee208e",
+  "name": "Microcredit randomized controlled trials data",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

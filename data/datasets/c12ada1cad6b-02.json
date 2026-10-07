@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c12ada1cad6b-02",
+  "paper_id": "c12ada1cad6b",
+  "name": "Fine-resolution reference simulations in an idealized multiscale plant canopy environment",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Navier-Stokes solver",
+  "scale": "DNS",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

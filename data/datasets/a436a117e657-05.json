@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a436a117e657-05",
+  "paper_id": "a436a117e657",
+  "name": "Basin water balance datasets (GPCC, GRUN, GRACE)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Rain gauges (GPCC), streamflow gauges/ML (GRUN), satellite gravity (GRACE)",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "189 global large river basins",
+  "size_gb_estimate": null,
+  "resolution": "Monthly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

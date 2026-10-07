@@ -1,0 +1,18 @@
+{
+  "dataset_id": "53e678284355-05",
+  "paper_id": "53e678284355",
+  "name": "NCEP CFSv2 S2S forecasts",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CFSv2 (NCEP)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1.5 degree, daily forecasts up to 45-day lead time, 2016 to present (15 ensemble + 1 control)",
+  "produced_in_this_study": false,
+  "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
+  "access_kind": "public_url_or_doi"
+}

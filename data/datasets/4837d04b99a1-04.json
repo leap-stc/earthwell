@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4837d04b99a1-04",
+  "paper_id": "4837d04b99a1",
+  "name": "Global gridded monthly pCO2 estimates (1982–2017)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "U-NET and ConvLSTM models",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "two globally-gridded, monthly pCO2 estimates based on both U-NET and ConvLSTM (K=6) models; 35 years between 1982 and 2017",
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1982–2017)",
+  "produced_in_this_study": true,
+  "access": "Dataset is freely available at https://zenodo.org/records/12726686",
+  "access_kind": "public_url_or_doi"
+}

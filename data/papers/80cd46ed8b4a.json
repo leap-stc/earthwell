@@ -1,0 +1,52 @@
+{
+  "paper_id": "80cd46ed8b4a",
+  "year": "3",
+  "filename": "Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks",
+  "authors": [
+    "Aakash Sane",
+    "Brandon G. Reichl",
+    "Alistair Adcroft",
+    "Laure Zanna"
+  ],
+  "pub_year": 2023,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2023MS003890",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "ocean surface boundary layer turbulence",
+    "vertical mixing",
+    "eddy diffusivity",
+    "mixed layer dynamics"
+  ],
+  "ml_methods": [
+    "Artificial Neural Networks",
+    "Multilayer Perceptron"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "Vertical eddy diffusivity profile (shape function and turbulent velocity scale) in the ocean surface boundary layer",
+  "online_coupled": true,
+  "host_model": "MOM6",
+  "code_availability": "The code and the data can be obtained from https://doi.org/10.5281/zenodo.8293998. The code includes scripts for generating the training data, training the neural network model, and code for vertical mixing scheme which has been modified to use neural networks. We have also provided code and data for plotting.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clean, publicly accessible training dataset generated from GOTM single-column simulations alongside Fortran/MOM6 implementation code and neural network weights for ocean boundary layer mixing parameterization.",
+  "pain_points": [
+    "Predicting non-physical negative diffusivities was an issue, requiring training on log-diffusivity and taking the exponential at inference.",
+    "Extrapolation outside the training bounding box causes spurious unphysical shape function profiles, resolved by capping network inputs within the Fortran subroutine.",
+    "Prognostic boundary layer depth (h) did not span the full range in certain regimes (e.g., surface heating saturation or rapid convection spinup), requiring data augmentation with synthetic profiles to stabilize the networks.",
+    "Multimodal distributions at the base of the boundary layer led to higher prediction errors at lower sigma nodes."
+  ],
+  "extraction_notes": "The paper uses two small feedforward neural networks (NN1 predicting the 16-node shape function g(sigma) from (f, B0, u*, h) and NN2 predicting the bulk velocity scale v0 from (f, B0, u*)). Diffusivity is computed as g(sigma) * h * v0. This replaces the ad hoc shape function in ePBL while preserving its integral energetics constraints.",
+  "dataset_ids": [
+    "80cd46ed8b4a-01",
+    "80cd46ed8b4a-02",
+    "80cd46ed8b4a-03",
+    "80cd46ed8b4a-04",
+    "80cd46ed8b4a-05"
+  ]
+}

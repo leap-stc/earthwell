@@ -1,0 +1,19 @@
+{
+  "dataset_id": "4dc1d86041a1-03",
+  "paper_id": "4dc1d86041a1",
+  "name": "GLODAPv2 (Global Ocean Data Analysis Project Version 2)",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Discrete bottle samples from hydrographic cruises",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Point profiles and 1° x 1° on 33 standard depth levels",
+  "produced_in_this_study": false,
+  "access": "https://glodap.info/",
+  "access_kind": "public_url_or_doi"
+}

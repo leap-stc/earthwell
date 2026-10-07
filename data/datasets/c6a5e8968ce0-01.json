@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c6a5e8968ce0-01",
+  "paper_id": "c6a5e8968ce0",
+  "name": "Synthetic cloud-aerosol-radiation toy dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Synthetic generative equations (Equation 5)",
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://github.com/massma/causality-earth-science",
+  "access_kind": "public_url_or_doi"
+}

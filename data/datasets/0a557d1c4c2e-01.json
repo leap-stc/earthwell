@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0a557d1c4c2e-01",
+  "paper_id": "0a557d1c4c2e",
+  "name": "ModelE3 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS ModelE3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "851 members (751 used: 611 training, 140 validation)",
+  "size_gb_estimate": null,
+  "resolution": "2.5° × 2.0°, 110 vertical layers",
+  "produced_in_this_study": false,
+  "access": "The datasets used in this work can be found in the supporting documents of this work. The codes and datasets used in this work are also made available on github (https://github.com/yiqioyang/ppesage).",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bec8e33adb6f-04",
+  "paper_id": "bec8e33adb6f",
+  "name": "Global Precipitation Climatology Project (GPCP) v2.3",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPCP v2.3",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": "72 × 144 grid",
+  "size_gb_estimate": null,
+  "resolution": "2.5° × 2.5°, monthly",
+  "produced_in_this_study": false,
+  "access": "https://psl.noaa.gov/data/gridded/data.gpcp.html",
+  "access_kind": "public_url_or_doi"
+}

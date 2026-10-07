@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ffc9062d8483-01",
+  "paper_id": "ffc9062d8483",
+  "name": "CMIP6 Historical Ocean and Biogeochemical Simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "18 CMIP6 models (ACCESS-ESM1-5, CanESM5, CanESM5-CanOE, CESM2, CESM2-FV2, CESM2-WACCM, CESM2-WACCM-FV2, CNRM-ESM2-1, GFDL-CM4, IPSL-CM6A-LR, MIROC-ES2L, MRI-ESM2-0, MPI-ESM1-2-LR, MPI-ESM1-2-HR, MPI-ESM-1-2-HAM, NorESM2-LM, NorESM2-MM, UKESM1-0-LL)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Regridded to 1° × 1° monthly (1959–2014)",
+  "produced_in_this_study": false,
+  "access": "http://esgf-node.llnl.gov/projects/cmip6 and Pangeo cloud (http://pangeo.io)",
+  "access_kind": "public_url_or_doi"
+}

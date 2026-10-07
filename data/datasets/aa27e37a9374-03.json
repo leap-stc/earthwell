@@ -1,0 +1,18 @@
+{
+  "dataset_id": "aa27e37a9374-03",
+  "paper_id": "aa27e37a9374",
+  "name": "FEMA Full Risk Rating 2.0 (RR2) Premiums",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Household / county level",
+  "produced_in_this_study": false,
+  "access": "Full Risk Rating 2.0 (RR2) premiums may be obtained from FEMA via a Freedom of Information Act (FOIA) (60) request (reference request, #2024-FEFO-00939).",
+  "access_kind": "on_request"
+}

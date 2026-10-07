@@ -1,0 +1,19 @@
+{
+  "dataset_id": "e9051914322c-02",
+  "paper_id": "e9051914322c",
+  "name": "NeverWorld2 (NW2) MOM6 simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL MOM6",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1/4° (coarse/parameterized) and 1/32° (reference)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.16058005 (simulation data) and https://doi.org/10.26024/f130-ev71 (high-resolution baseline)",
+  "access_kind": "public_url_or_doi"
+}

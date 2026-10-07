@@ -1,0 +1,66 @@
+{
+  "paper_id": "7d9f772790d0",
+  "year": "5",
+  "filename": "JCM v1.0_ A Differentiable, Intermediate-Complexity Atmospheric Model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "JCM v1.0: A Differentiable, Intermediate-Complexity Atmospheric Model",
+  "authors": [
+    "Ellen H. Davenport",
+    "J. Varan Madan",
+    "Rebecca Gjini",
+    "Jared Brzenski",
+    "Nick Ho",
+    "Tien-Yiao Hsu",
+    "Yueshan Liang",
+    "Zhixing Liu",
+    "Veeramakali Manivannan",
+    "Eric Pham",
+    "Rohith Vutukuru",
+    "Andrew I. L. Williams",
+    "Zhiqi Yang",
+    "Rose Yu",
+    "Nicholas J. Lutsko",
+    "Stephan Hoyer",
+    "Duncan Watson-Parris"
+  ],
+  "pub_year": 2026,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2025-6266",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "atmospheric general circulation",
+    "convection",
+    "large-scale condensation",
+    "clouds",
+    "shortwave radiation",
+    "longwave radiation",
+    "surface turbulent fluxes",
+    "vertical diffusion",
+    "horizontal diffusion"
+  ],
+  "ml_methods": [
+    "gradient descent"
+  ],
+  "ml_tasks": [
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "JCM",
+  "code_availability": "All JCM code and associated data is available in the public repository, linked on JCM's doi page at https://doi.org/10.5281/zenodo.18189579 (Davenport et al., 2026b). The JCM and SPEEDY outputs and modified SPEEDY.f90 code used to generate figures 1, 2, 3 and 4 is available at https://doi.org/10.5281/zenodo.18334906 (Davenport et al., 2026a). Documentation is available at https://jax-gcm.readthedocs.io.",
+  "testbed_candidate": true,
+  "testbed_rationale": "JCM is explicitly introduced and open-sourced as a modular, differentiable, and GPU/TPU-accelerated intermediate-complexity atmospheric model designed to serve as a benchmark testbed for hybrid physics-ML modeling, online training, and parameter estimation.",
+  "pain_points": [
+    "Absence of gradients and complexity of legacy Fortran code hinder the development and validation of hybrid physics-ML models and parameter tuning.",
+    "Offline training of ML parameterizations often leads to instabilities and climate drift when coupled online to dynamical cores.",
+    "Traditional Fortran climate models are costly and difficult to port to modern hardware accelerators (GPUs/TPUs).",
+    "Existing testbeds are either too simplified (e.g., Lorenz 96) or lack process-based physical parameterization schemes required for mechanistic understanding (e.g., NeuralGCM)."
+  ],
+  "extraction_notes": "The paper presents JCM v1.0, coupling the Dinosaur dynamical core with JAX-reimplemented SPEEDY physics. While no neural network is trained in this study, automatic differentiation via JAX (JVP and VJP) is demonstrated for parameter calibration (via gradient descent) and sensitivity analysis.",
+  "dataset_ids": [
+    "7d9f772790d0-01",
+    "7d9f772790d0-02"
+  ]
+}

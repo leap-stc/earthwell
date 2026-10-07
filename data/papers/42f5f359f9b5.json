@@ -1,0 +1,57 @@
+{
+  "paper_id": "42f5f359f9b5",
+  "year": "5",
+  "filename": "An update of the LDEO fCO2-Residual method_ algorithmic choices improve ocean carbon sink estimates.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "An update of the LDEO fCO2-Residual method: algorithmic choices improve ocean carbon sink estimates",
+  "authors": [
+    "Thea H. Heimdal",
+    "Amanda R. Fay",
+    "Abby P. Shaum",
+    "Viviana Acquaviva",
+    "Val Bennington",
+    "Amelie E. Sharples",
+    "Nicoline M. Joenson",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2025,
+  "venue": "EarthArXiv",
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 flux",
+    "surface ocean CO2 fugacity (fCO2)",
+    "ocean carbon sink"
+  ],
+  "ml_methods": [
+    "XGBoost"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Data analysis scripts and supporting files for the observation-based pCO2-Residual method are publicly available at https://github.com/OceanCarbon-LDEO-Columbia/. Code for running CMIP6-testbed experiments is publicly available at https://zenodo.org/records/16645455 (Shaum and Heimdal, 2025). Detailed information on how to access and/or download the CMIP6-testbed is publicly available at https://zenodo.org/records/16654165 (Heimdal, 2025). Code for producing all figures presented in this manuscript will be publicly available upon publication.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The CMIP6-testbed and observational products are specifically designed for evaluating statistical and machine learning reconstruction / spatial gap-filling methods of surface ocean fCO2 and air-sea CO2 fluxes, rather than training or evaluating ML-based atmospheric/ocean parameterizations or forward climate emulators.",
+  "pain_points": [
+    "Severe observational data sparsity (SOCAT covers ~2% of the global surface ocean monthly grid cells over 1982-2024), especially prior to 1990 and declining since 2017.",
+    "Persistent regional observation gaps in the Southern Ocean and Southern Hemisphere.",
+    "Target distribution skewness and long-term trends: oceanic fCO2 has a multi-decadal upward trend that is not shared by most predictor variables (salinity, chlorophyll), creating distribution mismatch that introduces reconstruction bias unless trend/atmospheric CO2 is removed (e.g. using ΔfCO2-Residual).",
+    "Algorithm sensitivity: standard MSE cross-validation hyperparameter selection can lead to substantial multi-year reconstruction biases at the beginning and end of long records."
+  ],
+  "extraction_notes": "The manuscript describes an update to the Lamont-Doherty Earth Observatory (LDEO) fCO2-Residual method, comparing ResidualORG, ResidualOPT, and ΔResidualOPT. A CMIP6-testbed of 44 members across 9 ESMs is used to benchmark algorithmic fidelity against known simulated 'ground truth'.",
+  "dataset_ids": [
+    "42f5f359f9b5-01",
+    "42f5f359f9b5-02",
+    "42f5f359f9b5-03",
+    "42f5f359f9b5-04",
+    "42f5f359f9b5-05",
+    "42f5f359f9b5-06",
+    "42f5f359f9b5-07",
+    "42f5f359f9b5-08"
+  ]
+}

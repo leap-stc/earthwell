@@ -1,0 +1,47 @@
+{
+  "paper_id": "3a1c0bd4e637",
+  "year": "5",
+  "filename": "Uncertainty Estimation of Bayesian Deep Learning for Convective Initiation Nowcasting ABSTRACT.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Uncertainty Estimation of Bayesian Deep Learning for Convective Initiation Nowcasting",
+  "authors": [
+    "Da Fan"
+  ],
+  "pub_year": 2025,
+  "venue": "105th AMS Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/456735",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "nowcasting",
+  "processes": [
+    "convective initiation",
+    "cloud processes"
+  ],
+  "ml_methods": [
+    "Bayesian Deep Learning",
+    "ResNet",
+    "Deterministic ResNet",
+    "Bayesian ResNet",
+    "Deep Ensembles",
+    "Monte Carlo Dropout",
+    "MOPED (Model Priors with Empirical Bayes using Deep neural network)"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract describing an observational satellite nowcasting study for convective initiation; not a climate model parameterization or emulation dataset.",
+  "pain_points": [
+    "Poorer generalization of initial-weights ensemble + MC dropout method in clear-sky and anvil cloud regions without convective initiation",
+    "Standard Bayesian ResNet underperforms deterministic ResNet at lead times longer than 10 minutes"
+  ],
+  "extraction_notes": "Single-page conference abstract from AMS 2025. Contains limited metadata on exact dataset size, resolution, and code availability.",
+  "dataset_ids": [
+    "3a1c0bd4e637-01"
+  ]
+}

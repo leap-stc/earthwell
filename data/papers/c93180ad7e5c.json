@@ -1,0 +1,59 @@
+{
+  "paper_id": "c93180ad7e5c",
+  "year": "5",
+  "filename": "Seeing SDG 6 from space_ local-scale monitoring of piped water and sewage system access across Africa using satellite imagery and self-supervised learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Seeing SDG 6 from space: local-scale monitoring of piped water and sewage system access across Africa using satellite imagery and self-supervised learning",
+  "authors": [
+    "Othmane Echchabi",
+    "Aya Lahlou",
+    "Nizar Talty",
+    "Josh Malcolm Manto",
+    "Tongshu Zheng",
+    "Ka Leung Lam"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2411.19093",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "remote sensing",
+  "processes": [
+    "piped water access",
+    "sewage system access",
+    "urban built-environment morphology"
+  ],
+  "ml_methods": [
+    "Vision Transformer (ViT)",
+    "DINO",
+    "DINOv2",
+    "DINOv3",
+    "k-nearest neighbor (k-NN)",
+    "Galileo",
+    "Prithvi-EO-2.0"
+  ],
+  "ml_tasks": [
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The code used for data preprocessing, self-supervised pretraining, held-out evaluation, and external validation is publicly available on GitHub at https://github.com/othmaneechc/SDG6-Tracker.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets and models in this study are for socioeconomic infrastructure mapping (SDG 6 piped water and sanitation monitoring) rather than physical Earth/climate process parameterization or simulation.",
+  "pain_points": [
+    "Subsurface water and sewage infrastructure are not directly visible in optical satellite imagery, forcing the model to rely on indirect built-environment and settlement proxies.",
+    "Cloud cover limits optical imagery availability and quality in certain regions.",
+    "Decoupling between settlement morphology and actual service delivery can lead to errors.",
+    "Indicator definition mismatch between survey labels (sewer connection access) and international validation targets (WHO/UNICEF safely managed sanitation, which encompasses septic tanks and latrines).",
+    "Spatial data leakage risk requiring survey-location-level rather than interview-level data splits."
+  ],
+  "extraction_notes": "The arXiv identifier header states version v6 dated 30 May 2026. Pretrained models and inference results are shared on Zenodo.",
+  "dataset_ids": [
+    "c93180ad7e5c-01",
+    "c93180ad7e5c-02",
+    "c93180ad7e5c-03",
+    "c93180ad7e5c-04",
+    "c93180ad7e5c-05"
+  ]
+}

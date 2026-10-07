@@ -1,0 +1,50 @@
+{
+  "paper_id": "b2c4df5ecad8",
+  "year": "5",
+  "filename": "Integrating Transformer-Based Land Surface Phenology into the Community Land Model for Climate-Responsive Vegetation Dynamics Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Integrating Transformer-Based Land Surface Phenology into the Community Land Model for Climate-Responsive Vegetation Dynamics",
+  "authors": [
+    "Aya Lahlou",
+    "Linnia R Hawkins",
+    "Adrianna Foster",
+    "David M Lawrence",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/2003866",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "land surface",
+  "processes": [
+    "vegetation phenology",
+    "leaf carbon allocation",
+    "leaf area index dynamics",
+    "land-atmosphere carbon and water fluxes"
+  ],
+  "ml_methods": [
+    "Transformer",
+    "Attention mechanism"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "land surface phenology and leaf area index (LAI) dynamics",
+  "online_coupled": true,
+  "host_model": "CLM5 (CESM)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract marked as Withdrawn; does not provide open data access or complete reproducible benchmark specifications.",
+  "pain_points": [
+    "Threshold-based phenology schemes in CLM fail to capture interannual variability, climate extremes, and ecological memory/legacy effects",
+    "Coupling ML models in Fortran Earth system models (addressed here using FTorch for real-time inference in CLM5)"
+  ],
+  "extraction_notes": "Abstract indicates the paper was scheduled for AGU 2025 (session B31J-1847) but marked as Withdrawn. Uses FTorch to couple a PyTorch/transformer phenology model into CLM5.",
+  "dataset_ids": [
+    "b2c4df5ecad8-01",
+    "b2c4df5ecad8-02",
+    "b2c4df5ecad8-03"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paper_id": "8ed079a7c4c8",
+  "year": "3",
+  "filename": "The Gender Gap in Meaningful Work.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The Gender Gap in Meaningful Work",
+  "authors": [
+    "Vanessa C. Burbano",
+    "Olle Folke",
+    "Stephan Meier",
+    "Johanna Rickne"
+  ],
+  "pub_year": 2024,
+  "venue": "Management Science",
+  "doi_or_url": "https://doi.org/10.1287/mnsc.2022.01807",
+  "doc_kind": "journal_article",
+  "in_scope": false,
+  "research_field": "Labor Economics",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The article is completely out of scope of Earth and climate sciences; it focuses on labor economics, gender gaps, and workplace characteristics.",
+  "pain_points": [],
+  "extraction_notes": "The paper uses standard econometric/statistical regression analyses (OLS, fixed effects) rather than machine learning methods.",
+  "dataset_ids": [
+    "8ed079a7c4c8-01",
+    "8ed079a7c4c8-02",
+    "8ed079a7c4c8-03"
+  ]
+}

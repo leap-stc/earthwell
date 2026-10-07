@@ -1,0 +1,40 @@
+{
+  "paper_id": "a12f3a624a8f",
+  "year": "5",
+  "filename": "Revised estimates of CO2 sources and sinks improve global carbon accounting.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Global carbon budget rebalanced",
+  "authors": [
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2026,
+  "venue": "Nature",
+  "doi_or_url": null,
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "carbon cycle",
+  "processes": [
+    "ocean carbon sink",
+    "terrestrial carbon sink",
+    "land-use change CO2 emissions",
+    "atmospheric CO2 accumulation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a short News & Views commentary discussing revisions to the Global Carbon Budget; no datasets, benchmark models, or code are produced or provided.",
+  "pain_points": [
+    "Large statistical uncertainties in source and sink flux estimates limit the direct policy utility of the Global Carbon Budget for short-term mitigation tracking",
+    "Observational coverage of carbon in the ocean has declined over the past decade",
+    "Key satellite remote-sensing platforms tracking atmospheric CO2 may soon go offline",
+    "Need to scale from voluntary scientific research assessments to sustained operational monitoring infrastructure"
+  ],
+  "extraction_notes": "Nature News & Views article discussing Friedlingstein et al. (2026) (Nature 649, 98-103) and the Global Carbon Budget (GCB). Mention of ML is general ('machine-learning algorithms that extrapolate sparse data to estimate global coverage').",
+  "dataset_ids": []
+}

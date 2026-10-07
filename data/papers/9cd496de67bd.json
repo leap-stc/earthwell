@@ -1,0 +1,61 @@
+{
+  "paper_id": "9cd496de67bd",
+  "year": "5",
+  "filename": "Investigating Western North America Atmospheric Rivers with Machine Learning-Based Detection.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Investigating Western North America Atmospheric Rivers with Machine Learning-Based Detection",
+  "authors": [
+    "Katherine Dagon",
+    "Teagan King",
+    "Christine A. Shields",
+    "John Truesdale",
+    "Sol Kim",
+    "Kirsten J. Mayer",
+    "Andre Graubner",
+    "Annette Greiner",
+    "Lukas Kapp-Schwoerer",
+    "Karthik Kashinath"
+  ],
+  "pub_year": 2026,
+  "venue": "ESSOAr",
+  "doi_or_url": "https://doi.org/10.22541/essoar.15005316/v2",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_diagnostics",
+  "processes": [
+    "atmospheric rivers",
+    "extreme precipitation",
+    "water vapor transport",
+    "tropical cyclones",
+    "climate change"
+  ],
+  "ml_methods": [
+    "CGNet",
+    "convolutional neural network",
+    "semantic segmentation"
+  ],
+  "ml_tasks": [
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.22211211 (analysis software) and https://github.com/andregraubner/ClimateNet (CGNet model code)",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study focuses on extreme event segmentation and tracking (atmospheric rivers) using a pre-existing CNN architecture (CGNet), rather than developing or benchmarking ML parameterizations or emulators for climate models.",
+  "pain_points": [
+    "Spatial resolution mismatch: CGNet performance degrades significantly if input data (e.g., MERRA-2 at 0.5°) is not regridded to the training resolution (0.25°).",
+    "Sensitivity to input normalization under climate change: using historical vs. future warming normalization parameters shifts detected AR frequency by >15% due to mean-state moisture increases.",
+    "Data availability and missing diagnostics: high-frequency (3-hourly) total precipitable water (TMQ) was not standard in historical/future CESM runs, necessitating estimation from PS and Q, or temporal interpolation from 6-hourly data.",
+    "Severe class imbalance: the overwhelming dominance of the background class over ARs and TCs complicates training and depresses mean IoU.",
+    "Limited expert-labeled training samples: only 459 labeled images spanning 219 time steps were available from ClimateNet, limiting the diversity of synoptic states sampled."
+  ],
+  "extraction_notes": "The paper uses CGNet for offline semantic segmentation and connected-component tracking of atmospheric rivers on CESM1.3 simulation output and reanalyses.",
+  "dataset_ids": [
+    "9cd496de67bd-01",
+    "9cd496de67bd-02",
+    "9cd496de67bd-03",
+    "9cd496de67bd-04",
+    "9cd496de67bd-05"
+  ]
+}

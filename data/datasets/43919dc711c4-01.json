@@ -1,0 +1,19 @@
+{
+  "dataset_id": "43919dc711c4-01",
+  "paper_id": "43919dc711c4",
+  "name": "CLM perturbed parameter ensemble (PPE) simulations",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Community Land Model (CLM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly scale",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

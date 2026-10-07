@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2888fdcca7b4-02",
+  "paper_id": "2888fdcca7b4",
+  "name": "LENS and NoPin (NP) ensemble means for apparent oxygen utilization (AOU), anthropogenic and preindustrial carbon, pCFC-12, and ideal age",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "subsampled along GO-SHIP hydrographic transects",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.8145484",
+  "access_kind": "public_url_or_doi"
+}

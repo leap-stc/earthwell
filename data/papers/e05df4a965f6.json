@@ -1,0 +1,48 @@
+{
+  "paper_id": "e05df4a965f6",
+  "year": "5",
+  "filename": "LEX v1.6.0_ a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation(1).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "LEX v1.6.0: a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation",
+  "authors": [
+    "Xingyu Zhu",
+    "Yongquan Qu",
+    "Xiaoming Shi"
+  ],
+  "pub_year": 2026,
+  "venue": "Geoscientific Model Development",
+  "doi_or_url": "https://doi.org/10.5194/gmd-19-1103-2026",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "turbulence_convection",
+  "processes": [
+    "subgrid-scale turbulence",
+    "thermal convection",
+    "rising thermal bubble",
+    "gray zone turbulence"
+  ],
+  "ml_methods": [
+    "3D Autoencoder",
+    "Adam"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "Subgrid-scale (SGS) corrections for potential temperature, water vapor mixing ratio, and velocity components in the turbulence gray zone",
+  "online_coupled": true,
+  "host_model": "LEX v1.6.0",
+  "code_availability": "The current version of LEX is publicly available on Github at https://github.com/MetLab-HKUST/LEX (last access: 30 January 2026) under the MIT license. LEX codes, and scripts for producing figures are archived on Zenodo under https://doi.org/10.5281/zenodo.15486687 (Zhu et al., 2025a).",
+  "testbed_candidate": true,
+  "testbed_rationale": "Publicly provides high-fidelity LES benchmark simulation data alongside a fully auto-differentiable GPU-accelerated LES code (LEX in JAX) designed specifically for coupled online learning of subgrid-scale turbulence parameterizations.",
+  "pain_points": [
+    "Long JIT compilation and setup overhead relative to short integration periods",
+    "Requirement of double precision (float64) during training to prevent rounding error instabilities, which slows execution and lacks native hardware convolution support on certain GPUs",
+    "Unphysical initial neural network predictions (e.g., negative water vapor mixing ratios and background noise), requiring custom penalties (non-negative loss and Laplacian pyramid loss)",
+    "Extreme sensitivity of differentiable multi-step rollouts to parameter initialization, necessitating staged curriculum training across 3, 6, and 12 look-ahead steps",
+    "Spatial domain parallelism is hindered by the iterative BiCGSTAB pressure solver, limiting current multi-device execution to batch-level parallelism"
+  ],
+  "extraction_notes": "LEX solves Durran's (2008) pseudo-incompressible acoustic-wave-filtered equations in JAX with SSPRK3 and WENO spatial discretization. The DL model predicts single-step SGS tendency corrections coupled online inside differentiable roll-out loops.",
+  "dataset_ids": [
+    "e05df4a965f6-01"
+  ]
+}

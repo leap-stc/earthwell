@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b10f4cc342fd-02",
+  "paper_id": "b10f4cc342fd",
+  "name": "GRACE and GRACE-FO JPL mascon solutions (JPL-RL06.1Mv03)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "GRACE and GRACE-FO satellites",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.5°, monthly, April 2002–December 2021",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5067/TEMSC-3JC63",
+  "access_kind": "public_url_or_doi"
+}

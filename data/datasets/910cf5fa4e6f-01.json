@@ -1,0 +1,19 @@
+{
+  "dataset_id": "910cf5fa4e6f-01",
+  "paper_id": "910cf5fa4e6f",
+  "name": "Two-scale Lorenz '96 model simulation data",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Lorenz '96 two-scale model (K=8, J=32, F=15, h=1, b=10, c=10)",
+  "scale": "other",
+  "data_types": [
+    "time_series",
+    "trajectories"
+  ],
+  "size_as_stated": "9995 points",
+  "size_gb_estimate": null,
+  "resolution": "dt = 0.005 for true integration, subsampled at Delta t = 0.01; integrated from t = 0 to 100 MTU (500 ATM days)",
+  "produced_in_this_study": true,
+  "access": "https://github.com/bhouri0412/Hist_Bayesian_Closure",
+  "access_kind": "public_url_or_doi"
+}

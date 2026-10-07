@@ -1,0 +1,53 @@
+{
+  "paper_id": "e5f1791220ab",
+  "year": "5",
+  "filename": "Stable Machine Learning based Radiation Emulation for ICON.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Stable Machine Learning based Radiation Emulation for ICON",
+  "authors": [
+    "Katharina Hafner",
+    "Fernando Iglesias-Suarez",
+    "Sara Shamekh",
+    "Pierre Gentine",
+    "Marco A. Giorgetta",
+    "Robert Pincus",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2025,
+  "venue": "ESS Open Archive",
+  "doi_or_url": "https://doi.org/10.22541/essoar.174708082.27787580/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Climate Modeling",
+  "processes": [
+    "Atmospheric radiative transfer",
+    "Shortwave radiation",
+    "Longwave radiation",
+    "Cloud-radiation interactions",
+    "Surface energy balance"
+  ],
+  "ml_methods": [
+    "Bidirectional Long Short-Term Memory (Bi-LSTM)"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameterization"
+  ],
+  "parameterization_target": "Atmospheric radiative transfer (shortwave and longwave heating rate profiles and surface/TOA fluxes)",
+  "online_coupled": true,
+  "host_model": "ICON-A",
+  "code_availability": "The software code for the ICON model is available from https://icon-model.org. Coupling was done with FTorch as described in Atkinson et al. (2025). The ML-based radiation emulator can be found in Hafner et al. (2024).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The simulation datasets produced and evaluated in this work do not have dedicated public repository links or DOIs provided in the manuscript.",
+  "pain_points": [
+    "Generalization limits under strong climate change: the emulator failed to generalize to a +8 K SST warming in the stratosphere because specific humidity went drastically out of distribution.",
+    "Altered online equilibrium: the coupled ML model drifted into a slightly altered cloud distribution and a ~1 W/m² surface flux offset.",
+    "Exclusion of aerosol radiative interactions and time-varying greenhouse gas forcings.",
+    "Hardware and deployment constraints: the ICON atmospheric setup ran purely on CPUs, limiting the achieved speedup to 4x compared to the ~20x speedup achievable on GPUs."
+  ],
+  "extraction_notes": "The underlying neural network architecture and offline training setup were developed in Hafner et al. (2024); this paper focuses on online coupling via FTorch and 10-year stability/warming evaluations.",
+  "dataset_ids": [
+    "e5f1791220ab-01",
+    "e5f1791220ab-02"
+  ]
+}

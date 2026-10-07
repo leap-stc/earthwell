@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b0ae81292189-01",
+  "paper_id": "b0ae81292189",
+  "name": "In situ cloud microphysics observations",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "aircraft and ground-based instruments",
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "single points in space and time",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

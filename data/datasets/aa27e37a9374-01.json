@@ -1,0 +1,19 @@
+{
+  "dataset_id": "aa27e37a9374-01",
+  "paper_id": "aa27e37a9374",
+  "name": "FEMA NFIP Redacted Claims - v2",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Claim level, 1978-2024/2025",
+  "produced_in_this_study": false,
+  "access": "https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2",
+  "access_kind": "public_url_or_doi"
+}

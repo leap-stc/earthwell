@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e7888f8e7019-01",
+  "paper_id": "e7888f8e7019",
+  "name": "Global Soil Wetness Project Phase 3 atmospheric boundary conditions (GSWP3v2)",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "GSWP3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "3-hourly, 0.5° global grid (interpolated to 2° model grid)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.20783/DIAS.501",
+  "access_kind": "public_url_or_doi"
+}

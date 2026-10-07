@@ -1,0 +1,51 @@
+{
+  "paper_id": "a436a117e657",
+  "year": "3",
+  "filename": "Global pattern and mechanism of terrestrial evapotranspiration change indicated by weather stations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Global pattern and mechanism of terrestrial evapotranspiration change indicated by weather stations",
+  "authors": [
+    "Haiyang Shi"
+  ],
+  "pub_year": null,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "evapotranspiration",
+    "land-atmosphere interaction",
+    "terrestrial water cycle",
+    "surface energy balance"
+  ],
+  "ml_methods": [
+    "Random Forest",
+    "Bayesian Network"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "classification_detection",
+    "causal_inference"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All data and code support for this study can be available upon request from the first author (shihaiyang16@mails.ucas.ac.cn).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets and code produced in this study are available only upon request, and the work focuses on observational station upscaling and attribution analysis rather than physical parameterization benchmarking for climate models.",
+  "pain_points": [
+    "Coarse resolution of atmospheric reanalysis forcing (~10 km) poorly represents local microclimates and sub-grid heterogeneity at flux tower footprints",
+    "Empirical parameterizations of surface and canopy resistance (especially soil moisture controls) introduce high uncertainty in physics-based ET models",
+    "Sparsity of flux towers and weather stations in tropical rainforests and arid zones limits global representation and extrapolation accuracy",
+    "Lack of independent global accuracy validation for gridded ET estimates"
+  ],
+  "extraction_notes": "Only Haiyang Shi is listed on the title page byline; Pierre Gentine is acknowledged under LEAP funding (NSF award # 2019625). Publication year is omitted from the preprint manuscript header; literature references include citations up to 2023.",
+  "dataset_ids": [
+    "a436a117e657-01",
+    "a436a117e657-02",
+    "a436a117e657-03",
+    "a436a117e657-04",
+    "a436a117e657-05"
+  ]
+}

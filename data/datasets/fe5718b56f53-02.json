@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fe5718b56f53-02",
+  "paper_id": "fe5718b56f53",
+  "name": "NOAA atmospheric xCO2 / Greenhouse Gas Reference",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA ESRL Global Greenhouse Gas Reference Network",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly mean surface / marine boundary layer",
+  "produced_in_this_study": false,
+  "access": "https://www.esrl.noaa.gov/gmd/ccgg/mbl/data.php",
+  "access_kind": "public_url_or_doi"
+}

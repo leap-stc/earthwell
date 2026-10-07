@@ -1,0 +1,59 @@
+{
+  "paper_id": "ce8197c246db",
+  "year": "5",
+  "filename": "Unexpected decline in the ocean carbon sink under record-high sea surface temperatures in 2023.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Unexpected decline in the ocean carbon sink under record-high sea surface temperatures in 2023",
+  "authors": [
+    "Jens Daniel Müller",
+    "Nicolas Gruber",
+    "Aline Schneuwly",
+    "Dorothee C. E. Bakker",
+    "Marion Gehlen",
+    "Luke Gregor",
+    "Judith Hauck",
+    "Peter Landschützer",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2025,
+  "venue": "Nature Climate Change",
+  "doi_or_url": "https://doi.org/10.1038/s41558-025-02380-4",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean carbon sink dynamics",
+    "solubility pump",
+    "ocean mixed-layer stratification",
+    "marine heatwaves and sea surface temperature extremes",
+    "El Niño-Southern Oscillation (ENSO) ocean response"
+  ],
+  "ml_methods": [
+    "Feed-forward neural network",
+    "Extreme Gradient Boosting",
+    "Self-organizing map",
+    "Clustering-regression"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All code required to perform the analysis and prepare the figures presented in this study is available via Zenodo at https://doi.org/10.5281/zenodo.15607822 (ref. 51).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts retrospective and diagnostic carbon flux attribution using existing observation-based statistical/ML products and coarse GOBM simulations rather than producing a reusable training dataset or testbed for physical parameterization development.",
+  "pain_points": [
+    "Severe data sparsity in high-latitude biomes (Southern Ocean and Arctic) results in large ensemble spread and high uncertainty across observation-based products.",
+    "Latency of in situ observational data availability requires evaluating out-of-sample near-real-time (NRT) extrapolations beyond training years.",
+    "Global ocean biogeochemical models (GOBMs) underestimate non-thermal fCO2 compensating mechanisms in seasonally stratified biomes (such as NA-SPSS) relative to observation-based products."
+  ],
+  "extraction_notes": "Author Galen A. McKinley acknowledges support from the NSF LEAP STC (AGS2019625). The study focuses on using existing ML-mapped observational products to diagnose the 2023 air-sea CO2 flux anomaly rather than developing novel ML parameterization schemes.",
+  "dataset_ids": [
+    "ce8197c246db-01",
+    "ce8197c246db-02",
+    "ce8197c246db-03",
+    "ce8197c246db-04"
+  ]
+}

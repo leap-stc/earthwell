@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a3f77201a4b0-03",
+  "paper_id": "a3f77201a4b0",
+  "name": "ChaosBench S2S climate benchmark dataset",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "ChaosBench (with S2S ensemble forecasts from UKMO, NCEP, CMA, ECMWF and historical SST forcing)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1979-2019 (train), 2020-2021 (val), 2022-2023 (test) at daily temporal resolution",
+  "size_gb_estimate": null,
+  "resolution": "1.5° (121x240 grid), daily temporal resolution, 8 atmospheric variables/levels",
+  "produced_in_this_study": false,
+  "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
+  "access_kind": "public_url_or_doi"
+}

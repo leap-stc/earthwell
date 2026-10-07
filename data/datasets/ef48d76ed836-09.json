@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ef48d76ed836-09",
+  "paper_id": "ef48d76ed836",
+  "name": "SnowCCI-v2 SWE",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ESA Snow Climate Change Initiative microwave + in situ",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "re-gridded to 0.5° × 0.5°",
+  "produced_in_this_study": false,
+  "access": "https://catalogue.ceda.ac.uk/uuid/93cf539bc3004cc8b98006e69078d86b/",
+  "access_kind": "public_url_or_doi"
+}

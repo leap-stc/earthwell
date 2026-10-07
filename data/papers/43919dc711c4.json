@@ -1,0 +1,42 @@
+{
+  "paper_id": "43919dc711c4",
+  "year": "5",
+  "filename": "Leveraging Machine Learning and MCMC to Optimize Community Land Model Parameters for Accurate Gross Primary Productivity Estimates ABSTRACT.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "GC43E-0845 Leveraging Machine Learning and MCMC to Optimize Community Land Model Parameters for Accurate Gross Primary Productivity Estimates",
+  "authors": [
+    "Sudhanshu Kumar"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting 2025",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1882489",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Carbon cycle / Land surface modeling",
+  "processes": [
+    "Gross primary productivity (GPP)",
+    "Land carbon sink"
+  ],
+  "ml_methods": [
+    "Markov Chain Monte Carlo (MCMC)"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration"
+  ],
+  "parameterization_target": "Gross primary productivity (GPP)",
+  "online_coupled": false,
+  "host_model": "Community Land Model (CLM)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific public data or code links.",
+  "pain_points": [
+    "High computational cost of running CLM simulations for systematic parameter calibration",
+    "Uncertainty in land carbon sink projections due to calibration of process-based models"
+  ],
+  "extraction_notes": "Single-page conference abstract from AGU 2025. Only the first author is shown on the page. The specific ML architecture used for the CLM emulator is not detailed beyond 'machine learning (ML)'.",
+  "dataset_ids": [
+    "43919dc711c4-01",
+    "43919dc711c4-02"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9c3dd19f000c-02",
+  "paper_id": "9c3dd19f000c",
+  "name": "ImageNet (128x128 and 256x256)",
+  "role": "evaluation",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "12K generated samples, 50K training images subset as reference",
+  "size_gb_estimate": null,
+  "resolution": "128x128 and 256x256 pixels",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

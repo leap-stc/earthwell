@@ -1,0 +1,60 @@
+{
+  "paper_id": "11a897504521",
+  "year": "5",
+  "filename": "CausalDynamics_ A large-scale benchmark for structural discovery of dynamical causal models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "CausalDynamics: A large-scale benchmark for structural discovery of dynamical causal models",
+  "authors": [
+    "Benjamin Herdeanu",
+    "Juan Nathaniel",
+    "Carla Roesch",
+    "Jatan Buch",
+    "Gregor Ramien",
+    "Johannes Haux",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Advances in Neural Information Processing Systems (NeurIPS 2025) Track on Datasets and Benchmarks",
+  "doi_or_url": "https://arxiv.org/abs/2505.16620",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "climate_causality",
+  "processes": [
+    "ocean-atmosphere coupling",
+    "El Niño–Southern Oscillation (ENSO)",
+    "barotropic and baroclinic flow",
+    "chaotic dynamics"
+  ],
+  "ml_methods": [
+    "PCMCI+",
+    "F-PCMCI",
+    "VARLiNGAM",
+    "DYNOTEARS",
+    "Neural Granger Causality (cLSTM)",
+    "Tangent Space Causal Inference (TSCI)",
+    "CUTS+",
+    "Repetitive Causal Discovery (RCD)",
+    "Greedy Relaxations of the Sparsest Permutation (GRaSP)",
+    "Temporal Causal Discovery Framework (TCDF)"
+  ],
+  "ml_tasks": [
+    "causal_inference"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/kausable/CausalDynamics",
+  "testbed_candidate": false,
+  "testbed_rationale": "The benchmark provides synthetic dynamical systems, coupled ODEs/SDEs, and reduced-order climate time series specifically targeted at causal structure discovery rather than training or testing physical parameterizations or emulators.",
+  "pain_points": [
+    "Algorithms often infer autocorrelation or dense adjacency where none exists when confronted with nonstationary dynamics",
+    "Deep learning-based causal discovery algorithms are often outperformed by non-DL constraint-based and score-based methods in higher-dimensional dynamical systems",
+    "Causal discovery evaluation metrics like AUROC can be deceptively optimistic on sparse graphs due to low false-positive rates",
+    "Unobserved confounders, time delays, and observational noise obscure conditional independence testing and lead to spurious causal links"
+  ],
+  "extraction_notes": "Tier 3 of the benchmark uses reduced-order climate models (XRO conceptual ENSO recharge oscillator and qgs quasi-geostrophic two-layer MAOOAM atmosphere-ocean model).",
+  "dataset_ids": [
+    "11a897504521-01",
+    "11a897504521-02"
+  ]
+}

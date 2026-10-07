@@ -1,0 +1,18 @@
+{
+  "dataset_id": "abec22acf841-04",
+  "paper_id": "abec22acf841",
+  "name": "ERA5 monthly averaged data on single levels (winds, SLP, SST)",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly, 1950 to present",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.24381/cds.f17050d7",
+  "access_kind": "public_url_or_doi"
+}

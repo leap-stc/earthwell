@@ -1,0 +1,48 @@
+{
+  "paper_id": "8d5a2534ce39",
+  "year": "4",
+  "filename": "Deep Learning for identifying functional relationships involving basal friction and ice fluidity Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Learning for identifying functional relationships involving basal friction and ice fluidity",
+  "authors": [
+    "Racheet Matai",
+    "Andrew Osten Hoffman",
+    "Dave Porter",
+    "Jonathan Kingslake",
+    "Kirsty J. Tinto",
+    "Laure Zanna"
+  ],
+  "pub_year": 2024,
+  "venue": "AGU Fall Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AGUFMC13D...06M/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "glaciology",
+  "processes": [
+    "basal friction",
+    "ice rheology",
+    "ice dynamics"
+  ],
+  "ml_methods": [
+    "Multi-Layer Perceptron"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "basal friction and ice fluidity",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without links or access details to code and processed inversion datasets.",
+  "pain_points": [
+    "Basal conditions and ice rheology are difficult to observe directly, requiring indirect numerical inversion.",
+    "Traditional numerical inversion techniques cannot predict changes in basal conditions or ice rheology under evolving conditions.",
+    "Sensitivity of inversion techniques to measurement errors."
+  ],
+  "extraction_notes": "Short conference abstract. Specific satellite missions, ice sheet flow model names, and public repository links are not mentioned.",
+  "dataset_ids": [
+    "8d5a2534ce39-01",
+    "8d5a2534ce39-02"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2ae43c907021-01",
+  "paper_id": "2ae43c907021",
+  "name": "Eddy Covariance Flux Tower Network (FLUXNET, AmeriFlux, ICOS, JapanFlux)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Eddy covariance tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "579 EC sites (2000–2023)",
+  "size_gb_estimate": null,
+  "resolution": "daily (harmonized with 45-day window, 15-day stride)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

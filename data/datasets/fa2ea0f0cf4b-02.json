@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fa2ea0f0cf4b-02",
+  "paper_id": "fa2ea0f0cf4b",
+  "name": "Global eddy covariance observations",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "eddy covariance flux towers",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d65c74c594b0-05",
+  "paper_id": "d65c74c594b0",
+  "name": "CAMS atmospheric greenhouse gas inversion CO2 dataset",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Copernicus Atmosphere Monitoring Service",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1.27° × 2.5°",
+  "produced_in_this_study": false,
+  "access": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-greenhouse-gas-inversion?tab=overview",
+  "access_kind": "public_url_or_doi"
+}

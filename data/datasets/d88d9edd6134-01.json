@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d88d9edd6134-01",
+  "paper_id": "d88d9edd6134",
+  "name": "SPEAR ice-ocean DA simulation increments (DAZ21)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL SPEAR (MOM6 + SIS2)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° horizontal resolution, 5-day mean / cycles",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7818178",
+  "access_kind": "public_url_or_doi"
+}

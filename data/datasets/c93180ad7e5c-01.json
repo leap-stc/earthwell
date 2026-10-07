@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c93180ad7e5c-01",
+  "paper_id": "c93180ad7e5c",
+  "name": "Sentinel-2 MSI satellite imagery",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Sentinel-2 MSI",
+  "scale": "regional",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "over 1.4 million unlabeled Sentinel-2 image patches of size 256 × 256 pixels",
+  "size_gb_estimate": null,
+  "resolution": "10 m (RGB bands); 256 × 256 pixel patches (~2.56 km)",
+  "produced_in_this_study": false,
+  "access": "Retrieved through Google Earth Engine (GEE); Afrobarometer imagery tiles are available at https://zenodo.org/records/14740420",
+  "access_kind": "public_url_or_doi"
+}

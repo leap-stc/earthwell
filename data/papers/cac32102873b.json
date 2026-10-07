@@ -1,0 +1,54 @@
+{
+  "paper_id": "cac32102873b",
+  "year": "2",
+  "filename": "Wasserstein Distributional Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Wasserstein Distributional Learning",
+  "authors": [
+    "Chengliang Tang",
+    "Nathan Lenssen",
+    "Ying Wei",
+    "Tian Zheng"
+  ],
+  "pub_year": 2022,
+  "venue": null,
+  "doi_or_url": "https://arxiv.org/abs/2209.04991",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate science",
+  "processes": [
+    "surface temperature variability",
+    "radiative forcing response",
+    "El Niño Southern Oscillation (ENSO) teleconnections"
+  ],
+  "ml_methods": [
+    "Semi-parametric Conditional Gaussian Mixture Models (SCGMM)",
+    "Boosted decision trees",
+    "Majorization-Minimization (MM) optimization",
+    "Fréchet regression",
+    "Mixture Density Networks (MDN)"
+  ],
+  "ml_tasks": [
+    "uncertainty_quantification",
+    "emulation",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/ChengliangTang/Wasserstein-Distributional-Learning",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper focuses on general statistical density-on-scalar regression methodology using aggregated 1D global land temperature anomaly distributions rather than spatial climate model parameterization or physical process simulation testbeds.",
+  "pain_points": [
+    "Inherent non-negativity and unit-integral constraints of probability density functions in functional regression",
+    "Non-convexity and noisy loss gradients when optimizing the Wasserstein loss directly over mixture model parameters",
+    "Computational scaling and non-crossing quantile function constraints in existing methods such as Fréchet regression",
+    "Handling sparse empirical quantiles where continuous density estimates are not directly available"
+  ],
+  "extraction_notes": "The primary ML methodological innovation is Wasserstein Distributional Learning (WDL) using Semi-parametric Conditional Gaussian Mixture Models (SCGMM) optimized with boosted trees via Majorization-Minimization. The climate application predicts the annual empirical distribution of daily global mean land temperature anomalies from atmospheric forcings and ENSO.",
+  "dataset_ids": [
+    "cac32102873b-01",
+    "cac32102873b-02",
+    "cac32102873b-03"
+  ]
+}

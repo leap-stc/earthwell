@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a8db6bfca0cf-02",
+  "paper_id": "a8db6bfca0cf",
+  "name": "MITgcm parameter perturbation ensemble",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "MITgcm",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "coarse resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

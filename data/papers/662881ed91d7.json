@@ -1,0 +1,63 @@
+{
+  "paper_id": "662881ed91d7",
+  "year": "1",
+  "filename": "Physics-Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Physics-Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks",
+  "authors": [
+    "Xiaowei Jia",
+    "Jacob Zwart",
+    "Jeffrey Sadler",
+    "Alison Appling",
+    "Samantha Oliver",
+    "Steven Markstrom",
+    "Jared Willard",
+    "Shaoming Xu",
+    "Michael Steinbach",
+    "Jordan Read",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2020,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2009.12575",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "streamflow",
+    "stream temperature",
+    "river network routing",
+    "heat advection",
+    "surface energy balance"
+  ],
+  "ml_methods": [
+    "Physics-Guided Recurrent Graph Networks (PGRGrN)",
+    "Recurrent Graph Networks (RGrN)",
+    "Long-Short Term Memory (LSTM)",
+    "Graph Convolutional Networks (GCN)",
+    "Artificial Neural Networks (ANN)",
+    "Contrastive learning"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on regional river network streamflow and water temperature prediction, not subgrid physical parameterization for Earth System Models.",
+  "pain_points": [
+    "Severe data sparsity in river networks where most segments have few or no observations.",
+    "Order-of-magnitude scale variations across river segments (e.g., high flow vs. low headwater flow) causes global ML losses (MSE) to focus on high-flow segments while neglecting low-flow segments.",
+    "Physics-based models (PRMS-SNTemp) involve numerous interacting parameters (84 parameters), making manual/expert calibration extremely slow and computationally intensive.",
+    "Standard GCN latent embeddings learned purely data-driven lack physical interpretation and overfit when trained on sparse observation sets."
+  ],
+  "extraction_notes": "The paper uses simulation pre-training to guide graph representations (PGRGrN) and a segment-wise contrastive loss to regularize predictions across varying river sizes.",
+  "dataset_ids": [
+    "662881ed91d7-01",
+    "662881ed91d7-02",
+    "662881ed91d7-03"
+  ]
+}

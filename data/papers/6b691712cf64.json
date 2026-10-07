@@ -1,0 +1,59 @@
+{
+  "paper_id": "6b691712cf64",
+  "year": "4",
+  "filename": "Improving Oil Slick Trajectory Simulations with Bayesian Optimization.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Improving Oil Slick Trajectory Simulations with Bayesian Optimization",
+  "authors": [
+    "Gabriele Accarino",
+    "Marco M. De Carlo",
+    "Igor Atake",
+    "Donatello Elia",
+    "Anusha L. Dissanayake",
+    "Antonio Augusto Sepp Neves",
+    "Juan Peña Ibañez",
+    "Italo Epicoco",
+    "Paola Nassisi",
+    "Sandro Fiore",
+    "Giovanni Coppini"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2503.02749",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "ocean surface advection",
+    "horizontal turbulent diffusion",
+    "wind drift",
+    "oil slick dispersion"
+  ],
+  "ml_methods": [
+    "Bayesian optimization",
+    "Gaussian process regression"
+  ],
+  "ml_tasks": [
+    "parameter_calibration"
+  ],
+  "parameterization_target": "horizontal diffusivity and wind drift factor",
+  "online_coupled": false,
+  "host_model": "MEDSLIK-II",
+  "code_availability": "BayesOpt library at https://github.com/bayesian-optimization/BayesianOptimization; MEDSLIK-II model v2.01 at https://www.medslik-ii.org/index.html; THREDDS catalog at http://thredds.imagine.disi.unitn.it/thredds/catalog/catalog.html",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study applies Gaussian-process-based Bayesian optimization for black-box parameter calibration of an existing Lagrangian trajectory model (MEDSLIK-II) rather than generating or validating an ML emulator or ML-based subgrid parameterization dataset.",
+  "pain_points": [
+    "High computational runtime during optimization iterations prevents rapid operational spill response in multi-step calibration mode.",
+    "Lack of oil thickness/mass balance information in satellite observations limits calibration to 2D footprint and centroid geometry.",
+    "Sensor heterogeneity across satellite passes (SAR vs. optical, Sentinel-1 vs Sentinel-3 vs Landsat 8) introduces observational discrepancies.",
+    "Coarse oceanographic forcing in coastal zones lacks local current resolution, forcing reliance on numerical extrapolation."
+  ],
+  "extraction_notes": "The paper uses Bayesian optimization with an Upper Confidence Bound (UCB) acquisition function to calibrate two physical parameters (horizontal diffusivity Kh and wind drift factor alpha) in MEDSLIK-II to maximize the Fractions Skill Score (FSS) against satellite-derived oil spill polygons.",
+  "dataset_ids": [
+    "6b691712cf64-01",
+    "6b691712cf64-02",
+    "6b691712cf64-03",
+    "6b691712cf64-04",
+    "6b691712cf64-05"
+  ]
+}

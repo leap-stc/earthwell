@@ -1,0 +1,19 @@
+{
+  "dataset_id": "63fd0cbfe99b-01",
+  "paper_id": "63fd0cbfe99b",
+  "name": "TROPOMI Solar-Induced Chlorophyll Fluorescence (SIF)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "TROPOMI on Sentinel-5 Precursor",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.083° x 0.083°, 8-day interval (February 2018 to October 2021)",
+  "produced_in_this_study": false,
+  "access": "ftp://fluo.gps.caltech.edu/data/tropomi/gridded/SIF740/",
+  "access_kind": "public_url_or_doi"
+}

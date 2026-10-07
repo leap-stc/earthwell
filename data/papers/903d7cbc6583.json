@@ -1,0 +1,42 @@
+{
+  "paper_id": "903d7cbc6583",
+  "year": "4",
+  "filename": "Clustering the Latent Dimensions of a Variational Autoencoder to Identify Representative Trajectories of Ice Crystals in Cirrus Clouds Modeled By Lagrangian Microphysics Abstract_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Clustering the Latent Dimensions of a Variational Autoencoder to Identify Representative Trajectories of Ice Crystals in Cirrus Clouds Modeled By Lagrangian Microphysics",
+  "authors": [],
+  "pub_year": 2025,
+  "venue": "105th AMS Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/453663",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud_microphysics",
+  "processes": [
+    "ice crystal depositional growth",
+    "cirrus cloud microphysics",
+    "supersaturation history",
+    "Lagrangian particle microphysics"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder",
+    "K-means clustering",
+    "Uniform Manifold Approximation and Projection (UMAP)"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CM1",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct dataset access or code availability details.",
+  "pain_points": [
+    "Microphysical variability requires tracking high-dimensional Lagrangian particle histories, creating high computational and dimensionality burdens.",
+    "Very limited dataset and code specification in the conference abstract."
+  ],
+  "extraction_notes": "Author names are not listed on the document page provided. The abstract references a CM1 LES cirrus simulation based on the ICEBall campaign from Chandrakar et al. (2024, GRL).",
+  "dataset_ids": [
+    "903d7cbc6583-01"
+  ]
+}

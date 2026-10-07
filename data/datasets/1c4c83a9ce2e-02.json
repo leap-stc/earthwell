@@ -1,0 +1,19 @@
+{
+  "dataset_id": "1c4c83a9ce2e-02",
+  "paper_id": "1c4c83a9ce2e",
+  "name": "CM1 bin microphysics (TAU) LES ensemble simulations of marine stratocumulus",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CM1 with TAU bin microphysics",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "135 marine stratocumulus cases",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

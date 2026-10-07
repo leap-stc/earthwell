@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c56071d72c6e-01",
+  "paper_id": "c56071d72c6e",
+  "name": "Heat Severity and Coverage Index (HSCI) fields",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "high-resolution (spanning 1981–2023 across CONUS)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

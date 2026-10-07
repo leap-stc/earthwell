@@ -1,0 +1,58 @@
+{
+  "paper_id": "c26112c02ff3",
+  "year": "3",
+  "filename": "Anomalous Meltwater From Ice Sheets and Ice Shelves Is a Historical Forcing.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Anomalous Meltwater From Ice Sheets and Ice Shelves Is a Historical Forcing",
+  "authors": [
+    "Gavin A. Schmidt",
+    "Anastasia Romanou",
+    "Lettie A. Roach",
+    "Kenneth D. Mankoff",
+    "Qian Li",
+    "Craig D. Rye",
+    "Maxwell Kelley",
+    "John C. Marshall",
+    "Julius J. M. Busecke"
+  ],
+  "pub_year": 2023,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2023GL106530",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "ice sheet meltwater discharge",
+    "ice shelf basal melt and calving",
+    "ocean stratification and convection",
+    "sea ice thermodynamics and dynamics",
+    "sea surface temperature pattern effect",
+    "regional and global sea level change"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "GISS-E2.1-G",
+  "code_availability": "The multi-model CMIP6 ensemble SST trend was produced on the LEAP-Pangeo portal using code archived at Busecke (2023, https://doi.org/10.5281/zenodo.8335419) and Busecke et al. (2023, xMIP, https://doi.org/10.5281/zenodo.7519179).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts traditional coupled GCM historical forcing experiments using GISS-E2.1-G without machine learning models, ML parameterization training, or dedicated ML benchmarks.",
+  "pain_points": [
+    "Absence of dynamically coupled ice sheets and shelves in standard CMIP6 climate models requires treating meltwater as an ad-hoc external forcing.",
+    "Structural uncertainties in ocean models regarding eddy parameterization vs eddy-resolving dynamics alter regional response to freshwater fluxes.",
+    "Sparse and uncertain historical observations of ice shelf basal melt fluxes, especially prior to 1990 and post-2016.",
+    "Persistent CMIP6 multi-model biases in Southern Ocean SST trends and Antarctic sea ice trends."
+  ],
+  "extraction_notes": "The paper is supported by the NSF STC LEAP computational resources (Award 2019625) and utilizes LEAP-Pangeo infrastructure to analyze CMIP6 data, but does not train or evaluate machine learning models.",
+  "dataset_ids": [
+    "c26112c02ff3-01",
+    "c26112c02ff3-02",
+    "c26112c02ff3-03",
+    "c26112c02ff3-04",
+    "c26112c02ff3-05",
+    "c26112c02ff3-06",
+    "c26112c02ff3-07"
+  ]
+}

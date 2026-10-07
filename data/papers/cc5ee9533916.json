@@ -1,0 +1,53 @@
+{
+  "paper_id": "cc5ee9533916",
+  "year": "2",
+  "filename": "Benchmarking of machine learning ocean subgrid parameterizations in an idealized model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Benchmarking of machine learning ocean subgrid parameterizations in an idealized model",
+  "authors": [
+    "Andrew Slavin Ross",
+    "Ziwei Li",
+    "Pavel Perezhogin",
+    "Carlos Fernandez-Granda",
+    "Laure Zanna"
+  ],
+  "pub_year": 2022,
+  "venue": "Earth and Space Science Open Archive (ESSOAr)",
+  "doi_or_url": "https://doi.org/10.1002/essoar.10511742.1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Physical oceanography",
+  "processes": [
+    "Ocean mesoscale eddies",
+    "Subgrid-scale turbulence",
+    "Potential vorticity dynamics",
+    "Energy backscatter"
+  ],
+  "ml_methods": [
+    "Fully Convolutional Neural Networks (FCNN)",
+    "Genetic Programming",
+    "Symbolic Regression",
+    "Linear Regression"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "equation_discovery"
+  ],
+  "parameterization_target": "Ocean mesoscale eddy subgrid forcing (potential vorticity tendency, momentum tendency, and subgrid fluxes)",
+  "online_coupled": true,
+  "host_model": "pyqg",
+  "code_availability": "https://doi.org/10.5281/zenodo.6656313 (GitHub: https://github.com/m2lines/pyqg_parameterization_benchmarks)",
+  "testbed_candidate": true,
+  "testbed_rationale": "Introduces an open-source benchmark framework with published datasets and code specifically designed for training and evaluating data-driven ocean subgrid parameterizations both offline and online across multiple flow regimes.",
+  "pain_points": [
+    "Offline skill (high R^2) does not necessarily correspond to good online physical fidelity or stability.",
+    "Choice of coarse-graining and filtering operator drastically impacts online performance.",
+    "Neural network parameterizations generalize poorly across different dynamical flow regimes (e.g. transferring from eddy configuration to jet configuration).",
+    "Parameterizations improve long-term statistical metrics but can degrade short-term trajectory skill (decorrelation times).",
+    "Standard sparse symbolic regression scales poorly with higher-order spatial derivatives."
+  ],
+  "extraction_notes": "The preprint was submitted to JAMES; dataset and benchmark repository versions are openly available on Zenodo.",
+  "dataset_ids": [
+    "cc5ee9533916-01"
+  ]
+}

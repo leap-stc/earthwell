@@ -1,0 +1,18 @@
+{
+  "dataset_id": "08404f14aec9-03",
+  "paper_id": "08404f14aec9",
+  "name": "LASER (LAgrangian Submesoscale ExpeRiment) drifter dataset",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "surface drifters",
+  "scale": "regional",
+  "data_types": [
+    "trajectories"
+  ],
+  "size_as_stated": "956 drifters, January–February 2016 (~60 days effective sampling)",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://data.gulfresearchinitiative.org/",
+  "access_kind": "public_url_or_doi"
+}

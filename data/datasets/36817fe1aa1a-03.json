@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36817fe1aa1a-03",
+  "paper_id": "36817fe1aa1a",
+  "name": "Compact ERA5 500 hPa North America dataset",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Reanalysis v5 (ERA5)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "64x64 regular grid, 6-hour cadence, years 2006-2016, fixed-length trajectories of T=64 steps",
+  "size_gb_estimate": null,
+  "resolution": "64 x 64 regular grid, 6-hour cadence",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

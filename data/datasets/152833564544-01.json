@@ -1,0 +1,19 @@
+{
+  "dataset_id": "152833564544-01",
+  "paper_id": "152833564544",
+  "name": "MITgcm-LLC4320 (12 sampled regions)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "MITgcm (LLC4320 configuration)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "~10,000 samples given from all regions combined",
+  "size_gb_estimate": null,
+  "resolution": "1/48° native resolution, coarsened to 1/12°, 1/8°, 1/4°, 1/2°, 1°; 12-hour time averages over 14 months (Sep 2011 to Nov 2012)",
+  "produced_in_this_study": false,
+  "access": "Variables from the LLC4320 output in the regions used in this study are stored on the LEAP-Catalog https://catalog.leap.columbia.edu/feedstock/highresolution-ocean-simulation-llc4320-12hourly-averaged-3d-regions. Data from the LLC4320 simulation can be accessed using the llcreader Python package (Abernathey, 2019).",
+  "access_kind": "pangeo_or_cloud"
+}

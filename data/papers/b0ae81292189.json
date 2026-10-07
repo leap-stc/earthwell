@@ -1,0 +1,45 @@
+{
+  "paper_id": "b0ae81292189",
+  "year": "5",
+  "filename": "Inferring Microphysical Process Rates from in Situ Observations Using Physics-Informed Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Inferring Microphysical Process Rates from in Situ Observations Using Physics-Informed Machine Learning (Invited Presentation)",
+  "authors": [
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2026,
+  "venue": "AMS 106th Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/106ANNUAL/meetingapp.cgi/Paper/474364",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "cloud microphysics",
+    "collision-coalescence",
+    "depositional ice growth",
+    "precipitation initiation"
+  ],
+  "ml_methods": [
+    "neural ordinary differential equations",
+    "neural operators",
+    "physics-informed machine learning"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": "cloud microphysics process rates",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific dataset identifiers, URLs, or access details.",
+  "pain_points": [
+    "In situ atmospheric measurements from aircraft and ground-based instruments typically provide only static snapshots of cloud particle size distributions or ice crystal morphology at single points in space and time, making it challenging to infer dynamical microphysical process rates.",
+    "Traditional inverse modeling methods struggle to reconstruct microphysical tendencies such as collision-coalescence and depositional ice growth."
+  ],
+  "extraction_notes": "Conference presentation abstract for the 106th AMS Annual Meeting (scheduled for January 2026). Specific observational campaign names and models are not detailed in the abstract text.",
+  "dataset_ids": [
+    "b0ae81292189-01"
+  ]
+}

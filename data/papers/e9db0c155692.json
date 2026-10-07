@@ -1,0 +1,73 @@
+{
+  "paper_id": "e9db0c155692",
+  "year": "3",
+  "filename": "Discovering Causal Relations and Equations from Data_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Discovering causal relations and equations from data",
+  "authors": [
+    "Gustau Camps-Valls",
+    "Andreas Gerhardus",
+    "Urmi Ninad",
+    "Gherardo Varando",
+    "Georg Martius",
+    "Emili Balaguer-Ballester",
+    "Ricardo Vinuesa",
+    "Emiliano Diaz",
+    "Laure Zanna",
+    "Jakob Runge"
+  ],
+  "pub_year": 2023,
+  "venue": "Physics Reports",
+  "doi_or_url": "https://doi.org/10.1016/j.physrep.2023.10.005",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "Climate and Physical Sciences / Machine Learning",
+  "processes": [
+    "Ocean mesoscale turbulence and eddy-mean flow interactions",
+    "Biosphere-atmosphere carbon and water fluxes",
+    "Atmospheric large-scale circulation and teleconnections",
+    "Boundary-layer transition to turbulence and wall-bounded flows",
+    "Neural population dynamics"
+  ],
+  "ml_methods": [
+    "Sparse Identification of Nonlinear Dynamical Systems (SINDy)",
+    "Relevance Vector Machine (RVM)",
+    "Symbolic regression (Genetic Programming)",
+    "Equation Learner (EQL)",
+    "Neural Symbolic Regression that Scales (NeSymReS)",
+    "PCMCI / PCMCI+ / LPCMCI",
+    "Convergent Cross-Mapping (CCM / RCCM)",
+    "Granger causality / Kernel Granger causality",
+    "Dynamic Mode Decomposition (DMD / HODMD)",
+    "Variational Autoencoders (beta-VAE)",
+    "Convolutional Neural Networks"
+  ],
+  "ml_tasks": [
+    "causal_inference",
+    "equation_discovery",
+    "parameterization",
+    "emulation",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "Ocean mesoscale eddy closures (subgrid-scale momentum and potential vorticity forcing)",
+  "online_coupled": true,
+  "host_model": "Idealized ocean primitive equation / quasi-geostrophic model",
+  "code_availability": "Software packages reviewed include Tigramite, causal-learn, Tetrad, pcalg, bnlearn, PyWhy, seqICP, rEDM, PySR, gplearn, Glyph, and Operon. Benchmark platform referenced at https://causeme.net.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a comprehensive review article summarizing methods, frameworks, and case studies across physics, Earth sciences, and neuroscience rather than presenting a single newly released benchmark dataset.",
+  "pain_points": [
+    "Observational data limitations: theoretical impossibility of proving causal graphs purely from observational data without untestable assumptions (e.g., faithfulness, causal sufficiency)",
+    "Nonstationarity, autocorrelations, and multiscale temporal dynamics causing inflated false discovery rates in time series causal inference",
+    "High dimensionality of spatiotemporal fields requiring aggressive dimensionality reduction prior to discovery",
+    "Curse of dimensionality in candidate library construction for sparse regression and symbolic regression",
+    "Generalization failures of black-box neural network parameterizations under out-of-distribution regime shifts (e.g., from isotropic eddies to anisotropic jet regimes)"
+  ],
+  "extraction_notes": "The paper is a major review in Physics Reports co-authored by LEAP and ERC-funded researchers covering causal discovery and symbolic/implicit equation discovery across climate, fluid mechanics, and neuroscience.",
+  "dataset_ids": [
+    "e9db0c155692-01",
+    "e9db0c155692-02",
+    "e9db0c155692-03",
+    "e9db0c155692-04"
+  ]
+}

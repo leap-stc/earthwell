@@ -1,0 +1,48 @@
+{
+  "paper_id": "3b8811c646bc",
+  "year": "3",
+  "filename": "Evaluating the effects of precipitation and evapotranspiration on soil moisture variability.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Evaluating the effects of precipitation and evapotranspiration on soil moisture variability",
+  "authors": [
+    "Xuan Xi",
+    "Pierre Gentine",
+    "Qianlai Zhuang",
+    "Seungbum Kim"
+  ],
+  "pub_year": 2022,
+  "venue": "ESSOAr",
+  "doi_or_url": "https://doi.org/10.1002/essoar.10511220.1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "surface soil moisture dynamics",
+    "evapotranspiration",
+    "precipitation",
+    "land-atmosphere interactions"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The codes and data for analysis in this study are available at https://purr.purdue.edu/publications/3999/1.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper performs diagnostic spectral analysis and model intercomparison using linear time-invariant transfer functions and Fourier transforms, rather than providing or benchmarking machine learning parameterizations or emulators.",
+  "pain_points": [
+    "Temporal discontinuity in daily satellite observations requires gap-filling before spectral Fourier analysis.",
+    "Spatial resolution mismatch between coarse CMIP5 ESM grids and 36 km observational grids requires re-gridding.",
+    "Observational uncertainties and retrieval errors in SMAP over densely vegetated, frozen, or water-body-adjacent terrain.",
+    "Non-linearities and time-variant processes (vegetation canopy interception, snow accumulation/melting, runoff) challenge the linear time-invariant (LTI) assumption of land hydrology."
+  ],
+  "extraction_notes": "The study does not develop or evaluate machine learning models; it applies classical signal processing (Fast Fourier Transform, LTI transfer functions, spectral slope/noise coloring) to diagnose CMIP5 land surface performance.",
+  "dataset_ids": [
+    "3b8811c646bc-01",
+    "3b8811c646bc-02",
+    "3b8811c646bc-03",
+    "3b8811c646bc-04"
+  ]
+}

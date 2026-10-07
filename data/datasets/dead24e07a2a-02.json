@@ -1,0 +1,19 @@
+{
+  "dataset_id": "dead24e07a2a-02",
+  "paper_id": "dead24e07a2a",
+  "name": "PCMDI reconstructed SST observational dataset (PCMDI-AMIP-1.1.8)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "http://esgf-node.llnl.gov/search/input4mips/",
+  "access_kind": "public_url_or_doi"
+}

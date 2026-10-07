@@ -1,0 +1,18 @@
+{
+  "dataset_id": "dca5bcbe8120-02",
+  "paper_id": "dca5bcbe8120",
+  "name": "GISS ModelE3 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GISS ModelE3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "751 ensemble members",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

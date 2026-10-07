@@ -1,0 +1,53 @@
+{
+  "paper_id": "78aa7b6cb614",
+  "year": "5",
+  "filename": "Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models",
+  "authors": [
+    "Mohammad H. Erfani",
+    "Kara D. Lamb",
+    "Susanne E. Bauer",
+    "Kostas Tsigaridis",
+    "Marcus van Lier-Walqui",
+    "Gavin Schmidt"
+  ],
+  "pub_year": 2025,
+  "venue": "NeurIPS 2025 Workshop on Tackling Climate Change with Machine Learning",
+  "doi_or_url": "https://arxiv.org/abs/2510.10654v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Chemistry & Aerosol Modeling",
+  "processes": [
+    "aerosol transport",
+    "black carbon emissions",
+    "atmospheric convection",
+    "advection",
+    "tropospheric chemistry"
+  ],
+  "ml_methods": [
+    "ConvLSTM",
+    "Spatial Feature Transform (SFT)",
+    "Spatial Encoders"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameterization"
+  ],
+  "parameterization_target": "interactive atmospheric black carbon aerosol transport and concentrations (BCB)",
+  "online_coupled": false,
+  "host_model": "NASA GISS-ModelE3",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper uses NASA GISS-ModelE3 simulations to train a ConvLSTM-based emulator for 3D black carbon transport, but provides no data or code availability statements or links, making the data currently inaccessible for benchmarking.",
+  "pain_points": [
+    "Memory and computational bottleneck loading numerous 2D and 3D ESM variables at high temporal resolution (30-min intervals).",
+    "Orders-of-magnitude decrease in aerosol concentrations with altitude causes global normalization strategies to bias loss functions towards lower atmospheric levels.",
+    "Autoregressive rollout errors in standard models, necessitating spatio-temporal architectures to handle long-range dependencies.",
+    "Underestimation of extreme wildfire events not well represented in historical training data (e.g., extreme 2020/2021 wildfire seasons in the Western US)."
+  ],
+  "extraction_notes": "The paper describes 'Smart NINT', an ML emulator designed to run interactively in ModelE to replace non-interactive tracer (NINT) climatologies, but the evaluation in this paper is offline.",
+  "dataset_ids": [
+    "78aa7b6cb614-01"
+  ]
+}

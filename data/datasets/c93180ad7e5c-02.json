@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c93180ad7e5c-02",
+  "paper_id": "c93180ad7e5c",
+  "name": "Afrobarometer household survey data (Rounds 7–9)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Afrobarometer surveys",
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "45,823, 48,084, and 53,444 georeferenced interviews, corresponding to 7,704, 5,151, and 5,517 unique survey locations, respectively",
+  "size_gb_estimate": null,
+  "resolution": "georeferenced survey locations / enumeration areas",
+  "produced_in_this_study": false,
+  "access": "Publicly available via Afrobarometer merged data releases (2019, 2023, 2024)",
+  "access_kind": "public_url_or_doi"
+}

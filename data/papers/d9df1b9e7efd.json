@@ -1,0 +1,53 @@
+{
+  "paper_id": "d9df1b9e7efd",
+  "year": "5",
+  "filename": "Catastrophic “hyperclustering” and recurrent losses_ diagnosing U.S. flood insurance insolvency triggers.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Catastrophic “hyperclustering” and recurrent losses: diagnosing U.S. flood insurance insolvency triggers",
+  "authors": [
+    "Adam Nayak",
+    "Mengjie Zhang",
+    "Pierre Gentine",
+    "Upmanu Lall"
+  ],
+  "pub_year": 2025,
+  "venue": "npj Natural Hazards",
+  "doi_or_url": "https://doi.org/10.1038/s44304-025-00136-w",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "natural hazards / hydroclimatology / flood risk",
+  "processes": [
+    "compound flooding",
+    "extreme precipitation",
+    "flood damage",
+    "flood insurance insolvency"
+  ],
+  "ml_methods": [
+    "ST-DBSCAN",
+    "DBSCAN",
+    "k-means clustering"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "We provide open access code for all processes in this manuscript in the following GitHub repository: https://github.com/adamnayak/Hyperclusters.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts spatiotemporal clustering of disaster insurance loss records and game-theoretic risk indexing rather than developing or evaluating atmospheric/oceanic physical parameterizations or emulators.",
+  "pain_points": [
+    "Unavailability of public household-level premium data linked to historical NFIP claims and changes in insured assets over time limits normalization approaches.",
+    "Claim amounts and specific loss dates for multiple loss properties are not publicly available.",
+    "Sensitivity and difficulty in parameterizing density-based spatiotemporal clustering (thresholds for space, time, and point thresholds in ST-DBSCAN).",
+    "Heavy-tailed, fat-tailed catastrophic risk distributions that standard expected-value pricing models are not structurally designed to buffer."
+  ],
+  "extraction_notes": "The paper uses unsupervised machine learning (ST-DBSCAN and k-means) together with the Analytic Hierarchy Process, entropy weighting, and game theory to diagnose NFIP insolvency drivers. Cloud computing was supported by the LEAP NSF STC.",
+  "dataset_ids": [
+    "d9df1b9e7efd-01",
+    "d9df1b9e7efd-02",
+    "d9df1b9e7efd-03",
+    "d9df1b9e7efd-04",
+    "d9df1b9e7efd-05"
+  ]
+}

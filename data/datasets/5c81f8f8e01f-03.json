@@ -1,0 +1,18 @@
+{
+  "dataset_id": "5c81f8f8e01f-03",
+  "paper_id": "5c81f8f8e01f",
+  "name": "VIIRS 375 m Active Fire Detection Product (FRP)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "VIIRS instrument on board Suomi NPP",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "375 m, 2017-2021",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1016/j.rse.2013.12.008",
+  "access_kind": "public_url_or_doi"
+}

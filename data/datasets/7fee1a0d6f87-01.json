@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7fee1a0d6f87-01",
+  "paper_id": "7fee1a0d6f87",
+  "name": "Synthetic 3D Bullet Rosette Crystal Dataset and 2D Projections",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "9,000 crystals; 216,000 images/samples (24 views per crystal)",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "Developed in Python, code + dataset will be open-source and reproducible",
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1b93d9b00aae-01",
+  "paper_id": "1b93d9b00aae",
+  "name": "Harvard Forest tower-based eddy covariance and SIF measurements",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Automated spectroscopy system (FluoSpec 2) and eddy-covariance flux tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, growing season (May to October) 2013 and 2014",
+  "produced_in_this_study": false,
+  "access": "The eddy-covariance and SIF observations of the Harvard Forest site are available from the Harvard Forest Data Archive (https://harvardforest.fas.harvard.edu/harvard-forest-data-archive).",
+  "access_kind": "public_url_or_doi"
+}

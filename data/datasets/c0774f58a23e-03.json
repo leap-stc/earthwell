@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c0774f58a23e-03",
+  "paper_id": "c0774f58a23e",
+  "name": "GPCP v3.2 daily",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPCP",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 day, 0.5° × 0.5°",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,69 @@
+{
+  "paper_id": "ef48d76ed836",
+  "year": "4",
+  "filename": "Constrained Earth system models show a stronger reduction in future Northern Hemisphere snowmelt water.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Constrained Earth system models show a stronger reduction in future Northern Hemisphere snowmelt water",
+  "authors": [
+    "Yuanfang Chai",
+    "Chiyuan Miao",
+    "Pierre Gentine",
+    "Lawrence Mudryk",
+    "Chad W. Thackeray",
+    "Wouter R. Berghuijs",
+    "Yi Wu",
+    "Xuewei Fan",
+    "Louise Slater",
+    "Qiaohong Sun",
+    "Francis Zwiers"
+  ],
+  "pub_year": 2025,
+  "venue": "Nature Climate Change",
+  "doi_or_url": "https://doi.org/10.1038/s41558-025-02308-y",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "snow accumulation",
+    "snowfall",
+    "snowmelt",
+    "freezing day frequency",
+    "snow water equivalent",
+    "land-atmosphere interaction"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Codes to reproduce the study are available via GitHub at https://github.com/alanchai/Overcoming-the-Northern-Hemisphere-snow-water-resources-paradox.git (ref. 80).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study applies statistical emergent constraints to GCM/ESM multi-model ensemble projections and observation-based reanalyses. It does not provide high-resolution cloud-resolving or LES simulation benchmarks designed for machine learning parameterization training.",
+  "pain_points": [
+    "Drizzle problem: GCMs frequently overestimate light snowfall frequency, causing severe positive biases in snow accumulation and SWE.",
+    "Glaciated grid cells in ESMs: Lack of distinction between glaciers and seasonal snow pack leads to unrealistic SWE accumulation (>500 kg m^-2) in mountain regions.",
+    "High observational uncertainty across historical SWE datasets due to sparse in situ networks, retrieval algorithm assumptions, and forcing inaccuracies."
+  ],
+  "extraction_notes": "The paper uses statistical hierarchical emergent constraints rather than neural networks or standard machine learning models. Supported by NSF LEAP Science and Technology Center (grant no. 2019625, co-authored by Pierre Gentine).",
+  "dataset_ids": [
+    "ef48d76ed836-01",
+    "ef48d76ed836-02",
+    "ef48d76ed836-03",
+    "ef48d76ed836-04",
+    "ef48d76ed836-05",
+    "ef48d76ed836-06",
+    "ef48d76ed836-07",
+    "ef48d76ed836-08",
+    "ef48d76ed836-09",
+    "ef48d76ed836-10",
+    "ef48d76ed836-11",
+    "ef48d76ed836-12",
+    "ef48d76ed836-13",
+    "ef48d76ed836-14",
+    "ef48d76ed836-15",
+    "ef48d76ed836-16",
+    "ef48d76ed836-17"
+  ]
+}

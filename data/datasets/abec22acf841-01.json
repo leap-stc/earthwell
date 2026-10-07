@@ -1,0 +1,20 @@
+{
+  "dataset_id": "abec22acf841-01",
+  "paper_id": "abec22acf841",
+  "name": "SOCATv2021 (Surface Ocean CO2 Atlas version 2021)",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "in situ surface ocean pCO2 observations",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://www.socat.info/",
+  "access_kind": "public_url_or_doi"
+}

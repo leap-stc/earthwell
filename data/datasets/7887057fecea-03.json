@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7887057fecea-03",
+  "paper_id": "7887057fecea",
+  "name": "Simulated multisite flood risk catalogs and hydrographs",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Attention-based stochastic simulator",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly to daily",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/ZENODO.21249021",
+  "access_kind": "public_url_or_doi"
+}

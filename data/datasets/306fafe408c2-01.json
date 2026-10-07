@@ -1,0 +1,18 @@
+{
+  "dataset_id": "306fafe408c2-01",
+  "paper_id": "306fafe408c2",
+  "name": "Afrobarometer rounds 7–9",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "georeferenced survey locations",
+  "produced_in_this_study": false,
+  "access": "Afrobarometer. Afrobarometer surveys: Rounds 7–9 (2019–2023), 2023. Accessed 2026-02-07.",
+  "access_kind": "public_url_or_doi"
+}

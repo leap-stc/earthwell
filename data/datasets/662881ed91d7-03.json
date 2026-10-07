@@ -1,0 +1,19 @@
+{
+  "dataset_id": "662881ed91d7-03",
+  "paper_id": "662881ed91d7",
+  "name": "Daymet gridded meteorological dataset",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Daymet",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily; aggregated to 42 river segments",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

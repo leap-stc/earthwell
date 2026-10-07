@@ -1,0 +1,49 @@
+{
+  "paper_id": "0b71525b629f",
+  "year": "4",
+  "filename": "Detecting and identifying the impact of parameter interaction on climate model outputs based on two Perturbed Parameter Ensembles (PPEs) Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Detecting and identifying the impact of parameter interaction on climate model outputs based on two Perturbed Parameter Ensembles (PPEs)",
+  "authors": [
+    "Qingyuan Yang",
+    "Gregory S Elsaesser",
+    "Marcus Van Lier-Walqui",
+    "Trude Eidhammer",
+    "Linnia Hawkins"
+  ],
+  "pub_year": 2024,
+  "venue": "Micro2Macro: Origins of Climate Change Uncertainty Workshop (US CLIVAR)",
+  "doi_or_url": "https://usclivar.org/abstract-micro2macro-2024/detecting-and-identifying-impact-parameter-interaction-climate-model",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "cloud radiative forcing",
+    "precipitation",
+    "cloud microphysics and convection parameter interactions"
+  ],
+  "ml_methods": [
+    "additive emulator"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification",
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CESM2 CAM6, GISS ModelE3",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without links or access mechanisms to the underlying ensemble data and code.",
+  "pain_points": [
+    "Parameter interactions can make certain parameters appear deceivingly unimportant if evaluated in isolation",
+    "Capturing parameter interactions requires larger ensemble sizes (impact is difficult to capture with <200 members compared to ~500 members)",
+    "Outputs respond differently across various spatial and temporal scales, complicating metric choice for calibration"
+  ],
+  "extraction_notes": "Conference abstract from the US CLIVAR Micro2Macro 2024 Workshop. Presentation file Yang-Qingyuan.pdf was referenced but not detailed.",
+  "dataset_ids": [
+    "0b71525b629f-01",
+    "0b71525b629f-02"
+  ]
+}

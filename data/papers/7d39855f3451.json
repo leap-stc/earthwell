@@ -1,0 +1,54 @@
+{
+  "paper_id": "7d39855f3451",
+  "year": "4",
+  "filename": "Improving Representations of Ice Crystals in Atmospheric Models_ Insights from in situ Imagery and Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Improving Representations of Ice Crystals in Atmospheric Models: Insights from in situ Imagery and Machine Learning",
+  "authors": [
+    "Joseph Ko"
+  ],
+  "pub_year": 2024,
+  "venue": "ELLIIT Focus Period Linköping 2024: Machine Learning for Climate Science",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "ice crystal microphysics",
+    "cirrus cloud microphysics",
+    "depositional growth",
+    "ice particle habit and shape"
+  ],
+  "ml_methods": [
+    "Random Forest",
+    "Multiple Linear Regression",
+    "CNN",
+    "VAE",
+    "ResNetVAE",
+    "UMAP",
+    "k-means"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "classification_detection",
+    "parameterization"
+  ],
+  "parameterization_target": "ice crystal 3-D properties (surface area, effective density, habit)",
+  "online_coupled": false,
+  "host_model": "CM1",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Presentation slides with ongoing work; datasets and model codes are not yet publicly distributed with persistent links or benchmarks.",
+  "pain_points": [
+    "Lack of 3-D ground truth observations of ice crystals requires relying on synthetic geometric models",
+    "Single-view object 3-D reconstruction often acts like classification rather than true reconstruction",
+    "Disentangling and structuring latent representations of ice crystal morphology without manual labels",
+    "Large structural differences between bulk and Lagrangian microphysics schemes make direct model comparison difficult"
+  ],
+  "extraction_notes": "The document is a slide presentation delivered at the ELLIIT Focus Period Linköping 2024 workshop on Machine Learning for Climate Science.",
+  "dataset_ids": [
+    "7d39855f3451-01",
+    "7d39855f3451-02",
+    "7d39855f3451-03"
+  ]
+}

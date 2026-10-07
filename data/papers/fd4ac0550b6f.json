@@ -1,0 +1,57 @@
+{
+  "paper_id": "fd4ac0550b6f",
+  "year": "3",
+  "filename": "MetaFlux_ Meta-Learning Global Carbon Fluxes from Sparse Spatiotemporal Observations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "MetaFlux: Meta-learning global carbon fluxes from sparse spatiotemporal observations",
+  "authors": [
+    "Juan Nathaniel",
+    "Jiangong Liu",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Scientific Data",
+  "doi_or_url": "https://doi.org/10.1038/s41597-023-02349-y",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "terrestrial biogeochemistry",
+  "processes": [
+    "gross primary production",
+    "ecosystem respiration",
+    "carbon cycle",
+    "photosynthesis",
+    "vegetation phenology"
+  ],
+  "ml_methods": [
+    "Model-Agnostic Meta-Learning (MAML)",
+    "Multilayer Perceptron (MLP)",
+    "Long Short-Term Memory (LSTM)",
+    "Bidirectional Long Short-Term Memory (BiLSTM)",
+    "Deep ensemble"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The meta-learning code is freely available and accessible at https://github.com/juannat7/metaflux.",
+  "testbed_candidate": true,
+  "testbed_rationale": "MetaFlux provides a global, 0.25-degree, daily and monthly gridded dataset of gross primary production (GPP) and ecosystem respiration (Reco) with uncertainty estimates spanning 2001 to 2021, which is openly available on Zenodo and can serve as a benchmark dataset for training and evaluating land surface parameterizations and emulators.",
+  "pain_points": [
+    "Severe spatial and temporal data sparsity of in-situ eddy covariance flux towers, especially in tropics (~8%) and semi-arid regions (~11%)",
+    "Model performance degradation and large biases during extreme weather and flux events in poorly sampled climate zones",
+    "Potential optimization instability when combining spatial meta-learning updates with bidirectional sequential models due to signal oversaturation",
+    "Degraded satellite LAI retrieval quality in continental/snow-covered conditions affecting northern winter flux estimations"
+  ],
+  "extraction_notes": "The paper uses meta-learning to upscale point eddy-covariance tower observations into a global continuous gridded product (MetaFlux). Both training and inference code as well as output products are publicly accessible.",
+  "dataset_ids": [
+    "fd4ac0550b6f-01",
+    "fd4ac0550b6f-02",
+    "fd4ac0550b6f-03",
+    "fd4ac0550b6f-04",
+    "fd4ac0550b6f-05",
+    "fd4ac0550b6f-06"
+  ]
+}

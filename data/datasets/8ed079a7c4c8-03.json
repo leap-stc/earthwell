@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8ed079a7c4c8-03",
+  "paper_id": "8ed079a7c4c8",
+  "name": "International Social Survey Programme (ISSP) 2015 Work Orientations Module",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "cross-country survey",
+  "produced_in_this_study": false,
+  "access": "https://www.gesis.org/issp/modules/issp-modules-by-topic/workorientations/",
+  "access_kind": "public_url_or_doi"
+}

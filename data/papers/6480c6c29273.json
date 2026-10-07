@@ -1,0 +1,68 @@
+{
+  "paper_id": "6480c6c29273",
+  "year": "4",
+  "filename": "AI-empowered next-generation multiscale climate modelling for mitigation and adaptation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "AI-empowered next-generation multiscale climate modelling for mitigation and adaptation",
+  "authors": [
+    "Veronika Eyring",
+    "Pierre Gentine",
+    "Gustau Camps-Valls",
+    "David M. Lawrence",
+    "Markus Reichstein"
+  ],
+  "pub_year": 2024,
+  "venue": "Nature Geoscience",
+  "doi_or_url": "https://doi.org/10.1038/s41561-024-01527-w",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "Climate and Earth System Modeling",
+  "processes": [
+    "Radiation",
+    "Clouds, convection and microphysics",
+    "Gravity waves",
+    "Turbulence",
+    "Terrestrial carbon cycle",
+    "Land–atmosphere interactions",
+    "Wildfire",
+    "Permafrost climate–carbon feedback",
+    "Hydrological processes",
+    "Ocean dynamics and cryosphere",
+    "Salinity heat and momentum exchange"
+  ],
+  "ml_methods": [
+    "Neural networks",
+    "Generative AI / diffusion models",
+    "Causal discovery / causal deep learning",
+    "Equation discovery / symbolic regression",
+    "Gaussian processes",
+    "Bayesian inference",
+    "Variational autoencoders"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "downscaling_superres",
+    "parameter_calibration",
+    "uncertainty_quantification",
+    "equation_discovery",
+    "causal_inference"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Perspective article outlining a roadmap for AI-empowered multiscale Earth system modelling; does not create, evaluate, or release any dataset.",
+  "pain_points": [
+    "Legacy languages (Fortran, C) hinder running on modern accelerator hardware (GPUs/TPUs) and prevent seamless online ML coupling",
+    "Out-of-distribution generalization failure (extrapolation beyond training regime)",
+    "Numerical instabilities when ML parameterizations are coupled online with host climate models",
+    "Staggering computational cost of century-scale simulations at kilometre resolution",
+    "Sparse, noisy, and indirect observational data making ML parameter inference challenging",
+    "Lack of uncertainty quantification in parameter tuning and ML emulators",
+    "Processes that do not improve purely with higher spatial resolution (e.g., biological systems, cryosphere, land processes)"
+  ],
+  "extraction_notes": "Perspective paper outlining four pillars for future climate modelling: accelerated computing/differentiable programming, hybrid physics-ML ESMs, model-data fusion with Earth observations, and modernized science infrastructures.",
+  "dataset_ids": []
+}

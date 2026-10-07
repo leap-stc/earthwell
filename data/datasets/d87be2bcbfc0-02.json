@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d87be2bcbfc0-02",
+  "paper_id": "d87be2bcbfc0",
+  "name": "LES convective atmospheric boundary layer simulation output",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Kumar et al. (2006) LES solver",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Convective ABL (zi/L = -8.7) over 4.1 hours simulation time",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.7916/d8-y850-6w35",
+  "access_kind": "public_url_or_doi"
+}

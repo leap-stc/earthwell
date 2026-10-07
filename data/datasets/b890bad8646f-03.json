@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b890bad8646f-03",
+  "paper_id": "b890bad8646f",
+  "name": "Battery Park Sea Level / NPCC4 Climate Risk Records",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Tide gauge / observational networks (NOAA CO-OPS, Battery Park)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Annual sea level records (1900-2017)",
+  "produced_in_this_study": false,
+  "access": "data.noaa.gov/onestop",
+  "access_kind": "public_url_or_doi"
+}

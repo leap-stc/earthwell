@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4b22f66c6db8-02",
+  "paper_id": "4b22f66c6db8",
+  "name": "ModelE-BiomeE South America forest simulation runs",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ModelE-BiomeE",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

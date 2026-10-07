@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4ac6067043b2-02",
+  "paper_id": "4ac6067043b2",
+  "name": "ECMWF ERA5 single-level daily precipitation",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25°, daily (1940-2023)",
+  "produced_in_this_study": false,
+  "access": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels?tab=overview",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "bc690e71bdc9-01",
+  "paper_id": "bc690e71bdc9",
+  "name": "Western US MTBS-Interagency (WUMI) wildfire dataset / SMLFire1.0",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MTBS satellite observations, agency wildfire records, Climgrid, PRISM, UCLA-ERA5, gridMET, NSIDC, NLDN, NLCD, SILVIS, USGS",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": "all wildfires from the WUMI data set that occurred between 1984-2020 inclusive (fires >= 1 km^2 from agencies, >= 4 km^2 from MTBS); 10000 fire occurrences and absences sampled; 35 fire-related features",
+  "size_gb_estimate": null,
+  "resolution": "12 km x 12 km grid; monthly aggregations (1984-2020)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7277980",
+  "access_kind": "public_url_or_doi"
+}

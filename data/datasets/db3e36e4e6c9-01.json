@@ -1,0 +1,18 @@
+{
+  "dataset_id": "db3e36e4e6c9-01",
+  "paper_id": "db3e36e4e6c9",
+  "name": "Mangrove prop root flume experiment dataset from Zhang et al. (2015)",
+  "role": "evaluation",
+  "source_kind": "laboratory",
+  "model_or_instrument": "1:7.5 scale mangrove forest model in open-channel flume",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Vertical velocity profiles across 4 flow conditions (water depths 0.2–0.4 m)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1016/j.jher.2014.07.010",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d9df1b9e7efd-02",
+  "paper_id": "d9df1b9e7efd",
+  "name": "FEMA Multiple-Loss Properties Database",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "county level",
+  "produced_in_this_study": false,
+  "access": "All NFIP and disaster data are publicly accessible and can be accessed through FEMA’s OpenFEMA portal.",
+  "access_kind": "public_url_or_doi"
+}

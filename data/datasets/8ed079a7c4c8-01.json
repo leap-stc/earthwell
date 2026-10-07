@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8ed079a7c4c8-01",
+  "paper_id": "8ed079a7c4c8",
+  "name": "Swedish Work Environment Survey linked to administrative records",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "111,599 observations",
+  "size_gb_estimate": null,
+  "resolution": "individual-level biannual surveys (1991–2019)",
+  "produced_in_this_study": false,
+  "access": "The online appendix and data are available at https://doi.org/10.1287/mnsc.2022.01807.",
+  "access_kind": "public_url_or_doi"
+}

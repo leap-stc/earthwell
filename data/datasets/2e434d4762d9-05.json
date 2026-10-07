@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2e434d4762d9-05",
+  "paper_id": "2e434d4762d9",
+  "name": "UCLA ERA5-WRF reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "WRF dynamical downscaling of ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "9 km x 9 km, daily to monthly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

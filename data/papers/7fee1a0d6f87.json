@@ -1,0 +1,55 @@
+{
+  "paper_id": "7fee1a0d6f87",
+  "year": "3",
+  "filename": "Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning",
+  "authors": [
+    "Joseph Ko",
+    "Jerry Harrington",
+    "Kara Sulia",
+    "Vanessa Przybylo",
+    "Marcus van Lier-Walqui",
+    "Kara Lamb"
+  ],
+  "pub_year": 2024,
+  "venue": "2024 CESM Atmosphere Model Working Group (AMWG) Meeting",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "ice crystal habit",
+    "ice microphysics",
+    "cloud radiative forcing"
+  ],
+  "ml_methods": [
+    "Random Forest",
+    "Multivariate Linear Regression",
+    "CNN",
+    "3D-R2N2",
+    "3D-LSTM"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "classification_detection",
+    "parameterization"
+  ],
+  "parameterization_target": "ice crystal depositional growth and mass/area-dimensional relationships",
+  "online_coupled": false,
+  "host_model": "PUMAS",
+  "code_availability": "Developed in Python, code + dataset will be open-source and reproducible",
+  "testbed_candidate": false,
+  "testbed_rationale": "The synthetic training dataset and code are noted as planned to be open-source, but no URL or repository is provided in the presentation slides.",
+  "pain_points": [
+    "Observational probes (e.g., CPI) yield only 2D projection images, causing ambiguity in true 3D crystal mass, surface area, and arm count",
+    "Classification of arm count from 2D projection features showed lower skill and confusion between adjacent classes",
+    "Need to scale habit models from single-crystal synthetic rosettes to broader real-world ice particle habit mixtures"
+  ],
+  "extraction_notes": "Document consists of presentation slides given at the CESM AMWG meeting on February 14, 2024. The slides describe ML prediction of 3D crystal geometric attributes (effective density, effective surface area, number of arms) from 2D projections to constrain mass-dimension (m-D) and area-dimension (A-D) relations in depositional ice growth models (e.g., P3, PUMAS).",
+  "dataset_ids": [
+    "7fee1a0d6f87-01",
+    "7fee1a0d6f87-02"
+  ]
+}

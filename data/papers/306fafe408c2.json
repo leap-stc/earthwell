@@ -1,0 +1,57 @@
+{
+  "paper_id": "306fafe408c2",
+  "year": "5",
+  "filename": "MONITORING ACCESS TO PIPED WATER AND SANITATION INFRASTRUCTURE IN AFRICA AT DISAGGREGATED SCALES USING SATELLITE IMAGERY AND SELFSUPERVISED LEARNING.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "MONITORING ACCESS TO PIPED WATER AND SANITATION INFRASTRUCTURE IN AFRICA AT DISAGGREGATED SCALES USING SATELLITE IMAGERY AND SELF-SUPERVISED LEARNING",
+  "authors": [
+    "Othmane Echchabi",
+    "Aya Lahlou",
+    "Nizar Talty",
+    "Josh Malcolm Manto",
+    "Tongshu Zheng",
+    "Ka Leung Lam"
+  ],
+  "pub_year": 2026,
+  "venue": "ICLR 2026 Machine Learning for Remote Sensing (ML4RS) Workshop",
+  "doi_or_url": null,
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "other",
+  "processes": [
+    "drinking water infrastructure access",
+    "sanitation infrastructure access",
+    "human settlement morphology"
+  ],
+  "ml_methods": [
+    "Vision Transformer (ViT)",
+    "DINO",
+    "DINOv2",
+    "DINOv3",
+    "Galileo",
+    "Prithvi-EO-2.0",
+    "k-nearest neighbors (k-NN)"
+  ],
+  "ml_tasks": [
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper evaluates satellite imagery classification using self-supervised foundation models to monitor water and sanitation infrastructure access (SDG 6), which is not a physical climate/earth system parameterization or numerical model testbed.",
+  "pain_points": [
+    "Indirect observability: water networks and sewage infrastructure are not directly visible in optical imagery, forcing models to rely on settlement proxies.",
+    "Indicator definition mismatch between household survey binary questions and official WHO/UNICEF JMP service categories.",
+    "Spatial and temporal distribution shifts when generalizing to unsampled regions and countries without survey data.",
+    "Heterogeneous ground truth coverage and sample density across survey rounds."
+  ],
+  "extraction_notes": "The paper is a workshop paper accepted at the ICLR 2026 ML4RS workshop. Pretraining and fine-tuning involved ViT models including DINOv1, DINOv2, DINOv3, Galileo, and Prithvi-EO-2.0.",
+  "dataset_ids": [
+    "306fafe408c2-01",
+    "306fafe408c2-02",
+    "306fafe408c2-03",
+    "306fafe408c2-04"
+  ]
+}

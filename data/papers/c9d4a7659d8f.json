@@ -1,0 +1,42 @@
+{
+  "paper_id": "c9d4a7659d8f",
+  "year": "4",
+  "filename": "Teaching Machine Learning for the Physical Sciences_  A summary of lessons learned and challenges.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Teaching Machine Learning for the Physical Sciences: A summary of lessons learned and challenges",
+  "authors": [
+    "Viviana Acquaviva"
+  ],
+  "pub_year": 2021,
+  "venue": "Proceedings of the 2nd Teaching in Machine Learning Workshop, PMLR",
+  "doi_or_url": null,
+  "doc_kind": "conference_paper",
+  "in_scope": false,
+  "research_field": "Physical Sciences Education",
+  "processes": [],
+  "ml_methods": [
+    "Random Forest",
+    "AdaBoost",
+    "Gradient Boosting Machine",
+    "Extremely Randomized Trees"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All the materials from the most recent iteration of this class are available here (just send a sharing request, so I can keep track of who has access).",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a pedagogical workshop paper addressing machine learning curriculum and teaching practices in physics and astronomy, not Earth or climate system parameterization.",
+  "pain_points": [
+    "Finding research-relevant datasets that are beginner-friendly yet non-trivial and realistic",
+    "Standard beginner datasets are overly curated and omit realistic data cleaning, imputing, and feature engineering challenges",
+    "Lack of pedagogical resources and trained instructors in ML for physical sciences",
+    "Difficulty integrating cross-disciplinary concepts such as uncertainty estimation and interpretability"
+  ],
+  "extraction_notes": "The paper focuses on machine learning education for physics and astronomy students and is marked out of scope as it does not address Earth, climate, or environmental science.",
+  "dataset_ids": [
+    "c9d4a7659d8f-01"
+  ]
+}

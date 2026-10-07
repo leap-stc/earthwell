@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4a2b596c8646-01",
+  "paper_id": "4a2b596c8646",
+  "name": "ClimSim High-Resolution (real-geography)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "41.2TB",
+  "size_gb_estimate": 41200.0,
+  "resolution": "1.5° (21,600 columns on cube-sphere grid), 60 vertical levels, 20-min timestep",
+  "produced_in_this_study": true,
+  "access": "https://huggingface.co/datasets/LEAP/ClimSim_high-res",
+  "access_kind": "public_url_or_doi"
+}

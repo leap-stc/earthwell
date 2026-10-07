@@ -1,0 +1,19 @@
+{
+  "dataset_id": "45164f241e60-02",
+  "paper_id": "45164f241e60",
+  "name": "ILAMB observational benchmark constraints",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ILAMB",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://www.ilamb.org",
+  "access_kind": "public_url_or_doi"
+}

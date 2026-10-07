@@ -1,0 +1,18 @@
+{
+  "dataset_id": "311f24bdc568-01",
+  "paper_id": "311f24bdc568",
+  "name": "ERA5 reanalysis",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "69 × 256 × 128 atmospheric model state; 1979 to 2015 for training, 2016 for validation, 2017 for testing and DA experiments",
+  "size_gb_estimate": null,
+  "resolution": "1.40625° horizontal grid, 13 pressure levels (50–1000 hPa), 6-hour temporal intervals",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

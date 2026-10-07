@@ -1,0 +1,18 @@
+{
+  "dataset_id": "67996bc53014-03",
+  "paper_id": "67996bc53014",
+  "name": "Planar quadrotor trajectory planning dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Linearized planar quadrotor dynamics simulator",
+  "scale": "other",
+  "data_types": [
+    "trajectories"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "S = 200 timesteps, delta_s = 0.01",
+  "produced_in_this_study": true,
+  "access": "https://github.com/MB-29/constrained-sampling",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "a0fd01786052-01",
+  "paper_id": "a0fd01786052",
+  "name": "FV3-GFS replay dataset and analysis increments",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NOAA FV3-GFS replayed to ECMWF IFS operational analysis",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_3d",
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "15-month period from 20 November 2019 to 1 March 2021",
+  "size_gb_estimate": null,
+  "resolution": "C192 (≈50 km) horizontal, 127 vertical levels, reduced to T21 (64x32) for training",
+  "produced_in_this_study": true,
+  "access": "https://github.com/NOAA-PSL/model_error_correction",
+  "access_kind": "not_stated"
+}

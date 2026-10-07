@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bf899599c4e8-05",
+  "paper_id": "bf899599c4e8",
+  "name": "NOAA GLOBALVIEW atmospheric CO2 mixing ratio (xCO2)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA Marine Boundary Layer reference",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Zonal/monthly",
+  "produced_in_this_study": false,
+  "access": "https://gml.noaa.gov/ccgg/mbl/",
+  "access_kind": "public_url_or_doi"
+}

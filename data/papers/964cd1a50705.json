@@ -1,0 +1,62 @@
+{
+  "paper_id": "964cd1a50705",
+  "year": "5",
+  "filename": "Deep Koopman operators for causal discovery.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Koopman operators for causal discovery",
+  "authors": [
+    "Juan Nathaniel",
+    "Carla Roesch",
+    "Jatan Buch",
+    "Derek DeSantis",
+    "Adam Rupe",
+    "Kara D. Lamb",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Communications Physics",
+  "doi_or_url": "https://doi.org/10.1038/s42005-025-02426-1",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_dynamics",
+  "processes": [
+    "ocean-atmosphere interaction",
+    "El Niño Southern Oscillation (ENSO)",
+    "thermocline dynamics",
+    "sea surface temperature variability",
+    "reaction-diffusion"
+  ],
+  "ml_methods": [
+    "Deep Koopman operator",
+    "Dynamic Mode Decomposition",
+    "Multilayer Perceptron",
+    "Convolutional Neural Network",
+    "cLSTM",
+    "Random Fourier Features"
+  ],
+  "ml_tasks": [
+    "causal_inference",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/juannat7/kausal and https://pypi.org/project/kausal/1.0.0/",
+  "testbed_candidate": false,
+  "testbed_rationale": "The focus of this paper is causal discovery and system identification in nonlinear dynamical systems and conceptual/reanalysis ENSO indices, not developing or benchmarking physics parameterizations or ESM emulators.",
+  "pain_points": [
+    "Nonlinear causal inference typically valid only locally along trajectories, failing to generalize globally.",
+    "Nonlinearities, feedback loops, nonstationarity, and multiscale interactions break classical Granger causality assumptions.",
+    "High dimensionality limits classical constraint-based and statistical causal discovery methods (e.g., PCMCI+, VARLiNGAM).",
+    "Prescribed dictionary functions (like Random Fourier Features) struggle to capture complex nonlinear dynamics without deep neural network feature learning.",
+    "Sensitivity of deep Koopman learning to hyperparameter choices and risk of error magnification in marginal vs joint DMD models."
+  ],
+  "extraction_notes": "LEAP STC acknowledged in the Acknowledgements (Award #2019625). The study introduces Kausal, combining deep representation learning of observables with dynamic mode decomposition to perform Granger causality in linearized latent spaces.",
+  "dataset_ids": [
+    "964cd1a50705-01",
+    "964cd1a50705-02",
+    "964cd1a50705-03",
+    "964cd1a50705-04",
+    "964cd1a50705-05"
+  ]
+}

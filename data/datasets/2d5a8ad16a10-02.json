@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2d5a8ad16a10-02",
+  "paper_id": "2d5a8ad16a10",
+  "name": "ERA5 Global Reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System (IFS)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, regridded to 1 km",
+  "produced_in_this_study": false,
+  "access": "https://github.com/ecmwf/cdsapi",
+  "access_kind": "public_url_or_doi"
+}

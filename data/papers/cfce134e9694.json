@@ -1,0 +1,56 @@
+{
+  "paper_id": "cfce134e9694",
+  "year": "3",
+  "filename": "Multi-Fidelity Climate Model Parameterization for Better Generalization and Extrapolation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Multi-fidelity climate model parameterization for better generalization and extrapolation",
+  "authors": [
+    "Mohamed Aziz Bhouri",
+    "Liran Peng",
+    "Michael S. Pritchard",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2309.10231",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "Atmospheric moist convection",
+    "Deep convection",
+    "Cloud microphysics",
+    "Cloud macrophysics",
+    "Radiative heating",
+    "Subgrid turbulence"
+  ],
+  "ml_methods": [
+    "Multi-Fidelity Randomized Prior Networks (MF-RPNs)",
+    "Randomized Prior Networks (RPNs)",
+    "Multi-Layer Perceptron (MLP)",
+    "Deep Ensembles"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "Subgrid-scale convective tendencies of temperature (heat tendency) and specific humidity (moisture tendency)",
+  "online_coupled": false,
+  "host_model": "CESM2.1.3 CAM5 / SPCAM5",
+  "code_availability": "https://github.com/bhouri0412/MF_RPN_SPCAM_cv_param",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clear benchmark testbed for multi-fidelity scientific machine learning in climate parameterization, combining abundant low-fidelity (CAM5) simulations with scarce high-fidelity (SPCAM5) simulations to test out-of-distribution extrapolation in warmer climate regimes (+4K).",
+  "pain_points": [
+    "Machine-learning parameterizations fail to extrapolate or generalize to unseen climate regimes (out-of-distribution data such as +4K warming).",
+    "High-fidelity storm-resolving simulations (e.g., SPCAM5) are computationally prohibitive to run for long multi-year durations, resulting in scarce high-fidelity training data.",
+    "Higher stochasticity and variability of humidity and convection compared to temperature make moisture tendency difficult to predict.",
+    "Standard Bayesian deep learning methods (MCMC, dropout, variational inference, standard deep ensembles) suffer from computational intractability or severe posterior variance underestimation.",
+    "Distribution shift across different warming regimes creates normalization challenges for multi-fidelity deep neural networks."
+  ],
+  "extraction_notes": "The paper focuses entirely on offline parameterization and uncertainty quantification; online coupling within an Earth System Model is highlighted as future work.",
+  "dataset_ids": [
+    "cfce134e9694-01",
+    "cfce134e9694-02",
+    "cfce134e9694-03"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cc0da1d88b85-01",
+  "paper_id": "cc0da1d88b85",
+  "name": "ERA5 reanalysis",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System (IFS)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "spatial resolution of 1.4° latitude/longitude encompassing a global grid of 128 × 256 points. This dataset comprises 69 variables: four surface variables and five upper-air atmospheric variables across 13 pressure levels (50, 100, 150, 200, 250, 300, 400, 500, 600, 700, 850, 925, and 1000 hPa). ERA5 reanalysis data from 1979 to 2015 were used to train the AE and forecast model, with 2016 reserved for validation and 2017 for testing and data assimilation experiments. The dataset was used at hourly resolution for AE training and 6-hourly resolution for the forecast model.",
+  "size_gb_estimate": null,
+  "resolution": "1.4° latitude/longitude, 13 pressure levels + surface, hourly to 6-hourly",
+  "produced_in_this_study": false,
+  "access": "The ERA5 dataset is available from the official website of Climate Data Store (CDS) at https://cds.climate.copernicus.eu/.",
+  "access_kind": "public_url_or_doi"
+}

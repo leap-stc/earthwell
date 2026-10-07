@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c769439315e0-01",
+  "paper_id": "c769439315e0",
+  "name": "SP2 Laser-Induced Incandescent Signals of Laboratory Aerosols",
+  "role": "both",
+  "source_kind": "laboratory",
+  "model_or_instrument": "Single Particle Soot Photometer (NOAA SP2)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "140 082 total samples across 7 classes; 171 691 split samples (85 832 training, 42 899 validation, 42 960 test)",
+  "size_gb_estimate": null,
+  "resolution": "80 µs duration, 400 time steps (dt = 0.2 µs)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.15800436",
+  "access_kind": "public_url_or_doi"
+}

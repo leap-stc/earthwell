@@ -5,3 +5,4 @@ Kara_s hackathon project - Publications and conferences/
 .idea/
 data/text/
 .venv/
+__pycache__/

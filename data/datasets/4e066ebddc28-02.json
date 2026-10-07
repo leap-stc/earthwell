@@ -1,0 +1,19 @@
+{
+  "dataset_id": "4e066ebddc28-02",
+  "paper_id": "4e066ebddc28",
+  "name": "Hybrid Physics-ML and Reference E3SM-MMF Online Simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF coupled with neural networks via FTorch",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "ne4pg2 grid (~11.5° × 11.5°), 60 vertical levels, 20 min timestep, 4- to 5-year duration",
+  "produced_in_this_study": true,
+  "access": "Software repositories, online simulation output, and various online simulation metadata are preserved at https://zenodo.org/records/18883121.",
+  "access_kind": "public_url_or_doi"
+}

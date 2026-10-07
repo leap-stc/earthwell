@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c7059c7d7b4b-03",
+  "paper_id": "c7059c7d7b4b",
+  "name": "Synthetic Black Hole Image Dataset",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Pretrained DDPM model from InverseBench",
+  "scale": "other",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "~ 140 000 synthetic training samples",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

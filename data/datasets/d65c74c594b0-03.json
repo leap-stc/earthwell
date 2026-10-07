@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d65c74c594b0-03",
+  "paper_id": "d65c74c594b0",
+  "name": "MODIS Leaf Area Index (MCD15A3H)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "500 m, 4-day (aggregated to daily)",
+  "produced_in_this_study": false,
+  "access": "https://lpdaac.usgs.gov/products/mcd15a3hv006/",
+  "access_kind": "public_url_or_doi"
+}

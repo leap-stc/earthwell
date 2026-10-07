@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a289dbb4d9dd-01",
+  "paper_id": "a289dbb4d9dd",
+  "name": "DYAMOND II simulation outputs (ICON, IFS, NICAM, UM, SHIELD, GEM, SAM, ARPEGE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON, IFS, NICAM, UM, SHIELD, GEM, SAM, ARPEGE",
+  "scale": "CRM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "285,000 randomly selected samples from each model (160,000 for training, 125,000 for testing); nearly two petabytes per GSRM for original 40 days",
+  "size_gb_estimate": null,
+  "resolution": "5 kilometers or less horizontally; 3-hourly snapshots; 15S-15N latitude belt",
+  "produced_in_this_study": false,
+  "access": "Instructions for acquiring DYAMOND simulation data used to train our models can be found here. Compressed data used for main text and SI figures is publically available at 10.5281/zenodo.8024093.",
+  "access_kind": "public_url_or_doi"
+}

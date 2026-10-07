@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3802c111d00e-01",
+  "paper_id": "3802c111d00e",
+  "name": "CMIP6 Earth system model surface air temperature projections",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "22 CMIP6 ESMs (including CanESM5-CanOE, CNRM-CM6-1, CNRM-ESM2-1, UKESM1-0-LL, FGOALS-f3-L, etc.)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "64 x 128 horizontal grid (remapped to CanESM5-CanOE), annual (1850-2098)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.24381/cds.c866074c",
+  "access_kind": "public_url_or_doi"
+}

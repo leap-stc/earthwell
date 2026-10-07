@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cb988a1eedbe-03",
+  "paper_id": "cb988a1eedbe",
+  "name": "Observational flux ancillary datasets (EN4 salinity, NOAA OI SST v2, ECMWF ERA5 winds)",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "EN4.2.2, NOAA OI SST v2, ECMWF ERA5",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

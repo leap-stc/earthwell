@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c97c62d08369-01",
+  "paper_id": "c97c62d08369",
+  "name": "CESM2.2-CAM6 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2-CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.9° latitude × 1.1° longitude with 32 vertical levels up to 10 hPa",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.26024/bzne-yf09",
+  "access_kind": "public_url_or_doi"
+}

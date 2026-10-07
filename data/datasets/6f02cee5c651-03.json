@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6f02cee5c651-03",
+  "paper_id": "6f02cee5c651",
+  "name": "591 warm rain initiation box model simulation ensemble",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Tel Aviv University (TAU) bin microphysics model",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "591 cases, 20 min simulation time, 1 s time step",
+  "size_gb_estimate": null,
+  "resolution": "1 s temporal resolution",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.14845987",
+  "access_kind": "public_url_or_doi"
+}

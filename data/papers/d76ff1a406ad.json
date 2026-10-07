@@ -1,0 +1,47 @@
+{
+  "paper_id": "d76ff1a406ad",
+  "year": "3",
+  "filename": "Reliance on fossil fuels increases during extreme temperature events in the continental United States.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Reliance on fossil fuels increases during extreme temperature events in the continental United States",
+  "authors": [
+    "Wenli Zhao",
+    "Biqing Zhu",
+    "Steven J. Davis",
+    "Philippe Ciais",
+    "Chaopeng Hong",
+    "Zhu Liu",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Communications Earth & Environment",
+  "doi_or_url": "https://doi.org/10.1038/s43247-023-01147-z",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate impacts / energy systems",
+  "processes": [
+    "power grid electricity generation response to climate extremes",
+    "energy demand and renewable energy generation under extreme heat and cold"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The python code used to create the figures is available upon request from the corresponding author and will also be further accessed through Zenodo: https://doi.org/10.5281/zenodo.10161493.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts statistical and empirical data analysis of energy system sensitivity to climate extremes. It does not train, evaluate, or benchmark ML models or physics parameterizations.",
+  "pain_points": [
+    "Limitation of available electricity transmission data within the grid to assess mitigation effects of inter-regional electricity transfer during extreme events",
+    "Missing cooling demand analysis points in colder states due to threshold limitations"
+  ],
+  "extraction_notes": "The paper does not develop or apply machine learning techniques; it uses statistical analysis (bootstrap sampling, linear regression, percentile thresholding) to assess energy and carbon intensity dynamics during temperature extremes.",
+  "dataset_ids": [
+    "d76ff1a406ad-01",
+    "d76ff1a406ad-02",
+    "d76ff1a406ad-03",
+    "d76ff1a406ad-04"
+  ]
+}

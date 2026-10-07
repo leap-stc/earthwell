@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d047cbf55b75-04",
+  "paper_id": "d047cbf55b75",
+  "name": "UN Joint Monitoring Program (JMP) statistics",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "national and subnational",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

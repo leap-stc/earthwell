@@ -1,0 +1,19 @@
+{
+  "dataset_id": "6e5a3fae6660-01",
+  "paper_id": "6e5a3fae6660",
+  "name": "Midwestern U.S. 450 lakes temperature profile dataset",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "450 lakes in the Midwestern U.S.",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

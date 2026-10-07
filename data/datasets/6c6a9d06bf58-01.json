@@ -1,0 +1,19 @@
+{
+  "dataset_id": "6c6a9d06bf58-01",
+  "paper_id": "6c6a9d06bf58",
+  "name": "Coarse-resolution bulk formula inputs and subgrid heat flux data",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "~1 degree (coarse resolution)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

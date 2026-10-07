@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7354fab2c747-03",
+  "paper_id": "7354fab2c747",
+  "name": "AIDA adiabatic expansion cloud chamber experiments",
+  "role": "both",
+  "source_kind": "laboratory",
+  "model_or_instrument": "AIDA cloud chamber",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "48 adiabatic expansion experiments",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

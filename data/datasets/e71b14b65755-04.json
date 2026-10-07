@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e71b14b65755-04",
+  "paper_id": "e71b14b65755",
+  "name": "ECMWF ERA5 reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "6-hourly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1002/qj.3803",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "02bea554d4bc-01",
+  "paper_id": "02bea554d4bc",
+  "name": "ERA5 and ERA5-Land",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1° spatial, 3-day means (aggregated from 6-hourly/hourly), 1950–2023",
+  "produced_in_this_study": false,
+  "access": "ERA5-land and ERA5 reanalysis datasets are available from the Climate Data Store (https://doi.org/10.24381/cds.adbb2d47, https://doi.org/10.24381/cds.bd0915c6, https://doi.org/10.24381/cds.e2161bac )",
+  "access_kind": "public_url_or_doi"
+}

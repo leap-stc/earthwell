@@ -1,0 +1,62 @@
+{
+  "paper_id": "a74eeb28cd14",
+  "year": "3",
+  "filename": "Improving the Modeling and Analysis of Tropical Convection and Precipitation Through Machine Learning Methods.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Improving The Modeling and Analysis of Tropical Convection and Precipitation through Machine Learning Methods",
+  "authors": [
+    "Griffin Mooers"
+  ],
+  "pub_year": 2023,
+  "venue": "Doctoral Dissertation, University of California, Irvine",
+  "doi_or_url": "https://www.proquest.com/openview/12975949cb2e72bc13d58da05f31cfa0/1?pq-origsite=gscholar&cbl=18750&diss=y",
+  "doc_kind": "thesis",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "deep convection",
+    "shallow convection",
+    "cloud microphysics",
+    "sub-grid vertical transport of heat and moisture",
+    "precipitation",
+    "radiative transfer",
+    "boundary layer turbulence"
+  ],
+  "ml_methods": [
+    "feed-forward deep neural network (DNN)",
+    "fully convolutional Variational Autoencoder (VAE)",
+    "covariance-constrained Variational Autoencoder (CC-VAE)",
+    "k-means clustering",
+    "vector quantization (VQ)",
+    "Principal Component Analysis (PCA)"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "clustering_dimensionality_reduction",
+    "classification_detection",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "atmospheric moist convection, sub-grid diabatic heating, sub-grid moistening, precipitation, and radiative fluxes",
+  "online_coupled": false,
+  "host_model": "SPCAM5",
+  "code_availability": "The codebase for running the SPCAM5 simulations is archived at https://github.com/mspritch/UltraCAM-spcam2_0_cesm1_1_1; hyperparameter tuning used Sherpa (https://github.com/sherpa-ai/sherpa).",
+  "testbed_candidate": true,
+  "testbed_rationale": "The thesis introduces and tests extensive datasets of SPCAM5 real-geography sub-grid tendencies and high-resolution CRM vertical velocity profiles, benchmarked for offline emulation and VAE analysis. The simulation code is openly available on GitHub.",
+  "pain_points": [
+    "Computational expense of high-resolution storm-resolving models (SRMs) limiting runs to short durations",
+    "Exorbitant volume of SRM simulation data (petabytes), creating storage and analysis bottlenecks",
+    "Failure of feed-forward DNNs to capture fast stochastic signals in the planetary boundary layer without temporal memory or stochastic components",
+    "Drizzle bias and incorrect diurnal cycle timing of precipitation over continents in unconstrained and non-tuned DNN emulators",
+    "Offline fit skill does not guarantee online stability in prognostic coupling (hybrid models run into stability issues)",
+    "Violation of physical conservation/positivity constraints in standard unconstrained neural networks"
+  ],
+  "extraction_notes": "Chapter 2 explores offline emulation of SPCAM5 sub-grid parameterization using feed-forward DNNs with hyperparameter optimization and physical constraints, plus offline 1-way coupling to CLM. Chapters 3-5 focus on unsupervised learning with VAEs, clustering, and vector quantization to analyze CRM vertical velocity snapshots across SPCAM and DYAMOND models.",
+  "dataset_ids": [
+    "a74eeb28cd14-01",
+    "a74eeb28cd14-02",
+    "a74eeb28cd14-03",
+    "a74eeb28cd14-04",
+    "a74eeb28cd14-05"
+  ]
+}

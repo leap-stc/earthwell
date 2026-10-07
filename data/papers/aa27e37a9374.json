@@ -1,0 +1,58 @@
+{
+  "paper_id": "aa27e37a9374",
+  "year": "5",
+  "filename": "FEMA Phase-Out_ Catastrophic Extremes Limit Decentralization of U.S. Flood Insurance.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "FEMA phase-out? Catastrophic extremes challenge decentralization of US flood insurance",
+  "authors": [
+    "Adam Nayak",
+    "Mengjie Zhang",
+    "Pierre Gentine",
+    "Upmanu Lall"
+  ],
+  "pub_year": 2026,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi_or_url": "https://doi.org/10.1073/pnas.2537388123",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydroclimatology / natural hazards",
+  "processes": [
+    "extreme precipitation",
+    "riverine flooding",
+    "coastal storm surge",
+    "tropical cyclones",
+    "compound flooding",
+    "snowmelt flooding",
+    "atmospheric blocking"
+  ],
+  "ml_methods": [
+    "ST-DBSCAN",
+    "Support Vector Machine",
+    "Agglomerative Hierarchical Clustering with Dynamic Time Warping"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "We provide open access code for our simulation model and all analytic processes conducted in this manuscript in the following GitHub repository (https://github.com/adamnayak/Risk_Pooling) (61).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study models flood insurance financial risk pooling dynamics and spatiotemporal claim clustering; it does not produce physical simulation benchmarks suitable for training atmospheric or oceanic ML parameterizations.",
+  "pain_points": [
+    "Full Risk Rating 2.0 premium datasets require a Freedom of Information Act (FOIA) request rather than being openly downloadable.",
+    "Claims records are limited by the historical statutory $350k coverage cap and represent only insured properties, underestimating total physical flood damages.",
+    "Nonstationarity under climate change is not directly modeled as the simulation resamples from historical empirical claim data."
+  ],
+  "extraction_notes": "Cloud computing resources were supported by the NSF STC for Learning the Earth with Artificial Intelligence and Physics (LEAP) at Columbia University (Grant No. 2019625).",
+  "dataset_ids": [
+    "aa27e37a9374-01",
+    "aa27e37a9374-02",
+    "aa27e37a9374-03",
+    "aa27e37a9374-04",
+    "aa27e37a9374-05",
+    "aa27e37a9374-06",
+    "aa27e37a9374-07"
+  ]
+}

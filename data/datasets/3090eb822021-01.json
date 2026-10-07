@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3090eb822021-01",
+  "paper_id": "3090eb822021",
+  "name": "CAM6-ML 100-member Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6-ML (CAM6 with neural network warm rain microphysics)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "100-member PPE, 3 years each",
+  "size_gb_estimate": null,
+  "resolution": "discrete 5 degree or 10 degree latitude bands used for diagnostics; 3-year runs",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.21904973",
+  "access_kind": "public_url_or_doi"
+}

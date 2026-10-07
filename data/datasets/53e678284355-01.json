@@ -1,0 +1,18 @@
+{
+  "dataset_id": "53e678284355-01",
+  "paper_id": "53e678284355",
+  "name": "ChaosBench (ERA5 atmospheric reanalysis subset)",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS / ERA5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1.5 degree (scripts provide up to 0.25 degree), daily (00UTC), 1979 to present",
+  "produced_in_this_study": true,
+  "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
+  "access_kind": "public_url_or_doi"
+}

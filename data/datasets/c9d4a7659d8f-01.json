@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c9d4a7659d8f-01",
+  "paper_id": "c9d4a7659d8f",
+  "name": "DEEP2/3 galaxy redshift survey dataset (Zhou et al., 2019)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "DEEP2/3 spectroscopy and ugrizy imaging",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "6,307 objects and 6 features",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "All the materials from the most recent iteration of this class are available here (just send a sharing request, so I can keep track of who has access).",
+  "access_kind": "on_request"
+}

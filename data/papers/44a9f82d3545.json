@@ -1,0 +1,56 @@
+{
+  "paper_id": "44a9f82d3545",
+  "year": "2",
+  "filename": "Causally-informed Deep Learning to Improve Climate Models and Projections.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Causally-informed Deep Learning to Improve Climate Models and Projections",
+  "authors": [
+    "Fernando Iglesias-Suarez",
+    "Pierre Gentine",
+    "Breixo Solino-Fernandez",
+    "Tom Beucler",
+    "Michael Pritchard",
+    "Jakob Runge",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Geophysical Research: Atmospheres",
+  "doi_or_url": "https://doi.org/10.5281/zenodo.8239403",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "deep convection",
+    "atmospheric moistening and heating",
+    "radiative transfer",
+    "boundary layer turbulence",
+    "cloud microphysics"
+  ],
+  "ml_methods": [
+    "Feedforward neural network",
+    "PCMCI (PC1 phase)",
+    "Lasso regression",
+    "SHAP (DeepExplainer)"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "causal_inference",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "Subgrid convective heating and moistening tendencies, surface precipitation, and radiative fluxes",
+  "online_coupled": true,
+  "host_model": "CAM3 (Community Atmosphere Model v3.0)",
+  "code_availability": "Software is archived on Zenodo at https://doi.org/10.5281/zenodo.8239403. Fortran-Keras bridge coupled SPCAM code is available at https://gitlab.com/mspritch/spcam3.0-neural-net (causalcoupler branch, commit hash 5ebff0a6).",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses publicly available, standard aquaplanet SPCAM benchmark data to learn subgrid atmospheric parameterization and couples back into CAM3 for multi-year online climate stability tests.",
+  "pain_points": [
+    "Spurious non-physical correlations learned by standard fully connected neural networks degrade online performance, leading to double-ITCZ biases and instability.",
+    "Coupling 65 individual single-output neural networks via the Fortran-Keras Bridge is computationally expensive (~20 times slower than a single multi-output neural network, matching the cost of the original SPCAM).",
+    "Causal discovery and pruning alone do not solve the out-of-distribution generalization failure under warm climate (+4 K) conditions.",
+    "Optimization of the causal graph threshold is sensitive; suboptimal causal thresholds cause online hybrid model instabilities or severe biases."
+  ],
+  "extraction_notes": "The manuscript is a submitted paper to JGR: Atmospheres with copyright 2024 listed in the supporting information. It builds directly upon the benchmark simulation and neural network setup of Rasp et al. (2018).",
+  "dataset_ids": [
+    "44a9f82d3545-01"
+  ]
+}

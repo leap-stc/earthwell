@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c9e59ec15801-02",
+  "paper_id": "c9e59ec15801",
+  "name": "SPCAM3 Multiclimate Simulation Data (-4K, +0K, +4K SST)",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "5,975,723 samples per climate across -4K, +0K, and +4K climates",
+  "size_gb_estimate": 16.5,
+  "resolution": "64 x 128 x 30 levels; 30-minute timestep; embedded CRM 4-km grid",
+  "produced_in_this_study": true,
+  "access": "https://zenodo.org/records/11392025",
+  "access_kind": "public_url_or_doi"
+}

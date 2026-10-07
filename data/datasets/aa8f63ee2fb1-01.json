@@ -1,0 +1,19 @@
+{
+  "dataset_id": "aa8f63ee2fb1-01",
+  "paper_id": "aa8f63ee2fb1",
+  "name": "Numerically generated black carbon fractal aggregate optical properties dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Multiple Sphere T-Matrix Method (MSTM) and cluster-cluster algorithm",
+  "scale": "other",
+  "data_types": [
+    "tabular",
+    "other"
+  ],
+  "size_as_stated": "57,556 numerically generated aggregates for Ns < 100; 880 aggregates in the size range 100 < Ns < 1000",
+  "size_gb_estimate": null,
+  "resolution": "monomer radii 7–72 nm (at 450 nm) and 10–104 nm (at 650 nm)",
+  "produced_in_this_study": true,
+  "access": "10.5281/zenodo.5108834",
+  "access_kind": "public_url_or_doi"
+}

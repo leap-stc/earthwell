@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4837d04b99a1-01",
+  "paper_id": "4837d04b99a1",
+  "name": "Large Ensemble Testbed (GOBM simulations)",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "CanESM, CESM, ESM2M, MPI",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "25 ensemble members across four independent GOBMs; 421 monthly time steps from January 1982 to January 2017",
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1982–2017)",
+  "produced_in_this_study": false,
+  "access": "The dataset used in this work, including the Large Ensemble Testbed, is available from Gloege et al. (2022) [reference 20].",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9a0484dcafbe-02",
+  "paper_id": "9a0484dcafbe",
+  "name": "ICEBall field campaign SEM dataset",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "Scanning Electron Microscopy (SEM)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "48 unique rosettes; 204 basal and 370 prism facet measurements",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.2172/1974397",
+  "access_kind": "public_url_or_doi"
+}

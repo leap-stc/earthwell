@@ -1,0 +1,48 @@
+{
+  "paper_id": "3acff62a394f",
+  "year": "3",
+  "filename": "Reliable coarse-grained turbulent simulations through combined offline learning and neural emulation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Reliable coarse-grained turbulent simulations through combined offline learning and neural emulation",
+  "authors": [
+    "Christian Pedersen",
+    "Laure Zanna",
+    "Joan Bruna",
+    "Pavel Perezhogin"
+  ],
+  "pub_year": 2023,
+  "venue": "1st workshop on Synergy of Scientific and Machine Learning Modeling, SynS & ML ICML 2023",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2307.13144",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "Physical Oceanography",
+  "processes": [
+    "mesoscale eddies",
+    "ocean turbulence",
+    "inverse energy cascade",
+    "eddy backscatter",
+    "potential vorticity dynamics"
+  ],
+  "ml_methods": [
+    "FCNN"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "Subgrid potential vorticity forcing (eddy flux divergence)",
+  "online_coupled": true,
+  "host_model": "pyqg",
+  "code_availability": "pyqg code cited as publicly available at https://zenodo.org/record/6563667; ML parameterization and emulation code availability is not stated.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper uses an idealized 2-layer quasi-geostrophic setup generated via pyqg (18,000 snapshots), but does not provide direct public access links or repository locations for the generated dataset.",
+  "pain_points": [
+    "Instabilities and energy accumulation at the gridscale when offline-trained ML parameterizations are coupled online",
+    "Inability to differentiate through legacy numerical ocean and climate models to do end-to-end online training",
+    "Trade-off between capturing inverse energy cascade/backscatter and ensuring numerical stability"
+  ],
+  "extraction_notes": "The paper introduces a loss term with a neural emulator that predicts residuals (q_{i+\\Delta t} - q_i) to regularize offline parameterization training toward stable trajectories without needing a differentiable host model.",
+  "dataset_ids": [
+    "3acff62a394f-01"
+  ]
+}

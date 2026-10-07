@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2d5a8ad16a10-03",
+  "paper_id": "2d5a8ad16a10",
+  "name": "World Digital Elevation Model (ETOPO5)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "ETOPO5",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "regridded to 1 km",
+  "produced_in_this_study": false,
+  "access": "https://www.eea.europa.eu/data-and-maps/data/world-digital-elevation-model-etopo5",
+  "access_kind": "public_url_or_doi"
+}

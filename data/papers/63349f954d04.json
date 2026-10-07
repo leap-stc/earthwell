@@ -1,0 +1,54 @@
+{
+  "paper_id": "63349f954d04",
+  "year": "5",
+  "filename": "Systematic LLM Translation of Legacy Scientific Code to Differentiable Frameworks_ Application to a Land Surface Model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Systematic LLM Translation of Legacy Scientific Code to Differentiable Frameworks: Application to a Land Surface Model",
+  "authors": [
+    "Aya Lahlou",
+    "Linnia Hawkins",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": "Preprint (submitted to ICML 2026 DL4C workshop)",
+  "doi_or_url": "https://arxiv.org/abs/2606.07681",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "land_surface",
+  "processes": [
+    "Farquhar-von Caemmerer-Berry (FvCB) leaf photosynthesis",
+    "Medlyn and Cowan-Farquhar (WUE) stomatal conductance",
+    "Harman-Finnigan roughness sublayer canopy turbulence",
+    "Norman two-stream radiative transfer",
+    "Canopy sensible and latent heat fluxes",
+    "Gross primary production (GPP)"
+  ],
+  "ml_methods": [
+    "Large Language Model agents (Claude / Claude Opus 4.6)",
+    "Adam",
+    "L-BFGS-B with reverse-mode automatic differentiation",
+    "Implicit function theorem adjoints"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "other"
+  ],
+  "parameterization_target": "Multilayer canopy land surface processes and flux parameterizations",
+  "online_coupled": false,
+  "host_model": "CLM-ml-v2 / clm-ml-jax",
+  "code_availability": "Both the translated model and pipeline infrastructure are stated as released as a reusable framework, though specific repository URLs are omitted in the main text.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an end-to-end differentiable land surface model (clm-ml-jax) and agentic translation pipeline rather than a standardized benchmark dataset for training or evaluating ML parameterizations.",
+  "pain_points": [
+    "Branch evaluation in JAX (jnp.where) evaluating both branches, generating NaN gradients (0 x inf) with division or fractional powers when x=0",
+    "Gradient explosion (|J|^N -> infinity) in iterative solvers (e.g., Obukhov length secant solver and stomatal conductance bisection) requiring implicit function theorem (IFT) adjoint reformulation",
+    "Tracing and compilation bottlenecks: dynamic closures triggering continuous XLA recompilations (approx. 290 s per call) and flat LLVM graph explosion on CPU vmap requiring GPU execution",
+    "Autodiff tape silently broken by standard Python type casts (e.g., float()) and local variable bindings",
+    "Agentic laziness and lack of persistent cross-session state in long autonomous agent loops"
+  ],
+  "extraction_notes": "Work funded by NSF LEAP STC (Award #2019625). While primarily a code translation and differentiable programming study, it evaluates gradient-based parameter calibration (L-BFGS-B and Adam) on land surface parameters (Vcmax25, stomatal efficiency, Tref).",
+  "dataset_ids": [
+    "63349f954d04-01",
+    "63349f954d04-02"
+  ]
+}

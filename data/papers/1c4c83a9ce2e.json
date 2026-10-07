@@ -1,0 +1,50 @@
+{
+  "paper_id": "1c4c83a9ce2e",
+  "year": "4",
+  "filename": "The death of autoconversion_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The death of autoconversion c. 1963 - 20??",
+  "authors": [
+    "Kaitlyn Loftus",
+    "Marcus van Lier-Walqui",
+    "Hugh Morrison",
+    "Robin Wordsworth"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "collision-coalescence",
+    "autoconversion",
+    "accretion",
+    "cloud droplet growth",
+    "warm rain formation"
+  ],
+  "ml_methods": [
+    "ML-enabled Bayesian inference"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "bulk cloud microphysics (autoconversion and accretion rates)",
+  "online_coupled": false,
+  "host_model": "CM1",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Slide deck presentation without direct public data or code links, though the underlying LES perturbed parameter ensemble and calibration framework represent relevant benchmark microphysics workflows.",
+  "pain_points": [
+    "Structural errors in 2-category bulk microphysics schemes neglecting the cloud aging regime",
+    "Highly nonlinear early collisional growth (autoconversion) cannot be adequately captured by power-law representations",
+    "Parameters in calibrated autoconversion power laws show extreme sensitivity to environmental conditions (xenv)"
+  ],
+  "extraction_notes": "Document is an unannotated conference or workshop slide presentation from LEAP STC. The exact publication year is inferred as 2024 from citations (e.g., Hu & Igel 2024). The machine learning methodology is described at a high level as 'ML-enabled Bayesian inference' within a calibrated physics ensemble (CPE) framework.",
+  "dataset_ids": [
+    "1c4c83a9ce2e-01",
+    "1c4c83a9ce2e-02",
+    "1c4c83a9ce2e-03"
+  ]
+}

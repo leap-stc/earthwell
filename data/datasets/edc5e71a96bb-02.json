@@ -1,0 +1,19 @@
+{
+  "dataset_id": "edc5e71a96bb-02",
+  "paper_id": "edc5e71a96bb",
+  "name": "BGC-Argo float profiles (O2 and NO3)",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "BGC-Argo profiling floats",
+  "scale": "point_or_site",
+  "data_types": [
+    "spatiotemporal",
+    "trajectories"
+  ],
+  "size_as_stated": "O(10^5) observations",
+  "size_gb_estimate": null,
+  "resolution": "Vertical profiles in upper 2000 m, 2002-2017, North Atlantic (15°N to 70°N)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

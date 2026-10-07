@@ -1,0 +1,52 @@
+{
+  "paper_id": "b65cac097878",
+  "year": "5",
+  "filename": "Data-Driven Integration Kernels for Interpretable Nonlocal Operator Learning(1).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Data-driven integration kernels for interpretable nonlocal operator learning",
+  "authors": [
+    "Savannah L. Ferretti",
+    "Jerry Lin",
+    "Sara Shamekh",
+    "Jane W. Baldwin",
+    "Michael S. Pritchard",
+    "Tom Beucler"
+  ],
+  "pub_year": 2026,
+  "venue": "Environmental Data Science",
+  "doi_or_url": "https://doi.org/10.1017/eds.2026.10056",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_hydrology",
+  "processes": [
+    "precipitation",
+    "South Asian monsoon convection",
+    "boundary layer moistening and entrainment"
+  ],
+  "ml_methods": [
+    "feedforward neural network",
+    "data-driven integration kernels",
+    "parametric integration kernels",
+    "nonparametric integration kernels"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "precipitation",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.20562314",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses publicly available cloud-optimized datasets (LEAP ARCO-ERA5 and Planetary Computer IMERG) along with open-source Zenodo code to establish an offline parameterization testbed for precipitation from thermodynamic profiles.",
+  "pain_points": [
+    "Nonlocal ML models typically encode spatial/vertical/temporal dependencies implicitly in large parameter sets, hindering interpretability and risking overfitting as nonlocal context expands.",
+    "Post-hoc explainability methods (XAI) yield sample-dependent attributions that compound uncertainty and can be hard to interpret physically.",
+    "Strong inter-variable correlations in atmospheric data can cause unconstrained/nonparametric kernels to be underdetermined."
+  ],
+  "extraction_notes": "The paper focuses on South Asian monsoon precipitation parameterization (5–25°N, 60–90°E) for June–August (2000–2020), partitioned chronologically: 2000–2014 training, 2015–2017 validation, 2018–2020 testing.",
+  "dataset_ids": [
+    "b65cac097878-01",
+    "b65cac097878-02"
+  ]
+}

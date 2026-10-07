@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a076629e05e7-02",
+  "paper_id": "a076629e05e7",
+  "name": "HydroSHEDS, NLCD, SSURGO, and Gleeson et al. permeability map basin inputs",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 km",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

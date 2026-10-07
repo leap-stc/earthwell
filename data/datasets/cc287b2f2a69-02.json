@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cc287b2f2a69-02",
+  "paper_id": "cc287b2f2a69",
+  "name": "GSWP3v1 atmospheric forcing",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "GSWP3v1",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "http://hydro.iis.u-tokyo.ac.jp/GSWP3/",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f54411021def-03",
+  "paper_id": "f54411021def",
+  "name": "Copernicus GLO-30 DEM",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Copernicus DEM",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "30 m",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

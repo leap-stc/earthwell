@@ -1,0 +1,47 @@
+{
+  "paper_id": "ac432f3da31a",
+  "year": "5",
+  "filename": "From Regulation to Radiative Forcing Constraining the Climate Response to Declining Shipping Aerosol Emissions Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "From Regulation to Radiative Forcing: Constraining the Climate Response to Declining Shipping Aerosol Emissions",
+  "authors": [
+    "Duncan Watson-Parris"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting 2025",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2025AGUFMA11B...01W/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric aerosol-cloud interactions and climate forcing",
+  "processes": [
+    "Aerosol-cloud interactions",
+    "Ship track cloud perturbations",
+    "Sulfate aerosol radiative forcing",
+    "Climate response and internal variability"
+  ],
+  "ml_methods": [
+    "Machine learning-based detection algorithm",
+    "Hybrid inference method"
+  ],
+  "ml_tasks": [
+    "classification_detection",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CESM2 / CAM6",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct links or instructions to access the underlying datasets or model code.",
+  "pain_points": [
+    "Conference abstract only, giving limited technical specifications on data availability, resolution, or exact ML architectures.",
+    "Nonlinear cloud responses complicate direct estimation of aerosol radiative forcing from emissions changes alone."
+  ],
+  "extraction_notes": "Abstract presents an analysis combining an ML ship track detector, an 18-member CESM2 coupled ensemble, and a hybrid inference method applied to CAM6 microphysical parameters and energetic constraints.",
+  "dataset_ids": [
+    "ac432f3da31a-01",
+    "ac432f3da31a-02",
+    "ac432f3da31a-03"
+  ]
+}

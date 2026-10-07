@@ -1,0 +1,18 @@
+{
+  "dataset_id": "542a4bcfeeb7-02",
+  "paper_id": "542a4bcfeeb7",
+  "name": "Ethiopian Meteorological Institute (EMI) gridded daily rainfall",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "EMI gridded precipitation product",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "14,610 daily observations (1981–2020)",
+  "size_gb_estimate": null,
+  "resolution": "4 km x 4 km, daily",
+  "produced_in_this_study": false,
+  "access": "The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.",
+  "access_kind": "on_request"
+}

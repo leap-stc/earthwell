@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bf899599c4e8-02",
+  "paper_id": "bf899599c4e8",
+  "name": "Global Ocean Biogeochemical Models (GOBMs) ensemble from GCB 2020",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NEMO-PlankTOM5, MICOM-HAMOCC, MPIOM-HAMOCC6, NEMO3.6-PISCESv2-gas, CSIRO, FESOM-1.4-REcoM2, MOM6-COBALT, CESM-ETHZ, NEMO-PISCES",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Interpolated to 1° x 1°, monthly (1982–2018)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

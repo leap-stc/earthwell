@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2449ffc9b180-01",
+  "paper_id": "2449ffc9b180",
+  "name": "CM1 LES particle-based Lagrangian cirrus cloud simulations (ICEBall case)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CM1 with particle-based Lagrangian superparticle microphysics",
+  "scale": "LES",
+  "data_types": [
+    "trajectories",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

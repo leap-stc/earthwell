@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3090eb822021-07",
+  "paper_id": "3090eb822021",
+  "name": "ISCCP Total Cloud Fraction (CLDTOT_ISCCP/clt_isccp)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ISCCP",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

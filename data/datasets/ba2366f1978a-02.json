@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ba2366f1978a-02",
+  "paper_id": "ba2366f1978a",
+  "name": "CARAVAN-GB",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "Streamflow gauging stations and meteorological forcing",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "255 UK basins with ten years of streamflow observations (1989-1999); 204 training basins, 51 test basins",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7540792",
+  "access_kind": "public_url_or_doi"
+}

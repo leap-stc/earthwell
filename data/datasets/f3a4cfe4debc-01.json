@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f3a4cfe4debc-01",
+  "paper_id": "f3a4cfe4debc",
+  "name": "ERA5 reanalysis",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1.5-degree grid, daily, 10 pressure levels (10, 50, 100, 200, 300, 500, 700, 850, 925, 1000 hPa)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

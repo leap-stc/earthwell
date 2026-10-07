@@ -1,0 +1,53 @@
+{
+  "paper_id": "1a47f956f011",
+  "year": "3",
+  "filename": "A stable implementation of a data-driven scale-aware mesoscale parameterization.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A stable implementation of a data-driven scale-aware mesoscale parameterization",
+  "authors": [
+    "Pavel Perezhogin",
+    "Cheng Zhang",
+    "Alistair Adcroft",
+    "Carlos Fernandez-Granda",
+    "Laure Zanna"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2311.02517",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "ocean mesoscale eddies",
+    "subgrid momentum fluxes",
+    "kinetic energy backscatter",
+    "eddy-mean flow interaction"
+  ],
+  "ml_methods": [
+    "equation discovery",
+    "CNN"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "equation_discovery"
+  ],
+  "parameterization_target": "ocean mesoscale eddy momentum fluxes / kinetic energy backscatter",
+  "online_coupled": true,
+  "host_model": "GFDL MOM6",
+  "code_availability": "https://doi.org/10.5281/zenodo.12682335; original NW2 config via https://doi.org/10.5281/zenodo.6993951",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides open data and code for idealized Double Gyre and NeverWorld2 (NW2) MOM6 setups designed specifically for testing, benchmarking, and evaluating mesoscale eddy parameterizations online and offline across multiple resolutions.",
+  "pain_points": [
+    "Grid-scale numerical instabilities and noise generation when implementing discovered closure online, requiring low-pass filtering passes and high-pass filtering of inputs.",
+    "Aliasing errors on Arakawa C-grid requiring a shift from energy-conserving to non-conserving discretization in NW2.",
+    "Very thin isopycnal layers (down to 10^-2 m) causing runtime crashes, negative thickness, or NaNs in multi-layer primitive equation setups.",
+    "Need for an ad-hoc attenuation function in regions of geostrophically unbalanced flows or high strain.",
+    "Filtering schemes increase online runtime overhead by 4-6% and cannot completely replace viscous/enstrophy dissipation, still requiring supplementary biharmonic Smagorinsky viscosity.",
+    "Trade-off between optimizing mean state (SSH, APE) and energizing eddies/reproducing backscatter (KE)."
+  ],
+  "extraction_notes": "The ZB20 equation was discovered in Zanna & Bolton (2020) using sparse regression / equation discovery; GZ21 is a CNN baseline evaluated in this work.",
+  "dataset_ids": [
+    "1a47f956f011-01",
+    "1a47f956f011-02"
+  ]
+}

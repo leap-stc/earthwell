@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6716226ebe03-03",
+  "paper_id": "6716226ebe03",
+  "name": "GFDL OM4 60-year global hybrid ocean-ice simulation runs",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "MOM6 / SIS2 (OM4)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1/4-degree horizontal, 75 vertical layers",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.16058005",
+  "access_kind": "public_url_or_doi"
+}

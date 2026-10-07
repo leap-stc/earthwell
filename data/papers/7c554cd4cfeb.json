@@ -1,0 +1,55 @@
+{
+  "paper_id": "7c554cd4cfeb",
+  "year": "3",
+  "filename": "Deep Learning of Systematic Sea Ice Model Errors From Data Assimilation Increments.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Learning of Systematic Sea Ice Model Errors From Data Assimilation Increments",
+  "authors": [
+    "William Gregory",
+    "Mitchell Bushuk",
+    "Alistair Adcroft",
+    "Yongfei Zhang",
+    "Laure Zanna"
+  ],
+  "pub_year": 2023,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2023MS003757",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "cryosphere",
+  "processes": [
+    "sea ice concentration dynamics and thermodynamics",
+    "subgrid ice thickness distribution",
+    "ice-ocean coupling",
+    "systematic model bias correction"
+  ],
+  "ml_methods": [
+    "Fully Convolutional Neural Networks (CNNs)",
+    "Adam optimizer"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "sea ice concentration analysis increments (ΔSIC and category increments ΔSICN)",
+  "online_coupled": false,
+  "host_model": "GFDL SPEAR (MOM6 + SIS2)",
+  "code_availability": "All data for training each CNN are openly available (Gregory et al., 2023), along with auxiliary data such as the optimized CNN weights and standardization statistics. Python code to pre-process the input data and train the CNNs is also available at the same location: https://doi.org/10.5281/zenodo.7818178",
+  "testbed_candidate": true,
+  "testbed_rationale": "The training and validation data comprising global sea ice and ocean states, tendencies, and corresponding DA analysis increments across 1982-2021 are openly available on Zenodo along with code. It provides an established benchmark for learning systematic Earth system model bias corrections.",
+  "pain_points": [
+    "Data assimilation system was not originally tailored for ML training (e.g., only ensemble mean was readily saved rather than full 30-member ensembles).",
+    "Decoupling/disentangling sea ice errors from ocean or atmospheric errors in coupled models is challenging.",
+    "Preserving physical conservation laws (mass, heat, and salt budgets) when implementing offline-learned increments as parameterizations in a dynamical solver.",
+    "Scaling adjustments from 5-day DA increment intervals to sub-daily model timesteps.",
+    "Seasonal drop in predictability and signal variance during late summer melt months.",
+    "Non-stationarity of analysis increments over multidecadal timescales (variance increases over time)."
+  ],
+  "extraction_notes": "The paper focuses on offline evaluation of CNNs predicting DA increments of aggregate sea ice concentration and subgrid category concentrations, but expressly frames this as learning a parameterization for model bias correction.",
+  "dataset_ids": [
+    "7c554cd4cfeb-01",
+    "7c554cd4cfeb-02",
+    "7c554cd4cfeb-03",
+    "7c554cd4cfeb-04",
+    "7c554cd4cfeb-05"
+  ]
+}

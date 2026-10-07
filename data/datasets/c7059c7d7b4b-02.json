@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c7059c7d7b4b-02",
+  "paper_id": "c7059c7d7b4b",
+  "name": "InverseBench Black Hole Imaging Test Set",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "GRMHD simulations (Mizuno, 2022)",
+  "scale": "other",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "100 problem instances",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

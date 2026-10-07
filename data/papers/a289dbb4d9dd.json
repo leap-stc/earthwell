@@ -1,0 +1,60 @@
+{
+  "paper_id": "a289dbb4d9dd",
+  "year": "2",
+  "filename": "Comparing Storm Resolving Models and Climates via Unsupervised Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Comparing Storm Resolving Models and Climates via Unsupervised Machine Learning",
+  "authors": [
+    "Griffin Mooers",
+    "Mike Pritchard",
+    "Tom Beucler",
+    "Prakhar Srivastava",
+    "Harshini Mangipudi",
+    "Liran Peng",
+    "Pierre Gentine",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2023,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2208.11843",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "atmospheric convection",
+    "deep convection",
+    "shallow convection",
+    "cloud dynamics",
+    "vertical velocity dynamics",
+    "turbulence"
+  ],
+  "ml_methods": [
+    "Variational Autoencoders",
+    "Convolutional Neural Networks",
+    "K-means clustering",
+    "k-means++",
+    "Vector Quantization",
+    "Principal Component Analysis"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Training and postprocessing scripts, as well as saved model weights and python environments, are available on GitHub at DOI:10.5281/zenodo.8024076.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts unsupervised dimensionality reduction, representation learning, and distribution shift analysis across global storm-resolving models and climate states using vertical velocity snapshots, rather than providing training/evaluation datasets for subgrid parameterization or emulation.",
+  "pain_points": [
+    "Massive data volume of global storm-resolving models (nearly 2 petabytes per model for 40 days of hourly output) making analysis and storage a major bottleneck.",
+    "Lack of standardized objective methods to compare high-resolution model dynamics and convective organization.",
+    "Differences in vertical and horizontal grid structures across various GSRMs requiring interpolation onto standardized grids.",
+    "Instability/non-robustness of traditional dimensionality reduction and clustering approaches (raw pixel space, PCA) in high-dimensional turbulent vertical velocity fields."
+  ],
+  "extraction_notes": "The paper uses VAEs and vector quantization (K-means on VAE latent space) to assess distribution shift and KL divergence between GSRMs (DYAMOND) and between +0K and +4K climates in SPCAM. It is funded in part by the NSF LEAP Science and Technology Center (award 2019625).",
+  "dataset_ids": [
+    "a289dbb4d9dd-01",
+    "a289dbb4d9dd-02"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "paper_id": "e9051914322c",
+  "year": "5",
+  "filename": "Generalizable Neural-Network Parameterization of Mesoscale Eddies in Idealized and Global Ocean Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Generalizable Neural-Network Parameterization of Mesoscale Eddies in Idealized and Global Ocean Models",
+  "authors": [
+    "Pavel Perezhogin",
+    "Alistair Adcroft",
+    "Laure Zanna"
+  ],
+  "pub_year": 2025,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "10.1029/2025GL117046",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "physical oceanography",
+  "processes": [
+    "ocean mesoscale eddies",
+    "subfilter momentum fluxes",
+    "eddy backscatter",
+    "ocean kinetic and potential energy pathways"
+  ],
+  "ml_methods": [
+    "Artificial Neural Network (ANN)",
+    "multilayer perceptron"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "mesoscale eddy subfilter momentum fluxes",
+  "online_coupled": true,
+  "host_model": "GFDL MOM6",
+  "code_availability": "https://doi.org/10.5281/zenodo.16056926",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a public Zenodo archive containing the training data, offline evaluation scripts, trained neural network weights, and MOM6 model configurations for testing scale-aware mesoscale eddy parameterizations.",
+  "pain_points": [
+    "Generalization across unseen grid resolutions, flow regimes, and depth levels due to severe distribution shifts in physical features",
+    "Numerical stability when deploying data-driven closures online into coarse dynamical ocean models, requiring clipping/modifications",
+    "Compensating model errors: adding a physically improved eddy parameterization can degrade agreement with observations (e.g., AMOC, Drake Passage transport) without comprehensive model retuning"
+  ],
+  "extraction_notes": "The paper uses Buckingham's Pi theorem to locally non-dimensionalize input velocity gradients and output subfilter stress tensors by grid spacing and local strain/vorticity scales, enabling zero-shot resolution- and depth-transferability.",
+  "dataset_ids": [
+    "e9051914322c-01",
+    "e9051914322c-02",
+    "e9051914322c-03",
+    "e9051914322c-04",
+    "e9051914322c-05"
+  ]
+}

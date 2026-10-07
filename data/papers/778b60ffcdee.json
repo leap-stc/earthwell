@@ -1,0 +1,58 @@
+{
+  "paper_id": "778b60ffcdee",
+  "year": "5",
+  "filename": "Resolving Low Cloud Feedbacks Globally With E3SM High-Res MMF_ Agreement With LES but Stronger Shortwave Effects.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Resolving Low Cloud Feedbacks Globally With E3SM High-Res MMF: Agreement With LES but Stronger Shortwave Effects",
+  "authors": [
+    "Liran Peng",
+    "Peter N. Blossey",
+    "Walter M. Hannah",
+    "Christopher S. Bretherton",
+    "Christopher R. Terai",
+    "Andrea M. Jenney",
+    "Savannah L. Ferretti",
+    "Hossein Parishani",
+    "Michael S. Pritchard"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2025MS005003",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Climate Science",
+  "processes": [
+    "Marine stratocumulus cloud feedback",
+    "Shortwave cloud radiative effect",
+    "Cloud-controlling factors",
+    "Subgrid-scale turbulence and entrainment",
+    "Boundary layer decoupling",
+    "Atmospheric radiative transfer",
+    "Cloud microphysics and droplet sedimentation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "E3SM-MMF",
+  "code_availability": "https://github.com/E3SM-Project/E3SM",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides open 5-year global simulation datasets resolving small-scale boundary-layer eddies and low cloud updrafts at 200 m CRM grid resolution under both present and warmed (+4 K) climate states, suitable as a reference benchmark for developing and evaluating ML-based cloud parameterizations.",
+  "pain_points": [
+    "High computational cost requiring GPU-accelerated supercomputing for multi-year CRM-resolving runs.",
+    "Storage limitations restricted high-frequency output and required offline estimation of downward longwave radiation profiles at cloud top.",
+    "2D CRM geometry and 200 m horizontal grid spacing do not fully resolve sharp inversion-scale entrainment compared to 3D fine-scale LES.",
+    "Historical MMF low cloud under-representation required extensive physical tuning of hyperviscosity, droplet sedimentation, and autoconversion thresholds.",
+    "Uniform SST +4 K warming omits SST pattern effects, interactive aerosols, and direct CO2 radiative forcing."
+  ],
+  "extraction_notes": "The paper does not apply machine learning methods; it performs a physical climate simulation study comparing global superparameterized simulations (HR-MMF) against idealized LES benchmarks from CGILS.",
+  "dataset_ids": [
+    "778b60ffcdee-01",
+    "778b60ffcdee-02",
+    "778b60ffcdee-03",
+    "778b60ffcdee-04",
+    "778b60ffcdee-05"
+  ]
+}

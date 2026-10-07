@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7adc83572dfc-01",
+  "paper_id": "7adc83572dfc",
+  "name": "CUMULO dataset (MODIS MYD06 and CloudSat 2B-CLDCLASS-LIDAR)",
+  "role": "training",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS (Aqua/Terra) and CloudSat/CALIPSO",
+  "scale": "global_obs",
+  "data_types": [
+    "images",
+    "spatial_2d"
+  ],
+  "size_as_stated": "∼ 48000 multivariate images of 1354 × 2030 pixels for the year 2008",
+  "size_gb_estimate": null,
+  "resolution": "1 km spatial resolution, 5-minute granules",
+  "produced_in_this_study": false,
+  "access": "https://github.com/EyringMLClimateGroup/kaps22tgrs_ml_cloud_eval",
+  "access_kind": "public_url_or_doi"
+}

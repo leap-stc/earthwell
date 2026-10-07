@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c926c4c93a95-10",
+  "paper_id": "c926c4c93a95",
+  "name": "Large Ensemble Testbed ESM simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "4 Earth System Models (25 ensemble members each)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "100 ensemble members (25 from each ESM)",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1029/2020GB006788",
+  "access_kind": "public_url_or_doi"
+}

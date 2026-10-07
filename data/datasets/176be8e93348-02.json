@@ -1,0 +1,20 @@
+{
+  "dataset_id": "176be8e93348-02",
+  "paper_id": "176be8e93348",
+  "name": "SeaFlux Observation-Based pCO2 Products",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Ensemble of 7 observation-based products: MPI-SOMFFN, CMEMS-FFNN, NIES-FNN, JENA-MLS, JMA-MLR, LDEO-HPD, CSIR-ML6",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1990–2018)",
+  "produced_in_this_study": false,
+  "access": "https://github.com/luke-gregor/SeaFlux; doi.org/10.5281/zenodo.5078404",
+  "access_kind": "public_url_or_doi"
+}

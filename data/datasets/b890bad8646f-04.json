@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b890bad8646f-04",
+  "paper_id": "b890bad8646f",
+  "name": "ERA5 Global Reanalysis NYC Subset",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5 (ECMWF)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25 degree, monthly",
+  "produced_in_this_study": false,
+  "access": "cds.climate.copernicus.eu",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "0f970eba5521",
+  "year": "3",
+  "filename": "Implementation and Evaluation of a Machine Learned Mesoscale Eddy Parameterization Into a Numerical Ocean Circulation Model - Zhang - 2023 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Implementation and Evaluation of a Machine Learned Mesoscale Eddy Parameterization Into a Numerical Ocean Circulation Model",
+  "authors": [
+    "Cheng Zhang",
+    "Pavel Perezhogin",
+    "Cem Gultekin",
+    "Alistair Adcroft",
+    "Carlos Fernandez-Granda",
+    "Laure Zanna"
+  ],
+  "pub_year": 2023,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2023MS003697",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "mesoscale eddies",
+    "mesoscale eddy momentum forcing",
+    "kinetic energy backscatter",
+    "inverse kinetic energy cascade",
+    "boundary current separation"
+  ],
+  "ml_methods": [
+    "Fully Convolutional Neural Network (CNN)",
+    "stochastic deep learning model"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "subgrid mesoscale eddy momentum forcing (mean and standard deviation of Gaussian distribution)",
+  "online_coupled": true,
+  "host_model": "MOM6",
+  "code_availability": "The source code of the MOM6 version used for implementing the ML parameterization is accessible through Zenodo (https://doi.org/10.5281/zenodo.7663075), while the CNN model files used for the online evaluation in this study (GZ21) can also be accessed via Zenodo (https://doi.org/10.5281/zenodo.7663062). Setup files for the wind-driven double gyre case are available at Zenodo (https://doi.org/10.5281/zenodo.7663128).",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clean, standardized, and open multi-resolution (1/4° to 1/32°) MOM6 double-gyre benchmark configuration on Zenodo with complete setup files and pretrained CNN weights, explicitly designed for testing subgrid ocean eddy parameterizations online.",
+  "pain_points": [
+    "Language interoperability: bridging compiled Fortran (MOM6) and Python (PyTorch) required using Forpy, with manual array conversion between Fortran and NumPy.",
+    "Stencil and halo width: The CNN's 21x21 stencil required expanding parallel MPI halo widths to 10 (vs. MOM6's default 3-4), increasing memory and communication complexity.",
+    "Prohibitive CPU inference costs: Inference on CPUs took ~10x more processing time than the MOM6 dynamical core (~268,000 FLOPs per grid point).",
+    "Hardware and parallelization constraints: GPU inference reduced costs significantly via CUDA Multi-Process Service (MPS), but MPS limits of 16 CPU cores per GPU required custom data-gathering MPI interfaces.",
+    "Grid staggering mismatch: MOM6 uses an Arakawa C-grid while the CNN was trained on co-located B-grid velocities, necessitating spatial interpolation to and from velocity points.",
+    "Lateral boundary artifacts: The CNN produced spurious, strongly sheared eddy structures near rigid walls and bathymetry because training data excluded land/coastal regions.",
+    "Vertical generalization: A model trained solely on surface data over-energized upper layers while under-energizing lower layers, requiring empirical layer-by-layer tuning coefficients."
+  ],
+  "extraction_notes": "The paper implements and tests the pre-existing stochastic CNN parameterization from Guillaumin and Zanna (2021; GZ21) within MOM6 using Forpy to evaluate online stability, generalization to different flow regimes/vertical layers, and computational overhead on CPUs vs. GPUs.",
+  "dataset_ids": [
+    "0f970eba5521-01",
+    "0f970eba5521-02"
+  ]
+}

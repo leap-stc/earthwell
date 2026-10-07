@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e9051914322c-05",
+  "paper_id": "e9051914322c",
+  "name": "RAPID-MOCHA-WBTS 26N AMOC array observations",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "moored instrument array at 26.5°N",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "time series at 26.5°N",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/33826d6e-801c-b0a7-e063-7086abc0b9db",
+  "access_kind": "public_url_or_doi"
+}

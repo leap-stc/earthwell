@@ -1,0 +1,18 @@
+{
+  "dataset_id": "76b3ee94d49b-02",
+  "paper_id": "76b3ee94d49b",
+  "name": "IBTrACS (International Best Track Archive for Climate Stewardship)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "US Agency best tracks (NHC, JTWC)",
+  "scale": "global_obs",
+  "data_types": [
+    "trajectories"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "6-hourly best-track points (1980-2000)",
+  "produced_in_this_study": false,
+  "access": "https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access",
+  "access_kind": "public_url_or_doi"
+}

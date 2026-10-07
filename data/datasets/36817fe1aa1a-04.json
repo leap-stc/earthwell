@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36817fe1aa1a-04",
+  "paper_id": "36817fe1aa1a",
+  "name": "ERA5 Global atmospheric fields for GenCast assimilation",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Reanalysis v5 (ERA5) / GenCast model inputs/outputs",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1° resolution atmospheric fields at 12-hour cadence; trained on February 2019, evaluated on January-March 2022; 13 pressure levels",
+  "size_gb_estimate": null,
+  "resolution": "1° horizontal resolution, 13 pressure levels, 12-hour cadence",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

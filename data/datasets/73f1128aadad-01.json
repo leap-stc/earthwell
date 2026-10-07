@@ -1,0 +1,18 @@
+{
+  "dataset_id": "73f1128aadad-01",
+  "paper_id": "73f1128aadad",
+  "name": "CAM6 TAU-ML and KK2000 perturbed-parameter ensemble (PPE) simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6 / CESM",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "100 member",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

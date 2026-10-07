@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0e7a09e90487-02",
+  "paper_id": "0e7a09e90487",
+  "name": "NASA SMAP Enhanced Passive Soil Moisture (L3E)",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "SMAP L-band radiometer",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "79,310,130 data triples for SMOS-SMAP and 53,819,920 quintuples for AMSR-SMAP",
+  "size_gb_estimate": null,
+  "resolution": "25 km EASE-2 grid, daily descending orbit, March 31, 2015 to August 27, 2020",
+  "produced_in_this_study": false,
+  "access": "https://nsidc.org",
+  "access_kind": "public_url_or_doi"
+}

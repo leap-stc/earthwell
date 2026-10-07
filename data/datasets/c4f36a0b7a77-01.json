@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c4f36a0b7a77-01",
+  "paper_id": "c4f36a0b7a77",
+  "name": "SPCAM aquaplanet 2-year simulation",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SuperParameterized Community Atmosphere Model v3.0 (SPCAM)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "order of 1 TB",
+  "size_gb_estimate": 1000.0,
+  "resolution": "Coarse GCM ~300 km (30 vertical levels, 30-min timestep); CRM 8 nested 2D columns with 4 km subgrid spacing",
+  "produced_in_this_study": false,
+  "access": "The full SPCAM raw data, of the order of several TBs, is archived on the GreenPlanet cluster at UC Irvine and available upon request. Additionally the preprocessed SPCAM data, of the order of 1 TB, used in this study is archived on DKRZ and is also available upon request. An example of SPCAM data was archived on Zenodo for Rasp et al. (2018) and can be found here: https://zenodo.org/record/2559313#.YlVG0tPP25c.",
+  "access_kind": "on_request"
+}

@@ -1,0 +1,295 @@
+paper_id,leap_year,title,research_field,domains
+09c672f0e443,1,Robust Inverse Framework using Knowledge-guided Self-Supervised Learning: An application to Hydrology,hydrology,Land & hydrology
+09f31d3b6ca2,1,GCM-Filters: A Python Package for Diffusion-based Spatial Filtering of Gridded Data,oceanography,Ocean
+0ab262982a54,1,Deep learning to represent sub-grid processes in climate models,climate_science,Atmosphere
+176be8e93348,1,Observed Regional Fluxes to Constrain Modeled Estimates of the Ocean Carbon Sink,Biogeochemistry,Ocean
+18b0ca3448bd,1,Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems,interdisciplinary,Atmosphere; Land & hydrology
+1b93d9b00aae,1,Two for one: Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning,biogeochemistry,Atmosphere; Land & hydrology
+282aba541bcf,1,The Impact of Observational Errors on the Optimization of GCM Free Parameters,climate_modeling,Atmosphere
+3dbcadb5b5cc,1,Deep Learning Based Cloud Cover Parameterization for ICON,climate_modeling,Atmosphere
+50adaee28640,1,Physics-Guided Machine Learning for Scientific Discovery: An Application in Simulating Lake Temperature Profiles,hydrology,Land & hydrology
+662881ed91d7,1,Physics-Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks,hydrology,Land & hydrology
+6e5a3fae6660,1,Invertibility aware Integration of Static and Time-series data: An application to Lake Temperature Modeling,limnology,Land & hydrology
+6ebd05047c44,1,SeaFlux: harmonization of air–sea CO2 fluxes from surface pCO2 data products using a standardized approach,ocean_biogeochemistry,Ocean
+76b3ee94d49b,1,Evolution of Tropical Cyclone Properties Across the Development Cycle of the GISS-E3 Global Climate Model,climate_science,Atmosphere
+a076629e05e7,1,Development of a Deep Learning Emulator for a Distributed Groundwater–Surface Water Model: ParFlow-ML,hydrology,Land & hydrology
+abec22acf841,1,Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations,ocean_biogeochemistry,Ocean
+b51d10fd3192,1,"Deep learning for the earth sciences: A comprehensive approach to remote sensing, climate science and geosciences",cross-disciplinary climate and earth science,Climate system / methods (general)
+bf899599c4e8,1,Improved Quantification of Ocean Carbon Uptake by Using Machine Learning to Merge Global Models and pCO2 Data,ocean_biogeochemistry,Ocean
+c6a5e8968ce0,1,Causal inference for process understanding in Earth sciences,climate_general,Atmosphere
+c7f5b5bbf98a,1,Congruence between Leadership Gender and Organizational Claims Affects the Gender Composition of the Applicant Pool: Field Experimental Evidence,other,Out of scope
+c80f5cf46ad3,1,How Well Do We Understand the Land-Ocean-Atmosphere Carbon Cycle?,biogeochemistry,Atmosphere; Ocean; Land & hydrology
+c926c4c93a95,1,Estimating historical air-sea CO2 fluxes: Incorporating physical knowledge within a data-only approach,ocean_biogeochemistry,Ocean
+d606ef6024cb,1,Climate-Invariant Machine Learning,climate_science,Atmosphere
+e114a41a0632,1,Deep Learning for Subgrid-Scale Turbulence Modeling in Large-Eddy Simulations of the Convective Atmospheric Boundary Layer,boundary_layer_meteorology,Atmosphere
+f0a64e1003ac,1,Mitigating Gig and Remote Worker Misconduct: Evidence from a Real Effort Experiment,other,Out of scope
+fc1a05909dce,1,Atmospheric radiation: using machine learning for the unknowable and uncomputable,Atmospheric Radiation,Atmosphere
+ff21f4a98dcf,1,Recent increase in the observation-derived land evapotranspiration due to global warming,hydrology,Land & hydrology
+04acd3abf92c,2,Trends and Variability in the Ocean Carbon Sink,ocean_biogeochemistry,Ocean
+0e7a09e90487,2,A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset,hydrology,Land & hydrology
+17a61548389e,2,Data-Driven Equation Discovery of a Cloud Cover Parameterization,Atmospheric Science,Atmosphere
+1dc1d9ed975c,2,An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes,climate_science,Atmosphere
+26adf7d40c29,2,Modeling wildfire activity in the western United States with machine learning,biogeosciences,Land & hydrology
+2d5a8ad16a10,2,Identifying the Causes of Pyrocumulonimbus (PyroCb),wildfire-atmosphere interactions,Atmosphere; Land & hydrology
+2e434d4762d9,2,SMLFire1.0: a stochastic machine learning (SML) model for wildfire activity in the western United States,wildfire / land-climate interactions,Land & hydrology
+44a9f82d3545,2,Causally-informed Deep Learning to Improve Climate Models and Projections,climate_modeling,Atmosphere
+528f51b3a8d6,2,Immediate and Long-Lasting Impacts of the Mt. Pinatubo Eruption on Ocean Oxygen and Carbon Inventories,ocean biogeochemistry,Ocean
+7adc83572dfc,2,Machine-learned Cloud Classes from Satellite data for Process-oriented Climate Model Evaluation,cloud_physics,Atmosphere
+8210b7390744,2,Correcting Systematic and State-Dependent Errors in the NOAA FV3-GFS Using Neural Networks,numerical weather prediction,Atmosphere
+9895f2e76861,2,PYROCAST: a Machine Learning Pipeline to Forecast Pyrocumulonimbus (PyroCb) Clouds,wildfire and atmospheric science,Atmosphere; Land & hydrology
+a1c948ee208e,2,Toward a Taxonomy of Trust for Probabilistic Machine Learning,Probabilistic Machine Learning / Applied Statistics,Out of scope
+a289dbb4d9dd,2,Comparing Storm Resolving Models and Climates via Unsupervised Machine Learning,atmospheric_science,Atmosphere
+a4e4dff190c8,2,Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction: The pCO2-Residual Method,ocean biogeochemistry,Ocean
+abb9931d5cbe,2,Parametrization in Weather and Climate Models,climate_modeling,Atmosphere
+b4f6a6f64861,2,Differentiable modeling to unify machine learning and physical models and advance Geosciences,hydrology,Land & hydrology
+c4f36a0b7a77,2,Non-Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models,climate_modeling,Atmosphere
+cac32102873b,2,Wasserstein Distributional Learning,climate science,Atmosphere
+cc5ee9533916,2,Benchmarking of machine learning ocean subgrid parameterizations in an idealized model,Physical oceanography,Ocean
+cf1ecb7fdfda,2,Hybrid modeling of evapotranspiration: inferring stomatal and aerodynamic resistances using combined physics-based and machine learning,biogeosciences,Land & hydrology
+d8418c32be5b,2,Modern air-sea flux distributions reduce uncertainty in the future ocean carbon sink,ocean_biogeochemistry,Ocean
+eaf9e28350b0,2,"Doing Well by Requiring Employees to Do Good: Field Experimental Evidence of the Effects of a One-time, Mandatory Corporate Social Intervention on Employees",Organizational Behavior / Management,Out of scope
+f944e0338f4e,2,Implicit learning of convective organization explains precipitation stochasticity,atmospheric_science,Atmosphere
+ffc9062d8483,2,Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models,ocean biogeochemistry,Ocean
+00b7836e3f0c,3,PythonicDISORT: A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT,radiative transfer,Atmosphere
+01340dcd75f7,3,Classification of Cloud Particle Imagery Using Variational Autoencoders and Unsupervised Clustering,cloud microphysics,Atmosphere
+0f970eba5521,3,Implementation and Evaluation of a Machine Learned Mesoscale Eddy Parameterization Into a Numerical Ocean Circulation Model,oceanography,Ocean
+143b352946ff,3,Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning,cloud microphysics,Atmosphere
+152833564544,3,A Data-Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes,physical oceanography,Ocean
+17c0ae73731b,3,ClimSim-Online: A Large Multi-scale Dataset and Framework for Hybrid ML-physics Climate Emulation,climate_science,Atmosphere
+1a47f956f011,3,A stable implementation of a data-driven scale-aware mesoscale parameterization,oceanography,Ocean
+2869e5f2ad35,3,Two sources of uncertainty in estimating tephra volumes from isopachs: perspectives and quantification,solid_earth,Climate system / methods (general)
+2888fdcca7b4,3,How Does the Pinatubo Eruption Influence Our Understanding of Long-Term Changes in Ocean Biogeochemistry?,ocean_biogeochemistry,Ocean
+2b1b49fb2995,3,Hydrogenation of C24 Carbon Clusters: Structural Diversity and Energetic Properties,Other,Out of scope
+2bc95be8c223,3,New-generation geostationary satellite reveals widespread midday depression in dryland photosynthesis during 2020 western U.S. heatwave,Biogeosciences,Atmosphere; Land & hydrology
+2e7c59a0c271,3,Intrinsic dimension of spatio-temporal chaotic systems,climate_and_weather_forecasting,Atmosphere
+30c9d9a843b6,3,Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference,cloud microphysics,Atmosphere
+318afe7f30d1,3,Memory-based parameterization with differentiable solver: Application to Lorenz ’96,atmospheric_science,Atmosphere
+36cc1cefeeae,3,The Effects of a Short-term Corporate Social Impact Activity on Employee Turnover: Field Experimental Evidence,other,Out of scope
+3acff62a394f,3,Reliable coarse-grained turbulent simulations through combined offline learning and neural emulation,Physical Oceanography,Ocean
+3b8811c646bc,3,Evaluating the effects of precipitation and evapotranspiration on soil moisture variability,hydrology,Atmosphere; Land & hydrology
+40b2429ef7ac,3,Reduced Order Modeling to Reduce Structural Uncertainty in Representing Cloud Microphysical Process Rates,cloud_physics,Atmosphere
+494584d3acc0,3,Learning Atmospheric Boundary Layer Turbulence,atmospheric_science,Atmosphere
+4a2b596c8646,3,ClimSim: A large multi-scale dataset for hybrid physics-ML climate emulation,climate_science,Atmosphere; Land & hydrology
+52671b22a1d8,3,Learning Constraints on Depositional Ice Growth Models from Cloud Chamber Experiments with Physics Informed Neural Networks,cloud microphysics,Atmosphere
+53e678284355,3,"ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction",climate_prediction,Atmosphere; Ocean; Land & hydrology; Cryosphere
+566e8ae88e3e,3,Global Carbon Budget 2023,biogeochemistry,Atmosphere; Ocean; Land & hydrology
+589440f0ebac,3,Dryland evapotranspiration from remote sensing solar-induced chlorophyll fluorescence: Constraining an optimal stomatal model within a two-source energy balance model,hydrology,Land & hydrology
+5b39153c87f9,3,Reduced Order Modeling for Linearized Representations of Microphysical Process Rates,cloud microphysics,Atmosphere
+5c81f8f8e01f,3,Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts,atmospheric chemistry,Atmosphere; Land & hydrology
+5ed1b57bd922,3,"(Re)wiring Settler Colonial Practices in Higher Education: Creating Indigenous Centered Futures Through Considerations of Power, the Social, Place, and Space",other,Out of scope
+63fd0cbfe99b,3,Groundwater rivals aridity in determining global photosynthesis,ecohydrology,Land & hydrology
+64e7da7ed032,3,Machine Learning for Clouds and Climate,climate_science,Atmosphere
+7061de6c17f6,3,Why Linguistics Will Thrive in the 21st Century: A Reply to Piantadosi (2023),computational linguistics,Out of scope
+74b02ecb7bd9,3,Differentiable modelling to unify machine learning and physical models for geosciences,hydrology,Land & hydrology
+7c554cd4cfeb,3,Deep Learning of Systematic Sea Ice Model Errors From Data Assimilation Increments,cryosphere,Cryosphere
+7cc314e993c8,3,Understanding Precipitation Changes through Unsupervised Machine Learning,climate_science,Atmosphere
+7fee1a0d6f87,3,Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning,cloud microphysics,Atmosphere
+80cd46ed8b4a,3,Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks,oceanography,Atmosphere; Ocean
+866319f21183,3,Understanding Perturbed Parameter Ensemble Sensitivities Using A Contrastive Learning Approach,climate_modeling,Atmosphere
+8b93316afdc1,3,"Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica",glaciology,Cryosphere
+8ed079a7c4c8,3,The Gender Gap in Meaningful Work,Labor Economics,Out of scope
+910cf5fa4e6f,3,"History-based, Bayesian, Closure for Stochastic Parameterization: Application to Lorenz '96",climate_modelling,Atmosphere
+984ddfea1c66,3,Data-driven dimensionality reduction and causal inference for spatiotemporal climate fields,climate_diagnostics,Ocean
+989d48eda0d5,3,"Stress-testing the coupled behavior of hybrid physics-machine learning climate simulations on an unseen, warmer climate",climate_modeling,Atmosphere
+9a15a09f49a5,3,Knowledge-guided Machine Learning: Current Trends and Future Prospects,climate_hydrology_environmental_ml,Land & hydrology
+9cb76d121981,3,Ethics in climate AI: From theory to practice,climate artificial intelligence,Climate system / methods (general)
+9e855a831a71,3,The Past and Future of Corporate Sustainability Research,Corporate Sustainability / Management,Out of scope
+a436a117e657,3,Global pattern and mechanism of terrestrial evapotranspiration change indicated by weather stations,hydrology,Atmosphere; Land & hydrology
+a5b5446f7e93,3,Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference,Atmospheric Science / Cloud Microphysics,Atmosphere
+a74eeb28cd14,3,Improving The Modeling and Analysis of Tropical Convection and Precipitation through Machine Learning Methods,climate_modeling,Atmosphere
+a8db6bfca0cf,3,Background Pycnocline Depth Constrains Future Ocean Heat Uptake Efficiency,physical_oceanography,Ocean
+aa49b96ea006,3,JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING,physical_oceanography,Ocean
+aa8f63ee2fb1,3,Zero-shot learning of aerosol optical properties with graph neural networks,aerosols_radiation,Atmosphere
+ad7bf4fe6756,3,The New Generation of Global Climate Models Enhanced by Machine Learning,ocean / climate modeling,Ocean
+ba2366f1978a,3,Task Aware Modulation using Representation Learning: An Approach for Few Shot Learning in Environmental Systems,environmental_science,Atmosphere; Land & hydrology
+bc690e71bdc9,3,"Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science",other,Land & hydrology
+c0774f58a23e,3,Simulating Atmospheric Processes in Earth System Models and Quantifying Uncertainties with Deep Learning Multi-Member and Stochastic Parameterizations,climate_science,Atmosphere
+c12ada1cad6b,3,Canopy flow modeling using multiscale homogenization techniques,boundary_layer_turbulence,Atmosphere
+c26112c02ff3,3,Anomalous Meltwater From Ice Sheets and Ice Shelves Is a Historical Forcing,climate_science,Cryosphere
+c846a2323199,3,Understanding and Visualizing Droplet Distributions in Simulations of Shallow Clouds,cloud microphysics,Atmosphere
+c97c62d08369,3,An Extensible Perturbed Parameter Ensemble (PPE) for the Community Atmosphere Model Version 6,climate modeling,Atmosphere
+c9e59ec15801,3,Navigating the Noise: Bringing Clarity to ML Parameterization Design with O(100) Ensembles,climate_modeling,Atmosphere
+cb988a1eedbe,3,Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling,ocean biogeochemistry,Ocean
+cfce134e9694,3,Multi-fidelity climate model parameterization for better generalization and extrapolation,Atmospheric Science,Atmosphere
+d5f7c11dafb5,3,Bayesian Workflow for the Evaluation of Constraints on Depositional Ice Growth Models with Cloud Chamber Observations,cloud microphysics,Atmosphere
+d76ff1a406ad,3,Reliance on fossil fuels increases during extreme temperature events in the continental United States,climate impacts / energy systems,Climate system / methods (general)
+d88d9edd6134,3,Machine Learning for Online Sea Ice Bias Correction Within Global Ice‐Ocean Simulations,sea_ice,Ocean; Cryosphere
+d8e2b9ac3d8b,3,Projecting Changes in the Drivers of Compound Flooding in Europe Using CMIP6 Models,climate_extremes,Land & hydrology
+dead24e07a2a,3,Remote Versus Local Impacts of Energy Backscatter on the North Atlantic SST Biases in a Global Ocean Model,Physical Oceanography / Climate Dynamics,Ocean
+e00413d4876d,3,Cloud chamber constraints on depositional ice growth models,cloud microphysics,Atmosphere
+e5231edad122,3,A review of recent advances in urban flood research,hydrology,Land & hydrology
+e9db0c155692,3,Discovering causal relations and equations from data,Climate and Physical Sciences / Machine Learning,Atmosphere; Ocean; Land & hydrology
+f3a4cfe4debc,3,Deep Generative Data Assimilation in Multimodal Setting,atmospheric_science,Atmosphere
+f3caafa5b08c,3,Flexible use of additive Gaussian Processes as a powerful tool for more interpretable analysis and emulation of climate model PPEs,climate_science,Atmosphere
+f54411021def,3,How well do concentric radii approximate population exposure to volcanic hazards?,volcanology,Climate system / methods (general)
+fad50b9ab285,3,Structured exploration of machine learning model complexity for spatio-temporal forecasting of urban flooding,hydrology,Land & hydrology
+fccd93cf30fa,3,Enhancing Satellite Data Coverage: Leveraging Multiple Sensors to Bridge Information Gaps in Urban Flood Mapping,hydrology,Land & hydrology
+fd4ac0550b6f,3,MetaFlux: Meta-learning global carbon fluxes from sparse spatiotemporal observations,terrestrial biogeochemistry,Land & hydrology
+0a557d1c4c2e,4,"A simple emulator that enables interpretation of parameter-output relationships, applied to two climate model PPEs",climate modeling,Atmosphere
+0ab17fd7ecd9,4,Stress-Testing a Process-Oriented Diagnostic Relating Tropical Rainfall to Plume Buoyancy,Atmospheric Science / Climate Dynamics,Atmosphere
+0b71525b629f,4,Detecting and identifying the impact of parameter interaction on climate model outputs based on two Perturbed Parameter Ensembles (PPEs),climate_modeling,Atmosphere
+16edc9d81da1,4,Intermediate Machine Learning in Python for Environmental Science Problems 2025,other,Climate system / methods (general)
+195230d140fe,4,Exploring Parametric and Structural Uncertainties of Bulk and Lagrangian Ice Microphysical Schemes in Large Eddy Simulations,cloud microphysics,Atmosphere
+1b464d5cf9ee,4,Pushing the frontiers in climate modelling and analysis with machine learning,climate and Earth system modelling,Atmosphere; Ocean; Land & hydrology
+1c4c83a9ce2e,4,The death of autoconversion c. 1963 - 20??,cloud microphysics,Atmosphere
+1e0e4e1f589e,4,Bridging Educational Divides: Christina Torres Presents Her Research at the Climate-U Conference,Climate change education,Out of scope
+1ed8dea7a984,4,Large and Increasing Soil Moisture Impact on Western European Summer Heatwaves,climate dynamics,Atmosphere; Land & hydrology
+2127864ced09,4,Data-Driven Probabilistic Air-Sea Flux Parameterization,ocean_atmosphere_interaction,Atmosphere; Ocean
+22396cba1b19,4,Distilling Machine Learning’s Added Value: Pareto Fronts in Atmospheric Applications,Atmospheric Physics / Climate Modeling,Atmosphere
+2449ffc9b180,4,A Golden Spiral of Thermodynamic Histories: Characterizing Trajectories of Ice Crystals in Cirrus Clouds as Modeled by Particle-based Microphysics in CM1,cloud microphysics,Atmosphere
+258b29367a20,4,Computing Extreme Storm Surges in Europe Using Neural Networks,physical_oceanography,Ocean
+25cb33f5f0a6,4,Global Carbon Budget 2024,biogeochemistry,Atmosphere; Ocean; Land & hydrology
+36a77e07ef98,4,ExoTST: Exogenous-Aware Temporal Sequence Transformer for Time Series Prediction,carbon cycle,Atmosphere; Land & hydrology
+3768091195d8,4,Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2,ocean biogeochemistry / carbon cycle,Ocean
+3802c111d00e,4,Transferring climate change physical knowledge,climate science,Atmosphere
+45447c9bc7f4,4,A Differentiable Framework to Reduce Structural and Parametric Uncertainty in Cloud Microphysics Parameterizations Online,cloud microphysics,Atmosphere
+4837d04b99a1,4,Spatiotemporal upscaling of sparse air-sea pCO2 data via physics-informed transfer learning,ocean biogeochemistry,Ocean
+504daff7633e,4,Co-production of climate services: challenges and enablers,climate services,Climate system / methods (general)
+50d1cf9096ea,4,The Overlooked Sub-Grid Air-Sea Flux in Climate Models,ocean_atmosphere_interaction,Atmosphere; Ocean
+52c83b9e8a59,4,The importance of adding unbiased Argo observations to the ocean carbon observing system,ocean biogeochemistry,Ocean
+5319b2b73897,4,Buffering of Aerosol‐Cloud Adjustments by Coupling Between Radiative Susceptibility and Precipitation Efficiency,Atmospheric Science,Atmosphere
+5562e0806de5,4,Cost-benefits analysis of social interactions: Familiarity modulates the estimation of individual contributions to joint action,other,Out of scope
+5bc100f8d9c2,4,Time Series Predictions in Unmonitored Sites: A Survey of Machine Learning Techniques in Water Resources,hydrology,Land & hydrology
+5de294406bfc,4,Machine‐Assisted Physical Closure for Coarse Suspended Sediments in Vegetated Turbulent Channel Flows,hydrology,Land & hydrology
+6480c6c29273,4,AI-empowered next-generation multiscale climate modelling for mitigation and adaptation,Climate and Earth System Modeling,Atmosphere; Ocean; Land & hydrology; Cryosphere
+66232d5a5ef7,4,EcoPro-LSTMv0: A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments,biogeosciences,Land & hydrology
+6b691712cf64,4,Improving Oil Slick Trajectory Simulations with Bayesian Optimization,oceanography,Ocean
+72a736c33094,4,Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations,climate_modeling,Atmosphere
+7354fab2c747,4,Discovering a Model for Depositional Ice Growth from Observations Using Neural Ordinary Differential Equations and Symbolic Regression,cloud physics / atmospheric science,Atmosphere
+742d7782da6a,4,Recommendations for Comprehensive and Independent Evaluation of Machine Learning-Based Earth System Models,Climate and Earth System Modeling,Atmosphere
+7d39855f3451,4,Improving Representations of Ice Crystals in Atmospheric Models: Insights from in situ Imagery and Machine Learning,cloud microphysics,Atmosphere
+7d40e13682f1,4,Path-conservative well-balanced high-order finite-volume solver for the volume-averaged Navier–Stokes equations with discontinuous porosity,other,Climate system / methods (general)
+8d3638a0d126,4,Land Processes Can Substantially Impact the Mean Climate State,climate_dynamics,Land & hydrology
+8d5a2534ce39,4,Deep Learning for identifying functional relationships involving basal friction and ice fluidity,glaciology,Cryosphere
+903d7cbc6583,4,Clustering the Latent Dimensions of a Variational Autoencoder to Identify Representative Trajectories of Ice Crystals in Cirrus Clouds Modeled By Lagrangian Microphysics,cloud_microphysics,Atmosphere
+99741af201b2,4,Physics-informed data-driven reconstruction of turbulent wall-bounded flows from planar measurements,Fluid Dynamics / Boundary Layer Turbulence,Atmosphere
+9ded7df06c46,4,Using Machine Learning to Generate a GISS ModelE Calibrated Physics Ensemble (CPE),Atmospheric Science / Climate Modeling,Atmosphere
+a4d0f7df7f2c,4,Leveraging Subgrid-Scale Spatial Organization and Variability for Improved Cloud Fraction Parametrization Using PINACLES Simulations,Atmospheric Science,Atmosphere
+a7501b1c3279,4,Flexible Aggressiveness Probabilistic Optimisation (FAPO) Bidding for Peer-to-Peer Electricity Trading,energy markets,Out of scope
+a948fe73c70a,4,Discovering How Ice Crystals Grow Using Neural ODE's and Symbolic Regression,cloud microphysics,Atmosphere
+b10f4cc342fd,4,GRAiCE: reconstructing terrestrial water storage anomalies with recurrent neural networks,hydrology,Land & hydrology
+b471409f0ea8,4,Spatio-Temporal Machine Learning Models for Emulation of Global Atmospheric Composition,atmospheric_chemistry_aerosols,Atmosphere
+b6cebb1c1191,4,Interpretable Machine Learning-based Radiation Emulation for ICON,climate_modeling,Atmosphere
+be371321361e,4,A Generative Super‐Resolution Model for Enhancing Tropical Cyclone Wind Field Intensity and Resolution,tropical meteorology,Atmosphere
+c9d4a7659d8f,4,Teaching Machine Learning for the Physical Sciences: A summary of lessons learned and challenges,Physical Sciences Education,Out of scope
+cc0da1d88b85,4,Physically Consistent Global Atmospheric Data Assimilation with Machine Learning in Latent Space,Atmospheric Science,Atmosphere
+cc287b2f2a69,4,"One-at-a-time Parameter Perturbation Ensemble of the Community Land Model, version 5.1",biogeosciences,Land & hydrology
+cccad2176f92,4,Parameter Estimation in Land Surface Models: Challenges and Opportunities with Data Assimilation and Machine Learning,Biogeochemistry / Land Surface Modeling,Land & hydrology
+d167792ab2ac,4,Sensitivity of Ocean Carbon Sink Estimates to Rare Observations,ocean biogeochemistry,Ocean
+d3028eaacf65,4,Transfer Neyman-Pearson Algorithm for Outlier Detection,climate_data_science,Atmosphere
+d49ba8f5815b,4,Data Requirements for Quantifying the Background Ocean Carbon Sink,ocean biogeochemistry,Ocean
+dca5bcbe8120,4,A new climate model PPE emulator that enables new insights on host model behavior,climate_science,Atmosphere
+ea382254fcae,4,Disentangling Representations of Ice Crystals with In Situ Imagery and Unsupervised Learning,cloud microphysics,Atmosphere
+ed0b24c63f57,4,Breakout Session Report: Data-driven parameterization development using ARM observations and models,Atmospheric Science / Climate Modeling,Atmosphere
+edc5e71a96bb,4,The ASTE-BGC Data-Assimilative Regional Ocean Biogeochemistry Model,ocean_biogeochemistry,Ocean
+ef48d76ed836,4,Constrained Earth system models show a stronger reduction in future Northern Hemisphere snowmelt water,hydrology,Land & hydrology; Cryosphere
+f2e5ef9fa87b,4,Proceedings of the 2025 SIAM International Conference on Data Mining (SDM),data mining / computer science,Out of scope
+fafdf830ed94,4,Insights from emulating CAM6 PPE with Neural Network and an additive emulator,Atmospheric Science,Atmosphere
+fe5718b56f53,4,Scale-Dependent Drivers of Air-Sea CO2 Flux Variability,oceanography,Ocean; Land & hydrology
+02193a8558dc,5,Parameter Estimation in Land Surface Models: Challenges and Opportunities With Data Assimilation and Machine Learning,land surface,Land & hydrology
+02bea554d4bc,5,Accelerated heatwave trends from nonlinear land-atmosphere interactions in midlatitude humid regions,climate science,Atmosphere; Land & hydrology
+03cbd882667f,5,Systematic Cloud Microphysics Scheme Development with Machine Learning,Atmospheric Science - Cloud Physics,Atmosphere
+05a1e8288295,5,An Improved Methodology to Estimate Cross-Scale Kinetic Energy Transfers from Third-Order Structure Functions Using Regularized Least Squares,physical oceanography,Ocean
+08404f14aec9,5,Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach,oceanography,Ocean
+0acda7ad1125,5,An improved methodology for estimating Kinetic Energy transfers from structure functions with regularized least-squares,physical oceanography,Ocean
+116c0087d2fe,5,Toward a Climate OSSE Framework for Satellite Mission Design,climate modeling,Atmosphere; Cryosphere
+11a897504521,5,CausalDynamics: A large-scale benchmark for structural discovery of dynamical causal models,climate_causality,Atmosphere; Ocean
+1639c364ca7e,5,Incorporating Multivariate Consistency in ML-Based Weather Forecasting with Latent-space Constraints,Atmospheric Science / Weather Forecasting,Atmosphere
+18541d990180,5,When and where soil dryness matters to ecosystem photosynthesis,ecohydrology,Land & hydrology
+18b41181226e,5,GenAI for Climate Science,climate science,Ocean
+256b2a11ab7f,5,"Structural error-aware climate model calibration with global, local and zonal climatologies using Perturbed Parameter Ensembles (PPEs)",Atmospheric Science,Atmosphere
+2ae43c907021,5,Task Aware Modulation using Representation Learning for Upsaling of Terrestrial Carbon Fluxes,biogeochemistry,Land & hydrology
+2f2c2cbdf9c9,5,Global AI Ocean Climate Models,oceanography,Ocean
+2f4dbd4b7f4d,5,Harnessing Machine Learning for CESM: Innovation and Integration (31st Annual CESM Workshop),Climate and Earth System Modeling,Atmosphere; Ocean; Cryosphere
+306fafe408c2,5,MONITORING ACCESS TO PIPED WATER AND SANITATION INFRASTRUCTURE IN AFRICA AT DISAGGREGATED SCALES USING SATELLITE IMAGERY AND SELF-SUPERVISED LEARNING,other,Climate system / methods (general)
+3090eb822021,5,A Self-Diagnosing Structural Error-Aware Parameter Estimation Method for Earth System Models,climate_modeling,Atmosphere
+311f24bdc568,5,Accurate and Efficient Hybrid-Ensemble Atmospheric Data Assimilation in Latent Space with Uncertainty Quantification,weather_and_climate_forecasting,Atmosphere
+3296742c595f,5,Using Contrastive Learning to Identify Structural Deficiencies in Climate Models and Generate Calibrated Physics Ensembles,Atmospheric Science / Climate Modeling,Atmosphere
+33f94bfe9583,5,Opinion: The importance and future development of perturbed parameter ensembles in climate and atmospheric science,climate_modeling,Atmosphere
+35cb03483079,5,Exploring Structural Differences and Parameter Calibration for Microphysics in CESM with Latent Representations using Contrastive Learning Models,Atmospheric Science / Climate Modeling,Atmosphere
+36817fe1aa1a,5,Control-Augmented Autoregressive Diffusion for Data Assimilation,weather_climate,Atmosphere
+3a1c0bd4e637,5,Uncertainty Estimation of Bayesian Deep Learning for Convective Initiation Nowcasting,nowcasting,Atmosphere
+3c4ad273daa5,5,Integrated Turbulence and Machine Learning Models Explain Pier Scour in Erodible Channels,Hydrology,Land & hydrology
+42f5f359f9b5,5,An update of the LDEO fCO2-Residual method: algorithmic choices improve ocean carbon sink estimates,ocean biogeochemistry,Ocean
+43919dc711c4,5,GC43E-0845 Leveraging Machine Learning and MCMC to Optimize Community Land Model Parameters for Accurate Gross Primary Productivity Estimates,Carbon cycle / Land surface modeling,Land & hydrology
+45164f241e60,5,"Land Modeling with Machine Learning: Parameter Sensitivity, Calibration, and Hybrid Modeling",land surface modeling,Land & hydrology
+46c045c7a54e,5,Wavelet Flow Matching for Multi-Scale Physics Emulation,fluid_dynamics,Atmosphere
+48f5873212ef,5,Structured dataset of reported cloud seeding activities in the United States (2000–2025) using an LLM,cloud_physics,Atmosphere
+4ac6067043b2,5,Financial losses associated with US floods occur with frequent low-return-period precipitation,hydrology,Atmosphere; Land & hydrology
+4b22f66c6db8,5,Forest Dynamics in South America Under a Changing Climate: An Analysis Using ModelE-BiomeE with ERA5,land_surface,Land & hydrology
+4dc1d86041a1,5,Synthesis of data products for ocean carbonate chemistry,Ocean Biogeochemistry,Ocean
+4e066ebddc28,5,"Crowdsourcing the Frontier: Advancing Hybrid Physics‐ML Climate Simulation via a $50,000 Kaggle Competition",climate modeling,Atmosphere
+4ff01187f117,5,Diagnosing Parametric Controls on CLM Ecohydrology Using Machine Learning Emulators,land surface modeling,Land & hydrology
+542a4bcfeeb7,5,Inter-Comparison of Deep Learning Models for Flood Forecasting in Ethiopia’s Upper Awash Basin,hydrology,Land & hydrology
+5b59e74827e4,5,Investigating Snowpack-Shrub Interactions in the Arctic Tundra using Machine Learning and Process Models,land surface,Land & hydrology; Cryosphere
+5f8da0241680,5,"Efficient Emulation, Uncertainty Quantification, and Sensitivity Analysis for a Land Surface Model using Evidential Deep Learning",land_surface,Land & hydrology
+63349f954d04,5,Systematic LLM Translation of Legacy Scientific Code to Differentiable Frameworks: Application to a Land Surface Model,land_surface,Land & hydrology
+6716226ebe03,5,A Framework for Hybrid Physics-AI Coupled Ocean Models,physical oceanography,Ocean
+67996bc53014,5,Strictly Constrained Generative Modeling via Split Augmented Langevin Sampling,physical_generative_modeling,Atmosphere; Ocean
+6b20393c7409,5,A U.S. Scientific Community Vision for Sustained Earth Observations of Greenhouse Gases to Support Local to Global Action,carbon cycle / biogeochemistry,Atmosphere; Ocean; Land & hydrology
+6c6a9d06bf58,5,Parameterizing the Impact of Subgrid-Scale Air-Sea Heat Fluxes in Climate Models,Oceanography / Climate Modeling,Ocean
+6f02cee5c651,5,Impacts of Bulk Microphysics Scheme Structural Choices on Simulations of Rain Initiation Through Drop Coalescence,Cloud Microphysics,Atmosphere
+6ff16973fcd5,5,Testing machine-learned basal-friction relationships for ice-sheet modeling,glaciology,Cryosphere
+73f1128aadad,5,Improving Extreme Precipitation Representation with ML Based Warm Rain Microphysics in CAM6,climate_modeling,Atmosphere
+778b60ffcdee,5,Resolving Low Cloud Feedbacks Globally With E3SM High-Res MMF: Agreement With LES but Stronger Shortwave Effects,Climate Science,Atmosphere
+7887057fecea,5,Attention‐Based Stochastic Simulation of Climate‐Informed Spatiotemporal Flood Risk for Multisite Insurance Portfolios,hydrology,Land & hydrology
+78aa7b6cb614,5,Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models,Atmospheric Chemistry & Aerosol Modeling,Atmosphere
+7d9f772790d0,5,"JCM v1.0: A Differentiable, Intermediate-Complexity Atmospheric Model",climate_modeling,Atmosphere
+830d30232ab2,5,Constraining Errors in Ice Microphysics Schemes with Perturbed Ensembles,cloud microphysics,Atmosphere
+83de885b0808,5,The opportunity cost of 2023 Canadian wildfires,carbon_cycle,Land & hydrology
+83fdefd50e14,5,State of the CESM,Climate and Earth System Modeling,Atmosphere; Ocean; Land & hydrology; Cryosphere
+85aa424ae459,5,"Gradients, benchmarks, and agents: a new toolkit for an old uncertainty",climate modeling,Atmosphere
+9571bcf512aa,5,Future Changes in the Annual Sea‐Level Cycle,Physical Oceanography / Climate Dynamics,Ocean
+964cd1a50705,5,Deep Koopman operators for causal discovery,climate_dynamics,Atmosphere; Ocean
+97248a2622a0,5,The Modèle Atmosphérique Régional – Intelligence Artificielle (MAR-IA): surface meltwater over Greenland,cryosphere,Atmosphere; Cryosphere
+9a0484dcafbe,5,A Machine Learning Framework for Predicting Microphysical Properties of Ice Crystals From Cloud Particle Imagery,cloud microphysics,Atmosphere
+9c3dd19f000c,5,Generative Uncertainty in Diffusion Models,Computer Vision / Machine Learning,Out of scope
+9ccce3cf53db,5,DeepCarbon: A Global Data Product of Upscaled Carbon Fluxes from Knowledge-Guided Deep Learning Models,biogeosciences,Land & hydrology
+9cd496de67bd,5,Investigating Western North America Atmospheric Rivers with Machine Learning-Based Detection,climate_diagnostics,Atmosphere; Land & hydrology
+a12f3a624a8f,5,Global carbon budget rebalanced,carbon cycle,Atmosphere; Ocean; Land & hydrology
+a185a58af4a1,5,Perspectives on Systematic Cloud Microphysics Scheme Development With Machine Learning,Atmospheric Science,Atmosphere
+a2ad0e30a088,5,Spatiotemporal Machine Learning Approaches for Atmospheric Composition Emulation in NASA GISS ModelE,atmospheric chemistry / atmospheric composition,Atmosphere
+a3f77201a4b0,5,Generative emulation of chaotic dynamics with coherent prior,climate_dynamics,Atmosphere
+a7a033624df2,5,ClimateBench2.0: Probabilistic Climate Model Scoring,ClimateBench / Climate Model Evaluation & Benchmarking,Atmosphere; Ocean; Land & hydrology
+aa27e37a9374,5,FEMA phase-out? Catastrophic extremes challenge decentralization of US flood insurance,hydroclimatology / natural hazards,Land & hydrology
+ac432f3da31a,5,From Regulation to Radiative Forcing: Constraining the Climate Response to Declining Shipping Aerosol Emissions,Atmospheric aerosol-cloud interactions and climate forcing,Atmosphere
+ac665f32a008,5,Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation,meteorology,Atmosphere
+b06f80e974c0,5,An improved methodology to estimate cross-scale kinetic energy transfers from third-order structure functions using regularized least-squares,physical_oceanography,Ocean
+b0ae81292189,5,Inferring Microphysical Process Rates from in Situ Observations Using Physics-Informed Machine Learning (Invited Presentation),cloud microphysics,Atmosphere
+b2c4df5ecad8,5,Integrating Transformer-Based Land Surface Phenology into the Community Land Model for Climate-Responsive Vegetation Dynamics,land surface,Land & hydrology
+b4f14499f277,5,A U.S. scientific community review of carbon cycle science gaps and opportunities to better support earth system science and carbon management,carbon cycle,Ocean; Land & hydrology
+b65cac097878,5,Data-driven integration kernels for interpretable nonlocal operator learning,climate_hydrology,Land & hydrology
+b890bad8646f,5,AutoClimDS: Climate Data Science Agentic AI – A Knowledge Graph is All You Need,climate data science,Climate system / methods (general)
+b9f244519383,5,Inferring Thermodynamic Histories from In Situ Ice Crystal Imagery via Conditional Diffusion Models,cloud microphysics,Atmosphere
+bae3097cae52,5,Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation,atmospheric_science,Atmosphere
+bd2e6ef762ef,5,Towards Unified Diffusion Models for Multi-Model Climate Emulation at Scale,climate science,Atmosphere
+bec8e33adb6f,5,WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields,climate_diagnostics_and_verification,Atmosphere
+c04e9f5c6fe1,5,VRscores: A New Measure and Dataset of Workforce Politics Using Voter Registrations,Management / Political Science,Out of scope
+c1a8dd04e194,5,Physics-Constrained Adaptive Flow Matching for Climate Downscaling,Climate Downscaling,Atmosphere
+c56071d72c6e,5,A31G-2152 Spatial Clustering of heat wave Regimes Through ConvAE Latent Space Analysis and Teleconnection Linkages,climate,Atmosphere
+c7059c7d7b4b,5,Calibrated Test-Time Guidance for Bayesian Inference,Machine Learning,Out of scope
+c769439315e0,5,Unsupervised classification of absorbing aerosols detected by the Single Particle Soot Photometer,aerosols,Atmosphere
+c93180ad7e5c,5,Seeing SDG 6 from space: local-scale monitoring of piped water and sewage system access across Africa using satellite imagery and self-supervised learning,remote sensing,Climate system / methods (general)
+cafd7a01dbe3,5,AI Digital Twin of the Climate System,Climate Modeling,Climate system / methods (general)
+ce54e4a6c53c,5,The Impact of Sub‐Grid Heterogeneity on Air‐Sea Turbulent Heat Flux in Coupled Climate Models,Physical Oceanography,Ocean
+ce8197c246db,5,Unexpected decline in the ocean carbon sink under record-high sea surface temperatures in 2023,oceanography,Ocean
+cf02e39e5b81,5,Machine Learning for Climate Modeling,climate_science,Atmosphere; Land & hydrology
+cf57e67041b5,5,Calibrating Geophysical Predictions under Constrained Probabilistic Distributions,climate_hydrology,Land & hydrology
+d047cbf55b75,5,Scalable Water and Sanitation Monitoring Across Africa via AI-Driven Satellite and Survey Data Integration,hydrology,Land & hydrology
+d2ef340cbf2d,5,Understanding Ice Crystal Habit Diversity with Self-Supervised Learning,cloud microphysics,Atmosphere
+d3f424c93cff,5,Representing subgrid-scale cloud effects in a radiation parameterization using machine learning: MLe-radiation v1.0,Atmospheric Science,Atmosphere
+d65c74c594b0,5,Reduced water loss rather than increased photosynthesis controls CO2-enhanced water-use efficiency,ecosystem ecology / land-atmosphere interactions,Atmosphere; Land & hydrology
+d9df1b9e7efd,5,Catastrophic “hyperclustering” and recurrent losses: diagnosing U.S. flood insurance insolvency triggers,natural hazards / hydroclimatology / flood risk,Land & hydrology
+db3e36e4e6c9,5,A Turbulence Model for Velocity Distribution in Open-Channel Flows Through Mangrove Trees,coastal hydrodynamics,Ocean
+db84b215c346,5,Cloud geometry and solar zenith angle control 3D radiative effects,atmospheric_physics,Atmosphere
+df5b15dc5af3,5,Probabilistic Data Assimilation for Ensemble Distribution Projections With Generative Machine Learning: A Lorenz ’96 Proof-of-Concept,climate_dynamics,Atmosphere
+e05df4a965f6,5,LEX v1.6.0: a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation,turbulence_convection,Atmosphere
+e381babe14cf,5,Machine Learning Workflows in Climate Modeling: Design Patterns and Insights from Case Studies,climate modeling / scientific machine learning,Atmosphere; Ocean
+e5f1791220ab,5,Stable Machine Learning based Radiation Emulation for ICON,Atmospheric Science / Climate Modeling,Atmosphere
+e71b14b65755,5,PIXAL: A Physics-Informed Explainable Machine Learning Architecture for Greenland Ice Albedo Modeling,cryosphere,Cryosphere
+e7888f8e7019,5,Contrasting Parametric Sensitivities in Two Global Vegetation Models Using Parameter Perturbation Ensembles,terrestrial ecosystem modeling,Land & hydrology
+e9051914322c,5,Generalizable Neural-Network Parameterization of Mesoscale Eddies in Idealized and Global Ocean Models,physical oceanography,Ocean
+ec62100735c6,5,Learning more physically realistic dynamics in machine-learning based weather forecasting with latent-space constraints,atmospheric_science,Atmosphere
+f5cbb3e563dc,5,"One‐at‐a‐Time Parameter Perturbation Ensemble of the Community Land Model, Version 5.1",land_surface,Land & hydrology
+f8a21622a265,5,PnP-DA: Towards Principled Plug-and-Play Integration of Variational Data Assimilation and Generative Models,climate_weather_data_assimilation,Atmosphere
+fa2ea0f0cf4b,5,DifferBESS: Uncovering the Role of Canopy Temperature in Ecosystem Carbon and Water Fluxes Using a Hybrid Modeling Approach,biosphere,Land & hydrology

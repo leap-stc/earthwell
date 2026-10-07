@@ -1,0 +1,19 @@
+{
+  "dataset_id": "cf57e67041b5-03",
+  "paper_id": "cf57e67041b5",
+  "name": "Two-layer quasi-geostrophic turbulence simulations (pyqg)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "pyqg",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "87 snapshots spanning 86,000 hours; 256x256 high-resolution and 64x64 low-resolution",
+  "size_gb_estimate": null,
+  "resolution": "High-res: 256 × 256 (dx ≈ 3906 m); Low-res: 64 × 64 (dx = 15,625 m); dt = 1 hr",
+  "produced_in_this_study": true,
+  "access": "https://github.com/zwhou99/Distribution-Informed-Prediction",
+  "access_kind": "public_url_or_doi"
+}

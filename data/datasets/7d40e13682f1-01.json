@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7d40e13682f1-01",
+  "paper_id": "7d40e13682f1",
+  "name": "1D synthetic Riemann problem benchmarks for VANSE",
+  "role": "evaluation",
+  "source_kind": "benchmark",
+  "model_or_instrument": "Exact Riemann solver and high-order finite-volume VANSE solver",
+  "scale": "other",
+  "data_types": [
+    "other"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1D domain x in [-50, 50], 1000 cells",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

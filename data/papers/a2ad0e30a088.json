@@ -1,0 +1,55 @@
+{
+  "paper_id": "a2ad0e30a088",
+  "year": "5",
+  "filename": "Spatiotemporal Machine Learning Approaches forAtmospheric Composition Emulation in NASA GISS Model E.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Spatiotemporal Machine Learning Approaches for Atmospheric Composition Emulation in NASA GISS ModelE",
+  "authors": [
+    "Mohammad H. Erfani",
+    "Kara D. Lamb",
+    "Susanne E. Bauer",
+    "Kostas Tsigaridis",
+    "Marcus van Lier-Walqui",
+    "Gavin Schmidt"
+  ],
+  "pub_year": 2026,
+  "venue": "Journal of Geophysical Research: Machine Learning and Computation",
+  "doi_or_url": "https://doi.org/10.1029/2025JH001011",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "atmospheric chemistry / atmospheric composition",
+  "processes": [
+    "aerosol transport",
+    "advection",
+    "wet deposition",
+    "dry deposition",
+    "biomass burning emissions"
+  ],
+  "ml_methods": [
+    "ConvLSTM",
+    "Gated Conv3D",
+    "SimVPv2",
+    "Spherical Fourier Neural Operators (SFNO)"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameterization"
+  ],
+  "parameterization_target": "surface-level Black Carbon from biomass burning (BCB) concentration",
+  "online_coupled": false,
+  "host_model": "NASA GISS ModelE3",
+  "code_availability": "https://doi.org/10.5281/zenodo.17575785 (GitHub: https://github.com/smhassanerfani/nasa-niswan)",
+  "testbed_candidate": false,
+  "testbed_rationale": "The simulation datasets used for training and evaluating the emulators are not published or linked to an open data repository (only code is archived on Zenodo/GitHub).",
+  "pain_points": [
+    "Autoregressive models (SFNO) suffer from rapid error compounding and divergence without frequent ground-truth re-initialization or physics-based mass/spectral constraints.",
+    "Emulators struggle to capture extreme high-concentration events due to dynamic range spanning orders of magnitude, with loss functions biased toward moderate values and zeroing out low values.",
+    "Generalization across decadal climate shifts is impaired when normalization parameters from a single historical year (1950) are applied to periods with shifted emission baselines (2010).",
+    "Offline emulation is currently confined to surface pressure level; vertical mixing and 3D structure must be added before full online coupling into ModelE's radiative and cloud schemes is possible."
+  ],
+  "extraction_notes": "The study develops 'Smart-NINT' to replace the non-interactive precalculated monthly climatology of aerosol fields in NASA GISS ModelE with an interactive, meteorologically driven spatiotemporal ML emulator.",
+  "dataset_ids": [
+    "a2ad0e30a088-01",
+    "a2ad0e30a088-02"
+  ]
+}

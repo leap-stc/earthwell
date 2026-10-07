@@ -1,0 +1,48 @@
+{
+  "paper_id": "152833564544",
+  "year": "3",
+  "filename": "A Data-Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Data-Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes",
+  "authors": [
+    "Abigail Bodner",
+    "Dhruv Balwada",
+    "Laure Zanna"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://arxiv.org/abs/2312.06972",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "physical oceanography",
+  "processes": [
+    "ocean submesoscales",
+    "mixed layer vertical buoyancy fluxes",
+    "ocean mixed layer restratification",
+    "frontogenesis",
+    "mesoscale and submesoscale turbulence interactions"
+  ],
+  "ml_methods": [
+    "Convolutional Neural Network"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "depth-averaged mixed layer subgrid vertical buoyancy flux",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/abodner/submeso_param_net",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution global ocean simulation submesoscale data across 12 ocean dynamic regimes is cataloged in the LEAP data catalog, with code fully public on GitHub and clear physical benchmark baseline comparisons (MLE parameterization) established.",
+  "pain_points": [
+    "Prediction skill drops significantly in winter/spring and near strong boundary currents when submesoscale fluxes are strongest",
+    "Negative vertical buoyancy fluxes (frontogenesis) are scarce in the training data (<5% of samples), leading to weaker reconstruction fidelity for negative fluxes",
+    "Skill degrades at smaller coarse-graining filter scales (e.g., 1/12° and 1/8°)",
+    "Non-local dependency requires multi-point stencils (receptive field of ~7 grid cells) to capture strain and divergence effects, complicating single-column implementations in traditional GCMs"
+  ],
+  "extraction_notes": "The paper presents an offline data-driven parameterization evaluated against the Fox-Kemper / Bodner et al. (2023) mixed layer eddy (MLE) parameterization across 12 distinct oceanographic regions and five filter scales. Online coupling in a numerical model is reserved for future work.",
+  "dataset_ids": [
+    "152833564544-01"
+  ]
+}

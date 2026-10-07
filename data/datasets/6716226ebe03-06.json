@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6716226ebe03-06",
+  "paper_id": "6716226ebe03",
+  "name": "NSIDC NASA Team passive microwave sea ice concentration",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Nimbus-7 SMMR and DMSP SSM/I-SSMIS",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5067/MPYG15WAA4WX",
+  "access_kind": "public_url_or_doi"
+}

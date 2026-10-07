@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2e434d4762d9-07",
+  "paper_id": "2e434d4762d9",
+  "name": "National Land Cover Database (NLCD)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Landsat",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "30 m",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "17a61548389e-01",
+  "paper_id": "17a61548389e",
+  "name": "DYAMOND (Summer and Winter) coarse-grained ICON simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "2.47 km horizontal / 58 vertical levels coarse-grained to ~80 km (R2B5), ~40 km (R2B6), ~20 km (R2B7) and 27 vertical levels",
+  "produced_in_this_study": false,
+  "access": "DYAMOND data management was provided by the German Climate Computing Center (DKRZ) and supported through the projects ESiWACE and ESiWACE2. The coarse-grained model output used to train and evaluate the neural networks amounts to several TB and can be reconstructed with the scripts provided in the GitHub repository.",
+  "access_kind": "hpc_only"
+}

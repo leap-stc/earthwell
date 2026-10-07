@@ -1,0 +1,18 @@
+{
+  "dataset_id": "63fd0cbfe99b-04",
+  "paper_id": "63fd0cbfe99b",
+  "name": "MSWEP precipitation v2.8",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1°, resampled to 0.083° x 0.083°",
+  "produced_in_this_study": false,
+  "access": "http://www.gloh2o.org/mswep/",
+  "access_kind": "public_url_or_doi"
+}

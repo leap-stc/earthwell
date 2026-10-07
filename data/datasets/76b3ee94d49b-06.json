@@ -1,0 +1,18 @@
+{
+  "dataset_id": "76b3ee94d49b-06",
+  "paper_id": "76b3ee94d49b",
+  "name": "CERES EBAF Ed4.0",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "CERES",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly climatology (March 2000 - March 2018)",
+  "produced_in_this_study": false,
+  "access": "https://ceres.larc.nasa.gov/data/",
+  "access_kind": "public_url_or_doi"
+}

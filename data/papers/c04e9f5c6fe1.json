@@ -1,0 +1,51 @@
+{
+  "paper_id": "c04e9f5c6fe1",
+  "year": "5",
+  "filename": "VRscores_ A New Measure and Dataset of Workforce Politics Using Voter Registrations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "VRscores: A New Measure and Dataset of Workforce Politics Using Voter Registrations",
+  "authors": [
+    "Max Kagan",
+    "Justin Frake",
+    "Reuben Hurst"
+  ],
+  "pub_year": 2025,
+  "venue": null,
+  "doi_or_url": "https://dataverse.harvard.edu/previewurl.xhtml?token=6b2aaf09-ee12-4e75-b830-36889c01800e",
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "Management / Political Science",
+  "processes": [],
+  "ml_methods": [
+    "Fellegi-Sunter probabilistic record linkage (Splink)",
+    "LLM semantic record linkage (gpt-4o-mini-2024-07-18)",
+    "OpenAI text-embedding-3-large",
+    "Expectation-Maximization",
+    "Bayesian imputation",
+    "TF-IDF cosine similarity"
+  ],
+  "ml_tasks": [
+    "classification_detection",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "To facilitate transparency into the methods used in this paper, we provide the code used to create the dataset and analyses reported in the paper. Data and code for peer review are available at the Harvard Dataverse: https://dataverse.harvard.edu/previewurl.xhtml?token=6b2aaf09-ee12-4e75-b830-36889c01800e.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is from social science and business management, focusing on political partisanship of the corporate workforce; it is completely unrelated to climate modeling or parameterization.",
+  "pain_points": [
+    "Proprietary license restrictions on commercial underlying microdata (L2 and Revelio Labs)",
+    "Severe computational burden of pairwise record linkage at national scale across millions of entities",
+    "Missing partisan registration data across certain US states requiring Bayesian imputation",
+    "Inconsistent user text strings for employer and individual names necessitating extensive normalization and deduplication"
+  ],
+  "extraction_notes": "The paper acknowledges funding from the NSF LEAP STC (award #2019625) for author Max Kagan, but the research topic is organizational behavior and workforce political partisanship, making it out of scope for the Earth Well benchmark.",
+  "dataset_ids": [
+    "c04e9f5c6fe1-01",
+    "c04e9f5c6fe1-02",
+    "c04e9f5c6fe1-03",
+    "c04e9f5c6fe1-04",
+    "c04e9f5c6fe1-05"
+  ]
+}

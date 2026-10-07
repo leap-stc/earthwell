@@ -1,0 +1,18 @@
+{
+  "dataset_id": "589440f0ebac-03",
+  "paper_id": "589440f0ebac",
+  "name": "MODIS Land Surface Products (MCD15A3H LAI, MCD43A3 Albedo, MOD11_L2/MYD11_L2 LST, MCD12C1/MCD12Q1 Land Cover)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS onboard Terra and Aqua satellites",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "500 m to 1 km / 0.05 degree; daily to 4-day",
+  "produced_in_this_study": false,
+  "access": "NASA EOSDIS Land Processes DAAC",
+  "access_kind": "public_url_or_doi"
+}

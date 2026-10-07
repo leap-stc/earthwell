@@ -1,0 +1,18 @@
+{
+  "dataset_id": "00b7836e3f0c-01",
+  "paper_id": "00b7836e3f0c",
+  "name": "DISORT standard test problems",
+  "role": "evaluation",
+  "source_kind": "benchmark",
+  "model_or_instrument": "DISORT",
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1D atmospheric column (optical depth / multi-layer)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

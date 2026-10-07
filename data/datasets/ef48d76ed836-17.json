@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ef48d76ed836-17",
+  "paper_id": "ef48d76ed836",
+  "name": "JRA-55 daily temperature",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "Japanese 55-year Reanalysis",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "re-gridded to 0.5° × 0.5°",
+  "produced_in_this_study": false,
+  "access": "https://rda.ucar.edu/datasets/d628000/",
+  "access_kind": "public_url_or_doi"
+}

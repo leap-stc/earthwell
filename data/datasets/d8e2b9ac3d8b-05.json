@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d8e2b9ac3d8b-05",
+  "paper_id": "d8e2b9ac3d8b",
+  "name": "CMIP6 statistically modelled storm surges and joint extremes projections",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "EOF-based Multi-Linear Regression storm surge model",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily storm surge estimates at 124 European tide gauges, 1850-2100",
+  "produced_in_this_study": true,
+  "access": "Will be published on Zenodo at a later stage (DOI to be added)",
+  "access_kind": "not_stated"
+}

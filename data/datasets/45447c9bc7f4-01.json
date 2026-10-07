@@ -1,0 +1,18 @@
+{
+  "dataset_id": "45447c9bc7f4-01",
+  "paper_id": "45447c9bc7f4",
+  "name": "Super-droplet box model simulations",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Super-droplet box model",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "box model / 0D",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

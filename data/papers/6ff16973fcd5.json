@@ -1,0 +1,46 @@
+{
+  "paper_id": "6ff16973fcd5",
+  "year": "5",
+  "filename": "Testing machinelearned basal-friction relationships for icesheet modeling.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Testing machine-learned basal-friction relationships for ice-sheet modeling",
+  "authors": [
+    "Racheet Matai",
+    "Jonathan Kingslake",
+    "Kirsty Tinto",
+    "Andrew Hoffman",
+    "Dave Porter"
+  ],
+  "pub_year": null,
+  "venue": "CESM ML session",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "glaciology",
+  "processes": [
+    "basal sliding",
+    "basal friction",
+    "ice-sheet dynamics"
+  ],
+  "ml_methods": [
+    "MLP"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "basal friction coefficient C",
+  "online_coupled": true,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Presentation slides from a workshop session; no dataset or code links or explicit repository information are provided.",
+  "pain_points": [
+    "In-distribution errors: predictor values overlap between glaciers but predicted friction and velocity responses are still incorrect",
+    "Input variables from local point-wise observations do not uniquely determine basal friction (missing physics like subgrid roughness, hydrology proxies, sediment properties, and nonlocal stress balance)",
+    "Lack of generalization across different glacier systems and flow regimes"
+  ],
+  "extraction_notes": "Extracted from presentation slides presented at a CESM ML session referring to an in-preparation/current manuscript.",
+  "dataset_ids": [
+    "6ff16973fcd5-01"
+  ]
+}

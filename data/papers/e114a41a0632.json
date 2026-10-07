@@ -1,0 +1,55 @@
+{
+  "paper_id": "e114a41a0632",
+  "year": "1",
+  "filename": "Deep Learning for Subgrid‐Scale Turbulence Modeling in Large‐Eddy Simulations of the Convective Atmospheric Boundary Layer - Cheng - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Learning for Subgrid-Scale Turbulence Modeling in Large-Eddy Simulations of the Convective Atmospheric Boundary Layer",
+  "authors": [
+    "Yu Cheng",
+    "Marco G. Giometto",
+    "Pit Kauffmann",
+    "Ling Lin",
+    "Chen Cao",
+    "Cody Zupnick",
+    "Harold Li",
+    "Qi Li",
+    "Yu Huang",
+    "Ryan Abernathey",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2021MS002847",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "boundary_layer_meteorology",
+  "processes": [
+    "subgrid-scale turbulence",
+    "turbulent momentum transport",
+    "convective boundary layer dynamics",
+    "turbulent kinetic energy dissipation"
+  ],
+  "ml_methods": [
+    "Deep Neural Networks"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "Subgrid-scale (SGS) stress tensor",
+  "online_coupled": true,
+  "host_model": "Pseudospectral/finite-difference LES solver (Kumar et al., 2006; Li et al., 2018)",
+  "code_availability": null,
+  "testbed_candidate": true,
+  "testbed_rationale": "High-fidelity DNS data across varying stability regimes (from shear-dominated to highly convective) are filtered and made publicly available at a persistent DOI for testing and benchmarking ML subgrid-scale turbulence closures.",
+  "pain_points": [
+    "Numerical vs. physical dissipation balance in online LES coupling",
+    "Aliasing errors when coarse-graining DNS data can inadvertently be learned by neural networks",
+    "Coupling stability at the lowest surface boundaries requires ad-hoc smoothing/averaging with Monin-Obukhov similarity theory",
+    "Difficulty generalizing to different boundary conditions (e.g., channel flow vs. ABL)"
+  ],
+  "extraction_notes": "The DNN architecture utilizes local 3D stencils (e.g., 3x3x3 neighboring grid cells) to emulate spatial gradient/convolution operations without assuming eddy viscosity. Online coupling in LES demonstrated stability and preserved the -5/3 energy cascade spectrum.",
+  "dataset_ids": [
+    "e114a41a0632-01",
+    "e114a41a0632-02"
+  ]
+}

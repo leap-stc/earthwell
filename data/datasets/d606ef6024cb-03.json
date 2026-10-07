@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d606ef6024cb-03",
+  "paper_id": "d606ef6024cb",
+  "name": "SAM quasi-global aquaplanet hypohydrostatic simulations (-4K, +0K)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SAM 6.3 (System for Atmospheric Modeling)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "96km × 96km (coarse-grained by factor of 8) × 48 levels × 180 min",
+  "produced_in_this_study": false,
+  "access": "The initial sounding, meridional surface temperature profile, and source code to re-run the simulation can be found at https://zenodo.org/record/4118346#.YaT_WtBKg-w. The output from the SAM simulations, which is several TB, is archived at MIT and is available upon request. Paper accompanying data: https://doi.org/10.5281/zenodo.8140536",
+  "access_kind": "public_url_or_doi"
+}

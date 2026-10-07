@@ -1,0 +1,18 @@
+{
+  "dataset_id": "25cb33f5f0a6-04",
+  "paper_id": "25cb33f5f0a6",
+  "name": "NOAA Greenhouse Gas Marine Boundary Layer Reference – CO2",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA/GML atmospheric observing network",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly / annual global marine surface average",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.15138/DVNP-F961",
+  "access_kind": "public_url_or_doi"
+}

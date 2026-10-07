@@ -1,0 +1,18 @@
+{
+  "dataset_id": "18541d990180-05",
+  "paper_id": "18541d990180",
+  "name": "TerraClimate Wetness Index",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "TerraClimate climatology product",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "~4 km (resampled to 0.05°)",
+  "produced_in_this_study": false,
+  "access": "https://www.climatologylab.org/terraclimate.html",
+  "access_kind": "public_url_or_doi"
+}

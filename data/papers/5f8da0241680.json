@@ -1,0 +1,69 @@
+{
+  "paper_id": "5f8da0241680",
+  "year": "5",
+  "filename": "Efficient Emulation, Uncertainty Quantification, and Sensitivity Analysis for a Land Surface Model using Evidential Deep Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Efficient Emulation, Uncertainty Quantification, and Sensitivity Analysis for a Land Surface Model using Evidential Deep Learning",
+  "authors": [
+    "Kachinga Silwimba",
+    "Alejandro N. Flores",
+    "Linnia Hawkins",
+    "Charles Becker",
+    "Katherine Dagon",
+    "David John Gagne",
+    "Jodi Mead",
+    "Daniel Kennedy",
+    "Irene Cionni",
+    "Stanley Akor",
+    "Pamela L. Sullivan",
+    "Sharon A. Billings",
+    "Hoori Ajami",
+    "Daniel R. Hirmas",
+    "Li Li",
+    "Jesse Nippert"
+  ],
+  "pub_year": 2025,
+  "venue": "Earth and Space Science Open Archive (essoar)",
+  "doi_or_url": "https://doi.org/10.22541/essoar.176409114.40301018/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "land_surface",
+  "processes": [
+    "vegetation dynamics",
+    "photosynthesis",
+    "canopy conductance",
+    "phenology",
+    "leaf area index",
+    "transpiration",
+    "carbon allocation",
+    "plant hydraulics"
+  ],
+  "ml_methods": [
+    "Evidential Deep Neural Network (EDNN)",
+    "Deep Evidential Regression",
+    "Fully connected neural network",
+    "Cyclic temporal encoding"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CLM5 (Community Land Model version 5)",
+  "code_availability": "All scripts used to preprocess data, train and evaluate the evidential deep neural network (EDNN) emulator, perform uncertainty quantification, and conduct sensitivity analyses are archived on Zenodo at https://doi.org/10.5281/zenodo.17418678 (Silwimba, 2025). The evidential model was implemented using the MILES-GUESS package (Schreck et al., 2024).",
+  "testbed_candidate": true,
+  "testbed_rationale": "The paper provides a publicly accessible dataset on Zenodo (doi:10.5281/zenodo.15170936) representing a 500-member perturbed parameter ensemble from CLM5 alongside archived open source code on Zenodo (doi:10.5281/zenodo.17418678). This provides an ideal benchmark/testbed for land surface model emulation, uncertainty quantification, and sensitivity analysis.",
+  "pain_points": [
+    "Extreme value compression: EDNN exhibits minor regression toward the mean, underpredicting extreme high positive LAI anomalies and damping extreme negative anomalies",
+    "Spring phenological transition error: Low true variance in spring LAI leads to lower explained variance (R^2 = 0.26) despite strong skill score (0.71), and onset timing error can spike by 2-4 months during anomalous springs",
+    "Under-dispersion at distribution tails in the evidential predictive distribution as indicated by PIT histograms",
+    "High computational cost of running full LSM PPEs (such as CLM5) at scale, motivating surrogate emulation",
+    "Structural model bias inheritance: The emulator cannot correct underlying CLM5 structural errors/missing processes (e.g., disturbance/fire)"
+  ],
+  "extraction_notes": "Author list combines the author order from the title page and the main text; the order matches the main text header (p. 1 of manuscript). The work is funded in part by NSF LEAP STC (award 2019625-STC to author LH).",
+  "dataset_ids": [
+    "5f8da0241680-01",
+    "5f8da0241680-02"
+  ]
+}

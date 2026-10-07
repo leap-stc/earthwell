@@ -1,0 +1,19 @@
+{
+  "dataset_id": "256b2a11ab7f-01",
+  "paper_id": "256b2a11ab7f",
+  "name": "100-member PPE from CESM2 CAM6 with ML-based warm rain microphysics parameterization",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2 CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "100-member PPE",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,44 @@
+{
+  "paper_id": "b51d10fd3192",
+  "year": "1",
+  "filename": "Deep learning for the earth sciences- A comprehensive approach to remote sensing, climate science and geosciences Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep learning for the earth sciences: A comprehensive approach to remote sensing, climate science and geosciences",
+  "authors": [
+    "Gustau Camps-Valls",
+    "Devis Tuia",
+    "Xiao Xiang Zhu",
+    "Markus Reichstein"
+  ],
+  "pub_year": 2021,
+  "venue": "Wiley",
+  "doi_or_url": "https://doi.org/10.1002/9781119646181",
+  "doc_kind": "book_or_chapter",
+  "in_scope": true,
+  "research_field": "cross-disciplinary climate and earth science",
+  "processes": [
+    "remote sensing",
+    "climate modeling",
+    "earth system processes"
+  ],
+  "ml_methods": [
+    "deep learning",
+    "physics-aware deep learning"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "forecasting",
+    "reconstruction_gapfilling",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a book overview/landing page abstract rather than a dataset or standalone modeling study.",
+  "pain_points": [],
+  "extraction_notes": "Extracted from an institutional repository page for the edited book 'Deep Learning for the Earth Sciences' published by Wiley (ISBN: 9781119646181). No individual datasets or specific code repositories are detailed in this record.",
+  "dataset_ids": []
+}

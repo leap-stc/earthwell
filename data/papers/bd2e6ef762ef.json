@@ -1,0 +1,53 @@
+{
+  "paper_id": "bd2e6ef762ef",
+  "year": "5",
+  "filename": "Technical Report_ Towards Unified Diffusion Models for Multi-Model Climate Emulation at Scale.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Towards Unified Diffusion Models for Multi-Model Climate Emulation at Scale",
+  "authors": [
+    "Francesco Immorlano",
+    "Elijah Tavares",
+    "Felix Draxler",
+    "Padhraic Smyth",
+    "Pierre Gentine",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2511.22970",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate science",
+  "processes": [
+    "surface air temperature",
+    "greenhouse gas radiative forcing"
+  ],
+  "ml_methods": [
+    "conditional diffusion model",
+    "Elucidating Diffusion Model (EDM)",
+    "U-Net",
+    "Gaussian Process",
+    "Linear Pattern Scaling"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "No code repository or direct dataset access links are provided in this technical report.",
+  "pain_points": [
+    "Simulates only a single atmospheric variable (surface temperature)",
+    "Relatively coarse spatial resolution (~250 km, 64x128 grid) missing sub-grid topography and extremes",
+    "Generates independent daily snapshots without explicitly modeling temporal autocorrelation between consecutive days",
+    "High computational cost of original multi-model CMIP6 climate ensembles"
+  ],
+  "extraction_notes": "The paper introduces a unified conditional diffusion model (trained with EDM) to emulate daily 2D temperature fields across nine CMIP6 models and three SSP scenarios (SSP2-4.5, SSP3-7.0, SSP5-8.5). It also introduces paired/shared latent noise sampling to reduce variance in estimating average treatment effects.",
+  "dataset_ids": [
+    "bd2e6ef762ef-01",
+    "bd2e6ef762ef-02"
+  ]
+}

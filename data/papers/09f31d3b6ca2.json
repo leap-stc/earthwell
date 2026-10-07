@@ -1,0 +1,53 @@
+{
+  "paper_id": "09f31d3b6ca2",
+  "year": "1",
+  "filename": "GCM-Filters_ A Python Package for Diffusion-based Spatial Filtering of Gridded Data.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "GCM-Filters: A Python Package for Diffusion-based Spatial Filtering of Gridded Data",
+  "authors": [
+    "Nora Loose",
+    "Ryan Abernathey",
+    "Ian Grooms",
+    "Julius Busecke",
+    "Arthur Guillaumin",
+    "Elizabeth Yankovsky",
+    "Gustavo Marques",
+    "Jacob Steinberg",
+    "Andrew Slavin Ross",
+    "Hemant Khatri",
+    "Scott Bachman",
+    "Laure Zanna",
+    "Paige Martin"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Open Source Software",
+  "doi_or_url": "https://doi.org/10.21105/joss.03947",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "spatial filtering",
+    "subgrid-scale ocean eddies",
+    "ocean circulation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.21105/joss.03947",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper presents GCM-Filters, an open-source Python software library for spatial filtering on curvilinear grids; no ML dataset or benchmark dataset is provided.",
+  "pain_points": [
+    "GCM data comes on irregular curvilinear grids with spatially varying grid-cell geometry",
+    "Continental boundaries require careful and special treatment when filtering ocean GCM output",
+    "Earth Science applications benefit from configurable filters, where filter scale and shape are flexible",
+    "GCM output is often too large to process in memory, requiring distributed or delayed execution via Dask"
+  ],
+  "extraction_notes": "JOSS software paper introducing GCM-Filters (version 0.2.3). While spatial filtering is critical for coarse-graining training data for subgrid parameterizations, no ML training is conducted here.",
+  "dataset_ids": [
+    "09f31d3b6ca2-01"
+  ]
+}

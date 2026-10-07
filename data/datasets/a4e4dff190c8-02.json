@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a4e4dff190c8-02",
+  "paper_id": "a4e4dff190c8",
+  "name": "NOAA OISSTv2",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "satellite and in situ SST analysis",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1° (regridded), monthly",
+  "produced_in_this_study": false,
+  "access": "https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html",
+  "access_kind": "public_url_or_doi"
+}

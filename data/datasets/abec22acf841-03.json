@@ -1,0 +1,18 @@
+{
+  "dataset_id": "abec22acf841-03",
+  "paper_id": "abec22acf841",
+  "name": "EN4.2.2 ocean salinity and temperature analyses",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "EN4 objective analysis",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://www.metoffice.gov.uk/hadobs/en4/",
+  "access_kind": "public_url_or_doi"
+}

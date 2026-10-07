@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cac32102873b-02",
+  "paper_id": "cac32102873b",
+  "name": "NASA GISS Model E2 historical radiative forcings and Niño 3.4 index",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS Model E2 historical simulation and NOAA Niño 3.4 SST index",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Annual radiative forcings (solar, volcanic, CO2) and Niño 3.4 index, 1880-2012",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

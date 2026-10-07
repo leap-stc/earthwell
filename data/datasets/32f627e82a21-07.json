@@ -1,0 +1,19 @@
+{
+  "dataset_id": "32f627e82a21-07",
+  "paper_id": "32f627e82a21",
+  "name": "BATS and HOT time-series, LDEO, and GLODAPv2 independent pCO2 datasets",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "in situ oceanographic station and cruise measurements",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "site/transect point observations",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5194/essd-8-297-2016",
+  "access_kind": "public_url_or_doi"
+}

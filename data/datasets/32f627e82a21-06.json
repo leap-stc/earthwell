@@ -1,0 +1,18 @@
+{
+  "dataset_id": "32f627e82a21-06",
+  "paper_id": "32f627e82a21",
+  "name": "de Boyer Montegute Mixed Layer Depth Climatology",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "Argo float and ship profile climatology",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1° (regridded), monthly climatology",
+  "produced_in_this_study": false,
+  "access": "http://www.ifremer.fr/cerweb/deboyer/mld/home.php",
+  "access_kind": "public_url_or_doi"
+}

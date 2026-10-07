@@ -1,0 +1,19 @@
+{
+  "dataset_id": "e381babe14cf-04",
+  "paper_id": "e381babe14cf",
+  "name": "NASA EMIT Imaging Spectrometer data",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "EMIT hyperspectral VSWIR spectrometer",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "spatial_3d"
+  ],
+  "size_as_stated": "granules of size 1280 pixels along track, 1240 pixels across, 285 spectral dimensions",
+  "size_gb_estimate": null,
+  "resolution": "60-meter spatial resolution, 285 wavelength bands (380-2500 nm)",
+  "produced_in_this_study": false,
+  "access": "https://www.earthdata.nasa.gov/about/open-science",
+  "access_kind": "public_url_or_doi"
+}

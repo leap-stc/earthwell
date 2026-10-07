@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9ccce3cf53db-01",
+  "paper_id": "9ccce3cf53db",
+  "name": "MODIS reflectances",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

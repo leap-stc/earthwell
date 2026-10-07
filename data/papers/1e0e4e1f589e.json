@@ -1,0 +1,30 @@
+{
+  "paper_id": "1e0e4e1f589e",
+  "year": "4",
+  "filename": "Bridging Educational Divides.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Bridging Educational Divides: Christina Torres Presents Her Research at the Climate-U Conference",
+  "authors": [
+    "Christina Torres"
+  ],
+  "pub_year": 2024,
+  "venue": "Teachers College, Columbia University News",
+  "doi_or_url": "https://www.tc.columbia.edu/sustainability/news/stories/2024/bridging-educational-divides/",
+  "doc_kind": "other",
+  "in_scope": false,
+  "research_field": "Climate change education",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "News article concerning K-12 climate education and teacher professional development; contains no physical climate simulations, observational datasets, or machine learning models.",
+  "pain_points": [],
+  "extraction_notes": "Out of scope. The article covers educational research and teacher training programs (research-practice partnerships) rather than Earth/climate physics or scientific ML.",
+  "dataset_ids": []
+}

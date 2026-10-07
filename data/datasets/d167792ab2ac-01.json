@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d167792ab2ac-01",
+  "paper_id": "d167792ab2ac",
+  "name": "SOCATv2023",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "In situ underway and mooring surface ocean fCO2 measurements",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.25921/r7xa-bt92 (also https://socat.info/index.php/version-2023)",
+  "access_kind": "public_url_or_doi"
+}

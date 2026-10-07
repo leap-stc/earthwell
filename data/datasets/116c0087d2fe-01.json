@@ -1,0 +1,18 @@
+{
+  "dataset_id": "116c0087d2fe-01",
+  "paper_id": "116c0087d2fe",
+  "name": "GISS-E3 Calibrated Physics Ensemble (CPE) and Climate OSSE proof-of-concept dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS-E3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.15116918",
+  "access_kind": "public_url_or_doi"
+}

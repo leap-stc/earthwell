@@ -1,0 +1,50 @@
+{
+  "paper_id": "aa49b96ea006",
+  "year": "3",
+  "filename": "JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING",
+  "authors": [
+    "Yongquan Qu",
+    "Mohamed Aziz Bhouri",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "ICLR 2024 Workshop on AI4Differential Equations In Science",
+  "doi_or_url": "https://arxiv.org/abs/2403.02215",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "physical_oceanography",
+  "processes": [
+    "ocean mesoscale turbulence",
+    "baroclinic instability",
+    "subgrid eddy tendency"
+  ],
+  "ml_methods": [
+    "CNN",
+    "Stochastic Gradient Hamiltonian Monte Carlo (SG-HMC)",
+    "differentiable programming",
+    "AdaBelief"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "sub-grid total tendency of potential vorticity",
+  "online_coupled": true,
+  "host_model": "PyQG (JAX port)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The synthetic quasi-geostrophic dataset is idealized, and no specific open repository or DOI URL for downloading the generated datasets is provided in the document.",
+  "pain_points": [
+    "Equifinality issue when inferring physical parameters and neural network parameterizations simultaneously",
+    "Trade-off in online training trajectory length and temporal sparsity between reducing temporal auto-correlation and backpropagation exploding/vanishing gradients",
+    "Gradient estimation errors in SG-HMC when applied to large datasets requiring high-precision scientific simulation",
+    "High computational cost of Markov Chain Monte Carlo in high-dimensional parameter spaces (e.g., >100,000 CNN parameters)"
+  ],
+  "extraction_notes": "The paper uses an end-to-end differentiable numerical solver (PyQG in JAX) combined with Flax to jointly perform deterministic calibration of physical parameters (layer thickness ratio delta and upper layer background velocity U1) and training of a 6-layer CNN parameterization, followed by SG-HMC Bayesian uncertainty quantification.",
+  "dataset_ids": [
+    "aa49b96ea006-01"
+  ]
+}

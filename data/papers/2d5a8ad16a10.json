@@ -1,0 +1,59 @@
+{
+  "paper_id": "2d5a8ad16a10",
+  "year": "2",
+  "filename": "Identifying the Causes of Pyrocumulonimbus (PyroCb).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Identifying the Causes of Pyrocumulonimbus (PyroCb)",
+  "authors": [
+    "Emiliano Díaz Salas-Porras",
+    "Kenza Tazi",
+    "Ashwin Braude",
+    "Daniel Okoh",
+    "Kara D. Lamb",
+    "Duncan Watson-Parris",
+    "Paula Harder",
+    "Nis Meinert"
+  ],
+  "pub_year": 2022,
+  "venue": "NeurIPS 2022 Workshop on Causal Machine Learning for Real-World Impact (CML4Impact 2022)",
+  "doi_or_url": "https://doi.org/10.56272/fpib2524",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "wildfire-atmosphere interactions",
+  "processes": [
+    "pyrocumulonimbus formation",
+    "pyroconvection",
+    "convective available potential energy",
+    "wildfire plume dynamics",
+    "stratospheric aerosol injection"
+  ],
+  "ml_methods": [
+    "Invariant Causal Prediction (ICP)",
+    "Greedy Invariant Causal Prediction (greedy-ICP)",
+    "Random Forest",
+    "DeLong non-parametric AUC hypothesis test",
+    "Hilbert-Schmidt Independence Criterion (HSIC)"
+  ],
+  "ml_tasks": [
+    "causal_inference",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://spaceml.org/ (https://doi.org/10.56272/fpib2524)",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts causal discovery on observational and reanalysis predictors of pyrocumulonimbus clouds, rather than developing or evaluating subgrid parameterizations for climate modeling.",
+  "pain_points": [
+    "Combinatorial intractability of exhaustive Invariant Causal Prediction over large predictor power sets (exceeding 250 million subsets)",
+    "Unavailability of standard conditional independence tests for binary target variables and continuous multivariate predictors and environment variables",
+    "Strong collinearity and dependence among meteorological and biophysical predictors, causing exhaustive ICP to yield empty intersections",
+    "Imbalanced event classification data (rare occurrence of pyroCb)"
+  ],
+  "extraction_notes": "The PYROCAST database was created as part of the overall PYROCAST project by the same author team (described here and in companion workshop paper Tazi et al., 2022). It integrates GOES-16/17 and Himawari-8 channels with ERA5 and ETOPO5.",
+  "dataset_ids": [
+    "2d5a8ad16a10-01",
+    "2d5a8ad16a10-02",
+    "2d5a8ad16a10-03"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4837d04b99a1-03",
+  "paper_id": "4837d04b99a1",
+  "name": "Input predictor observational datasets (OISSTv2, GlobColour, EN4, GLOBALVIEW)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "NOAA OISSTv2, ESA GlobColour, Met Office EN4, NOAA GLOBALVIEW",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "421 monthly time steps from January 1982 to January 2017",
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1982–2017)",
+  "produced_in_this_study": false,
+  "access": "Referenced in Large Ensemble Testbed and individual product archives",
+  "access_kind": "public_url_or_doi"
+}

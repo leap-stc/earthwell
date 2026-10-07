@@ -1,0 +1,54 @@
+{
+  "paper_id": "1dc1d9ed975c",
+  "year": "2",
+  "filename": "An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes",
+  "authors": [
+    "Griffin Mooers",
+    "Tom Beucler",
+    "Mike Pritchard",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2022,
+  "venue": "Tackling Climate Change with Machine Learning workshop at NeurIPS 2022",
+  "doi_or_url": "https://arxiv.org/abs/2211.01613",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "convection",
+    "extreme precipitation",
+    "atmospheric vertical velocity dynamics",
+    "updrafts",
+    "deep convection",
+    "shallow convection"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder",
+    "Fully-convolutional VAE",
+    "Beta-annealed VAE",
+    "K-Means Clustering",
+    "k-means++",
+    "Multiple Linear Regression"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "SPCAM",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Although high-resolution superparameterized (SPCAM) data was simulated, no direct data or code repository URL is provided to make it an off-the-shelf testbed candidate.",
+  "pain_points": [
+    "Simulations output massive multi-scale, three-dimensional data (3.4 TB, >76 million snapshots) that challenge standard analysis tools.",
+    "Lack of samples at the very high tails of the precipitation distribution (>99th percentile) causing noisy/pixelated spatial patterns.",
+    "Difficulty in isolating dynamical contributions from thermodynamic contributions without sacrificing storm-scale spatial information."
+  ],
+  "extraction_notes": "The paper focuses on using an unsupervised VAE and K-means clustering to decompose dynamic versus thermodynamic components of extreme precipitation changes under uniform +4K SST warming in SPCAM. Note mentions of DYAMOND data management via DKRZ appear in acknowledgments, but the primary dataset analyzed is from SPCAM simulations performed by the authors.",
+  "dataset_ids": [
+    "1dc1d9ed975c-01"
+  ]
+}

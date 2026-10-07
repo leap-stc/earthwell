@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a436a117e657-03",
+  "paper_id": "a436a117e657",
+  "name": "MODIS biophysical data (LAI and MCD12Q1 Land Cover)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS (Terra/Aqua)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "500 m",
+  "produced_in_this_study": false,
+  "access": "remote sensing data are derived from Google Earth Engine",
+  "access_kind": "public_url_or_doi"
+}

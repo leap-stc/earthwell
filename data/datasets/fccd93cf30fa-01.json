@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fccd93cf30fa-01",
+  "paper_id": "fccd93cf30fa",
+  "name": "PlanetScope",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "PlanetScope",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "high resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

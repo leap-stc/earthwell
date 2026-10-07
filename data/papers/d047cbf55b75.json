@@ -1,0 +1,52 @@
+{
+  "paper_id": "d047cbf55b75",
+  "year": "5",
+  "filename": "Scalable Water and Sanitation Monitoring Across Africa via AI‑Driven Satellite and Survey Data Integration abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Scalable Water and Sanitation Monitoring Across Africa via AI-Driven Satellite and Survey Data Integration",
+  "authors": [
+    "Aya Lahlou",
+    "Othmane Echchabi",
+    "Nizar Talty",
+    "Josh Malcolm Manto",
+    "Ka Leung Lam"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/2003102",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "water supply infrastructure monitoring",
+    "sanitation access monitoring",
+    "water resource management"
+  ],
+  "ml_methods": [
+    "Vision Transformer",
+    "DINO-ViT",
+    "KNN Classifier",
+    "Self-Supervised Learning"
+  ],
+  "ml_tasks": [
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on remote sensing and socioeconomic survey integration for water/sanitation infrastructure monitoring (SDG 6) rather than physical process parameterization or ESM emulation.",
+  "pain_points": [
+    "Fragmented surveys and inconsistent reporting across African countries",
+    "Limited monitoring capacity in data-limited regions",
+    "Need to harmonize heterogeneous datasets across space and time"
+  ],
+  "extraction_notes": "Conference abstract marked as 'Withdrawn' on the meeting app page. Pub year listed as 2025 as indicated on the schedule metadata.",
+  "dataset_ids": [
+    "d047cbf55b75-01",
+    "d047cbf55b75-02",
+    "d047cbf55b75-03",
+    "d047cbf55b75-04"
+  ]
+}

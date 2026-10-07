@@ -1,0 +1,51 @@
+{
+  "paper_id": "abec22acf841",
+  "year": "1",
+  "filename": "Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations - Bennington - 2022 - Geophysical Research Letters - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations",
+  "authors": [
+    "Val Bennington",
+    "Lucas Gloege",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2022,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2022GL098632",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "ocean carbon cycle",
+    "air-sea CO2 flux",
+    "surface ocean pCO2",
+    "marine carbon uptake"
+  ],
+  "ml_methods": [
+    "XGBoost"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Project code (Python) freely available on Github to prepare observational data for the machine learning algorithm, utilize XGBoost, and analyze the resulting reconstructed misfits: https://github.com/valbennington/LDEO_HPD_extension",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper produces an observation/model-derived gridded surface ocean pCO2 and flux data product (reconstruction/gap-filling) rather than training data or testbeds for subgrid physical parameterizations or emulators.",
+  "pain_points": [
+    "Extreme data sparsity of pCO2 observations prior to the 1980s prevents purely data-driven machine learning reconstructions.",
+    "Chlorophyll-a satellite observations do not start until 1998, requiring climatologies prior to that.",
+    "Observational coverage is especially sparse in regions like the Indian Ocean and Southern Ocean, increasing uncertainty.",
+    "Pre-1982 data like GEOSECS TA and DIC have documented inaccuracies and were excluded from modern syntheses (GLODAP)."
+  ],
+  "extraction_notes": "The study extends LDEO-HPD backwards from 1982 to 1959 by using the 2000-2020 climatological mean model-data misfit learned via XGBoost to bias-correct 8 ocean biogeochemical models (GOBMs). The research acknowledges support from NSF LEAP STC (Award 2019625).",
+  "dataset_ids": [
+    "abec22acf841-01",
+    "abec22acf841-02",
+    "abec22acf841-03",
+    "abec22acf841-04",
+    "abec22acf841-05",
+    "abec22acf841-06"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "195230d140fe-02",
+  "paper_id": "195230d140fe",
+  "name": "CM1 Lagrangian superdroplet cirrus cloud simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "NCAR Cloud Model 1 (CM1) with Lagrangian superdroplet microphysics",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "cloud-scale",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,47 @@
+{
+  "paper_id": "2869e5f2ad35",
+  "year": "3",
+  "filename": "Two sources of uncertainty in estimating tephra volumes from isopachs_ perspectives and quantification.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Two sources of uncertainty in estimating tephra volumes from isopachs: perspectives and quantification",
+  "authors": [
+    "Qingyuan Yang",
+    "Susanna F. Jenkins"
+  ],
+  "pub_year": 2023,
+  "venue": "Bulletin of Volcanology",
+  "doi_or_url": "https://doi.org/10.1007/s00445-023-01652-1",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "solid_earth",
+  "processes": [
+    "explosive volcanic eruptions",
+    "tephra fallout and dispersal",
+    "tephra volume estimation",
+    "deposit thinning"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper focuses on analytical and empirical curve fitting (exponential, power-law, Weibull) and statistical uncertainty quantification for volcanological tephra deposits, not machine learning parameterizations or emulators.",
+  "pain_points": [
+    "Model uncertainty due to empirical/analytical curves deviating from true deposit thinning patterns",
+    "Fitting in log-transformed space (log thickness vs square root isopach area) hides large relative errors in real space and area-integrated volume",
+    "Uncertainty in extrapolation (proximal and distal volumes beyond observed isopachs) cannot be validated against data"
+  ],
+  "extraction_notes": "The paper acknowledges partial support from the NSF STC LEAP (Award 2019625). It uses statistical/empirical curve-fitting methods rather than ML.",
+  "dataset_ids": [
+    "2869e5f2ad35-01",
+    "2869e5f2ad35-02",
+    "2869e5f2ad35-03",
+    "2869e5f2ad35-04",
+    "2869e5f2ad35-05",
+    "2869e5f2ad35-06"
+  ]
+}

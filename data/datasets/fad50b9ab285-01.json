@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fad50b9ab285-01",
+  "paper_id": "fad50b9ab285",
+  "name": "NYC311 street flooding, sewer backup, and catch basin blockage reports",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "NYC311 crowdsourcing platform",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily counts aggregated to 59 Community District boundaries and 6 flood zones, 2010-01-01 to 2019-12-31",
+  "produced_in_this_study": false,
+  "access": "http://data.cityofnewyork.us",
+  "access_kind": "public_url_or_doi"
+}

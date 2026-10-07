@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d3028eaacf65-01",
+  "paper_id": "d3028eaacf65",
+  "name": "ClimSim",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF / multi-scale climate simulation",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "124 numerical features, output of size 128 (extracted rain rate); 4,000 training points for target non-heavy rain, target heavy rain nT varying up to 250, source heavy rain nS up to 2,500, test set around 2,000 heavy rain and 4,000 non-heavy rain",
+  "size_gb_estimate": null,
+  "resolution": "regional clusters across latitude/longitude",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

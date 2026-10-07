@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a74eeb28cd14-05",
+  "paper_id": "a74eeb28cd14",
+  "name": "SPCAM5 +4K warmed simulation",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM5 with SST +4K",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "76,944,384 samples over 90 days",
+  "size_gb_estimate": 3400.0,
+  "resolution": "1.9°×2.5°×15 min, embedded CRM 4 km resolution",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

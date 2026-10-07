@@ -1,0 +1,18 @@
+{
+  "dataset_id": "5319b2b73897-02",
+  "paper_id": "5319b2b73897",
+  "name": "CMIP6 piClim-aer and piClim-control simulations",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "Multiple CMIP6 GCMs (CESM2, CanESM5, GFDL-CM4, HadGEM3-GC31-LL, CNRM-CM6-1, CNRM-ESM2-1, IPSL-CM6A-LR)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "30 years from piClim-aer and piClim-control",
+  "size_gb_estimate": null,
+  "resolution": "Monthly mean",
+  "produced_in_this_study": false,
+  "access": "CMIP6 data is available through the Earth System Grid Federation (CMIP6 Earth System Grid Federation, 2023).",
+  "access_kind": "public_url_or_doi"
+}

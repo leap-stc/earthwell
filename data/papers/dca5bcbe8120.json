@@ -1,0 +1,55 @@
+{
+  "paper_id": "dca5bcbe8120",
+  "year": "4",
+  "filename": "A new climate model PPE emulator that enables new insights on host model behavior.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A new climate model PPE emulator that enables new insights on host model behavior",
+  "authors": [
+    "Qingyuan Yang",
+    "Gregory S Elsaesser",
+    "Marcus Van Lier-Walqui",
+    "Trude Eidhammer"
+  ],
+  "pub_year": null,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "cloud microphysics",
+    "atmospheric convection",
+    "cloud radiative effects",
+    "precipitation"
+  ],
+  "ml_methods": [
+    "Simplified Additive Gaussian processes Emulator (sage)",
+    "Gaussian processes",
+    "Fully connected Neural Network",
+    "Linear regression"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification",
+    "interpretability_xai",
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CESM2 CAM6, GISS ModelE3",
+  "code_availability": "A GitHub repository and manuscript are linked via QR codes in the presentation slides, but exact URLs are not printed in readable text.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a conference slide deck; although perturbed parameter ensembles are valuable for emulation testbeds, exact dataset links, formats, and storage locations are not provided in text.",
+  "pain_points": [
+    "Parameter interaction and non-linearity: Simple linear regression fails to capture higher-order parameter interactions and non-linear relationships.",
+    "Curse of dimensionality vs sparsity: Climate model PPEs typically have only a few hundred members, creating data sparsity in high-dimensional parameter spaces.",
+    "Variable grouping tradeoffs: Emulating all variables at once with neural networks overlooks isolated parameter-output relationships (e.g., TIWP and vf_mults), whereas emulating single variables one-at-a-time ignores inter-variable dependencies.",
+    "Impact of outliers: Outliers in PPE outputs strongly impact training and validation metrics but represent valid model behaviors rather than errors.",
+    "Cumulative impacts: Less individually sensitive parameters cumulatively have a non-negligible impact on model target outputs."
+  ],
+  "extraction_notes": "Extracted from presentation slides. The slides note an alternative/original title: 'detecting and identifying the impact of parameter interaction on climate model outputs based on two Perturbed Parameter Ensembles (PPEs)'. Target variables include global and zonal averages (SW_CRE, precipitation, TIWP) and model skill scores against observations.",
+  "dataset_ids": [
+    "dca5bcbe8120-01",
+    "dca5bcbe8120-02"
+  ]
+}

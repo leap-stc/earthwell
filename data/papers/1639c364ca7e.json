@@ -1,0 +1,53 @@
+{
+  "paper_id": "1639c364ca7e",
+  "year": "5",
+  "filename": "Incorporating Multivariate Consistency in ML-Based Weather Forecasting with Latent-space Constraints.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Incorporating Multivariate Consistency in ML-Based Weather Forecasting with Latent-space Constraints",
+  "authors": [
+    "Hang Fan",
+    "Yi Xiao",
+    "Yongquan Qu",
+    "Fenghua Ling",
+    "Ben Fei",
+    "Lei Bai",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2510.04006",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Weather Forecasting",
+  "processes": [
+    "Atmospheric general circulation",
+    "Geostrophic balance",
+    "Kinetic energy dissipation",
+    "Atmospheric vertical motion"
+  ],
+  "ml_methods": [
+    "Swin Transformer",
+    "Autoencoder",
+    "Curriculum learning"
+  ],
+  "ml_tasks": [
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study uses coarsened global ERA5 reanalysis to develop a latent-space constraint loss for deterministic weather forecasting and does not produce or release a new parameterization benchmark dataset.",
+  "pain_points": [
+    "Autoregressive rollout training in model space with variable-specific MSE loss ignores cross-variable error covariance and scale dependency, causing blurred forecasts and loss of physical realism at long leads.",
+    "Explicitly representing the reanalysis error covariance matrix in model space is computationally intractable due to extreme dimensionality (> 10^12).",
+    "Evaluating the loss in latent space substantially increases computational training costs due to encoder forward passes.",
+    "Key assumptions for the latent-space surrogate (reconstruction error, local linearity, and diagonal error covariance) are only approximately satisfied in practice.",
+    "Long-range deterministic RMSE of the latent-constrained model still degrades relative to model-space MSE beyond 5 days, highlighting the need for probabilistic formulations at longer lead times."
+  ],
+  "extraction_notes": "The paper reframes rollout training as weak-constraint 4D-Var (WC-4DVar) and applies constraints in the latent space of a pretrained Swin-Transformer autoencoder to maintain multivariate physical consistency.",
+  "dataset_ids": [
+    "1639c364ca7e-01"
+  ]
+}

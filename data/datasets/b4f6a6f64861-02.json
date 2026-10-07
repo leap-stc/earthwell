@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b4f6a6f64861-02",
+  "paper_id": "b4f6a6f64861",
+  "name": "NLDAS forcing dataset",
+  "role": "reference_only",
+  "source_kind": "reanalysis",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

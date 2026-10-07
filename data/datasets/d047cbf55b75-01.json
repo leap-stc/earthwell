@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d047cbf55b75-01",
+  "paper_id": "d047cbf55b75",
+  "name": "Landsat 8 and Sentinel-2 imagery",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "Landsat 8 OLI/TIRS and Sentinel-2 MSI",
+  "scale": "regional",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "1,451,589 Sentinel-2 images (256 x 256 px)",
+  "size_gb_estimate": null,
+  "resolution": "256 x 256 px",
+  "produced_in_this_study": false,
+  "access": "Retrieved using Google Earth Engine API",
+  "access_kind": "public_url_or_doi"
+}

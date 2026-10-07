@@ -1,0 +1,51 @@
+{
+  "paper_id": "bc690e71bdc9",
+  "year": "3",
+  "filename": "Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science",
+  "authors": [
+    "Gabriel P. Langlois",
+    "Jatan Buch",
+    "J\u0000\u0000\u0000\u0000r\u0000\u0000me Darbon"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2403.06816",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "other",
+  "processes": [
+    "wildfire occurrence",
+    "fire weather",
+    "fuel moisture"
+  ],
+  "ml_methods": [
+    "Maximum entropy (Maxent) models",
+    "Random Forest",
+    "Nonlinear Primal-Dual Hybrid Gradient (NPDHG)",
+    "Elastic net regularized Maxent",
+    "Group lasso regularized Maxent",
+    "L-infinity regularized Maxent"
+  ],
+  "ml_tasks": [
+    "classification_detection",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Not explicitly stated for the proposed MATLAB NPDHG implementation; WUMI dataset and SMLFire1.0 package available at https://doi.org/10.5281/zenodo.7277980",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study focuses on optimization methods for statistical Maximum Entropy density estimation of regional wildfire occurrences, not Earth system model parameterization or physical process emulation.",
+  "pain_points": [
+    "Computational scaling bottlenecks: estimating optimal stepsizes for classical first-order optimization requires O(min(m^2 n, mn^2)) operations, which is prohibitive for large feature/sample matrices",
+    "Coordinate descent solvers like GLMNET rely on logistic regression approximations (IWLR) that can fail to converge or give unreliable numerical solutions on dense ecological data",
+    "Lack of parallelism in state-of-the-art coordinate descent algorithms",
+    "Non-smooth regularizations (elastic net, group lasso, l-infinity) lack smoothness required for standard quasi-Newton or second-order methods"
+  ],
+  "extraction_notes": "Author Jérôme Darbon was spelled with accents in the original paper. The paper applies machine learning (Maxent density estimation and Random Forests for prior construction) to ecological and wildfire data in the western US. Support is acknowledged from NSF LEAP STC Award #2019625 for co-author Jatan Buch.",
+  "dataset_ids": [
+    "bc690e71bdc9-01"
+  ]
+}

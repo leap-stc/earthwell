@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d88d9edd6134-04",
+  "paper_id": "d88d9edd6134",
+  "name": "OISSTv2 sea surface temperature",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "AVHRR / in situ blended SST",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25° daily",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5194/essd-8-165-2016",
+  "access_kind": "public_url_or_doi"
+}

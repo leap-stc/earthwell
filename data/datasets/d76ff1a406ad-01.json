@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d76ff1a406ad-01",
+  "paper_id": "d76ff1a406ad",
+  "name": "EIA Real-time hourly balancing authority-level electricity net generation dataset by energy source",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, state / balancing authority level, 2018-2023",
+  "produced_in_this_study": false,
+  "access": "https://www.eia.gov/opendata/qb.php?category=3390101",
+  "access_kind": "public_url_or_doi"
+}

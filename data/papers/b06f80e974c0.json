@@ -1,0 +1,54 @@
+{
+  "paper_id": "b06f80e974c0",
+  "year": "5",
+  "filename": "An Improved Methodology to Estimate Cross-Scale Kinetic Energy Transfers from Third-Order Structure Functions using Regularized Least-Squares.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "An improved methodology to estimate cross-scale kinetic energy transfers from third-order structure functions using regularized least-squares",
+  "authors": [
+    "Manuel O. Gutierrez-Villanueva",
+    "Bruce D. Cornuelle",
+    "Sarah T. Gille",
+    "Matthew R. Mazloff",
+    "Dhruv Balwada"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Atmospheric and Oceanic Technology",
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "physical_oceanography",
+  "processes": [
+    "cross-scale kinetic energy transfers",
+    "mesoscale eddies",
+    "submesoscale turbulence",
+    "inverse energy cascade",
+    "forward energy cascade",
+    "baroclinic instability",
+    "ocean mixed layer dynamics"
+  ],
+  "ml_methods": [
+    "regularized least-squares",
+    "ridge regression"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Python code for processing the GLAD and LASER drifter datasets, running the QG simulation, and estimating structure functions and spectral fluxes using regularized least-squares is available at https://github.com/manuelogtzv/SF3_RLS. PyQG model is available at https://doi.org/10.5281/zenodo.6380711. Arch 6.3.1 is available at https://zenodo.org/records/10981635.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops an observational and diagnostic inverse methodology using regularized linear regression rather than establishing a machine learning parameterization benchmark dataset or testbed.",
+  "pain_points": [
+    "Standard ordinary least squares overfits data and produces non-physical, highly oscillatory energy injection rates",
+    "Non-negative least squares (NNLS) cannot diagnose negative energy injections or energy sinks/convergence",
+    "Observational drifter data are sparse, non-uniformly sampled, and prone to clustering in convergence zones, generating highly non-Gaussian error distributions",
+    "Spatio-temporal correlation between drifter pair observations invalidates simple independent bootstrapping, requiring moving-block bootstrap techniques to avoid severe uncertainty underestimation"
+  ],
+  "extraction_notes": "The paper is supported by the NSF LEAP STC (#2019625). The mathematical technique employed is regularized least squares (ridge regression) to solve a discrete linear inverse problem formulated from third-order velocity structure functions.",
+  "dataset_ids": [
+    "b06f80e974c0-01",
+    "b06f80e974c0-02",
+    "b06f80e974c0-03"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "paper_id": "d87be2bcbfc0",
+  "year": "3",
+  "filename": "Deep Learning for Subgrid‐Scale Turbulence Modeling in Large‐Eddy Simulations of the Convective Atmospheric Boundary Layer.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Learning for Subgrid-Scale Turbulence Modeling in Large-Eddy Simulations of the Convective Atmospheric Boundary Layer",
+  "authors": [
+    "Yu Cheng",
+    "Marco G. Giometto",
+    "Pit Kauffmann",
+    "Ling Lin",
+    "Chen Cao",
+    "Cody Zupnick",
+    "Harold Li",
+    "Qi Li",
+    "Yu Huang",
+    "Ryan Abernathey",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2021MS002847",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "boundary_layer_meteorology",
+  "processes": [
+    "atmospheric boundary layer turbulence",
+    "subgrid-scale turbulent momentum transport",
+    "convective boundary layer turbulence"
+  ],
+  "ml_methods": [
+    "Deep Neural Networks",
+    "Dense Neural Networks with 3D local stencils"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "deviatoric subgrid-scale stress tensor",
+  "online_coupled": true,
+  "host_model": "Kumar et al. (2006) mixed pseudospectral/finite-difference LES code",
+  "code_availability": null,
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution DNS and filtered 3D boundary layer turbulence datasets under multiple stability regimes are publicly deposited with a permanent DOI on Columbia Academic Commons, making it directly suited for subgrid-scale ML parameterization development.",
+  "pain_points": [
+    "Simultaneously capturing both SGS stress correlation and SGS energy dissipation in online simulations without numerical instability or energy pileup",
+    "Aliasing errors when computing SGS stresses from discrete simulation grids",
+    "Generalization across distinct stability regimes (from shear-dominated to highly convective boundary layers)",
+    "Treatment of near-wall surface flux conditions and sponge layers when replacing algebraic closures with ML models"
+  ],
+  "extraction_notes": "The code for the LES solver and DNN coupling was not stated in a dedicated code availability statement, but the data is shared via Columbia Academic Commons DOI.",
+  "dataset_ids": [
+    "d87be2bcbfc0-01",
+    "d87be2bcbfc0-02"
+  ]
+}

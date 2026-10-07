@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0acda7ad1125-02",
+  "paper_id": "0acda7ad1125",
+  "name": "Gulf of Mexico drifter datasets",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "ocean surface drifters",
+  "scale": "regional",
+  "data_types": [
+    "trajectories"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

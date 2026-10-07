@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2127864ced09-01",
+  "paper_id": "2127864ced09",
+  "name": "NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "ship-borne eddy-covariance turbulent fluctuation measurements",
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": "about 10,000 samples after quality control",
+  "size_gb_estimate": null,
+  "resolution": "hourly-averaged",
+  "produced_in_this_study": false,
+  "access": "https://downloads.psl.noaa.gov/psd3/cruises/",
+  "access_kind": "public_url_or_doi"
+}

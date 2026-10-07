@@ -1,0 +1,62 @@
+{
+  "paper_id": "18541d990180",
+  "year": "5",
+  "filename": "When and where soil dryness matters to ecosystem photosynthesis_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "When and where soil dryness matters to ecosystem photosynthesis",
+  "authors": [
+    "Jiangong Liu",
+    "Qiren Wang",
+    "Weiwei Zhan",
+    "Xu Lian",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Nature Plants",
+  "doi_or_url": "https://doi.org/10.1038/s41477-025-02024-7",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ecohydrology",
+  "processes": [
+    "gross primary productivity (GPP)",
+    "ecosystem photosynthesis",
+    "soil moisture dynamics",
+    "evaporative fraction",
+    "atmospheric vapor pressure deficit (VPD)",
+    "land-atmosphere interactions"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "Causal Shapley values",
+    "Linear-plateau model"
+  ],
+  "ml_tasks": [
+    "interpretability_xai",
+    "causal_inference"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.15314104",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study applies diagnostic machine learning and explainable AI attribution techniques to existing eddy covariance and satellite datasets to evaluate driver sensitivities rather than constructing parameterization or emulator benchmark datasets.",
+  "pain_points": [
+    "Strong covariation and negative correlation between soil moisture and vapour pressure deficit via land-atmosphere feedbacks under water-limited conditions.",
+    "Confounding effects from incoming radiation and air temperature.",
+    "Traditional feature attribution techniques (like SHAP) fail by assuming predictor independence, which does not hold across distinct causal regimes (energy-limited vs water-limited).",
+    "High computational cost of computing causal Shapley values due to combinatorial calculations.",
+    "Lack of global in situ observational root-zone soil moisture measurements."
+  ],
+  "extraction_notes": "LEAP-affiliated paper (Pierre Gentine funded via LEAP AGS-2019625). Explores causal attribution of ecosystem water limitations on photosynthesis.",
+  "dataset_ids": [
+    "18541d990180-01",
+    "18541d990180-02",
+    "18541d990180-03",
+    "18541d990180-04",
+    "18541d990180-05",
+    "18541d990180-06",
+    "18541d990180-07",
+    "18541d990180-08",
+    "18541d990180-09"
+  ]
+}

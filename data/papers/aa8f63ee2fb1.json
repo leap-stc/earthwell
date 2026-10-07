@@ -1,0 +1,46 @@
+{
+  "paper_id": "aa8f63ee2fb1",
+  "year": "3",
+  "filename": "Zero-shot learning of aerosol optical properties with graph neural networks.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Zero-shot learning of aerosol optical properties with graph neural networks",
+  "authors": [
+    "K. D. Lamb",
+    "P. Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Scientific Reports",
+  "doi_or_url": "https://doi.org/10.1038/s41598-023-45235-8",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "aerosols_radiation",
+  "processes": [
+    "aerosol radiative forcing",
+    "electromagnetic scattering and absorption",
+    "black carbon fractal aggregate optical properties"
+  ],
+  "ml_methods": [
+    "Interaction Network",
+    "Graph Convolutional Network",
+    "Simple Graph Convolution"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameterization"
+  ],
+  "parameterization_target": "aerosol optical properties (scattering, extinction, and absorption efficiencies; asymmetry parameter; scattering phase matrix elements)",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/kdlamb/BC-GNN.git",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study generated an open-access benchmark dataset of black carbon fractal aggregates and exact MSTM electromagnetic calculations published on Zenodo (10.5281/zenodo.5108834) with corresponding open-source code on GitHub.",
+  "pain_points": [
+    "Exact electromagnetic solvers like MSTM are computationally prohibitive (hours to days for large aggregates) for direct use in atmospheric models or online retrievals.",
+    "Conventional machine learning algorithms (e.g., SVM, standard NNs) fail to generalize to morphological parameters outside their training distribution.",
+    "High relative error (MAPE) occurs for scattering efficiency at very small size parameters (Xv = 0.1) due to small absolute values."
+  ],
+  "extraction_notes": "Author first names are given as initials 'K. D.' and 'P.' in the document text. The aggregate scale is single-particle microphysics (cluster of nanospheres).",
+  "dataset_ids": [
+    "aa8f63ee2fb1-01"
+  ]
+}

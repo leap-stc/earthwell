@@ -1,0 +1,77 @@
+{
+  "paper_id": "116c0087d2fe",
+  "year": "5",
+  "filename": "Toward a Climate OSSE Framework for Satellite Mission Design.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Toward a Climate OSSE Framework for Satellite Mission Design",
+  "authors": [
+    "Ann M. Fridlind",
+    "Gregory S. Elsaesser",
+    "Marcus van Lier-Walqui",
+    "Grégory V. Cesana",
+    "Elizabeth Weatherhead",
+    "George Tselioudis",
+    "Gavin Schmidt",
+    "Donifan Barahona",
+    "Brian Cairns",
+    "William D. Collins",
+    "David B. Considine",
+    "Lidia Cucurull",
+    "Larry DiGirolamo",
+    "Amber Emory",
+    "Otto Hasekamp",
+    "Shan He",
+    "Ryan Kramer",
+    "Matthew Lebsock",
+    "Tsengdar Lee",
+    "Stephen Leroy",
+    "Wuyin Lin",
+    "Steven Lugauer",
+    "Daniel Miller",
+    "Johannes Mülmenstädt",
+    "Lazaros Oreopoulos",
+    "Derek J. Posselt",
+    "Mark D. Zelinka"
+  ],
+  "pub_year": 2026,
+  "venue": "Bulletin of the American Meteorological Society",
+  "doi_or_url": "10.1175/BAMS-D-24-0242.1",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate modeling",
+  "processes": [
+    "planetary boundary layer turbulence",
+    "cumulus convection entrainment",
+    "stratiform cloud microphysics",
+    "cloud-radiation feedback",
+    "snow sedimentation",
+    "ice autoconversion"
+  ],
+  "ml_methods": [
+    "surrogate emulator",
+    "Markov chain Monte Carlo"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "atmospheric physics parameters (cumulus entrainment, relaxation time, critical RH, snow fall speed, autoconversion)",
+  "online_coupled": false,
+  "host_model": "NASA GISS-E3",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The archived data contains summary posterior parameter distributions, net cloud feedback, and ECS estimates for figure reproduction rather than training/evaluation data for developing ML parameterizations.",
+  "pain_points": [
+    "Computational expense of high-dimensional MCMC sampling for climate models requires surrogate ML emulators",
+    "Poor characterization of observational uncertainties in satellite retrievals (e.g., cloudy boundary layer thermodynamic state) widens posterior parameter spread",
+    "Distinguishing model structural error from parametric error: parameter tuning cannot fix structural parameterization shortcomings",
+    "Representativeness error and lack of spatial/temporal sampling homogeneity in satellite observations",
+    "Absence of an established climate OSSE framework linking prospective satellite observing systems to climate projection uncertainty metrics"
+  ],
+  "extraction_notes": "Acknowledges support from NSF STC Learning the Earth with Artificial Intelligence and Physics (LEAP, NSF Award 2019625). The ML emulator and GISS-E3 CPE framework are introduced in Elsaesser et al. (2025) and applied here as a climate OSSE proof of concept.",
+  "dataset_ids": [
+    "116c0087d2fe-01",
+    "116c0087d2fe-02"
+  ]
+}

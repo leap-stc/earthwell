@@ -1,0 +1,61 @@
+{
+  "paper_id": "c0774f58a23e",
+  "year": "3",
+  "filename": "Simulating Atmospheric Processes in Earth System Models and Quantifying Uncertainties with Deep Learning Multi-Member and Stochastic Parameterizations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Simulating Atmospheric Processes in Earth System Models and Quantifying Uncertainties with Deep Learning Multi-Member and Stochastic Parameterizations",
+  "authors": [
+    "Gunnar Behrens",
+    "Tom Beucler",
+    "Fernando Iglesias-Suarez",
+    "Sungduk Yu",
+    "Pierre Gentine",
+    "Michael Pritchard",
+    "Mierk Schwabe",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2402.03079",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "convection",
+    "atmospheric turbulence",
+    "cloud microphysics",
+    "surface radiative fluxes"
+  ],
+  "ml_methods": [
+    "Deep Neural Networks (DNN)",
+    "Variational Encoder Decoder (VED)",
+    "Monte Carlo Dropout",
+    "Multi-member ensemble",
+    "Latent space perturbation"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "Subgrid convective and turbulent processes, cloud condensate tendencies, and surface radiative fluxes from a cloud superparameterization",
+  "online_coupled": true,
+  "host_model": "CESM2 (SPCESM2 / CAM6 + CLM5)",
+  "code_availability": "https://doi.org/10.5281/zenodo.13748377 (GitHub: EyringMLClimateGroup/behrens24james_SPCESM2_ML_ensembles); coupler code at https://github.com/SciPritchardLab/CESM2-ML-coupler",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides open benchmark data sample on Zenodo, fully archived training/test runs, and open source code for offline and online coupled training of stochastic/multi-member neural network parameterizations in CESM2.",
+  "pain_points": [
+    "Fully coupled ML models suffered immediate stratospheric ice growth instability and radiation blowups within days.",
+    "Learning cloud condensate tendencies (liquid and ice water) is very inaccurate offline (R2 < 0.3) and destabilizes the climate model, necessitating a costly partial-coupling workaround where SP runs concurrently to handle condensates.",
+    "Partial coupling drastically increases computational expense, running slower than the original SP-CESM.",
+    "Monte Carlo Dropout severely underestimated spread and was strongly underdispersive.",
+    "Hybrid simulations developed severe thermodynamic biases (over 20 K stratospheric and Antarctic temperature bias, equatorial dry bias), causing ITCZ shift and weakening.",
+    "Sensitivity to simulation initialization dates causing initialization shocks."
+  ],
+  "extraction_notes": "The paper investigates three stochastic/ensemble deep learning methods (MC Dropout, Multi-Member DNNs, and Latent Space Perturbation in VEDs) to emulate a superparameterization in CESM2. Online simulation survived 5 months only using 'perfect condensate' partial coupling.",
+  "dataset_ids": [
+    "c0774f58a23e-01",
+    "c0774f58a23e-02",
+    "c0774f58a23e-03"
+  ]
+}

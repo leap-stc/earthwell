@@ -1,0 +1,66 @@
+{
+  "paper_id": "53e678284355",
+  "year": "3",
+  "filename": "ChaosBench_ A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "ChaosBench: A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction",
+  "authors": [
+    "Juan Nathaniel",
+    "Yongquan Qu",
+    "Tung Nguyen",
+    "Sungduk Yu",
+    "Julius Busecke",
+    "Aditya Grover",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "38th Conference on Neural Information Processing Systems (NeurIPS 2024) Track on Datasets and Benchmarks",
+  "doi_or_url": "https://arxiv.org/abs/2402.00712v5",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "climate_prediction",
+  "processes": [
+    "atmospheric dynamics",
+    "ocean-atmosphere coupling",
+    "land-atmosphere interaction",
+    "sea ice dynamics",
+    "subseasonal-to-seasonal variability"
+  ],
+  "ml_methods": [
+    "ViT/ClimaX",
+    "PanguWeather",
+    "GraphCast",
+    "FourCastNetV2",
+    "Lagged Autoencoder",
+    "ResNet-50",
+    "UNet",
+    "Fourier Neural Operator"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "forecasting",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/leap-stc/ChaosBench",
+  "testbed_candidate": true,
+  "testbed_rationale": "ChaosBench provides a fully standardized, multi-system (atmosphere, land, ocean, sea-ice), multi-decadal (45+ years) benchmark dataset specifically built for training and evaluating data-driven Earth system emulators and subseasonal forecasting models with clear scripts, HuggingFace dataset hosting, and operational NWP baselines.",
+  "pain_points": [
+    "Predictive skill collapse on S2S horizons: state-of-the-art deterministic weather models collapse to or perform worse than unskilled climatology beyond 15-20 days.",
+    "Error propagation in autoregressive rollout leads to rapid loss of multi-scale structure and high spectral divergence (blurring/smoothing).",
+    "Extreme computational expense and data storage constraints for multi-decadal multi-channel global Earth system data across 124 variables.",
+    "S2S scale sensitivity to both initial conditions and boundary conditions (ocean, ice, land interactions)."
+  ],
+  "extraction_notes": "ChaosBench is directly developed under LEAP STC (Award #2019625). It establishes benchmark datasets across ERA5, ORAS5, and LRA5 alongside operational S2S forecast database outputs from WWRP/WCRP/ECMWF.",
+  "dataset_ids": [
+    "53e678284355-01",
+    "53e678284355-02",
+    "53e678284355-03",
+    "53e678284355-04",
+    "53e678284355-05",
+    "53e678284355-06",
+    "53e678284355-07"
+  ]
+}

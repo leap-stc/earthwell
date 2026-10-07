@@ -1,0 +1,57 @@
+{
+  "paper_id": "2ae43c907021",
+  "year": "5",
+  "filename": "Task Aware Modulation Using Representation Learning for Upsaling of Terrestrial Carbon Fluxes.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Task Aware Modulation using Representation Learning for Upsaling of Terrestrial Carbon Fluxes",
+  "authors": [
+    "Aleksei Rozanov",
+    "Arvind Renganathan",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2026,
+  "venue": "KGML Bridge at AAAI 2026",
+  "doi_or_url": "https://arxiv.org/abs/2603.09974",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "biogeochemistry",
+  "processes": [
+    "terrestrial carbon fluxes",
+    "net ecosystem exchange (NEE)",
+    "gross primary production (GPP)",
+    "ecosystem respiration (RECO)",
+    "land-atmosphere carbon exchange"
+  ],
+  "ml_methods": [
+    "TAM-RL (Task-Aware Modulation with Representation Learning)",
+    "BiLSTM",
+    "LSTM",
+    "FiLM (Feature-wise Linear Modulation)",
+    "XGBoost",
+    "CT-LSTM"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study evaluates an upscaling framework across existing observational networks and remote sensing products, but does not provide a downloadable packaged ML benchmark dataset or public code repository.",
+  "pain_points": [
+    "Sparse and regionally biased distribution of eddy covariance tower measurements (concentrated in North America and Europe)",
+    "Poor generalization and high uncertainty when transferring ML models to unseen biomes, climates, and unobserved regions (covariate shift)",
+    "Context-dependency of flux-feature relationships across varying weather conditions",
+    "Differences in spatio-temporal resolution, noise characteristics, and coverage across input data modalities",
+    "Severe underperformance on underrepresented ecosystem types like water bodies (WAT) due to missing aquatic process variables"
+  ],
+  "extraction_notes": "Accepted to the non-archival KGML Bridge at AAAI 2026. The paper addresses terrestrial carbon flux upscaling formulated as a zero-shot domain generalization regression task, constrained by the carbon balance equation.",
+  "dataset_ids": [
+    "2ae43c907021-01",
+    "2ae43c907021-02",
+    "2ae43c907021-03",
+    "2ae43c907021-04"
+  ]
+}

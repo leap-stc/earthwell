@@ -1,0 +1,53 @@
+{
+  "paper_id": "cf1ecb7fdfda",
+  "year": "2",
+  "filename": "Hybrid modeling of evapotranspiration_ inferring stomatal and aerodynamic resistances using combined physics-based and machine learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Hybrid modeling of evapotranspiration: inferring stomatal and aerodynamic resistances using combined physics-based and machine learning",
+  "authors": [
+    "Reda ElGhawi",
+    "Basil Kraft",
+    "Christian Reimers",
+    "Markus Reichstein",
+    "Marco Körner",
+    "Pierre Gentine",
+    "Alexander J Winkler"
+  ],
+  "pub_year": 2023,
+  "venue": "Environmental Research Letters",
+  "doi_or_url": "https://doi.org/10.1088/1748-9326/acbbe0",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "biogeosciences",
+  "processes": [
+    "evapotranspiration",
+    "latent heat flux",
+    "sensible heat flux",
+    "stomatal resistance",
+    "aerodynamic resistance",
+    "surface energy balance"
+  ],
+  "ml_methods": [
+    "Feed-forward neural network (FNN)",
+    "Multi-task learning"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "surface resistance (rs) and aerodynamic resistance (ra) within Penman–Monteith equation for latent heat flux (QLE) and sensible heat flux (QH)",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Processed data and analysis scripts are available from the corresponding author upon request, and the repository will be published together with this article. Data are openly available at 10.5281/zenodo.7078500.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses publicly accessible benchmark eddy covariance site data via Zenodo and demonstrates hybrid parameterization learning for intermediate land-surface resistances (rs and ra) embedded in physical flux equations.",
+  "pain_points": [
+    "Equifinality/non-uniqueness when inferring multiple latent intermediate resistances simultaneously from a single target flux (QLE)",
+    "Physically implausible or uninterpretable intermediate variables when models are under-constrained",
+    "Energy balance closure problem in eddy covariance observations requiring correction filters and screening",
+    "Instability and observational noise amplification when inverting physical equations directly"
+  ],
+  "extraction_notes": "The paper uses the Penman-Monteith framework coupled with neural networks that estimate intermediate resistance variables. Two regularization approaches (theory-driven a priori constraint on aerodynamic resistance and data-driven multi-task learning predicting both QLE and QH) successfully resolve equifinality.",
+  "dataset_ids": [
+    "cf1ecb7fdfda-01"
+  ]
+}

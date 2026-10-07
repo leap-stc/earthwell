@@ -1,0 +1,41 @@
+{
+  "paper_id": "16edc9d81da1",
+  "year": "4",
+  "filename": "Intermediate Machine Learning in Python for Environmental Science Problems 2025.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Intermediate Machine Learning in Python for Environmental Science Problems 2025",
+  "authors": [
+    "Evan Krell",
+    "Praveen Singh",
+    "Brian Colburn"
+  ],
+  "pub_year": 2025,
+  "venue": "105th AMS Annual Meeting Short Course",
+  "doi_or_url": "https://www.ametsoc.org/ams/education-careers/careers/professional-development/short-courses/intermediate-machine-learning-in-python-for-environmental-science-problems-2025/",
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "other",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "interpretability_xai",
+    "forecasting",
+    "classification_detection",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a short course announcement/syllabus description, not a research study, and provides no specific benchmark datasets or parameterization models.",
+  "pain_points": [
+    "Highly imbalanced datasets and rare event prediction",
+    "Hyperparameter tuning sensitivity and computational expense of grid search",
+    "Inadequacy of standard evaluation metrics (accuracy, MSE) for extreme/critical meteorological events",
+    "Choosing appropriate custom loss functions",
+    "Pitfalls and misinterpretations in Explainable AI (XAI)"
+  ],
+  "extraction_notes": "Document is an informational webpage/announcement for an AMS short course held on January 12, 2025. No specific datasets, source code links, or specific ML model architectures (beyond TensorFlow usage and general techniques like synthetic minority oversampling and XAI) are detailed.",
+  "dataset_ids": []
+}

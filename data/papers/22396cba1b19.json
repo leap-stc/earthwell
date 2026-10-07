@@ -1,0 +1,62 @@
+{
+  "paper_id": "22396cba1b19",
+  "year": "4",
+  "filename": "Distilling Machine Learning’s Added Value_ Pareto Fronts in Atmospheric Applications.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Distilling Machine Learning’s Added Value: Pareto Fronts in Atmospheric Applications",
+  "authors": [
+    "Tom Beucler",
+    "Arthur Grundner",
+    "Sara Shamekh",
+    "Peter Ukkonen",
+    "Matthew Chantry",
+    "Ryan Lagerquist"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2408.02161",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Physics / Climate Modeling",
+  "processes": [
+    "cloud cover",
+    "shortwave radiative transfer",
+    "convective organization",
+    "tropical precipitation"
+  ],
+  "ml_methods": [
+    "symbolic regression",
+    "genetic programming",
+    "multilayer perceptron",
+    "convolutional neural networks",
+    "U-Net",
+    "U-Net++",
+    "bidirectional recurrent neural network",
+    "encoder-decoder",
+    "linear regression",
+    "polynomial regression"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "equation_discovery",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "Cloud cover, shortwave heating rate, and tropical precipitation rate",
+  "online_coupled": false,
+  "host_model": "ICON, GFS v16, SAM",
+  "code_availability": "Scripts and reduced data to reproduce figures: https://github.com/tbeucler/2024_Pareto_Distillation archived at https://doi.org/10.5281/zenodo.13217736. Cloud cover analysis and schemes: https://github.com/EyringMLClimateGroup/grundner23james_EquationDiscovery_CloudCover archived at https://doi.org/10.5281/zenodo.8220333. Radiative transfer code: ml4rt v4.0.1 at https://doi.org/10.5281/zenodo.13160776 and https://github.com/thunderhoser/ml4rt. Precipitation code: https://github.com/Sshamekh/Precip-org.",
+  "testbed_candidate": true,
+  "testbed_rationale": "The datasets and code for cloud cover parameterization, radiative transfer emulation, and convective precipitation parameterization are publicly accessible on Zenodo and GitHub, providing direct benchmarks for Pareto-optimal atmospheric ML models.",
+  "pain_points": [
+    "Full coarse-grained DYAMOND simulation output is multi-terabyte in size and hosted on HPC (DKRZ), requiring scripts to reconstruct from source files.",
+    "Non-local vertical connectivity or high-resolution spatial processing increases model complexity and computational footprint significantly compared to simpler distilled equations or recurrent architectures.",
+    "Temporal memory can partially compensate for the loss of subgrid convective organization in parameterizations, but error accumulation in coupled/online settings remains an open question."
+  ],
+  "extraction_notes": "The paper provides three distinct case studies to illustrate Pareto-optimal model hierarchies for atmospheric processes: cloud cover parameterization (distilled via symbolic regression), shortwave radiative transfer emulation (distilled via bidirectional RNN), and tropical convective precipitation (distilled via temporal memory models).",
+  "dataset_ids": [
+    "22396cba1b19-01",
+    "22396cba1b19-02",
+    "22396cba1b19-03"
+  ]
+}

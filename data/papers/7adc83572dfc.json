@@ -1,0 +1,56 @@
+{
+  "paper_id": "7adc83572dfc",
+  "year": "2",
+  "filename": "Machine-learned Cloud Classes from Satellite data for Process-oriented Climate Model Evaluation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Machine-learned Cloud Classes from Satellite data for Process-oriented Climate Model Evaluation",
+  "authors": [
+    "Arndt Kaps",
+    "Axel Lauer",
+    "Gustau Camps-Valls",
+    "Pierre Gentine",
+    "Luis Gómez-Chova",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2022,
+  "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+  "doi_or_url": "https://doi.org/10.5281/zenodo.7248773",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "cloud_physics",
+  "processes": [
+    "cloud classification",
+    "cloud microphysics",
+    "convection",
+    "cloud radiative effects"
+  ],
+  "ml_methods": [
+    "Invertible Residual Network (IResNet)",
+    "Random Forest"
+  ],
+  "ml_tasks": [
+    "classification_detection",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "github.com/EyringMLClimateGroup/kaps22tgrs_ml_cloud_eval or via DOI:10.5281/zenodo.7248773",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops a diagnostic framework for process-oriented climate model evaluation of cloud types rather than a training benchmark dataset or testbed for building ML parameterizations.",
+  "pain_points": [
+    "Severe class imbalance in satellite cloud types (e.g., very few Stratus and Deep Convection samples; Cumulus and Cirrus underestimated).",
+    "Standard climate model output (e.g., CMIP6) typically lacks instantaneous values and key cloud optical/microphysical variables (e.g., cloud optical thickness, liquid and ice effective radii).",
+    "Model performance breaks down when applied to temporally averaged (e.g., monthly mean) data instead of instantaneous/near-instantaneous data.",
+    "Distinguishing Stratus from Stratocumulus is difficult due to sensor footprint limitations and similar physical characteristics.",
+    "Passive sensor satellite retrievals have high uncertainties in high-latitude/polar regions (e.g., Greenland, Antarctica) and difficulty assessing thermodynamic phase in mixed-phase clouds.",
+    "Scaling Random Forests to hundreds of millions of samples requires heavy subsampling due to memory constraints; CNN replacements failed to converge."
+  ],
+  "extraction_notes": "The primary ML task involves pixel-level classification (IResNet semisupervised CNN) followed by coarse-resolution multivariate fractional regression (Random Forest) predicting 9-class fractional distributions (8 WMO cloud types plus undetermined/clear-sky).",
+  "dataset_ids": [
+    "7adc83572dfc-01",
+    "7adc83572dfc-02",
+    "7adc83572dfc-03",
+    "7adc83572dfc-04"
+  ]
+}

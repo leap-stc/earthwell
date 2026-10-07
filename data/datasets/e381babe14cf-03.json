@@ -1,0 +1,19 @@
+{
+  "dataset_id": "e381babe14cf-03",
+  "paper_id": "e381babe14cf",
+  "name": "Two-layer quasi-geostrophic channel turbulence simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "pyqg",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "250 independent runs of 10 simulation years sampled every 1,000 hours",
+  "size_gb_estimate": null,
+  "resolution": "256x256 high-resolution grid coarse-grained to 64x64",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

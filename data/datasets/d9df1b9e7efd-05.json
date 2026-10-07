@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d9df1b9e7efd-05",
+  "paper_id": "d9df1b9e7efd",
+  "name": "US Bureau of Labor Statistics Consumer Price Index for All Urban Consumers (CPI-U)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1978 to 2024",
+  "produced_in_this_study": false,
+  "access": "CPI-U time series are provided by the US Bureau of Labor Statistics for inflation adjustment.",
+  "access_kind": "public_url_or_doi"
+}

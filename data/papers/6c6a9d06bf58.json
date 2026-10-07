@@ -1,0 +1,42 @@
+{
+  "paper_id": "6c6a9d06bf58",
+  "year": "5",
+  "filename": "Parameterizing the Impact of Subgrid-Scale Air-Sea Heat Fluxes in Climate Models Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Parameterizing the Impact of Subgrid-Scale Air-Sea Heat Fluxes in Climate Models",
+  "authors": [
+    "Prani Nalluri",
+    "Dhruv Balwada"
+  ],
+  "pub_year": 2026,
+  "venue": "The Ocean Sciences Meeting (OSM) 2026",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2026AGUOSMAI33A.07N/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Oceanography / Climate Modeling",
+  "processes": [
+    "air-sea turbulent heat fluxes",
+    "subgrid-scale heat fluxes",
+    "air-sea interaction"
+  ],
+  "ml_methods": [
+    "CNN"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "Subgrid turbulent air-sea heat flux contribution",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct dataset access links or complete dataset specification.",
+  "pain_points": [
+    "Coarse-resolution climate models do not resolve mesoscale and submesoscale variability, causing systematic biases in bulk-formula air-sea turbulent heat fluxes",
+    "Limited details available in conference abstract"
+  ],
+  "extraction_notes": "Short conference abstract from Ocean Sciences Meeting 2026. The exact underlying dataset/simulation used to derive subgrid fluxes and inputs is not detailed in the text.",
+  "dataset_ids": [
+    "6c6a9d06bf58-01"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "db84b215c346-04",
+  "paper_id": "db84b215c346",
+  "name": "Monte Carlo ray tracer 1D and 3D surface flux dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GPU-enabled Monte Carlo ray tracer (Veerman et al. 2022 / rte-rrtmgp-cpp)",
+  "scale": "LES",
+  "data_types": [
+    "tabular",
+    "spatial_2d"
+  ],
+  "size_as_stated": "9,348 paired 1D and 3D estimates of surface flux across 228 unique cloud scenes",
+  "size_gb_estimate": null,
+  "resolution": "128 samples per top-of-domain pixel; solar zenith angles 0 to 80 deg in 10 deg increments; azimuth angles spaced by 72 deg",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.18164866",
+  "access_kind": "public_url_or_doi"
+}

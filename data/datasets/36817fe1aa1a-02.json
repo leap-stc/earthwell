@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36817fe1aa1a-02",
+  "paper_id": "36817fe1aa1a",
+  "name": "2D Kolmogorov Flow simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Incompressible Navier-Stokes solver",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "Trajectories contain 64 states for training and 180 states for validation and test, represented on a 64 x 64 grid with Δτ = 0.2",
+  "size_gb_estimate": null,
+  "resolution": "64 x 64 grid, dt=0.2",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

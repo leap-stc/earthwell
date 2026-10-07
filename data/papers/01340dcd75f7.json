@@ -1,0 +1,53 @@
+{
+  "paper_id": "01340dcd75f7",
+  "year": "3",
+  "filename": "Classification of Cloud Particle Imagery Using Variational Autoencoders and Unsupervised Clustering.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Classification of Cloud Particle Imagery Using Variational Autoencoders and Unsupervised Clustering",
+  "authors": [
+    "Joseph Ko",
+    "Kara J. Sulia",
+    "Vanessa Przybylo",
+    "Marcus van Lier-Walqui",
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2024,
+  "venue": "104th Annual AMS Meeting",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AMS...10432580K/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "cloud microphysics",
+    "ice crystal habit",
+    "ice cloud dynamics",
+    "radiation interactions"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder (VAE)",
+    "k-means",
+    "Gaussian mixture models",
+    "Hierarchical clustering",
+    "Convolutional Neural Networks (CNN)"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "classification_detection"
+  ],
+  "parameterization_target": "ice crystal habit / cloud microphysics",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without concrete data links, code links, or readily usable parameterization benchmarks.",
+  "pain_points": [
+    "Scale disparities between microphysical processes and model grid resolution",
+    "Incomplete understanding and representation of ice crystal shapes (habits) in microphysics schemes",
+    "Vast datasets of millions of CPI images from airborne campaigns have seen limited analyses due to labeling and processing bottlenecks",
+    "Supervised learning requires costly manual labeling, motivating unsupervised VAE and clustering approaches"
+  ],
+  "extraction_notes": "Short conference abstract from the 104th AMS Annual Meeting (Baltimore, MD, 2024). Details on dataset access and software repository are not provided in the abstract.",
+  "dataset_ids": [
+    "01340dcd75f7-01"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "74b02ecb7bd9-01",
+  "paper_id": "74b02ecb7bd9",
+  "name": "Catchment Attributes and Meteorology for Large-sample Studies (CAMELS)",
+  "role": "reference_only",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Catchment-scale daily meteorological and streamflow data across the contiguous United States",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

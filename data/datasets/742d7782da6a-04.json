@@ -1,0 +1,18 @@
+{
+  "dataset_id": "742d7782da6a-04",
+  "paper_id": "742d7782da6a",
+  "name": "Global Precipitation Climatology Project (GPCP) v2.3",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPCP monthly analysis v2.3",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Adler et al. (2018)",
+  "access_kind": "public_url_or_doi"
+}

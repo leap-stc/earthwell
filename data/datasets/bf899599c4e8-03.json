@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bf899599c4e8-03",
+  "paper_id": "bf899599c4e8",
+  "name": "NOAA OISSTv2 Sea Surface Temperature and Ice Fraction",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA Optimally Interpolated SST v2",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1°, monthly",
+  "produced_in_this_study": false,
+  "access": "https://www.esrl.noaa.gov/psd/data/gridded/data.noaa.oisst.v2.html",
+  "access_kind": "public_url_or_doi"
+}

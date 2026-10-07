@@ -1,0 +1,18 @@
+{
+  "dataset_id": "778b60ffcdee-03",
+  "paper_id": "778b60ffcdee",
+  "name": "CGILS LES intercomparison baseline and single-LES CCF sensitivity data",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "Large Eddy Simulation (SAM LES / CGILS)",
+  "scale": "LES",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Horizontal 25–50 m, vertical 5 m near inversion",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

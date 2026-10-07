@@ -1,0 +1,50 @@
+{
+  "paper_id": "9c3dd19f000c",
+  "year": "5",
+  "filename": "Generative Uncertainty in Diffusion Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Generative Uncertainty in Diffusion Models",
+  "authors": [
+    "Metod Jazbec",
+    "Eliot Wong-Toi",
+    "Guoxuan Xia",
+    "Dan Zhang",
+    "Eric Nalisnick",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2025,
+  "venue": "41st Conference on Uncertainty in Artificial Intelligence (UAI 2025)",
+  "doi_or_url": "https://arxiv.org/abs/2502.20946",
+  "doc_kind": "conference_paper",
+  "in_scope": false,
+  "research_field": "Computer Vision / Machine Learning",
+  "processes": [],
+  "ml_methods": [
+    "Diffusion models",
+    "Flow matching",
+    "Laplace approximation",
+    "Bayesian neural networks",
+    "Deep ensembles",
+    "Vision Transformer (ViT / UViT / DiT)",
+    "CLIP encoder"
+  ],
+  "ml_tasks": [
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/metodj/DIFF-UQ",
+  "testbed_candidate": false,
+  "testbed_rationale": "Computer vision / general ML methodology paper evaluating generative diffusion uncertainty on 2D toy Gaussians and ImageNet; not related to Earth or climate physical parameterization or emulation.",
+  "pain_points": [
+    "Sampling overhead of Bayesian inference in high-dimensional diffusion models (mitigated using reduced Monte Carlo samples and reduced steps)",
+    "High dimensionality of sample spaces makes standard pixel-space likelihoods overly sensitive to background noise/clutter rather than semantic quality",
+    "Trade-off between filtering out poor-quality samples (improving precision) and losing diversity (reducing recall)"
+  ],
+  "extraction_notes": "The paper is supported in part by the NSF LEAP Center (acknowledged by author S.M.), but the paper itself focuses strictly on computer vision and machine learning (evaluating on ImageNet and 2D toy modes) without Earth or climate science application.",
+  "dataset_ids": [
+    "9c3dd19f000c-01",
+    "9c3dd19f000c-02"
+  ]
+}

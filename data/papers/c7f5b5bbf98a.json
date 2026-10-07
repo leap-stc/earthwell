@@ -1,0 +1,29 @@
+{
+  "paper_id": "c7f5b5bbf98a",
+  "year": "1",
+  "filename": "Congruence Between Leadership Gender and Organizational Claims Affects the Gender Composition of the Applicant Pool- Field Experimental Evidence.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Congruence between Leadership Gender and Organizational Claims Affects the Gender Composition of the Applicant Pool: Field Experimental Evidence",
+  "authors": [
+    "Mabel Abraham",
+    "Vanessa Burbano"
+  ],
+  "pub_year": null,
+  "venue": "Organization Science",
+  "doi_or_url": "https://ssrn.com/abstract=3405693",
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "other",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Out of scope. The paper investigates organizational behavior, workplace gender segregation, and field experimental applicant sorting, containing no Earth system, climate, or physics parameterization content.",
+  "pain_points": [],
+  "extraction_notes": "The document is entirely out of scope for the LEAP Earth Well benchmark catalog.",
+  "dataset_ids": []
+}

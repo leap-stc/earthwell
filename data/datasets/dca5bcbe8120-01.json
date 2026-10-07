@@ -1,0 +1,18 @@
+{
+  "dataset_id": "dca5bcbe8120-01",
+  "paper_id": "dca5bcbe8120",
+  "name": "CESM2 CAM6 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2 CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "262 ensemble members",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

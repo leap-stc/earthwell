@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0ab262982a54-01",
+  "paper_id": "0ab262982a54",
+  "name": "SPCAM aquaplanet simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM v3.0 (embedded 2D CRM)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "around 140 million training samples",
+  "size_gb_estimate": null,
+  "resolution": "GCM: ~2 degrees horizontal, 30 vertical levels, 30 min time step; CRM: 8 columns x 4 km, 20 s time step",
+  "produced_in_this_study": true,
+  "access": "https://gitlab.com/mspritch/spcam3.0-neural-net",
+  "access_kind": "public_url_or_doi"
+}

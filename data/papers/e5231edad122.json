@@ -1,0 +1,63 @@
+{
+  "paper_id": "e5231edad122",
+  "year": "3",
+  "filename": "A review of recent advances in urban flood research.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A review of recent advances in urban flood research",
+  "authors": [
+    "Candace Agonafir",
+    "Tarendra Lakhankar",
+    "Reza Khanbilvardi",
+    "Nir Krakauer",
+    "Dave Radell",
+    "Naresh Devineni"
+  ],
+  "pub_year": 2023,
+  "venue": "Water Security",
+  "doi_or_url": "https://doi.org/10.1016/j.wasec.2023.100141",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "urban pluvial flooding",
+    "surface runoff",
+    "drainage and sewer surcharge",
+    "overland flow",
+    "catch basin clogging",
+    "storm surge and sea level rise interaction"
+  ],
+  "ml_methods": [
+    "ANN",
+    "CNN",
+    "FNN",
+    "RNN",
+    "Decision Tree",
+    "Random Forest",
+    "CART",
+    "Naive Bayes",
+    "Reduced Error Pruning",
+    "Logistic Model Trees",
+    "Alternating Decision Trees",
+    "Support Vector Machine"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "emulation",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a review article and does not generate or provide any original dataset or benchmark.",
+  "pain_points": [
+    "Lack of detailed and accessible underground sewer network and drainage infrastructure data (due to age or security concerns)",
+    "High computational cost and long runtimes of 2D/shallow water equation hydraulic models",
+    "Inadequate spatial resolution in rain gauge networks for urban catchments",
+    "AI/ML models are constrained by limited availability of long, accurate historical training records, especially in simulating unprecedented extreme events",
+    "Mapped flood inundation observations are sparse in urban areas"
+  ],
+  "extraction_notes": "The paper explicitly states under Data availability: 'No data was used for the research described in the article.' Hence, no datasets are listed. First author Candace Agonafir is affiliated with LEAP (Learning the Earth with Artificial Intelligence and Physics).",
+  "dataset_ids": []
+}

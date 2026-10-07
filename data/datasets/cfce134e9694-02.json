@@ -1,0 +1,20 @@
+{
+  "dataset_id": "cfce134e9694-02",
+  "paper_id": "cfce134e9694",
+  "name": "CAM5 +8K Prescribed SST Simulation Dataset",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2.1.3 CAM5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d",
+    "tabular"
+  ],
+  "size_as_stated": "1 year of simulation (February 1st 2003 to January 31st 2004)",
+  "size_gb_estimate": null,
+  "resolution": "1.9° x 2.5° finite-volume dynamical core (96 x 144 grid cells), 26 vertical levels, 30 min ESM timestep (subsampled by factor of 2)",
+  "produced_in_this_study": true,
+  "access": "https://github.com/bhouri0412/MF_RPN_SPCAM_cv_param",
+  "access_kind": "public_url_or_doi"
+}

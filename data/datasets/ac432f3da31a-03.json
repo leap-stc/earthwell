@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ac432f3da31a-03",
+  "paper_id": "ac432f3da31a",
+  "name": "CAM6 aerosol forcing simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

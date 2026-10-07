@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bf899599c4e8-10",
+  "paper_id": "bf899599c4e8",
+  "name": "BATS and HOT time-series",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Hydrostation S/BATS and ALOHA/HOT bottle measurements (DIC and TA)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "BATS: 246 grid points, HOT: 214 grid points",
+  "size_gb_estimate": null,
+  "resolution": "Monthly / point timeseries",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

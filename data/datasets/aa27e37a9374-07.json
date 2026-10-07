@@ -1,0 +1,19 @@
+{
+  "dataset_id": "aa27e37a9374-07",
+  "paper_id": "aa27e37a9374",
+  "name": "Bootstrapped NFIP state and national pool balance simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NFIP Risk Pooling Simulator",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "1,000 simulations of 100 y each",
+  "size_gb_estimate": null,
+  "resolution": "Annual by state and CONUS",
+  "produced_in_this_study": true,
+  "access": "https://github.com/adamnayak/Risk_Pooling",
+  "access_kind": "public_url_or_doi"
+}

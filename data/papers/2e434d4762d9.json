@@ -1,0 +1,62 @@
+{
+  "paper_id": "2e434d4762d9",
+  "year": "2",
+  "filename": "SMLFire1.0_ a stochastic machine learning (SML) model for wildfire activity in the western United States.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "SMLFire1.0: a stochastic machine learning (SML) model for wildfire activity in the western United States",
+  "authors": [
+    "Jatan Buch",
+    "A. Park Williams",
+    "Caroline S. Juang",
+    "Winslow D. Hansen",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Geoscientific Model Development",
+  "doi_or_url": "https://doi.org/10.5194/gmd-16-3407-2023",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "wildfire / land-climate interactions",
+  "processes": [
+    "wildfire occurrence and frequency",
+    "wildfire burned area and size distribution",
+    "fuel moisture and fire weather dynamics"
+  ],
+  "ml_methods": [
+    "mixture density networks",
+    "feedforward neural networks",
+    "spline regression",
+    "SHapley Additive exPlanations"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "subgrid wildfire frequency and burned area / fire size distributions",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The code for training and validating the SMLFire1.0 model, as well as reproducing the figures shown in this paper, is available at https://doi.org/10.5281/zenodo.7277980 (Buch et al., 2022). The WUMI dataset (Juang et al., 2022) contains all the fire occurrences and sizes analyzed in this paper and is hosted at https://doi.org/10.5061/dryad.sf7m0cg72 (Juang and Williams, 2022).",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study provides fully public model code on Zenodo and an open dataset of historical wildfires on Dryad, designed explicitly to serve as a subgrid parameterization for fire modules in dynamic global vegetation models and Earth system models.",
+  "pain_points": [
+    "Severe data class imbalance: non-fire grid cells vastly outnumber cells with observed fires (~10 million vs ~17,500), requiring downsampling and spline calibration to curb false positives.",
+    "Heavy-tailed extreme value distributions: lognormal distributions underpredict extremes; generalized Pareto distributions with infinite variance are required.",
+    "Nonstationarity and regime shift: fire size responses shifted drastically post-2004, requiring a manual breakpoint to combine two GPD models.",
+    "Underprediction of record-breaking extreme wildfire years (e.g., 2020 forest fire sizes substantially exceeded the 1984-2019 training regime).",
+    "Data quality/reporting gaps: post-2017 federal agency reporting underrepresents smaller fires (< 4 km^2) outside California."
+  ],
+  "extraction_notes": "SMLFire1.0 is targeted for subgrid parameterization inside DGVMs and ESMs, though evaluated offline in this study. The research is supported by the NSF LEAP Science and Technology Center (grant no. 2019625).",
+  "dataset_ids": [
+    "2e434d4762d9-01",
+    "2e434d4762d9-02",
+    "2e434d4762d9-03",
+    "2e434d4762d9-04",
+    "2e434d4762d9-05",
+    "2e434d4762d9-06",
+    "2e434d4762d9-07",
+    "2e434d4762d9-08",
+    "2e434d4762d9-09",
+    "2e434d4762d9-10"
+  ]
+}

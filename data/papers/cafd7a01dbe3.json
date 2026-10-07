@@ -1,0 +1,34 @@
+{
+  "paper_id": "cafd7a01dbe3",
+  "year": "5",
+  "filename": "AI Digital Twin of the Climate System Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "AI Digital Twin of the Climate System",
+  "authors": [
+    "Elizabeth Barnes",
+    "Laure Zanna"
+  ],
+  "pub_year": 2024,
+  "venue": "NVIDIA GTC",
+  "doi_or_url": "https://www.nvidia.com/en-us/on-demand/session/gtc26-s81763/",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Climate Modeling",
+  "processes": [
+    "climate dynamics",
+    "Earth system interactions"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a conference presentation abstract/landing page with no concrete dataset or evaluation benchmark provided.",
+  "pain_points": [],
+  "extraction_notes": "Webpage transcript/summary printout for NVIDIA GTC session S81763. Only an incomplete summary is visible; no specific ML architectures, code, or datasets are named.",
+  "dataset_ids": []
+}

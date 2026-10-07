@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2869e5f2ad35-02",
+  "paper_id": "2869e5f2ad35",
+  "name": "Taupo Pumice Fall isopach dataset",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "5 isopachs",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Walker, 1980; Pyle 1989; Bonadonna and Costa, 2012",
+  "access_kind": "public_url_or_doi"
+}

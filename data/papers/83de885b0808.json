@@ -1,0 +1,42 @@
+{
+  "paper_id": "83de885b0808",
+  "year": "5",
+  "filename": "The opportunity cost of 2023 Canadian wildfires Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The opportunity cost of 2023 Canadian wildfires",
+  "authors": [
+    "Shengjie Liu",
+    "Brycen Lynch",
+    "Kaleb Florence",
+    "Ensheng Weng"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1974812",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "carbon_cycle",
+  "processes": [
+    "wildfire emissions",
+    "gross primary production",
+    "carbon cycle",
+    "terrestrial carbon sink"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a short conference abstract describing observational accounting of wildfire carbon loss and post-fire GPP reduction; it does not produce or provide an ML parameterization or ML-ready dataset.",
+  "pain_points": [
+    "Lack of detailed data specifications or algorithm description in the conference abstract"
+  ],
+  "extraction_notes": "The abstract mentions using satellite data to identify burned areas and quantify gross primary production (GPP) changes following the 2023 Canadian wildfires, but does not explicitly name any machine learning algorithms or specific satellite products.",
+  "dataset_ids": [
+    "83de885b0808-01"
+  ]
+}

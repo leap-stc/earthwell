@@ -1,0 +1,53 @@
+{
+  "paper_id": "f54411021def",
+  "year": "3",
+  "filename": "How well do concentric radii approximate population exposure to volcanic hazards_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "How well do concentric radii approximate population exposure to volcanic hazards?",
+  "authors": [
+    "Sébastien Biass",
+    "Susanna F. Jenkins",
+    "Josh L. Hayes",
+    "George T. Williams",
+    "Elinor S. Meredith",
+    "Eleanor Tennant",
+    "Qingyuan Yang",
+    "Geoffrey A. Lerner",
+    "Vanesa Burgos",
+    "Magfira Syarifuddin",
+    "Andrea Verolino"
+  ],
+  "pub_year": 2024,
+  "venue": "Bulletin of Volcanology",
+  "doi_or_url": "https://doi.org/10.1007/s00445-023-01686-5",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "volcanology",
+  "processes": [
+    "tephra fallout",
+    "pyroclastic density currents (PDC)",
+    "ballistic large clast ejection",
+    "volcanic hazard exposure"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "VolcGIS (v1.0) is available on Zenodo at https://doi.org/10.5281/zenodo.6416793",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study evaluates concentric buffer radii versus numerical/probabilistic hazard models for population exposure to volcanic hazards; it does not develop, train, or evaluate machine learning parameterizations or emulators.",
+  "pain_points": [
+    "Concentric radii assume uniform radial spread and ignore hazard directionality governed by wind and topography.",
+    "Circular radii often overestimate exposure by orders of magnitude for directional flows (like dome-collapse PDCs) while underestimating long-range tephra fall.",
+    "Lack of standardized, computationally feasible global probabilistic hazard models."
+  ],
+  "extraction_notes": "Author Qingyuan Yang is affiliated with the NSF LEAP Center. The paper itself uses no ML techniques, focusing instead on comparing existing physical and probabilistic hazard footprints against simple circular radius exposure metrics.",
+  "dataset_ids": [
+    "f54411021def-01",
+    "f54411021def-02",
+    "f54411021def-03"
+  ]
+}

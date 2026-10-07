@@ -1,0 +1,58 @@
+{
+  "paper_id": "8d3638a0d126",
+  "year": "4",
+  "filename": "Land processes can substantially impact the mean climate state.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Land Processes Can Substantially Impact the Mean Climate State",
+  "authors": [
+    "Claire M. Zarakas",
+    "Daniel Kennedy",
+    "Katherine Dagon",
+    "David M. Lawrence",
+    "Amy Liu",
+    "Gordon Bonan",
+    "Charles Koven",
+    "Danica Lombardozzi",
+    "Abigail L. S. Swann"
+  ],
+  "pub_year": 2024,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2024GL108372",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_dynamics",
+  "processes": [
+    "evapotranspiration",
+    "soil hydrology",
+    "stomatal conductance",
+    "plant water use",
+    "photosynthesis",
+    "land-atmosphere interaction",
+    "snow albedo",
+    "boundary layer turbulence"
+  ],
+  "ml_methods": [
+    "empirical orthogonal functions",
+    "multiple linear regression"
+  ],
+  "ml_tasks": [
+    "uncertainty_quantification",
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "CESM2",
+  "code_availability": "https://github.com/djk2120/clm5ppe",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a 36-member perturbed parameter ensemble of 140-year coupled CESM2 simulations (and land-only equivalents) publicly archived on Dryad, highly suitable for training/evaluating land-atmosphere climate emulators.",
+  "pain_points": [
+    "High computational cost of running dynamic coupled simulations compared to land-only simulations",
+    "Internal climate variability requiring long multi-decadal spin-up (40 years) and runtimes (140 years) to detect parametric signals",
+    "Difficulty in disentangling coupled feedbacks when multiple land surface properties (albedo, evaporative resistance, roughness) covary simultaneously"
+  ],
+  "extraction_notes": "The paper does not develop deep learning or machine learning parameterizations directly, but uses statistical analysis (EOF decomposition and MLR) on perturbed parameter ensembles (PPE), and the data produced is publicly available on Dryad.",
+  "dataset_ids": [
+    "8d3638a0d126-01",
+    "8d3638a0d126-02"
+  ]
+}

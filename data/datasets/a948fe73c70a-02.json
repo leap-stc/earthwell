@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a948fe73c70a-02",
+  "paper_id": "a948fe73c70a",
+  "name": "Synthetic levitation diffusion chamber dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Capacitance ODE model with Nelson and Baker (1996) parameterization and SSA noise",
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "290 mass ratios of ice crystals",
+  "size_gb_estimate": null,
+  "resolution": "1 Hz, up to 500 s",
+  "produced_in_this_study": true,
+  "access": "https://github.com/kdlamb/IceNODE",
+  "access_kind": "public_url_or_doi"
+}

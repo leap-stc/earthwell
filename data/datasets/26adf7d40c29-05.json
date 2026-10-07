@@ -1,0 +1,18 @@
+{
+  "dataset_id": "26adf7d40c29-05",
+  "paper_id": "26adf7d40c29",
+  "name": "UCLA ERA5-WRF reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "WRF4 driven by ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily, aggregated to monthly extreme statistics at 12 km x 12 km",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

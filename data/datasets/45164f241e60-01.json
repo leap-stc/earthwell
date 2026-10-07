@@ -1,0 +1,19 @@
+{
+  "dataset_id": "45164f241e60-01",
+  "paper_id": "45164f241e60",
+  "name": "CLM6 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": "1500 ensemble members",
+  "size_gb_estimate": null,
+  "resolution": "sparse grid using clustering (14x faster than equivalent 2deg model)",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

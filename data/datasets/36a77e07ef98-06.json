@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36a77e07ef98-06",
+  "paper_id": "36a77e07ef98",
+  "name": "Exchange Rate",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "8 countries, 1990 to 2010",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

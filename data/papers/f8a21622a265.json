@@ -1,0 +1,52 @@
+{
+  "paper_id": "f8a21622a265",
+  "year": "5",
+  "filename": "PnP-DA_ Towards Principled Plug-and-Play Integration of Variational Data Assimilation and Generative Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "PnP-DA: Towards Principled Plug-and-Play Integration of Variational Data Assimilation and Generative Models",
+  "authors": [
+    "Yongquan Qu",
+    "Matthieu Blanke",
+    "Sara Shamekh",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2508.00325",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_weather_data_assimilation",
+  "processes": [
+    "chaotic advection",
+    "atmospheric dynamics",
+    "thermal convection",
+    "dissipative spatiotemporal chaos"
+  ],
+  "ml_methods": [
+    "Flow Matching",
+    "Optimal Transport Bayesian Flow Matching",
+    "Multilayer Perceptron",
+    "Plug-and-Play (PnP)"
+  ],
+  "ml_tasks": [
+    "data_assimilation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper focuses on data assimilation algorithms evaluated on low-dimensional/idealized chaotic testbeds (Lorenz 63, Lorenz 96, and 1D Kuramoto-Sivashinsky) rather than climate parameterization datasets, and data/code links are not provided.",
+  "pain_points": [
+    "Non-Gaussian, state-dependent error statistics in chaotic dynamical systems violate classical Gaussian error assumptions in variational DA (3D-Var/4D-Var).",
+    "Intractable Jacobian log-determinant when changing measure in deep generative latent spaces.",
+    "Expensive and numerically unstable gradient backpropagation through complex deep neural networks during iterative assimilation optimization.",
+    "Reconstruction errors introduced when projecting back from latent spaces."
+  ],
+  "extraction_notes": "The paper introduces PnP-DA which integrates optimal transport Bayesian flow-matching priors into variational data assimilation without backpropagating gradients through the neural network. Evaluated purely on standard idealized dynamical toy models.",
+  "dataset_ids": [
+    "f8a21622a265-01",
+    "f8a21622a265-02",
+    "f8a21622a265-03"
+  ]
+}

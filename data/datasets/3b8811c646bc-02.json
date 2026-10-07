@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3b8811c646bc-02",
+  "paper_id": "3b8811c646bc",
+  "name": "SMAP Level 3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 7",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "NASA Soil Moisture Active Passive (SMAP) radiometer",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily, 36 km x 36 km EASE-Grid 2.0; 2015-04-01 to 2020-12-31",
+  "produced_in_this_study": false,
+  "access": "https://earthdata.nasa.gov/ (doi: 10.5067/HH4SZ2PXSP6A)",
+  "access_kind": "public_url_or_doi"
+}

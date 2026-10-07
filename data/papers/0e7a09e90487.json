@@ -1,0 +1,51 @@
+{
+  "paper_id": "0e7a09e90487",
+  "year": "2",
+  "filename": "A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset",
+  "authors": [
+    "Olya Skulovich",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Scientific Data",
+  "doi_or_url": "https://doi.org/10.1038/s41597-023-02053-x",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "soil moisture dynamics",
+    "land-atmosphere interaction",
+    "surface hydrology"
+  ],
+  "ml_methods": [
+    "multilayer perceptron",
+    "transfer learning",
+    "deep ensembles"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All code is written in Python, the analysis is conducted using Columbia University high performance computing clusters (Ginsburg), and is available at https://github.com/os2328/CASM-dataset.",
+  "testbed_candidate": false,
+  "testbed_rationale": "CASM is an observational remote-sensing derived product harmonizing topsoil moisture across multiple satellites, intended for climate monitoring, water cycle analysis, or data assimilation rather than serving directly as a training/evaluation benchmark testbed for ML parameterizations or physics emulators.",
+  "pain_points": [
+    "Satellite swath timing and orbit differences prevent complete global daily overlap across multiple sensors, necessitating 3-day temporal binning.",
+    "The strong periodic annual seasonal cycle dominates raw microwave brightness temperatures and soil moisture, causing unadjusted neural networks to fit seasonality well while failing on extreme anomalies.",
+    "Discrepancies in instrument characteristics (frequencies, incidence angles, RF interference) introduce artificial decadal trends and offsets when blending heterogeneous satellite missions.",
+    "Separating epistemic (structural) from aleatoric (input noise) uncertainty in neural networks requires computationally intensive deep ensembling and input perturbations."
+  ],
+  "extraction_notes": "The work was developed under the NSF LEAP Science and Technology Center (award #2019625). Deseasonalization is carried out via gridpoint-specific sinusoidal fits before neural network training to ensure fidelity in predicting SM extremes.",
+  "dataset_ids": [
+    "0e7a09e90487-01",
+    "0e7a09e90487-02",
+    "0e7a09e90487-03",
+    "0e7a09e90487-04",
+    "0e7a09e90487-05"
+  ]
+}

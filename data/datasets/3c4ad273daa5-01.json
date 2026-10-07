@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3c4ad273daa5-01",
+  "paper_id": "3c4ad273daa5",
+  "name": "Compiled flume pier scour equilibrium dataset",
+  "role": "both",
+  "source_kind": "laboratory",
+  "model_or_instrument": "laboratory flume experiments with cylindrical piers in sediment beds",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "484 runs",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "All data used are collected from the reported laboratory measurements in the literature reported elsewhere (Ali & Dey, 2024; Dey & Ali, 2024) and no new data are generated in this work.",
+  "access_kind": "public_url_or_doi"
+}

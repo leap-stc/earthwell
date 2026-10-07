@@ -1,0 +1,58 @@
+{
+  "paper_id": "b9f244519383",
+  "year": "5",
+  "filename": "Inferring Thermodynamic Histories from In Situ Ice Crystal Imagery via Conditional Diffusion Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Inferring Thermodynamic Histories from In Situ Ice Crystal Imagery via Conditional Diffusion Models",
+  "authors": [
+    "Giorgia Nicolaou",
+    "Katherine Frields",
+    "Troy Stephens",
+    "Yichen Cai",
+    "Kara Sulia",
+    "Vanessa Przybylo",
+    "Duncan Watson-Parris",
+    "Joseph Ko",
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2026,
+  "venue": "JGR: Machine Learning and Computation",
+  "doi_or_url": "https://doi.org/10.22541/essoar.15003780/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "ice crystal vapor growth",
+    "ice crystal morphology evolution",
+    "cirrus cloud microphysics",
+    "atmospheric parcel thermodynamic evolution"
+  ],
+  "ml_methods": [
+    "Conditional Diffusion Model",
+    "Conditional Score-based Diffusion for Imputation (CSDI)",
+    "Variational Autoencoder (VAE)",
+    "Temporal and Feature Transformers",
+    "1D Convolution"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.19991822",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset and models are designed for an inverse problem (reconstructing Lagrangian thermodynamic histories from in situ ice particle snapshot imagery) rather than for developing, training, or evaluating forward ML parameterizations or emulators for climate models.",
+  "pain_points": [
+    "Lack of temporal continuity in aircraft observations: aircraft probes capture only instantaneous snapshots rather than tracking parcel evolution over hours and vertical displacements.",
+    "Severe class imbalance in observation imagery: ~69% of the dataset consists of compact irregular crystals, leaving pristine habits and complex aggregates underrepresented.",
+    "Non-uniqueness of the inverse mapping: diverse thermodynamic histories can yield similar terminal crystal morphology.",
+    "Meteorological simulation error: back-trajectories depend on mesoscale WRF-HYSPLIT simulations; WRF moisture fields are harder to resolve accurately than temperature/pressure, and assumed saturation adjustment precludes direct inference of nucleation timing.",
+    "VAE dimensionality trade-off: image resizing in VAE preprocessing strips scale information, requiring concatenation of explicit 2D morphological geometric descriptors."
+  ],
+  "extraction_notes": "The manuscript was submitted to JGR: Machine Learning and Computation and posted as a preprint on ESS Open Archive. Supported by the NSF LEAP STC.",
+  "dataset_ids": [
+    "b9f244519383-01"
+  ]
+}

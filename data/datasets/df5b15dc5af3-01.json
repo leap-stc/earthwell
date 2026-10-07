@@ -1,0 +1,19 @@
+{
+  "dataset_id": "df5b15dc5af3-01",
+  "paper_id": "df5b15dc5af3",
+  "name": "Synthetic two-scale Lorenz '96 simulation runs",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Two-scale Lorenz '96 dynamical system (RK4 solver)",
+  "scale": "other",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "500 different cases with F in [10, 50], run for 4,000 MTUs, using the final 1,000 MTUs per run",
+  "size_gb_estimate": null,
+  "resolution": "dt = 0.005; 4 large-scale variables (k=4) and 32 small-scale variables (J=8)",
+  "produced_in_this_study": true,
+  "access": "No external observational data sets were used in this study; all Lorenz ’96 simulation outputs were generated as described in the manuscript. Codes for probabilistic data assimilation for ensemble distribution projections with generative machine learning are available via S. Li (2025): https://doi.org/10.5281/zenodo.15320151",
+  "access_kind": "public_url_or_doi"
+}

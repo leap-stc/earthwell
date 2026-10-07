@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d2ef340cbf2d-01",
+  "paper_id": "d2ef340cbf2d",
+  "name": "CPI-3M",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI) CCD camera",
+  "scale": "point_or_site",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "~3.2 million unlabeled CPI images (3,200,351 images)",
+  "size_gb_estimate": null,
+  "resolution": "Native CPI resolution 2.3 µm, resized to 224 x 224 pixels",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

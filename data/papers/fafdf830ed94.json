@@ -1,0 +1,49 @@
+{
+  "paper_id": "fafdf830ed94",
+  "year": "4",
+  "filename": "Insights from emulating CAM6 PPE with Neural Network and an additive emulator Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Insights from emulating CAM6 PPE with Neural Network and an additive emulator",
+  "authors": [
+    "Qingyuan Yang",
+    "Gregory Elsaesser",
+    "Marcus van Lier-Walqui",
+    "Trude Eidhammer",
+    "Linnia R. Hawkins"
+  ],
+  "pub_year": 2024,
+  "venue": "AGU Fall Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AGUFMGC11T0155Y/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "global climatology",
+    "zonal climatology",
+    "atmospheric circulation"
+  ],
+  "ml_methods": [
+    "Neural Network",
+    "Additive emulator",
+    "Gaussian Processes"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CAM6",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct links or access information for the underlying PPE dataset or emulator code.",
+  "pain_points": [
+    "Limited number of ensemble members (262 members) limits capturing three- or more-parameter interactions",
+    "Grouping unrelated target variables together degrades emulator performance",
+    "Cumulative impact of seemingly unimportant parameters can degrade performance across emulation methods"
+  ],
+  "extraction_notes": "Conference abstract from AGU Fall Meeting 2024 (Session GC11T-0155). Full details regarding data accessibility, model code, and resolution are not provided in the abstract.",
+  "dataset_ids": [
+    "fafdf830ed94-01"
+  ]
+}

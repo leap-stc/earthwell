@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a185a58af4a1-05",
+  "paper_id": "a185a58af4a1",
+  "name": "BAECC (Biogenic Aerosols - Effects on Clouds and Climate) dataset",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Ground-based remote sensing and radar",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Referenced from Petäjä et al. (2016) and Vogl et al. (2022)",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "e114a41a0632-02",
+  "paper_id": "e114a41a0632",
+  "name": "A posteriori (online) LES simulation outputs",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "LES solver (Kumar et al., 2006; Li et al., 2018)",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Convective ABL with zi/L = -8.7, 4.1 hours duration",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.7916/d8-y850-6w35",
+  "access_kind": "public_url_or_doi"
+}

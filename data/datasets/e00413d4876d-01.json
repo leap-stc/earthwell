@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e00413d4876d-01",
+  "paper_id": "e00413d4876d",
+  "name": "AIDA cloud chamber experimental observations",
+  "role": "evaluation",
+  "source_kind": "laboratory",
+  "model_or_instrument": "Aerosol Interactions and Dynamics in the Atmosphere (AIDA) aerosol and cloud chamber",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

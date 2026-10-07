@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fd4ac0550b6f-06",
+  "paper_id": "fd4ac0550b6f",
+  "name": "FLUXCOM",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Machine learning upscaled flux product",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly",
+  "produced_in_this_study": false,
+  "access": "Noted in acknowledgements (Martin Jung and Ulrich Weber)",
+  "access_kind": "on_request"
+}

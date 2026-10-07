@@ -1,0 +1,49 @@
+{
+  "paper_id": "ffc9062d8483",
+  "year": "2",
+  "filename": "Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models",
+  "authors": [
+    "Suki C. K. Wong",
+    "Galen A. McKinley",
+    "Richard Seager"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Geophysical Research: Biogeosciences",
+  "doi_or_url": "https://doi.org/10.1029/2022JG007243",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean upwelling",
+    "El Niño-Southern Oscillation",
+    "dissolved inorganic carbon vertical transport",
+    "ocean temperature solubility feedback",
+    "marine carbonate system buffering"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Information on installing and using the CMIP6 data pre-processing Python package (Busecke & Abernathey, 2020) can be accessed here: https://cmip6-preprocessing.readthedocs.io/en/latest/",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study performs a diagnostic model evaluation of CMIP6 models and observational products using Reynolds decomposition, EOF, and correlation analyses; it does not train, benchmark, or provide machine learning parameterizations or emulators.",
+  "pain_points": [
+    "Most CMIP6 models systematically underestimate interannual variability of surface ocean pCO2 and air-sea CO2 flux, while overestimating sea surface temperature variability.",
+    "Mean vertical gradients of dissolved inorganic carbon (DIC) are biased weak across CMIP6 models compared to GLODAPv2 observations, damping the non-thermal response to upwelling.",
+    "Thermal and non-thermal pCO2 anomalies excessively cancel each other in models, resulting in unrealistically weak net pCO2 anomalies."
+  ],
+  "extraction_notes": "The research was supported in part by the NSF LEAP Science and Technology Center (STC 2019625). Although some observational products in SeaFlux rely on machine learning algorithms (such as SOM-FFN or neural networks), the study itself does not develop or apply machine learning methods.",
+  "dataset_ids": [
+    "ffc9062d8483-01",
+    "ffc9062d8483-02",
+    "ffc9062d8483-03",
+    "ffc9062d8483-04",
+    "ffc9062d8483-05"
+  ]
+}

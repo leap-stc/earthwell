@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f8a21622a265-01",
+  "paper_id": "f8a21622a265",
+  "name": "Lorenz 63 synthetic simulation and assimilation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Lorenz 63 model (RK4)",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series",
+    "trajectories"
+  ],
+  "size_as_stated": "T = 100,000 steps",
+  "size_gb_estimate": null,
+  "resolution": "time step Δt = 0.01; observations every Δtobs = 0.4",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

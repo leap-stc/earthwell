@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ce54e4a6c53c-03",
+  "paper_id": "ce54e4a6c53c",
+  "name": "Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Aerobulk / GCM-filters offline calculation from CM2.6 and CESM",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1° grid, filtered at 5° Gaussian scale",
+  "produced_in_this_study": true,
+  "access": "https://nyu1.osn.mghpcc.org/leap-pubs/busecke_balwada_et_al_GRL/",
+  "access_kind": "pangeo_or_cloud"
+}

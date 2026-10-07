@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d9df1b9e7efd-01",
+  "paper_id": "d9df1b9e7efd",
+  "name": "OpenFEMA NFIP Flood Insurance Claims and Policy Records",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "over 2 million property-level claims and 80 million NFIP policy records",
+  "size_gb_estimate": null,
+  "resolution": "county level, 1978 to 2024",
+  "produced_in_this_study": false,
+  "access": "All NFIP and disaster data are publicly accessible and can be accessed through FEMA’s OpenFEMA portal.",
+  "access_kind": "public_url_or_doi"
+}

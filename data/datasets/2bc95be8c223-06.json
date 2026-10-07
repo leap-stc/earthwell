@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2bc95be8c223-06",
+  "paper_id": "2bc95be8c223",
+  "name": "Global Aridity Index and Potential Evapo-Transpiration Climate Database v2",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://figshare.com/articles/Global_Aridity_Index_and_Potential_Evapotranspiration_ET0_Climate_Database_v2/7504448/1",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fe5718b56f53-01",
+  "paper_id": "fe5718b56f53",
+  "name": "ECCO-Darwin simulations (Baseline, Constant Climate, Linear Atm)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ECCO-Darwin v05 (MITgcm / Darwin)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "LLC270 grid (~1/3 degree)",
+  "produced_in_this_study": true,
+  "access": "http://data.nas.nasa.gov/ecco/",
+  "access_kind": "public_url_or_doi"
+}

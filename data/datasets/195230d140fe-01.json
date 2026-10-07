@@ -1,0 +1,18 @@
+{
+  "dataset_id": "195230d140fe-01",
+  "paper_id": "195230d140fe",
+  "name": "CM1 bulk large eddy simulations perturbed parameter ensemble",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "NCAR Cloud Model 1 (CM1)",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "O(100) simulations",
+  "size_gb_estimate": null,
+  "resolution": "cloud-scale",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

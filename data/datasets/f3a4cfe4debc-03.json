@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f3a4cfe4debc-03",
+  "paper_id": "f3a4cfe4debc",
+  "name": "NOAA Interpolated Outgoing Longwave Radiation (OLR)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA-14, NOAA-16, and NOAA-18 satellites",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "resampled to 1.5-degree grid, daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

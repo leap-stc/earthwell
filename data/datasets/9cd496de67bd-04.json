@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9cd496de67bd-04",
+  "paper_id": "9cd496de67bd",
+  "name": "ERA5 ARTMIP Tier 2 catalogue and source data",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25° latitude x 0.25° longitude",
+  "produced_in_this_study": false,
+  "access": "https://cds.climate.copernicus.eu/ and https://doi.org/10.26024/rawv-yx53",
+  "access_kind": "public_url_or_doi"
+}

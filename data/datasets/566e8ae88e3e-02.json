@@ -1,0 +1,19 @@
+{
+  "dataset_id": "566e8ae88e3e-02",
+  "paper_id": "566e8ae88e3e",
+  "name": "Surface Ocean CO2 Atlas Database Version 2023 (SOCATv2023)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "In situ automated underway and discrete marine surface fCO2 observations",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "trajectories"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Point/cruise track observations",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.25921/r7xa-bt92",
+  "access_kind": "public_url_or_doi"
+}

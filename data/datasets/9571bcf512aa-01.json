@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9571bcf512aa-01",
+  "paper_id": "9571bcf512aa",
+  "name": "CMIP6 Analysis-Ready Cloud Optimized (ARCO) simulations",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "38 CMIP6 GCMs/ESMs (ACCESS-CM2, ACCESS-ESM1-5, CanESM5, EC-Earth3, MIROC6, MPI-ESM1-2-LR, etc.)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Original native ocean and atmospheric grids, interpolated to 1° x 1° and extracted at tide-gauge locations; monthly mean",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.618127503",
+  "access_kind": "pangeo_or_cloud"
+}

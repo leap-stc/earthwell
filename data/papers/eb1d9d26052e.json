@@ -1,0 +1,55 @@
+{
+  "paper_id": "eb1d9d26052e",
+  "year": "3",
+  "filename": "Non‐Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models - Behrens - 2022 - Journal of Advances in Modeling Earth Systems.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Non-Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models",
+  "authors": [
+    "Gunnar Behrens",
+    "Tom Beucler",
+    "Pierre Gentine",
+    "Fernando Iglesias-Suarez",
+    "Michael Pritchard",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2022MS003130",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "atmospheric convection",
+    "sub-grid-scale convective heating and moistening",
+    "cloud radiative interactions",
+    "boundary layer turbulence",
+    "precipitation formation"
+  ],
+  "ml_methods": [
+    "Variational Encoder Decoder (VED)",
+    "Encoder Decoder (ED)",
+    "Artificial Neural Network (ANN)",
+    "Principal Component Analysis (PCA)"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "total diabatic heating tendency, total diabatic moistening tendency, radiative fluxes (top and surface shortwave/longwave), and precipitation",
+  "online_coupled": false,
+  "host_model": "SPCAM v3.0",
+  "code_availability": "https://github.com/EyringMLClimateGroup/behrens-22james_SPCAM_VED (archived at Zenodo: https://zenodo.org/record/6925020#.YuKPRITP25c)",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses the established SPCAM aquaplanet simulation benchmark (originating from Rasp et al., 2018 / CBRAIN-CAM) widely recognized as an open testbed for offline ML parameterization development and interpretability.",
+  "pain_points": [
+    "Large dimensionality and parameter count in deep neural networks impede physical interpretability and trustworthiness without complex attribution techniques",
+    "Lower tropospheric moistening tendencies in the subtropics (descending branch of the Hadley cell) exhibit lower predictive skill due to underrepresentation of convective variability",
+    "Standard input-to-output mapping (X -> Y) failed to organize large-scale features cleanly in the latent space; requiring dual reconstruction of X and Y simultaneously to achieve interpretable latent manifolds",
+    "Trade-off between compression level (latent space width) and offline predictive accuracy"
+  ],
+  "extraction_notes": "The study conducts purely offline training and evaluation using 9 months total (3 months each for space-time shuffled training, unshuffled validation, and unshuffled test data). Online prognostic coupling into SPCAM was not performed in this paper.",
+  "dataset_ids": [
+    "eb1d9d26052e-01"
+  ]
+}

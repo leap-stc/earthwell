@@ -1,0 +1,18 @@
+{
+  "dataset_id": "258b29367a20-02",
+  "paper_id": "258b29367a20",
+  "name": "ERA5 atmospheric reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25 degree, 3-hourly (and hourly), 5x5 degree boxes around stations, 1979-2017",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1002/qj.3803",
+  "access_kind": "public_url_or_doi"
+}

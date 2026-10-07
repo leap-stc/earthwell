@@ -1,0 +1,57 @@
+{
+  "paper_id": "17a61548389e",
+  "year": "2",
+  "filename": "Data-Driven Equation Discovery of a Cloud Cover Parameterization.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Data-Driven Equation Discovery of a Cloud Cover Parameterization",
+  "authors": [
+    "Arthur Grundner",
+    "Tom Beucler",
+    "Pierre Gentine",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://arxiv.org/abs/2304.08063",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "cloud cover",
+    "cloud microphysics",
+    "moist convection",
+    "atmospheric radiation"
+  ],
+  "ml_methods": [
+    "symbolic regression",
+    "PySR",
+    "GP-GOMEA",
+    "sequential feature selection",
+    "feedforward neural network",
+    "polynomial regression",
+    "linear regression"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "equation_discovery",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "cloud cover",
+  "online_coupled": false,
+  "host_model": "ICON",
+  "code_availability": "The cloud cover schemes and analysis code are preserved (Grundner, 2023) at http://doi.org/10.5281/zenodo.7817391",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution storm-resolving simulation data coarse-grained to standard climate model resolutions (80km, 40km, 20km) with public code and reproduction scripts, providing clear offline benchmarks for machine learning cloud parameterization and equation discovery.",
+  "pain_points": [
+    "Neural networks act as black boxes, making post-hoc interpretation difficult and producing unreliable out-of-distribution predictions.",
+    "Symbolic regression genetic algorithms struggle to scale beyond 5-6 input features, necessitating sequential feature selection.",
+    "Large distribution shift between simulated cloud condensate (DYAMOND) and observational reanalysis (ERA5) causes direct zero-shot transfer failure without fine-tuning.",
+    "Storage and processing bottlenecks associated with several terabytes of high-resolution storm-resolving simulation outputs.",
+    "Shallow convection and stratocumulus clouds remain under-resolved even at kilometer-scale resolutions."
+  ],
+  "extraction_notes": "The manuscript was accepted at JAMES in early 2024. While the parameterization targets the ICON Earth System Model, coupling was kept offline to evaluate inter-model and observational transferability independently of host model compensating biases.",
+  "dataset_ids": [
+    "17a61548389e-01",
+    "17a61548389e-02"
+  ]
+}

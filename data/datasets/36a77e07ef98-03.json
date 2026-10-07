@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36a77e07ef98-03",
+  "paper_id": "36a77e07ef98",
+  "name": "MODIS Leaf Area Index (MOD15A2H)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS/Terra",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "4-day, 500m",
+  "produced_in_this_study": false,
+  "access": "NASA EOSDIS Land Processes Distributed Active Archive Center (https://doi.org/10.5067/MODIS/MOD15A2H.006)",
+  "access_kind": "public_url_or_doi"
+}

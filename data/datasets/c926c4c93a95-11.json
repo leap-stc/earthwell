@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c926c4c93a95-11",
+  "paper_id": "c926c4c93a95",
+  "name": "Reconstructed global surface ocean pCO2-Residual and air-sea CO2 flux product (1982-2019)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "XGBoost model ensemble",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 degree monthly, 1982-2019",
+  "produced_in_this_study": true,
+  "access": "https://github.com/valbennington/JAMES_pub_2022",
+  "access_kind": "public_url_or_doi"
+}

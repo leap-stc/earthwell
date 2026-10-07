@@ -1,0 +1,83 @@
+{
+  "paper_id": "a185a58af4a1",
+  "year": "5",
+  "filename": "Perspectives on Systematic Cloud Microphysics Scheme Development With Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Perspectives on Systematic Cloud Microphysics Scheme Development With Machine Learning",
+  "authors": [
+    "Kara D. Lamb",
+    "Clare E. Singer",
+    "Kaitlyn Loftus",
+    "Hugh Morrison",
+    "Margaret Powell",
+    "Joseph Ko",
+    "Jatan Buch",
+    "Arthur Z. Hu",
+    "Marcus van Lier Walqui",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2025MS005341",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "cloud microphysics",
+    "collision-coalescence",
+    "vapor deposition",
+    "ice nucleation",
+    "autoconversion",
+    "accretion",
+    "aggregation",
+    "riming",
+    "aerosol-cloud interactions"
+  ],
+  "ml_methods": [
+    "neural networks",
+    "convolutional neural networks",
+    "variational autoencoders",
+    "diffusion models",
+    "generative adversarial networks",
+    "neural ordinary differential equations",
+    "symbolic regression",
+    "physics-informed neural networks",
+    "Bayesian neural networks",
+    "evidential deep learning",
+    "transformers",
+    "recurrent neural networks",
+    "reservoir computing",
+    "neural operators"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "parameter_calibration",
+    "equation_discovery",
+    "uncertainty_quantification",
+    "classification_detection"
+  ],
+  "parameterization_target": "Cloud microphysics (bulk process rates, hydrometeor size distribution representations, and ice/liquid microphysical processes)",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a commentary/perspectives review article and does not introduce or provide a newly curated or standardized simulation/observational dataset.",
+  "pain_points": [
+    "Lack of first-principles governing equations for cloud microphysics creates both structural and parametric uncertainty.",
+    "Observations (satellites and in situ) generally capture instantaneous states rather than microphysical process rates directly.",
+    "Equifinality in top-down constraints where multiple parameter combinations match macroscopic emergent observables.",
+    "Offline training of ML parameterizations often fails or becomes unstable when coupled online due to multi-timestep compounding errors and forward Euler assumptions.",
+    "Discontinuity and numerical limiters (e.g., minimum/maximum thresholds) in traditional schemes are difficult for continuous ML models to capture.",
+    "Scale dependence and spatiotemporal resolution mismatches between microphysical interactions (< 1 km) and coarse ESM grid boxes (~50-100 km).",
+    "Code and hardware portability issues between Fortran-based CPU ESMs and Python/GPU deep learning libraries."
+  ],
+  "extraction_notes": "The paper is a perspective/review commentary synthesizing challenges, paradigms, and ML approaches for cloud microphysics scheme development. The Data Availability Statement explicitly confirms that no new data was generated or used.",
+  "dataset_ids": [
+    "a185a58af4a1-01",
+    "a185a58af4a1-02",
+    "a185a58af4a1-03",
+    "a185a58af4a1-04",
+    "a185a58af4a1-05"
+  ]
+}

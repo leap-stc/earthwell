@@ -1,0 +1,54 @@
+{
+  "paper_id": "2127864ced09",
+  "year": "4",
+  "filename": "Data-Driven Probabilistic Air-Sea Flux Parameterization(1).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Data-Driven Probabilistic Air-Sea Flux Parameterization",
+  "authors": [
+    "Jiarong Wu",
+    "Pavel Perezhogin",
+    "David John Gagne",
+    "Brandon G. Reichl",
+    "Aneesh C. Subramanian",
+    "Elizabeth J. Thompson",
+    "Laure Zanna"
+  ],
+  "pub_year": 2025,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://arxiv.org/abs/2503.03990",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean_atmosphere_interaction",
+  "processes": [
+    "air-sea turbulent momentum flux",
+    "sensible heat flux",
+    "latent heat flux",
+    "ocean surface boundary layer vertical mixing"
+  ],
+  "ml_methods": [
+    "Artificial Neural Networks (ANN)",
+    "conditional Gaussian probabilistic neural network",
+    "autoregressive model (AR(1)) noise generation"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "turbulent air-sea momentum and heat fluxes (tau_x, tau_y, Q_S, Q_L)",
+  "online_coupled": false,
+  "host_model": "General Ocean Turbulence Model (GOTM)",
+  "code_availability": "https://doi.org/10.5281/zenodo.17554656",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses a curated benchmark of ~10,000 shipboard eddy-covariance flux observations alongside an implementation in the open-source single-column ocean model GOTM at OWS Papa, with open code and weights on Zenodo.",
+  "pain_points": [
+    "Scarcity of direct in-situ eddy-covariance flux measurements, especially at high wind speeds (>15 m/s) and under large air-sea temperature differences",
+    "Geographical sampling imbalance, with more than 50% of cruise observations collected in tropical regions",
+    "Inability to directly resolve height dependence because measurements are taken at heights where vertical gradients vanish",
+    "Distinguishing observational/sampling measurement uncertainty from missing subgrid physics or unobserved state variables"
+  ],
+  "extraction_notes": "The single-column ocean model GOTM experiments are 1D forced sensitivity experiments where the fluxes are prescribed boundary forcings without two-way state variable feedback to the flux algorithm, hence online_coupled is marked false.",
+  "dataset_ids": [
+    "2127864ced09-01",
+    "2127864ced09-02"
+  ]
+}

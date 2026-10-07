@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b10f4cc342fd-07",
+  "paper_id": "b10f4cc342fd",
+  "name": "Basin-Scale Water-Balance dataset (BSWB)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GRDC runoff and ERA-Interim moisture flux",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "300 large catchments",
+  "size_gb_estimate": null,
+  "resolution": "Monthly, 1979–2015",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,58 @@
+{
+  "paper_id": "2bc95be8c223",
+  "year": "3",
+  "filename": "New-generation geostationary satellite reveals widespread midday depression in dryland photosynthesis during 2020 western U.S. heatwave.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "New-generation geostationary satellite reveals widespread midday depression in dryland photosynthesis during 2020 western U.S. heatwave",
+  "authors": [
+    "Xing Li",
+    "Youngryel Ryu",
+    "Jingfeng Xiao",
+    "Benjamin Dechant",
+    "Jiangong Liu",
+    "Bolun Li",
+    "Sungchan Jeong",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Science Advances",
+  "doi_or_url": "10.1126/sciadv.adi0775",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Biogeosciences",
+  "processes": [
+    "Photosynthesis",
+    "Gross primary production",
+    "Light use efficiency",
+    "Ecosystem respiration",
+    "Canopy carbon exchange",
+    "Stomatal conductance response to heat and water stress"
+  ],
+  "ml_methods": [
+    "Cubist regression tree model"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This study develops an empirical remote sensing retrieval model (Cubist regression tree) to map diurnal gross primary production, rather than providing an Earth system model parameterization or physical modeling testbed.",
+  "pain_points": [
+    "Cloud contamination causes missing satellite land surface temperature observations, requiring gap-filling with reanalysis data (ERA5-Land).",
+    "Spatial scale mismatch between eddy covariance tower footprints and satellite or reanalysis grid cell resolutions.",
+    "Conventional diurnal upscaling from polar-orbiting satellite snapshots assumes radiation-symmetric diurnal cycles, introducing major biases during heatwaves and droughts where midday depression occurs."
+  ],
+  "extraction_notes": "The Cubist regression model is used to map diurnal gross primary production across the CONUS at sub-daily resolution. It is a statistical remote sensing retrieval/upscaling method rather than a physics-based parameterization.",
+  "dataset_ids": [
+    "2bc95be8c223-01",
+    "2bc95be8c223-02",
+    "2bc95be8c223-03",
+    "2bc95be8c223-04",
+    "2bc95be8c223-05",
+    "2bc95be8c223-06",
+    "2bc95be8c223-07"
+  ]
+}

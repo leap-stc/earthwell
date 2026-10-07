@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f8a21622a265-03",
+  "paper_id": "f8a21622a265",
+  "name": "Kuramoto-Sivashinsky (KS) equation synthetic simulation and assimilation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Kuramoto-Sivashinsky equation (LSODA solver)",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "nt = 400 steps, ne = 128 interior points",
+  "size_gb_estimate": null,
+  "resolution": "domain length L = 50 discretized into 128 grids; Δt = 0.25; observations at 16 points",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

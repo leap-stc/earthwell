@@ -1,0 +1,57 @@
+{
+  "paper_id": "fa2ea0f0cf4b",
+  "year": "5",
+  "filename": "DifferBESS Uncovering the Role of Canopy Temperature in Ecosystem Carbon and Water Fluxes Using a Hybrid Modeling Approach ABSTRACT.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "DifferBESS: Uncovering the Role of Canopy Temperature in Ecosystem Carbon and Water Fluxes Using a Hybrid Modeling Approach",
+  "authors": [
+    "Jianing Fang",
+    "Youngryel Ryu",
+    "Helin Zhang",
+    "Sungchan Jeong",
+    "Weiwei Zhan",
+    "Xu Lian",
+    "Yangmingkai Li",
+    "Jisu Han",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1910112",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "biosphere",
+  "processes": [
+    "canopy temperature regulation",
+    "canopy energy balance",
+    "photosynthesis",
+    "transpiration",
+    "stomatal resistance",
+    "aerodynamic resistance",
+    "net radiation",
+    "friction velocity"
+  ],
+  "ml_methods": [
+    "differentiable modeling",
+    "machine learning-based parameterizations"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "parameter_calibration"
+  ],
+  "parameterization_target": "canopy temperature, net radiation, photosynthesis, transpiration, friction velocity, stomatal resistance, aerodynamic resistance",
+  "online_coupled": true,
+  "host_model": "Breathing Earth System Simulator (BESS)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific public data or code links specified.",
+  "pain_points": [
+    "Tightly coupled nature of carbon, water, and energy processes",
+    "Difficulty of scaling observations from leaf to ecosystem levels"
+  ],
+  "extraction_notes": "Conference abstract presentation B31A-07 at AGU 2025. Exact neural network architectures or ML formulations are not detailed beyond being a differentiable hybrid mechanistic-ML version of the Breathing Earth System Simulator (DifferBESS).",
+  "dataset_ids": [
+    "fa2ea0f0cf4b-01",
+    "fa2ea0f0cf4b-02"
+  ]
+}

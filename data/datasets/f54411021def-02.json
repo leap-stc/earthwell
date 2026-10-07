@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f54411021def-02",
+  "paper_id": "f54411021def",
+  "name": "Probabilistic Volcanic Hazard Simulations and Exposure Results (Jenkins et al. 2022a, b)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Tephra2, LaharZ, ECMapProb (Aravena et al. 2020), large clast model (Rossi et al. 2019)",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": "697,080 individual model runs aggregated into 2,280 scenario-based probabilistic hazard footprints",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.21979/N9/OUJPZQ",
+  "access_kind": "public_url_or_doi"
+}

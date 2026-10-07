@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7fee1a0d6f87-02",
+  "paper_id": "7fee1a0d6f87",
+  "name": "Cloud Particle Imager (CPI) Aircraft Field Campaign Images",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "Millions of CPI images",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "63fd0cbfe99b",
+  "year": "3",
+  "filename": "Groundwater rivals aridity in determining global photosynthesis.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Groundwater rivals aridity in determining global photosynthesis",
+  "authors": [
+    "Francesco Giardina",
+    "Sonia I. Seneviratne",
+    "Jiangong Liu",
+    "Benjamin D. Stocker",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": "https://doi.org/10.21203/rs.3.rs-3793488/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ecohydrology",
+  "processes": [
+    "photosynthesis",
+    "plant water uptake",
+    "groundwater-surface interactions",
+    "evapotranspiration",
+    "gross primary production"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "TreeSHAP"
+  ],
+  "ml_tasks": [
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All analyses were performed using R Statistical Software. Specific analysis scripts are not mentioned as publicly archived.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study conducts offline ML analysis of multi-year time-averaged satellite and reanalysis fields to assess driver contributions via SHAP, rather than offering high-frequency benchmark simulation or parameterization datasets.",
+  "pain_points": [
+    "Temporal mismatch between datasets: modelled water table depth was evaluated over 2004–2014, whereas SIF data covered 2018–2021.",
+    "Data gaps in satellite SIF products across mountainous areas and deserts.",
+    "Lower data quality and sparser in situ well observations for groundwater table depth outside of CONUS.",
+    "Confounding anthropogenic processes such as irrigation in croplands obscuring clear groundwater and aridity dependencies."
+  ],
+  "extraction_notes": "XGBoost models predict the ratio of multi-year mean SIF to PAR using moisture index and water table depth as inputs for each plant functional type group.",
+  "dataset_ids": [
+    "63fd0cbfe99b-01",
+    "63fd0cbfe99b-02",
+    "63fd0cbfe99b-03",
+    "63fd0cbfe99b-04",
+    "63fd0cbfe99b-05",
+    "63fd0cbfe99b-06",
+    "63fd0cbfe99b-07"
+  ]
+}

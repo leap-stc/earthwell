@@ -1,0 +1,19 @@
+{
+  "dataset_id": "edc5e71a96bb-04",
+  "paper_id": "edc5e71a96bb",
+  "name": "CMEMS GlobColour merged surface chlorophyll-a",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "SeaWiFS, MERIS, MODIS Aqua, VIIRS-NPP, OLCI-S3A merged satellite observations",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "4 km horizontal grid, monthly climatology (2002-2017)",
+  "produced_in_this_study": false,
+  "access": "Copernicus Marine Environmental Service (CMEMS)",
+  "access_kind": "public_url_or_doi"
+}

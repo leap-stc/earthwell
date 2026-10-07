@@ -1,0 +1,19 @@
+{
+  "dataset_id": "0f970eba5521-01",
+  "paper_id": "0f970eba5521",
+  "name": "GFDL CM2.6 ocean surface velocity fields (GZ21 training dataset)",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL CM2.6 coupled climate model",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1/10° ocean model grid",
+  "produced_in_this_study": false,
+  "access": "Model files used for the online evaluation (GZ21) are accessible via Zenodo (https://doi.org/10.5281/zenodo.7663062); CM2.6 data documented in Griffies et al. (2015) and Guillaumin & Zanna (2021).",
+  "access_kind": "public_url_or_doi"
+}

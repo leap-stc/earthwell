@@ -1,0 +1,52 @@
+{
+  "paper_id": "f944e0338f4e",
+  "year": "2",
+  "filename": "Implicit learning of convective organization explains precipitation stochasticity.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Implicit learning of convective organization explains precipitation stochasticity",
+  "authors": [
+    "Sara Shamekh",
+    "Kara D. Lamb",
+    "Yu Huang",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi_or_url": "https://doi.org/10.1073/pnas.2216158120",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "atmospheric convection",
+    "precipitation",
+    "cloud organization",
+    "cloud clustering"
+  ],
+  "ml_methods": [
+    "convolutional autoencoder",
+    "feedforward neural network",
+    "principal component analysis",
+    "multiple linear regression",
+    "autoregressive model"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "precipitation",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/Sshamekh/Precip-org",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses global storm-resolving DYAMOND Phase 2 simulation data coarse-grained to GCM resolution (~130 km) to parameterize subgrid convective organization and precipitation extremes, with open code on GitHub.",
+  "pain_points": [
+    "Coarse-scale variables alone fail to predict precipitation variability and extreme precipitation (R^2 ~ 0.45).",
+    "In climate models, high-resolution fields are unavailable at runtime to extract organization metrics directly, requiring prognostic or memory-based prediction of latent organization variables.",
+    "Non-Gaussian distribution and heavy tails of precipitation make accurate modeling of extremes difficult."
+  ],
+  "extraction_notes": "The ML model couples a rotationally-invariant convolutional autoencoder on subgrid precipitable water anomalies to extract latent organization variables (org) and a feed-forward neural network to predict coarse-grained precipitation. Offline evaluations are performed; online coupling is proposed for future implementation in GCMs.",
+  "dataset_ids": [
+    "f944e0338f4e-01"
+  ]
+}

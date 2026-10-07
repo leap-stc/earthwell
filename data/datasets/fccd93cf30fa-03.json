@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fccd93cf30fa-03",
+  "paper_id": "fccd93cf30fa",
+  "name": "MODIS",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

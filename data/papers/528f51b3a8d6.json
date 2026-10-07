@@ -1,0 +1,52 @@
+{
+  "paper_id": "528f51b3a8d6",
+  "year": "2",
+  "filename": "Immediate and Long‐Lasting Impacts of the Mt.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Immediate and Long-Lasting Impacts of the Mt. Pinatubo Eruption on Ocean Oxygen and Carbon Inventories",
+  "authors": [
+    "Amanda R. Fay",
+    "Galen A. McKinley",
+    "Nicole S. Lovenduski",
+    "Yassir Eddebbar",
+    "Michael N. Levy",
+    "Matthew C. Long",
+    "Holly C. Olivarez",
+    "Rea R. Rustagi"
+  ],
+  "pub_year": 2023,
+  "venue": "Global Biogeochemical Cycles",
+  "doi_or_url": "https://doi.org/10.1029/2022GB007513",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea gas exchange",
+    "ocean carbon uptake",
+    "ocean deoxygenation",
+    "ocean ventilation",
+    "ocean heat uptake",
+    "volcanic aerosol radiative forcing"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "CESM1",
+  "code_availability": "The CESM source code is freely available at http://www2.cesm.ucar.edu.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets consist of nominal 1-degree global coupled Earth system model ensemble simulations focused on biogeochemical and physical climate response to volcanic forcing, without high-resolution process-resolving benchmark simulations for ML parameterization.",
+  "pain_points": [
+    "Large internal climate variability masks forced signals in surface air-sea fluxes at regional and grid scales.",
+    "Aerosol forcing files in CESM1 underestimate aerosol loading in the Southern Hemisphere following the Pinatubo eruption.",
+    "Coarse nominal 1-degree resolution leads to known biases in tropical oxygen minimum zones, equatorial ventilation, and diapycnal mixing over rough topography."
+  ],
+  "extraction_notes": "The paper does not develop or evaluate machine learning methods; it applies Earth system model large ensemble numerical experiments to isolate volcanic climate and ocean biogeochemical impacts.",
+  "dataset_ids": [
+    "528f51b3a8d6-01",
+    "528f51b3a8d6-02",
+    "528f51b3a8d6-03"
+  ]
+}

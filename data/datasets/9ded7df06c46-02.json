@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9ded7df06c46-02",
+  "paper_id": "9ded7df06c46",
+  "name": "obs4MIPs satellite and reanalysis data products",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CERES, CloudSat-CALIPSO, ISCCP, ATOVS, NVAPM, AIRS-AMSU, MLS, MERRA-2, GPM, MODIS, GPCP, QuikSCAT, RSS PM",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Varies by satellite product / reanalysis",
+  "produced_in_this_study": false,
+  "access": "https://esgf-node.llnl.gov/projects/obs4mips/SatelliteDataProducts",
+  "access_kind": "public_url_or_doi"
+}

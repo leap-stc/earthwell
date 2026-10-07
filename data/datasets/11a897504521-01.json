@@ -1,0 +1,18 @@
+{
+  "dataset_id": "11a897504521-01",
+  "paper_id": "11a897504521",
+  "name": "CausalDynamics Benchmark",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "dysts ODE/SDE systems, GNR scale-free DAGs, XRO ENSO model, and qgs (MAOOAM) atmosphere-ocean model",
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "over 14000 graphs and over 50 million preprocessed samples",
+  "size_gb_estimate": null,
+  "resolution": "1000 time steps per trajectory, 5 trajectories per graph",
+  "produced_in_this_study": true,
+  "access": "https://huggingface.co/datasets/kausable/CausalDynamics",
+  "access_kind": "public_url_or_doi"
+}

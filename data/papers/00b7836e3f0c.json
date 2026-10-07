@@ -1,0 +1,40 @@
+{
+  "paper_id": "00b7836e3f0c",
+  "year": "3",
+  "filename": "PythonicDISORT_ A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "PythonicDISORT: A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT",
+  "authors": [
+    "Dion J. X. Ho"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Open Source Software",
+  "doi_or_url": "https://doi.org/10.21105/joss.06442",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "radiative transfer",
+  "processes": [
+    "atmospheric radiative transfer",
+    "absorption",
+    "scattering",
+    "emission"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.21105/joss.06442",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper introduces an open-source Python reimplementation of the 1D discrete ordinate radiative transfer solver (DISORT) and does not provide an ML parameterization dataset or benchmark.",
+  "pain_points": [
+    "Computational speed trade-off: PythonicDISORT is slower than FORTRAN DISORT",
+    "Lacks latest advanced features of DISORT such as pseudo-spherical correction"
+  ],
+  "extraction_notes": "The paper describes scientific software funded by LEAP STC; no machine learning models were developed or evaluated.",
+  "dataset_ids": [
+    "00b7836e3f0c-01"
+  ]
+}

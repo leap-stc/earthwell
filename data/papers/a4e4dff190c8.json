@@ -1,0 +1,60 @@
+{
+  "paper_id": "a4e4dff190c8",
+  "year": "2",
+  "filename": "Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction_ The pCO2‐Residual Method - Bennington - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction: The pCO2-Residual Method",
+  "authors": [
+    "Val Bennington",
+    "Tomislav Galjanic",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2021MS002960",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "surface ocean pCO2",
+    "ocean carbon uptake",
+    "temperature-dependent solubility and carbonate chemical equilibrium",
+    "mixed layer dynamics",
+    "biological carbon drawdown"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "quantile loss regression",
+    "SHAP"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/valbennington/JAMES_pub_2022",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an observation-based spatial reconstruction and gap-filling product of surface ocean pCO2 and CO2 fluxes rather than high-resolution simulation data for subgrid parameterization or dynamic model emulation.",
+  "pain_points": [
+    "Severe spatial and temporal sparsity of in situ pCO2 observations, particularly in the Southern Hemisphere during winter",
+    "Missing satellite chlorophyll observations prior to 1998 and polar winter darkness gaps, requiring climatology and interpolation that introduce uncertainty (~0.1 PgC/yr)",
+    "Competing physical effects where SST has both direct thermodynamic impacts on pCO2 and indirect correlation through stratification and mixing",
+    "Piston velocity and wind product uncertainty driving substantial regional uncertainty in air-sea CO2 flux calculations",
+    "Uncertainty in riverine outgassing correction (0.49 ± 0.26 PgC/yr) when estimating anthropogenic fluxes from net flux products"
+  ],
+  "extraction_notes": "The study develops a physics-informed residual learning scheme: it calculates the direct temperature effect (pCO2-T) analytically via the Takahashi formulation, uses XGBoost to learn the remaining biogeochemical/physical residual (pCO2-Residual), and adds them back together.",
+  "dataset_ids": [
+    "a4e4dff190c8-01",
+    "a4e4dff190c8-02",
+    "a4e4dff190c8-03",
+    "a4e4dff190c8-04",
+    "a4e4dff190c8-05",
+    "a4e4dff190c8-06",
+    "a4e4dff190c8-07",
+    "a4e4dff190c8-08"
+  ]
+}

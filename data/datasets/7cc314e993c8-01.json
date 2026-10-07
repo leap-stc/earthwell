@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7cc314e993c8-01",
+  "paper_id": "7cc314e993c8",
+  "name": "SPCAM Control (0K) and Warmed (+4K) simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM5 / UltraCAM-spcam2_0_cesm1_1_1",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "3.4 Terabytes of data over 90 days, with 76,944,384 samples",
+  "size_gb_estimate": 3400.0,
+  "resolution": "Host GCM: 1.9° x 2.5°; Embedded CRM: 512 km extent, 128 columns, 4 km horizontal resolution, 30 vertical levels; 4-hour snapshot frequency",
+  "produced_in_this_study": true,
+  "access": "The codebase for running the “SPCAM5” simulations is the same employed by [31], which is archived at https://github.com/mspritch/UltraCAM-spcam2_0_cesm1_1_1; this code was in turn forked from a development version of the CESM1.1.1 located on the NCAR central subversion repository under tag spcam_cam5_2_00_forCESM1_1_1Rel_V09, which dates to February 25, 2013.",
+  "access_kind": "public_url_or_doi"
+}

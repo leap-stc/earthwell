@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a289dbb4d9dd-02",
+  "paper_id": "a289dbb4d9dd",
+  "name": "SPCAM v5 (control and +4K SST warming)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SuperParameterized Community Atmosphere Model (SPCAM) v5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "285,000 randomly selected samples (160,000 for training, 125,000 for testing); 6 separate realizations of boreal winter",
+  "size_gb_estimate": null,
+  "resolution": "13,824 local 2D GSRMs spanning 512 km with 128 grid columns spaced 4 km apart; 15-minute time-step; 15S-15N latitude belt",
+  "produced_in_this_study": true,
+  "access": "Compressed data used for main text and SI figures is publically available at 10.5281/zenodo.8024093.",
+  "access_kind": "public_url_or_doi"
+}

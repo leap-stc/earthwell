@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36817fe1aa1a-01",
+  "paper_id": "36817fe1aa1a",
+  "name": "1D Kuramoto–Sivashinsky (KS) simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Numerical PDE solver for 1D Kuramoto-Sivashinsky equation",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "Training trajectories span 140Δτ, while validation and test trajectories extend to 640Δτ; 256 spatial points, Δτ = 0.2",
+  "size_gb_estimate": null,
+  "resolution": "256 spatial points, dt=0.2",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

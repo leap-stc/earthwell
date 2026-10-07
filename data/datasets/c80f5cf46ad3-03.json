@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c80f5cf46ad3-03",
+  "paper_id": "c80f5cf46ad3",
+  "name": "OCO-2 XCO2 and SIF products",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Orbiting Carbon Observatory-2 (OCO-2) grating spectrometers",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 to 100 km2 footprint",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

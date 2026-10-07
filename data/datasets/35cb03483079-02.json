@@ -1,0 +1,18 @@
+{
+  "dataset_id": "35cb03483079-02",
+  "paper_id": "35cb03483079",
+  "name": "Observational data",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

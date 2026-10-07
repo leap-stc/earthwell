@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d8e2b9ac3d8b-01",
+  "paper_id": "d8e2b9ac3d8b",
+  "name": "Pangeo / ESGF Cloud Data Working Group Analysis-Ready Cloud Optimized CMIP6",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "27 CMIP6 climate models (e.g. ACCESS-CM2, CanESM5, EC-Earth3, MIROC6, MPI-ESM1-2-LR, etc.)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "over 20 terabytes",
+  "size_gb_estimate": 20480.0,
+  "resolution": "Various native grids bilinearly interpolated to 1.5° x 1.5°, daily frequency (1850-2100)",
+  "produced_in_this_study": false,
+  "access": "https://pangeo-data.github.io/pangeo-cmip6-cloud/ held in public Google Cloud Storage",
+  "access_kind": "pangeo_or_cloud"
+}

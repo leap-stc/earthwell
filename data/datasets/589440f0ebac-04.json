@@ -1,0 +1,18 @@
+{
+  "dataset_id": "589440f0ebac-04",
+  "paper_id": "589440f0ebac",
+  "name": "ERA5-Land Hourly Reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5-Land reanalysis system",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1 degree, hourly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,48 @@
+{
+  "paper_id": "cb988a1eedbe",
+  "year": "3",
+  "filename": "Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling(1).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling",
+  "authors": [
+    "Thea H. Heimdal",
+    "Galen A. McKinley",
+    "Adrienne J. Sutton",
+    "Amanda R. Fay",
+    "Lucas Gloege"
+  ],
+  "pub_year": 2024,
+  "venue": "Biogeosciences",
+  "doi_or_url": "https://doi.org/10.5194/bg-21-2159-2024",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean carbon uptake",
+    "surface ocean pCO2"
+  ],
+  "ml_methods": [
+    "eXtreme Gradient Boosting (XGBoost)",
+    "decision trees"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/hatlenheimdalthea/Sampling_experiments_LET_USV and https://doi.org/10.5281/zenodo.10966977",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study uses an ocean biogeochemistry OSSE / testbed to evaluate mapping and gap-filling algorithms for surface ocean pCO2 rather than generating high-resolution process data for subgrid parameterization.",
+  "pain_points": [
+    "Severe data sparsity in the Southern Ocean (particularly during winter) leading to reconstruction biases and artificial decadal variability",
+    "Model overfitting indicated by differences between training and test set error statistics when reconstructing unseen regions"
+  ],
+  "extraction_notes": "The paper uses the pCO2-Residual approach with XGBoost on synthetic sampling masks taken from an Earth System Model large ensemble test bed (LET). It focuses on observational network design rather than physical parameterization.",
+  "dataset_ids": [
+    "cb988a1eedbe-01",
+    "cb988a1eedbe-02",
+    "cb988a1eedbe-03"
+  ]
+}

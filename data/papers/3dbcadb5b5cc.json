@@ -1,0 +1,58 @@
+{
+  "paper_id": "3dbcadb5b5cc",
+  "year": "1",
+  "filename": "Deep Learning Based Cloud Cover Parameterization for ICON.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Learning Based Cloud Cover Parameterization for ICON",
+  "authors": [
+    "Arthur Grundner",
+    "Tom Beucler",
+    "Pierre Gentine",
+    "Fernando Iglesias-Suarez",
+    "Marco A. Giorgetta",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2112.11317",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "cloud cover",
+    "cloud volume fraction",
+    "cloud area fraction",
+    "microphysics",
+    "radiation"
+  ],
+  "ml_methods": [
+    "Multilayer Perceptron",
+    "Neural Network",
+    "Random Forest",
+    "Multiple Linear Regression",
+    "SHAP (SHapley Additive exPlanations)"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "sub-grid scale cloud cover (cloud volume fraction and cloud area fraction)",
+  "online_coupled": false,
+  "host_model": "ICON",
+  "code_availability": "The neural network and analysis code can be found at https://github.com/agrundner24/iconml_clc and is preserved at DOI:10.5281/zenodo.5788873. The software code for the ICON model is available from https://code.mpimet.mpg.de/projects/iconpublic.",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution storm-resolving ICON simulations coarse-grained to standard climate model resolutions (R2B4 and R2B5) specifically designed for training and benchmarking ML-based subgrid cloud cover parameterizations, with code publicly archived and sample training data provided on GitHub.",
+  "pain_points": [
+    "Generalization across climate regimes/regions fails when NNs encounter out-of-distribution thermodynamic regimes (e.g. tropical NARVAL trained model extrapolating to cold polar regions).",
+    "Non-locality / column models overfit or struggle to transfer across grids compared to neighborhood/local models.",
+    "Temporal mismatch in model output variables (~7% cloudy grid cells were condensate-free due to sequential physics calls).",
+    "Mixing length error in QUBICC simulation diffusion scheme (set to 1000m instead of 150m) led to unrealistically strong vertical diffusion.",
+    "Very large dataset size (several TBs) necessitates aggressive subsampling and memory considerations, which hindered random forests."
+  ],
+  "extraction_notes": "The paper mentions preliminary coupled simulations for one month in the discussion, but the work presented in this study is strictly offline evaluation.",
+  "dataset_ids": [
+    "3dbcadb5b5cc-01",
+    "3dbcadb5b5cc-02",
+    "3dbcadb5b5cc-03"
+  ]
+}

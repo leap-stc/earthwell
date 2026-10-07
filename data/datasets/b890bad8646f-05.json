@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b890bad8646f-05",
+  "paper_id": "b890bad8646f",
+  "name": "CMIP6 Multi-Model Ensemble Temperature Projections (SSP2-4.5)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CMIP6 GCM ensemble",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "GCM grid, subsetted to New York City coordinates [40.7°N, -74.0°W]",
+  "produced_in_this_study": false,
+  "access": "ESGF distributed index API",
+  "access_kind": "public_url_or_doi"
+}

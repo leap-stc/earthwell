@@ -1,0 +1,18 @@
+{
+  "dataset_id": "80cd46ed8b4a-03",
+  "paper_id": "80cd46ed8b4a",
+  "name": "Argo float data",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Argo profiling floats",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "in situ profile observations",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.17882/42182",
+  "access_kind": "public_url_or_doi"
+}

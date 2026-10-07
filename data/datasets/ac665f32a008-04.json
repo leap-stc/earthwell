@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ac665f32a008-04",
+  "paper_id": "ac665f32a008",
+  "name": "Processed CI nowcasting dataset",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "GOES-16 ABI and MRMS composite reflectivity",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "94 618 samples. Of these, 45 077 and 19 320 samples from June to July 2020 are used for training and validation, respectively, while 30 221 samples collected in June 2021 are for testing.",
+  "size_gb_estimate": null,
+  "resolution": "48 km x 48 km square patches (32 x 32 pixels at 1.5 km resolution), 7 infrared channels",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.26208/6Y59-0R80",
+  "access_kind": "public_url_or_doi"
+}

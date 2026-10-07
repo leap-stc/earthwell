@@ -1,0 +1,80 @@
+{
+  "paper_id": "4e066ebddc28",
+  "year": "5",
+  "filename": "Crowdsourcing the Frontier_ Advancing Hybrid Physics-ML Climate Simulation via a $50,000 Kaggle Competition.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Crowdsourcing the Frontier: Advancing Hybrid Physics‐ML Climate Simulation via a $50,000 Kaggle Competition",
+  "authors": [
+    "Jerry Lin",
+    "Zeyuan Hu",
+    "Tom Beucler",
+    "Katherine Frields",
+    "Hannah Christensen",
+    "Walter Hannah",
+    "Helge Heuer",
+    "Peter Ukkonen",
+    "Laura A. Mansfield",
+    "Tian Zheng",
+    "Liran Peng",
+    "Ritwik Gupta",
+    "Pierre Gentine",
+    "Yusef Al‐Naher",
+    "Mingjiang Duan",
+    "Kyo Hattori",
+    "Weiliang Ji",
+    "Chunhan Li",
+    "Kippei Matsuda",
+    "Naoki Murakami",
+    "Shlomo Ron",
+    "Marec Serlin",
+    "Hongjian Song",
+    "Yuma Tanabe",
+    "Daisuke Yamamoto",
+    "Jianyao Zhou",
+    "Mike Pritchard"
+  ],
+  "pub_year": 2026,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2025MS005643",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate modeling",
+  "processes": [
+    "deep convection",
+    "cloud microphysics",
+    "atmospheric radiation",
+    "turbulence",
+    "subgrid parameterization"
+  ],
+  "ml_methods": [
+    "U-Net",
+    "Squeezeformer",
+    "Pure ResLSTM",
+    "Pao Model",
+    "ConvNeXt",
+    "Encoder-Decoder LSTM"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "Subgrid convective, microphysical, turbulent, and radiative tendencies (temperature, water vapor, cloud condensate, and wind tendencies, plus surface radiative and precipitation fluxes)",
+  "online_coupled": true,
+  "host_model": "E3SM-MMF",
+  "code_availability": "The GitHub repository associated with this work is available via Apache License 2.0 and developed openly at https://github.com/leap-stc/climsim-kaggle-edition. The version of E3SM-MMF made compatible with FTorch is available at https://github.com/leap-stc/E3SM_nvlab. All models, checkpoints, and normalization files are uploaded to Hugging Face and are available at https://hf.co/collections/jlin404/climsim-kaggle-models. Software repositories, online simulation output, and various online simulation metadata are preserved at https://zenodo.org/records/18883121.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Evaluates 90 ML parameterization models across 6 diverse neural architectures and 5 configurations both offline and dynamically coupled online inside E3SM-MMF, with full microphysics coupling, open code, open weights on Hugging Face, and simulation data on Zenodo.",
+  "pain_points": [
+    "Online instability and numerical crashes for certain architecture-configuration combinations (e.g., transformer-encoder models under expanded input lists)",
+    "Disconnect between offline R2 improvements and prognostic online performance/stability",
+    "Stubborn, shared systematic biases across all architectures (underprediction of tropical precipitable water and extreme precipitation; warm polar upper-level bias)",
+    "Significant inter-seed variability in online stability and drift requiring multi-seed ensembles",
+    "GPU memory management issues (FTorch out-of-memory errors due to omitted torch_delete)",
+    "High computational cost of full-scale online hybrid simulations and CRM data generation"
+  ],
+  "extraction_notes": "The paper assesses architectures adapted from the 2024 LEAP ClimSim Kaggle competition (Squeezeformer, Pure ResLSTM, Pao Model, ConvNeXt, Encoder-Decoder LSTM) against the U-Net baseline from Hu et al. (2025) across 5 configurations and 3 random seeds (90 models total).",
+  "dataset_ids": [
+    "4e066ebddc28-01",
+    "4e066ebddc28-02"
+  ]
+}

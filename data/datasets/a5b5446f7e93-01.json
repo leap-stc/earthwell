@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a5b5446f7e93-01",
+  "paper_id": "a5b5446f7e93",
+  "name": "LES simulations with bin microphysics, Lagrangian super droplet microphysics, and BOSS",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "LES",
+  "scale": "LES",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

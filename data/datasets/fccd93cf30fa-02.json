@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fccd93cf30fa-02",
+  "paper_id": "fccd93cf30fa",
+  "name": "Sentinel-1 and Sentinel-2",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "SAR and multispectral optical instruments on Sentinel-1 and Sentinel-2",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

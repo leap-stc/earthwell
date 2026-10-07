@@ -1,0 +1,18 @@
+{
+  "dataset_id": "306fafe408c2-04",
+  "paper_id": "306fafe408c2",
+  "name": "WHO/UNICEF Joint Monitoring Programme (JMP) WASH country estimates",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "national level",
+  "produced_in_this_study": false,
+  "access": "WHO/UNICEF Joint Monitoring Programme. Jmp country estimates for wash (households), 2024. Accessed 2026-02-05.",
+  "access_kind": "public_url_or_doi"
+}

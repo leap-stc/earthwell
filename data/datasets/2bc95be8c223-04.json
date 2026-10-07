@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2bc95be8c223-04",
+  "paper_id": "2bc95be8c223",
+  "name": "ERA5-Land reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, 0.1 deg",
+  "produced_in_this_study": false,
+  "access": "The data used in this study have been properly cited and are publicly available (see table S6).",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d8418c32be5b-03",
+  "paper_id": "d8418c32be5b",
+  "name": "Observation-based surface ocean pCO2 and air-sea CO2 flux products",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CMEMS-FFNN, CSIR-ML6, JENA-MLS, JMA-MLR, LDEO-HPD, MPI-SOMFFN, NIES-FNN, pCO2-Residual",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly timescale, 1 deg by 1 deg",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7679402",
+  "access_kind": "public_url_or_doi"
+}

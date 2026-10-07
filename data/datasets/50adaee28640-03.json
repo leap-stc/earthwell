@@ -1,0 +1,19 @@
+{
+  "dataset_id": "50adaee28640-03",
+  "paper_id": "50adaee28640",
+  "name": "General Lake Model (GLM) simulated lake temperature profiles",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "General Lake Model (GLM)",
+  "scale": "column_or_box",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": "daily simulations for every depth and every date from April 02, 1980 to December 30, 2014 across baseline and synthetic lake configurations",
+  "size_gb_estimate": null,
+  "resolution": "daily, 0.5 m vertical depth intervals",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

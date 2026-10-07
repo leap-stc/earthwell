@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2888fdcca7b4-01",
+  "paper_id": "2888fdcca7b4",
+  "name": "CESM large ensemble with different pinatubo forcings (LENS and NoPin)",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM1 (POP2 ocean model with BEC biogeochemistry)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "approximately 1° horizontal resolution and 60 vertical levels",
+  "produced_in_this_study": false,
+  "access": "https://rda.ucar.edu/datasets/ds316.6/",
+  "access_kind": "public_url_or_doi"
+}

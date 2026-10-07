@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8b93316afdc1-03",
+  "paper_id": "8b93316afdc1",
+  "name": "WorldView optical imagery",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "WorldView",
+  "scale": "regional",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "sub-meter high resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

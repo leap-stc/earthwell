@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9895f2e76861-02",
+  "paper_id": "9895f2e76861",
+  "name": "NOAA GOES-16/17 and JMA Himawari-8 geostationary satellite imagery",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "ABI / AHI",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.5 - 2 km, 10 min",
+  "produced_in_this_study": false,
+  "access": "https://registry.opendata.aws/noaa-goes/ and https://registry.opendata.aws/noaa-himawari/",
+  "access_kind": "public_url_or_doi"
+}

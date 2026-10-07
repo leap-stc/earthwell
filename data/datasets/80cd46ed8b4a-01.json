@@ -1,0 +1,19 @@
+{
+  "dataset_id": "80cd46ed8b4a-01",
+  "paper_id": "80cd46ed8b4a",
+  "name": "GOTM single-column k-epsilon turbulence simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "General Ocean Turbulence Model (GOTM)",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1 m vertical grid, 60 s time step, 800 m depth",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.8293998",
+  "access_kind": "public_url_or_doi"
+}

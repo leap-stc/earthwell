@@ -1,0 +1,18 @@
+{
+  "dataset_id": "26adf7d40c29-09",
+  "paper_id": "26adf7d40c29",
+  "name": "Global Aboveground Biomass Carbon Density map (Spawn et al. 2020)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Year 2010 static map, aggregated to 12 km x 12 km",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

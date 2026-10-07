@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4ac6067043b2-05",
+  "paper_id": "4ac6067043b2",
+  "name": "NCHS Urban-Rural Classification Scheme for Counties",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CDC National Center for Health Statistics",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "county level",
+  "produced_in_this_study": false,
+  "access": "https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html",
+  "access_kind": "public_url_or_doi"
+}

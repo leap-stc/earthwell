@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1c4c83a9ce2e-03",
+  "paper_id": "1c4c83a9ce2e",
+  "name": "CloudSat radar reflectivity observations",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "CloudSat CPR",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

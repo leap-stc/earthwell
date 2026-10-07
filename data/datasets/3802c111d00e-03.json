@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3802c111d00e-03",
+  "paper_id": "3802c111d00e",
+  "name": "Minimal CMIP Emulator v1.2 effective radiative forcing and derived CO2 equivalent data",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Minimal CMIP Emulator v1.2 (MCE v1.2)",
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "annual (1850-2098)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

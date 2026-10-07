@@ -1,0 +1,58 @@
+{
+  "paper_id": "3802c111d00e",
+  "year": "4",
+  "filename": "Transferring climate change physical knowledge.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Transferring climate change physical knowledge",
+  "authors": [
+    "Francesco Immorlano",
+    "Veronika Eyring",
+    "Thomas le Monnier de Gouville",
+    "Gabriele Accarino",
+    "Donatello Elia",
+    "Stephan Mandt",
+    "Giovanni Aloisio",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi_or_url": "https://doi.org/10.1073/pnas.2413503122",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate science",
+  "processes": [
+    "surface air temperature projection",
+    "climate feedback",
+    "climate sensitivity",
+    "radiative forcing"
+  ],
+  "ml_methods": [
+    "Deep Neural Networks",
+    "Deconvolutional Neural Networks",
+    "Transfer Learning",
+    "Deep Ensembles"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/francescoimmorlano/transferring-climate-change-physical-knowledge",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a reproducible benchmark combining multi-model CMIP6 climate projection grids and observational constraints for training, validating, and emulating global/regional climate responses under multiple SSP scenarios, complete with Zenodo data archive and GitHub code.",
+  "pain_points": [
+    "Structural and parametric model biases in CMIP6 models (e.g., equatorial Pacific cold tongue, Arctic Amplification underestimation, Gulf Stream separation errors)",
+    "Significant uncertainty and wide inter-model spread in CMIP6 climate sensitivity and future projections",
+    "Limited observational historical records (BEST data reliable only from 1979 to 2022, creating risk of overfitting during fine-tuning)",
+    "Single forcing pathway assumption per SSP without spatially explicit observational constraints on historical aerosol distributions"
+  ],
+  "extraction_notes": "The architecture converts a scalar CO2 equivalent value into a 2D global surface temperature map using dense layers and four transposed convolutional (deconvolutional) layers, followed by a refinement convolution.",
+  "dataset_ids": [
+    "3802c111d00e-01",
+    "3802c111d00e-02",
+    "3802c111d00e-03",
+    "3802c111d00e-04"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "c846a2323199",
+  "year": "3",
+  "filename": "Understanding and Visualizing Droplet Distributions in Simulations of Shallow Clouds.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Understanding and Visualizing Droplet Distributions in Simulations of Shallow Clouds",
+  "authors": [
+    "Justus C. Will",
+    "Andrea M. Jenney",
+    "Kara D. Lamb",
+    "Michael S. Pritchard",
+    "Colleen Kaul",
+    "Po-Lun Ma",
+    "Kyle Pressel",
+    "Jacob Shpund",
+    "Marcus van Lier-Walqui",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2023,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2310.20168",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "cloud droplet size distribution",
+    "collision-coalescence",
+    "aerosol-cloud interactions",
+    "precipitation initiation",
+    "warm rain formation"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder (VAE)",
+    "MLP"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "PINACLES",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The 3D bin microphysical LES simulation dataset is not provided with an open repository or public access link in the paper, making it unusable as an immediate benchmark/testbed dataset without contacting authors.",
+  "pain_points": [
+    "High dimensionality of spectral bin microphysics datasets (3D space, time, and 33 droplet size bins) makes visualization and analysis challenging.",
+    "Standard clustering algorithms struggle with the sheer volume and continuous nature of LES spectral bin data."
+  ],
+  "extraction_notes": "The paper uses an unsupervised VAE to compress 33-bin cloud droplet size distributions down to a 3D latent space for continuous color visualization and analysis of aerosol-cloud interactions and precipitation initiation, rather than learning a predictive parameterization directly.",
+  "dataset_ids": [
+    "c846a2323199-01"
+  ]
+}

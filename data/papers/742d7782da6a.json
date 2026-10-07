@@ -1,0 +1,67 @@
+{
+  "paper_id": "742d7782da6a",
+  "year": "4",
+  "filename": "Recommendations for comprehensive and independent evaluation of machine learning-based Earth system models_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Recommendations for Comprehensive and Independent Evaluation of Machine Learning-Based Earth System Models",
+  "authors": [
+    "P. A. Ullrich",
+    "E. A. Barnes",
+    "W. D. Collins",
+    "K. Dagon",
+    "S. Duan",
+    "J. Elms",
+    "J. Lee",
+    "L. R. Leung",
+    "D. Lu",
+    "M. J. Molina",
+    "T. A. O'Brien",
+    "F. O. Rebassoo"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Geophysical Research: Machine Learning and Computation",
+  "doi_or_url": "https://doi.org/10.1029/2024JH000496",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "Climate and Earth System Modeling",
+  "processes": [
+    "Atmospheric general circulation",
+    "Baroclinic instability",
+    "Atmospheric moisture and precipitation",
+    "Cloud feedbacks",
+    "Surface turbulent fluxes",
+    "Top-of-atmosphere radiative balance"
+  ],
+  "ml_methods": [
+    "Spherical Fourier Neural Operators",
+    "Neural General Circulation Models",
+    "Autoregressive neural networks"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameterization",
+    "forecasting",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a review article providing recommendations and benchmark menus for evaluating ML-based Earth system models. Although small demonstrative simulation outputs are archived on Zenodo, it does not release a benchmark training/evaluation dataset testbed for parameterizations.",
+  "pain_points": [
+    "ML models often fail to explicitly enforce physical conservation laws (mass, momentum, energy).",
+    "Evaluating out-of-sample generalization is challenging because the historical instrumental record is short, stationary, and only a single realization of climate history.",
+    "Spectral damping at high wavenumbers leads to an effective resolution in ML models that is much coarser than their nominal grid spacing.",
+    "Unlike physics-based models, monolithic ML models cannot easily have individual physical components activated or deactivated without complete retraining.",
+    "Pre-trained ML models internalize realistic geographic topography and land-sea contrasts, making standardized idealized tests (e.g., zonally symmetric or flat aquaplanets) difficult to apply directly.",
+    "Risk of metric hacking and cherry-picking if evaluations are not standardized across a comprehensive suite of physical metrics."
+  ],
+  "extraction_notes": "The paper outlines five major recommendations for evaluating ML-based ESMs (benchmarking toolkits, physical sanity checks, emergent constraints, idealized dynamical test cases, and multi-model intercomparisons). Figures 1 and 2 showcase demonstrative runs using ACE and SFNO with data deposited on Zenodo.",
+  "dataset_ids": [
+    "742d7782da6a-01",
+    "742d7782da6a-02",
+    "742d7782da6a-03",
+    "742d7782da6a-04"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "paper_id": "33f94bfe9583",
+  "year": "5",
+  "filename": "Opinion_ The importance and future development of perturbed parameter ensembles in climate and atmospheric science.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Opinion: The importance and future development of perturbed parameter ensembles in climate and atmospheric science",
+  "authors": [
+    "Ken S. Carslaw",
+    "Leighton A. Regayre",
+    "Ulrike Proske",
+    "Andrew Gettelman",
+    "David M. H. Sexton",
+    "Yun Qian",
+    "Lauren R. Marshall",
+    "Oliver Wild",
+    "Marcus van Lier-Walqui",
+    "Annika Oertel",
+    "Saloua Peatier",
+    "Ben Yang",
+    "Jill S. Johnson",
+    "Sihan Li",
+    "Daniel T. McCoy",
+    "Benjamin M. Sanderson",
+    "Christina J. Williamson",
+    "Gregory S. Elsaesser",
+    "Kuniko Yamazaki",
+    "Ben B. B. Booth"
+  ],
+  "pub_year": 2026,
+  "venue": "Atmospheric Chemistry and Physics",
+  "doi_or_url": "https://doi.org/10.5194/acp-26-4651-2026",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "cloud microphysics",
+    "aerosol radiative forcing",
+    "aerosol-cloud interactions",
+    "convection",
+    "boundary layer processes",
+    "atmospheric chemistry"
+  ],
+  "ml_methods": [
+    "Gaussian process emulation"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "uncertainty_quantification",
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a review/opinion article discussing the use and future of perturbed parameter ensembles (PPEs) in climate and atmospheric science; no original datasets were produced.",
+  "pain_points": [
+    "Computational cost of running ensembles of complex high-resolution models",
+    "High dimensionality of parameter space and sparse sampling",
+    "Equifinality and error compensation obscuring physical causation and reliable projections",
+    "Representation errors and observational uncertainties when confronting models with observations",
+    "Over-fitting / over-tuning of models concealing structural deficiencies",
+    "Disentangling internal variability from parametric and structural uncertainty",
+    "Large data volumes produced by extensive ensembles"
+  ],
+  "extraction_notes": "The paper is an opinion/review paper resulting partly from the WCRP APPEAR workshop. The data availability section states: 'No original research data was generated in this article.' Mentions funding by U.S. NSF STC Learning the Earth with Artificial Intelligence and Physics (LEAP).",
+  "dataset_ids": []
+}

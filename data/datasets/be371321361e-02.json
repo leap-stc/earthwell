@@ -1,0 +1,19 @@
+{
+  "dataset_id": "be371321361e-02",
+  "paper_id": "be371321361e",
+  "name": "HWind Legacy Archive",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "HRD real-time hurricane wind analysis system (HWind)",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "85 TC events in the Northern Hemisphere (North Atlantic basin, 2003-2013/2014)",
+  "size_gb_estimate": null,
+  "resolution": "0.05° (~6 km) resolution, 6-hr time steps",
+  "produced_in_this_study": false,
+  "access": "https://www.rms.com/event-response/hwind/legacy-archive",
+  "access_kind": "public_url_or_doi"
+}

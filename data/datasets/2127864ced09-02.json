@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2127864ced09-02",
+  "paper_id": "2127864ced09",
+  "name": "Ocean Weather Station (OWS) Papa Meteorological and Oceanic Observations",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "OWS Papa (50°N, 145°W) station mooring / research vessel sensors",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly",
+  "produced_in_this_study": false,
+  "access": "http://basilisk.fr/src/test/ows_papa.c",
+  "access_kind": "public_url_or_doi"
+}

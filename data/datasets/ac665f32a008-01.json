@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ac665f32a008-01",
+  "paper_id": "ac665f32a008",
+  "name": "MRMS composite reflectivity",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Multi-Radar Multi-Sensor (MRMS) / WSR-88D",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.01° spatial grid, 2-min temporal grid",
+  "produced_in_this_study": false,
+  "access": "http://mtarchive.geol.iastate.edu/",
+  "access_kind": "public_url_or_doi"
+}

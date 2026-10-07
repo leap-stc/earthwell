@@ -1,0 +1,19 @@
+{
+  "dataset_id": "17a61548389e-02",
+  "paper_id": "17a61548389e",
+  "name": "ERA5 meteorological reanalysis",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "N320 reduced Gaussian and T639 spectral remapped to ~80 km ICON grid with 27 vertical levels",
+  "produced_in_this_study": false,
+  "access": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS), doi: 10.24381/cds.bd0915c6",
+  "access_kind": "public_url_or_doi"
+}

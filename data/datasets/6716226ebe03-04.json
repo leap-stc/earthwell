@@ -1,0 +1,19 @@
+{
+  "dataset_id": "6716226ebe03-04",
+  "paper_id": "6716226ebe03",
+  "name": "GFDL SPEAR fully coupled hybrid simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL SPEAR",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

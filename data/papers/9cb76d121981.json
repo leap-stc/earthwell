@@ -1,0 +1,40 @@
+{
+  "paper_id": "9cb76d121981",
+  "year": "3",
+  "filename": "Ethics in climate AI_ From theory to practice.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Ethics in climate AI: From theory to practice",
+  "authors": [
+    "Viviana Acquaviva",
+    "Elizabeth A. Barnes",
+    "David John Gagne, II",
+    "Galen A. McKinley",
+    "Savannah Thais"
+  ],
+  "pub_year": 2024,
+  "venue": "PLOS Climate",
+  "doi_or_url": "https://doi.org/10.1371/journal.pclm.0000465",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate artificial intelligence",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is an opinion piece discussing ethics, explainability, documentation, and academic culture in climate AI; it does not produce or benchmark datasets.",
+  "pain_points": [
+    "Regional bias and inequity arising from higher data density/quality in northern and western areas",
+    "Inequity in access to computational resources between academic institutions and large tech corporations",
+    "Brittleness and failure under climate-change-induced distribution shifts",
+    "Opacity and black-box nature of complex deep learning models",
+    "Academic incentive structures that reward short-term publication velocity and raw accuracy over interpretability, robustness, and comprehensive documentation"
+  ],
+  "extraction_notes": "Opinion article in PLOS Climate focusing on ethical practices and explainability in climate AI; no machine learning models were developed or evaluated.",
+  "dataset_ids": []
+}

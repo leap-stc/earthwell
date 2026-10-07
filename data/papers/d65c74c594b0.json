@@ -1,0 +1,66 @@
+{
+  "paper_id": "d65c74c594b0",
+  "year": "5",
+  "filename": "Reduced water loss rather than increased photosynthesis controls CO2-enhanced water-use efficiency.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Reduced water loss rather than increased photosynthesis controls CO2-enhanced water-use efficiency",
+  "authors": [
+    "Weiwei Zhan",
+    "Xu Lian",
+    "Jiangong Liu",
+    "Jisu Han",
+    "Yu Huang",
+    "Hao Yang",
+    "Chunhui Zhan",
+    "Alexander J. Winkler",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Nature Ecology & Evolution",
+  "doi_or_url": "https://doi.org/10.1038/s41559-025-02761-0",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ecosystem ecology / land-atmosphere interactions",
+  "processes": [
+    "intrinsic water-use efficiency (iWUE)",
+    "canopy conductance (Gc)",
+    "gross primary productivity (GPP)",
+    "stomatal conductance",
+    "evapotranspiration",
+    "CO2 fertilization",
+    "transpiration"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "Bayesian optimization"
+  ],
+  "ml_tasks": [
+    "interpretability_xai",
+    "causal_inference",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The code necessary to reproduce the main findings of this study are publicly available via GitHub at https://github.com/Weiwei047/iWUE_CO2.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops an offline XGBoost attribution framework to decompose observational flux tower time series and isolate CO2 physiological sensitivity; it does not produce or benchmark an online ML parameterization for climate models.",
+  "pain_points": [
+    "Erroneous long-term sensor trends or calibration drift in eddy covariance CO2 and soil water content (SWC) measurements required replacing in situ data with satellite/reanalysis products (CASM, CAMS, NOAA flasks).",
+    "Strong noise and stochasticity at daily resolution necessitate careful signal-to-noise ratio (SNR) filtering to confirm detectable physiological signals.",
+    "Collinearity between covarying climatic trends and atmospheric CO2 increases requires differencing and input-perturbation experiments to avoid misattribution.",
+    "Sparse geographical coverage of long-term eddy covariance flux towers in tropical regions such as Amazonia and Asia."
+  ],
+  "extraction_notes": "The paper uses ML (XGBoost) as a diagnostic attribution tool rather than as a physical parameterization emulator. It compares observationally derived beta response factors against CMIP6 ESM simulations.",
+  "dataset_ids": [
+    "d65c74c594b0-01",
+    "d65c74c594b0-02",
+    "d65c74c594b0-03",
+    "d65c74c594b0-04",
+    "d65c74c594b0-05",
+    "d65c74c594b0-06",
+    "d65c74c594b0-07",
+    "d65c74c594b0-08",
+    "d65c74c594b0-09"
+  ]
+}

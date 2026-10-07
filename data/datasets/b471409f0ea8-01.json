@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b471409f0ea8-01",
+  "paper_id": "b471409f0ea8",
+  "name": "NASA GISS ModelE3 historical simulation (1950–1951)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS ModelE3 (One-Moment Aerosol scheme)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "35,040 timesteps over the entire 2-year period",
+  "size_gb_estimate": null,
+  "resolution": "2° latitude x 2.5° longitude, 62 vertical layers, 30-minute timestep",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

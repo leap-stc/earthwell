@@ -1,0 +1,18 @@
+{
+  "dataset_id": "63349f954d04-01",
+  "paper_id": "63349f954d04",
+  "name": "CHATS7 walnut orchard meteorological forcing data",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "Canopy Horizontal Array Turbulence Study (CHATS)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "1488 half-hourly timesteps (May 2007, CHATS7)",
+  "size_gb_estimate": null,
+  "resolution": "30-minute temporal resolution, 46 canopy vertical layers",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a4e4dff190c8-01",
+  "paper_id": "a4e4dff190c8",
+  "name": "SOCAT v2021 gridded fCO2",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "in situ surface ocean fCO2/pCO2 observations (ships, moorings, buoys)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1982–2019)",
+  "produced_in_this_study": false,
+  "access": "https://www.socat.info/",
+  "access_kind": "public_url_or_doi"
+}

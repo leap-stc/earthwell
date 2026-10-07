@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ef48d76ed836-02",
+  "paper_id": "ef48d76ed836",
+  "name": "CMIP5 multi-model simulations (RCP45, RCP85)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CMIP5 ESMs",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "re-gridded to 0.5° × 0.5°",
+  "produced_in_this_study": false,
+  "access": "https://esgf-node.llnl.gov/projects/cmip5/",
+  "access_kind": "public_url_or_doi"
+}

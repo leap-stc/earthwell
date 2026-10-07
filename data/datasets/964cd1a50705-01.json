@@ -1,0 +1,18 @@
+{
+  "dataset_id": "964cd1a50705-01",
+  "paper_id": "964cd1a50705",
+  "name": "Coupled Rössler oscillators simulation data",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Coupled Rössler oscillator equations (numerical integration)",
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "L = 1000 time samples",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://github.com/juannat7/kausal",
+  "access_kind": "public_url_or_doi"
+}

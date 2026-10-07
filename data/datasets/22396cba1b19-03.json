@@ -1,0 +1,18 @@
+{
+  "dataset_id": "22396cba1b19-03",
+  "paper_id": "22396cba1b19",
+  "name": "SAM-DYAMOND coarse-grained tropical precipitation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SAM (System for Atmospheric Modeling)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "approximately 10^8 samples",
+  "size_gb_estimate": null,
+  "resolution": "Coarse-grained from 4.34 km to 138.9 km across 20°S–20°N",
+  "produced_in_this_study": false,
+  "access": "https://github.com/Sshamekh/Precip-org and DKRZ DYAMOND initiative (https://www.esiwace.eu/services/dyamond-initiative)",
+  "access_kind": "public_url_or_doi"
+}

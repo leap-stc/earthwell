@@ -1,0 +1,60 @@
+{
+  "paper_id": "ac665f32a008",
+  "year": "5",
+  "filename": "Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation 2026.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation",
+  "authors": [
+    "Da Fan",
+    "David John Gagne II",
+    "Steven J. Greybush",
+    "Eugene E. Clothiaux",
+    "John S. Schreck",
+    "Chaopeng Shen"
+  ],
+  "pub_year": 2026,
+  "venue": "Artificial Intelligence for the Earth Systems",
+  "doi_or_url": "10.1175/AIES-D-25-0064.1",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "meteorology",
+  "processes": [
+    "convective initiation",
+    "thunderstorms",
+    "cumulus cloud development",
+    "cloud microphysics"
+  ],
+  "ml_methods": [
+    "ResNet",
+    "Bayesian neural networks",
+    "MOPED",
+    "Monte Carlo dropout",
+    "deep ensemble",
+    "Flipout variational inference",
+    "Bayesian model averaging"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "uncertainty_quantification",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/dxf424/CIUQ",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops statistical nowcasting classification models for 0-1-h convective initiation from satellite imagery rather than climate/Earth system model physics parameterization or simulation emulation.",
+  "pain_points": [
+    "Bayesian neural networks (BNNs) require optimizing twice as many weights as deterministic networks and struggle to converge to optimal solutions without informed priors like MOPED.",
+    "Undersampling the majority non-CI class to balance data caused degraded generalization in underrepresented regimes such as broad clear-sky and anvil cloud regions.",
+    "Satellite and radar observations cannot resolve subkilometer scale processes (<1 km) critical for CI, including small cumulus clouds and fine differential topography.",
+    "Models exhibit significantly lower skill during nighttime/early morning hours due to inherent challenges in forecasting nocturnal convection."
+  ],
+  "extraction_notes": "The underlying dataset processing methodology originated from Fan et al. (2024), but the curated dataset DOI (10.26208/6Y59-0R80) and GitHub repository (CIUQ) are provided directly in the data availability statement.",
+  "dataset_ids": [
+    "ac665f32a008-01",
+    "ac665f32a008-02",
+    "ac665f32a008-03",
+    "ac665f32a008-04"
+  ]
+}

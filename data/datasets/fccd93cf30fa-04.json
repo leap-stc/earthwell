@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fccd93cf30fa-04",
+  "paper_id": "fccd93cf30fa",
+  "name": "Precipitation and passive microwave data",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "Passive microwave sensors",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

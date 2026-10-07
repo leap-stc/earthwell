@@ -1,0 +1,63 @@
+{
+  "paper_id": "66232d5a5ef7",
+  "year": "4",
+  "filename": "EcoPro-LSTMv0_ A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments(1).pdf",
+  "model": "gemini-3.8-flash",
+  "title": "EcoPro-LSTMv0: A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments",
+  "authors": [
+    "Mitra Cattry",
+    "Wenli Zhao",
+    "Juan Nathaniel",
+    "Jinghao Qiu",
+    "Yao Zhang",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2024-3726",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "biogeosciences",
+  "processes": [
+    "gross primary productivity (GPP)",
+    "ecosystem respiration (RECO)",
+    "evapotranspiration (ET)",
+    "soil water content (SWC)",
+    "carbon and water cycles",
+    "precipitation pulse response",
+    "legacy and lag effects"
+  ],
+  "ml_methods": [
+    "LSTM",
+    "Multitask Learning",
+    "Multi-Timescale LSTM",
+    "Monte Carlo Dropout",
+    "Integrated Gradients",
+    "SHAP (GradientExplainer)"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://zenodo.org/records/13963773; tutorial at https://ecoclimate-at-g-lab-columbia-university.github.io/MT-LSTM/",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a reproducible benchmark combining multi-timescale FLUXNET2015 tower data for simultaneously predicting coupled terrestrial water and carbon fluxes (GPP, RECO, ET, SWC) with code and tutorial publicly available.",
+  "pain_points": [
+    "High computational cost in training time and memory (18 GB RAM, 16 CPU cores) limiting data scaling on CPUs",
+    "Data sparsity and missing records (multiple sites excluded due to lack of soil moisture data or <1 year of data)",
+    "Suboptimal observational data quality and noise for certain sites (e.g. AU-Rig, ES-LJu)",
+    "Collinearity among meteorological drivers creating challenges for feature attribution methods like SHAP",
+    "Sensitivity of Integrated Gradients (IG) to the selection of the baseline neutral state",
+    "Equifinality where multiple ML models explain observational data equally well without resolving underlying physical interactions"
+  ],
+  "extraction_notes": "EcoPro-LSTMv0 uses a multi-timescale dual-input sequence (120-day daily memory and 3-day hourly memory) trained in a multi-task learning configuration to predict carbon and water cycle fluxes across Mediterranean sites.",
+  "dataset_ids": [
+    "66232d5a5ef7-01",
+    "66232d5a5ef7-02",
+    "66232d5a5ef7-03"
+  ]
+}

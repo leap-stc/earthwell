@@ -1,0 +1,18 @@
+{
+  "dataset_id": "589440f0ebac-05",
+  "paper_id": "589440f0ebac",
+  "name": "OCO-3 SIF v10",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Orbiting Carbon Observatory-3 on ISS",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "2.25 x 1.29 km2, diurnal/half-hourly soundings",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

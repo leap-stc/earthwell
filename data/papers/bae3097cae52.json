@@ -1,0 +1,56 @@
+{
+  "paper_id": "bae3097cae52",
+  "year": "5",
+  "filename": "Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation",
+  "authors": [
+    "Da Fan",
+    "David John Gagne II",
+    "Steven J. Greybush",
+    "Eugene E. Clothiaux",
+    "John S. Schreck",
+    "Chaopeng Shen"
+  ],
+  "pub_year": 2025,
+  "venue": null,
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2507.16219",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "convective initiation",
+    "deep convection",
+    "cloud microphysics",
+    "atmospheric moisture"
+  ],
+  "ml_methods": [
+    "ResNet",
+    "Monte Carlo dropout",
+    "Bayesian Neural Network",
+    "MOPED (Model Priors with Empirical Bayes using Deep neural network)",
+    "Deep Ensembles (Initial-weights ensemble)",
+    "Variational Inference (Flipout)"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "uncertainty_quantification",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Hyperparameter optimization tool mentioned: https://doi.org/10.5281/zenodo.7787022; specific model code repository not explicitly given in a dedicated code availability statement.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The task is nowcasting / observational classification of convective initiation from satellite imagery and radar, not climate/earth system model parameterization or physical emulation.",
+  "pain_points": [
+    "Bayesian neural networks (BNNs) require optimizing more parameters and struggle to converge to optimal solutions compared to deterministic models.",
+    "BNNs trained with random priors showed degradation at longer lead times (30 and 60 minutes) without task-specific hyperparameter tuning.",
+    "Deep ensembles (initial-weights ensembles) showed poorer spatial generalization over clear-sky non-CI regions and anvil cloud regions without convective initiation.",
+    "Diurnal variability in performance: nocturnal convection (around midnight) remains challenging to predict."
+  ],
+  "extraction_notes": "The dataset is based on Fan et al. (2024), covering June-July 2020 and June 2021 over the US Great Plains. Data availability statement directs to an NCAR GDEX DOI repository: https://doi.org/10.26208/6Y59-0R80.",
+  "dataset_ids": [
+    "bae3097cae52-01"
+  ]
+}

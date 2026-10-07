@@ -1,0 +1,58 @@
+{
+  "paper_id": "7887057fecea",
+  "year": "5",
+  "filename": "Attention‐Based Stochastic Simulation of Climate‐Informed Spatiotemporal Flood Risk for Multisite Insurance Portfolios.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Attention‐Based Stochastic Simulation of Climate‐Informed Spatiotemporal Flood Risk for Multisite Insurance Portfolios",
+  "authors": [
+    "Adam Nayak",
+    "Pierre Gentine",
+    "Upmanu Lall"
+  ],
+  "pub_year": 2026,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2026GL123701",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "flooding",
+    "streamflow",
+    "hydrologic extremes",
+    "climate teleconnections",
+    "El Niño Southern Oscillation",
+    "North Atlantic Oscillation",
+    "Pacific Decadal Oscillation"
+  ],
+  "ml_methods": [
+    "Transformer encoder",
+    "Multi-head self-attention",
+    "Learned attention pooling",
+    "k-Nearest Neighbors",
+    "Integrated Gradients",
+    "Empirical copula",
+    "Continuous wavelet transform"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "interpretability_xai",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/ZENODO.21249021",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets and methods focus on streamflow time-series modeling, climate teleconnections, and stochastic flood simulation for portfolio risk rather than physical parameterization of Earth system processes or high-resolution GCM emulator testbeds.",
+  "pain_points": [
+    "Data limitation: extreme value and heavy-tailed hydroclimate risk distributions require long records; pure deep learning architectures tend to overfit and fail on out-of-sample extremes without long historical observations.",
+    "Curse of dimensionality in nonparametric analog/kNN methods when scaling to multisite portfolios.",
+    "Mismatch between subdecadal/interannual fiscal decision horizons (1-5 years) and traditional seasonal forecast (months) or GCM projection (multidecadal/centennial) scales."
+  ],
+  "extraction_notes": "The paper uses a hybrid approach combining a Transformer encoder to create low-dimensional climate state embeddings, coupled with kNN analog retrieval and empirical copulas to sample daily streamflow flood sequences.",
+  "dataset_ids": [
+    "7887057fecea-01",
+    "7887057fecea-02",
+    "7887057fecea-03"
+  ]
+}

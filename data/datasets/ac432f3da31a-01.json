@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ac432f3da31a-01",
+  "paper_id": "ac432f3da31a",
+  "name": "Machine learning-detected ship track climatology",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "over one million ship tracks",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

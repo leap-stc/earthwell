@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7d39855f3451-01",
+  "paper_id": "7d39855f3451",
+  "name": "Synthetic bullet rosette 3-D models and 2-D projections",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "PyVista geometric modeling",
+  "scale": "other",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "9,000 models, 216,000 images (samples)",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

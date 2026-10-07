@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8b93316afdc1-05",
+  "paper_id": "8b93316afdc1",
+  "name": "Sentinel-1 derived ice velocity time series",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Sentinel 1A and 1B",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "quarterly measurements (2015-2022)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

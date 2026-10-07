@@ -1,0 +1,18 @@
+{
+  "dataset_id": "76b3ee94d49b-07",
+  "paper_id": "76b3ee94d49b",
+  "name": "ISCCP cloud properties",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "ISCCP",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Climatology (July 1983 - December 2009)",
+  "produced_in_this_study": false,
+  "access": "https://isccp.giss.nasa.gov",
+  "access_kind": "public_url_or_doi"
+}

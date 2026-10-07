@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9571bcf512aa-03",
+  "paper_id": "9571bcf512aa",
+  "name": "Permanent Service for Mean Sea Level (PSMSL) tide-gauge records",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "602 coastal tide gauges",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "602 tide-gauge records",
+  "size_gb_estimate": null,
+  "resolution": "Point locations; monthly mean (1993–2022)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.2112/JCOASTRES-D-12-00175.1",
+  "access_kind": "public_url_or_doi"
+}

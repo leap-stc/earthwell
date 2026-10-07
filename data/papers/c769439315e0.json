@@ -1,0 +1,48 @@
+{
+  "paper_id": "c769439315e0",
+  "year": "5",
+  "filename": "Unsupervised classification of absorbing aerosols detected by the Single Particle Soot Photometer.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Unsupervised classification of absorbing aerosols detected by the Single Particle Soot Photometer",
+  "authors": [
+    "Aaryan Doshi",
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2025,
+  "venue": "Atmospheric Measurement Techniques",
+  "doi_or_url": "https://doi.org/10.5194/amt-18-7767-2025",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "aerosols",
+  "processes": [
+    "laser-induced incandescence",
+    "aerosol light absorption",
+    "aerosol light scattering",
+    "refractory aerosol mass detection"
+  ],
+  "ml_methods": [
+    "Variational Autoencoder",
+    "Principal Component Analysis",
+    "Random Forest"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/kdlamb/SP2-VAE (DOI: https://doi.org/10.5281/zenodo.17944283)",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset comprises laboratory instrument time series (SP2 laser-induced incandescence) for single-particle aerosol identification and classification, rather than grid-scale climate model simulation outputs for parameterization development.",
+  "pain_points": [
+    "Laboratory training datasets do not fully generalize to ambient atmospheric aerosols",
+    "Dust-like aerosols (mineral dust, coal fly ash, volcanic ash) have high heterogeneity and commonly cause optical detector saturation or signal anomalies",
+    "Outliers falling far outside the training distribution can produce unreliable latent embeddings in VAEs",
+    "Differences in instrument configuration and detector gains across field campaigns affect transferability of representations"
+  ],
+  "extraction_notes": "The paper investigates unsupervised learning (PCA and VAE) to compress raw single-particle SP2 time series into low-dimensional latent spaces (optimal dimension n=3) to differentiate absorbing aerosol classes and quantify aerosol population similarity.",
+  "dataset_ids": [
+    "c769439315e0-01"
+  ]
+}

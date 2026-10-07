@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8d5a2534ce39-02",
+  "paper_id": "8d5a2534ce39",
+  "name": "Pine Island Glacier (PIG) glaciological, geological, and velocity data",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a7a033624df2-01",
+  "paper_id": "a7a033624df2",
+  "name": "Satellite-era observations (1980–present)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Satellites (e.g., Obs4MIPs)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

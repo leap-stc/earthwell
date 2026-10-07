@@ -1,0 +1,63 @@
+{
+  "paper_id": "3090eb822021",
+  "year": "5",
+  "filename": "A Self-Diagnosing Structural Error-Aware Parameter Estimation Method for Earth System Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Self-Diagnosing Structural Error-Aware Parameter Estimation Method for Earth System Models",
+  "authors": [
+    "Qingyuan Yang",
+    "Addisu G Semie",
+    "Brian Medeiros",
+    "Gregory S Elsaesser",
+    "Da Fan",
+    "Wayne Chuang"
+  ],
+  "pub_year": 2026,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.5281/zenodo.21904973",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "cloud microphysics",
+    "warm rain microphysics",
+    "deep convection",
+    "boundary layer turbulence",
+    "aerosol-cloud interactions",
+    "radiative transfer"
+  ],
+  "ml_methods": [
+    "Gaussian process",
+    "neural networks"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "emulation",
+    "parameterization",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "warm rain microphysics (autoconversion and accretion)",
+  "online_coupled": true,
+  "host_model": "CAM6",
+  "code_availability": "https://github.com/yiqioyang/proj2dhullsampler.git",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study generated a multi-iteration perturbed parameter ensemble (initial 100 members plus subsequent calibrated iterations) of CAM6 with an ML warm-rain scheme, perturbing 34 physical parameters, deposited on Zenodo with public code on GitHub. It directly suits benchmarking parameter estimation, structural error detection, and emulation algorithms.",
+  "pain_points": [
+    "Structural error between observational targets (e.g. FLUT vs LWCF, PRECT vs radiative fluxes) where no parameter set matches both targets simultaneously",
+    "Sparsity in high-dimensional parameter space (100 ensemble members over 34 parameters)",
+    "Curse of dimensionality in GP emulation necessitating decomposition into 2D parameter subspaces",
+    "Risk of over-constraining and compensating for structural error if mismatch tolerances are inflated",
+    "Simulation failures during ensemble runs (e.g., 3 out of 90 runs failed in Iteration 1)"
+  ],
+  "extraction_notes": "The preprint date is marked as '14 Sep 2026' on arXiv (arXiv:2609.16210v1, submitted to JAMES). The host atmospheric model uses an online-coupled ML parameterization for warm rain microphysics based on a neural net trained from bin-resolved microphysics, inside CAM6. The calibration framework uses Gaussian Process emulators of 2-parameter projections and alpha shapes.",
+  "dataset_ids": [
+    "3090eb822021-01",
+    "3090eb822021-02",
+    "3090eb822021-03",
+    "3090eb822021-04",
+    "3090eb822021-05",
+    "3090eb822021-06",
+    "3090eb822021-07"
+  ]
+}

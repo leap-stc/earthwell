@@ -1,0 +1,54 @@
+{
+  "paper_id": "4837d04b99a1",
+  "year": "4",
+  "filename": "Spatiotemporal upscaling of sparse air-sea pCO2 data via physics-informed transfer learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Spatiotemporal upscaling of sparse air-sea pCO2 data via physics-informed transfer learning",
+  "authors": [
+    "Siyeon Kim",
+    "Juan Nathaniel",
+    "Zhewen Hou",
+    "Tian Zheng",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "Scientific Data",
+  "doi_or_url": "https://doi.org/10.1038/s41597-024-03959-w",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean surface pCO2",
+    "ocean carbon cycle"
+  ],
+  "ml_methods": [
+    "U-Net",
+    "ConvLSTM",
+    "Random Forest",
+    "XGBoost",
+    "Feed Forward Neural Network"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The final code to reproduce the results is available on Github https://github.com/sk981102/ocean_co2/.",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study produces open, globally gridded 1° × 1° monthly ocean pCO2 data products (1982-2017) and utilizes the standardized Large Ensemble Testbed, making it valuable for training and benchmarking observational gap-filling and ocean carbon flux models.",
+  "pain_points": [
+    "Extreme observational data sparsity in space and time (SOCAT covers only 1-2% of global ocean; severe under-sampling in Southern Ocean, particularly during winter).",
+    "Out-of-distribution extrapolation: models trained directly on sparse observations lose physical consistency in unobserved regimes.",
+    "High memory and computational requirements limiting temporal window size (restricted to K=6 months, preventing encoding of full annual cycle).",
+    "Overfitting during fine-tuning on sparse tracks, which degrades learned physical representations unless layer freezing is carefully tuned."
+  ],
+  "extraction_notes": "The paper focuses on upscaling/gap-filling sparse observational ocean surface pCO2 using a physics-informed transfer learning strategy (pre-training on Earth system model GOBMs and fine-tuning on SOCAT).",
+  "dataset_ids": [
+    "4837d04b99a1-01",
+    "4837d04b99a1-02",
+    "4837d04b99a1-03",
+    "4837d04b99a1-04"
+  ]
+}

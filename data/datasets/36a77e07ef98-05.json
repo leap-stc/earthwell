@@ -1,0 +1,18 @@
+{
+  "dataset_id": "36a77e07ef98-05",
+  "paper_id": "36a77e07ef98",
+  "name": "Electricity Consuming Load (ECL)",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "321 consumers over 3 years",
+  "size_gb_estimate": null,
+  "resolution": "hourly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

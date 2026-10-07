@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1b93d9b00aae-05",
+  "paper_id": "1b93d9b00aae",
+  "name": "Synthetic Harvard Forest SCOPE simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SCOPE v1.73",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, 2013-2014 growing season and 3-month extreme drought scenario",
+  "produced_in_this_study": true,
+  "access": "The SCOPE simulations and the codes for NEE partitioning are available at GitHub (https://github.com/Weiwei047/SIF_partitioning) or at zenodo (https://zenodo.org/record/6450447#.YlTl9NPMLtN).",
+  "access_kind": "public_url_or_doi"
+}

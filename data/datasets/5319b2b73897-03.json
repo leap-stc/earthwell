@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5319b2b73897-03",
+  "paper_id": "5319b2b73897",
+  "name": "MODIS cloud droplet number concentration (Nd)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "daily means for the period 2003–2015 and averaged to 1°",
+  "size_gb_estimate": null,
+  "resolution": "1°",
+  "produced_in_this_study": false,
+  "access": "Cloud droplet number concentration from MODIS is available at online in NetCDF format from the Centre for European Data Analysis (CEDA) (D. Grosvenor & Wood, 2018).",
+  "access_kind": "public_url_or_doi"
+}

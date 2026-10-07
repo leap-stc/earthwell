@@ -1,0 +1,46 @@
+{
+  "paper_id": "3c4ad273daa5",
+  "year": "5",
+  "filename": "Integrated Turbulence and Machine Learning Models Explain Pier Scour in Erodible Channels.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Integrated Turbulence and Machine Learning Models Explain Pier Scour in Erodible Channels",
+  "authors": [
+    "Shuolin Li"
+  ],
+  "pub_year": 2025,
+  "venue": "Water Resources Research",
+  "doi_or_url": "https://doi.org/10.1029/2024WR039088",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Hydrology",
+  "processes": [
+    "bridge pier scour",
+    "turbulent kinetic energy budget",
+    "shear stress covariance budget",
+    "turbulent erosion",
+    "sediment transport in erodible channels"
+  ],
+  "ml_methods": [
+    "genetic programming",
+    "symbolic regression"
+  ],
+  "ml_tasks": [
+    "equation_discovery",
+    "parameterization"
+  ],
+  "parameterization_target": "equilibrium pier scour depth",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Genetic programming was performed using the open-source gplearn Python library; no dedicated code repository URL is stated.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset is a small tabular compilation (484 runs) of historical laboratory flume experiments for local hydraulic engineering / pier scour rather than large-scale geophysical or Earth system parameterization testbeds.",
+  "pain_points": [
+    "Lack of direct fine-scale vertical velocity spectrum measurements within scour holes, requiring analogies with emergent canopy flows",
+    "Analytical intractability of full double-integration of prognostic turbulence budgets over depth and wavenumber, requiring bulk approximations and data-driven symbolic regression",
+    "Data compilation limited to laboratory-scale experiments with predominantly fine sediments (dp/H ~ 10^-4 to 10^-3)"
+  ],
+  "extraction_notes": "The study was supported in part by the NSF Center for Learning the Earth with Artificial Intelligence and Physics (LEAP) (Award #2019625). Symbolic regression in gplearn was configured with 5,000 population size, 20 generations, and an 80/20 train/test split.",
+  "dataset_ids": [
+    "3c4ad273daa5-01"
+  ]
+}

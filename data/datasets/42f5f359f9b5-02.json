@@ -1,0 +1,18 @@
+{
+  "dataset_id": "42f5f359f9b5-02",
+  "paper_id": "42f5f359f9b5",
+  "name": "CMIP6-testbed",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "44 members from 9 CMIP6 Earth System Models (UKESM1-0-LL, ACCESS-ESM1-5, CMCC-ESM2, CESM2-WACCM, CESM2, CanESM5-CanOE, CanESM5, MPI-ESM1-2-LR, GFDL-ESM4)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "44 members from nine independent CMIP6 ESMs",
+  "size_gb_estimate": null,
+  "resolution": "monthly 1°x1°",
+  "produced_in_this_study": false,
+  "access": "https://zenodo.org/records/16654165",
+  "access_kind": "public_url_or_doi"
+}

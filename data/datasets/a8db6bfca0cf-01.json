@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a8db6bfca0cf-01",
+  "paper_id": "a8db6bfca0cf",
+  "name": "CMIP5 and CMIP6 multi-model ensemble simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "28 CMIP5 and CMIP6 AOGCMs",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "variable GCM resolutions",
+  "produced_in_this_study": false,
+  "access": "The CMIP6 and CMIP5 data are available through the Earth System Grid Federation system (ESGF; https://esgf-node.llnl.gov/search/cmip6/, https://esgf-node.llnl.gov/search/cmip5/, respectively), and the models and ensemble members used in this study are listed in Table S1 and S2 in Supporting Information S1 and in Figure 1.",
+  "access_kind": "public_url_or_doi"
+}

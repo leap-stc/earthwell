@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7c554cd4cfeb-04",
+  "paper_id": "7c554cd4cfeb",
+  "name": "OISSTv2 sea-surface temperature",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Optimum Interpolation Sea-Surface Temperature (OISSTv2)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° gridded",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

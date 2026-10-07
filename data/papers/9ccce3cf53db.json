@@ -1,0 +1,55 @@
+{
+  "paper_id": "9ccce3cf53db",
+  "year": "5",
+  "filename": "DeepCarbon A Global Data Product of Upscaled Carbon Fluxes from Knowledge Guided Deep Learning Models Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "DeepCarbon: A Global Data Product of Upscaled Carbon Fluxes from Knowledge-Guided Deep Learning Models",
+  "authors": [
+    "Vipin Kumar",
+    "Aleksei Rozanov",
+    "Arvind Renganathan"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting 2025",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2025AGUFMB31J.1844K/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "biogeosciences",
+  "processes": [
+    "gross primary production (GPP)",
+    "ecosystem respiration (RECO)",
+    "net ecosystem exchange (NEE)",
+    "terrestrial carbon fluxes",
+    "photosynthesis",
+    "respiration"
+  ],
+  "ml_methods": [
+    "knowledge-guided deep learning",
+    "encoder-decoder architecture",
+    "ensemble",
+    "synthetic pretraining",
+    "loss-based regularization"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "downscaling_superres"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract only; no public data repository or code link is provided yet, and the work focuses on upscaled observational carbon flux products rather than parameterization or emulation.",
+  "pain_points": [
+    "Spatial sparsity and uncertainty in in-situ eddy covariance observations",
+    "Generalization challenges in under-observed regions such as the tropics and high latitudes"
+  ],
+  "extraction_notes": "Abstract from AGU Fall Meeting 2025. DeepCarbon produces a 1-day, 0.05° global gridded carbon flux data product (2001-2024).",
+  "dataset_ids": [
+    "9ccce3cf53db-01",
+    "9ccce3cf53db-02",
+    "9ccce3cf53db-03",
+    "9ccce3cf53db-04",
+    "9ccce3cf53db-05"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0ab17fd7ecd9-02",
+  "paper_id": "0ab17fd7ecd9",
+  "name": "GPM IMERG Final Precipitation L3 Half Hourly V06",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "GPM constellation",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1° x 0.1°, half-hourly",
+  "produced_in_this_study": false,
+  "access": "https://planetarycomputer.microsoft.com/dataset/gpm-imerg-hhr",
+  "access_kind": "public_url_or_doi"
+}

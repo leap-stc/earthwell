@@ -1,0 +1,56 @@
+{
+  "paper_id": "32f627e82a21",
+  "year": "3",
+  "filename": "Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction_ The pCO2‐Residual Method - Bennington - 2022 - Journal of Advances in Modeling Earth Systems.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction: The pCO2-Residual Method",
+  "authors": [
+    "Val Bennington",
+    "Tomislav Galjanic",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2021MS002960",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean surface carbon chemistry",
+    "biogeochemical carbon export",
+    "ocean thermal and non-thermal pCO2 drivers"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "SHAP"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Python scripts are available at https://github.com/valbennington/JAMES_pub_2022",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an observationally driven gap-filling/reconstruction product of surface ocean pCO2 and flux, rather than a parameterization dataset or emulator testbed designed to couple with or replace subgrid processes in a climate model.",
+  "pain_points": [
+    "Severe spatial and temporal sparsity of in situ surface ocean pCO2 observations (especially Southern Hemisphere winter).",
+    "Disentangling opposing temperature effects on pCO2 (solubility vs. stratification/biological drawdown and vertical mixing).",
+    "Missing winter satellite chlorophyll-a observations at polar latitudes and lack of full-year satellite ocean color observations prior to 1998.",
+    "Uncertainty in wind-driven gas transfer velocity (piston velocity) from reanalysis wind products introduces substantial air-sea flux uncertainty."
+  ],
+  "extraction_notes": "The paper uses the Large Ensemble Testbed (Gloege et al., 2021) in supporting information to evaluate method performance against ESM synthetic observations, but the main model is trained directly on observational data (SOCAT) using physics-informed pre-processing (pCO2-Residual method).",
+  "dataset_ids": [
+    "32f627e82a21-01",
+    "32f627e82a21-02",
+    "32f627e82a21-03",
+    "32f627e82a21-04",
+    "32f627e82a21-05",
+    "32f627e82a21-06",
+    "32f627e82a21-07",
+    "32f627e82a21-08"
+  ]
+}

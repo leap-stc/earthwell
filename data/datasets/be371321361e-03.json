@@ -1,0 +1,19 @@
+{
+  "dataset_id": "be371321361e-03",
+  "paper_id": "be371321361e",
+  "name": "IBTrACS (International Best Track Archive for Climate Stewardship)",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "trajectories",
+    "tabular"
+  ],
+  "size_as_stated": "85 events",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

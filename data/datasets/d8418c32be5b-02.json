@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d8418c32be5b-02",
+  "paper_id": "d8418c32be5b",
+  "name": "MAGICC7 reduced-complexity model simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "MAGICC7",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "global mean",
+  "produced_in_this_study": false,
+  "access": "https://magicc.org/download/magicc7",
+  "access_kind": "public_url_or_doi"
+}

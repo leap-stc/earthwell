@@ -1,0 +1,31 @@
+{
+  "paper_id": "36cc1cefeeae",
+  "year": "3",
+  "filename": "The Effects of a Short-term Corporate Social Impact Activity on Employee Turnover_ Field Experimental Evidence.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The Effects of a Short-term Corporate Social Impact Activity on Employee Turnover: Field Experimental Evidence",
+  "authors": [
+    "Florencio F. Portocarrero",
+    "Vanessa C. Burbano"
+  ],
+  "pub_year": 2023,
+  "venue": "Management Science",
+  "doi_or_url": "https://doi.org/10.1287/mnsc.2022.01517",
+  "doc_kind": "journal_article",
+  "in_scope": false,
+  "research_field": "other",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper does not involve climate, Earth, or environmental science, physical modeling, or machine learning parameterization; it focuses on organizational behavior and employee turnover in management science.",
+  "pain_points": [],
+  "extraction_notes": "Out of scope: Study examines the causal effect of short-term corporate social impact participation on employee retention at a Latin American bank.",
+  "dataset_ids": []
+}

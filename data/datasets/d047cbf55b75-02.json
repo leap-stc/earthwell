@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d047cbf55b75-02",
+  "paper_id": "d047cbf55b75",
+  "name": "Afrobarometer survey data (Round 7 and Round 8)",
+  "role": "training",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Household survey",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

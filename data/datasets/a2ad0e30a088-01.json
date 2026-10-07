@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a2ad0e30a088-01",
+  "paper_id": "a2ad0e30a088",
+  "name": "NASA GISS ModelE3 1950–1951 simulation output",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS ModelE3 (One-Moment Aerosol / OMA scheme)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "35,040 timesteps over the entire 2-year period (17,520 timesteps for 1950 training, entire 1951 for testing)",
+  "size_gb_estimate": null,
+  "resolution": "2° latitude by 2.5° longitude (90 x 144 grid), 62 vertical levels, 30-minute intervals",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

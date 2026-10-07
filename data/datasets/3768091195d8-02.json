@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3768091195d8-02",
+  "paper_id": "3768091195d8",
+  "name": "Surface Ocean CO2 Atlas Database Version 2023 (SOCATv2023)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "research vessels, cargo ships, uncrewed surface vehicles",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "more than 33 million high-quality (< 5 μatm) measurements of fCO2",
+  "size_gb_estimate": null,
+  "resolution": "monthly 1°x1°",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.25921/r7xa-bt92",
+  "access_kind": "public_url_or_doi"
+}

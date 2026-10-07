@@ -1,0 +1,18 @@
+{
+  "dataset_id": "964cd1a50705-02",
+  "paper_id": "964cd1a50705",
+  "name": "2D Reaction-diffusion equation simulation data",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "2D coupled reaction-diffusion PDE (nx = ny = 16)",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "16x16 grid",
+  "produced_in_this_study": true,
+  "access": "https://github.com/juannat7/kausal",
+  "access_kind": "public_url_or_doi"
+}

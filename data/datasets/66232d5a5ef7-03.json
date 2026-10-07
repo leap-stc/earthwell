@@ -1,0 +1,18 @@
+{
+  "dataset_id": "66232d5a5ef7-03",
+  "paper_id": "66232d5a5ef7",
+  "name": "FLUXCOM and FLUXCOM-X (X-BASE)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "42f5f359f9b5-08",
+  "paper_id": "42f5f359f9b5",
+  "name": "LDEO ΔResidualOPT Surface Ocean fCO2 and Air-Sea CO2 Flux Reconstruction (1982-2023)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "XGBoost reconstruction model",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly 1°x1°, 1982-2023",
+  "produced_in_this_study": true,
+  "access": "https://github.com/OceanCarbon-LDEO-Columbia/",
+  "access_kind": "public_url_or_doi"
+}

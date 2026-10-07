@@ -1,0 +1,48 @@
+{
+  "paper_id": "0acda7ad1125",
+  "year": "5",
+  "filename": "An improved methodology for estimating Kinetic Energy transfers from structure functions with regularized least-squares ABSTRACT.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "An improved methodology for estimating Kinetic Energy transfers from structure functions with regularized least-squares",
+  "authors": [
+    "Manuel Othon Gutierrez-Villanueva",
+    "Bruce D Cornuelle",
+    "Sarah T Gille",
+    "Matthew R Mazloff",
+    "Dhruv Balwada"
+  ],
+  "pub_year": 2026,
+  "venue": "AGU Ocean Sciences Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/osm26/meetingapp.cgi/Paper/2005727",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "physical oceanography",
+  "processes": [
+    "kinetic energy transfer",
+    "mesoscale eddies",
+    "submesoscale turbulence",
+    "isotropic quasi-geostrophic turbulence"
+  ],
+  "ml_methods": [
+    "regularized least-squares"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract describing an inverse/regularized least-squares formulation without provided code, benchmark datasets, or data access links.",
+  "pain_points": [
+    "Sparse velocity observations make cross-scale kinetic energy transfer estimation difficult",
+    "Existing non-negative least squares (NNLS) assume monotonic transfers, failing to capture convergences or negative energy injections"
+  ],
+  "extraction_notes": "Abstract PS44C-1580 from Ocean Sciences Meeting (scheduled February 2026). RLS is applied as an inverse estimation/regularization method rather than deep learning.",
+  "dataset_ids": [
+    "0acda7ad1125-01",
+    "0acda7ad1125-02",
+    "0acda7ad1125-03"
+  ]
+}

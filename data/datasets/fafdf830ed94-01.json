@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fafdf830ed94-01",
+  "paper_id": "fafdf830ed94",
+  "name": "CAM6 Parameter Perturbed Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular",
+    "spatial_2d"
+  ],
+  "size_as_stated": "262 ensemble members",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

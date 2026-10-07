@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ef48d76ed836-10",
+  "paper_id": "ef48d76ed836",
+  "name": "MERRA-2 SWE and temperature",
+  "role": "evaluation",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "NASA GEOS / MERRA-2",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.625° × 0.5° (re-gridded to 0.5° × 0.5°)",
+  "produced_in_this_study": false,
+  "access": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/",
+  "access_kind": "public_url_or_doi"
+}

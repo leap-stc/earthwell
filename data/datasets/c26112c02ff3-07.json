@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c26112c02ff3-07",
+  "paper_id": "c26112c02ff3",
+  "name": "CMIP6 multi-model historical and SSP2-4.5 ensemble SST data",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CMIP6 ESMs",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Multi-model",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.8335419 via LEAP-Pangeo",
+  "access_kind": "pangeo_or_cloud"
+}

@@ -1,0 +1,80 @@
+{
+  "paper_id": "6716226ebe03",
+  "year": "5",
+  "filename": "A Framework for Hybrid Physics-AI Coupled Ocean Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Framework for Hybrid Physics-AI Coupled Ocean Models",
+  "authors": [
+    "L. Zanna",
+    "W. Gregory",
+    "P. Perezhogin",
+    "A. Sane",
+    "C. Zhang",
+    "A. Adcroft",
+    "M. Bushuk",
+    "C. Fernandez-Granda",
+    "B. Reichl",
+    "D. Balwada",
+    "J. Busecke",
+    "W. Chapman",
+    "A. Connolly",
+    "D. Du",
+    "K. Everard",
+    "F. Falasca",
+    "R. Falga",
+    "D. Kamm",
+    "E. Meunier",
+    "Q. Liu",
+    "A.-A. Nasser",
+    "M. Pudig",
+    "A. Shao",
+    "J.L. Simpson",
+    "L. Vogt",
+    "J. Wu"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2510.22676v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "physical oceanography",
+  "processes": [
+    "ocean surface boundary layer vertical mixing",
+    "mesoscale lateral momentum mixing / backscatter",
+    "sea ice concentration bias correction",
+    "mesoscale eddies"
+  ],
+  "ml_methods": [
+    "Convolutional Neural Networks (CNN)",
+    "Artificial Neural Networks (ANN) / Multilayer Perceptrons (MLP)",
+    "Sparse regression / Equation discovery",
+    "Genetic programming"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "equation_discovery"
+  ],
+  "parameterization_target": "Ocean boundary layer diffusivity, subgrid mesoscale eddy momentum stress tensor, and sea-ice concentration bias correction increment",
+  "online_coupled": true,
+  "host_model": "GFDL OM4 / MOM6 / SIS2 / SPEAR",
+  "code_availability": "https://github.com/m2lines/SIS2; https://github.com/m2lines/ANN-momentum-mesoscale; https://doi.org/10.5281/zenodo.7663074; https://doi.org/10.5281/zenodo.7663061; https://doi.org/10.5281/zenodo.7663041; https://github.com/m2lines/vesri_visuals; https://github.com/NOAA-GFDL/MOM6-examples",
+  "testbed_candidate": true,
+  "testbed_rationale": "Comprehensive benchmark and testbed for online-coupled ocean parameterizations (vertical mixing and mesoscale eddies) and sea ice bias corrections implemented in MOM6/OM4 and SPEAR, with open source code and Zenodo datasets available.",
+  "pain_points": [
+    "Computational and memory bottlenecks during online CPU inference for deep CNN models, requiring GPU-based inference or knowledge distillation",
+    "Boundary artifacts and extrapolation errors near complex coastlines and land boundaries with fixed stencils",
+    "Lack of bitwise reproducibility unless specifically engineered in Fortran matrix multiplication modules",
+    "Generalization degradation when moving from forced ocean/ice setups to fully coupled atmosphere-ocean models due to atmospheric feedback triggering runaway convective/ice-albedo feedbacks",
+    "Compensating model errors: improving physical parameterizations does not always reduce overall climate biases"
+  ],
+  "extraction_notes": "The manuscript describes a comprehensive framework and multiple deployed models developed by the M2LInES collaboration, comparing CNNs, physics-aware ANNs, and equation discovery within MOM6/SIS2/SPEAR.",
+  "dataset_ids": [
+    "6716226ebe03-01",
+    "6716226ebe03-02",
+    "6716226ebe03-03",
+    "6716226ebe03-04",
+    "6716226ebe03-05",
+    "6716226ebe03-06",
+    "6716226ebe03-07"
+  ]
+}

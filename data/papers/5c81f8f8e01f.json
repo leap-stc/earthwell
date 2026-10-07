@@ -1,0 +1,54 @@
+{
+  "paper_id": "5c81f8f8e01f",
+  "year": "3",
+  "filename": "Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts",
+  "authors": [
+    "Kyleen Liao",
+    "Jatan Buch",
+    "Kara Lamb",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "Environmental Data Science",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2312.04291",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "atmospheric chemistry",
+  "processes": [
+    "PM2.5 transport",
+    "wildfire emissions",
+    "atmospheric dispersion",
+    "prescribed fire smoke propagation"
+  ],
+  "ml_methods": [
+    "Graph Neural Network (GNN)",
+    "Recurrent Neural Network (RNN)",
+    "Long Short-Term Memory (LSTM)",
+    "Multilayer Perceptron (MLP)",
+    "MissForest"
+  ],
+  "ml_tasks": [
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/kyleenliao/Prescribed_Fire_PM2.5_Simulation",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper focuses on forecasting point-sensor air quality concentrations using graph neural networks rather than parameterizing unresolved subgrid physical processes within numerical weather or climate models.",
+  "pain_points": [
+    "Ground monitors are spatially sparse and have missing observation records requiring imputation",
+    "Model tends to output values close to the previous timestep (persistence bias)",
+    "Lack of ground-truth observations to independently evaluate partitioned fire-specific vs. ambient PM2.5 concentrations",
+    "Difficulty identifying and filtering time steps fully uninfluenced by persistent smoke (fire influence persists up to 10 days)"
+  ],
+  "extraction_notes": "The research was funded in part by NSF LEAP STC (Award #2019625). Prescribed burns were simulated by transposing historical prescribed fire FRP to counterfactual target times within the GNN.",
+  "dataset_ids": [
+    "5c81f8f8e01f-01",
+    "5c81f8f8e01f-02",
+    "5c81f8f8e01f-03",
+    "5c81f8f8e01f-04"
+  ]
+}

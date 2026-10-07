@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b2c4df5ecad8-02",
+  "paper_id": "b2c4df5ecad8",
+  "name": "ERA5 reanalysis data (1982 to 2021)",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1982 to 2021",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

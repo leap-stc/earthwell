@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1b93d9b00aae-04",
+  "paper_id": "1b93d9b00aae",
+  "name": "MODIS Leaf Area Index (MCD15A3H)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS Terra/Aqua",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "500 m, 4-day",
+  "produced_in_this_study": false,
+  "access": "LAI was acquired from the MCD15A3H dataset through Global Subset Tool (https://modis.ornl.gov/globalsubset/).",
+  "access_kind": "public_url_or_doi"
+}

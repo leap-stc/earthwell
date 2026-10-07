@@ -1,0 +1,59 @@
+{
+  "paper_id": "b890bad8646f",
+  "year": "5",
+  "filename": "AutoClimDS_ Climate Data Science Agentic AI -- A Knowledge Graph is All You Need.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "AutoClimDS: Climate Data Science Agentic AI – A Knowledge Graph is All You Need",
+  "authors": [
+    "Ahmed Jaber",
+    "Wangshu Zhu",
+    "Ayon Roy",
+    "Candace Agonafir",
+    "Linnia Hawkins",
+    "Karthick Jayavelu",
+    "Justin Downes",
+    "Sameer Mohamed",
+    "Tian Zheng"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2509.21553",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate data science",
+  "processes": [
+    "sea level rise",
+    "surface temperature"
+  ],
+  "ml_methods": [
+    "ReAct agent framework",
+    "Claude Sonnet 4",
+    "ClimateBERT (DistilRoBERTa)",
+    "sentence-transformers",
+    "HNSW vector search"
+  ],
+  "ml_tasks": [
+    "classification_detection",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/Ajaberr/AutoClimDS",
+  "testbed_candidate": false,
+  "testbed_rationale": "AutoClimDS is an agentic AI orchestration framework and knowledge graph infrastructure for climate data discovery and automated scientific analysis, not a physical process simulation dataset or benchmark for training parameterizations.",
+  "pain_points": [
+    "Fragmented climate data sources, heterogeneous file formats (CSV, NetCDF, HDF, JSON), and steep technical expertise requirements",
+    "Keyword search requiring researchers to know specific dataset and variable names",
+    "General-purpose LLMs hallucinate dataset names, fail to locate authoritative sources, and cannot construct valid programmatic retrieval workflows on their own",
+    "Authentication requirements, API rate limits, and intermittent endpoint availability that disrupt fully autonomous workflows"
+  ],
+  "extraction_notes": "The paper focuses on building an agentic AI system (AutoClimDS) integrated with a domain-specific knowledge graph to automate climate data science pipelines, replicating sea level rise and CMIP6/ERA5 temperature projection studies from natural language prompts.",
+  "dataset_ids": [
+    "b890bad8646f-01",
+    "b890bad8646f-02",
+    "b890bad8646f-03",
+    "b890bad8646f-04",
+    "b890bad8646f-05"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "c80f5cf46ad3",
+  "year": "1",
+  "filename": "How Well Do We Understand the Land-Ocean-Atmosphere Carbon Cycle_ _ ESS Open Archive.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "How Well Do We Understand the Land-Ocean-Atmosphere Carbon Cycle?",
+  "authors": [
+    "David Crisp",
+    "Han Dolman",
+    "Toste Tanhua",
+    "Galen A. McKinley",
+    "Judith Hauck",
+    "Simon Eggleston",
+    "Valentin Aich"
+  ],
+  "pub_year": 2022,
+  "venue": "ESS Open Archive",
+  "doi_or_url": "https://doi.org/10.1002/essoar.10506293/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "biogeochemistry",
+  "processes": [
+    "carbon cycle",
+    "air-sea CO2 exchange",
+    "terrestrial carbon uptake",
+    "photosynthesis",
+    "respiration",
+    "ocean overturning circulation",
+    "biological carbon pump"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a comprehensive review article assessing the state of knowledge across land, ocean, and atmospheric carbon cycles. It synthesizes previously published datasets and modeling frameworks without generating new standardized benchmark datasets or simulation testbeds for machine learning.",
+  "pain_points": [
+    "Extreme data sparsity in surface ocean pCO2 observations (available for only ~2% of 1°x1° locations) limiting ML/statistical interpolation skill, especially at high frequencies and high latitudes in winter.",
+    "Lack of direct observational constraints on riverine carbon flux closure terms (Fnat,riv) and climate-induced non-steady-state natural flux changes (Fnat,ns).",
+    "Observational coverage gaps for in situ greenhouse gas measurements and forest inventory plots across tropical forests, boreal zones, and the Arctic.",
+    "Contradiction between top-down satellite atmospheric inverse models (suggesting humid tropical forests are becoming net carbon sources) and bottom-up plot inventories (suggesting they remain net sinks).",
+    "Inability of current dynamic global vegetation models (DGVMs) to capture observed reductions in CO2 fertilization efficiency caused by nutrient and water limitation.",
+    "Passive satellite remote sensing measurements are impeded by cloud cover, atmospheric aerosols, and low solar zenith angles at high latitudes during winter."
+  ],
+  "extraction_notes": "The paper surveys existing applications of machine learning in carbon cycle science (such as neural network interpolations of surface ocean pCO2 and FLUXCOM upscaling of eddy covariance fluxes) but does not train or develop ML models itself.",
+  "dataset_ids": [
+    "c80f5cf46ad3-01",
+    "c80f5cf46ad3-02",
+    "c80f5cf46ad3-03",
+    "c80f5cf46ad3-04"
+  ]
+}

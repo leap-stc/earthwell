@@ -1,0 +1,47 @@
+{
+  "paper_id": "5de294406bfc",
+  "year": "4",
+  "filename": "Machine‐Assisted Physical Closure for Coarse SuspendedSediments in Vegetated Turbulent Channel Flows.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Machine‐Assisted Physical Closure for Coarse Suspended Sediments in Vegetated Turbulent Channel Flows",
+  "authors": [
+    "Shuolin Li",
+    "Yongquan Qu",
+    "Tian Zheng",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2024GL110475",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "suspended sediment transport",
+    "turbulent dispersive flux",
+    "turbulent diffusive flux",
+    "sediment settling",
+    "canopy hydrodynamics"
+  ],
+  "ml_methods": [
+    "feed-forward neural network"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "turbulent dispersive sediment flux ratio (1 - Cg) / (1 - Cf)",
+  "online_coupled": true,
+  "host_model": "Fourth-order Runge-Kutta 1D vertical numerical solver",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Small laboratory flume dataset consisting of 9 experimental vertical profile runs; no dedicated code repository provided.",
+  "pain_points": [
+    "Sparsity of experimental vertical concentration profiles requiring artificial data augmentation and interpolation",
+    "Lack of varied particle sizes in laboratory data to isolate particle diameter impacts from settling velocity",
+    "Restriction to emergent rigid vegetation, limiting immediate generalizability to submerged canopies or real-world natural rivers"
+  ],
+  "extraction_notes": "The neural network is embedded directly inside a 4th-order Runge-Kutta differential equation solver to parameterize the dispersive flux ratio from spatial averaging.",
+  "dataset_ids": [
+    "5de294406bfc-01"
+  ]
+}

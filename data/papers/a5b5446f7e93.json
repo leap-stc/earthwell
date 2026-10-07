@@ -1,0 +1,48 @@
+{
+  "paper_id": "a5b5446f7e93",
+  "year": "3",
+  "filename": "Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference",
+  "authors": [
+    "Kaitlyn Loftus",
+    "Marcus van Lier-Walqui",
+    "Hugh Morrison",
+    "Kamal Kant Chandrakar",
+    "Mohamed Aziz Bhouri",
+    "Sean P. Santos"
+  ],
+  "pub_year": 2024,
+  "venue": "104th Annual AMS Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AMS...10435624L/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Cloud Microphysics",
+  "processes": [
+    "cloud microphysics",
+    "bulk microphysics"
+  ],
+  "ml_methods": [
+    "machine learning emulator",
+    "Markov Chain Monte Carlo"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "cloud microphysics",
+  "online_coupled": false,
+  "host_model": "LES",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Short conference abstract without detailed data specifications or public data repository links.",
+  "pain_points": [
+    "Atmospheric models / LES are too computationally expensive for direct Bayesian parameter inference (e.g., MCMC).",
+    "Parameter equifinality and dependence of parameter constraint on performance metric selection."
+  ],
+  "extraction_notes": "Abstract from the 104th AMS Annual Meeting (paper id 435624). The exact ML emulator architecture (e.g., Gaussian Process or neural network) is not stated in the abstract text.",
+  "dataset_ids": [
+    "a5b5446f7e93-01"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "67996bc53014-04",
+  "paper_id": "67996bc53014",
+  "name": "Darcy Flow, Navier-Stokes, and 2D Poisson PDE datasets",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "DiffusionPDE benchmark configurations",
+  "scale": "other",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Darcy: 32x32; Poisson: 100x100",
+  "produced_in_this_study": false,
+  "access": "https://github.com/MB-29/constrained-sampling",
+  "access_kind": "public_url_or_doi"
+}

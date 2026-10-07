@@ -1,0 +1,50 @@
+{
+  "paper_id": "18b41181226e",
+  "year": "5",
+  "filename": "GenAI for Climate Science.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "GenAI for Climate Science",
+  "authors": [
+    "Pierre Gentine",
+    "Francesco Immorlano",
+    "Gideon Dresdner",
+    "Ignacio Lopez-Gomez",
+    "Tian Zheng",
+    "George Deodatis"
+  ],
+  "pub_year": 2025,
+  "venue": "Columbia AI Events / Climate Week at Columbia Engineering 2025",
+  "doi_or_url": "https://ai.columbia.edu/events/genai-climate-science",
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "climate science",
+  "processes": [
+    "ocean modeling",
+    "climate emulation",
+    "data assimilation",
+    "downscaling"
+  ],
+  "ml_methods": [
+    "Generative AI",
+    "Agentic AI"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "downscaling_superres",
+    "forecasting",
+    "data_assimilation",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Event description and panel discussion announcement only; contains no specific dataset or benchmark information.",
+  "pain_points": [
+    "Large-scale data and complex modeling demands across the climate research community",
+    "Technical challenges in integrating GenAI tools in research and operational contexts"
+  ],
+  "extraction_notes": "This document is an event web page announcement for a LEAP panel discussion held on September 25, 2025, titled 'GenAI for Climate Science'. Speakers are listed as authors.",
+  "dataset_ids": []
+}

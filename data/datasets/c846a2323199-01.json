@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c846a2323199-01",
+  "paper_id": "c846a2323199",
+  "name": "PINACLES LES trade cumuli (ATEX) bin microphysics simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "PINACLES with Fast Spectral Bin Microphysics version 2 (FSBMv2)",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "40 m spatial resolution, domain 25.6 x 25.6 x 3 km, snapshots every 10 minutes for 8 hours simulated time, 33 mass-doubling bins",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

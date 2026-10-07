@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ce8197c246db-03",
+  "paper_id": "ce8197c246db",
+  "name": "Global Ocean Biogeochemical Model hindcast simulations (CESM-ETHZ and FESOM-REcoM)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM-ETHZ and FESOM-REcoM forced with JRA-55 / JRA55-do v1.3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "CESM-ETHZ: 1.125° lon x 0.27°-0.53° lat, 60 vertical layers; FESOM-REcoM: 1° (refined), 46 vertical layers",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.14092496",
+  "access_kind": "public_url_or_doi"
+}

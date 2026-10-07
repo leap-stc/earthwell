@@ -1,0 +1,19 @@
+{
+  "dataset_id": "f944e0338f4e-01",
+  "paper_id": "f944e0338f4e",
+  "name": "SAM DYAMOND Phase 2 simulation",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "System for Atmospheric Modeling (SAM)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": "10 d randomly selected from 40 d (last 30 d after 10 d spin-up), tropical ocean (20° S - 20° N), total number of samples on the order of 10^8",
+  "size_gb_estimate": null,
+  "resolution": "4.2 km spatial resolution, 15 min temporal resolution, coarse-grained to 16x16 up to 48x48 (e.g., 32x32 / ~130 km)",
+  "produced_in_this_study": false,
+  "access": "https://www.esiwace.eu/services/dyamond-initiative",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "76b3ee94d49b-03",
+  "paper_id": "76b3ee94d49b",
+  "name": "HadISST 2.1 (Met Office Hadley Centre sea ice and SST dataset)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "HadISST2.1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly varying (1980-2000)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

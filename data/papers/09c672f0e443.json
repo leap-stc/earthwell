@@ -1,0 +1,57 @@
+{
+  "paper_id": "09c672f0e443",
+  "year": "1",
+  "filename": "Robust Inverse Framework using Knowledge-guided Self-Supervised Learning_ An application to Hydrology.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Robust Inverse Framework using Knowledge-guided Self-Supervised Learning: An application to Hydrology",
+  "authors": [
+    "Rahul Ghosh",
+    "Arvind Renganathan",
+    "Kshitij Tayal",
+    "Xiang Li",
+    "Ankush Khandelwal",
+    "Xiaowei Jia",
+    "Christopher Duffy",
+    "John Nieber",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2022,
+  "venue": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '22)",
+  "doi_or_url": "https://doi.org/10.1145/3534678.3539448",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "rainfall-runoff processes",
+    "streamflow dynamics",
+    "ecohydrological interactions"
+  ],
+  "ml_methods": [
+    "Bidirectional LSTM",
+    "LSTM Decoder",
+    "Contrastive Learning (InfoNCE loss)",
+    "Feed-Forward Neural Network",
+    "Entity-Aware LSTM (EA-LSTM)"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "forecasting",
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://tinyurl.com/bdny7fk6",
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on basin-scale streamflow and catchment attribute inverse modeling using the CAMELS benchmark, rather than atmospheric or ocean subgrid parameterization for Earth System Models.",
+  "pain_points": [
+    "High measurement error, noise, and uncertainty in static catchment characteristics due to spatial and temporal heterogeneity.",
+    "Incompleteness or missing static basin characteristics, preventing model transferability across regions and continents.",
+    "Ill-posedness and high computational complexity of non-linear inverse modeling in dynamical physical systems.",
+    "High sensitivity of state-of-the-art hydrological forward ML models (like EA-LSTM) to noise in input static catchment attributes."
+  ],
+  "extraction_notes": "The paper introduces Knowledge-guided Self-Supervised Learning (KGSSL) combining bidirectional LSTM encoders, self-supervised contrastive learning, sequence reconstruction, and pseudoinverse loss to infer static basin properties and improve downstream streamflow forecasting.",
+  "dataset_ids": [
+    "09c672f0e443-01"
+  ]
+}

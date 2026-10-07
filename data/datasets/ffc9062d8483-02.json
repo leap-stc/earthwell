@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ffc9062d8483-02",
+  "paper_id": "ffc9062d8483",
+  "name": "SeaFlux pCO2 products and wind products",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Five pCO2 products (JENA-MLS, MPI-SOMFFN, CMEMS-FFN, JMA-MLR, CSIR-ML6) and wind reanalyses (CCMPv2, JRA55, ERA5)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly, 1990–2014",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.5482547",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c12ada1cad6b-01",
+  "paper_id": "c12ada1cad6b",
+  "name": "Microscopic unit cell stationary Navier-Stokes simulations",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "stationary Navier-Stokes solver",
+  "scale": "DNS",
+  "data_types": [
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

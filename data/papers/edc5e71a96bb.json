@@ -1,0 +1,56 @@
+{
+  "paper_id": "edc5e71a96bb",
+  "year": "4",
+  "filename": "The ASTE-BGC Data-Assimilative Regional Ocean Biogeochemistry Model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The ASTE-BGC Data-Assimilative Regional Ocean Biogeochemistry Model",
+  "authors": [
+    "Lauren A Moseley",
+    "Galen A McKinley",
+    "Dustin Carroll",
+    "Dimitris Menemenlis",
+    "Raphael Dussin",
+    "An T Nguyen"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.22541/essoar.173870817.79303064/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "ocean circulation",
+    "primary production",
+    "nutrient cycling",
+    "phytoplankton growth and mortality",
+    "air-sea gas exchange",
+    "marine carbon cycle",
+    "ocean deoxygenation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "parameter_calibration",
+    "data_assimilation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "MITgcm (ASTE configuration) with BLING",
+  "code_availability": "https://github.com/lauren-moseley/greens-functions-method",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a 16-year data-assimilated physical-biogeochemical regional state estimate of the North Atlantic Ocean with high resolution (1/3°) and calibrated ecological parameters, suitable for training or benchmarking ML parameterizations of biological carbon pump dynamics, dissolved oxygen, and surface pCO2.",
+  "pain_points": [
+    "Spin-up caused model drift away from the observed state (model attractor vs. data attractor), making initial condition adjustments dominant over parameter tuning.",
+    "The Green's Functions method assumes linearity of perturbations, which is challenging for highly nonlinear ocean biogeochemical and ecological processes.",
+    "Computational cost of the Green's Functions approach scales linearly with the number of parameter sensitivity experiments.",
+    "Sparse observational coverage in space and time, especially in high-latitude/subpolar regions and winter months."
+  ],
+  "extraction_notes": "The primary calibration method is a classical discrete inverse theory / Green's Functions sensitivity optimization rather than deep learning. Machine learning (XGBoost) appears only within third-party evaluation datasets (GOBAI-O2, LDEO-HPD, pCO2-Residual). The project was supported by the LEAP STC.",
+  "dataset_ids": [
+    "edc5e71a96bb-01",
+    "edc5e71a96bb-02",
+    "edc5e71a96bb-03",
+    "edc5e71a96bb-04",
+    "edc5e71a96bb-05",
+    "edc5e71a96bb-06"
+  ]
+}

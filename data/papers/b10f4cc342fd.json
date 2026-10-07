@@ -1,0 +1,59 @@
+{
+  "paper_id": "b10f4cc342fd",
+  "year": "4",
+  "filename": "GRAiCE_ reconstructing terrestrial water storage anomalies with recurrent neural networks.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "GRAiCE: reconstructing terrestrial water storage anomalies with recurrent neural networks",
+  "authors": [
+    "Irene Palazzoli",
+    "Serena Ceola",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Scientific Data",
+  "doi_or_url": "https://doi.org/10.1038/s41597-025-04403-3",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "terrestrial water storage",
+    "precipitation",
+    "evapotranspiration",
+    "snow water equivalent",
+    "groundwater storage",
+    "vegetation transpiration"
+  ],
+  "ml_methods": [
+    "LSTM",
+    "BiLSTM",
+    "Optuna"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "All codes for preparing input data, developing models, and analyzing their performance are written in Python and are accessible at: https://github.com/PalIre/GRAiCE.git. Given the large size of datasets and the extensive computational time required, the codes for hyperparameter tuning with Optuna and model training were executed on the Ginsburg High Performance Computing cluster at Columbia University.",
+  "testbed_candidate": false,
+  "testbed_rationale": "This study develops an observational machine-learning-based statistical reconstruction and gap-filling product for Terrestrial Water Storage Anomalies (TWSA) at monthly 0.5-degree resolution, rather than a parameterization dataset or emulator testbed for high-resolution physics in GCMs/ESMs.",
+  "pain_points": [
+    "Missing data and long-term observational temporal gaps between GRACE (ended 2017) and GRACE-FO (started 2018) as well as within missions.",
+    "Lack of direct TWSA observational data prior to 2002 to validate pre-GRACE reconstructions.",
+    "Neglect of anthropogenic impacts (groundwater extraction, irrigation, reservoir/dam operation) leads to systematic over/underestimation in heavily exploited agricultural or arid basins.",
+    "Spatial constraints imposed by the SIF dataset (61,215 grid cells vs 91,528 for meteorological forcings)."
+  ],
+  "extraction_notes": "The paper uses Optuna for hyperparameter optimization across Köppen-Geiger climate zones, and fits LSTM/BiLSTM models per grid cell to reconstruct monthly terrestrial water storage anomalies back to 1984.",
+  "dataset_ids": [
+    "b10f4cc342fd-01",
+    "b10f4cc342fd-02",
+    "b10f4cc342fd-03",
+    "b10f4cc342fd-04",
+    "b10f4cc342fd-05",
+    "b10f4cc342fd-06",
+    "b10f4cc342fd-07",
+    "b10f4cc342fd-08",
+    "b10f4cc342fd-09"
+  ]
+}

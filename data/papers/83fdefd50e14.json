@@ -1,0 +1,65 @@
+{
+  "paper_id": "83fdefd50e14",
+  "year": "5",
+  "filename": "State of the CESM.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "State of the CESM",
+  "authors": [
+    "David Lawrence"
+  ],
+  "pub_year": 2024,
+  "venue": "CESM Workshop",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "Climate and Earth System Modeling",
+  "processes": [
+    "warm rain microphysics",
+    "cloud cover",
+    "atmospheric convection",
+    "gravity waves",
+    "atmospheric chemistry",
+    "radiation",
+    "boundary layer dissipation",
+    "ice microphysics",
+    "phenology",
+    "pedotransfer functions",
+    "sea ice heat conduction",
+    "sea ice floe size distribution",
+    "ocean vertical mixing",
+    "ocean mesoscale eddies",
+    "ice sheet friction",
+    "air-sea turbulent fluxes"
+  ],
+  "ml_methods": [
+    "FTorch",
+    "CREDIT",
+    "neural networks",
+    "emulators",
+    "QuadTune"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "parameter_calibration"
+  ],
+  "parameterization_target": "Warm rain microphysics, ocean vertical mixing (KPP), mesoscale eddies, atmospheric convection, radiation, and air-sea turbulent fluxes",
+  "online_coupled": true,
+  "host_model": "CESM (CAM / MOM6 / CLM / CICE)",
+  "code_availability": "Full list of changes at cesm.ucar.edu; citations guidelines provided for model and dataset DOIs; Fortran-to-JAX translation referenced at https://arxiv.org/abs/2606.07681",
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a high-level overview workshop presentation summarizing Community Earth System Model updates, projects, and visions rather than a standalone reproducible ML dataset or benchmark.",
+  "pain_points": [
+    "Old and new model biases when introducing new dycores/components",
+    "Pathological behaviors (e.g., Labrador Sea freezing issue)",
+    "Tuning tradeoffs and high computational cost of full coupled spin-up",
+    "Gains achieved through uncoupled PPEs and emulators are typically lost when coupled in the host model",
+    "Stability of coupled ML emulators over decadal-to-centennial rollouts"
+  ],
+  "extraction_notes": "The presentation is a 'State of the CESM' keynote slide deck delivered by David Lawrence at the CESM Workshop. It highlights ongoing collaborations with LEAP and M2LInES to develop CESM3-MLe (ML-enhanced CESM), coupled emulators (CAMulator, MOMulator via CREDIT), and automated parameter calibration.",
+  "dataset_ids": [
+    "83fdefd50e14-01",
+    "83fdefd50e14-02",
+    "83fdefd50e14-03"
+  ]
+}

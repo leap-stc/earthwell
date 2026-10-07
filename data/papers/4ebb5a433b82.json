@@ -1,0 +1,51 @@
+{
+  "paper_id": "4ebb5a433b82",
+  "year": "3",
+  "filename": "Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations",
+  "authors": [
+    "Val Bennington",
+    "Lucas Gloege",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2022,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2022GL098632",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "air-sea CO2 flux",
+    "surface ocean pCO2",
+    "ocean carbon uptake",
+    "ocean carbonate chemistry"
+  ],
+  "ml_methods": [
+    "XGBoost"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/valbennington/LDEO_HPD_extension",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an observation-constrained, reconstructed global ocean pCO2 and flux product via offline XGBoost misfit correction rather than an ML-based parameterization or surrogate model for dynamical GCM integration.",
+  "pain_points": [
+    "Sparsity of direct surface ocean pCO2 observations prior to the 1980s prevents training interannually varying corrections for 1959–1981.",
+    "Significant regional biases in the mean and seasonal cycles across Global Ocean Biogeochemical Models (GOBMs).",
+    "High uncertainty in riverine carbon efflux adjustments needed to convert net air-sea flux to anthropogenic flux (estimated at 0.49 ± 0.26 PgC/yr)."
+  ],
+  "extraction_notes": "LDEO-HPD extends the ML misfit-correction framework developed by Gloege et al. (2022). For 1982–2020, interannually varying XGBoost corrections are applied to 8 GOBMs; for 1959–1981, the 2000–2020 monthly climatology of XGBoost misfits is applied.",
+  "dataset_ids": [
+    "4ebb5a433b82-01",
+    "4ebb5a433b82-02",
+    "4ebb5a433b82-03",
+    "4ebb5a433b82-04",
+    "4ebb5a433b82-05",
+    "4ebb5a433b82-06",
+    "4ebb5a433b82-07"
+  ]
+}

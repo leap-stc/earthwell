@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2e434d4762d9-06",
+  "paper_id": "2e434d4762d9",
+  "name": "Vaisala National Lightning Detection Network (NLDN)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NLDN lightning detection sensors",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly strike density, 12 km x 12 km",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "proprietary"
+}

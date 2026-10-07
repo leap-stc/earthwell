@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4ff01187f117-01",
+  "paper_id": "4ff01187f117",
+  "name": "CLM6 perturbed parameter ensemble (PPE) simulations",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM6 (Community Land Model version 6)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "annual root-zone SM and ET across space and time; 56 plant traits and soil properties",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1639c364ca7e-01",
+  "paper_id": "1639c364ca7e",
+  "name": "ERA5 reanalysis",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System (IFS)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1.40625° (128 × 256 global grid), 13 pressure levels + surface, 1-day/sub-daily timesteps (1979–2020)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

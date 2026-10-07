@@ -1,0 +1,51 @@
+{
+  "paper_id": "ad7bf4fe6756",
+  "year": "3",
+  "filename": "The New Generation of Global Climate Models Enhanced by Machine Learning Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The New Generation of Global Climate Models Enhanced by Machine Learning",
+  "authors": [
+    "Laure Zanna",
+    "Aakash Sane",
+    "Cheng Zhang",
+    "Dhruv Balwada",
+    "Pavel Perezhogin",
+    "William Gregory",
+    "Julius Busecke",
+    "Alistair Adcroft",
+    "Brandon G. Reichl",
+    "Mitchell Bushuk",
+    "Feiyu Lu",
+    "Ryan Abernathey",
+    "Andrew Shao",
+    "Carlos Fernandez-Granda"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFMGC21A..05Z/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "ocean / climate modeling",
+  "processes": [
+    "ocean mixing",
+    "sea-ice subgrid processes"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "ocean mixing and sea-ice subgrid processes",
+  "online_coupled": true,
+  "host_model": "NOAA-GFDL OM4 and CM4 (MOM6-based)",
+  "code_availability": "https://m2lines.github.io/",
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific dataset links, documentation, or publicly accessible benchmark data releases specified.",
+  "pain_points": [
+    "Large-scale biases in climate fields (temperature, rainfall, sea level) due to unresolved subgrid ocean mixing and sea-ice processes",
+    "Need to evaluate stability and bias impacts of ML parameterizations in online coupled global climate simulations"
+  ],
+  "extraction_notes": "Conference abstract describing online implementation of ML parameterizations for ocean mixing and sea-ice in GFDL OM4/CM4 under the M2LInES project. Specific ML architectures are not named in the abstract.",
+  "dataset_ids": [
+    "ad7bf4fe6756-01"
+  ]
+}

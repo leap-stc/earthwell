@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3802c111d00e-04",
+  "paper_id": "3802c111d00e",
+  "name": "Constrained climate projection model outputs and processed benchmark data",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Pretrained and fine-tuned DNN ensembles",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "64 x 128 horizontal grid, annual (1850-2098)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.15001003",
+  "access_kind": "public_url_or_doi"
+}

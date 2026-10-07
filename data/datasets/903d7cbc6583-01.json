@@ -1,0 +1,19 @@
+{
+  "dataset_id": "903d7cbc6583-01",
+  "paper_id": "903d7cbc6583",
+  "name": "CM1 LES ICEBall cirrus cloud supercrystal trajectories",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CM1 with Lagrangian microphysics",
+  "scale": "LES",
+  "data_types": [
+    "trajectories",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

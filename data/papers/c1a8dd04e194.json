@@ -1,0 +1,54 @@
+{
+  "paper_id": "c1a8dd04e194",
+  "year": "5",
+  "filename": "Physics-Constrained Adaptive Flow Matching for Climate Downscaling.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Physics-Constrained Adaptive Flow Matching for Climate Downscaling",
+  "authors": [
+    "Kevin Debeire",
+    "Ayta\u0000c Pa\u0000al",
+    "Pierre Gentine",
+    "Luis Medrano-Navarro",
+    "Nils Thuerey",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2604.03459",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Climate Downscaling",
+  "processes": [
+    "Precipitation",
+    "Atmospheric moisture and specific humidity",
+    "Near-surface wind",
+    "Surface pressure",
+    "Near-surface temperature"
+  ],
+  "ml_methods": [
+    "Adaptive Flow Matching",
+    "SongUNet",
+    "ConFIG gradient surgery"
+  ],
+  "ml_tasks": [
+    "downscaling_superres",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The preprocessed training dataset, code for training and evaluating PC-AFM (including the ESMValTool diagnostic recipes used in this study), and trained model weights for all evaluated variants will be archived and made publicly available once the paper is accepted.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The focus of this work is generative super-resolution/downscaling of climate fields rather than subgrid-scale atmospheric parameterization or surrogate emulation.",
+  "pain_points": [
+    "Generative downscaling models violate physical conservation laws (mass, moisture) when coarsened.",
+    "Severe geographic generalization drops and systematic wet biases when models trained on one region are transferred out-of-distribution.",
+    "Gradient conflicts between physical conservation loss terms and generative/reconstruction objectives leading to suboptimal performance.",
+    "Spectral degradation and suppression of intermediate-scale spatial variance in moisture fields in out-of-distribution regions.",
+    "Assumption that large-scale averages exactly match fine-scale spatial averages does not hold when driving inputs come from biased GCMs in real-world operational downscaling."
+  ],
+  "extraction_notes": "Author Ayta\u0000c Pa\u0000al is Aytaç Paçal in the PDF. The preprint is dated April 2026 on arXiv (arXiv:2604.03459v1).",
+  "dataset_ids": [
+    "c1a8dd04e194-01"
+  ]
+}

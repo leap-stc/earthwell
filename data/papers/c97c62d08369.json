@@ -1,0 +1,63 @@
+{
+  "paper_id": "c97c62d08369",
+  "year": "3",
+  "filename": "An Extensible Perturbed Parameter Ensemble (PPE) for the Community Atmosphere Model Version 6.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "An Extensible Perturbed Parameter Ensemble (PPE) for the Community Atmosphere Model Version 6",
+  "authors": [
+    "Trude Eidhammer",
+    "Andrew Gettelman",
+    "Katherine Thayer-Calder",
+    "Duncan Watson-Parris",
+    "Gregory Elsaesser",
+    "Hugh Morrison",
+    "Marcus van Lier-Walqui",
+    "Ci Song",
+    "Daniel McCoy"
+  ],
+  "pub_year": 2024,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2023-2165",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate modeling",
+  "processes": [
+    "cloud microphysics",
+    "deep convection",
+    "shallow convection and turbulence",
+    "aerosol activation and scavenging",
+    "cloud-radiation interactions",
+    "aerosol radiative forcing",
+    "cloud feedback"
+  ],
+  "ml_methods": [
+    "Neural Network",
+    "Multilayer Perceptron",
+    "Convolutional Neural Network",
+    "Gaussian process",
+    "Random Forest"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CESM2-CAM6",
+  "code_availability": "The PPE dataset and the CESM2 CAM code version cam6_3_026 are available at the Climate Data Gateway at NCAR (https://doi.org/10.26024/bzne-yf09 (Eidhammer et al., 2022)). The current version of CESM is available from https://github.com/ESCOMP/CESM under the licence found here: https://www.cesm.ucar.edu/models/cesm2/copyright.",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study produces and publicly hosts an open 263-member perturbed parameter ensemble of CESM2-CAM6 with standardized run scripts, parameter metadata, and code, suitable for benchmarking climate emulators and tuning algorithms.",
+  "pain_points": [
+    "High computational cost of climate model simulations limits ensemble size in 45-dimensional parameter space.",
+    "Structural model errors cause parameter tuning posterior distributions to peak against parameter domain boundaries.",
+    "Trade-offs in emulator architectures between scalar global-mean fidelity and 2-D spatial pattern reproduction.",
+    "Non-linearities across parameter interactions prevent simple linear sensitivity metrics from predicting multi-parameter optimization."
+  ],
+  "extraction_notes": "The research was supported in part by the NSF STC LEAP (Learning the Earth with Artificial Intelligence and Physics). Emulators were used offline for fast exploration of parameter space and tuning against CERES and MAC-LWP observations rather than replacing parameterizations online in CAM6.",
+  "dataset_ids": [
+    "c97c62d08369-01",
+    "c97c62d08369-02",
+    "c97c62d08369-03"
+  ]
+}

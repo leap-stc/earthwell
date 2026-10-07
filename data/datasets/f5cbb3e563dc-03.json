@@ -1,0 +1,20 @@
+{
+  "dataset_id": "f5cbb3e563dc-03",
+  "paper_id": "f5cbb3e563dc",
+  "name": "CLM5.1-BGC One-at-a-Time Perturbed Parameter Ensemble (PPE) post-processed dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM5.1-BGC (CTSM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": "∼700 MB",
+  "size_gb_estimate": 0.7,
+  "resolution": "400-cluster sparse grid based on nominal 2°",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5061/dryad.j6q573nsn",
+  "access_kind": "public_url_or_doi"
+}

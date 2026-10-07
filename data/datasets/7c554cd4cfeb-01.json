@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7c554cd4cfeb-01",
+  "paper_id": "7c554cd4cfeb",
+  "name": "SPEAR sea ice data assimilation increments and forecast states (1982-2017)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL SPEAR (SIS2 + MOM6) with EAKF",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "2,094 × 17 × 328 × 368 (Network A input), 2,094 × 1 × 320 × 360 (Network A output)",
+  "size_gb_estimate": null,
+  "resolution": "nominal 1° horizontal resolution (320 × 360 global tripolar grid), 5-day assimilation cycles",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.7818178",
+  "access_kind": "public_url_or_doi"
+}

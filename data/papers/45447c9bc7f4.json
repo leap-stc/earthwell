@@ -1,0 +1,41 @@
+{
+  "paper_id": "45447c9bc7f4",
+  "year": "4",
+  "filename": "A Differentiable Framework to Reduce Structural and Parametric Uncertainty in Cloud Microphysics Parameterizations Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Differentiable Framework to Reduce Structural and Parametric Uncertainty in Cloud Microphysics Parameterizations Online",
+  "authors": [],
+  "pub_year": 2025,
+  "venue": "105th AMS Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/457779",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "cloud microphysics",
+    "collision-coalescence",
+    "warm rain processes"
+  ],
+  "ml_methods": [
+    "Koopman operator",
+    "differentiable programming"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "cloud microphysics",
+  "online_coupled": true,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific data links, access terms, or explicit repository details.",
+  "pain_points": [
+    "ML-based microphysics parameterizations trained offline frequently struggle to generalize when implemented online",
+    "Structural and parametric uncertainty in traditional bulk parameterizations",
+    "Difficulty modeling multiple simultaneous microphysical process rates acting on a population of hydrometeors"
+  ],
+  "extraction_notes": "Conference abstract from the 105th AMS Annual Meeting (January 2025). The author list is truncated after 'Co-Authors' in the document text. The differentiable framework is implemented in JAX.",
+  "dataset_ids": [
+    "45447c9bc7f4-01"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d2ef340cbf2d-04",
+  "paper_id": "d2ef340cbf2d",
+  "name": "CPI-ENV-500K",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI) and aircraft environmental sensors",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "~524,000 CPI images (524,000 images)",
+  "size_gb_estimate": null,
+  "resolution": "224 x 224 pixels with in situ environmental data (pressure, temperature, ice water content)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

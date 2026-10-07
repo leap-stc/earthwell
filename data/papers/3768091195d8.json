@@ -1,0 +1,51 @@
+{
+  "paper_id": "3768091195d8",
+  "year": "4",
+  "filename": "Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2",
+  "authors": [
+    "Thea H. Heimdal",
+    "Abby P. Shaum",
+    "Viviana Acquaviva",
+    "Amanda R. Fay",
+    "Devan Samant",
+    "Julius Busecke",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2024,
+  "venue": "EarthArXiv",
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry / carbon cycle",
+  "processes": [
+    "air-sea CO2 flux",
+    "surface ocean pCO2",
+    "ocean carbon uptake"
+  ],
+  "ml_methods": [
+    "eXtreme Gradient Boosting (XGBoost)"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Data analysis scripts and supporting files are publicly available at https://github.com/OceanCarbon-LDEO-Columbia/pCO2Residual_Testbed.",
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on reconstructing and gap-filling surface ocean pCO2 from sparse observational tracks using observing system simulation experiments, rather than developing or evaluating ML parameterizations or emulators.",
+  "pain_points": [
+    "Severe observational data sparsity (SOCAT samples only ~2% of global ocean 1°x1° monthly grid cells) and strong regional sampling bias (especially winter Southern Ocean data gaps)",
+    "Right-skewed target variable distribution over multidecadal trends (spCO2 increasing over time) causing tree-based algorithms to overestimate early periods and underestimate late periods",
+    "Standard MSE/nMSE hyperparameter optimization penalizes large variance rather than systematic drift, exacerbating multiyear negative biases in spCO2 and overestimating the global carbon sink",
+    "Varying ESM climate model biases and internal variability when used as testbeds lead to substantial spread in reconstruction error sign and magnitude"
+  ],
+  "extraction_notes": "The preprint evaluates hyperparameter tuning criteria (negative MSE vs. bias) for the pCO2-Residual machine learning reconstruction method using XGBoost on a 45-member CMIP6 ensemble testbed and real-world SOCAT observations.",
+  "dataset_ids": [
+    "3768091195d8-01",
+    "3768091195d8-02",
+    "3768091195d8-03"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "edc5e71a96bb-05",
+  "paper_id": "edc5e71a96bb",
+  "name": "GOBAI-O2",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Machine learning gap-filled product from BGC-Argo and hydrographic sections",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1° grid, monthly, upper 2000 m (2004-2017 used)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5194/essd-15-4481-2023",
+  "access_kind": "public_url_or_doi"
+}

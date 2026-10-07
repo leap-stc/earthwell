@@ -1,0 +1,18 @@
+{
+  "dataset_id": "984ddfea1c66-02",
+  "paper_id": "984ddfea1c66",
+  "name": "Synthetic 3-variable linear Markov process",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "3D discrete linear stochastic Markov model",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "T = 10^5 time steps",
+  "size_gb_estimate": null,
+  "resolution": "discrete time step",
+  "produced_in_this_study": true,
+  "access": "https://github.com/FabriFalasca/Linear-Response-and-Causal-Inference",
+  "access_kind": "public_url_or_doi"
+}

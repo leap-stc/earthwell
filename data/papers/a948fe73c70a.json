@@ -1,0 +1,57 @@
+{
+  "paper_id": "a948fe73c70a",
+  "year": "4",
+  "filename": "Discovering How Ice Crystals Grow Using Neural ODE_s and Symbolic Regression.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Discovering How Ice Crystals Grow Using Neural ODE's and Symbolic Regression",
+  "authors": [
+    "Kara D. Lamb",
+    "Jerry Y. Harrington",
+    "Alfred M. Moyle",
+    "Gwenore F. Pokrifka",
+    "Benjamin W. Clouser",
+    "Volker Ebert",
+    "Ottmar Möhler",
+    "Harald Saathoff"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2510.17935",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "cirrus cloud microphysics",
+    "surface attachment kinetics",
+    "capacitance ice growth"
+  ],
+  "ml_methods": [
+    "Neural Ordinary Differential Equations (NODE)",
+    "fully-connected neural network",
+    "symbolic regression",
+    "PySR"
+  ],
+  "ml_tasks": [
+    "equation_discovery",
+    "parameterization"
+  ],
+  "parameterization_target": "depositional ice growth rate transfer coefficient G / surface attachment kinetics",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/kdlamb/IceNODE",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clean, publicly accessible benchmark dataset combining single-crystal laboratory measurements and chamber cloud evolution data to train and discover functional parameterizations for ice microphysical growth kinetics.",
+  "pain_points": [
+    "Early growth rates of small ice crystals (< 50 µm) cannot be observed directly and must be inferred indirectly from observables such as mass.",
+    "Measured deposition coefficients across different laboratory experiments disagree by orders of magnitude.",
+    "Structural uncertainty: standard models assume a single deposition coefficient alpha, which fails to capture surface transformations in newly nucleated crystals.",
+    "Chamber supersaturation has relatively high observational uncertainty (order 10%)."
+  ],
+  "extraction_notes": "The paper notes an earlier version was presented at the 2024 NeurIPS ML4PS workshop, while the arXiv preprint identifier reads 2510.17935v1 (dated Oct 2025). Discovered symbolic expressions were evaluated offline using a parcel model with bin microphysics against the AIDA chamber experiments.",
+  "dataset_ids": [
+    "a948fe73c70a-01",
+    "a948fe73c70a-02",
+    "a948fe73c70a-03"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d167792ab2ac-03",
+  "paper_id": "d167792ab2ac",
+  "name": "CMIP6 ESM Testbed Ensemble",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Ensemble of 45 members from nine CMIP6 Earth System Models",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "45 members from nine independent CMIP6 ESMs",
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly",
+  "produced_in_this_study": false,
+  "access": "Publicly accessible on the Open-Storage-Network (OSN) pod; instructions at https://github.com/OceanCarbon-LDEO-Columbia/pCO2Residual_Testbed; CMIP6 data via Pangeo-ESGF CMIP6 Zarr Data (https://doi.org/10.5281/zenodo.10621538)",
+  "access_kind": "public_url_or_doi"
+}

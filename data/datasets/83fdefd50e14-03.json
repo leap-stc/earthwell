@@ -1,0 +1,18 @@
+{
+  "dataset_id": "83fdefd50e14-03",
+  "paper_id": "83fdefd50e14",
+  "name": "CESM3 Spinup and Development Simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM3 (CAM7/CAM-MPAS, MOM6, CLM6, CICE6, CISM3)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Standard and high resolution (down to 3.75 km MPAS / 25 km CAM7 / 1/12° MOM6)",
+  "produced_in_this_study": true,
+  "access": "Full list of changes and simulation info at cesm.ucar.edu",
+  "access_kind": "public_url_or_doi"
+}

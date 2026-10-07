@@ -1,0 +1,50 @@
+{
+  "paper_id": "1ed8dea7a984",
+  "year": "4",
+  "filename": "Large and Increasing Soil Moisture Impact on Western European Summer Heatwaves.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Large and Increasing Soil Moisture Impact on Western European Summer Heatwaves",
+  "authors": [
+    "Yu Huang",
+    "Xu Lian",
+    "Olya Skulovich",
+    "Jiangong Liu",
+    "Sara Shamekh",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": "https://doi.org/10.22541/au.173161581.17902240/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate dynamics",
+  "processes": [
+    "land-atmosphere interaction",
+    "heatwaves",
+    "soil moisture-temperature coupling",
+    "evaporative fraction",
+    "atmospheric circulation",
+    "atmospheric blocking"
+  ],
+  "ml_methods": [
+    "XGBoost"
+  ],
+  "ml_tasks": [
+    "causal_inference",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/YuHuang3019/EU_HW",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study applies offline XGBoost intervention experiments on ERA5 reanalysis to attribute extreme temperatures rather than developing or releasing benchmark datasets or model testbeds for parameterization or emulation.",
+  "pain_points": [
+    "Disentangling bi-directional, nonlinear interactions and feedbacks between land surface moisture availability and atmospheric circulation anomalies during extreme heatwaves",
+    "Traditional physical perturbation experiments are computationally demanding, motivating data-driven intervention approaches"
+  ],
+  "extraction_notes": "XGBoost was trained on daily ERA5 variables for June and July (1990-2022) to estimate daily maximum surface air temperature (Tmax) across Western Europe [15W-20E, 35N-60N]. Attribution was performed by counterfactual intervention experiments replacing individual predictor groups with their climatological seasonal cycles.",
+  "dataset_ids": [
+    "1ed8dea7a984-01"
+  ]
+}

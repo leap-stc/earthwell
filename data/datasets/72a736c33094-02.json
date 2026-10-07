@@ -1,0 +1,19 @@
+{
+  "dataset_id": "72a736c33094-02",
+  "paper_id": "72a736c33094",
+  "name": "E3SM-MMF reference and hybrid 5-year online simulation dataset",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF and hybrid E3SM-NN (TorchScript via Pytorch-Fortran)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "11.5° × 11.5° (ne4pg2 grid, 384 columns), 60 vertical levels",
+  "produced_in_this_study": true,
+  "access": "https://zenodo.org/records/12797810",
+  "access_kind": "public_url_or_doi"
+}

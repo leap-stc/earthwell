@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a2ad0e30a088-02",
+  "paper_id": "a2ad0e30a088",
+  "name": "NASA GISS ModelE3 2010 simulation output",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS ModelE3 (One-Moment Aerosol / OMA scheme)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1 year (2010) at 30-minute intervals",
+  "size_gb_estimate": null,
+  "resolution": "2° latitude by 2.5° longitude, 30-minute intervals",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

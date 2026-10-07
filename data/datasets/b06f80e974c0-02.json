@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b06f80e974c0-02",
+  "paper_id": "b06f80e974c0",
+  "name": "Grand Lagrangian Deployment (GLAD)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "GPS-tracked surface drifters",
+  "scale": "regional",
+  "data_types": [
+    "trajectories",
+    "time_series"
+  ],
+  "size_as_stated": "300 drifters during summer (July-September 2012)",
+  "size_gb_estimate": null,
+  "resolution": "15 min subsampled (1-hour low-pass filtered from 5-min intervals)",
+  "produced_in_this_study": false,
+  "access": "https://data.gulfresearchinitiative.org/",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9cd496de67bd-01",
+  "paper_id": "9cd496de67bd",
+  "name": "ClimateNet expert-labeled dataset",
+  "role": "training",
+  "source_kind": "benchmark",
+  "model_or_instrument": "CAM5.1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "images"
+  ],
+  "size_as_stated": "459 labeled images (219 unique images)",
+  "size_gb_estimate": null,
+  "resolution": "25 km (~0.25°)",
+  "produced_in_this_study": false,
+  "access": "https://portal.nersc.gov/project/ClimateNet/",
+  "access_kind": "public_url_or_doi"
+}

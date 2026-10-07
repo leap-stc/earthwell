@@ -1,0 +1,19 @@
+{
+  "dataset_id": "7adc83572dfc-02",
+  "paper_id": "7adc83572dfc",
+  "name": "CloudSat 2B-CLDCLASS-LIDAR (P1-R05)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "CloudSat Cloud Profiling Radar and CALIPSO CALIOP lidar",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "trajectories"
+  ],
+  "size_as_stated": "21 · 10^6 labelled pixels in CUMULO for 2008",
+  "size_gb_estimate": null,
+  "resolution": "(1.4 × 1.8) km2 footprint, 16-day revisit",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

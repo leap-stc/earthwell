@@ -1,0 +1,61 @@
+{
+  "paper_id": "72a736c33094",
+  "year": "4",
+  "filename": "Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations",
+  "authors": [
+    "Zeyuan Hu",
+    "Akshay Subramaniam",
+    "Zhiming Kuang",
+    "Jerry Lin",
+    "Sungduk Yu",
+    "Walter M. Hannah",
+    "Noah D. Brenowitz",
+    "Josh Romero",
+    "Michael S. Pritchard"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://arxiv.org/abs/2407.00124",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "cloud microphysics",
+    "convection",
+    "radiative transfer",
+    "convective momentum transport",
+    "surface precipitation",
+    "atmospheric turbulence"
+  ],
+  "ml_methods": [
+    "1D U-Net",
+    "Multilayer Perceptron",
+    "ResNet",
+    "Self-attention"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "Subgrid atmospheric physics (convection, cloud microphysics, radiation, turbulence, convective momentum transport)",
+  "online_coupled": true,
+  "host_model": "E3SM-MMF",
+  "code_availability": "ClimSim preprocessing and training code available at https://github.com/leap-stc/ClimSim. E3SM-MMF supporting pytorch-fortran coupling is available at https://github.com/NVlabs/E3SM. Simulation output data, saved models, and visualization notebooks are available at https://zenodo.org/records/12797810.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses the low-resolution ClimSim benchmark dataset and provides trained neural network weights and complete online coupling code via Pytorch-Fortran in E3SM, enabling standard multi-year offline and online evaluation.",
+  "pain_points": [
+    "Online instability and rapid error growth when ML models extrapolate to out-of-distribution cloud states (e.g. unphysical liquid cloud near the tropopause and excess ice cloud in the stratosphere)",
+    "MLP models crash online within 1-3 months",
+    "Offline skill improvements do not necessarily translate to online stability without physical constraints",
+    "Persistent systematic online biases (tropical lower tropospheric drying and liquid cloud deficit, polar stratospheric temperature dipole)",
+    "Lack of model checkpoint restart capabilities due to tracking convective memory and large-scale forcing across previous timesteps",
+    "Coupled ML inference executed on CPU due to software engineering constraints rather than GPU, limiting run throughput"
+  ],
+  "extraction_notes": "The paper applies microphysical physical thermodynamic constraints (temperature-dependent liquid-ice partitioning and cloud removal above the tropopause level) to stabilize hybrid climate simulations for 5+ years.",
+  "dataset_ids": [
+    "72a736c33094-01",
+    "72a736c33094-02"
+  ]
+}

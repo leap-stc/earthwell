@@ -1,0 +1,18 @@
+{
+  "dataset_id": "778b60ffcdee-01",
+  "paper_id": "778b60ffcdee",
+  "name": "HR-MMF 5-year global climate simulations (0 K control and +4 K warmed)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF (HR-MMF configuration with embedded 2D SAM CRM)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Host GCM ne30pg2 (~1.5°), CRM Δx = 200 m (256 columns, 51.2 km domain), L125 vertical levels (concentrated Δz = 20 m)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.14806047",
+  "access_kind": "public_url_or_doi"
+}

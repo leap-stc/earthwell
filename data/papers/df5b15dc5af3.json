@@ -1,0 +1,54 @@
+{
+  "paper_id": "df5b15dc5af3",
+  "year": "5",
+  "filename": "Probabilistic Data Assimilation for Ensemble Distribution Projections With Generative Machine Learning_ A Lorenz ’96 Proof-of-Concept.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Probabilistic Data Assimilation for Ensemble Distribution Projections With Generative Machine Learning: A Lorenz ’96 Proof-of-Concept",
+  "authors": [
+    "Shuolin Li",
+    "Tian Zheng",
+    "Alban Farchi",
+    "Marc Bocquet",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2024GL112523",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_dynamics",
+  "processes": [
+    "atmospheric dynamics",
+    "chaotic dynamics",
+    "multiscale interactions",
+    "subgrid-scale processes"
+  ],
+  "ml_methods": [
+    "conditional normalizing flows",
+    "monotonic neural networks",
+    "maximum mean discrepancy (MMD)"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "data_assimilation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "Two-scale Lorenz '96 model",
+  "code_availability": "https://doi.org/10.5281/zenodo.15320151",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset is synthetic output from a low-dimensional toy chaotic model (Lorenz '96) used as an idealized proof-of-concept rather than Earth system benchmark simulation or observation data.",
+  "pain_points": [
+    "High computational cost of unrolling long-term trajectories in numerical models to sample state distributions.",
+    "Chaotic drift and attractor differences when using standard short-term trajectory matching for climate timescales.",
+    "Assumption of stationarity/quasi-stationarity in the state distribution, which fails in non-stationary real-world climate systems.",
+    "Extending 1D distribution emulation to high-dimensional systems with non-linear multi-variable interactions.",
+    "Sensitivity to initial condition uncertainty and its propagation in complex dynamical systems."
+  ],
+  "extraction_notes": "The paper presents a distribution-driven data assimilation framework using conditional normalizing flows to emulate equilibrium state distributions and infer physical parameters (forcing F) via Maximum Mean Discrepancy (MMD) minimization.",
+  "dataset_ids": [
+    "df5b15dc5af3-01"
+  ]
+}

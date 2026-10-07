@@ -1,0 +1,45 @@
+{
+  "paper_id": "52c83b9e8a59",
+  "year": "4",
+  "filename": "The importance of adding unbiased Argo observations to the ocean carbon observing system.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The importance of adding unbiased Argo observations to the ocean carbon observing system",
+  "authors": [
+    "Thea H. Heimdal",
+    "Galen A. McKinley"
+  ],
+  "pub_year": 2024,
+  "venue": "Scientific Reports",
+  "doi_or_url": "https://doi.org/10.1038/s41598-024-70617-x",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "surface ocean pCO2 dynamics",
+    "ocean carbon sink"
+  ],
+  "ml_methods": [
+    "eXtreme Gradient Boosting"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/hatlenheimdalthea/Sampling_experiments_LET_Argo",
+  "testbed_candidate": false,
+  "testbed_rationale": "The Large Ensemble Testbed (LET) is designed for assessing observational sampling networks and machine learning reconstruction/gap-filling of surface ocean carbon fields rather than training or evaluating subgrid parameterizations or emulators.",
+  "pain_points": [
+    "Severe spatial and temporal gaps in direct shipboard surface ocean pCO2 observations (SOCAT covers ~2% of the ocean).",
+    "Float-derived pCO2 carries substantial random uncertainty (±11 µatm) and systematic positive bias (~4 µatm).",
+    "Systematic observational bias in autonomous float observations propagates strongly through machine learning models, causing substantial underestimation of the global ocean carbon sink (up to 0.32 Pg C/year).",
+    "Cross-model structural differences across Earth System Models introduce significant spread in machine learning reconstruction skill."
+  ],
+  "extraction_notes": "The research was funded by NSF through the LEAP STC (Award #2019625). The target variable is pCO2-Residual, reconstructed from sea surface temperature (SST), sea surface salinity (SSS), atmospheric xCO2, mixed layer depth (MLD), and chlorophyll-a.",
+  "dataset_ids": [
+    "52c83b9e8a59-01",
+    "52c83b9e8a59-02"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9ded7df06c46-04",
+  "paper_id": "9ded7df06c46",
+  "name": "GPM DPR and GMI combined stratiform heating L2 (CSH)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GPM DPR and GMI",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "5 km, 1.5 hours",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5067/GPM/DPRGMI/CSH/2H/06",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d87be2bcbfc0-01",
+  "paper_id": "d87be2bcbfc0",
+  "name": "Coarse-grained DNS convective boundary layer and channel flow datasets (Sh2, Sh5, Sh20, Channel1)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Direct Numerical Simulation (DNS) solver",
+  "scale": "DNS",
+  "data_types": [
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Various filtered resolutions, e.g., vertical grid spacing Delta_z^+ from 6 to 64; Re_tau up to 1243",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.7916/d8-y850-6w35",
+  "access_kind": "public_url_or_doi"
+}

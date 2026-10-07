@@ -1,0 +1,48 @@
+{
+  "paper_id": "fe5718b56f53",
+  "year": "4",
+  "filename": "Scale-Dependent Drivers of Air-Sea CO2 Flux Variability.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Scale-Dependent Drivers of Air-Sea CO2 Flux Variability",
+  "authors": [
+    "Amanda R. Fay",
+    "Dustin Carroll",
+    "Galen A. McKinley",
+    "Dimitris Menemenlis",
+    "Hong Zhang"
+  ],
+  "pub_year": 2024,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "10.1029/2024GL111911",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "air-sea CO2 flux",
+    "ocean carbon sink",
+    "ocean biogeochemistry",
+    "air-sea gas exchange",
+    "ocean circulation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Model code and platform-independent instructions for running the ECCO-Darwin simulations described in this study are available at Zenodo: https://doi.org/10.5281/zenodo.10627664 and https://doi.org/10.5281/zenodo.13259496.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts numerical sensitivity runs with the ECCO-Darwin ocean model to quantify drivers of air-sea CO2 flux variability; it does not evaluate, propose, or format benchmarks for ML parameterizations or emulators.",
+  "pain_points": [
+    "Separating internal climate variability from forced variability in observational and multi-model ensembles",
+    "Multi-model ensemble averaging dampens internal variability inherent to individual models, artificially amplifying common atmospheric forcing signals",
+    "High amplitude of localized climate-driven variability obscures the detection of emerging signals from slowing atmospheric CO2 growth rates without denser observing networks"
+  ],
+  "extraction_notes": "The paper does not apply or develop ML algorithms; it analyzes a set of physical-biogeochemical GCM simulations funded in part by NSF LEAP STC (Award 2019625).",
+  "dataset_ids": [
+    "fe5718b56f53-01",
+    "fe5718b56f53-02",
+    "fe5718b56f53-03"
+  ]
+}

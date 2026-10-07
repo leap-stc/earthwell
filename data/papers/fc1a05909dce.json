@@ -1,0 +1,46 @@
+{
+  "paper_id": "fc1a05909dce",
+  "year": "1",
+  "filename": "Atmospheric radiation- using machine learning for the unknowable and uncomputable.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Atmospheric radiation: using machine learning for the unknowable and uncomputable",
+  "authors": [
+    "Robert Pincus"
+  ],
+  "pub_year": null,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "Atmospheric Radiation",
+  "processes": [
+    "radiative transfer",
+    "cloud-radiation interactions",
+    "3D radiative effects",
+    "shortwave and longwave radiative flux and heating rate"
+  ],
+  "ml_methods": [
+    "neural networks",
+    "emulators"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "parameter_calibration",
+    "data_assimilation"
+  ],
+  "parameterization_target": "atmospheric radiation",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a slide presentation reviewing the history, limitations, and future directions of machine learning for atmospheric radiation; no datasets or benchmark suites are produced or released.",
+  "pain_points": [
+    "Data required to learn 3D radiative effects directly remains sparse due to the computational cost of resolving fine-scale cloud scenes combined with 3D radiative transfer calculations.",
+    "Machine learning parameterizations trained on existing 1D parameterizations inherit their physical approximations and systematic errors (abandoning known physical equations).",
+    "1D plane-parallel and homogeneous column approximations lead to substantial flux and albedo biases because horizontal transport and subgrid cloud inhomogeneity are neglected.",
+    "Large-scale models do not resolve the small-scale features that control 3D radiative effects, posing a representation problem."
+  ],
+  "extraction_notes": "The document is a slide presentation by Robert Pincus discussing past approaches (e.g., Chevallier, Krasnopolsky, Lagerquist, Veerman) and prospective paradigms (e.g., neural adjoints for 4DVar, SPARTACUS calibration and correction of 3D radiative effects, PyTorch-Fortran bindings) in radiative transfer modeling.",
+  "dataset_ids": []
+}

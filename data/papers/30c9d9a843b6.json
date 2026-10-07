@@ -1,0 +1,50 @@
+{
+  "paper_id": "30c9d9a843b6",
+  "year": "3",
+  "filename": "Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference 2023.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference",
+  "authors": [
+    "Kaitlyn Loftus",
+    "Marcus van Lier Walqui",
+    "Hugh Morrison",
+    "Kamal Kant Chandrakar",
+    "Mohamed Aziz Bhouri",
+    "Sean Patrick Santos"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://studio.m-anage.com/agu/fm23/meetingapp.cgi/Paper/1429616",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "cloud microphysics",
+    "precipitation"
+  ],
+  "ml_methods": [
+    "Markov Chain Monte Carlo",
+    "machine learning surrogate/emulator"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "cloud microphysics",
+  "online_coupled": false,
+  "host_model": "LES",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without public dataset or code links provided.",
+  "pain_points": [
+    "High computational expense of atmospheric models/LES prevents direct Markov Chain Monte Carlo (MCMC) sampling for Bayesian parameter inference",
+    "Parameter equifinality in cloud microphysics schemes and sensitivity to metric selection",
+    "Structural uncertainty across different parameterization designs"
+  ],
+  "extraction_notes": "Conference abstract from AGU 2023 (Presentation A54E-08). Specific machine learning algorithms for the emulator are not named in the text.",
+  "dataset_ids": [
+    "30c9d9a843b6-01",
+    "30c9d9a843b6-02"
+  ]
+}

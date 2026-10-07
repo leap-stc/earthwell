@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a3f77201a4b0-01",
+  "paper_id": "a3f77201a4b0",
+  "name": "Kolmogorov flow synthetic simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "jax-cfd Navier-Stokes solver",
+  "scale": "DNS",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "8196 independent trajectories – each of length 64 and discarding the first half for warm-ups",
+  "size_gb_estimate": 8.6,
+  "resolution": "64x64 grid (downsampled from 256x256), snapshot dt = 0.2 MTU",
+  "produced_in_this_study": true,
+  "access": "Synthetic data is generated according to the script provided in https://github.com/juannat7/cohesion.",
+  "access_kind": "public_url_or_doi"
+}

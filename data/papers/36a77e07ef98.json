@@ -1,0 +1,56 @@
+{
+  "paper_id": "36a77e07ef98",
+  "year": "4",
+  "filename": "ExoTST_ Exogenous-Aware Temporal Sequence Transformer for Time Series Prediction.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "ExoTST: Exogenous-Aware Temporal Sequence Transformer for Time Series Prediction",
+  "authors": [
+    "Kshitij Tayal",
+    "Arvind Renganathan",
+    "Xiaowei Jia",
+    "Vipin Kumar",
+    "Dan Lu"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2410.12184",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "carbon cycle",
+  "processes": [
+    "Gross Primary Production (GPP)",
+    "photosynthesis",
+    "land-atmosphere carbon exchange"
+  ],
+  "ml_methods": [
+    "ExoTST",
+    "Transformer",
+    "Cross-Temporal Modality Fusion",
+    "Patch-wise Self-Attention",
+    "Cross-Attention"
+  ],
+  "ml_tasks": [
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study uses site-level eddy covariance and reanalysis data to benchmark a generic multivariate time series architecture rather than releasing a standardized climate parameterization testbed.",
+  "pain_points": [
+    "Integrating current/projected exogenous drivers alongside past context is challenging in traditional autoregressive or pure forward models.",
+    "Real-world exogenous driver time series often have missing values and temporal misalignment.",
+    "Noisy future or projected exogenous variables degrade model performance.",
+    "Distribution shifts between historical and current/projected exogenous series."
+  ],
+  "extraction_notes": "Authors Arvind Renganathan and Vipin Kumar were supported by NSF LEAP STC award 2019625. The manuscript was published as an arXiv preprint in October 2024.",
+  "dataset_ids": [
+    "36a77e07ef98-01",
+    "36a77e07ef98-02",
+    "36a77e07ef98-03",
+    "36a77e07ef98-04",
+    "36a77e07ef98-05",
+    "36a77e07ef98-06"
+  ]
+}

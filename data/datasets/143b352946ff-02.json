@@ -1,0 +1,18 @@
+{
+  "dataset_id": "143b352946ff-02",
+  "paper_id": "143b352946ff",
+  "name": "Cloud particle imager (CPI) single-particle images",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

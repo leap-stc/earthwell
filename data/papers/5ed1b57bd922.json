@@ -1,0 +1,35 @@
+{
+  "paper_id": "5ed1b57bd922",
+  "year": "3",
+  "filename": "(Re)wiring Settler Colonial Practices in Higher Education_ Creating Indigenous Centered Futures Through Considerations of Power, the Social, Place, and Space _ Springer Nature Link Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "(Re)wiring Settler Colonial Practices in Higher Education: Creating Indigenous Centered Futures Through Considerations of Power, the Social, Place, and Space",
+  "authors": [
+    "Nicole Alia Salis Reyes",
+    "Christine A. Nelson",
+    "Stevie Lee",
+    "Alicia Reyes",
+    "LaJoya Reed Shelly",
+    "Ethan Chang"
+  ],
+  "pub_year": 2024,
+  "venue": "Higher Education: Handbook of Theory and Research",
+  "doi_or_url": "https://link.springer.com/rwe/10.1007/978-3-031-38077-8_5",
+  "doc_kind": "book_or_chapter",
+  "in_scope": false,
+  "research_field": "other",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The document is completely out of scope; it addresses settler colonialism and higher education theory with no physical Earth science, climate data, or machine learning components.",
+  "pain_points": [],
+  "extraction_notes": "The document is a book chapter entry focusing on social science / higher education theory and Indigenous futures in US higher education.",
+  "dataset_ids": []
+}

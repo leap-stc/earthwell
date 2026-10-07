@@ -1,0 +1,68 @@
+{
+  "paper_id": "6ebd05047c44",
+  "year": "1",
+  "filename": "SeaFlux_ harmonization of air–sea CO2 fluxes from surface pCO2 data products using a standardized approach.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "SeaFlux: harmonization of air–sea CO2 fluxes from surface pCO2 data products using a standardized approach",
+  "authors": [
+    "Amanda R. Fay",
+    "Luke Gregor",
+    "Peter Landschützer",
+    "Galen A. McKinley",
+    "Nicolas Gruber",
+    "Marion Gehlen",
+    "Yosuke Iida",
+    "Goulven G. Laruelle",
+    "Christian Rödenbeck",
+    "Alizée Roobaert",
+    "Jiye Zeng"
+  ],
+  "pub_year": 2021,
+  "venue": "Earth System Science Data",
+  "doi_or_url": "https://doi.org/10.5194/essd-13-4693-2021",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "gas transfer velocity parameterization",
+    "ocean surface carbon uptake"
+  ],
+  "ml_methods": [
+    "Feed-Forward Neural Network (FFNN)",
+    "Self-Organizing Map Feed-Forward Neural Network (SOM-FFN)",
+    "Multiple Linear Regression (MLR)"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "parameterization"
+  ],
+  "parameterization_target": "air-sea CO2 gas transfer velocity",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/lukegre/pySeaFlux (https://github.com/luke-gregor/pySeaFlux)",
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper harmonizes air-sea CO2 flux calculations from existing mapped observation-based products rather than developing or testing an ML parameterization suitable for a climate model.",
+  "pain_points": [
+    "Differences in spatial coverage across mapped pCO2 products (omission of coastal, Arctic, and marginal seas) required artificial filling with climatology",
+    "Inconsistent scaling of wind-speed dependent gas transfer velocity coefficient (kw) between products and reanalyses",
+    "Order of operations sensitivity: calculating the second moment of wind speed at high temporal/spatial native resolution vs time-averaged wind speeds severely affects flux due to nonlinearity (concavity)"
+  ],
+  "extraction_notes": "The study itself does not train a new ML parameterization, but harmonizes fluxes from existing ML and statistical mapping products (CMEMS-FFNN, CSIR-ML6, MPI-SOMFFN, NIES-FNN, JMA-MLR) and mixed-layer scheme (JENA-MLS).",
+  "dataset_ids": [
+    "6ebd05047c44-01",
+    "6ebd05047c44-02",
+    "6ebd05047c44-03",
+    "6ebd05047c44-04",
+    "6ebd05047c44-05",
+    "6ebd05047c44-06",
+    "6ebd05047c44-07",
+    "6ebd05047c44-08",
+    "6ebd05047c44-09",
+    "6ebd05047c44-10",
+    "6ebd05047c44-11",
+    "6ebd05047c44-12",
+    "6ebd05047c44-13",
+    "6ebd05047c44-14"
+  ]
+}

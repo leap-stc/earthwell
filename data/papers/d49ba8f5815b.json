@@ -1,0 +1,47 @@
+{
+  "paper_id": "d49ba8f5815b",
+  "year": "4",
+  "filename": "Data Requirements for Quantifying the Background Ocean Carbon Sink Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Data Requirements for Quantifying the Background Ocean Carbon Sink",
+  "authors": [
+    "Thea Hatlen Heimdal",
+    "Galen A. McKinley",
+    "Caroline Shaum",
+    "Amanda R. Fay",
+    "Adrienne J. Sutton"
+  ],
+  "pub_year": 2024,
+  "venue": "AGU Fall Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AGUFMOS51D0711H/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "ocean biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "surface ocean fCO2/pCO2 variability",
+    "ocean carbon sink"
+  ],
+  "ml_methods": [
+    "pCO2-Residual method"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "While the authors describe using high-resolution CESM simulation output as a 'testbed' for observing system evaluation and reconstruction testing, this is a short conference abstract without data access details, and the task focuses on surface ocean gapfilling/observing system simulation rather than ML parameterization development.",
+  "pain_points": [
+    "High natural variability and uncertainty of the background ocean carbon sink at local to regional scales",
+    "Sparse real-world surface ocean fCO2 observational coverage",
+    "Stringent error threshold required to detect marine CDR signals (< 2 μatm)"
+  ],
+  "extraction_notes": "Conference abstract from AGU Fall Meeting 2024. Specific ML model architectures within the pCO2-Residual method (Bennington et al., 2022) were not detailed in the text.",
+  "dataset_ids": [
+    "d49ba8f5815b-01",
+    "d49ba8f5815b-02"
+  ]
+}

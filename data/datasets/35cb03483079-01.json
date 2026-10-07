@@ -1,0 +1,18 @@
+{
+  "dataset_id": "35cb03483079-01",
+  "paper_id": "35cb03483079",
+  "name": "CESM Perturbed Parameter Ensembles (PPEs)",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "spanning 45 physics parameters in CESM; two PPEs with different warm rain microphysics schemes",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

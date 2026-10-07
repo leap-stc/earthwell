@@ -1,0 +1,18 @@
+{
+  "dataset_id": "1b93d9b00aae-02",
+  "paper_id": "1b93d9b00aae",
+  "name": "Avignon wheat cropland eddy covariance and SIF measurements",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "TriFLEX spectrometer and eddy-covariance flux tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "half-hourly, growing season March 3 to July 13, 2010",
+  "produced_in_this_study": false,
+  "access": "The Avignon site observations are available through European Fluxes Database Cluster (http://www.europe-fluxdata.eu/).",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,58 @@
+{
+  "paper_id": "8b93316afdc1",
+  "year": "3",
+  "filename": "Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica",
+  "authors": [
+    "Andrew O. Hoffman",
+    "Knut Christianson",
+    "Ching-Yao Lai",
+    "Ian Joughin",
+    "Nicholas Holschuh",
+    "Elizabeth Case",
+    "Jonathan Kingslake",
+    "the GHOST science team"
+  ],
+  "pub_year": 2024,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2023-2956",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "glaciology",
+  "processes": [
+    "glacier crevasse formation",
+    "ice fracture mechanics",
+    "firn densification",
+    "ice stream acceleration",
+    "marine ice sheet instability"
+  ],
+  "ml_methods": [
+    "U-Net",
+    "Convolutional Neural Network"
+  ],
+  "ml_tasks": [
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Scripts for creating figures and crevasse propagation rate data products are available at https://github.com/hoffmaao/thwaites_crevasses. Image masking software is available at https://github.com/hoffmaao/EarthMasker.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops an image segmentation computer vision model (U-Net) to map surface crevasses from SAR imagery and develops an analytical firn tensile strength model; it does not provide an ML parameterization or surrogate model for climate/Earth system models.",
+  "pain_points": [
+    "SAR imagery detects features differently depending on satellite look angle, surface slope, and crevasse orientation.",
+    "Surface melt events and temperature anomalies alter surface radar backscatter, creating false positive outliers in crevasse area tracking.",
+    "Lack of translational equivariance in CNNs requires custom tiling, padding (20 px), and clipping schemes to avoid boundary artifacts.",
+    "Snow bridges obscure crevasses in optical imagery, and radar penetration limits exact measurement of crevasse depth."
+  ],
+  "extraction_notes": "The paper uses deep learning strictly for satellite remote-sensing computer vision (semantic segmentation of SAR imagery), coupled with classical glaciological stress calculations and a geometric firn mechanics model.",
+  "dataset_ids": [
+    "8b93316afdc1-01",
+    "8b93316afdc1-02",
+    "8b93316afdc1-03",
+    "8b93316afdc1-04",
+    "8b93316afdc1-05",
+    "8b93316afdc1-06"
+  ]
+}

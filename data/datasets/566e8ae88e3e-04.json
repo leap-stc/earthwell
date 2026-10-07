@@ -1,0 +1,18 @@
+{
+  "dataset_id": "566e8ae88e3e-04",
+  "paper_id": "566e8ae88e3e",
+  "name": "GCP-GridFEDv2023.1 Gridded Fossil CO2 Emissions",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "EDGAR v4.3.2 downscaling scaled with national territorial statistics",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Gridded monthly and annual",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.8386803",
+  "access_kind": "public_url_or_doi"
+}

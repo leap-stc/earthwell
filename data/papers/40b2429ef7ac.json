@@ -1,0 +1,47 @@
+{
+  "paper_id": "40b2429ef7ac",
+  "year": "3",
+  "filename": "Reduced Order Modeling to Reduce Structural Uncertainty in Representing Cloud Microphysical Process Rates Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Reduced Order Modeling to Reduce Structural Uncertainty in Representing Cloud Microphysical Process Rates",
+  "authors": [
+    "Kara Lamb",
+    "Marcus van Lier-Walqui",
+    "Sean Patrick Santos",
+    "Hugh Morrison"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFMNG31A..08L/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud_physics",
+  "processes": [
+    "cloud microphysics",
+    "collision-coalescence",
+    "droplet size distribution"
+  ],
+  "ml_methods": [
+    "deep learning",
+    "reduced-order modeling"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "clustering_dimensionality_reduction",
+    "emulation"
+  ],
+  "parameterization_target": "cloud droplet collision-coalescence process rate",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without dataset details, access links, or code repositories specified.",
+  "pain_points": [
+    "Moment-based microphysical parameterizations suffer from structural uncertainty due to representing inherently higher dimensional cloud processes with too few degrees of freedom",
+    "Representing collision-coalescence accurately requires at least an intrinsic dimension of 3"
+  ],
+  "extraction_notes": "One-paragraph conference abstract from AGU Fall Meeting 2023 (Session: NG31A-08, Bibcode: 2023AGUFMNG31A..08L).",
+  "dataset_ids": [
+    "40b2429ef7ac-01"
+  ]
+}

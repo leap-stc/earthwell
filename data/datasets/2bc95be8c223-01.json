@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2bc95be8c223-01",
+  "paper_id": "2bc95be8c223",
+  "name": "AmeriFlux eddy covariance flux dataset",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Eddy covariance flux towers (77 sites)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "more than 500,000 half-hourly or hourly samples",
+  "size_gb_estimate": null,
+  "resolution": "half-hourly to hourly",
+  "produced_in_this_study": false,
+  "access": "https://ameriflux.lbl.gov/",
+  "access_kind": "public_url_or_doi"
+}

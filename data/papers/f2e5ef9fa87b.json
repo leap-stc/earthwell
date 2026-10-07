@@ -1,0 +1,32 @@
+{
+  "paper_id": "f2e5ef9fa87b",
+  "year": "4",
+  "filename": "Proceedings of the 2025 SIAM International Conference on Data Mining (SDM) .pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Proceedings of the 2025 SIAM International Conference on Data Mining (SDM)",
+  "authors": [
+    "Vagelis Papalexakis",
+    "Matteo Riondato",
+    "Elena Zheleva",
+    "Tim Weninger",
+    "Wei Ding"
+  ],
+  "pub_year": 2025,
+  "venue": "SIAM International Conference on Data Mining (SDM)",
+  "doi_or_url": "https://epubs.siam.org/doi/book/10.1137/1.9781611978520",
+  "doc_kind": "book_or_chapter",
+  "in_scope": false,
+  "research_field": "data mining / computer science",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Landing page and overview of a general computer science/data mining conference proceedings volume without Earth or climate system modeling content.",
+  "pain_points": [],
+  "extraction_notes": "Only the conference proceedings landing page/front matter excerpt is present; no Earth science papers or datasets are documented in this text.",
+  "dataset_ids": []
+}

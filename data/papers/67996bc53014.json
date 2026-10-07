@@ -1,0 +1,57 @@
+{
+  "paper_id": "67996bc53014",
+  "year": "5",
+  "filename": "STRICTLY CONSTRAINED GENERATIVE MODELING VIA SPLIT AUGMENTED LANGEVIN SAMPLING.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Strictly Constrained Generative Modeling via Split Augmented Langevin Sampling",
+  "authors": [
+    "Matthieu Blanke",
+    "Yongquan Qu",
+    "Sara Shamekh",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": "ICLR 2026",
+  "doi_or_url": "https://github.com/MB-29/constrained-sampling",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "physical_generative_modeling",
+  "processes": [
+    "fluid dynamics",
+    "mass conservation",
+    "energy conservation",
+    "atmospheric/oceanic data assimilation"
+  ],
+  "ml_methods": [
+    "Constrained Alternated Split Augmented Langevin (CASAL)",
+    "Langevin Monte Carlo",
+    "Denoising Diffusion Probabilistic Models (DDPM)",
+    "Latent Diffusion Models",
+    "Predictor-Corrector Sampler"
+  ],
+  "ml_tasks": [
+    "data_assimilation",
+    "emulation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/MB-29/constrained-sampling and https://github.com/MB-29/pascal",
+  "testbed_candidate": false,
+  "testbed_rationale": "The datasets generated and used are idealized 1D and 2D PDE benchmarks (Burgers, Darcy, Poisson, Navier-Stokes) designed for validating mathematical sampling and data assimilation algorithms rather than training Earth system model parameterizations.",
+  "pain_points": [
+    "Generative models lack guarantees on physical plausibility and strict conservation laws (mass, energy).",
+    "Repeated projections in projected Langevin/diffusion dynamics cause chains to become trapped in local non-convex regions, hindering exploration.",
+    "Soft penalty guidance encourages constraint adherence on average but fails to enforce exact physical satisfaction.",
+    "Enforcing physical constraints in latent diffusion models typically requires backpropagating or inverting the decoder, which is computationally expensive and numerically ill-conditioned.",
+    "Unconstrained autoregressive or generative data assimilation models drift away from the true physical trajectory over time."
+  ],
+  "extraction_notes": "The paper presents CASAL, a primal-dual split augmented Langevin sampling framework for strict constraint satisfaction in generative modeling. The publication year is noted as 2026 corresponding to the ICLR 2026 header.",
+  "dataset_ids": [
+    "67996bc53014-01",
+    "67996bc53014-02",
+    "67996bc53014-03",
+    "67996bc53014-04"
+  ]
+}

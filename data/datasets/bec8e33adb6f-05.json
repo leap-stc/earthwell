@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bec8e33adb6f-05",
+  "paper_id": "bec8e33adb6f",
+  "name": "NOAA Extended Reconstructed Sea Surface Temperature (ERSST) v5",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "NOAA ERSST v5",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": "89 × 180 grid",
+  "size_gb_estimate": null,
+  "resolution": "2° × 2°, monthly",
+  "produced_in_this_study": false,
+  "access": "https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html",
+  "access_kind": "public_url_or_doi"
+}

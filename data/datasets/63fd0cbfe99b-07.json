@@ -1,0 +1,18 @@
+{
+  "dataset_id": "63fd0cbfe99b-07",
+  "paper_id": "63fd0cbfe99b",
+  "name": "SMAP SPL3SMP_E Version 5 Soil Moisture",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "SMAP radiometer",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "9 km EASE-Grid",
+  "produced_in_this_study": false,
+  "access": "https://nsidc.org/data/spl3smp_e/versions/5",
+  "access_kind": "public_url_or_doi"
+}

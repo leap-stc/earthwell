@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9ded7df06c46-01",
+  "paper_id": "9ded7df06c46",
+  "name": "GISS-E3 Model perturbed parameter ensemble (PPE) and calibrated physics ensemble (CPE) output",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS ModelE version E3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular",
+    "spatial_2d"
+  ],
+  "size_as_stated": "450-member PPE + 100 random evaluation samples + three 100-member CPE iterations",
+  "size_gb_estimate": null,
+  "resolution": "2.5 x 2.0 degrees horizontal, 110 vertical layers, 1-year simulations",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.13765601",
+  "access_kind": "public_url_or_doi"
+}

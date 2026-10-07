@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a74eeb28cd14-02",
+  "paper_id": "a74eeb28cd14",
+  "name": "SPCAM3 aqua-planet simulation",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM v.3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "36,569,088 atmospheric columns simulated",
+  "size_gb_estimate": null,
+  "resolution": "2.8°×2.8°×30 min (T42 spectral truncation), 93 days",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

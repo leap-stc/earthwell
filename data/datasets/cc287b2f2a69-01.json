@@ -1,0 +1,20 @@
+{
+  "dataset_id": "cc287b2f2a69-01",
+  "paper_id": "cc287b2f2a69",
+  "name": "CLM5.1-BGC One-at-a-time Perturbed Parameter Ensemble (OAAT PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM5.1-BGC",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": ">2TB (raw), ~300MB (post-processed)",
+  "size_gb_estimate": 2000.0,
+  "resolution": "400-cluster representative sparse grid subsampled from 2°",
+  "produced_in_this_study": true,
+  "access": "https://webext.cgd.ucar.edu/I2000/PPEn11_OAAT",
+  "access_kind": "public_url_or_doi"
+}

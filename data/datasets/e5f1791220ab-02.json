@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e5f1791220ab-02",
+  "paper_id": "e5f1791220ab",
+  "name": "ICON AMIP-like online experiment simulations (ICON-AML, ICON-AHF, ICON-ALF)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON-A",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "R2B5 (~80 km horizontal), 47 height-based vertical levels up to 83 km",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

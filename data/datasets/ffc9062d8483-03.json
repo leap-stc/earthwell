@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ffc9062d8483-03",
+  "paper_id": "ffc9062d8483",
+  "name": "GLODAPv2.2021",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "GLODAP mapped climatology",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "3D climatology",
+  "produced_in_this_study": false,
+  "access": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0237935 and https://www.glodap.info/",
+  "access_kind": "public_url_or_doi"
+}

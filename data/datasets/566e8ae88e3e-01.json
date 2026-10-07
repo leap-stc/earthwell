@@ -1,0 +1,20 @@
+{
+  "dataset_id": "566e8ae88e3e-01",
+  "paper_id": "566e8ae88e3e",
+  "name": "Global Carbon Budget 2023 Data Package",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Ensemble of DGVMs, GOBMs, bookkeeping models, atmospheric inversions, and ESMs",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series",
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Annual and monthly, global and gridded (varying between 0.25° and ESM resolutions)",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.18160/GCP-2023",
+  "access_kind": "public_url_or_doi"
+}

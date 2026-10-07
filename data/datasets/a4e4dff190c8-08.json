@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a4e4dff190c8-08",
+  "paper_id": "a4e4dff190c8",
+  "name": "pCO2-Residual reconstructed pCO2 and air-sea CO2 fluxes",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "XGBoost ensemble reconstruction",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1982–2019)",
+  "produced_in_this_study": true,
+  "access": "https://zenodo.org/record/6438445",
+  "access_kind": "public_url_or_doi"
+}

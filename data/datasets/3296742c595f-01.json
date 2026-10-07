@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3296742c595f-01",
+  "paper_id": "3296742c595f",
+  "name": "CAM6 KK2000 Perturbed Parameter Ensemble (PPE)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6 with KK2000 microphysics",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "100-member",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d3028eaacf65-03",
+  "paper_id": "d3028eaacf65",
+  "name": "Give Me Some Credit (Financial delinquency dataset)",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "nine input features, 4,000 normal training samples, nS = 2,500, nT = 25 to 250, test set 2,000 abnormal and 5,000 normal",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

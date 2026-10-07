@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3acff62a394f-01",
+  "paper_id": "3acff62a394f",
+  "name": "pyqg 2-layer quasi-geostrophic turbulence simulation dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "pyqg",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "18, 000 snapshots",
+  "size_gb_estimate": null,
+  "resolution": "256x256 high-resolution filtered and coarse-grained to 64x64, 2 vertical layers",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

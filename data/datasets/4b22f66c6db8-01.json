@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4b22f66c6db8-01",
+  "paper_id": "4b22f66c6db8",
+  "name": "ERA5 Reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ERA5",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25°",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

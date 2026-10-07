@@ -1,0 +1,18 @@
+{
+  "dataset_id": "63fd0cbfe99b-06",
+  "paper_id": "63fd0cbfe99b",
+  "name": "MODIS land cover MCD12C1v006",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.083° x 0.083°",
+  "produced_in_this_study": false,
+  "access": "https://lpdaac.usgs.gov/products/mcd12c1v006/",
+  "access_kind": "public_url_or_doi"
+}

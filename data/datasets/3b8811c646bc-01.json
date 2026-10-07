@@ -1,0 +1,18 @@
+{
+  "dataset_id": "3b8811c646bc-01",
+  "paper_id": "3b8811c646bc",
+  "name": "CMIP5 historical daily simulation archive (14 ESMs)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "14 CMIP5 Earth system models (BCC-CSM1.1, BNU-ESM, CanESM2, CNRM-CM5, CSIRO-Mk3.6, GFDL-CM3, GFDL-ESM2G, GFDL-ESM2M, MIROC5, MIROC-ESM, MIROC-ESM-CHEM, MRI-CGCM3, MRI-ESM1, NorESM1-M)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Daily temporal resolution; varying spatial resolutions from 128x64 to 320x160; 1950-01-01 to 2005-12-31",
+  "produced_in_this_study": false,
+  "access": "https://esgf-node.llnl.gov/",
+  "access_kind": "public_url_or_doi"
+}

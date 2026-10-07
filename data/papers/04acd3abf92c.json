@@ -1,0 +1,54 @@
+{
+  "paper_id": "04acd3abf92c",
+  "year": "2",
+  "filename": "TRENDS AND VARIABILITY IN THE OCEAN CARBON SINK.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Trends and Variability in the Ocean Carbon Sink",
+  "authors": [
+    "Nicolas Gruber",
+    "Dorothee C. E. Bakker",
+    "Tim DeVries",
+    "Luke Gregor",
+    "Judith Hauck",
+    "Peter Landsch&#252;tzer",
+    "Galen A. McKinley",
+    "Jens Daniel M&#252;ller"
+  ],
+  "pub_year": 2022,
+  "venue": "Nature Reviews Earth & Environment",
+  "doi_or_url": null,
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "air-sea gas exchange",
+    "ocean carbon uptake",
+    "ocean circulation and mixing",
+    "biological pump",
+    "ocean acidification"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a review article summarizing current understanding of trends and variability in the ocean carbon sink. It does not introduce a benchmark dataset or new ML parameterization testbed.",
+  "pain_points": [
+    "Severe spatial and temporal undersampling of ocean carbon measurements (only ~3% of 1°x1° monthly grid cells have pCO2 observations), especially in the Southern Ocean, South Pacific, and Indian Ocean.",
+    "Systematic errors and uncertainty in extrapolation and machine learning interpolation methods caused by data sparsity.",
+    "Large discrepancies between surface pCO2 observation-based flux estimates and ocean biogeochemical models, particularly post-2010.",
+    "Uncertainty in air-sea gas transfer velocity parameterizations and surface skin temperature corrections.",
+    "Difficulty distinguishing natural decadal variability from anthropogenic trends due to decadal re-sampling intervals of repeat hydrography cruises."
+  ],
+  "extraction_notes": "Review paper published in Nature Reviews Earth & Environment. Discusses previous work employing ML approaches (e.g., SOM-FFN / neural networks in Landschützer et al. and Gregor et al. incorporated into SeaFlux) for pCO2 spatial interpolation/gapfilling, but does not train or develop new ML models in this manuscript.",
+  "dataset_ids": [
+    "04acd3abf92c-01",
+    "04acd3abf92c-02",
+    "04acd3abf92c-03",
+    "04acd3abf92c-04"
+  ]
+}

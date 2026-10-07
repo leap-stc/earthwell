@@ -1,0 +1,49 @@
+{
+  "paper_id": "6e5a3fae6660",
+  "year": "1",
+  "filename": "Invertibility aware Integration of Static and Time-series data- An application to Lake Temperature Modeling Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Invertibility aware Integration of Static and Time-series data: An application to Lake Temperature Modeling",
+  "authors": [
+    "Kshitij Tayal",
+    "Xiaowei Jia",
+    "Rahul Ghosh",
+    "Jared Willard",
+    "Jordan Read",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2022,
+  "venue": "Proceedings of the 2022 SIAM International Conference on Data Mining, SDM 2022",
+  "doi_or_url": "10.1137/1.9781611977172.79",
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "limnology",
+  "processes": [
+    "lake temperature dynamics",
+    "lake thermal stratification"
+  ],
+  "ml_methods": [
+    "Invertibility-Aware-Long Short-Term Memory (IA-LSTM)",
+    "Invertible Network",
+    "LSTM"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The document is an abstract/metadata record without direct dataset or code links or full benchmark specifications.",
+  "pain_points": [
+    "Variability in data distribution across different lake systems",
+    "Heterogeneity between static and time-series monitoring data",
+    "Missing static features/variables across monitored lakes"
+  ],
+  "extraction_notes": "Document is an institutional repository profile / abstract page from the University of Minnesota for an SDM 2022 conference paper.",
+  "dataset_ids": [
+    "6e5a3fae6660-01"
+  ]
+}

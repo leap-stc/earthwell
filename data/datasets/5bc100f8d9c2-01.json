@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5bc100f8d9c2-01",
+  "paper_id": "5bc100f8d9c2",
+  "name": "CAMELS (Catchment Attributes and Meteorology for Large-sample Studies)",
+  "role": "reference_only",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "671 catchments",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

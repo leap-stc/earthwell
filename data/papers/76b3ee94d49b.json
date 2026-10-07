@@ -1,0 +1,58 @@
+{
+  "paper_id": "76b3ee94d49b",
+  "year": "1",
+  "filename": "Evolution of Tropical Cyclone Properties Across the Development Cycle of the GISS-E3 Global Climate Model.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Evolution of Tropical Cyclone Properties Across the Development Cycle of the GISS-E3 Global Climate Model",
+  "authors": [
+    "Rick D. Russotto",
+    "Jeffrey D. O. Strong",
+    "Suzana J. Camargo",
+    "Adam Sobel",
+    "Gregory S. Elsaesser",
+    "Maxwell Kelley",
+    "Anthony Del Genio",
+    "Yumin Moon",
+    "Daehyun Kim"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2021MS002601",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "tropical cyclogenesis",
+    "convective entrainment",
+    "cloud microphysics",
+    "divergence damping",
+    "cloud-radiative feedback"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "GISS-E3",
+  "code_availability": "Jupyter (Russotto et al., 2021) notebooks used to do the analysis and data files necessary to reproduce figures are posted online at https://doi.org/10.5281/zenodo.5542663",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study conducts climate model evaluation and parameter perturbation experiments using traditional physics parameterizations without machine learning components or standardized benchmark formatting for ML training.",
+  "pain_points": [
+    "Underestimation of tropical cyclone frequency and maximum intensity compared to real-world observations",
+    "Compensating errors where increasing entrainment improves TC counts but exacerbates global radiative imbalances and cloud/precipitation biases",
+    "Large computational expense of high-resolution (0.5 degree) multidecadal GCM simulations",
+    "Missing 3D high-frequency simulation fields for version 2 (V2) preventing detailed storm structure diagnostics"
+  ],
+  "extraction_notes": "The paper does not apply machine learning. It investigates physical parameter sensitivity (entrainment rates and divergence damping) and physical parameterization changes across two development versions of GISS-E3 at 0.5-degree resolution.",
+  "dataset_ids": [
+    "76b3ee94d49b-01",
+    "76b3ee94d49b-02",
+    "76b3ee94d49b-03",
+    "76b3ee94d49b-04",
+    "76b3ee94d49b-05",
+    "76b3ee94d49b-06",
+    "76b3ee94d49b-07",
+    "76b3ee94d49b-08"
+  ]
+}

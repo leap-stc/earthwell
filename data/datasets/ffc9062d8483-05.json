@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ffc9062d8483-05",
+  "paper_id": "ffc9062d8483",
+  "name": "HadISST",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Met Office Hadley Centre sea surface temperature data set",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly (1959–2014)",
+  "produced_in_this_study": false,
+  "access": "https://www.metoffice.gov.uk/hadobs/hadisst/",
+  "access_kind": "public_url_or_doi"
+}

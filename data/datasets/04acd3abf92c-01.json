@@ -1,0 +1,19 @@
+{
+  "dataset_id": "04acd3abf92c-01",
+  "paper_id": "04acd3abf92c",
+  "name": "SOCAT (Surface Ocean CO2 Atlas) v2022",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Ship-based, mooring, and autonomous surface pCO2 observation platforms",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "More than 30 million observations",
+  "size_gb_estimate": null,
+  "resolution": "Various in situ; gridded products typically 1° x 1° monthly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

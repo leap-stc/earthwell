@@ -1,0 +1,57 @@
+{
+  "paper_id": "ff21f4a98dcf",
+  "year": "1",
+  "filename": "Recent increase in the observation-derived land evapotranspiration due to global warming._",
+  "model": "gemini-3.8-flash",
+  "title": "Recent increase in the observation-derived land evapotranspiration due to global warming",
+  "authors": [
+    "Ren Wang",
+    "Longhui Li",
+    "Pierre Gentine",
+    "Yao Zhang",
+    "Jianyao Chen",
+    "Xingwei Chen",
+    "Lijuan Chen",
+    "Liang Ning",
+    "Linwang Yuan",
+    "Guonian Lü"
+  ],
+  "pub_year": 2022,
+  "venue": "Environmental Research Letters",
+  "doi_or_url": "https://doi.org/10.1088/1748-9326/ac4291",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "evapotranspiration",
+    "latent heat flux",
+    "sensible heat flux",
+    "land-atmosphere interactions",
+    "boundary layer energy budget"
+  ],
+  "ml_methods": [
+    "artificial neural network",
+    "random forest"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study produces an upscaled observation-driven global dataset of ET / sensible heat flux using offline ML models on weather station data; it is an offline statistical retrieval rather than an atmospheric/climate model parameterization testbed.",
+  "pain_points": [
+    "Machine learning models show larger uncertainties in coastal areas (e.g., Australia) and areas with significant moisture/heat exchange due to oceanic influence and non-stationary conditions.",
+    "Data quality and sparse spatial distribution of weather stations limit model performance in certain regions.",
+    "Inability to fully capture atmospheric circulation and non-stationary surface/boundary-layer dynamics purely through empirical statistical methods."
+  ],
+  "extraction_notes": "The paper uses ANN and RF to upscale flux tower latent heat flux (LE) and sensible heat flux (H) globally using weather station data from 1975-2017 based on boundary layer energy budget principles.",
+  "dataset_ids": [
+    "ff21f4a98dcf-01",
+    "ff21f4a98dcf-02",
+    "ff21f4a98dcf-03"
+  ]
+}

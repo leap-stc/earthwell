@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ce8197c246db-04",
+  "paper_id": "ce8197c246db",
+  "name": "TAO170W and BATS ocean pCO2 time series",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "moored autonomous systems and shipboard sampling",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.3334/cdiac/otg.tsm_tao170w_0n (TAO170W) and https://doi.org/10.25921/r7vk-e838 (BATS)",
+  "access_kind": "public_url_or_doi"
+}

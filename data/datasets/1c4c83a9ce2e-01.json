@@ -1,0 +1,19 @@
+{
+  "dataset_id": "1c4c83a9ce2e-01",
+  "paper_id": "1c4c83a9ce2e",
+  "name": "HOLODEC in situ drop size distribution measurements (ACE-ENA and CSET)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "HOLODEC",
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "5-1000 μm drop radii in ~10 cm⁻³ sample volume",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

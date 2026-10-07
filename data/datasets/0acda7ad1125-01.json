@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0acda7ad1125-01",
+  "paper_id": "0acda7ad1125",
+  "name": "Isotropic quasi-geostrophic turbulence simulations",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "isotropic quasi-geostrophic turbulence model",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

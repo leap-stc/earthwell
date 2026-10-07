@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c26112c02ff3-02",
+  "paper_id": "c26112c02ff3",
+  "name": "Anomalous Freshwater from Greenland and Antarctica (1990–2019)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MAR / satellite mass balance reconstructions",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Coarsened to coastal masks around Greenland and Antarctica",
+  "produced_in_this_study": false,
+  "access": "https://portal.nccs.nasa.gov/datashare/GISS_modelE/modelE_input_data/fw_anom/v1.0/",
+  "access_kind": "public_url_or_doi"
+}

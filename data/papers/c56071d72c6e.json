@@ -1,0 +1,44 @@
+{
+  "paper_id": "c56071d72c6e",
+  "year": "5",
+  "filename": "Spatial Clustering of heat wave Regimes Through ConvAE Latent Space Analysis and Teleconnection Linkages Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A31G-2152 Spatial Clustering of heat wave Regimes Through ConvAE Latent Space Analysis and Teleconnection Linkages",
+  "authors": [
+    "Mostafa Rezaali",
+    "David Keellings",
+    "Corene J Matyas",
+    "Shuolin Li"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting",
+  "doi_or_url": "https://studio.m-anage.com/agu/agu25/meetingapp.cgi/Paper/1856911",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "climate",
+  "processes": [
+    "heat waves",
+    "atmospheric circulation",
+    "teleconnections"
+  ],
+  "ml_methods": [
+    "Convolutional Autoencoder (ConvAE)",
+    "t-SNE",
+    "k-means clustering"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on unsupervised clustering and pattern analysis of historical heatwaves and teleconnections over CONUS rather than ML parameterization or physical emulation.",
+  "pain_points": [],
+  "extraction_notes": "Conference abstract from AGU 2025. Data availability, source underlying HSCI, and code repositories are not stated in the abstract text.",
+  "dataset_ids": [
+    "c56071d72c6e-01",
+    "c56071d72c6e-02"
+  ]
+}

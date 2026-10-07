@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b10f4cc342fd-09",
+  "paper_id": "b10f4cc342fd",
+  "name": "SAtellite Water Cycle (SAWC) dataset",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Satellite/river discharge inversion",
+  "scale": "regional",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "10 sub-basins within Amazon River basin",
+  "size_gb_estimate": null,
+  "resolution": "Monthly, 1980–2015",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "public_url_or_doi"
+}

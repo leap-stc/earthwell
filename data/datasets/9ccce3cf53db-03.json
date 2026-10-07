@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9ccce3cf53db-03",
+  "paper_id": "9ccce3cf53db",
+  "name": "Eddy covariance (EC) measurements (flux tower sites)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Eddy covariance tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "over 100 unseen flux tower sites",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

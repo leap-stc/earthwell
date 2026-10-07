@@ -1,0 +1,39 @@
+{
+  "paper_id": "2f2c2cbdf9c9",
+  "year": "5",
+  "filename": "Global AI Ocean Climate Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Global AI Ocean Climate Models",
+  "authors": [
+    "Laure Zanna"
+  ],
+  "pub_year": 2025,
+  "venue": "Caltech AI+Science Conference",
+  "doi_or_url": "https://aiscienceconference.caltech.edu/people/laure-zanna",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "unresolved ocean physics",
+    "ocean mixing",
+    "convection",
+    "clouds"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "unresolved ocean physics",
+  "online_coupled": true,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific dataset descriptions, access details, or links to benchmarks.",
+  "pain_points": [
+    "High computational cost limits the fidelity, reliability, and ensemble size of climate simulations",
+    "Inaccurate representations of unresolved subgrid processes such as mixing, clouds, and convection lead to biases"
+  ],
+  "extraction_notes": "Conference abstract/talk description from the Caltech AI+Science 2025 Conference. Specific machine learning architectures, host model names, and training datasets are not detailed in the abstract text.",
+  "dataset_ids": []
+}

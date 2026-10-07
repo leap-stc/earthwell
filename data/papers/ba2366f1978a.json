@@ -1,0 +1,60 @@
+{
+  "paper_id": "ba2366f1978a",
+  "year": "3",
+  "filename": "Task Aware Modulation using Representation Learning_ An Approach for Few Shot Learning in Environmental Systems.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Task Aware Modulation using Representation Learning: An Approach for Few Shot Learning in Environmental Systems",
+  "authors": [
+    "Arvind Renganathan",
+    "Rahul Ghosh",
+    "Ankush Khandelwal",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2310.04727",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "environmental_science",
+  "processes": [
+    "Gross Primary Productivity (GPP)",
+    "Streamflow runoff",
+    "Biosphere-atmosphere carbon and water exchange",
+    "Hydrological rainfall-runoff response"
+  ],
+  "ml_methods": [
+    "TAM-RL (Task Aware Modulation using Representation Learning)",
+    "Bidirectional LSTM (BiLSTM)",
+    "Long Short-Term Memory (LSTM)",
+    "Multilayer Perceptron (MLP)",
+    "FiLM (Feature-wise Linear Modulation)",
+    "Model-Agnostic Meta-Learning (MAML)",
+    "Multimodal MAML (MMAML)",
+    "Prototypical Networks (ProtoNet)",
+    "Meta-Transfer Learning (MTL)",
+    "Knowledge-Guided Self-Supervised Learning (KGSSL)"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "parameter_calibration",
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://drive.google.com/drive/folders/1Z_Uuq6qEzCkaiPYAtPapgEiIZzZZnXxy",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study targets few-shot regional streamflow and point-scale carbon flux time series prediction rather than numerical climate/weather model subgrid parameterization testbeds.",
+  "pain_points": [
+    "Entity characteristics (e.g., soil, vegetation, geology) are often unavailable or highly uncertain for sparsely observed entities.",
+    "Equifinality in traditional process-based model calibration when applied to sparsely observed entities.",
+    "Standard gradient-based meta-learning methods (e.g., MAML) suffer from high computational and memory training costs and struggle on multimodal/heterogeneous task distributions.",
+    "Current framework cannot handle missing driver or response data observations."
+  ],
+  "extraction_notes": "Research funded by NSF LEAP Science and Technology Center (award 2019625). Evaluates an amortized meta-learning architecture (TAM-RL) combining an inverse BiLSTM representation network, MLP FiLM modulation, and forward LSTM predictor.",
+  "dataset_ids": [
+    "ba2366f1978a-01",
+    "ba2366f1978a-02",
+    "ba2366f1978a-03"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "2d5a8ad16a10-01",
+  "paper_id": "2d5a8ad16a10",
+  "name": "PYROCAST Database",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Himawari-8, GOES-16, GOES-17, ERA5, ETOPO5, NRL pyroCb detection algorithm",
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "over 148 pyroCb events linked to 111 wildfires between 2018 and 2022, equivalent to over 18 000 hourly observations",
+  "size_gb_estimate": null,
+  "resolution": "1 km2 pixels, 200 x 200 grid, hourly",
+  "produced_in_this_study": true,
+  "access": "https://spaceml.org/ (https://doi.org/10.56272/fpib2524)",
+  "access_kind": "public_url_or_doi"
+}

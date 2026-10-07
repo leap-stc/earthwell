@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d167792ab2ac-07",
+  "paper_id": "d167792ab2ac",
+  "name": "NOAA Greenhouse Gas Marine Boundary Layer Reference xCO2",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA ESRL carbon cycle cooperative global air sampling network",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://gml.noaa.gov/ccgg/mbl/data.php",
+  "access_kind": "public_url_or_doi"
+}

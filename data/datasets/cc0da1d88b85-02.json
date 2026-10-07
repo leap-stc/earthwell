@@ -1,0 +1,19 @@
+{
+  "dataset_id": "cc0da1d88b85-02",
+  "paper_id": "cc0da1d88b85",
+  "name": "GDAS conventional observations",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Surface and radiosonde observations (ADPUPA and ADPSFC BUFR)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "over 3000 surface and 400 radiosonde observations every 12 hours throughout 2017",
+  "size_gb_estimate": null,
+  "resolution": "Station locations interpolated to 1.4° grid, 12-hour intervals",
+  "produced_in_this_study": false,
+  "access": "The GDAS observational BUFR files can be accessed via the NCEI Archive Information Request System (AIRS) at https://www.ncei.noaa.gov/has/HAS.DsSelect.",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,54 @@
+{
+  "paper_id": "02bea554d4bc",
+  "year": "5",
+  "filename": "Accelerated heatwave trends from nonlinear land-atmosphere interactions in midlatitude humid regions.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Accelerated heatwave trends from nonlinear land-atmosphere interactions in midlatitude humid regions",
+  "authors": [
+    "Yinglin Tian",
+    "Jiangong Liu",
+    "Yu Huang",
+    "Pierre Gentine",
+    "Kai Kornhuber"
+  ],
+  "pub_year": 2025,
+  "venue": "Research Square",
+  "doi_or_url": "https://doi.org/10.21203/rs.rs-6585759/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate science",
+  "processes": [
+    "land-atmosphere interaction",
+    "soil moisture-temperature feedback",
+    "surface energy balance",
+    "evapotranspiration",
+    "atmospheric circulation"
+  ],
+  "ml_methods": [
+    "Gradient Boosting Regression",
+    "XGBoost",
+    "SHAP"
+  ],
+  "ml_tasks": [
+    "interpretability_xai",
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The code for the XAI calculation and required for reproducing the main figures of this study are available at https://github.com/tiany97/HW_Nonlinear_L-A_Interaction",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study employs machine learning purely as a diagnostic attribution framework (XAI via GBR/XGBoost and SHAP decomposition) rather than developing or releasing benchmark datasets for parameterization or emulation testbeds.",
+  "pain_points": [
+    "CMIP6 models systematically underestimate interaction nonlinearity (by ~85%) and activated-regime coupling slopes (by ~73%).",
+    "GCM structural biases in simulating initial soil moisture (too dry at heatwave onset) and sluggish soil moisture depletion rate (1.4%/day in CMIP6 vs 2.4%/day in ERA5).",
+    "Internal variability cannot explain model biases: reanalysis observations lie entirely outside the 40-member CESM2-LE ensemble spread."
+  ],
+  "extraction_notes": "The ML model predicts 3-day maximum 2m temperature anomalies from 500 hPa geopotential height anomalies and surface soil moisture anomalies, and uses TreeSHAP interaction values to quantify land-atmosphere synergy.",
+  "dataset_ids": [
+    "02bea554d4bc-01",
+    "02bea554d4bc-02",
+    "02bea554d4bc-03",
+    "02bea554d4bc-04"
+  ]
+}

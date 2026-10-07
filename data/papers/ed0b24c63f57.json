@@ -1,0 +1,59 @@
+{
+  "paper_id": "ed0b24c63f57",
+  "year": "4",
+  "filename": "Data-driven parameterization development using ARM observations and models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Breakout Session Report: Data-driven parameterization development using ARM observations and models",
+  "authors": [
+    "Kara Lamb",
+    "Peter Jan van Leeuwen",
+    "Marcus van Lier Walqui",
+    "Po-Lun Ma"
+  ],
+  "pub_year": 2023,
+  "venue": "DOE Atmospheric Radiation Measurement (ARM) / Atmospheric System Research (ASR) PI Meeting",
+  "doi_or_url": null,
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Climate Modeling",
+  "processes": [
+    "convection",
+    "cloud microphysics",
+    "aerosol processes",
+    "radiative transfer",
+    "boundary layer turbulence"
+  ],
+  "ml_methods": [
+    "symbolic regression",
+    "Bayesian inference",
+    "causal discovery",
+    "Markov-Chain Monte-Carlo",
+    "reduced order modeling",
+    "surrogate modeling"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation",
+    "parameter_calibration",
+    "equation_discovery",
+    "causal_inference",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "Multiple processes: cloud microphysics, warm rain process rates, turbulence/near-surface momentum and energy exchange, 3D radiative transfer, aerosol processes",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This document is a community breakout session summary report highlighting research directions, presentations, and challenges, rather than presenting or releasing a specific benchmark dataset.",
+  "pain_points": [
+    "Need for physical insight and domain knowledge in machine architectures rather than trial-and-error approaches",
+    "Long timelines (often several years) required for cross-disciplinary collaboration between atmospheric scientists and machine learning researchers",
+    "High computational cost of sampling methods (e.g., MCMC needing millions of samples for high-dimensional models), necessitating fast surrogate models",
+    "Interpretability challenges with equation discovery and symbolic regression (e.g., understanding equations discovered by AI Feynman)",
+    "Handling multiscale interactions in causal discovery when processes span minutes to days; mismatch between observation time resolution and process timescales can lead to erroneous causal attribution",
+    "Lack of standardized community tools and software infrastructure to implement ML parameterizations directly inside host climate models",
+    "Exploration vs. exploitation tradeoff between pursuing cutting-edge scientific ML methods and implementing near-term operational parameterizations in Earth system models"
+  ],
+  "extraction_notes": "Breakout session report from the August 8, 2023 DOE ARM/ASR meeting. Specific individual presentations discussed tools (e.g., PART-MC, AI Feynman, EAGLES project), but no individual standalone datasets were detailed with accessibility info.",
+  "dataset_ids": []
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "176be8e93348-01",
+  "paper_id": "176be8e93348",
+  "name": "Global Carbon Budget 2020 Ocean Biogeochemical Model Hindcasts",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "Ensemble of 9 global ocean biogeochemical models (Friedlingstein et al., 2020)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly (1990–2018)",
+  "produced_in_this_study": false,
+  "access": "https://www.globalcarbonproject.org/carbonbudget/20/data.htm",
+  "access_kind": "public_url_or_doi"
+}

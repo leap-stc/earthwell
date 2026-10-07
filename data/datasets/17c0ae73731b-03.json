@@ -1,0 +1,19 @@
+{
+  "dataset_id": "17c0ae73731b-03",
+  "paper_id": "17c0ae73731b",
+  "name": "ClimSim_low-res_aqua-planet",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF v2.1.0 (aquaplanet mode)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "744GB",
+  "size_gb_estimate": 744.0,
+  "resolution": "approx 10 deg horizontal (unstructured grid ne4, 384 columns), 60 vertical levels, 20-min timestep; nested CRM has 64 columns with 2 km spacing",
+  "produced_in_this_study": true,
+  "access": "https://huggingface.co/datasets/LEAP/ClimSim_low-res_aqua-planet",
+  "access_kind": "pangeo_or_cloud"
+}

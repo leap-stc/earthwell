@@ -1,0 +1,48 @@
+{
+  "paper_id": "a4d0f7df7f2c",
+  "year": "4",
+  "filename": "Leveraging Subgrid-Scale Spatial Organization and Variability for Improved Cloud Fraction Parametrization Using PINACLES Simulations Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Leveraging Subgrid-Scale Spatial Organization and Variability for Improved Cloud Fraction Parametrization Using PINACLES Simulations",
+  "authors": [
+    "Margaret Powell",
+    "Colleen Kaul",
+    "Kyle Gregory Pressel",
+    "Jacob Shpund",
+    "Po-Lun Ma",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": "AGU Fall Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AGUFMA21C.1701P/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "cloud fraction",
+    "shallow convection",
+    "boundary layer turbulence",
+    "stratocumulus",
+    "shallow cumulus"
+  ],
+  "ml_methods": [
+    "neural network"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "cloud fraction",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct data links, size metrics, or code access information.",
+  "pain_points": [
+    "Cloud processes are a major source of uncertainty in climate projections with significant intermodel disagreement in low marine boundary layer clouds",
+    "Changing feature importance across coarsening resolutions and across cloud regimes"
+  ],
+  "extraction_notes": "Abstract from AGU Fall Meeting 2024 poster session. Covers domains in Eastern North Atlantic, Northeastern Pacific, Southern Great Plains, and Southern Ocean.",
+  "dataset_ids": [
+    "a4d0f7df7f2c-01"
+  ]
+}

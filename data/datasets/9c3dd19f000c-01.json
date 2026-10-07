@@ -1,0 +1,18 @@
+{
+  "dataset_id": "9c3dd19f000c-01",
+  "paper_id": "9c3dd19f000c",
+  "name": "2D synthetic Gaussian dataset (25 modes)",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "50K samples",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "2ae43c907021-02",
+  "paper_id": "2ae43c907021",
+  "name": "MODIS Surface Reflectance and Land Cover (MOD09GA and MCD12Q1)",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "MODIS (Terra/Aqua)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "spatial_2d"
+  ],
+  "size_as_stated": "extracted over a 2 km × 2 km tower window via Google Earth Engine",
+  "size_gb_estimate": null,
+  "resolution": "500 m, daily",
+  "produced_in_this_study": false,
+  "access": "Extracted via Google Earth Engine",
+  "access_kind": "public_url_or_doi"
+}

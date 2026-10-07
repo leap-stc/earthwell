@@ -1,0 +1,19 @@
+{
+  "dataset_id": "778b60ffcdee-05",
+  "paper_id": "778b60ffcdee",
+  "name": "NOAA prescribed monthly mean SST and sea ice data",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "NOAA",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Monthly mean",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

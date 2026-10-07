@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a185a58af4a1-01",
+  "paper_id": "a185a58af4a1",
+  "name": "COCPIT database",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Aircraft in situ cloud particle probes",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Referenced from Przybylo et al. (2022)",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "ec62100735c6",
+  "year": "5",
+  "filename": "Learning more physically realistic dynamics in machine-learning based weather forecasting with latent-space constraints.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Learning more physically realistic dynamics in machine-learning based weather forecasting with latent-space constraints",
+  "authors": [
+    "Hang Fan",
+    "Yi Xiao",
+    "Yongquan Qu",
+    "Juan Nathaniel",
+    "Fenghua Ling",
+    "Ben Fei",
+    "Lei Bai",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2510.04006",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "atmospheric dynamics",
+    "geostrophic balance",
+    "kinetic energy cascade and dissipation",
+    "multiscale atmospheric interactions"
+  ],
+  "ml_methods": [
+    "Swin Transformer",
+    "Autoencoder",
+    "Multitask Negative Log-Likelihood learning",
+    "Curriculum rollout training"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "data_assimilation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops a training loss formulation for full-state medium-range weather forecasting and data assimilation rather than generating or hosting a reusable benchmark dataset for parameterization testbeds.",
+  "pain_points": [
+    "Standard weighted variable-wise MSE loss neglects cross-variable and spatial error covariances, resulting in smoothed, physically unrealistic long-lead forecasts and kinetic energy loss",
+    "The full model-space error covariance matrix exceeds 10^12 dimensions, rendering explicit covariance inversion intractable",
+    "Direct estimation of reanalysis error statistics is difficult because the true state of the atmosphere is unobserved",
+    "Error covariances are flow-dependent and vary nonlinearly with synoptic conditions",
+    "Incorporating multi-source heterogeneous observations into ML training typically requires cumbersome heuristic tuning"
+  ],
+  "extraction_notes": "The paper reformulates ML weather forecasting model rollout training through a 4DVar lens, projecting reanalysis error covariance into a Swin Transformer autoencoder latent space where the covariance is approximately diagonal.",
+  "dataset_ids": [
+    "ec62100735c6-01",
+    "ec62100735c6-02"
+  ]
+}

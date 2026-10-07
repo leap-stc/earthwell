@@ -1,0 +1,19 @@
+{
+  "dataset_id": "6716226ebe03-01",
+  "paper_id": "6716226ebe03",
+  "name": "Second-Moment Closure (SMC) OSBL training data",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Second-Moment Closure (validated against LES)",
+  "scale": "column_or_box",
+  "data_types": [
+    "spatial_3d",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1D vertical profiles",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

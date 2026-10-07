@@ -1,0 +1,18 @@
+{
+  "dataset_id": "83fdefd50e14-02",
+  "paper_id": "83fdefd50e14",
+  "name": "MESACLIP High-Resolution Simulations",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "High resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

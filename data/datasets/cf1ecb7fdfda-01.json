@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cf1ecb7fdfda-01",
+  "paper_id": "cf1ecb7fdfda",
+  "name": "FLUXNET 2015 Tier 1 dataset (selected forest and grassland sites)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "eddy covariance tower",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "half-hourly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7078500",
+  "access_kind": "public_url_or_doi"
+}

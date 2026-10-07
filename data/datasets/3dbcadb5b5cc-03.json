@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3dbcadb5b5cc-03",
+  "paper_id": "3dbcadb5b5cc",
+  "name": "Coarse-grained NARVAL and QUBICC dataset (R2B4 and R2B5 grids)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ICON",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": "several TB; An extract from the training data is made available in the GitHub repository.",
+  "size_gb_estimate": null,
+  "resolution": "R2B4 (~160 km) and R2B5 (~80 km) horizontal, 27 vertical layers up to 21 km",
+  "produced_in_this_study": true,
+  "access": "https://github.com/agrundner24/iconml_clc",
+  "access_kind": "public_url_or_doi"
+}

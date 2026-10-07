@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cc5ee9533916-01",
+  "paper_id": "cc5ee9533916",
+  "name": "pyqg subgrid forcing and reference simulations dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "pyqg (two-layer quasi-geostrophic model)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "256x256 (3.9 km) highres and 64x64 (15.6 km) lowres, 2 vertical layers; domain 10^6 m x 10^6 m",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.6609034",
+  "access_kind": "public_url_or_doi"
+}

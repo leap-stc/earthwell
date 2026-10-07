@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d3f424c93cff-02",
+  "paper_id": "d3f424c93cff",
+  "name": "ICON-A coarse-scale simulation",
+  "role": "reference_only",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON-A (version 2.6.4)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "40 d matching the QUBICC simulation periods (November 2004, January, April, July 2005)",
+  "size_gb_estimate": null,
+  "resolution": "80 km horizontal grid spacing, 47 vertical levels",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.18853569",
+  "access_kind": "public_url_or_doi"
+}

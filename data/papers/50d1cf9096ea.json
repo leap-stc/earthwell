@@ -1,0 +1,51 @@
+{
+  "paper_id": "50d1cf9096ea",
+  "year": "4",
+  "filename": "The Overlooked Sub-Grid Air-Sea Flux in Climate Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The Overlooked Sub-Grid Air-Sea Flux in Climate Models",
+  "authors": [
+    "Julius J.M. Busecke",
+    "Dhruv Balwada",
+    "Paige E. Martin",
+    "Thomas E.G. Nicholas",
+    "Zoe C.P. Johnson",
+    "Charles I. Stern",
+    "Ryan P. Abernathey"
+  ],
+  "pub_year": 2024,
+  "venue": "EarthArXiv",
+  "doi_or_url": null,
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "ocean_atmosphere_interaction",
+  "processes": [
+    "air-sea turbulent heat flux",
+    "sensible heat flux",
+    "latent heat flux",
+    "ocean mesoscale and submesoscale variability",
+    "atmospheric boundary layer variability"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": "sub-grid air-sea turbulent heat flux",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/ocean-transport/scale-aware-air-sea",
+  "testbed_candidate": true,
+  "testbed_rationale": "Constructs cloud-accessible (ARCO/Zarr) datasets and offline-filtered target fields diagnosing the unresolved subgrid air-sea heat flux, providing benchmark data suitable for formulating and training ML or physics-based subgrid air-sea flux parameterizations.",
+  "pain_points": [
+    "Lack of direct global high-resolution coupled observations of the air-sea state",
+    "Nonlinear bulk formulae mean spatially averaged inputs fail to reproduce averaged heat fluxes (rectification error)",
+    "Archived daily average outputs miss sub-daily/diurnal nonlinear coupling effects",
+    "Computational expense of 2D spatial filtering on global high-resolution grids",
+    "Bulk formula algorithms do not handle sea-ice covered areas without masking"
+  ],
+  "extraction_notes": "The paper does not train an ML model directly, but diagnoses and establishes the target subgrid air-sea flux (Q*) that low-resolution models neglect, explicitly motivating future parameterization development under LEAP.",
+  "dataset_ids": [
+    "50d1cf9096ea-01",
+    "50d1cf9096ea-02"
+  ]
+}

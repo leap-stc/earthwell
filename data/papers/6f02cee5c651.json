@@ -1,0 +1,52 @@
+{
+  "paper_id": "6f02cee5c651",
+  "year": "5",
+  "filename": "Impacts of Bulk Microphysics Scheme Structural Choices on Simulations of Rain Initiation Through Drop Coalescence.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Impacts of Bulk Microphysics Scheme Structural Choices on Simulations of Rain Initiation Through Drop Coalescence",
+  "authors": [
+    "Hugh Morrison",
+    "Po-Lun Ma",
+    "Andrew Geiss",
+    "Adele L. Igel",
+    "Arthur Z. Hu",
+    "Marcus van Lier-Walqui"
+  ],
+  "pub_year": 2025,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2025MS005026",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Cloud Microphysics",
+  "processes": [
+    "cloud microphysics",
+    "warm rain initiation",
+    "drop collision-coalescence",
+    "drop size distribution evolution"
+  ],
+  "ml_methods": [
+    "Multilayer Perceptron (MLP)"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "Drop size distribution inversion and collision-coalescence moment tendencies",
+  "online_coupled": true,
+  "host_model": "Idealized 0D box microphysics model",
+  "code_availability": "The full TAU bin microphysics code is available at https://csl.noaa.gov/staff/graham.feingold/code/. Box model source code files, lookup tables, neural network weights, Python scripts to train the neural networks, and training data for all the tests described in this paper are available from H. Morrison (2025) at https://doi.org/10.5281/zenodo.14845987.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clean, standardized 0D box microphysics testbed and benchmark dataset of 591 reference bin simulations along with 10^7 collision-coalescence samples to evaluate ML microphysics parameterizations.",
+  "pain_points": [
+    "Ill-posed DSD parameter inversion when gamma modes overlap or are empty, necessitating a custom moment-based loss function instead of direct parameter regression",
+    "Offline error metrics did not guarantee accurate inline time integration; fitted power law equations had low offline error but failed when integrated forward in time",
+    "Two-category schemes showed high sensitivity to the arbitrary threshold diameter (Dth) used to split cloud and rain droplets",
+    "Direct ML tendency networks incurred higher computational inference cost than precomputed lookup tables"
+  ],
+  "extraction_notes": "The study evaluates a single liquid category (SLC) bulk microphysics scheme prognosing 2 to 4 moments against traditional two-category schemes and bin benchmark simulations (TAU). Neural networks are used for two distinct tasks: (1) inverting 4 moments into double-gamma DSD parameters, and (2) directly predicting moment tendencies.",
+  "dataset_ids": [
+    "6f02cee5c651-01",
+    "6f02cee5c651-02",
+    "6f02cee5c651-03"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "6ebd05047c44-08",
+  "paper_id": "6ebd05047c44",
+  "name": "MPI-ULB-SOMFFN combined climatology",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "SOM-FFN",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1° or finer, monthly climatology",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.25921/qb25-f418",
+  "access_kind": "public_url_or_doi"
+}

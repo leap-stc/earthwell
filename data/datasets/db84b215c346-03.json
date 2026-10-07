@@ -1,0 +1,18 @@
+{
+  "dataset_id": "db84b215c346-03",
+  "paper_id": "db84b215c346",
+  "name": "TRMM LBA deep convection scenes",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "LES",
+  "scale": "LES",
+  "data_types": [
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://data.caltech.edu/records/ywa3k-94m65",
+  "access_kind": "public_url_or_doi"
+}

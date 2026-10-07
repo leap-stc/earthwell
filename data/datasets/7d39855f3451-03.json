@@ -1,0 +1,20 @@
+{
+  "dataset_id": "7d39855f3451-03",
+  "paper_id": "7d39855f3451",
+  "name": "ICEBall cirrus LES simulations ensemble",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NCAR CM1",
+  "scale": "LES",
+  "data_types": [
+    "spatial_2d",
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "100 member ensemble; domain: 12.8 km (W) x 12.8 km (L) x 14 km (H)",
+  "size_gb_estimate": null,
+  "resolution": "50 m",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

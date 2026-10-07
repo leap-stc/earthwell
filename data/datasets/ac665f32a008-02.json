@@ -1,0 +1,19 @@
+{
+  "dataset_id": "ac665f32a008-02",
+  "paper_id": "ac665f32a008",
+  "name": "GOES-16 ABI infrared brightness temperatures and ACHA products",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "GOES-16 Advanced Baseline Imager (ABI)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "images"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "~2 km native horizontal resolution (~3 km over Great Plains), 5-min temporal sampling; remapped to 1.5 km",
+  "produced_in_this_study": false,
+  "access": "https://registry.opendata.aws/noaa-goes",
+  "access_kind": "pangeo_or_cloud"
+}

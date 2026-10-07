@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0ab17fd7ecd9-01",
+  "paper_id": "0ab17fd7ecd9",
+  "name": "ERA5 global reanalysis (ARCO-ERA5)",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "IFS (ECMWF)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25° x 0.25°, hourly (1,000-500 hPa pressure levels, surface pressure)",
+  "produced_in_this_study": false,
+  "access": "https://catalog.leap.columbia.edu/feedstock/arco-era5",
+  "access_kind": "public_url_or_doi"
+}

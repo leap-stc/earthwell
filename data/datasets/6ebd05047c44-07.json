@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6ebd05047c44-07",
+  "paper_id": "6ebd05047c44",
+  "name": "NIES-FNN pCO2 product",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Feed-forward neural network",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1°, monthly",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

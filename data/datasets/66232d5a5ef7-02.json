@@ -1,0 +1,18 @@
+{
+  "dataset_id": "66232d5a5ef7-02",
+  "paper_id": "66232d5a5ef7",
+  "name": "Copernicus Reanalysis Snow Depth",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "Copernicus reanalysis",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly aggregated to daily",
+  "produced_in_this_study": false,
+  "access": "Copernicus reanalysis datasets",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "2bc95be8c223-07",
+  "paper_id": "2bc95be8c223",
+  "name": "CONUS hourly GPP estimates (August 2018–2020)",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Cubist model driven by GOES-16, MODIS, and ERA5-Land",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "hourly, ~0.025 deg",
+  "produced_in_this_study": true,
+  "access": "All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.",
+  "access_kind": "not_stated"
+}

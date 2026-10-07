@@ -1,0 +1,18 @@
+{
+  "dataset_id": "4ff01187f117-02",
+  "paper_id": "4ff01187f117",
+  "name": "Accepted benchmarks for SM-ET coupling",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

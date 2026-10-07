@@ -1,0 +1,20 @@
+{
+  "dataset_id": "a0fd01786052-02",
+  "paper_id": "a0fd01786052",
+  "name": "ECMWF operational IFS analysis",
+  "role": "both",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF IFS",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_3d",
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "20 November 2019 to 1 March 2021",
+  "size_gb_estimate": null,
+  "resolution": "operational IFS resolution",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "proprietary"
+}

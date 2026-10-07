@@ -1,0 +1,36 @@
+{
+  "paper_id": "7061de6c17f6",
+  "year": "3",
+  "filename": "Why Linguistics Will Thrive in the 21st Century_ A Reply to Piantadosi.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Why Linguistics Will Thrive in the 21st Century: A Reply to Piantadosi (2023)",
+  "authors": [
+    "Jordan Kodner",
+    "Sarah Payne",
+    "Jeffrey Heinz"
+  ],
+  "pub_year": 2023,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2308.03228",
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "computational linguistics",
+  "processes": [],
+  "ml_methods": [
+    "Transformers",
+    "LSTM",
+    "CNN"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Out of scope: the article discusses theoretical linguistics, cognitive science, and large language models, not Earth or climate science.",
+  "pain_points": [],
+  "extraction_notes": "The document is a commentary/reply paper addressing debates between generative linguistics and large language models in cognitive science.",
+  "dataset_ids": []
+}

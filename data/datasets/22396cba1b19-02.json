@@ -1,0 +1,18 @@
+{
+  "dataset_id": "22396cba1b19-02",
+  "paper_id": "22396cba1b19",
+  "name": "GFS v16 RRTM shortwave radiative transfer dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "RRTM / GFS v16",
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "873,086 training samples, 479,806 validation samples, 472,456 test samples",
+  "size_gb_estimate": null,
+  "resolution": "127 vertical levels, 0.25° horizontal grid column extractions",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.13159877",
+  "access_kind": "public_url_or_doi"
+}

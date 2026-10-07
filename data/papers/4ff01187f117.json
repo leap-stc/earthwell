@@ -1,0 +1,52 @@
+{
+  "paper_id": "4ff01187f117",
+  "year": "5",
+  "filename": "Diagnosing Parametric Controls on CLM Ecohydrology Using Machine Learning Emulators Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Diagnosing Parametric Controls on CLM Ecohydrology Using Machine Learning Emulators",
+  "authors": [
+    "Sarah Ryu",
+    "Linnia Hawkins",
+    "Katherine Dagon",
+    "Sudhanshu Kumar",
+    "Isabella Lu"
+  ],
+  "pub_year": 2025,
+  "venue": "ESSOAr",
+  "doi_or_url": "https://doi.org/10.22541/essoar.176662245.56909200/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "land surface modeling",
+  "processes": [
+    "soil moisture-evapotranspiration coupling",
+    "root-zone soil moisture",
+    "evapotranspiration",
+    "land-atmosphere feedbacks",
+    "plant hydraulics",
+    "soil water retention"
+  ],
+  "ml_methods": [
+    "multi-layer perceptron"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "CLM6",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Only an abstract is provided; datasets and code are not made directly accessible or described with data repository links in the document.",
+  "pain_points": [
+    "High computational cost of perturbed parameter ensemble simulations in Earth system models",
+    "Persistent structural model errors (e.g., tropical forests display persistent coupling biases insensitive to parameters due to limited plant functional types and poor representation of complex canopies)",
+    "Divergent parameter sensitivity regimes across climate zones (plant traits dominate in warm/dry regimes while soil traits dominate in cold/wet regimes)"
+  ],
+  "extraction_notes": "Document is a one-page preprint/abstract posted to ESSOAr. Specific details on training dataset size, spatial resolution, exact benchmark datasets, and repository links are omitted.",
+  "dataset_ids": [
+    "4ff01187f117-01",
+    "4ff01187f117-02"
+  ]
+}

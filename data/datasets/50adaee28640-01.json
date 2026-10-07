@@ -1,0 +1,19 @@
+{
+  "dataset_id": "50adaee28640-01",
+  "paper_id": "50adaee28640",
+  "name": "North Temperate Lakes LTER Lake Mendota water temperature observations",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "in-water sensor profiles / thermistor chains",
+  "scale": "column_or_box",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "13,158 observations (8,037 training, 5,121 testing)",
+  "size_gb_estimate": null,
+  "resolution": "daily, 0.5 m depth increments to 25 m depth",
+  "produced_in_this_study": false,
+  "access": "Collected from North Temperate Lakes Long-Term Ecological Research Program (NSF DEB-1440297); see Read et al. [2019] for data access",
+  "access_kind": "public_url_or_doi"
+}

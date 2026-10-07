@@ -1,0 +1,18 @@
+{
+  "dataset_id": "edc5e71a96bb-01",
+  "paper_id": "edc5e71a96bb",
+  "name": "ASTE-BGC Model Simulations (B1, B2, B3, Opt)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ASTE (MITgcm) coupled to BLING",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Nominal 1/3° horizontal (14-22 km), 50 vertical depth levels, 2002-2017 (monthly mean output)",
+  "produced_in_this_study": true,
+  "access": "Monthly mean (2002–2017) ASTE-BGC Opt model fields are available on Zenodo: (will insert Zenodo link before publication – had to request a quota increase to accommodate the large dataset size).",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "abec22acf841-05",
+  "paper_id": "abec22acf841",
+  "name": "GLODAP and LDEO independent pCO2 databases",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "in situ oceanographic observations",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatial_2d",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,51 @@
+{
+  "paper_id": "48f5873212ef",
+  "year": "5",
+  "filename": "Structured dataset of reported cloud seeding activities in the United States (2000–2025) using an LLM.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Structured dataset of reported cloud seeding activities in the United States (2000–2025) using an LLM",
+  "authors": [
+    "Jared Joseph Donohue",
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2025,
+  "venue": "Scientific Data",
+  "doi_or_url": "https://doi.org/10.1038/s41597-025-06273-1",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "cloud_physics",
+  "processes": [
+    "cloud seeding",
+    "precipitation enhancement",
+    "weather modification"
+  ],
+  "ml_methods": [
+    "LLM",
+    "o3",
+    "o4-mini",
+    "gpt-4.1",
+    "gpt-4.1-mini",
+    "gpt-4o-mini",
+    "chain-of-thought prompting"
+  ],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Python code for extracting the dataset from the NOAA reports can be obtained from our public GitHub repository (https://github.com/jdonohue44/NOAA-Weather-Modification-Forms-LLM-Extractor). Python code for visualizing the dataset is also publicly available on GitHub (https://github.com/jdonohue44/US-Cloud-Seeding-Analysis).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset provides historical regulatory/administrative activity records (project dates, locations, agents, purpose) rather than physical or meteorological state variables used for parameterization or emulation.",
+  "pain_points": [
+    "Scanned historical documents with inconsistent structure, low-resolution scans, and handwritten text",
+    "Unstandardized reporting forms referring to external attachments or previous years' reports leaving form fields blank",
+    "Risk of LLM hallucination on numerical dates, locations, and descriptions requiring chain-of-thought prompt engineering and human validation",
+    "API costs and daily rate limits associated with OCR and LLM services"
+  ],
+  "extraction_notes": "The ML application in this paper is LLM-based structured information extraction (NLP/document parsing) rather than physics parameterization or climate modeling.",
+  "dataset_ids": [
+    "48f5873212ef-01",
+    "48f5873212ef-02"
+  ]
+}

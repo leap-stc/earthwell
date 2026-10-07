@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c04e9f5c6fe1-01",
+  "paper_id": "c04e9f5c6fe1",
+  "name": "VRscores public dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "24.5 million workers across more than 534,000 employers",
+  "size_gb_estimate": null,
+  "resolution": "Employer, firm, occupation, industry, and MSA level (2012-2024 annual)",
+  "produced_in_this_study": true,
+  "access": "Data and code for peer review are available at the Harvard Dataverse: https://dataverse.harvard.edu/previewurl.xhtml?token=6b2aaf09-ee12-4e75-b830-36889c01800e. The data will be made publicly available via a public-facing website, an anonymized version of which is available here: https://pow-anon.vercel.app/.",
+  "access_kind": "public_url_or_doi"
+}

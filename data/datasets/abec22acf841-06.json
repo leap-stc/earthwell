@@ -1,0 +1,18 @@
+{
+  "dataset_id": "abec22acf841-06",
+  "paper_id": "abec22acf841",
+  "name": "Extended LDEO-HPD pCO2 and air-sea CO2 flux product (1959–2020)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "XGBoost hybrid GOBM-observation product",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° latitude by 1° longitude, monthly",
+  "produced_in_this_study": true,
+  "access": "https://zenodo.org/record/6647613",
+  "access_kind": "public_url_or_doi"
+}

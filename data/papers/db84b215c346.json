@@ -1,0 +1,46 @@
+{
+  "paper_id": "db84b215c346",
+  "year": "5",
+  "filename": "Cloud geometry and solar zenith angle control 3D radiative effects.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Cloud geometry and solar zenith angle control 3D radiative effects",
+  "authors": [
+    "Margaret Powell",
+    "Chiel C. van Heerwaarden",
+    "Pierre Gentine",
+    "Robert Pincus"
+  ],
+  "pub_year": 2026,
+  "venue": "ESSOAr",
+  "doi_or_url": "https://doi.org/10.22541/essoar.177248830.06812322/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_physics",
+  "processes": [
+    "radiative_transfer",
+    "cloud_radiation_interaction",
+    "shortwave_radiation",
+    "three_dimensional_cloud_radiative_effects"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": "shortwave_3d_cloud_radiative_effects",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/magpowell/3D_radiative_effects and https://github.com/microhh/rte-rrtmgp-cpp",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a comprehensive, publicly accessible benchmark dataset of 9,348 paired 1D and 3D surface solar fluxes calculated via GPU Monte Carlo ray tracing over 228 diverse LES cloud scenes (shallow cumulus, deep convection, stratocumulus), which is well suited for training and evaluating scientific ML parameterizations or emulators of 3D radiative transfer.",
+  "pain_points": [
+    "Full-physics 3D Monte Carlo ray tracing is computationally expensive compared to 1D approximations.",
+    "Complex cloud geometries such as organized deep convection with stratiform outflow or optically thin cirrus clouds are challenging to capture with simple aspect ratio descriptions."
+  ],
+  "extraction_notes": "The paper develops a process-based, analytical/empirical physical formulation (using a Poisson process and empirical transmissivity scaling) rather than an explicit machine learning model. However, the study is funded by the LEAP STC and produces a substantial paired benchmark dataset for 3D shortwave radiative effects suitable for ML emulation/parameterization.",
+  "dataset_ids": [
+    "db84b215c346-01",
+    "db84b215c346-02",
+    "db84b215c346-03",
+    "db84b215c346-04"
+  ]
+}

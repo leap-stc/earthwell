@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cb988a1eedbe-01",
+  "paper_id": "cb988a1eedbe",
+  "name": "Large ensemble test bed (LET)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CanESM2, CESM-LENS, GFDL-ESM2M (25 members each, 75 total members)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly, 1° × 1°, 1982–2016",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.6084/m9.figshare.c.4568555.v2",
+  "access_kind": "public_url_or_doi"
+}

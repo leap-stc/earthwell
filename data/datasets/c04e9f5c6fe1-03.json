@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c04e9f5c6fe1-03",
+  "paper_id": "c04e9f5c6fe1",
+  "name": "Revelio Labs workforce data",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular",
+    "text"
+  ],
+  "size_as_stated": "approximately 129 million positions, held by 103 million unique workers",
+  "size_gb_estimate": null,
+  "resolution": "Individual position and user level (April 2025 extraction)",
+  "produced_in_this_study": false,
+  "access": "The Revelio and L2 datasets used in this paper are commercial datasets whose license terms prohibit disclosure.",
+  "access_kind": "proprietary"
+}

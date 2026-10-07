@@ -1,0 +1,53 @@
+{
+  "paper_id": "08404f14aec9",
+  "year": "5",
+  "filename": "Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach",
+  "authors": [
+    "Ayantika Bhattacharjee",
+    "C Spencer Jones",
+    "Dhruv Balwada",
+    "Shane Elipot",
+    "Manuel O. Gutierrez-Villanueva"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2604.27200",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "oceanography",
+  "processes": [
+    "ocean turbulence",
+    "kinetic energy spectrum",
+    "submesoscale turbulence",
+    "mesoscale eddies",
+    "second-order velocity structure function"
+  ],
+  "ml_methods": [
+    "Trust Region Reflective algorithm"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "parameter_calibration"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.19704378",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study develops an optimization-based physical diagnostic framework to reconstruct kinetic energy spectra from velocity structure functions rather than producing a machine learning parameterization benchmark dataset.",
+  "pain_points": [
+    "Analytical inverse Hankel transform is ill-conditioned due to the oscillatory Bessel kernel, finite separation range, and sampling noise.",
+    "Uncertainty in structure function SF2 at large spatial separations propagates into reconstructed KE spectra at low wavenumbers.",
+    "Noise in SF2 obscures the precise detection and localization of spectral slope transitions across dynamical regimes.",
+    "Overparameterization leads to Jacobian rank-deficit and numerical instability when the number of spectral segments approaches or exceeds the number of data points.",
+    "Instrumental sampling issues (e.g., drogue loss in drifters) reduce effective sample size and degrees of freedom at large spatial separations."
+  ],
+  "extraction_notes": "The paper uses classical regularized non-linear least squares optimization (Trust Region Reflective algorithm via scipy.optimize.least_squares) rather than deep learning or statistical machine learning models. The year 2026 appears on the preprint header and in references (e.g., Gutierrez-Villanueva et al. 2026).",
+  "dataset_ids": [
+    "08404f14aec9-01",
+    "08404f14aec9-02",
+    "08404f14aec9-03"
+  ]
+}

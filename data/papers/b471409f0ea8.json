@@ -1,0 +1,50 @@
+{
+  "paper_id": "b471409f0ea8",
+  "year": "4",
+  "filename": "Spatio-Temporal Machine Learning Models for Emulation of Global Atmospheric Composition.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Spatio-Temporal Machine Learning Models for Emulation of Global Atmospheric Composition",
+  "authors": [
+    "Mohammad H. Erfani",
+    "Kara D. Lamb",
+    "Susanne E. Bauer",
+    "Kostas Tsigaridis",
+    "Marcus van Lier-Walqui",
+    "Gavin Schmidt"
+  ],
+  "pub_year": 2024,
+  "venue": "Tackling Climate Change with Machine Learning: workshop at NeurIPS 2024",
+  "doi_or_url": null,
+  "doc_kind": "conference_paper",
+  "in_scope": true,
+  "research_field": "atmospheric_chemistry_aerosols",
+  "processes": [
+    "aerosol transport",
+    "aerosol emissions",
+    "wet deposition",
+    "tracer advection",
+    "black carbon concentration"
+  ],
+  "ml_methods": [
+    "ConvLSTM"
+  ],
+  "ml_tasks": [
+    "emulation"
+  ],
+  "parameterization_target": "surface-level biomass burning black carbon concentration",
+  "online_coupled": false,
+  "host_model": "NASA GISS-E2.1",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The simulation dataset generated using NASA GISS ModelE3 and the model code are not publicly linked or documented with an open data access URL.",
+  "pain_points": [
+    "Aerosol concentrations vary over multiple orders of magnitude between source and remote regions, leading standard loss functions (MSE/MAE) to heavily misestimate low concentrations or underrepresent extreme high peaks.",
+    "Underestimation of peak concentration events (e.g., during Northern Hemisphere wildfire seasons and extreme events >630e-11 kg/kg_air).",
+    "High GPU memory (VRAM) consumption when integrating self-attention mechanisms or moving to 3D vertical aerosol emulation.",
+    "Boundary conditioning required special cyclic padding across longitudes and reflective padding across poles."
+  ],
+  "extraction_notes": "The paper trains an offline ConvLSTM to emulate advective tracer transport at surface pressure levels for biomass burning black carbon. Online coupling into NASA GISS-E2.1 via FTorch is discussed as planned future work.",
+  "dataset_ids": [
+    "b471409f0ea8-01"
+  ]
+}

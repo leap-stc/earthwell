@@ -1,0 +1,18 @@
+{
+  "dataset_id": "0ab262982a54-02",
+  "paper_id": "0ab262982a54",
+  "name": "CTRLCAM standard parameterization simulation",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM v3.0 (with Zhang-McFarlane convection scheme)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "~2 degrees horizontal, 30 vertical levels, 30 min time step",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

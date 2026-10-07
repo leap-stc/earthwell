@@ -1,0 +1,18 @@
+{
+  "dataset_id": "44a9f82d3545-01",
+  "paper_id": "44a9f82d3545",
+  "name": "SPCAM v3.0 aquaplanet simulation dataset (reference and +/-4K SST perturbations)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM v3.0 (CAM3 coupled to 2D cloud-resolving model SAM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "approximately 45 million samples using every model time step and grid column for each set (training, validation, test)",
+  "size_gb_estimate": null,
+  "resolution": "2.8° x 2.8° horizontal resolution, 30 vertical levels (up to 3.5 hPa), 30 min CAM timestep; embedded CRM with eight 4-km columns, 20 s timestep",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.2559313",
+  "access_kind": "public_url_or_doi"
+}

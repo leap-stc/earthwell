@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9a0484dcafbe-01",
+  "paper_id": "9a0484dcafbe",
+  "name": "Synthetic ice crystal rosette dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CadQuery and PyVista",
+  "scale": "other",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": "70,000 3D models; 7 million 2D projections (700,000 used for training and evaluation)",
+  "size_gb_estimate": null,
+  "resolution": "224 x 224 pixels",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.17147955",
+  "access_kind": "public_url_or_doi"
+}

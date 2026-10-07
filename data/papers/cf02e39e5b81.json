@@ -1,0 +1,47 @@
+{
+  "paper_id": "cf02e39e5b81",
+  "year": "5",
+  "filename": "Machine Learning for Climate Modeling Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Machine Learning for Climate Modeling",
+  "authors": [
+    "Katie Dagon"
+  ],
+  "pub_year": 2026,
+  "venue": "APS Global Physics Summit 2026",
+  "doi_or_url": "https://meetings-archive.aps.org/smt/2026/mar-c52/1/",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "land carbon cycle",
+    "biophysical processes",
+    "weather fronts",
+    "atmospheric rivers",
+    "extreme precipitation"
+  ],
+  "ml_methods": [
+    "deep learning",
+    "emulator"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "parameter_calibration",
+    "classification_detection"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "Community Land Model",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This is a brief conference presentation abstract summarizing previously published work; no direct dataset downloads or open benchmark specifications are provided within the text.",
+  "pain_points": [
+    "Calibrating uncertain biophysical parameters in land models against observational constraints",
+    "Automated detection and tracking of complex meteorological features (fronts, atmospheric rivers) under present and future climates"
+  ],
+  "extraction_notes": "Invited conference abstract summarizing two published works (Dagon et al. 2020 on CLM5 emulation/calibration and Dagon et al. 2022 on deep learning detection of weather fronts). Specific dataset sizes and exact architectures are not reported in the abstract text.",
+  "dataset_ids": [
+    "cf02e39e5b81-01",
+    "cf02e39e5b81-02"
+  ]
+}

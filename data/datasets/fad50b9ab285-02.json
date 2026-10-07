@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fad50b9ab285-02",
+  "paper_id": "fad50b9ab285",
+  "name": "NCEP/EMC Stage IV 4km Gridded Radar Rainfall Data",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NCEP/EMC Stage IV precipitation radar",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "4 km by 4 km, hourly totals aggregated to daily max hourly rainfall (MR), 2010-01-01 to 2019-12-31",
+  "produced_in_this_study": false,
+  "access": "https://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=21.093",
+  "access_kind": "public_url_or_doi"
+}

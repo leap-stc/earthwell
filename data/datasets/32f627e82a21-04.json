@@ -1,0 +1,18 @@
+{
+  "dataset_id": "32f627e82a21-04",
+  "paper_id": "32f627e82a21",
+  "name": "NOAA GLOBALVIEW Atmospheric CO2",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "marine boundary layer atmospheric CO2 monitoring network",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly",
+  "produced_in_this_study": false,
+  "access": "https://gml.noaa.gov/ccgg/mbl/",
+  "access_kind": "public_url_or_doi"
+}

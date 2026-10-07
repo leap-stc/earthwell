@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c926c4c93a95-09",
+  "paper_id": "c926c4c93a95",
+  "name": "SeaFlux harmonised data and wind products",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CCMPv2, ERA5, JRA55",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1x1 degree monthly",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.5482547",
+  "access_kind": "public_url_or_doi"
+}

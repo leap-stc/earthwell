@@ -1,0 +1,19 @@
+{
+  "dataset_id": "984ddfea1c66-01",
+  "paper_id": "984ddfea1c66",
+  "name": "GFDL-CM4 piControl sea surface temperature (SST)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GFDL-CM4 (MOM6 ocean component, AM4/LM4 atmosphere-land components)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": "300 years, N = 31 141 time series, T = 3612 monthly time steps",
+  "size_gb_estimate": 0.45,
+  "resolution": "1° horizontal grid (60°S–60°N), monthly",
+  "produced_in_this_study": false,
+  "access": "https://github.com/FabriFalasca/Linear-Response-and-Causal-Inference",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,343 @@
+year,filename,sha,pages,n_chars,is_abstract,dup_of,needs_ocr
+1,Atmospheric radiation- using machine learning for the unknowable and uncomputable.pdf,fc1a05909dce,33,48996,False,,False
+1,Causal inference for process understanding in Earth sciences.pdf,c6a5e8968ce0,24,76311,False,,False
+1,Climate-Invariant Machine Learning.pdf,d606ef6024cb,54,183106,False,,False
+1,Congruence Between Leadership Gender and Organizational Claims Affects the Gender Composition of the Applicant Pool- Field Experimental Evidence.pdf,c7f5b5bbf98a,78,147060,False,,False
+1,Deep Learning Based Cloud Cover Parameterization for ICON.pdf,3dbcadb5b5cc,44,170558,False,,False
+1,Deep Learning for Subgrid‐Scale Turbulence Modeling in Large‐Eddy Simulations of the Convective Atmospheric Boundary Layer - Cheng - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,e114a41a0632,16,109118,False,,False
+1,"Deep learning for the earth sciences- A comprehensive approach to remote sensing, climate science and geosciences Abstract.pdf",b51d10fd3192,2,5701,True,,False
+1,Deep learning to represent sub-grid processes in climate models.pdf,0ab262982a54,15,60498,False,,False
+1,Development of a Deep Learning Emulator for a Distributed Groundwater–Surface Water Model.pdf,a076629e05e7,17,67721,False,,False
+1,Estimating historical air-sea CO2 fluxes_ Incorporating physical knowledge within a data-only approach _ ESS Open Archive.pdf,c926c4c93a95,40,87992,False,,False
+1,Evolution of Tropical Cyclone Properties Across the Development Cycle of the GISS-E3 Global Climate Model.pdf,76b3ee94d49b,24,120350,False,,False
+1,GCM-Filters_ A Python Package for Diffusion-based Spatial Filtering of Gridded Data.pdf,09f31d3b6ca2,4,16557,False,,False
+1,How Well Do We Understand the Land-Ocean-Atmosphere Carbon Cycle_ _ ESS Open Archive.pdf,c80f5cf46ad3,73,253553,False,,False
+1,Improved Quantification of Ocean Carbon Uptake by Using Machine Learning to Merge Global Models and pCO2 Data - Gloege - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,bf899599c4e8,19,117596,False,,False
+1,Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems.pdf,18b0ca3448bd,35,156151,False,,False
+1,Invertibility aware Integration of Static and Time-series data- An application to Lake Temperature Modeling Abstract.pdf,6e5a3fae6660,2,6024,True,,False
+1,Mitigating gig and remote worker misconduct_ Evidence from a real effort experiment_.pdf,f0a64e1003ac,52,141974,False,,False
+1,Observed Regional Fluxes to Constrain Modeled Estimates of the Ocean Carbon Sink - Fay - 2021 - Geophysical Research Letters - Wiley Online Library.pdf,176be8e93348,11,65913,False,,False
+1,Physics-Guided Machine Learning for Scientific Discovery_ An Application in Simulating Lake Temperature Profiles.pdf,50adaee28640,26,94901,False,,False
+1,Physics-Guided Recurrent Graph Model for Predicting Flow and Temperature in River Networks.pdf,662881ed91d7,11,82826,False,,False
+1,Recent increase in the observation-derived land evapotranspiration due to global warming._,ff21f4a98dcf,10,49946,False,,False
+1,Robust Inverse Framework using Knowledge-guided Self-Supervised Learning_ An application to Hydrology.pdf,09c672f0e443,10,103101,False,,False
+1,SeaFlux_ harmonization of air–sea CO2 fluxes from surface pCO2 data products using a standardized approach.pdf,6ebd05047c44,18,90732,False,,False
+1,The Impact of Observational Errors on the Optimization of GCM Free Parameters - Astrophysics Data System Abstract.pdf,282aba541bcf,1,2814,True,,False
+1,Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning.pdf,1b93d9b00aae,15,119073,False,,False
+1,Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations - Bennington - 2022 - Geophysical Research Letters - Wiley Online Library.pdf,abec22acf841,10,68292,False,,False
+2,A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset_.pdf,0e7a09e90487,15,101997,False,,False
+2,An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes.pdf,1dc1d9ed975c,14,49269,False,,False
+2,Benchmarking of machine learning ocean subgrid parameterizations in an idealized model.pdf,cc5ee9533916,44,206228,False,,False
+2,Causally-informed Deep Learning to Improve Climate Models and Projections.pdf,44a9f82d3545,36,108806,False,,False
+2,Comparing Storm Resolving Models and Climates via Unsupervised Machine Learning.pdf,a289dbb4d9dd,26,170176,False,,False
+2,Correcting Systematic and State‐Dependent Errors in the NOAA FV3‐GFS Using Neural Networks - Chen - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,8210b7390744,17,93435,False,,False
+2,Data-Driven Equation Discovery of a Cloud Cover Parameterization.pdf,17a61548389e,38,125313,False,,False
+2,Differentiable modeling to unify machine learning and physical models and advance Geosciences_.pdf,b4f6a6f64861,39,104579,False,,False
+2,"Doing Well by Requiring Employees to Do Good_ Field Experimental Evidence of the Effects of a One-time, Mandatory Corporate Social Intervention on Employees.pdf",eaf9e28350b0,72,245079,False,,False
+2,Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models.pdf,ffc9062d8483,20,113284,False,,False
+2,Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction_ The pCO2‐Residual Method - Bennington - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,a4e4dff190c8,19,118319,False,,False
+2,Hybrid modeling of evapotranspiration_ inferring stomatal and aerodynamic resistances using combined physics-based and machine learning.pdf,cf1ecb7fdfda,14,75519,False,,False
+2,Identifying the Causes of Pyrocumulonimbus (PyroCb).pdf,2d5a8ad16a10,14,41483,False,,False
+2,Immediate and Long‐Lasting Impacts of the Mt.pdf,528f51b3a8d6,22,128475,False,,False
+2,Implicit learning of convective organization explains precipitation stochasticity.pdf,f944e0338f4e,11,82073,False,,False
+2,Machine-learned Cloud Classes from Satellite data for Process-oriented Climate Model Evaluation.pdf,7adc83572dfc,23,118596,False,,False
+2,Modeling wildfire activity in the western United States with machine learning.pdf,26adf7d40c29,52,193818,False,,False
+2,Modern air-sea flux distributions reduce uncertainty in the future ocean carbon sink.pdf,d8418c32be5b,12,12,False,,True
+2,Non‐Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models - Behrens - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,c4f36a0b7a77,23,140735,False,,False
+2,PYROCAST_ a Machine Learning Pipeline to Forecast Pyrocumulonimbus (PyroCb) Clouds.pdf,9895f2e76861,11,29126,False,,False
+2,Parametrization in Weather and Climate Models _ Oxford Research Encyclopedia of Climate Science.pdf,abb9931d5cbe,44,140055,False,,False
+2,SMLFire1.0_ a stochastic machine learning (SML) model for wildfire activity in the western United States.pdf,2e434d4762d9,27,152234,False,,False
+2,TRENDS AND VARIABILITY IN THE OCEAN CARBON SINK.pdf,04acd3abf92c,38,106221,False,,False
+2,Toward a Taxonomy of Trust for Probabilistic Machine Learning.pdf,a1c948ee208e,18,60512,False,,False
+2,Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning.pdf,1b93d9b00aae,15,119073,False,Year 1/Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning.pdf,False
+2,Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations - Bennington - 2022 - Geophysical Research Letters - Wiley Online Library.pdf,7576c700735d,10,68292,False,Year 1/Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations - Bennington - 2022 - Geophysical Research Letters - Wiley Online Library.pdf,False
+2,Wasserstein Distributional Learning.pdf,cac32102873b,34,155342,False,,False
+3,"(Re)wiring Settler Colonial Practices in Higher Education_ Creating Indigenous Centered Futures Through Considerations of Power, the Social, Place, and Space _ Springer Nature Link Abstract.pdf",5ed1b57bd922,2,3566,True,,False
+3,A Data-Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes.pdf,152833564544,25,70900,False,,False
+3,A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset.pdf,d09b2f9800eb,14,96543,False,Year 2/A Long-term Consistent Artificial Intelligence and Remote Sensing-based Soil Moisture Dataset_.pdf,False
+3,A review of recent advances in urban flood research.pdf,e5231edad122,12,123064,False,,False
+3,A stable implementation of a data-driven scale-aware mesoscale parameterization.pdf,1a47f956f011,35,150771,False,,False
+3,An Extensible Perturbed Parameter Ensemble (PPE) for the Community Atmosphere Model Version 6.pdf,c97c62d08369,27,121703,False,,False
+3,An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes.pdf,a5e16a67655a,14,47421,False,Year 2/An Unsupervised Learning Perspective on the Dynamic Contribution to Extreme Precipitation Changes.pdf,False
+3,Anomalous Meltwater From Ice Sheets and Ice Shelves Is a Historical Forcing.pdf,c26112c02ff3,11,69857,False,,False
+3,Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling(1).pdf,cb988a1eedbe,18,104170,False,,False
+3,Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling.pdf,cb988a1eedbe,18,104170,False,Year 3/Assessing improvements in global ocean pCO2 machine learning reconstructions with Southern Ocean autonomous sampling(1).pdf,False
+3,Background Pycnocline Depth Constrains Future Ocean Heat Uptake Efficiency.pdf,a8db6bfca0cf,11,71725,False,,False
+3,Bayesian Workflow for the Evaluation of Constraints on Depositional Ice Growth Models with Cloud Chamber Observations.pdf,d5f7c11dafb5,1,4317,False,,False
+3,Canopy flow modeling using multiscale homogenization techniques .pdf,c12ada1cad6b,1,3713,False,,False
+3,Causally‐Informed Deep Learning to Improve Climate Models and Projections.pdf,79ae01bd395d,16,106535,False,Year 2/Causally-informed Deep Learning to Improve Climate Models and Projections.pdf,False
+3,"ChaosBench_ A Multi-Channel, Physics-Based Benchmark for Subseasonal-to-Seasonal Climate Prediction.pdf",53e678284355,49,232149,False,,False
+3,Classification of Cloud Particle Imagery Using Variational Autoencoders and Unsupervised Clustering.pdf,01340dcd75f7,1,3935,False,,False
+3,ClimSim-Online_ A Large Multi-scale Dataset and Framework for Hybrid ML-physics Climate Emulation.pdf,17c0ae73731b,86,285028,False,,False
+3,ClimSim_ A large multi-scale dataset for hybrid physics-ML climate emulation.pdf,4a2b596c8646,15,59242,False,,False
+3,Climate-invariant machine learning.pdf,51efa3817df7,13,101145,False,Year 1/Climate-Invariant Machine Learning.pdf,False
+3,Cloud chamber constraints on depositional ice growth models .pdf,e00413d4876d,1,4010,False,,False
+3,Comparing storm resolving models and climates via unsupervised machine learning.pdf,c3057e63aa1e,15,106093,False,Year 2/Comparing Storm Resolving Models and Climates via Unsupervised Machine Learning.pdf,False
+3,Correcting Systematic and State‐Dependent Errors in the NOAA FV3‐GFS Using Neural Networks.pdf,a0fd01786052,17,93435,False,,False
+3,Data-driven dimensionality reduction and causal inference for spatiotemporal climate fields.pdf,984ddfea1c66,21,151631,False,,False
+3,Data‐Driven Equation Discovery of a Cloud Cover Parameterization.pdf,c3199ec7dea8,26,164971,False,Year 2/Data-Driven Equation Discovery of a Cloud Cover Parameterization.pdf,False
+3,Deep Generative Data Assimilation in Multimodal Setting.pdf,f3a4cfe4debc,11,87611,False,,False
+3,Deep Learning Based Cloud Cover Parameterization for ICON.pdf,e93aefc4e074,24,154874,False,Year 1/Deep Learning Based Cloud Cover Parameterization for ICON.pdf,False
+3,Deep Learning for Subgrid‐Scale Turbulence Modeling in Large‐Eddy Simulations of the Convective Atmospheric Boundary Layer.pdf,d87be2bcbfc0,16,109118,False,,False
+3,Deep Learning of Systematic Sea Ice Model Errors From Data Assimilation Increments.pdf,7c554cd4cfeb,23,141226,False,,False
+3,Differentiable modelling to unify machine learning and physical models for geosciences.pdf,74b02ecb7bd9,16,145333,False,,False
+3,Discovering Causal Relations and Equations from Data_.pdf,e9db0c155692,68,415395,False,,False
+3,Dryland evapotranspiration from remote sensing solar-induced chlorophyll fluorescence_ Constraining an optimal stomatal model within a two-source energy balance model.pdf,589440f0ebac,23,212878,False,,False
+3,"Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science.pdf",bc690e71bdc9,28,103980,False,,False
+3,Enhancing Satellite Data Coverage Leveraging Multiple Sensors to Bridge Information Gaps in Urban Flood Mapping - Astrophysics Data System.pdf,fccd93cf30fa,1,4074,False,,False
+3,Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models.pdf,d0f99c526c95,20,113284,False,Year 2/Equatorial Pacific pCO2 Interannual Variability in CMIP6 Models.pdf,False
+3,Ethics in climate AI_ From theory to practice.pdf,9cb76d121981,4,22596,False,,False
+3,Evaluating the effects of precipitation and evapotranspiration on soil moisture variability.pdf,3b8811c646bc,64,133645,False,,False
+3,Explicit Physical Knowledge in Machine Learning for Ocean Carbon Flux Reconstruction_ The pCO2‐Residual Method - Bennington - 2022 - Journal of Advances in Modeling Earth Systems.pdf,32f627e82a21,19,118319,False,,False
+3,Flexible use of additive Gaussian Processes as a powerful tool for more interpretable analysis and emulation of climate model PPEs Abstract.pdf,f3caafa5b08c,1,3573,True,,False
+3,Global Carbon Budget 2023.pdf,566e8ae88e3e,69,450160,False,,False
+3,Global pattern and mechanism of terrestrial evapotranspiration change indicated by weather stations.pdf,a436a117e657,25,47623,False,,False
+3,Groundwater rivals aridity in determining global photosynthesis.pdf,63fd0cbfe99b,25,57402,False,,False
+3,"HISTORY-BASED, BAYESIAN, CLOSURE FOR STOCHASTIC PARAMETERIZATION_ APPLICATION TO LORENZ ’96.pdf",910cf5fa4e6f,32,121345,False,,False
+3,How Does the Pinatubo Eruption Influence Our Understanding of Long-Term Changes in Ocean Biogeochemistry_.pdf,2888fdcca7b4,9,60669,False,,False
+3,How well do concentric radii approximate population exposure to volcanic hazards_.pdf,f54411021def,13,80089,False,,False
+3,Hydrogenation of C24 Carbon Clusters_ Structural Diversity and Energetic Properties.pdf,2b1b49fb2995,16,97677,False,,False
+3,Implementation and Evaluation of a Machine Learned Mesoscale Eddy Parameterization Into a Numerical Ocean Circulation Model - Zhang - 2023 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf,0f970eba5521,27,146964,False,,False
+3,Implicit learning of convective organization explains precipitation stochasticity.pdf,f944e0338f4e,11,82073,False,Year 2/Implicit learning of convective organization explains precipitation stochasticity.pdf,False
+3,Improving the Modeling and Analysis of Tropical Convection and Precipitation Through Machine Learning Methods.pdf,a74eeb28cd14,198,444464,False,,False
+3,Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning Abstract.pdf,143b352946ff,1,3715,True,,False
+3,Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning.pdf,7fee1a0d6f87,23,19114,False,,False
+3,"Inland migration of near-surface crevasses in the Amundsen Sea Sector, West Antarctica.pdf",8b93316afdc1,29,91277,False,,False
+3,Intrinsic dimension of spatio-temporal chaotic systems .pdf,2e7c59a0c271,1,3156,False,,False
+3,JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING.pdf,aa49b96ea006,10,38480,False,,False
+3,Knowledge-guided Machine Learning_ Current Trends and Future Prospects.pdf,9a15a09f49a5,29,128790,False,,False
+3,Learning Atmospheric Boundary Layer Turbulence.pdf,494584d3acc0,71,275508,False,,False
+3,Learning Constraints on Depositional Ice Growth Models from Cloud Chamber Experiments with Physics Informed Neural Networks Abstract.pdf,52671b22a1d8,1,3136,True,,False
+3,Machine Learning for Clouds and Climate.pdf,64e7da7ed032,27,100634,False,,False
+3,Machine Learning for Online Sea Ice Bias Correction Within Global Ice‐Ocean Simulations.pdf,d88d9edd6134,11,66097,False,,False
+3,Memory-based parameterization with differentiable solver_ Application to Lorenz ’96.pdf,318afe7f30d1,18,102440,False,,False
+3,MetaFlux_ Meta-Learning Global Carbon Fluxes from Sparse Spatiotemporal Observations.pdf,fd4ac0550b6f,15,107654,False,,False
+3,Modern air-sea flux distributions reduce uncertainty in the future ocean carbon sink.pdf,7c611bdb758d,12,63183,False,Year 2/Modern air-sea flux distributions reduce uncertainty in the future ocean carbon sink.pdf,False
+3,Multi-Fidelity Climate Model Parameterization for Better Generalization and Extrapolation.pdf,cfce134e9694,27,106614,False,,False
+3,Navigating the Noise_ Bringing Clarity to ML Parameterization Design with O(100) Ensembles.pdf,c9e59ec15801,45,101688,False,,False
+3,New-generation geostationary satellite reveals widespread midday depression in dryland photosynthesis during 2020 western U.S. heatwave.pdf,2bc95be8c223,14,102394,False,,False
+3,Non‐Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models - Behrens - 2022 - Journal of Advances in Modeling Earth Systems.pdf,eb1d9d26052e,23,140735,False,,False
+3,Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference 2023.pdf,30c9d9a843b6,2,3958,False,,False
+3,Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference Abstract.pdf,a5b5446f7e93,1,3942,True,,False
+3,Parameterizing Vertical Mixing Coefficients in the Ocean Surface Boundary Layer Using Neural Networks Abstract.pdf,80cd46ed8b4a,26,150029,True,,False
+3,Projecting Changes in the Drivers of Compound Flooding in Europe Using CMIP6 Models.pdf,d8e2b9ac3d8b,53,145462,False,,False
+3,PythonicDISORT_ A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT.pdf,00b7836e3f0c,4,20188,False,,False
+3,Reduced Order Modeling for Linearized Representations of Microphysical Process Rates.pdf,5b39153c87f9,57,190131,False,,False
+3,Reduced Order Modeling to Reduce Structural Uncertainty in Representing Cloud Microphysical Process Rates Abstract.pdf,40b2429ef7ac,1,3855,True,,False
+3,Reliable coarse-grained turbulent simulations through combined offline learning and neural emulation.pdf,3acff62a394f,8,43132,False,,False
+3,Reliance on fossil fuels increases during extreme temperature events in the continental United States.pdf,d76ff1a406ad,11,57513,False,,False
+3,Remote Versus Local Impacts of Energy Backscatter on the North Atlantic SST Biases in a Global Ocean Model - Chang - 2023 - Geophysical Research Letters - Wiley Online Library.pdf,dead24e07a2a,11,58780,False,,False
+3,SMLFire1.0_ a stochastic machine learning (SML) model for wildfire activity in the western United States.pdf,9ca13cca7bf3,39,152882,False,Year 2/SMLFire1.0_ a stochastic machine learning (SML) model for wildfire activity in the western United States.pdf,False
+3,Simulating Atmospheric Processes in Earth System Models and Quantifying Uncertainties with Deep Learning Multi-Member and Stochastic Parameterizations.pdf,c0774f58a23e,116,240973,False,,False
+3,Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts.pdf,5c81f8f8e01f,11,36960,False,,False
+3,"Stress-testing the coupled behavior of hybrid physics-machine learning climate simulations on an unseen, warmer climate.pdf",989d48eda0d5,7,22845,False,,False
+3,Structured Exploration of Machine Learning Model  Complexity for Spatio-Temporal Forecasting of Urban Flooding.pdf,fad50b9ab285,32,105250,False,,False
+3,Task Aware Modulation using Representation Learning_ An Approach for Few Shot Learning in Environmental Systems.pdf,ba2366f1978a,16,110785,False,,False
+3,The Effects of a Short-term Corporate Social Impact Activity on Employee Turnover_ Field Experimental Evidence.pdf,36cc1cefeeae,61,148275,False,,False
+3,The Gender Gap in Meaningful Work.pdf,8ed079a7c4c8,21,281463,False,,False
+3,The New Generation of Global Climate Models Enhanced by Machine Learning Abstract.pdf,ad7bf4fe6756,1,3134,True,,False
+3,The Past and Future of Corporate Sustainability Research.pdf,9e855a831a71,26,109360,False,,False
+3,Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning._,c2bb80739967,47,98050,False,Year 1/Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning.pdf,False
+3,Two sources of uncertainty in estimating tephra volumes from isopachs_ perspectives and quantification.pdf,2869e5f2ad35,22,139943,False,,False
+3,Understanding Perturbed Parameter Ensemble Sensitivities Using A Contrastive Learning Approach.pdf,866319f21183,26,82758,False,,False
+3,Understanding Precipitation Changes through Unsupervised Machine Learning.pdf,7cc314e993c8,16,70167,False,,False
+3,Understanding and Visualizing Droplet Distributions in Simulations of Shallow Clouds.pdf,c846a2323199,5,20866,False,,False
+3,Variability in the Global Ocean Carbon Sink From 1959 to 2020 by Correcting Models With Observations.pdf,4ebb5a433b82,10,68292,False,,False
+3,Why Linguistics Will Thrive in the 21st Century_ A Reply to Piantadosi.pdf,7061de6c17f6,28,108238,False,,False
+3,Zero-shot learning of aerosol optical properties with graph neural networks.pdf,aa8f63ee2fb1,12,84104,False,,False
+4,A Differentiable Framework to Reduce Structural and Parametric Uncertainty in Cloud Microphysics Parameterizations Abstract.pdf,45447c9bc7f4,1,3394,True,,False
+4,A Generative Super‐Resolution Model for EnhancingTropical Cyclone Wind Field Intensity and Resolution.pdf,be371321361e,11,62064,False,,False
+4,A Golden Spiral of Thermodynamic Histories- Characterizing Trajectories of Ice Crystals in Cirrus Clouds as Modeled by Particle-based Microphysics in CM1 Abstract.pdf,2449ffc9b180,3,5400,True,,False
+4,A new climate model PPE emulator that enables new insights on host model behavior.pdf,dca5bcbe8120,18,16207,False,,False
+4,"A simple emulator that enables interpretation of parameter-output relationships, applied to two climate model PPEs.pdf",0a557d1c4c2e,37,230420,False,,False
+4,AI-empowered next-generation multiscale climate modelling for mitigation and adaptation.pdf,6480c6c29273,9,76424,False,,False
+4,Bridging Educational Divides.pdf,1e0e4e1f589e,2,4849,False,,False
+4,Buffering of Aerosol‐Cloud Adjustments by Coupling Between Radiative Susceptibility and Precipitation Efficiency.pdf,5319b2b73897,13,84801,False,,False
+4,Clustering the Latent Dimensions of a Variational Autoencoder to Identify Representative Trajectories of Ice Crystals in Cirrus Clouds Modeled By Lagrangian Microphysics Abstract_.pdf,903d7cbc6583,1,3657,True,,False
+4,Co-production of climate services_ challenges and enablers_.pdf,504daff7633e,8,66562,False,,False
+4,Computing Extreme Storm Surges in Europe Using Neural Networks.pdf,258b29367a20,27,101377,False,,False
+4,Constrained Earth system models show a stronger reduction in future Northern Hemisphere snowmelt water.pdf,ef48d76ed836,10,84081,False,,False
+4,Cost-benefits analysis of social interactions_ Familiarity modulates the estimation of individual contributions to joint action.pdf,5562e0806de5,9,87094,False,,False
+4,Data Requirements for Quantifying the Background Ocean Carbon Sink Abstract.pdf,d49ba8f5815b,1,3728,True,,False
+4,Data-Driven Probabilistic Air-Sea Flux Parameterization(1).pdf,2127864ced09,15,52799,False,,False
+4,Data-Driven Probabilistic Air-Sea Flux Parameterization.pdf,2127864ced09,15,52799,False,Year 4/Data-Driven Probabilistic Air-Sea Flux Parameterization(1).pdf,False
+4,Data-driven parameterization development using ARM observations and models.pdf,ed0b24c63f57,4,10920,False,,False
+4,Deep Learning for identifying functional relationships involving basal friction and ice fluidity Abstract.pdf,8d5a2534ce39,1,4017,True,,False
+4,Detecting and identifying the impact of parameter interaction on climate model outputs based on two Perturbed Parameter Ensembles (PPEs) Abstract.pdf,0b71525b629f,2,3702,True,,False
+4,Discovering How Ice Crystals Grow Using Neural ODE_s and Symbolic Regression.pdf,a948fe73c70a,21,75971,False,,False
+4,Discovering a Model for Depositional Ice Growth from Observations Using Neural Ordinary Differential Equations and Symbolic Regression Abstract.pdf,7354fab2c747,1,3438,True,,False
+4,Disentangling Representations of Ice Crystals with In Situ Imagery and Unsupervised Learning Abstract.pdf,ea382254fcae,1,3658,True,,False
+4,Distilling Machine Learning’s Added Value_ Pareto Fronts in Atmospheric Applications.pdf,22396cba1b19,18,114964,False,,False
+4,EcoPro-LSTMv0_ A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments(1).pdf,66232d5a5ef7,37,300020,False,,False
+4,EcoPro-LSTMv0_ A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments.pdf,66232d5a5ef7,37,300020,False,Year 4/EcoPro-LSTMv0_ A Memory-based Machine Learning Approach to Predicting Ecosystem Dynamics across Time Scales in Mediterranean Environments(1).pdf,False
+4,"Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science.pdf",bc690e71bdc9,28,103980,False,"Year 3/Efficient first-order algorithms for large-scale, non-smooth maximum entropy models with application to wildfire science.pdf",False
+4,Ethics in climate AI_ From theory to practice.pdf,9cb76d121981,4,22596,False,Year 3/Ethics in climate AI_ From theory to practice.pdf,False
+4,ExoTST_ Exogenous-Aware Temporal Sequence Transformer for Time Series Prediction.pdf,36a77e07ef98,11,76435,False,,False
+4,Explaining South Asian Monsoon Rainfall Seasonality Using a Metric of Plume Buoyancy.pdf,0ab17fd7ecd9,15,48516,False,,False
+4,Exploring Parametric and Structural Uncertainties of Bulk and Lagrangian Ice Microphysical Schemes in Large Eddy Simulations Abstract.pdf,195230d140fe,1,3235,True,,False
+4,Flexible Aggressiveness Probabilistic Optimisation (Fapo) Bidding for Peer-to-Peer Electricity Trading.pdf,a7501b1c3279,34,100289,False,,False
+4,GRAiCE_ reconstructing terrestrial water storage anomalies with recurrent neural networks.pdf,b10f4cc342fd,13,75930,False,,False
+4,Global Carbon Budget 2024.pdf,25cb33f5f0a6,75,491399,False,,False
+4,Improving Oil Slick Trajectory Simulations with Bayesian Optimization.pdf,6b691712cf64,29,67610,False,,False
+4,Improving Representations of Ice Crystals in Atmospheric Models_ Insights from in situ Imagery and Machine Learning.pdf,7d39855f3451,64,27540,False,,False
+4,Insights from emulating CAM6 PPE with Neural Network and an additive emulator Abstract.pdf,fafdf830ed94,1,3181,True,,False
+4,Intermediate Machine Learning in Python for Environmental Science Problems 2025.pdf,16edc9d81da1,4,12821,False,,False
+4,Interpretable Machine Learning-based Radiation Emulation for ICON.pdf,b6cebb1c1191,44,158275,False,,False
+4,JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING.pdf,aa49b96ea006,10,38480,False,Year 3/JOINT PARAMETER AND PARAMETERIZATION INFERENCE WITH UNCERTAINTY QUANTIFICATION THROUGH DIFFERENTIABLE PROGRAMMING.pdf,False
+4,Land processes can substantially impact the mean climate state.pdf,8d3638a0d126,11,76129,False,,False
+4,Large and Increasing Soil Moisture Impact on Western European Summer Heatwaves.pdf,1ed8dea7a984,13,54282,False,,False
+4,Leveraging Subgrid-Scale Spatial Organization and Variability for Improved Cloud Fraction Parametrization Using PINACLES Simulations Abstract.pdf,a4d0f7df7f2c,1,2917,True,,False
+4,Machine‐Assisted Physical Closure for Coarse SuspendedSediments in Vegetated Turbulent Channel Flows.pdf,5de294406bfc,13,79643,False,,False
+4,"One-at-a-time Parameter Perturbation Ensemble of the Community Land Model, version 5.pdf",cc287b2f2a69,59,215143,False,,False
+4,Parameter Estimation in Land Surface Models_ Challenges and Opportunities with Data Assimilation and Machine Learning.pdf,cccad2176f92,152,823982,False,,False
+4,Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference.pdf,a5b5446f7e93,1,3942,False,Year 3/Parameterizing Cloud Microphysics with Machine Learning-Enabled Bayesian Parameter Inference Abstract.pdf,False
+4,Path-Conservative Well-Balanced High-Order Finite-Volume Solver for the Volume-Averaged Navier–Stokes Equations with Discontinuous Porosity.pdf,7d40e13682f1,56,177753,False,,False
+4,Physically Consistent Global Atmospheric Data Assimilation with Machine Learning in Latent Space.pdf,cc0da1d88b85,46,76242,False,,False
+4,Physics-informed data-driven reconstruction ofturbulent wall-bounded flows from planar measurements.pdf,99741af201b2,29,382469,False,,False
+4,Proceedings of the 2025 SIAM International Conference on Data Mining (SDM) .pdf,f2e5ef9fa87b,1,2596,False,,False
+4,Pushing the frontiers in climate modelling and analysis with machine learning.pdf,1b464d5cf9ee,13,104872,False,,False
+4,PythonicDISORT_ A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT.pdf,00b7836e3f0c,4,20188,False,Year 3/PythonicDISORT_ A Python reimplementation of the Discrete Ordinate Radiative Transfer package DISORT.pdf,False
+4,Recommendations for comprehensive and independent evaluation of machine learning-based Earth system models_.pdf,742d7782da6a,13,94796,False,,False
+4,Scale-Dependent Drivers of Air-Sea CO2 Flux Variability.pdf,fe5718b56f53,10,58079,False,,False
+4,Sensitivity of Ocean Carbon Sink Estimates to Rare Observations.pdf,d167792ab2ac,11,63008,False,,False
+4,Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts.pdf,5c81f8f8e01f,11,36960,False,Year 3/Simulating the Air Quality Impact of Prescribed Fires Using Graph Neural Network-Based PM2.5 Forecasts.pdf,False
+4,Spatio-Temporal Machine Learning Models for Emulation of Global Atmospheric Composition.pdf,b471409f0ea8,10,29999,False,,False
+4,Spatiotemporal upscaling of sparse air-sea pCO2 data via physics-informed transfer learning.pdf,4837d04b99a1,13,69491,False,,False
+4,Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations.pdf,72a736c33094,37,174765,False,,False
+4,Stress-Testing a Process-Oriented Diagnostic Relating Tropical Rainfall to Plume Buoyancy Abstract.pdf,2a16e57dcf9b,4,4,True,,True
+4,TRANSFER NEYMAN-PEARSON ALGORITHM FOR OUTLIER DETECTION.pdf,d3028eaacf65,18,80255,False,,False
+4,Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2.pdf,3768091195d8,39,72875,False,,False
+4,Teaching Machine Learning for the Physical Sciences_  A summary of lessons learned and challenges.pdf,c9d4a7659d8f,5,24392,False,,False
+4,The ASTE-BGC Data-Assimilative Regional Ocean Biogeochemistry Model.pdf,edc5e71a96bb,40,122199,False,,False
+4,The Overlooked Sub-Grid Air-Sea Flux in Climate Models.pdf,50d1cf9096ea,29,66639,False,,False
+4,The death of autoconversion_.pdf,1c4c83a9ce2e,32,38748,False,,False
+4,The importance of adding unbiased Argo observations to the ocean carbon observing system.pdf,52c83b9e8a59,10,70689,False,,False
+4,Time series predictions in unmonitored sites_ a survey of machine learning techniques in water resources.pdf,5bc100f8d9c2,39,195877,False,,False
+4,Transferring climate change physical knowledge.pdf,3802c111d00e,11,178797,False,,False
+4,Using machine learning to generate a GISS ModelE calibrated physics ensemble (CPE).pdf,9ded7df06c46,26,183013,False,,False
+5, Improving extreme precipitation representation with machine learning-based warm rain microphysics in CESM._,73f1128aadad,21,14715,False,,False
+5,A Data‐Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes.pdf,34fbd7cc3f3d,17,105306,False,Year 3/A Data-Driven Approach for Parameterizing Ocean Submesoscale Buoyancy Fluxes.pdf,False
+5,A Framework for Hybrid Physics-AI Coupled Ocean Models.pdf,6716226ebe03,41,84339,False,,False
+5,A Machine Learning Framework for Predicting Microphysical Properties of Ice Crystals From Cloud Particle Imagery.pdf,9a0484dcafbe,29,144240,False,,False
+5,A Self-Diagnosing Structural Error-Aware Parameter Estimation Method for Earth System Models.pdf,3090eb822021,42,184677,False,,False
+5,A Turbulence Model for Velocity Distribution in Open-Channel Flows Through Mangrove Trees.pdf,db3e36e4e6c9,19,119063,False,,False
+5,A U.S. Scientific Community Vision for Sustained Earth Observations of Greenhouse Gases to Support Local to Global Action.pdf,6b20393c7409,9,63376,False,,False
+5,A U.S. scientific community review of carbon cycle science gaps and opportunities to better support earth system science and carbon management.pdf,b4f14499f277,31,299545,False,,False
+5,AI Digital Twin of the Climate System Abstract.pdf,cafd7a01dbe3,5,5,True,,True
+5,Accelerated heatwave trends from nonlinear land-atmosphere interactions in midlatitude humid regions.pdf,02bea554d4bc,26,66957,False,,False
+5,Accurate and Efficient Hybrid-Ensemble Atmospheric Data Assimilation in Latent Space with Uncertainty Quantification.pdf,311f24bdc568,23,80905,False,,False
+5,An Improved Methodology to Estimate Cross-Scale Kinetic Energy Transfers from Third-Order Structure Functions Using Regularized Least Squares 2026.pdf,05a1e8288295,18,122870,False,,False
+5,An Improved Methodology to Estimate Cross-Scale Kinetic Energy Transfers from Third-Order Structure Functions using Regularized Least-Squares.pdf,b06f80e974c0,41,113984,False,,False
+5,An improved methodology for estimating Kinetic Energy transfers from structure functions with regularized least-squares ABSTRACT.pdf,0acda7ad1125,2,2,True,,True
+5,An update of the LDEO fCO2-Residual method_ algorithmic choices improve ocean carbon sink estimates.pdf,42f5f359f9b5,28,58852,False,,False
+5,Attention‐Based Stochastic Simulation of Climate‐Informed Spatiotemporal Flood Risk for Multisite Insurance Portfolios.pdf,7887057fecea,11,70549,False,,False
+5,AutoClimDS_ Climate Data Science Agentic AI -- A Knowledge Graph is All You Need.pdf,b890bad8646f,7,45382,False,,False
+5,Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation 2026.pdf,ac665f32a008,19,102762,False,,False
+5,Bayesian Deep Learning for Convective Initiation Nowcasting Uncertainty Estimation.pdf,bae3097cae52,39,75990,False,,False
+5,Calibrated Test-Time Guidance for Bayesian Inference.pdf,c7059c7d7b4b,28,142320,False,,False
+5,Calibrating Geophysical Predictions under Constrained Probabilistic Distributions.pdf,cf57e67041b5,33,141290,False,,False
+5,Catastrophic “hyperclustering” and recurrent losses_ diagnosing U.S. flood insurance insolvency triggers.pdf,d9df1b9e7efd,12,89037,False,,False
+5,CausalDynamics_ A large-scale benchmark for structural discovery of dynamical causal models.pdf,11a897504521,38,120025,False,,False
+5,ClimateBench2.0_ Probabilistic ClimateModel Scoring Abstract.pdf,a7a033624df2,3,4814,True,,False
+5,Cloud geometry and solar zenith angle control 3D radiative effects.pdf,db84b215c346,30,65007,False,,False
+5,Computing extreme storm surges in Europe using neural networks.pdf,b8aa06352600,20,98681,False,Year 4/Computing Extreme Storm Surges in Europe Using Neural Networks.pdf,False
+5,Constraining Errors in Ice Microphysics Schemes with Perturbed Ensembles.pdf,830d30232ab2,16,8126,False,,False
+5,Contrasting Parametric Sensitivities in Two Global Vegetation Models Using Parameter Perturbation Ensembles.pdf,e7888f8e7019,23,122832,False,,False
+5,Control-Augmented Autoregressive Diffusion for Data Assimilation.pdf,36817fe1aa1a,22,87500,False,,False
+5,"Crowdsourcing the Frontier_ Advancing Hybrid Physics-ML Climate Simulation via a $50,000 Kaggle Competition.pdf",4e066ebddc28,24,137632,False,,False
+5,Data-Driven Integration Kernels for Interpretable Nonlocal Operator Learning(1).pdf,b65cac097878,13,52549,False,,False
+5,Data-Driven Integration Kernels for Interpretable Nonlocal Operator Learning.pdf,c797e53357a4,14,50263,False,Year 5/Data-Driven Integration Kernels for Interpretable Nonlocal Operator Learning(1).pdf,False
+5,Data-Driven Probabilistic Air-Sea Flux Parameterization.pdf,a5492c23d8b9,11,66309,False,Year 4/Data-Driven Probabilistic Air-Sea Flux Parameterization(1).pdf,False
+5,Deep Koopman operators for causal discovery.pdf,964cd1a50705,12,103507,False,,False
+5,DeepCarbon A Global Data Product of Upscaled Carbon Fluxes from Knowledge Guided Deep Learning Models Abstract.pdf,9ccce3cf53db,1,1,True,,True
+5,Diagnosing Parametric Controls on CLM Ecohydrology Using Machine Learning Emulators Abstract.pdf,4ff01187f117,1,9728,True,,False
+5,DifferBESS Uncovering the Role of Canopy Temperature in Ecosystem Carbon and Water Fluxes Using a Hybrid Modeling Approach ABSTRACT.pdf,fa2ea0f0cf4b,2,2,True,,True
+5,Discovering How Ice Crystals Grow Using Neural ODE_s and Symbolic Regression.pdf,a948fe73c70a,21,75971,False,Year 4/Discovering How Ice Crystals Grow Using Neural ODE_s and Symbolic Regression.pdf,False
+5,"Efficient Emulation, Uncertainty Quantification, and Sensitivity Analysis for a Land Surface Model using Evidential Deep Learning.pdf",5f8da0241680,78,365557,False,,False
+5,Estimating the Kinetic Energy Spectrum from the Second-Order Velocity Structure Function using a Regularized Fitting Approach.pdf,08404f14aec9,36,76188,False,,False
+5,Explaining South Asian Monsoon Rainfall Seasonality Using a Metric of Plume Buoyancy.pdf,baa52b76dcd3,9,53914,False,Year 4/Explaining South Asian Monsoon Rainfall Seasonality Using a Metric of Plume Buoyancy.pdf,False
+5,Exploring Structural Differences and Parameter Calibration for Microphysics in CESM with Latent Representations using Contrastive Learning Models ABSTRACT.pdf,35cb03483079,1,1,True,,True
+5,FEMA Phase-Out_ Catastrophic Extremes Limit Decentralization of U.S. Flood Insurance.pdf,aa27e37a9374,11,149832,False,,False
+5,Financial losses associated with US floods occur with frequent low-return-period precipitation.pdf,4ac6067043b2,15,118148,False,,False
+5,Forest Dynamics in South America Under a Changing Climate An Analysis Using ModelE BiomeE with ERA5 Abstract.pdf,4b22f66c6db8,1,1,True,,True
+5,From Regulation to Radiative Forcing Constraining the Climate Response to Declining Shipping Aerosol Emissions Abstract.pdf,ac432f3da31a,1,1,True,,True
+5,Future Changes in the Annual Sea‐Level Cycle.pdf,9571bcf512aa,19,122033,False,,False
+5,GenAI for Climate Science.pdf,18b41181226e,2,2,False,,True
+5,Generalizable Neural-Network Parameterization of Mesoscale Eddies in Idealized and Global Ocean Models.pdf,e9051914322c,14,81324,False,,False
+5,Generative Uncertainty in Diffusion Models.pdf,9c3dd19f000c,22,92862,False,,False
+5,Generative emulation of chaotic dynamics with coherent prior.pdf,a3f77201a4b0,25,91722,False,,False
+5,Global AI Ocean Climate Models.pdf,2f2c2cbdf9c9,2,2,False,,True
+5,"Gradients, benchmarks, and agents_ a new toolkit for an old uncertainty.pdf",85aa424ae459,44,18070,False,,False
+5,Harnessing ML -CESM Workshop 2026.pdf,2f4dbd4b7f4d,2,8514,False,,False
+5,Impacts of Bulk Microphysics Scheme Structural Choices on Simulations of Rain Initiation Through Drop Coalescence.pdf,6f02cee5c651,29,180220,False,,False
+5,Improving oil slick trajectory simulations with Bayesian optimization.pdf,963b5515c89b,12,98690,False,Year 4/Improving Oil Slick Trajectory Simulations with Bayesian Optimization.pdf,False
+5,Incorporating Multivariate Consistency in ML-Based Weather Forecasting with Latent-space Constraints.pdf,1639c364ca7e,15,70905,False,,False
+5,Inferring Microphysical Process Rates from in Situ Observations Using Physics-Informed Machine Learning.pdf,b0ae81292189,1,1,False,,True
+5,Inferring Thermodynamic Histories from In Situ Ice Crystal Imagery via Conditional Diffusion Models.pdf,b9f244519383,21,67367,False,,False
+5,Integrated Turbulence and Machine Learning Models Explain Pier Scour in Erodible Channels.pdf,3c4ad273daa5,17,104171,False,,False
+5,Integrating Transformer-Based Land Surface Phenology into the Community Land Model for Climate-Responsive Vegetation Dynamics Abstract.pdf,b2c4df5ecad8,3,3,True,,True
+5,Inter-Comparison of Deep Learning Models for Flood Forecasting in Ethiopia’s Upper Awash Basin.pdf,542a4bcfeeb7,36,140445,False,,False
+5,Interactive Atmospheric Composition Emulation for Next-Generation Earth System Models.pdf,78aa7b6cb614,15,46045,False,,False
+5,Interpretable Machine Learning‐Based Radiation Emulation for ICON.pdf,e2f04962515a,18,115703,False,Year 4/Interpretable Machine Learning-based Radiation Emulation for ICON.pdf,False
+5,Investigating Snowpack-Shrub Interactions in the Arctic Tundra using Machine Learning and Process Models Abstract.pdf,5b59e74827e4,1,1,True,,True
+5,Investigating Western North America Atmospheric Rivers with Machine Learning-Based Detection.pdf,9cd496de67bd,34,172669,False,,False
+5,"JCM v1.0_ A Differentiable, Intermediate-Complexity Atmospheric Model.pdf",7d9f772790d0,20,63160,False,,False
+5,LEX v1.6.0_ a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation(1).pdf,e05df4a965f6,18,93051,False,,False
+5,LEX v1.6.0_ a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation.pdf,e05df4a965f6,18,93051,False,Year 5/LEX v1.6.0_ a new large-eddy simulation model in JAX with GPU acceleration and automatic differentiation(1).pdf,False
+5,"Land Modeling with Machine Learning_ Parameter Sensitivity, Calibration, and Hybrid Modeling.pdf",45164f241e60,16,10514,False,,False
+5,Learning more physically realistic dynamics in machine-learning based weather forecasting with latent-space constraints.pdf,ec62100735c6,22,87837,False,,False
+5,Leveraging Machine Learning and MCMC to Optimize Community Land Model Parameters for Accurate Gross Primary Productivity Estimates ABSTRACT.pdf,43919dc711c4,1,1,True,,True
+5,MONITORING ACCESS TO PIPED WATER AND SANITATION INFRASTRUCTURE IN AFRICA AT DISAGGREGATED SCALES USING SATELLITE IMAGERY AND SELFSUPERVISED LEARNING.pdf,306fafe408c2,11,28104,False,,False
+5,Machine Learning Workflows in Climate Modeling_ Design Patterns and Insights from Case Studies.pdf,e381babe14cf,42,134368,False,,False
+5,Machine Learning for Climate Modeling Abstract.pdf,cf02e39e5b81,2,2,True,,True
+5,"One‐at‐a‐Time Parameter Perturbation Ensemble of the Community Land Model, Version 5.1",f5cbb3e563dc,17,111578,False,,False
+5,Opinion_ The importance and future development of perturbed parameter ensembles in climate and atmospheric science.pdf,33f94bfe9583,17,113121,False,,False
+5,PIXAL_ A Physics-Informed Explainable Machine Learning Architecture for Greenland Ice Albedo Modeling.pdf,e71b14b65755,28,91977,False,,False
+5,Parameter Estimation in Land Surface Models_ Challengesand Opportunities With Data Assimilation and Machine Learning.pdf,02193a8558dc,42,330768,False,,False
+5,Parameterizing the Impact of Subgrid-Scale Air-Sea Heat Fluxes in Climate Models Abstract.pdf,6c6a9d06bf58,1,1,True,,True
+5,Path-conservative well-balanced high-order finite-volume solver for the volume-averaged Navier–Stokes equations with discontinuous porosity.pdf,7d40e13682f1,56,177753,False,Year 4/Path-Conservative Well-Balanced High-Order Finite-Volume Solver for the Volume-Averaged Navier–Stokes Equations with Discontinuous Porosity.pdf,False
+5,Perspectives on Systematic Cloud Microphysics Scheme Development With Machine Learning.pdf,a185a58af4a1,34,239717,False,,False
+5,Physically consistent global atmospheric data assimilation with machine learning in latent space.pdf,0a356f57fad6,12,83778,False,Year 4/Physically Consistent Global Atmospheric Data Assimilation with Machine Learning in Latent Space.pdf,False
+5,Physics-Constrained Adaptive Flow Matching for Climate Downscaling.pdf,c1a8dd04e194,22,59671,False,,False
+5,PnP-DA_ Towards Principled Plug-and-Play Integration of Variational Data Assimilation and Generative Models.pdf,f8a21622a265,27,66213,False,,False
+5,Probabilistic Data Assimilation for Ensemble Distribution Projections With Generative Machine Learning_ A Lorenz ’96 Proof-of-Concept.pdf,df5b15dc5af3,13,81436,False,,False
+5,Reduced water loss rather than increased photosynthesis controls CO2-enhanced water-use efficiency.pdf,d65c74c594b0,22,142866,False,,False
+5,Representing subgrid-scale cloud effects in a radiation parameterization using machine learning_ MLE-radiation v1.0,d3f424c93cff,17,83971,False,,False
+5,Resolving Low Cloud Feedbacks Globally With E3SM High-Res MMF_ Agreement With LES but Stronger Shortwave Effects.pdf,778b60ffcdee,20,113797,False,,False
+5,Revised estimates of CO2 sources and sinks improve global carbon accounting.pdf,a12f3a624a8f,2,19283,False,,False
+5,STRICTLY CONSTRAINED GENERATIVE MODELING VIA SPLIT AUGMENTED LANGEVIN SAMPLING.pdf,67996bc53014,39,141658,False,,False
+5,Scalable Water and Sanitation Monitoring Across Africa via AI‑Driven Satellite and Survey Data Integration abstract.pdf,d047cbf55b75,3,3,True,,True
+5,Seeing SDG 6 from space_ local-scale monitoring of piped water and sewage system access across Africa using satellite imagery and self-supervised learning.pdf,c93180ad7e5c,29,73041,False,,False
+5,Sensitivity of Ocean Carbon Sink Estimates to Rare Observations.pdf,d840acbaa223,11,62748,False,Year 4/Sensitivity of Ocean Carbon Sink Estimates to Rare Observations.pdf,False
+5,Sensitivity of Ocean Carbon Sink Estimates to Rare Observations_.pdf,0b9bd86ce992,11,62748,False,Year 4/Sensitivity of Ocean Carbon Sink Estimates to Rare Observations.pdf,False
+5,Spatial Clustering of heat wave Regimes Through ConvAE Latent Space Analysis and Teleconnection Linkages Abstract.pdf,c56071d72c6e,2,2,True,,True
+5,Spatiotemporal Machine Learning Approaches forAtmospheric Composition Emulation in NASA GISS Model E.pdf,a2ad0e30a088,16,95688,False,,False
+5,Stable Machine Learning based Radiation Emulation for ICON.pdf,e5f1791220ab,37,101273,False,,False
+5,Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations.pdf,051a8a754044,29,165779,False,Year 4/Stable Machine-Learning Parameterization of Subgrid Processes in a Comprehensive Atmospheric Model Learned From Embedded Convection-Permitting Simulations.pdf,False
+5,State of the CESM.pdf,83fdefd50e14,77,41678,False,,False
+5,Strictly Constrained Generative Modeling via Split Augmented Langevin Sampling(1).pdf,f0ccbb037a2f,40,142846,False,Year 5/STRICTLY CONSTRAINED GENERATIVE MODELING VIA SPLIT AUGMENTED LANGEVIN SAMPLING.pdf,False
+5,"Structural error-aware climate model calibration with global, local and zonal climatologies using Perturbed Parameter Ensembles (PPEs) Abstract.pdf",256b2a11ab7f,2,2,True,,True
+5,Structured dataset of reported cloud seeding activities in the United States (2000–2025) using an LLM.pdf,48f5873212ef,9,39258,False,,False
+5,Structured exploration of machine learning model complexity for spatio-temporal forecasting of urban flooding.pdf,fad50b9ab285,32,105250,False,Year 3/Structured Exploration of Machine Learning Model  Complexity for Spatio-Temporal Forecasting of Urban Flooding.pdf,False
+5,Synthesis of data products for ocean carbonate chemistry.pdf,4dc1d86041a1,58,379421,False,,False
+5,Systematic Cloud Microphysics Scheme Development with Machine Learning Abstract.pdf,03cbd882667f,1,1,True,,True
+5,Systematic LLM Translation of Legacy Scientific Code to Differentiable Frameworks_ Application to a Land Surface Model.pdf,63349f954d04,15,140108,False,,False
+5,Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2.pdf,a05cea237b96,16,76267,False,Year 4/Targeting bias in algorithm optimization improves reconstructions of surface ocean pCO2.pdf,False
+5,Task Aware Modulation Using Representation Learning for Upsaling of Terrestrial Carbon Fluxes.pdf,2ae43c907021,7,31773,False,,False
+5,Technical Report_ Towards Unified Diffusion Models for Multi-Model Climate Emulation at Scale.pdf,bd2e6ef762ef,18,67115,False,,False
+5,Testing machinelearned basal-friction relationships for icesheet modeling.pdf,6ff16973fcd5,8,7696,False,,False
+5,The Impact of Sub‐Grid Heterogeneity on Air‐Sea Turbulent Heat Flux in Coupled Climate Models.pdf,ce54e4a6c53c,12,72345,False,,False
+5,The Modèle Atmosphérique Régional–Intelligence Artificielle (MAR-IA)_ surface meltwater over Greenland._,97248a2622a0,32,71552,False,,False
+5,The opportunity cost of 2023 Canadian wildfires Abstract.pdf,83de885b0808,2,2,True,,True
+5,Toward a Climate OSSE Framework for Satellite Mission Design.pdf,116c0087d2fe,15,69046,False,,False
+5,Transferring climate change physical knowledge(1).pdf,861a75e02bdc,11,178797,False,Year 4/Transferring climate change physical knowledge.pdf,False
+5,Transferring climate change physical knowledge.pdf,af6e3764abcd,55,122143,False,Year 4/Transferring climate change physical knowledge.pdf,False
+5,Uncertainty Estimation of Bayesian Deep Learning for Convective Initiation Nowcasting ABSTRACT.pdf,3a1c0bd4e637,1,1,True,,True
+5,Understanding Ice Crystal Habit Diversity with Self-Supervised Learning.pdf,d2ef340cbf2d,11,37161,False,,False
+5,Unexpected decline in the ocean carbon sink under record-high sea surface temperatures in 2023.pdf,ce8197c246db,21,107756,False,,False
+5,Unsupervised classification of absorbing aerosols detected by the Single Particle Soot Photometer.pdf,c769439315e0,20,90394,False,,False
+5,Using Contrastive Learning to Identify Structural Deficiencies in Climate Models and Generate Calibrated Physics Ensembles.pdf,3296742c595f,13,2871,False,,False
+5,VRscores_ A New Measure and Dataset of Workforce Politics Using Voter Registrations.pdf,c04e9f5c6fe1,74,255057,False,,False
+5,WaveSim_ A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields.pdf,bec8e33adb6f,23,81004,False,,False
+5,Wavelet Flow Matching for Multi-Scale Physics Emulation.pdf,46c045c7a54e,35,121842,False,,False
+5,When and where soil dryness matters to ecosystem photosynthesis_.pdf,18541d990180,23,107121,False,,False

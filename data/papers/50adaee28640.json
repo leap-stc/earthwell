@@ -1,0 +1,56 @@
+{
+  "paper_id": "50adaee28640",
+  "year": "1",
+  "filename": "Physics-Guided Machine Learning for Scientific Discovery_ An Application in Simulating Lake Temperature Profiles.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Physics-Guided Machine Learning for Scientific Discovery: An Application in Simulating Lake Temperature Profiles",
+  "authors": [
+    "Xiaowei Jia",
+    "Jared Willard",
+    "Anuj Karpatne",
+    "Jordan S. Read",
+    "Jacob A. Zwart",
+    "Michael Steinbach",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2021,
+  "venue": "ACM Transactions on Data Science",
+  "doi_or_url": "https://doi.org/10.1145/3447814",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "lake thermal stratification",
+    "lake thermodynamic mixing",
+    "surface energy balance",
+    "shortwave and longwave radiation absorption",
+    "sensible and latent heat flux"
+  ],
+  "ml_methods": [
+    "Recurrent Neural Networks",
+    "Long Short-Term Memory",
+    "Physics-Guided Recurrent Neural Networks"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": true,
+  "testbed_rationale": "The 1D lake thermal dynamics problem provides a well-defined benchmark for physics-guided machine learning, loss-function-based energy conservation constraints, and synthetic-data pre-training across sparse observational regimes.",
+  "pain_points": [
+    "Extreme sparsity of observational field data (most lakes have <1% of required observations)",
+    "Black-box ML predictions violate basic thermodynamic conservation laws (energy/mass)",
+    "Process models (GLM) carry structural biases in vertical stratification dynamics at intermediate and bottom depths",
+    "Model generalization to unseen climate regimes, novel lake geometries, and distinct water clarity conditions"
+  ],
+  "extraction_notes": "The paper builds on and refines the experiments originally reported in Jia et al. [2019] and Read et al. [2019]. Observational and driver data are pointed to the USGS / NTL-LTER repositories cited via Read et al. [2019].",
+  "dataset_ids": [
+    "50adaee28640-01",
+    "50adaee28640-02",
+    "50adaee28640-03"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "46c045c7a54e-01",
+  "paper_id": "46c045c7a54e",
+  "name": "The Well - Turbulent Radiative Layer 2D (TRL)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "Athena++",
+  "scale": "other",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "6.9 GB",
+  "size_gb_estimate": 6.9,
+  "resolution": "384 x 128",
+  "produced_in_this_study": false,
+  "access": "From The Well (Ohana et al., 2024)",
+  "access_kind": "public_url_or_doi"
+}

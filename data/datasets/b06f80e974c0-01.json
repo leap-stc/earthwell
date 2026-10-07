@@ -1,0 +1,20 @@
+{
+  "dataset_id": "b06f80e974c0-01",
+  "paper_id": "b06f80e974c0",
+  "name": "Two-layer QG model simulation (PyQG)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "PyQG",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "3.9 km horizontal grid spacing (256x256), 2 vertical layers (500 m, 2000 m), daily averages",
+  "produced_in_this_study": true,
+  "access": "https://github.com/manuelogtzv/SF3_RLS and https://doi.org/10.5281/zenodo.6380711",
+  "access_kind": "public_url_or_doi"
+}

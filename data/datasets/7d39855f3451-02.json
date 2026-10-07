@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7d39855f3451-02",
+  "paper_id": "7d39855f3451",
+  "name": "Cloud Particle Imager (CPI) in situ imagery dataset",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "CPI (Cloud Particle Imager)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "100,000 samples (9 classes)",
+  "size_gb_estimate": null,
+  "resolution": "2.3 μm pixel resolution, resized to 28x28 and 224x224",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

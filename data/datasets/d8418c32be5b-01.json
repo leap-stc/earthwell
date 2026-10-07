@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d8418c32be5b-01",
+  "paper_id": "d8418c32be5b",
+  "name": "CMIP6 ESM air-sea CO2 flux simulations (fgco2)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "ACCESS-ESM1-5, CanESM5, CNRM-ESM2-1, IPSL-CM6A-LR, MIROC-ES2L, MPI-ESM1-2-LR, UKESM1-0-LL",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "regridded to 1 deg latitude by 1 deg longitude grid",
+  "produced_in_this_study": false,
+  "access": "https://esgf-node.llnl.gov/search/cmip6/",
+  "access_kind": "public_url_or_doi"
+}

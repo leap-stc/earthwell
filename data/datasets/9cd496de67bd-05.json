@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9cd496de67bd-05",
+  "paper_id": "9cd496de67bd",
+  "name": "Machine learning-based detection of atmospheric rivers in CESM1.3 catalogue",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CGNet / CESM1.3",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25°",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5065/4g3t-bn97",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,57 @@
+{
+  "paper_id": "a3f77201a4b0",
+  "year": "5",
+  "filename": "Generative emulation of chaotic dynamics with coherent prior.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Generative emulation of chaotic dynamics with coherent prior",
+  "authors": [
+    "Juan Nathaniel",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi_or_url": "https://doi.org/10.1016/j.cma.2025.118410",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_dynamics",
+  "processes": [
+    "turbulence",
+    "fluid dynamics",
+    "atmospheric circulation",
+    "subseasonal-to-seasonal climate dynamics"
+  ],
+  "ml_methods": [
+    "score-based diffusion model",
+    "deep Koopman operator",
+    "U-Net",
+    "UNet++",
+    "Spherical Fourier Neural Operator (SFNO)",
+    "Tensorized Fourier Neural Operator (TFNO)",
+    "U-Net Fourier Neural Operator (UFNO)",
+    "Langevin Monte Carlo"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "forecasting",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://github.com/juannat7/cohesion",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a reproducible benchmark combining turbulent fluid dynamics simulations and real-world subseasonal-to-seasonal atmospheric prediction datasets via ChaosBench, with open-source code and data.",
+  "pain_points": [
+    "Long-range autoregressive skill decay and error accumulation leading to unphysical drift in chaotic dynamical systems",
+    "Blurring and oversmoothing from double penalty conundrum in deterministic deep learning weather prediction models over long lead times",
+    "Prohibitive computational expense of autoregressive diffusion models requiring iterative multi-step denoising at every timestep",
+    "High-dimensional neural operators suffer from severe numerical instability on long rollouts",
+    "Difficulty generating stable, physically consistent simulations from incomplete, noisy, or partially observed priors"
+  ],
+  "extraction_notes": "The paper interprets the generative denoising process of diffusion models as solving a Reynolds turbulence closure problem conditioned on a reduced-order model (deep Koopman operator or UNet++) coherent prior. Emulation is framed as single-pass trajectory planning across the entire horizon.",
+  "dataset_ids": [
+    "a3f77201a4b0-01",
+    "a3f77201a4b0-02",
+    "a3f77201a4b0-03"
+  ]
+}

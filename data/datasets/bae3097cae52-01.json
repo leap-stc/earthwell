@@ -1,0 +1,19 @@
+{
+  "dataset_id": "bae3097cae52-01",
+  "paper_id": "bae3097cae52",
+  "name": "GOES-16 ABI infrared brightness temperatures and MRMS composite reflectivity dataset for convective initiation nowcasting",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "GOES-16 ABI, Multi-Radar Multi-Sensor (MRMS) radar network",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "images"
+  ],
+  "size_as_stated": "94,618 samples (45,077 training, 19,320 validation, 30,221 testing)",
+  "size_gb_estimate": null,
+  "resolution": "1.5-km uniform horizontal mesh (remapped from native ~2-km mesh), 32x32 pixels (48 km x 48 km square patches); lead times from 10 to 60 minutes",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.26208/6Y59-0R80",
+  "access_kind": "public_url_or_doi"
+}

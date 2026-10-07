@@ -1,0 +1,45 @@
+{
+  "paper_id": "5b59e74827e4",
+  "year": "5",
+  "filename": "Investigating Snowpack-Shrub Interactions in the Arctic Tundra using Machine Learning and Process Models Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Investigating Snowpack-Shrub Interactions in the Arctic Tundra using Machine Learning and Process Models",
+  "authors": [
+    "Isabella Lu",
+    "Linnia R. Hawkins",
+    "Katherine Dagon",
+    "Sudhanshu Kumar",
+    "Sarah Ryu"
+  ],
+  "pub_year": 2025,
+  "venue": "AGU Fall Meeting 2025",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2025AGUFMB31K.8888L/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "land surface",
+  "processes": [
+    "carbon cycling",
+    "photosynthesis",
+    "snowpack dynamics",
+    "shrub growth",
+    "snow-vegetation feedback"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "emulation"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "Community Land Model (CLM)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without information or links regarding data availability or codebase access.",
+  "pain_points": [
+    "High computational cost of running process-based land models (CLM) across broad parameter spaces",
+    "Process model structural bias: CLM failed to capture the positive snowpack-plant growth feedback observed in Arctic field ecosystems, instead exhibiting a negative feedback loop"
+  ],
+  "extraction_notes": "Specific ML architectures (emulators) are not detailed in the abstract text. The year 2025 appears in the Bibcode and publication metadata on the ADS export.",
+  "dataset_ids": [
+    "5b59e74827e4-01"
+  ]
+}

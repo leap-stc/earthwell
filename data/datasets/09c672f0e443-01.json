@@ -1,0 +1,19 @@
+{
+  "dataset_id": "09c672f0e443-01",
+  "paper_id": "09c672f0e443",
+  "name": "CAMELS (Catchment Attributes and MEteorology for Large-sample Studies)",
+  "role": "both",
+  "source_kind": "benchmark",
+  "model_or_instrument": "USGS stream gauges and Daymet/NLDAS meteorological forcings",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": "531 basins from CAMELS for the periods (1989-2009)",
+  "size_gb_estimate": null,
+  "resolution": "daily; basin-aggregated",
+  "produced_in_this_study": false,
+  "access": "https://ral.ucar.edu/solutions/products/camels",
+  "access_kind": "public_url_or_doi"
+}

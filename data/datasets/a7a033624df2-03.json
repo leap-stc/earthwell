@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a7a033624df2-03",
+  "paper_id": "a7a033624df2",
+  "name": "CMIP archive",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CMIP ESMs",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

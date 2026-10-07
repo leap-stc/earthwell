@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5f8da0241680-01",
+  "paper_id": "5f8da0241680",
+  "name": "CLM5 Perturbed Parameter Ensemble (PPE) LAI outputs",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM5 (Community Land Model version 5.1 / CESM)",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": "500 members × 114 years (1901 to 2014) × 29 CONUS sparse-grid cells",
+  "size_gb_estimate": null,
+  "resolution": "2° sparse grid (400 representative global locations, 29 CONUS cells), monthly temporal resolution",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.15170936",
+  "access_kind": "public_url_or_doi"
+}

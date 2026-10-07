@@ -1,0 +1,18 @@
+{
+  "dataset_id": "42f5f359f9b5-03",
+  "paper_id": "42f5f359f9b5",
+  "name": "Pangeo-ESGF CMIP6 Zarr Data",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "CMIP6 models",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.10621538",
+  "access_kind": "public_url_or_doi"
+}

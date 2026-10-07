@@ -1,0 +1,50 @@
+{
+  "paper_id": "99741af201b2",
+  "year": "4",
+  "filename": "Physics-informed data-driven reconstruction ofturbulent wall-bounded flows from planar measurements.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Physics-informed data-driven reconstruction of turbulent wall-bounded flows from planar measurements",
+  "authors": [
+    "Gurpreet S. Hora",
+    "Pierre Gentine",
+    "Mostafa Momen",
+    "Marco G. Giometto"
+  ],
+  "pub_year": null,
+  "venue": null,
+  "doi_or_url": "10.1063/5.0239163",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Fluid Dynamics / Boundary Layer Turbulence",
+  "processes": [
+    "Turbulent boundary layer flow",
+    "Open-channel flow",
+    "Vortical coherent structures",
+    "Momentum and mass conservation"
+  ],
+  "ml_methods": [
+    "Physics-Informed Variational Autoencoder (PVAE)",
+    "Variational Autoencoder (VAE)",
+    "3D Convolutional Neural Network (Conv3D)",
+    "Linear Stochastic Estimation (LSE)"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Scripts and datasets generated as part of this study are available from the corresponding author on reasonable request.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The dataset is available only on reasonable request rather than through a public repository or URL, and focuses on canonical channel DNS rather than climate model parameterization.",
+  "pain_points": [
+    "Difficulty in accurately reconstructing small-scale, high-wavenumber turbulent structures due to the frequency principle (spectral bias) in deep learning models",
+    "Anisotropy of Reynolds stress components leads to unequal reconstruction errors across velocity components when using aggregate MSE loss functions",
+    "Soft constraints via loss function penalties reduce continuity and momentum equation residuals by 40-56%, but do not enforce exact physical conservation",
+    "High GPU memory footprint when performing 3D volumetric convolutional operations, requiring downsampling of DNS grids"
+  ],
+  "extraction_notes": "Accepted manuscript for an AIP journal (DOI prefix 10.1063). Publication year and specific journal name are not explicitly given on the accepted manuscript header. Work is directly supported by the NSF LEAP STC.",
+  "dataset_ids": [
+    "99741af201b2-01"
+  ]
+}

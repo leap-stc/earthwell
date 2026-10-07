@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6f02cee5c651-01",
+  "paper_id": "6f02cee5c651",
+  "name": "Synthetic double-gamma DSD dataset for DSD inversion neural network",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Analytic double-gamma DSD generator",
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "30 epochs of 1,024,000 samples generated on-the-fly; 10^6 sample test set",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.14845987",
+  "access_kind": "public_url_or_doi"
+}

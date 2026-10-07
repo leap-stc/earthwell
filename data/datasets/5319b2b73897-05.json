@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5319b2b73897-05",
+  "paper_id": "5319b2b73897",
+  "name": "CERES EBAF Ed4.1 TOA Radiative Fluxes",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "CERES",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "period 2000–2016",
+  "size_gb_estimate": null,
+  "resolution": "Monthly mean",
+  "produced_in_this_study": false,
+  "access": "Radiative fluxes from CERES is available through the CERES subsetting tool (CERES EBAF Ed4.2, 2023).",
+  "access_kind": "public_url_or_doi"
+}

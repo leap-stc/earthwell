@@ -1,0 +1,19 @@
+{
+  "dataset_id": "b890bad8646f-01",
+  "paper_id": "b890bad8646f",
+  "name": "AutoClimDS Knowledge Graph Metadata (NASA CMR, NOAA OneStop, ERA5, CMIP6)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "tabular",
+    "text"
+  ],
+  "size_as_stated": "~1,480,000 nodes across 45 types and ~5,800,000 edges across 39 relationship types, encompassing ~208,000 climate datasets",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://github.com/Ajaberr/AutoClimDS",
+  "access_kind": "public_url_or_doi"
+}

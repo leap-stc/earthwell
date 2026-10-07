@@ -1,0 +1,49 @@
+{
+  "paper_id": "bec8e33adb6f",
+  "year": "5",
+  "filename": "WaveSim_ A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "WaveSim: A Wavelet-based Multi-scale Similarity Metric for Weather and Climate Fields",
+  "authors": [
+    "Gabriele Accarino",
+    "Viviana Acquaviva",
+    "Sara Shamekh",
+    "Duncan Watson-Parris",
+    "David Lawrence"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2512.14656",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_diagnostics_and_verification",
+  "processes": [
+    "precipitation",
+    "atmospheric circulation",
+    "El Niño Southern Oscillation",
+    "Pacific North-American pattern"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/gabrieleaccarino/wavesim",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study proposes a multi-scale spatial verification similarity metric and PyTorch package rather than generating or curating a benchmark dataset for ML parameterization training.",
+  "pain_points": [
+    "Traditional point-wise error metrics (e.g., MSE) cause the 'double penalty' effect for intermittent/sparse fields like precipitation and fail to attribute errors to physical spatial scales.",
+    "Perceptual metrics from computer vision (such as SSIM and DSSIM) exhibit excessive sensitivity to modest spatial displacements.",
+    "Neural network-based weather and climate emulators trained on point-wise MSE losses suffer from blurring and loss of fine-scale variance during forward autoregressive rollouts."
+  ],
+  "extraction_notes": "WaveSim is formulated as an interpretable verification metric decomposed into Magnitude, Displacement, and Structure components across dyadic wavelet scales. While no ML model is trained in the paper, WaveSim is implemented in PyTorch and highlighted for future use as an ML emulator loss function or calibration metric.",
+  "dataset_ids": [
+    "bec8e33adb6f-01",
+    "bec8e33adb6f-02",
+    "bec8e33adb6f-03",
+    "bec8e33adb6f-04",
+    "bec8e33adb6f-05"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "db84b215c346-01",
+  "paper_id": "db84b215c346",
+  "name": "Cloud Botany shallow cumulus scenes",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "DALES LES",
+  "scale": "LES",
+  "data_types": [
+    "spatial_3d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://howto.eurec4a.eu/botany_dales.html",
+  "access_kind": "public_url_or_doi"
+}

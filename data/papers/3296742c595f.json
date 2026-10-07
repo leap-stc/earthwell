@@ -1,0 +1,60 @@
+{
+  "paper_id": "3296742c595f",
+  "year": "5",
+  "filename": "Using Contrastive Learning to Identify Structural Deficiencies in Climate Models and Generate Calibrated Physics Ensembles.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Using Contrastive Learning to Identify Structural Deficiencies in Climate Models and Generate Calibrated Physics Ensembles",
+  "authors": [
+    "Da Fan",
+    "David John Gagne",
+    "Gregory S Elsaesser",
+    "Brian Medeiros",
+    "Michael Pritchard",
+    "Addisu G Semie",
+    "Qingyuan Yang"
+  ],
+  "pub_year": null,
+  "venue": null,
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "Atmospheric Science / Climate Modeling",
+  "processes": [
+    "Warm rain microphysics",
+    "Cloud microphysics",
+    "Drizzle formation",
+    "Precipitation extremes",
+    "Radiative fluxes"
+  ],
+  "ml_methods": [
+    "Contrastive learning",
+    "Gaussian process",
+    "Bayesian optimization",
+    "Explainable AI",
+    "Neural network (TAU-ML)"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai",
+    "parameterization"
+  ],
+  "parameterization_target": "Warm rain microphysics",
+  "online_coupled": true,
+  "host_model": "CAM6",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The presentation describes perturbed parameter ensembles generated with CAM6 coupled to TAU-ML and KK2000 microphysics, but does not provide direct access links or repository locations for the datasets.",
+  "pain_points": [
+    "Warm rain microphysics remains highly uncertain in global models",
+    "Significant zonal mean climatology biases across multiple regions and variables simultaneously",
+    "Drizzle frequency bias and extreme precipitation biases in climate simulations",
+    "High dimensionality of physical feature space complicates parameter sensitivity and attribution analysis"
+  ],
+  "extraction_notes": "Document consists of presentation slides without formal publication metadata (no publication year, venue, or explicit data/code links). Cites literature through 2024 (Eidhammer et al. 2024).",
+  "dataset_ids": [
+    "3296742c595f-01",
+    "3296742c595f-02",
+    "3296742c595f-03"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "paper_id": "c9e59ec15801",
+  "year": "3",
+  "filename": "Navigating the Noise_ Bringing Clarity to ML Parameterization Design with O(100) Ensembles.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Navigating the Noise: Bringing Clarity to ML Parameterization Design with O(100) Ensembles",
+  "authors": [
+    "Jerry Lin",
+    "Sungduk Yu",
+    "Liran Peng",
+    "Tom Beucler",
+    "Eliot Wong-Toi",
+    "Zeyuan Hu",
+    "Pierre Gentine",
+    "Margarita Geleta",
+    "Mike Pritchard"
+  ],
+  "pub_year": 2024,
+  "venue": "Journal of Advances in Modeling Earth Systems (JAMES)",
+  "doi_or_url": "https://arxiv.org/abs/2309.16177",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "deep convection",
+    "moist convection",
+    "subgrid turbulence",
+    "radiative transfer",
+    "cloud microphysics"
+  ],
+  "ml_methods": [
+    "Fully-connected neural networks",
+    "Multiple linear regression",
+    "Batch normalization",
+    "Dropout"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "emulation"
+  ],
+  "parameterization_target": "atmospheric subgrid heating and moistening tendencies (dT/dt and dq/dt)",
+  "online_coupled": true,
+  "host_model": "SPCAM3",
+  "code_availability": "Version v2 of spcam3.0-neural-net-spreadtesting is preserved at https://zenodo.org/records/11392025 and developed at https://github.com/SciPritchardLab/spcam3.0-neural-net. v4 of ClimScale is preserved at https://zenodo.org/records/14252488 and developed at https://github.com/SciPritchardLab/ClimScale.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides ClimScale, an open, standardized, end-to-end pipeline linking offline training (KerasTuner) with online coupled evaluation (Fortran-Keras Bridge in SPCAM3) at scale, designed specifically for ML parameterization benchmarking.",
+  "pain_points": [
+    "Divergence between offline and online performance metrics: lower offline error does not imply better online error or online stability (e.g., MAE loss improves offline error and stability but worsens online error; removing dropout reduces online error but increases crashes).",
+    "Frequent online numerical instability and simulation crashes when coupled to the host GCM.",
+    "Emergent noise and high variance across hyperparameter selections mask causal differences between ML design configurations unless evaluated with O(100) ensemble sizes.",
+    "Persistent structural zonal mean temperature biases (stratospheric cold bias and high-latitude warm bias) across coupled simulations.",
+    "Technical bottleneck of automating coupling across hundreds to thousands of distinct neural network parameterizations inside a climate model."
+  ],
+  "extraction_notes": "Manuscript submitted to JAMES; revision 3 on arXiv (December 2024). Online error size was calculated using 8 longitudinally subsampled points to save disk storage.",
+  "dataset_ids": [
+    "c9e59ec15801-01",
+    "c9e59ec15801-02"
+  ]
+}

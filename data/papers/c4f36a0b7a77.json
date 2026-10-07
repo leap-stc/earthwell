@@ -1,0 +1,56 @@
+{
+  "paper_id": "c4f36a0b7a77",
+  "year": "2",
+  "filename": "Non‐Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models - Behrens - 2022 - Journal of Advances in Modeling Earth Systems - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Non-Linear Dimensionality Reduction With a Variational Encoder Decoder to Understand Convective Processes in Climate Models",
+  "authors": [
+    "Gunnar Behrens",
+    "Tom Beucler",
+    "Pierre Gentine",
+    "Fernando Iglesias-Suarez",
+    "Michael Pritchard",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2022MS003130",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate_modeling",
+  "processes": [
+    "deep convection",
+    "shallow convection",
+    "cloud microphysics",
+    "atmospheric turbulence",
+    "radiative transfer"
+  ],
+  "ml_methods": [
+    "Variational Encoder Decoder (VED)",
+    "Encoder Decoder (ED)",
+    "Artificial Neural Network (ANN)",
+    "Principal Component Analysis (PCA)",
+    "Linear Regression"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai",
+    "emulation"
+  ],
+  "parameterization_target": "total diabatic heating and moistening tendencies (dT/dt, dq/dt), surface and top-of-atmosphere radiative fluxes (SW, LW), and precipitation rate",
+  "online_coupled": false,
+  "host_model": "Community Atmosphere Model v3.0 (CAM3)",
+  "code_availability": "https://github.com/EyringMLClimateGroup/behrens22james_SPCAM_VED (archived on Zenodo at https://zenodo.org/record/6925020#.YuKPRITP25c)",
+  "testbed_candidate": true,
+  "testbed_rationale": "Uses the standard CBRAIN-CAM benchmark configuration for ML atmospheric convection parameterization based on SPCAM, with full open-source code and documented preprocessed data pipelines.",
+  "pain_points": [
+    "High dimensionality of standard deep neural network parameterizations limits interpretability and trust.",
+    "Lower tropospheric moistening tendencies in the subtropics remain difficult to reproduce accurately due to stochastic variability.",
+    "Trade-off between latent space compression (e.g. 5 nodes) and accuracy relative to uncompressed overparameterized neural networks."
+  ],
+  "extraction_notes": "The network is an offline parameterization emulator mapping large-scale resolved atmospheric state variables to subgrid tendencies as well as reconstructing the input states to ensure latent space interpretability.",
+  "dataset_ids": [
+    "c4f36a0b7a77-01"
+  ]
+}

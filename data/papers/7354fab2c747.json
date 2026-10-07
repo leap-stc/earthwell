@@ -1,0 +1,48 @@
+{
+  "paper_id": "7354fab2c747",
+  "year": "4",
+  "filename": "Discovering a Model for Depositional Ice Growth from Observations Using Neural Ordinary Differential Equations and Symbolic Regression Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Discovering a Model for Depositional Ice Growth from Observations Using Neural Ordinary Differential Equations and Symbolic Regression",
+  "authors": [
+    "Kara D. Lamb",
+    "Jerry Y. Harrington"
+  ],
+  "pub_year": 2025,
+  "venue": "105th Annual Meeting of the American Meteorological Society",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2025AMS...10557671L/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud physics / atmospheric science",
+  "processes": [
+    "depositional ice growth",
+    "microphysics",
+    "capacitance model ice growth"
+  ],
+  "ml_methods": [
+    "Neural Ordinary Differential Equations",
+    "Symbolic Regression",
+    "Deep Ensembles"
+  ],
+  "ml_tasks": [
+    "equation_discovery",
+    "parameterization",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "depositional ice growth rate / capacitance growth model",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without specific data access statements, repository links, or available public benchmarks.",
+  "pain_points": [
+    "Constraining structural and parametric uncertainty in depositional ice growth models, especially during early stages of ice formation",
+    "Standard capacitance models with temperature/saturation-dependent deposition coefficients fail to reproduce observations across all experimental conditions"
+  ],
+  "extraction_notes": "Single-paragraph conference abstract from AMS 2025 meeting. No code or data access URLs provided in the abstract.",
+  "dataset_ids": [
+    "7354fab2c747-01",
+    "7354fab2c747-02",
+    "7354fab2c747-03"
+  ]
+}

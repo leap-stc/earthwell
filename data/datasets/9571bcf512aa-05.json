@@ -1,0 +1,19 @@
+{
+  "dataset_id": "9571bcf512aa-05",
+  "paper_id": "9571bcf512aa",
+  "name": "Annual sea-level cycle changes based on CMIP6 simulations dataset",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Aggregated CMIP6 ensemble projections and observational comparisons",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1° and tide-gauge locations; multi-model statistics",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.17223309",
+  "access_kind": "public_url_or_doi"
+}

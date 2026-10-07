@@ -1,0 +1,48 @@
+{
+  "paper_id": "d5f7c11dafb5",
+  "year": "3",
+  "filename": "Bayesian Workflow for the Evaluation of Constraints on Depositional Ice Growth Models with Cloud Chamber Observations.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Bayesian Workflow for the Evaluation of Constraints on Depositional Ice Growth Models with Cloud Chamber Observations",
+  "authors": [
+    "Jonas Magdy Mikhaeil",
+    "Kara D. Lamb",
+    "Marcus van Lier-Walqui",
+    "Jerry Y. Harrington"
+  ],
+  "pub_year": 2024,
+  "venue": "104th Annual AMS Meeting 2024",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2024AMS...10436623M/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "ice crystal kinetics",
+    "cirrus cloud formation"
+  ],
+  "ml_methods": [
+    "Adaptive Metropolis algorithm",
+    "Markov chain Monte Carlo (MCMC)",
+    "Simulation-based calibration"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "depositional ice growth / deposition coefficient",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without explicit public access links or data/code repositories specified.",
+  "pain_points": [
+    "Prohibitive computational expense of full microphysical model evaluations during MCMC sampling",
+    "Extrapolation of single-crystal ice growth kinetics to realistic atmospheric cirrus conditions",
+    "Observational, parametric, and model structural uncertainty quantification"
+  ],
+  "extraction_notes": "Single-paragraph conference abstract from the 104th AMS Annual Meeting. Describes Bayesian inference and model comparison for depositional ice growth models using laboratory cloud chamber measurements (referencing Lamb et al., 2022).",
+  "dataset_ids": [
+    "d5f7c11dafb5-01"
+  ]
+}

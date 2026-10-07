@@ -1,0 +1,18 @@
+{
+  "dataset_id": "8b93316afdc1-04",
+  "paper_id": "8b93316afdc1",
+  "name": "Ultra-wideband UHF ice-penetrating radar data",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "UHF (600-900 MHz) radar flown on Operation IceBridge (OIB) and ITGC airborne surveys",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "< 1 m vertical (Rayleigh), 5 m horizontal",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

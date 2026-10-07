@@ -1,0 +1,18 @@
+{
+  "dataset_id": "abec22acf841-02",
+  "paper_id": "abec22acf841",
+  "name": "Global Ocean Biogeochemical Models (GOBM) ensemble output (8 models: CESM-ETHZ, FESOM2-REcoM, MICOM-HAMOCC, MOM6-COBALT, MPIOM-HAMOCC6, NEMO-PlankTOM5, NEMO-PISCES, NEMO3.6-PISCESv2-gas)",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM-ETHZ, FESOM2-REcoM, MICOM-HAMOCC, MOM6-COBALT, MPIOM-HAMOCC6, NEMO-PlankTOM5, NEMO-PISCES, NEMO3.6-PISCESv2-gas",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1°, monthly (1959–2020)",
+  "produced_in_this_study": false,
+  "access": "Friedlingstein et al. (2022) / Global Carbon Budget",
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,51 @@
+{
+  "paper_id": "85aa424ae459",
+  "year": "5",
+  "filename": "Gradients, benchmarks, and agents_ a new toolkit for an old uncertainty.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Gradients, benchmarks, and agents: a new toolkit for an old uncertainty",
+  "authors": [
+    "Duncan Watson-Parris"
+  ],
+  "pub_year": 2026,
+  "venue": "CESM Workshop Plenary, NCAR",
+  "doi_or_url": null,
+  "doc_kind": "other",
+  "in_scope": true,
+  "research_field": "climate modeling",
+  "processes": [
+    "atmospheric dynamics",
+    "radiative transfer",
+    "convection",
+    "cloud microphysics",
+    "aerosol-cloud interactions",
+    "surface energy balance"
+  ],
+  "ml_methods": [
+    "automatic differentiation",
+    "emulators",
+    "gradient-based optimization",
+    "large language models"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "emulation",
+    "other"
+  ],
+  "parameterization_target": "atmospheric physics parameters (radiation, convection, cloud albedo, surface fluxes)",
+  "online_coupled": true,
+  "host_model": "JAX-GCM (JCM)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Presentation slides overviewing JAX-GCM (JCM), gradient-based calibration, and the ClimateBench v2 benchmarking protocol; no direct dataset downloads or complete code access links are provided in the presentation itself.",
+  "pain_points": [
+    "High computational expense of perturbed parameter ensembles (PPEs) and emulation for coupled Earth system models",
+    "Loss landscape ruggedness/local minima in chaotic fluid dynamics when optimizing model parameters over long trajectories",
+    "Converting legacy Fortran climate modeling code to modern differentiable frameworks"
+  ],
+  "extraction_notes": "The document is a slide deck presented at the CESM Workshop Plenary at NCAR outlining differentiable GCMs (JCM v1/v2), automatic differentiation parameter calibration, the ClimateBench v2 benchmark design, and AI-assisted code migration (Claude Code, ChatGPT).",
+  "dataset_ids": [
+    "85aa424ae459-01",
+    "85aa424ae459-02"
+  ]
+}

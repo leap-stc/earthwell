@@ -1,0 +1,52 @@
+{
+  "paper_id": "504daff7633e",
+  "year": "4",
+  "filename": "Co-production of climate services_ challenges and enablers_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Co-production of climate services: challenges and enablers",
+  "authors": [
+    "Daniela Jacob",
+    "Asun Lera St. Clair",
+    "Roch\u0000e Mahon",
+    "Simon Marsland",
+    "Mzime Ndebele Murisa",
+    "Carlo Buontempo",
+    "Roger S. Pulwarty",
+    "Md Rezwan Siddiqui",
+    "Amanda Grossi",
+    "Anna Steynor",
+    "Raymond Mugandani",
+    "Lisa V. Alexander",
+    "Alex C. Ruane",
+    "Francisco J. Doblas-Reyes",
+    "Geneva List",
+    "Maria Wolff",
+    "Sameera Noori"
+  ],
+  "pub_year": 2025,
+  "venue": "Frontiers in Climate",
+  "doi_or_url": "10.3389/fclim.2025.1507759",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "climate services",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Perspective article discussing governance, challenges, and enablers in co-producing climate services; does not produce, analyze, or provide datasets for ML parameterization or physical modeling.",
+  "pain_points": [
+    "Lack of climate observations and local sectoral/societal data in data-sparse regions",
+    "Resource-intensive co-production process with high turnover of stakeholders and researchers",
+    "Difficulty characterizing, communicating, and managing deep uncertainties and wildcard events",
+    "Disconnect and power asymmetries between scientific providers and diverse stakeholder decision contexts",
+    "Lack of independent evaluation metrics and standardization schemes for climate services"
+  ],
+  "extraction_notes": "Perspective article focused on the practice, institutional frameworks, and challenges of transdisciplinary climate services co-development; no ML algorithms or benchmark datasets were used or developed.",
+  "dataset_ids": []
+}

@@ -1,0 +1,56 @@
+{
+  "paper_id": "e7888f8e7019",
+  "year": "5",
+  "filename": "Contrasting Parametric Sensitivities in Two Global Vegetation Models Using Parameter Perturbation Ensembles.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Contrasting Parametric Sensitivities in Two Global Vegetation Models Using Parameter Perturbation Ensembles",
+  "authors": [
+    "A. C. Foster",
+    "L. R. Hawkins",
+    "D. Kennedy",
+    "G. B. Bonan",
+    "R. A. Fisher",
+    "J. F. Needham",
+    "R. G. Knox",
+    "C. D. Koven",
+    "W. R. Wieder",
+    "K. Dagon",
+    "D. M. Lawrence"
+  ],
+  "pub_year": 2026,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2025MS005590",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "terrestrial ecosystem modeling",
+  "processes": [
+    "photosynthesis",
+    "stomatal conductance",
+    "canopy transpiration",
+    "canopy evaporation",
+    "soil moisture stress",
+    "surface energy balance",
+    "canopy radiative transfer"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "CLM 6.0",
+  "code_availability": "Model code is CTSM tag ctsm5.3.031 (https://github.com/ESCOMP/CTSM/tree/release-clm5.0.31) and FATES tag sci.1.82.0_api.38.0.0 (https://github.com/NGEET/fates/tree/sci.1.82.0_api.38.0.0). Ensemble generation scripts are archived at https://doi.org/10.5281/zenodo.18285651, and figure generation scripts are archived at https://doi.org/10.5281/zenodo.18285656.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a clean, publicly archived, multi-model perturbed parameter ensemble dataset for CLM and CLM-FATES spanning 400 climatologically and ecologically representative sparse grid cells, suitable for training and validating land-surface surrogate models, emulators, and calibration routines.",
+  "pain_points": [
+    "One-at-a-time (OAAT) sampling isolates single parameters and does not capture nonlinear parameter interactions or global response surfaces.",
+    "Parameter sensitivity rankings depend heavily on expert-chosen min/max physical bounds.",
+    "Structural divergences between models (e.g., LUNA dynamic Vcmax vs FATES prescribed Vcmax; differing water stress applications) mean parameter sensitivity landscapes are fundamentally non-transferable between models.",
+    "High computational burden of full global runs necessitated using a sparse-grid approximation and uniform perturbation across plant functional types."
+  ],
+  "extraction_notes": "The study itself does not train machine learning models, but conducts a comprehensive perturbed parameter ensemble (PPE) sensitivity experiment designed to inform future land surface model calibration and emulation. Co-author L. R. Hawkins was funded by the NSF LEAP Science and Technology Center.",
+  "dataset_ids": [
+    "e7888f8e7019-01",
+    "e7888f8e7019-02"
+  ]
+}

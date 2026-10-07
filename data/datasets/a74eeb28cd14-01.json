@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a74eeb28cd14-01",
+  "paper_id": "a74eeb28cd14",
+  "name": "SPCAM5 real-geography 10-year simulation",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM5 (finite volume CAM5 with embedded SAM 2D CRM, 8 columns or 128 columns)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1.3 Tb (100-day 128-column SAM vertical velocity dataset) / 3.4 Terabytes over 90 days / 4,843,929,600 atmospheric columns simulated",
+  "size_gb_estimate": 3400.0,
+  "resolution": "1.9°×2.5°×15 min, 30 vertical levels, embedded CRM 4 km resolution",
+  "produced_in_this_study": true,
+  "access": "Codebase archived at https://github.com/mspritch/UltraCAM-spcam2_0_cesm1_1_1",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "50d1cf9096ea-02",
+  "paper_id": "50d1cf9096ea",
+  "name": "CESM 1.1 high-resolution simulation",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM 1.1",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "2 years of a 100-year simulation",
+  "size_gb_estimate": null,
+  "resolution": "0.1° ocean, 0.25° atmosphere",
+  "produced_in_this_study": false,
+  "access": "The raw data used in this study is available in cloud storage (urls can be found in the above code https://github.com/ocean-transport/scale-aware-air-sea).",
+  "access_kind": "pangeo_or_cloud"
+}

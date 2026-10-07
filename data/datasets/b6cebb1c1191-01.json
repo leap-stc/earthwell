@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b6cebb1c1191-01",
+  "paper_id": "b6cebb1c1191",
+  "name": "ICON-A AMIP-like simulation output (year 1979)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON-A (RTE+RRTMGP radiation scheme)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1.59m training samples for shortwave radiation and 320k training samples for longwave radiation",
+  "size_gb_estimate": null,
+  "resolution": "R2B5 triangular grid (~80 km horizontal), 47 vertical levels (sigma coordinates, up to 80 km), 5-hourly instantaneous output sampled 1 day every 2 weeks, physics/radiation timestep 6 min",
+  "produced_in_this_study": true,
+  "access": "The code will be published under https://github.com/EyringMLClimateGroup/hafner24jgrml MLradiationemulation offline. The software code for the ICON model is available from https://icon-model.org.",
+  "access_kind": "not_stated"
+}

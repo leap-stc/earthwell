@@ -1,0 +1,21 @@
+{
+  "dataset_id": "b9f244519383-01",
+  "paper_id": "b9f244519383",
+  "name": "CRYSTAL-FACE Cloud Particle Imager (CPI) imagery paired with WRF-HYSPLIT thermodynamic back-trajectories",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Cloud Particle Imager (CPI) on aircraft paired with WRF-AHM and NOAA HYSPLIT",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "trajectories",
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": "> 24,000 ice crystal images",
+  "size_gb_estimate": null,
+  "resolution": "2.3 µm pixel size for imagery; 10-minute intervals along 7-hour back-trajectories (L=50 timesteps); WRF nested grids at 25, 5, and 1 km",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.19995429",
+  "access_kind": "public_url_or_doi"
+}

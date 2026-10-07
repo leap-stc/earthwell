@@ -1,0 +1,19 @@
+{
+  "dataset_id": "52c83b9e8a59-02",
+  "paper_id": "52c83b9e8a59",
+  "name": "Float and SOCAT sampling masks",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "SOCAT and biogeochemical Argo float tracks",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "21,659 monthly 1°x1° observations (Historical); 102,000 monthly 1°x1° observations (Optimized)",
+  "size_gb_estimate": null,
+  "resolution": "1° × 1°, monthly",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.13367537",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,44 @@
+{
+  "paper_id": "52671b22a1d8",
+  "year": "3",
+  "filename": "Learning Constraints on Depositional Ice Growth Models from Cloud Chamber Experiments with Physics Informed Neural Networks Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Learning Constraints on Depositional Ice Growth Models from Cloud Chamber Experiments with Physics Informed Neural Networks",
+  "authors": [
+    "Kara D. Lamb"
+  ],
+  "pub_year": 2024,
+  "venue": "104th American Meteorological Society (AMS) Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/104ANNUAL/meetingapp.cgi/Paper/437022",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "cirrus clouds",
+    "ice crystal growth"
+  ],
+  "ml_methods": [
+    "Physics Informed Neural Networks"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "uncertainty_quantification",
+    "equation_discovery"
+  ],
+  "parameterization_target": "deposition coefficient / depositional ice growth",
+  "online_coupled": false,
+  "host_model": "parcel model",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without dataset or code access links provided.",
+  "pain_points": [
+    "Experimental cloud chamber measurements are difficult to interpret directly",
+    "Model structural uncertainty and unknown parameters in depositional ice growth at low temperatures (180–235 K)",
+    "Reliance on simplified assumptions regarding ice crystal shape and functional forms of deposition coefficients"
+  ],
+  "extraction_notes": "Conference abstract from the 104th AMS Annual Meeting (Presentation 13B.6, February 1, 2024). Only the presenter Kara D. Lamb is listed in the author block.",
+  "dataset_ids": [
+    "52671b22a1d8-01"
+  ]
+}

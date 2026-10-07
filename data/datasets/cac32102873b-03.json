@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cac32102873b-03",
+  "paper_id": "cac32102873b",
+  "name": "American Community Survey (ACS) PUMS and County Health Rankings",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "2014 ACS Public Use Microdata Sample / County Health Rankings",
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "167 counties across New York, California, and Michigan (2014)",
+  "produced_in_this_study": false,
+  "access": "https://www2.census.gov/programs-surveys/acs/data/pums/ and https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/2021-measures",
+  "access_kind": "public_url_or_doi"
+}

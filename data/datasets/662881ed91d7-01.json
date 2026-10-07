@@ -1,0 +1,19 @@
+{
+  "dataset_id": "662881ed91d7-01",
+  "paper_id": "662881ed91d7",
+  "name": "Delaware River Basin streamflow and water temperature observations (USGS NWIS & Water Quality Portal)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "USGS National Water Information System (NWIS) and Water Quality Portal (WQP) stream gauges/sensors",
+  "scale": "regional",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "51,103 temperature observations across 32 segments; 206,920 streamflow observations across 18 segments over 13,149 daily dates (Oct 1980 - Sep 2016)",
+  "size_gb_estimate": null,
+  "resolution": "daily; 42 river segments (lengths 48 to 23,120 m)",
+  "produced_in_this_study": false,
+  "access": "https://waterdata.usgs.gov/nwis and https://www.waterqualitydata.us/",
+  "access_kind": "public_url_or_doi"
+}

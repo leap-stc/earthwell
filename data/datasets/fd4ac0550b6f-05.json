@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fd4ac0550b6f-05",
+  "paper_id": "fd4ac0550b6f",
+  "name": "CSIF and TROPOMI SIF",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "OCO-2 (CSIF) and Sentinel-5P TROPOMI",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly, 2001-2018 (CSIF) and 2019-2020 (TROPOMI)",
+  "produced_in_this_study": false,
+  "access": "https://figshare.com/articles/dataset/CSIF/6387494 and http://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/sif/v2.1/l2b/",
+  "access_kind": "public_url_or_doi"
+}

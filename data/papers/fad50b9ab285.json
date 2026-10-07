@@ -1,0 +1,56 @@
+{
+  "paper_id": "fad50b9ab285",
+  "year": "3",
+  "filename": "Structured Exploration of Machine Learning Model  Complexity for Spatio-Temporal Forecasting of Urban Flooding.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Structured exploration of machine learning model complexity for spatio-temporal forecasting of urban flooding",
+  "authors": [
+    "Candace Agonafir",
+    "Tian Zheng"
+  ],
+  "pub_year": 2024,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2024-551",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "urban flooding",
+    "pluvial flooding",
+    "surface runoff",
+    "drainage surcharge"
+  ],
+  "ml_methods": [
+    "Spectral Clustering",
+    "Poisson Generalized Linear Model",
+    "Feed Forward Neural Network",
+    "Recurrent Neural Network",
+    "Long Short-Term Memory",
+    "Convolutional Neural Network",
+    "Graph Convolutional Network",
+    "Graph WaveNet"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "The processed data and the codes used in this study are available from the corresponding authors upon reasonable request.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The focus is urban flood forecasting using crowdsourced municipal complaints and radar/gauge precipitation rather than Earth system model parameterization or physical process emulation.",
+  "pain_points": [
+    "Unavailability of detailed urban drainage and sewer network maps prevents physical hydrodynamic modeling",
+    "Crowdsourced 311 complaint data contains inherent human reporting and commuter biases and is less precise than direct physical sensor measurements",
+    "Sparse response data in certain low-reporting zones degrades neural network predictive capability",
+    "Brief temporal duration of flash flood events limits the utility of standard temporal sequence models without graph/spatial connections"
+  ],
+  "extraction_notes": "Discussion paper preprint published under EGUsphere. Authored by researchers associated with the NSF LEAP Center at Columbia University.",
+  "dataset_ids": [
+    "fad50b9ab285-01",
+    "fad50b9ab285-02",
+    "fad50b9ab285-03",
+    "fad50b9ab285-04"
+  ]
+}

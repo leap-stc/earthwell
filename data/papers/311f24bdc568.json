@@ -1,0 +1,59 @@
+{
+  "paper_id": "311f24bdc568",
+  "year": "5",
+  "filename": "Accurate and Efficient Hybrid-Ensemble Atmospheric Data Assimilation in Latent Space with Uncertainty Quantification.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Accurate and Efficient Hybrid-Ensemble Atmospheric Data Assimilation in Latent Space with Uncertainty Quantification",
+  "authors": [
+    "Hang Fan",
+    "Juan Nathaniel",
+    "Yi Xiao",
+    "Ce Bian",
+    "Fenghua Ling",
+    "Ben Fei",
+    "Lei Bai",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2026,
+  "venue": null,
+  "doi_or_url": "https://arxiv.org/abs/2603.04395",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "weather_and_climate_forecasting",
+  "processes": [
+    "atmospheric general circulation",
+    "atmospheric dynamics",
+    "weather forecasting",
+    "data assimilation"
+  ],
+  "ml_methods": [
+    "Autoencoder",
+    "Swin Transformer",
+    "Gated Convolutional Neural Network",
+    "FengWu",
+    "Fully Connected Network"
+  ],
+  "ml_tasks": [
+    "data_assimilation",
+    "uncertainty_quantification",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Codes and model checkpoints used in this study will be available at https://github.com/hangfan99/HLOBA at time of publication.",
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on developing a latent space data assimilation framework (HLOBA) for weather forecasting rather than generating or hosting a parameterization testbed dataset.",
+  "pain_points": [
+    "High computational and memory demands of 4D variational and ensemble data assimilation scaling with resolution and observation volume",
+    "Accurate uncertainty quantification in high-dimensional model space is hindered by small ensemble sizes, leading to sampling noise and spurious correlations",
+    "Deterministic ML forecast models are insensitive to initial-condition perturbations, yielding poorly spread perturbation-based ensembles",
+    "Indirect observation operators (e.g., satellite radiances) require substantial implementation overhead for O2Lnet training",
+    "Need for differentiable forecast models and observation operators in standard L4DVar and 4DVar, which incurs heavy optimization and memory overhead"
+  ],
+  "extraction_notes": "The forecast model used in cycling DA is FengWu (a data-driven global weather forecasting model), retrained with latent-space loss constraints. The date on the arXiv preprint is March 4, 2026.",
+  "dataset_ids": [
+    "311f24bdc568-01",
+    "311f24bdc568-02"
+  ]
+}

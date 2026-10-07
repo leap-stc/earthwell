@@ -1,0 +1,19 @@
+{
+  "dataset_id": "830d30232ab2-02",
+  "paper_id": "830d30232ab2",
+  "name": "SPARTICUS Campaign observational data",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Radar reflectivity, ice water content, precipitation rate probes/instruments",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

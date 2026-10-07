@@ -1,0 +1,19 @@
+{
+  "dataset_id": "17c0ae73731b-01",
+  "paper_id": "17c0ae73731b",
+  "name": "ClimSim_high-res",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF v2.1.0 (with 2D CRM nested in each column)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "41.2TB",
+  "size_gb_estimate": 41200.0,
+  "resolution": "1.5 deg horizontal (unstructured cubed-sphere grid ne30, 21,600 columns), 60 vertical levels, 20-min timestep; nested CRM has 64 columns with 2 km spacing",
+  "produced_in_this_study": true,
+  "access": "https://huggingface.co/datasets/LEAP/ClimSim_high-res",
+  "access_kind": "pangeo_or_cloud"
+}

@@ -1,0 +1,49 @@
+{
+  "paper_id": "9571bcf512aa",
+  "year": "5",
+  "filename": "Future Changes in the Annual Sea‐Level Cycle.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Future Changes in the Annual Sea‐Level Cycle",
+  "authors": [
+    "Tim H. J. Hermans",
+    "Julius J. M. Busecke",
+    "Roderik S. W. van de Wal"
+  ],
+  "pub_year": 2026,
+  "venue": "Earth's Future",
+  "doi_or_url": "https://doi.org/10.1029/2025EF006735",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Physical Oceanography / Climate Dynamics",
+  "processes": [
+    "annual sea-level cycle",
+    "ocean dynamic sea-level change",
+    "inverse-barometer effect",
+    "thermosteric sea-level variability",
+    "manometric and halosteric sea-level variability",
+    "wind-stress forcing"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/Timh37/aslc_cmip6 (archived at https://doi.org/10.5281/zenodo.17223158)",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study does not develop machine learning parameterizations or provide a high-resolution simulation testbed suitable for subgrid-scale scientific ML training.",
+  "pain_points": [
+    "Coarse GCM resolution prevents resolving coastal geometry, bottom topography, tides, and river discharge dynamics driving coastal sea-level cycles.",
+    "Substantial projection uncertainty resulting from internal climate variability and inter-model spread.",
+    "Four CMIP6 models exhibited particularly poor performance simulating the historical annual cycle and had to be excluded."
+  ],
+  "extraction_notes": "The research was supported in part by the NSF LEAP STC (award 2019625) which provided computing and storage resources, but the study itself does not employ machine learning methods.",
+  "dataset_ids": [
+    "9571bcf512aa-01",
+    "9571bcf512aa-02",
+    "9571bcf512aa-03",
+    "9571bcf512aa-04",
+    "9571bcf512aa-05"
+  ]
+}

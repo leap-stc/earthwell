@@ -1,0 +1,54 @@
+{
+  "paper_id": "f3a4cfe4debc",
+  "year": "3",
+  "filename": "Deep Generative Data Assimilation in Multimodal Setting.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Deep Generative Data Assimilation in Multimodal Setting",
+  "authors": [
+    "Yongquan Qu",
+    "Juan Nathaniel",
+    "Shuolin Li",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": "https://arxiv.org/abs/2404.06665",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "atmospheric thermodynamics",
+    "vertical temperature structure",
+    "precipitation",
+    "outgoing longwave radiation"
+  ],
+  "ml_methods": [
+    "Score-based diffusion model",
+    "Latent diffusion model",
+    "Autoencoder",
+    "U-Net",
+    "Langevin Monte Carlo"
+  ],
+  "ml_tasks": [
+    "data_assimilation",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/yongquan-qu/SLAMS",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper presents a methodology and proof-of-concept evaluation for multimodal data assimilation via score-based latent diffusion; it does not produce a benchmark testbed or dataset designed for parameterization learning.",
+  "pain_points": [
+    "Conventional DA methods rely on restrictive linear and Gaussian assumptions and computationally prohibitive tangent linear/adjoint formulations.",
+    "Formulating and calibrating the observation operator H to map state space to observation space is prone to error accumulation and bias in multimodal settings.",
+    "Real-world observations exhibit severe multimodality, differing spatiotemporal resolutions, noise, and spatial/temporal sparsity.",
+    "Diffusion posterior sampling suffers from numerical instabilities during reverse denoising when approximating likelihood scores with division by small state variances."
+  ],
+  "extraction_notes": "Training window used years 2000-2015, validation 2016-2021, and test on 2022. Ground truth states were represented by ERA5 vertical temperature profiles.",
+  "dataset_ids": [
+    "f3a4cfe4debc-01",
+    "f3a4cfe4debc-02",
+    "f3a4cfe4debc-03"
+  ]
+}

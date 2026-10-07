@@ -1,0 +1,56 @@
+{
+  "paper_id": "258b29367a20",
+  "year": "4",
+  "filename": "Computing Extreme Storm Surges in Europe Using Neural Networks.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Computing Extreme Storm Surges in Europe Using Neural Networks",
+  "authors": [
+    "Tim H.J. Hermans",
+    "Chiheb Ben Hammouda",
+    "Simon Treu",
+    "Timothy Tiggeloven",
+    "Anaïs Couasnon",
+    "Julius J.M. Busecke",
+    "Roderik S.W. van de Wal"
+  ],
+  "pub_year": 2025,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2025-196",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "physical_oceanography",
+  "processes": [
+    "storm surges",
+    "extreme sea levels",
+    "wind setup",
+    "inverse barometer effect"
+  ],
+  "ml_methods": [
+    "LSTM",
+    "ConvLSTM",
+    "DenseLoss",
+    "Multi-Linear Regression"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The software that we developed to train and evaluate the models is publicly available on GitHub (https://github.com/Timh37/surgeNN) and archived in a Zenodo repository (Hermans, 2025; https://doi.org/10.5281/zenodo.14670781).",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study provides a well-defined benchmark framework comparing LSTM, ConvLSTM, MLR, and the hydrodynamic GTSM model for coastal surge emulation from reanalysis/climate-model predictors, with open-source code and data repository promised upon revision.",
+  "pain_points": [
+    "Severe data imbalance: extreme storm surge events are heavily underrepresented relative to moderate conditions, causing standard MSE-trained models to underestimate extremes.",
+    "Temporal frequency trade-offs: models trained on 3-hourly data (to match climate model frequency) experience reduced performance compared to hourly hydrodynamic models.",
+    "Extreme underestimation: even with cost-sensitive density-based weighting, the neural networks predominantly underestimate the highest extremes (>99.9th percentile).",
+    "High sensitivity to spatial and non-atmospheric processes: at specific locations (e.g. Alicante), missing physical predictors (waves, coastal setup, river discharge) cause poor generalization."
+  ],
+  "extraction_notes": "The data underlying the study is stated to be released on Zenodo upon final publication.",
+  "dataset_ids": [
+    "258b29367a20-01",
+    "258b29367a20-02",
+    "258b29367a20-03"
+  ]
+}

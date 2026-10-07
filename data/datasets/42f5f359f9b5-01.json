@@ -1,0 +1,19 @@
+{
+  "dataset_id": "42f5f359f9b5-01",
+  "paper_id": "42f5f359f9b5",
+  "name": "SOCATv2024 (Surface Ocean CO2 Atlas Database Version 2024)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "more than 30 million high-quality (< 5 μatm) measurements",
+  "size_gb_estimate": null,
+  "resolution": "monthly 1°x1° gridded",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.25921/9wpn-th28",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f3caafa5b08c-01",
+  "paper_id": "f3caafa5b08c",
+  "name": "NASA GISS ESMModelE atmosphere component PPE",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "NASA GISS Earth System Model (ESMModelE) atmosphere component",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "851-member PPE",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

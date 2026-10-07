@@ -1,0 +1,50 @@
+{
+  "paper_id": "e00413d4876d",
+  "year": "3",
+  "filename": "Cloud chamber constraints on depositional ice growth models .pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Cloud chamber constraints on depositional ice growth models",
+  "authors": [
+    "Kara Lamb",
+    "Jonas Mikhaeil",
+    "Jerry Y. Harrington",
+    "Marcus van Lier-Walqui"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFM.A31E2432L/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "vapor deposition",
+    "surface attachment kinetics",
+    "cirrus cloud formation",
+    "heterogeneous nucleation",
+    "homogeneous nucleation"
+  ],
+  "ml_methods": [
+    "Markov Chain Monte Carlo",
+    "Bayesian parameter estimation"
+  ],
+  "ml_tasks": [
+    "parameter_calibration"
+  ],
+  "parameterization_target": "depositional ice growth kinetics (deposition coefficient / critical supersaturation)",
+  "online_coupled": null,
+  "host_model": "Diffusion Surface Kinetics Ice Crystal Evolution (DiSKICE)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without links or access statements to the model code or AIDA chamber dataset.",
+  "pain_points": [
+    "Physics of depositional ice growth at low temperatures (<235 K) is poorly constrained.",
+    "Unexplained discrepancies among experimental measurements of ice deposition coefficients.",
+    "Deviations between experimental cloud chamber observations and depositional growth models at cold temperatures."
+  ],
+  "extraction_notes": "Conference abstract for AGU Fall Meeting 2023. Discusses progress towards Bayesian parameter estimation using MCMC and the DiSKICE bin microphysics model.",
+  "dataset_ids": [
+    "e00413d4876d-01",
+    "e00413d4876d-02"
+  ]
+}

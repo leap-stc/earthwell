@@ -1,0 +1,18 @@
+{
+  "dataset_id": "db3e36e4e6c9-02",
+  "paper_id": "db3e36e4e6c9",
+  "name": "Rhizophora mangrove forest field hydrodynamics dataset from Yoshikai et al. (2022)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "Acoustic Doppler velocimeters and pressure sensors in Aklan, Philippines",
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Vertical velocity profiles across 4 tidal ebb conditions (water depths 0.21–0.53 m)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1029/2021JC018320",
+  "access_kind": "public_url_or_doi"
+}

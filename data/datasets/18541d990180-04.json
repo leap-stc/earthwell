@@ -1,0 +1,18 @@
+{
+  "dataset_id": "18541d990180-04",
+  "paper_id": "18541d990180",
+  "name": "MODIS MCD12C1 Land Cover Type Yearly L3 Global (v006)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "MODIS (Terra + Aqua)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.05° for 2020",
+  "produced_in_this_study": false,
+  "access": "https://lpdaac.usgs.gov/products/mcd12c1v006/",
+  "access_kind": "public_url_or_doi"
+}

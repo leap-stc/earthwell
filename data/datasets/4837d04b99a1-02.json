@@ -1,0 +1,19 @@
+{
+  "dataset_id": "4837d04b99a1-02",
+  "paper_id": "4837d04b99a1",
+  "name": "Surface Ocean CO2 Atlas (SOCAT)",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Ships, drifters, autonomous surface platforms, and moorings",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "trajectories"
+  ],
+  "size_as_stated": "covers only 1-2% of the global ocean",
+  "size_gb_estimate": null,
+  "resolution": "Point/track observations aggregated to 1° × 1° monthly",
+  "produced_in_this_study": false,
+  "access": "Surface Ocean Carbon Dioxide Atlas (SOCAT)",
+  "access_kind": "public_url_or_doi"
+}

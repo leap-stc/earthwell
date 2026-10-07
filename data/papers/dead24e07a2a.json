@@ -1,0 +1,48 @@
+{
+  "paper_id": "dead24e07a2a",
+  "year": "3",
+  "filename": "Remote Versus Local Impacts of Energy Backscatter on the North Atlantic SST Biases in a Global Ocean Model - Chang - 2023 - Geophysical Research Letters - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Remote Versus Local Impacts of Energy Backscatter on the North Atlantic SST Biases in a Global Ocean Model",
+  "authors": [
+    "Chiung-Yin Chang",
+    "Alistair Adcroft",
+    "Laure Zanna",
+    "Robert Hallberg",
+    "Stephen M. Griffies"
+  ],
+  "pub_year": 2023,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2023GL105757",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Physical Oceanography / Climate Dynamics",
+  "processes": [
+    "Ocean mesoscale eddies",
+    "Ocean kinetic energy backscatter",
+    "Gulf Stream separation and North Atlantic Current pathways",
+    "Deep Western Boundary Current (DWBC)",
+    "Atlantic Meridional Overturning Circulation (AMOC)",
+    "Bottom vortex stretching and topography-flow interactions"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": "Subgrid ocean mesoscale eddy kinetic energy backscatter / eddy momentum forcing",
+  "online_coupled": null,
+  "host_model": "GFDL OM4 (1/4° global ocean/sea-ice model)",
+  "code_availability": "The data and scripts used to generate the figures are available at the Zenodo repository, Chang et al. (2023) at https://doi.org/10.5281/zenodo.8408242.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study analyzes physics-based energy backscatter parameterizations in 1/4° ocean simulations without machine learning, and the published Zenodo repository contains processed figure-generation data rather than model benchmarking training/test suites for ML parameterizations.",
+  "pain_points": [
+    "Persistent North Atlantic SST biases (cold bias east of Flemish Cap, warm bias along the US East Coast) across climate models.",
+    "Difficulty in distinguishing local versus remote mechanisms driving circulation improvements under resolution refinement.",
+    "Nonlinear interactions and complex vorticity balances in the intergyre region hindering attribution of eddy vs. mean flow effects."
+  ],
+  "extraction_notes": "The paper investigates a deterministic physical parameterization (Laplacian antiviscosity following Jansen et al., 2019) rather than an ML-based parameterization, though it discusses stochastic and eddy-closure frameworks relevant to physics-informed/ML eddy parameterization research.",
+  "dataset_ids": [
+    "dead24e07a2a-01",
+    "dead24e07a2a-02"
+  ]
+}

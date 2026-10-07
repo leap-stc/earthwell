@@ -1,0 +1,18 @@
+{
+  "dataset_id": "18541d990180-07",
+  "paper_id": "18541d990180",
+  "name": "Global ecosystem-scale plant hydraulic traits (Psi50)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "resampled to 0.05°",
+  "produced_in_this_study": false,
+  "access": "https://figshare.com/articles/dataset/Datasets_Global_ecosystem-scale_plant_hydraulic_traits_retrieved_using_model-data_fusion/13350713/4",
+  "access_kind": "public_url_or_doi"
+}

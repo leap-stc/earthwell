@@ -1,0 +1,76 @@
+{
+  "paper_id": "5bc100f8d9c2",
+  "year": "4",
+  "filename": "Time series predictions in unmonitored sites_ a survey of machine learning techniques in water resources.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Time Series Predictions in Unmonitored Sites: A Survey of Machine Learning Techniques in Water Resources",
+  "authors": [
+    "Jared D. Willard",
+    "Charuleka Varadharajan",
+    "Xiaowei Jia",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2024,
+  "venue": "Environmental Data Science",
+  "doi_or_url": "https://arxiv.org/abs/2308.09766",
+  "doc_kind": "report_or_review",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "streamflow",
+    "rainfall-runoff",
+    "stream water temperature",
+    "lake water temperature",
+    "soil moisture",
+    "snowpack dynamics",
+    "groundwater dynamics",
+    "river water quality",
+    "flood inundation"
+  ],
+  "ml_methods": [
+    "LSTM",
+    "MC-LSTM",
+    "GRU",
+    "Temporal Convolutional Network",
+    "Transformer",
+    "Graph Neural Network",
+    "GraphWaveNet",
+    "GCN-LSTM",
+    "ChebNet-LSTM",
+    "Random Forest",
+    "XGBoost",
+    "Support Vector Regression",
+    "Autoencoder",
+    "Invertible Neural Network",
+    "Fourier Neural Operator",
+    "PINN",
+    "Differentiable Process-Based Models"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "emulation",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a survey and review of machine learning methodologies in water resources and does not introduce or evaluate new benchmark datasets or simulation testbeds.",
+  "pain_points": [
+    "Sparse and declining observational monitoring networks (e.g., USGS monitoring reaches <1% of streams)",
+    "Spatial extrapolation to unmonitored sites (zero-shot regional transfer) is fundamentally difficult",
+    "Static representation of inherently dynamic catchment attributes (e.g., land cover, land use, water clarity)",
+    "Imbalanced datasets and poor capture of rare extreme events like floods and droughts when optimizing traditional mean squared error losses",
+    "High computational demand and equifinality problems associated with calibrating process-based models across broad scales",
+    "Lack of standard benchmarks and feature selection routines comparing different ML frameworks"
+  ],
+  "extraction_notes": "Comprehensive survey paper examining broad-scale entity-aware modeling, transfer learning (meta-learning and domain adaptation), and knowledge-guided machine learning (KGML) for predicting hydrologic variables in ungauged/unmonitored locations.",
+  "dataset_ids": [
+    "5bc100f8d9c2-01",
+    "5bc100f8d9c2-02",
+    "5bc100f8d9c2-03",
+    "5bc100f8d9c2-04"
+  ]
+}

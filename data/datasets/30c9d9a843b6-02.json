@@ -1,0 +1,18 @@
+{
+  "dataset_id": "30c9d9a843b6-02",
+  "paper_id": "30c9d9a843b6",
+  "name": "LES BOSS microphysics simulation ensemble",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "LES with BOSS bulk microphysics",
+  "scale": "LES",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

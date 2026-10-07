@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3dbcadb5b5cc-01",
+  "paper_id": "3dbcadb5b5cc",
+  "name": "ICON NARVAL storm-resolving simulations (NARVALI and NARVALII)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON SRM (NWP physics package)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "2.5 km horizontal, 75 vertical layers, hourly output",
+  "produced_in_this_study": false,
+  "access": "Primary data used in this work is archived by the Max Planck Institute for Meteorology (contact: marco.giorgetta@mpimet.mpg.de).",
+  "access_kind": "on_request"
+}

@@ -1,0 +1,52 @@
+{
+  "paper_id": "ce54e4a6c53c",
+  "year": "5",
+  "filename": "The Impact of Sub‐Grid Heterogeneity on Air‐Sea Turbulent Heat Flux in Coupled Climate Models.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "The Impact of Sub‐Grid Heterogeneity on Air‐Sea Turbulent Heat Flux in Coupled Climate Models",
+  "authors": [
+    "Julius J. M. Busecke",
+    "Dhruv Balwada",
+    "Paige E. Martin",
+    "Thomas E. G. Nicholas",
+    "Zoe C. P. Johnson",
+    "Prani Nalluri",
+    "Charles I. Stern",
+    "Ryan P. Abernathey"
+  ],
+  "pub_year": 2025,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2025GL114951",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Physical Oceanography",
+  "processes": [
+    "air-sea turbulent heat flux",
+    "sub-grid ocean mesoscale heterogeneity",
+    "atmospheric wind heterogeneity",
+    "latent heat flux",
+    "sensible heat flux"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": "air-sea turbulent heat flux",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/ocean-transport/scale-aware-air-sea (archived at https://zenodo.org/records/15615679) and aerobulk-python package at https://doi.org/10.5281/zenodo.11205116",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides open, cloud-optimized (ARCO/Zarr) high-resolution coupled model fields and diagnostic sub-grid air-sea heat flux datasets explicitly intended to motivate and benchmark sub-grid air-sea parameterization development.",
+  "pain_points": [
+    "High-frequency snapshot data were not archived, necessitating offline bulk formula calculations using daily-averaged outputs",
+    "Atmospheric and oceanic fields reside on distinct spatial grids requiring horizontal regridding and colocation",
+    "Lack of global, high-resolution coupled observational datasets covering both ocean and atmosphere simultaneously",
+    "Strong non-linearities in bulk coupling formulas make scale-separation sensitive to filter scale and formulation"
+  ],
+  "extraction_notes": "The paper does not train machine learning models, but quantifies the sub-grid air-sea heat flux term Q* that is missing in coarse climate models and serves as a direct parameterization target for climate models and scientific ML.",
+  "dataset_ids": [
+    "ce54e4a6c53c-01",
+    "ce54e4a6c53c-02",
+    "ce54e4a6c53c-03"
+  ]
+}

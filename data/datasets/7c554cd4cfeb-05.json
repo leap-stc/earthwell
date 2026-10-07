@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7c554cd4cfeb-05",
+  "paper_id": "7c554cd4cfeb",
+  "name": "JRA55-do atmospheric forcing",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "JRA55-do v1.3 and v1.5",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

@@ -1,0 +1,62 @@
+{
+  "paper_id": "1b93d9b00aae",
+  "year": "1",
+  "filename": "Two for one_ Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Two for one: Partitioning CO2 fluxes and understanding the relationship between solar-induced chlorophyll fluorescence and gross primary productivity using machine learning",
+  "authors": [
+    "Weiwei Zhan",
+    "Xi Yang",
+    "Youngryel Ryu",
+    "Benjamin Dechant",
+    "Yu Huang",
+    "Yves Goulas",
+    "Minseok Kang",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2022,
+  "venue": "Agricultural and Forest Meteorology",
+  "doi_or_url": "https://doi.org/10.1016/j.agrformet.2022.108980",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "biogeochemistry",
+  "processes": [
+    "gross primary productivity",
+    "ecosystem respiration",
+    "net ecosystem exchange",
+    "solar-induced chlorophyll fluorescence",
+    "light use efficiency",
+    "canopy radiative transfer"
+  ],
+  "ml_methods": [
+    "Feedforward neural networks",
+    "Multi-task learning",
+    "Deep ensembles"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification",
+    "other"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The SCOPE simulations and the codes for NEE partitioning are available at GitHub (https://github.com/Weiwei047/SIF_partitioning) or at zenodo (https://zenodo.org/record/6450447#.YlTl9NPMLtN).",
+  "testbed_candidate": true,
+  "testbed_rationale": "The synthetic SCOPE simulations and tower datasets along with public Python scripts on GitHub and Zenodo provide a well-documented benchmark testbed for unmixing/partitioning land-atmosphere carbon fluxes (GPP and ER) from net ecosystem exchange and solar-induced chlorophyll fluorescence.",
+  "pain_points": [
+    "Lack of direct daytime observations of ecosystem respiration and gross primary productivity at ecosystem scales",
+    "Model structural error in empirical daytime and nighttime flux partitioning methods during extreme events (drought) or rapid management changes (harvest)",
+    "Light inhibition of ecosystem respiration (Kok effect) is not explicitly captured because including radiation directly in respiration causes equifinality",
+    "Observation noise in eddy covariance and remote sensing/in situ SIF data",
+    "Possible mismatch between satellite-derived LAI (overstory) and understory vegetation phenology in heterogeneous canopies"
+  ],
+  "extraction_notes": "The primary ML task is unmixing/partitioning Net Ecosystem Exchange into its gross components (GPP and ER) while simultaneously discovering the empirical ecosystem-scale GPP-SIF relationship via multi-task learning. Deep ensembles (1000 retraining runs) were used for structural uncertainty quantification.",
+  "dataset_ids": [
+    "1b93d9b00aae-01",
+    "1b93d9b00aae-02",
+    "1b93d9b00aae-03",
+    "1b93d9b00aae-04",
+    "1b93d9b00aae-05"
+  ]
+}

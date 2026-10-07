@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6ebd05047c44-09",
+  "paper_id": "6ebd05047c44",
+  "name": "CCMPv2 wind velocity product",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Cross-Calibrated Multi-Platform satellite/reanalysis",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.25°, 6 h",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

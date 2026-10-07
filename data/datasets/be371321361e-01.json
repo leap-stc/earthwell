@@ -1,0 +1,19 @@
+{
+  "dataset_id": "be371321361e-01",
+  "paper_id": "be371321361e",
+  "name": "ERA5 reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "ECMWF Integrated Forecasting System (IFS)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "85 TC events",
+  "size_gb_estimate": null,
+  "resolution": "0.25° regular latitude-longitude grid, hourly intervals",
+  "produced_in_this_study": false,
+  "access": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS). https://doi.org/10.24381/cds.adbb2d47",
+  "access_kind": "public_url_or_doi"
+}

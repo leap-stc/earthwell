@@ -1,0 +1,18 @@
+{
+  "dataset_id": "e381babe14cf-02",
+  "paper_id": "e381babe14cf",
+  "name": "MITgcm mesoscale eddy simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "MITgcm",
+  "scale": "regional",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "1,000 time slices of model output",
+  "size_gb_estimate": null,
+  "resolution": "Coarse-grained from high-resolution MITgcm simulations",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.1029/2020GL088376",
+  "access_kind": "public_url_or_doi"
+}

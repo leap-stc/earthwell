@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f0a64e1003ac-01",
+  "paper_id": "f0a64e1003ac",
+  "name": "Amazon Mechanical Turk real effort experiment dataset",
+  "role": "both",
+  "source_kind": "other",
+  "model_or_instrument": "Amazon Mechanical Turk",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "3,907 observations",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "osf.io/2q5cw",
+  "access_kind": "public_url_or_doi"
+}

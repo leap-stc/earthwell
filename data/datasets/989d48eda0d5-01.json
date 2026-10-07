@@ -1,0 +1,18 @@
+{
+  "dataset_id": "989d48eda0d5-01",
+  "paper_id": "989d48eda0d5",
+  "name": "SPCAM 3 reference simulations (colder and +4K warmer climates)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCAM 3 (Super-Parameterized Community Atmosphere Model v3)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "embedded 2D CRM with 32 columns at 4-km horizontal resolution, 30-minute timestep, 30 vertical levels; aquaplanet",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

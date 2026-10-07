@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fad50b9ab285-04",
+  "paper_id": "fad50b9ab285",
+  "name": "NYC Open Data static topographical and urban GIS layers",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "59 Community Board district polygons (DISs)",
+  "produced_in_this_study": false,
+  "access": "https://data.cityofnewyork.us",
+  "access_kind": "public_url_or_doi"
+}

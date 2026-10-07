@@ -1,0 +1,48 @@
+{
+  "paper_id": "a1c948ee208e",
+  "year": "2",
+  "filename": "Toward a Taxonomy of Trust for Probabilistic Machine Learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Toward a Taxonomy of Trust for Probabilistic Machine Learning",
+  "authors": [
+    "Tamara Broderick",
+    "Andrew Gelman",
+    "Rachael Meager",
+    "Anna L. Smith",
+    "Tian Zheng"
+  ],
+  "pub_year": 2021,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2112.03270",
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "Probabilistic Machine Learning / Applied Statistics",
+  "processes": [],
+  "ml_methods": [
+    "Hamiltonian Monte Carlo",
+    "Variational inference",
+    "Hierarchical Bayesian models"
+  ],
+  "ml_tasks": [
+    "uncertainty_quantification",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "Stan and R code mentioned; election forecasting code and data hosted on GitHub.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper presents a conceptual framework/taxonomy of trust for probabilistic machine learning and case studies in economics and political science; it does not contain Earth/climate system models or datasets.",
+  "pain_points": [
+    "Gap between real-world goals and training-data formulations",
+    "Statistical model misspecification and fragility of modeling assumptions",
+    "Algorithmic approximation errors (finite-time MCMC mixing, variational Bayes KL gap)",
+    "Implementation bugs in complex analysis and pre-processing pipelines",
+    "Sensitivity of conclusions to small subsets of training data"
+  ],
+  "extraction_notes": "The document is a general perspective/framework paper on trust, reproducibility, and robustness in probabilistic machine learning, with application case studies in microcredit economics and US presidential election forecasting.",
+  "dataset_ids": [
+    "a1c948ee208e-01",
+    "a1c948ee208e-02"
+  ]
+}

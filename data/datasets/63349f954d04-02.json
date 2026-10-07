@@ -1,0 +1,19 @@
+{
+  "dataset_id": "63349f954d04-02",
+  "paper_id": "63349f954d04",
+  "name": "CLM-ml-v2 Fortran reference oracle I/O and validation outputs",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CLM-ml-v2",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "30-minute temporal resolution, 46 canopy layers",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

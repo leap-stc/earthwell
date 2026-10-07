@@ -1,0 +1,18 @@
+{
+  "dataset_id": "b10f4cc342fd-05",
+  "paper_id": "b10f4cc342fd",
+  "name": "Long-term contiguous solar-induced fluorescence (LCSIF)",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "AVHRR and MODIS reconstructed SIF",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.05°, monthly, January 1982–December 2021",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.7916851 and https://doi.org/10.5281/zenodo.7916879",
+  "access_kind": "public_url_or_doi"
+}

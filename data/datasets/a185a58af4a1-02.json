@@ -1,0 +1,19 @@
+{
+  "dataset_id": "a185a58af4a1-02",
+  "paper_id": "a185a58af4a1",
+  "name": "Precipitation Imaging Package (PIP) dataset",
+  "role": "reference_only",
+  "source_kind": "observation",
+  "model_or_instrument": "Precipitation Imaging Package (PIP)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "Referenced from King et al. (2024)",
+  "access_kind": "public_url_or_doi"
+}

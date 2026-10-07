@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3dbcadb5b5cc-02",
+  "paper_id": "3dbcadb5b5cc",
+  "name": "ICON QUBICC storm-resolving simulations (hc2, hc3, hc4)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON SRM (Sapphire physics package)",
+  "scale": "CRM",
+  "data_types": [
+    "spatiotemporal",
+    "spatial_3d"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "5 km horizontal, 191 vertical layers, hourly output",
+  "produced_in_this_study": false,
+  "access": "Primary data used in this work is archived by the Max Planck Institute for Meteorology (contact: marco.giorgetta@mpimet.mpg.de).",
+  "access_kind": "on_request"
+}

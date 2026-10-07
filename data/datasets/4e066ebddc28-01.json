@@ -1,0 +1,19 @@
+{
+  "dataset_id": "4e066ebddc28-01",
+  "paper_id": "4e066ebddc28",
+  "name": "ClimSim Low-Resolution Real-Geography Dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "E3SM-MMF (F2010-MMF1 compset, ne4pg2 grid)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "69,783,552 samples for the training data (235.2 GB), 1,564,086 samples for the validation data (4.7 GB), and 1,681,920 samples for the test data (5.5 GB)",
+  "size_gb_estimate": 245.4,
+  "resolution": "11.5° × 11.5° (384 columns on ne4pg2 cubed-sphere grid), 60 vertical levels, 20 min timestep; embedded 2D CRM with 64 columns at 2 km horizontal grid spacing",
+  "produced_in_this_study": false,
+  "access": "https://hf.co/collections/jlin404/climsim-kaggle-models and https://zenodo.org/records/18883121",
+  "access_kind": "public_url_or_doi"
+}

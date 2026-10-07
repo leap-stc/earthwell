@@ -1,0 +1,18 @@
+{
+  "dataset_id": "ba2366f1978a-01",
+  "paper_id": "ba2366f1978a",
+  "name": "FLUXNET2015",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Eddy-covariance towers, ERA5 reanalysis, MODIS MOD15A2H",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "150 towers with data spanning more than three years (145 train sites, 15 test sites)",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": "https://fluxnet.org/data/fluxnet2015-dataset/",
+  "access_kind": "public_url_or_doi"
+}

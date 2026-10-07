@@ -1,0 +1,68 @@
+{
+  "paper_id": "9a15a09f49a5",
+  "year": "3",
+  "filename": "Knowledge-guided Machine Learning_ Current Trends and Future Prospects.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Knowledge-guided Machine Learning: Current Trends and Future Prospects",
+  "authors": [
+    "Anuj Karpatne",
+    "Xiaowei Jia",
+    "Vipin Kumar"
+  ],
+  "pub_year": 2024,
+  "venue": "arXiv",
+  "doi_or_url": "https://doi.org/10.48550/arXiv.2403.15989",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_hydrology_environmental_ml",
+  "processes": [
+    "lake water temperature dynamics",
+    "streamflow dynamics",
+    "heat transfer",
+    "hydrological processes",
+    "carbon and water cycles in agroecosystems",
+    "atmospheric and turbulent transport",
+    "cloud processes and subgrid turbulence"
+  ],
+  "ml_methods": [
+    "Physics-Guided Neural Networks (PGNN)",
+    "Physics-Guided Recurrent Neural Networks (PGRNN)",
+    "Physics-Informed Neural Networks (PINN)",
+    "Physics-Informed Neural Operators (PINO)",
+    "Fourier Neural Operator (FNO)",
+    "DeepONet",
+    "LSTM",
+    "Physics-Guided Architecture LSTM (PGA-LSTM)",
+    "Graph Convolutional Networks (GCN)",
+    "Equivariant Neural Networks (EGNN, Steerable CNN)",
+    "Generative Adversarial Networks (GAN)",
+    "Diffusion Models",
+    "Transformers",
+    "Differentiable Parameter Learning (dPL)"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "downscaling_superres",
+    "forecasting",
+    "parameter_calibration",
+    "parameterization",
+    "equation_discovery",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "This paper is a broad review and perspective article synthesizing knowledge-guided machine learning methods, paradigms, and use cases in environmental science; it does not produce or distribute a distinct benchmark dataset.",
+  "pain_points": [
+    "Limited coverage of data distributions and scarcity of labeled ground-truth observations in environmental systems leading black-box ML to fail out-of-distribution",
+    "Competing loss objectives and difficult optimization landscapes with poor local minima when incorporating scientific constraints",
+    "Model imperfections and bias in process-based physical models affecting synthetic pretraining datasets",
+    "Catastrophic forgetting during fine-tuning when adapting models pretrained on simulations to observational targets",
+    "Excessive computational and financial costs of running large foundation models over long time horizons and broad regions",
+    "Disparate data scales, spatial/temporal resolutions, and quality making integration across complex environmental domains difficult"
+  ],
+  "extraction_notes": "This manuscript is an overview/survey paper (arXiv:2403.15989v2) outlining principles, taxonomies, methods, and environmental applications of Knowledge-Guided Machine Learning (KGML). No original experimental datasets or dedicated software repositories are introduced.",
+  "dataset_ids": []
+}

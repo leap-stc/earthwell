@@ -1,0 +1,19 @@
+{
+  "dataset_id": "08404f14aec9-01",
+  "paper_id": "08404f14aec9",
+  "name": "MITgcm llc4320 simulation",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "MITgcm llc4320",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "400 km × 400 km subdomain, 5 days per month at 5-day intervals across Jan–Mar and Jul–Sep, subsampled at ~4,000 grid points",
+  "size_gb_estimate": null,
+  "resolution": "1/48° (~2.3 km horizontal grid spacing, ~8 km effective resolution)",
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5281/zenodo.11373789",
+  "access_kind": "public_url_or_doi"
+}

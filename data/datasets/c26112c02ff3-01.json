@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c26112c02ff3-01",
+  "paper_id": "c26112c02ff3",
+  "name": "GISS-E2.1-G anomalous freshwater historical ensemble simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "GISS-E2.1-G",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "2° latitude by 2.5° longitude atmosphere, 1° ocean with 40 vertical layers",
+  "produced_in_this_study": true,
+  "access": "https://portal.nccs.nasa.gov/datashare/giss_cmip6/ and through ESGF",
+  "access_kind": "public_url_or_doi"
+}

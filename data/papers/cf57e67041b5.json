@@ -1,0 +1,59 @@
+{
+  "paper_id": "cf57e67041b5",
+  "year": "5",
+  "filename": "Calibrating Geophysical Predictions under Constrained Probabilistic Distributions.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Calibrating Geophysical Predictions under Constrained Probabilistic Distributions",
+  "authors": [
+    "Zhewen Hou",
+    "Jiajin Sun",
+    "Subashree Venkatasubramanian",
+    "Peter Jin",
+    "Shuolin Li",
+    "Tian Zheng"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2512.03081",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "climate_hydrology",
+  "processes": [
+    "air-sea CO2 flux",
+    "mesoscale ocean turbulence",
+    "quasi-geostrophic dynamics",
+    "inverse energy cascade",
+    "subgrid turbulent potential vorticity flux"
+  ],
+  "ml_methods": [
+    "Kernelized Stein Discrepancy",
+    "Feed-Forward Neural Network",
+    "Convolutional Neural Network",
+    "Self-Organizing Map",
+    "LightGBM",
+    "Gaussian Mixture Model"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "reconstruction_gapfilling",
+    "emulation"
+  ],
+  "parameterization_target": "subgrid eddy potential vorticity / turbulent flux forcing",
+  "online_coupled": true,
+  "host_model": "pyqg",
+  "code_availability": "All data associated with this manuscript, along with code necessary to process the data and generate the figures can be found at https://github.com/zwhou99/Distribution-Informed-Prediction.",
+  "testbed_candidate": true,
+  "testbed_rationale": "Provides a reproducible benchmark for online-coupled subgrid turbulence modeling in pyqg and air-sea pCO2 reconstruction from sparse data, supported by open code and data on GitHub.",
+  "pain_points": [
+    "Offline-to-online drift: surrogates trained on short-horizon MSE fail to preserve invariant measures and energy spectra during long-term rollout.",
+    "Extreme data sparsity and sampling bias: e.g., SOCAT observes less than 1% of the ocean surface.",
+    "Requirement of prior steady-state distributions: the KSD calibration framework assumes access to a target knowledge distribution which may not always be readily available.",
+    "Vanishing gradients and brittleness in existing physics-informed losses when data are sparse."
+  ],
+  "extraction_notes": "The paper investigates post-hoc calibration of machine learning predictions (both offline reconstruction and online parameterization) using Kernelized Stein Discrepancy (KSD) and normalization against known or modeled marginal distributions.",
+  "dataset_ids": [
+    "cf57e67041b5-01",
+    "cf57e67041b5-02",
+    "cf57e67041b5-03"
+  ]
+}

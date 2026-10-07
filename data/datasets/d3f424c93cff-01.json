@@ -1,0 +1,19 @@
+{
+  "dataset_id": "d3f424c93cff-01",
+  "paper_id": "d3f424c93cff",
+  "name": "QUBICC high-resolution ICON simulation (coarse-grained)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "ICON (version icon-2024.10)",
+  "scale": "CRM",
+  "data_types": [
+    "spatial_3d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "40 d evenly distributed across four months: November 2004, January, April, July 2005; 2.3 million training samples, 260k validation samples, 1.9 million test samples for shortwave and 4.2 million test samples for longwave radiation",
+  "size_gb_estimate": null,
+  "resolution": "5 km horizontal grid spacing, 191 vertical levels, coarse-grained to 80 km and 47 levels",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.18853569",
+  "access_kind": "public_url_or_doi"
+}

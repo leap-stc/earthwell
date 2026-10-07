@@ -1,0 +1,18 @@
+{
+  "dataset_id": "7354fab2c747-02",
+  "paper_id": "7354fab2c747",
+  "name": "Levitation diffusion chamber ice crystal mass measurements",
+  "role": "both",
+  "source_kind": "laboratory",
+  "model_or_instrument": "Levitation diffusion chamber",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": ">300 ice crystal mass times series",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

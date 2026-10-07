@@ -1,0 +1,18 @@
+{
+  "dataset_id": "f5cbb3e563dc-02",
+  "paper_id": "f5cbb3e563dc",
+  "name": "CESM2 Large Ensemble climate change anomalies",
+  "role": "forcing_or_input",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

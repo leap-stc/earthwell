@@ -1,0 +1,19 @@
+{
+  "dataset_id": "05a1e8288295-01",
+  "paper_id": "05a1e8288295",
+  "name": "Two-layer QG model simulation (PyQG)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "PyQG",
+  "scale": "regional",
+  "data_types": [
+    "spatial_2d",
+    "spatiotemporal"
+  ],
+  "size_as_stated": "15 years with a time step of 1 h (daily averaged horizontal velocity fields saved) following 5 years spin-up",
+  "size_gb_estimate": null,
+  "resolution": "Dx = Dy ~ 3.9 km, nx = ny = 256, Lx = Ly = 1000 km, daily averaged",
+  "produced_in_this_study": true,
+  "access": "The code for the PyQG model is made available at https://doi.org/10.5281/zenodo.6380711, and documentation is available at https://pyqg.readthedocs.io/en/latest/. Python code for processing the GLAD and LASER drifter datasets, running the QG simulation, and estimating structure functions and spectral fluxes using regularized least squares is available at https://github.com/manuelogtzv/SF3_RLS.",
+  "access_kind": "public_url_or_doi"
+}

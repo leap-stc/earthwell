@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d49ba8f5815b-01",
+  "paper_id": "d49ba8f5815b",
+  "name": "High-resolution CESM model output (Krumhardt et al., 2024)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.1° x 0.1°",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

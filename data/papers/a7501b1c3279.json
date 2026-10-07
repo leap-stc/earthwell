@@ -1,0 +1,35 @@
+{
+  "paper_id": "a7501b1c3279",
+  "year": "4",
+  "filename": "Flexible Aggressiveness Probabilistic Optimisation (Fapo) Bidding for Peer-to-Peer Electricity Trading.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Flexible Aggressiveness Probabilistic Optimisation (FAPO) Bidding for Peer-to-Peer Electricity Trading",
+  "authors": [
+    "Ioanna Kalospyrou",
+    "Timothy Hutty",
+    "Robert Milton",
+    "Solomon Brown"
+  ],
+  "pub_year": 2024,
+  "venue": "Preprint submitted to Applied Energy",
+  "doi_or_url": "https://ssrn.com/abstract=5019466",
+  "doc_kind": "preprint",
+  "in_scope": false,
+  "research_field": "energy markets",
+  "processes": [],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper concerns energy market auction mechanisms and bidding strategies for peer-to-peer electricity trading, which is out of scope for climate parameterizations or scientific machine learning for Earth systems.",
+  "pain_points": [],
+  "extraction_notes": "Paper is out of scope as it focuses entirely on local electricity markets and auction bidding strategies.",
+  "dataset_ids": [
+    "a7501b1c3279-01"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dataset_id": "c80f5cf46ad3-02",
+  "paper_id": "c80f5cf46ad3",
+  "name": "GLODAPv2 (Global Ocean Data Analysis Project)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Hydrographic research cruise water samples",
+  "scale": "global_obs",
+  "data_types": [
+    "tabular",
+    "spatial_3d"
+  ],
+  "size_as_stated": "over 1.2 million water samples collected during 946 cruises",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "doi:10.5194/essd-2020-165",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,18 @@
+{
+  "dataset_id": "5de294406bfc-01",
+  "paper_id": "5de294406bfc",
+  "name": "Laboratory vegetated flume suspended sediment concentration dataset (Lü, 2008 / Huai et al., 2020)",
+  "role": "both",
+  "source_kind": "laboratory",
+  "model_or_instrument": "Tilted flume channel with rigid cylindrical rods",
+  "scale": "other",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "9 different vegetation configurations, interpolated to 200 data points each",
+  "size_gb_estimate": null,
+  "resolution": "Vertical profile across flow depth H (200 interpolated points per run)",
+  "produced_in_this_study": false,
+  "access": "All data used are collected from the reported laboratory measurements (Lü, 2008) in the literature reported elsewhere (Huai et al., 2020) and no new data are generated in this work. https://d.wanfangdata.com.cn/thesis/Y1268411; https://doi.org/10.1029/2019WR027012",
+  "access_kind": "public_url_or_doi"
+}

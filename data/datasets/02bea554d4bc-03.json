@@ -1,0 +1,18 @@
+{
+  "dataset_id": "02bea554d4bc-03",
+  "paper_id": "02bea554d4bc",
+  "name": "CMIP6 multi-model ensemble",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "12 CMIP6 Earth System Models",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "Regridded to 1° × 1°, 3-day means, historical (1950–2014) and SSP3-7.0 (2015–2100)",
+  "produced_in_this_study": false,
+  "access": "CMIP6 coupled models outputs are available from the ESGF portal (https://aims2.llnl.gov/search/cmip6/ )",
+  "access_kind": "public_url_or_doi"
+}

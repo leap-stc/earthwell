@@ -1,0 +1,18 @@
+{
+  "dataset_id": "a4e4dff190c8-03",
+  "paper_id": "a4e4dff190c8",
+  "name": "Met Office EN4 Salinity",
+  "role": "forcing_or_input",
+  "source_kind": "derived_product",
+  "model_or_instrument": "ocean salinity objective analyses",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° × 1° (regridded), monthly",
+  "produced_in_this_study": false,
+  "access": "https://www.metoffice.gov.uk/hadobs/en4/",
+  "access_kind": "public_url_or_doi"
+}

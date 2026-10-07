@@ -1,0 +1,48 @@
+{
+  "paper_id": "f3caafa5b08c",
+  "year": "3",
+  "filename": "Flexible use of additive Gaussian Processes as a powerful tool for more interpretable analysis and emulation of climate model PPEs Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Flexible use of additive Gaussian Processes as a powerful tool for more interpretable analysis and emulation of climate model PPEs",
+  "authors": [
+    "Qingyuan Yang",
+    "Gregory Elsaesser",
+    "Marcus van Lier-Walqui",
+    "Kaitlyn Loftus"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFMGC21M1104Y/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "climate_science",
+  "processes": [
+    "cloud processes",
+    "atmospheric physics"
+  ],
+  "ml_methods": [
+    "additive Gaussian Process",
+    "Gaussian Process",
+    "fully connected neural network"
+  ],
+  "ml_tasks": [
+    "emulation",
+    "interpretability_xai",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": "NASA GISS Earth System Model (ESMModelE)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without links or information on data and code availability.",
+  "pain_points": [
+    "Simultaneous hyperparameter estimation in standard additive GPs can be computationally challenging",
+    "Neural network emulators perform poorly when the output variable displays a skewed distribution",
+    "Capturing sudden changes, regime shifts, and critical thresholds in non-linear climate-cloud parameter spaces"
+  ],
+  "extraction_notes": "Conference abstract only; specific PPE variables, output resolutions, and repository access links were not provided.",
+  "dataset_ids": [
+    "f3caafa5b08c-01"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "paper_id": "176be8e93348",
+  "year": "1",
+  "filename": "Observed Regional Fluxes to Constrain Modeled Estimates of the Ocean Carbon Sink - Fay - 2021 - Geophysical Research Letters - Wiley Online Library.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Observed Regional Fluxes to Constrain Modeled Estimates of the Ocean Carbon Sink",
+  "authors": [
+    "A. R. Fay",
+    "G. A. McKinley"
+  ],
+  "pub_year": 2021,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2021GL095325",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Biogeochemistry",
+  "processes": [
+    "air-sea CO2 exchange",
+    "ocean carbon uptake",
+    "marine carbon cycle",
+    "riverine carbon outgassing"
+  ],
+  "ml_methods": [
+    "Feed-Forward Neural Network",
+    "Self-Organizing Map",
+    "Extreme Gradient Boosting",
+    "Multiple Linear Regression"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "https://github.com/luke-gregor/SeaFlux",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study does not provide training/evaluation datasets for subgrid-scale physical parameterizations; it performs a diagnostic evaluation and emergent constraint style filtering of GCM hindcast models using existing gridded pCO2 products.",
+  "pain_points": [
+    "Severe regional divergence among ocean biogeochemical models despite agreement on the globally integrated carbon sink (regional compensation of errors).",
+    "Large uncertainty in natural carbon outgassing driven by riverine carbon loads (0.49 ± 0.53 PgC/yr), which dominates observational uncertainty in multiple ocean regions.",
+    "Sparse spatial and temporal sampling of in-situ surface pCO2 observations (SOCAT covers only 1.5% of 1° × 1° monthly grid boxes), limiting skill in reconstructing interannual variability.",
+    "Systematic underestimation of net primary production and carbon uptake by hindcast models in subtropical gyres despite reproducing seasonal timing."
+  ],
+  "extraction_notes": "The machine learning methods catalogued are those underlying the diagnostic observation-based pCO2 products evaluated in the study (MPI-SOMFFN, CMEMS-FFNN, NIES-FNN, LDEO-HPD, CSIR-ML6). The authors themselves do not train new ML models in this paper.",
+  "dataset_ids": [
+    "176be8e93348-01",
+    "176be8e93348-02"
+  ]
+}

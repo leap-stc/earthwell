@@ -1,0 +1,56 @@
+{
+  "paper_id": "36817fe1aa1a",
+  "year": "5",
+  "filename": "Control-Augmented Autoregressive Diffusion for Data Assimilation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Control-Augmented Autoregressive Diffusion for Data Assimilation",
+  "authors": [
+    "Prakhar Srivastava",
+    "Farrin Marouf Sofian",
+    "Francesco Immorlano",
+    "Kushagra Pandey",
+    "Stephan Mandt"
+  ],
+  "pub_year": 2026,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2510.06637",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "weather_climate",
+  "processes": [
+    "Atmospheric dynamics",
+    "Chaotic fluid flow (Kolmogorov flow)",
+    "Nonlinear wave dynamics (Kuramoto-Sivashinsky)"
+  ],
+  "ml_methods": [
+    "Autoregressive Diffusion Models (ARDM)",
+    "Denoising Diffusion Implicit Models (DDIM)",
+    "U-Net",
+    "Convolutional Neural Network",
+    "Feature-wise Linear Modulation (FiLM)",
+    "Amortized Control / Stochastic Optimal Control",
+    "GenCast"
+  ],
+  "ml_tasks": [
+    "data_assimilation",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on data assimilation and autoregressive diffusion model control rather than subgrid parameterization; benchmark datasets are standard synthetic PDEs and derived ERA5 slices without specified data URLs/repositories.",
+  "pain_points": [
+    "Long-horizon autoregressive drift and compounding errors in chaotic systems under sparse observations.",
+    "High computational cost of inference-time guidance, test-time optimization, and joint score evaluations in diffusion models.",
+    "Classical data assimilation methods (EnKF, 3D-Var, 4D-Var) degrade sharply under aggressive downsampling, non-Gaussianity, and highly sparse/delayed observations."
+  ],
+  "extraction_notes": "The preprint is from arXiv (arXiv:2510.06637v3, dated May 2026). Stephan Mandt acknowledges support from the NSF LEAP Center. Code or repository links were not explicitly provided in the text (only a third-party reference implementation link to lucidrains/denoising-diffusion-pytorch is cited in Appendix G).",
+  "dataset_ids": [
+    "36817fe1aa1a-01",
+    "36817fe1aa1a-02",
+    "36817fe1aa1a-03",
+    "36817fe1aa1a-04"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "paper_id": "cc0da1d88b85",
+  "year": "4",
+  "filename": "Physically Consistent Global Atmospheric Data Assimilation with Machine Learning in Latent Space.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Physically Consistent Global Atmospheric Data Assimilation with Machine Learning in Latent Space",
+  "authors": [
+    "Hang Fan",
+    "Lei Bai",
+    "Ben Fei",
+    "Yi Xiao",
+    "Kun Chen",
+    "Yubao Liu",
+    "Yongquan Qu",
+    "Fenghua Ling",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2025,
+  "venue": "arXiv",
+  "doi_or_url": "https://arxiv.org/abs/2502.02884",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "Atmospheric dynamics",
+    "Geostrophic balance",
+    "Global atmospheric circulation",
+    "Data assimilation",
+    "Medium-range weather forecasting"
+  ],
+  "ml_methods": [
+    "Autoencoder",
+    "Vision Transformer",
+    "Swin Transformer",
+    "Fully Connected Network",
+    "FengWu architecture"
+  ],
+  "ml_tasks": [
+    "data_assimilation",
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "Codes and model checkpoints used in this study are available at https://github.com/hangfan99/LDA_1.41.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study focuses on developing and validating a latent-space data assimilation framework rather than curating a benchmark dataset or testbed for physics parameterizations or ML emulators.",
+  "pain_points": [
+    "High dimensionality of model-space states leads to background error covariance matrices exceeding 10^12 elements, rendering direct inversion intractable without empirical approximations.",
+    "Trade-off between compression ratio and autoencoder reconstruction fidelity; excessive compression increases representation error while insufficient compression retains off-diagonal covariance correlations.",
+    "Patch-like analysis increment artifacts emerge when latent channel dimension exceeds model-space channels due to the Vision Transformer patch embedding.",
+    "L4DVar relies on end-to-end differentiable forecasting models, currently limiting its application to ML-based weather prediction systems rather than traditional CPU-based dynamical models without adjoints."
+  ],
+  "extraction_notes": "The paper develops Latent Data Assimilation (LDA) using an autoencoder with Swin Transformer blocks and a FengWu-style ML forecast model. Evaluated using idealized OSSEs and real GDAS observation experiments.",
+  "dataset_ids": [
+    "cc0da1d88b85-01",
+    "cc0da1d88b85-02"
+  ]
+}

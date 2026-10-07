@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c26112c02ff3-03",
+  "paper_id": "c26112c02ff3",
+  "name": "ERSSTv5",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "In situ SST observations",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "2° x 2°",
+  "produced_in_this_study": false,
+  "access": "https://downloads.psl306.noaa.gov/Datasets/noaa.ersst.v5/sst.mnmean.nc",
+  "access_kind": "public_url_or_doi"
+}

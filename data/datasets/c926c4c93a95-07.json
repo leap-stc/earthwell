@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c926c4c93a95-07",
+  "paper_id": "c926c4c93a95",
+  "name": "Independent Ocean Time-Series (BATS and HOT)",
+  "role": "evaluation",
+  "source_kind": "observation",
+  "model_or_instrument": "In situ time series",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "discrete temporal observations",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

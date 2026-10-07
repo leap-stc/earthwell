@@ -1,0 +1,18 @@
+{
+  "dataset_id": "542a4bcfeeb7-01",
+  "paper_id": "542a4bcfeeb7",
+  "name": "Hombole gauge station daily discharge",
+  "role": "both",
+  "source_kind": "observation",
+  "model_or_instrument": "Streamflow gauge at Hombole outlet (Ethiopian Ministry of Water and Energy)",
+  "scale": "point_or_site",
+  "data_types": [
+    "time_series"
+  ],
+  "size_as_stated": "14,610 daily observations (1981–2020)",
+  "size_gb_estimate": null,
+  "resolution": "daily",
+  "produced_in_this_study": false,
+  "access": "The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.",
+  "access_kind": "on_request"
+}

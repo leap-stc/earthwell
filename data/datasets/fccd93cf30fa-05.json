@@ -1,0 +1,19 @@
+{
+  "dataset_id": "fccd93cf30fa-05",
+  "paper_id": "fccd93cf30fa",
+  "name": "Probabilistic urban flood inundation maps",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "images",
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "30-meter resolution every three days",
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

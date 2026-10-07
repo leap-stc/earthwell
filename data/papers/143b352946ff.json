@@ -1,0 +1,43 @@
+{
+  "paper_id": "143b352946ff",
+  "year": "3",
+  "filename": "Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Informing Depositional Ice Growth Models Through 3-D Reconstruction of Ice Crystal Images Using Machine Learning",
+  "authors": [],
+  "pub_year": 2024,
+  "venue": "104th American Meteorological Society Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/104ANNUAL/meetingapp.cgi/Paper/432551",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "depositional ice growth",
+    "ice crystal habit",
+    "cirrus cloud microphysics",
+    "cloud-radiation interactions"
+  ],
+  "ml_methods": [
+    "deep learning",
+    "regression models"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling"
+  ],
+  "parameterization_target": "depositional ice growth",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Short conference abstract without access links or detailed descriptions of publicly released data/code.",
+  "pain_points": [
+    "Single-view 2-D images from CPI do not explicitly capture 3-D geometric features (e.g., mass-density relationships)",
+    "Significant scale disparities between climate/weather model grid scales and single particle scales",
+    "Incomplete physical understanding and limited habit representation in current depositional ice growth microphysics parameterizations"
+  ],
+  "extraction_notes": "Author names were omitted from the text excerpt of this AMS meeting presentation abstract.",
+  "dataset_ids": [
+    "143b352946ff-01",
+    "143b352946ff-02"
+  ]
+}

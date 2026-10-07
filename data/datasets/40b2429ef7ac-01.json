@@ -1,0 +1,19 @@
+{
+  "dataset_id": "40b2429ef7ac-01",
+  "paper_id": "40b2429ef7ac",
+  "name": "Bin microphysics droplet size distribution simulations",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": null,
+  "scale": "column_or_box",
+  "data_types": [
+    "tabular",
+    "time_series"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

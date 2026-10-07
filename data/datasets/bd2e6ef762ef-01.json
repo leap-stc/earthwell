@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bd2e6ef762ef-01",
+  "paper_id": "bd2e6ef762ef",
+  "name": "CMIP6 multi-model daily surface temperature simulations",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "9 CMIP6 models (AWI-CM1-1-MR, CanESM5, CESM2-WACCM, EC-Earth3-Veg-LR, IPSL-CM6A-LR, MIROC6, MPI-ESM1-2-HR, MRI-ESM2-0, NorESM2-MM)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "64x128 grid (~250 km), daily resolution (1850–2100)",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

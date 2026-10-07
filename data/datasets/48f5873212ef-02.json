@@ -1,0 +1,18 @@
+{
+  "dataset_id": "48f5873212ef-02",
+  "paper_id": "48f5873212ef",
+  "name": "Cloud seeding activities in the United States (2000-2025)",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "point_or_site",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "832 unique cloud seeding project reports across the United States from 2000 to 2025, single CSV file",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.14925811",
+  "access_kind": "public_url_or_doi"
+}

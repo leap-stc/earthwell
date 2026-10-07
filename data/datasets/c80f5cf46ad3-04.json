@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c80f5cf46ad3-04",
+  "paper_id": "c80f5cf46ad3",
+  "name": "Global Living Biomass Carbon Density Maps (Spawn et al., 2020)",
+  "role": "reference_only",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Harmonized satellite remote sensing and in situ plot records",
+  "scale": "global_obs",
+  "data_types": [
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "5 km",
+  "produced_in_this_study": false,
+  "access": "doi:10.1038/s41597-020-0444-4",
+  "access_kind": "public_url_or_doi"
+}

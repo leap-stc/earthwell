@@ -1,0 +1,56 @@
+{
+  "paper_id": "a0fd01786052",
+  "year": "3",
+  "filename": "Correcting Systematic and State‐Dependent Errors in the NOAA FV3‐GFS Using Neural Networks.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Correcting Systematic and State-Dependent Errors in the NOAA FV3-GFS Using Neural Networks",
+  "authors": [
+    "Tse-Chun Chen",
+    "Stephen G. Penny",
+    "Jeffrey S. Whitaker",
+    "Sergey Frolov",
+    "Robert Pincus",
+    "Stefan Tulich"
+  ],
+  "pub_year": 2022,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.1029/2022MS003309",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "weather_forecasting_and_data_assimilation",
+  "processes": [
+    "systematic model error",
+    "atmospheric general circulation",
+    "tropospheric and stratospheric dynamics",
+    "surface-atmosphere exchange",
+    "radiative fluxes"
+  ],
+  "ml_methods": [
+    "fully connected neural network",
+    "convolutional neural network",
+    "linear regression baseline"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "data_assimilation",
+    "forecasting",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "systematic and state-dependent model error (analysis increments)",
+  "online_coupled": true,
+  "host_model": "FV3-GFS",
+  "code_availability": "The source code for the FV3-GFS model can be found at https://github.com/ufs-community/ufs-weather-model. The data assimilation and replay workflows are available at https://github.com/jswhit/da_scripts and https://github.com/jswhit/replay_scripts. The data reduction and training scripts are available at https://github.com/NOAA-PSL/model_error_correction. The data was processed using the climate data operators (CDO; Schulzweida, 2022).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The scripts to generate data and train models are openly hosted on GitHub, but the resulting large replay datasets and analysis increment archives are not hosted in an open repository for direct download.",
+  "pain_points": [
+    "Coupling overhead: exchanging data between Fortran-based FV3-GFS and Python-based ML tools required stopping model integration every 6 hours and using temporary intermediate files.",
+    "Low signal-to-noise ratio: analysis increments contain observational noise, sampling inhomogeneity, and initial condition errors in addition to systematic model error.",
+    "Generalization challenges: U-wind corrections failed to generalize well during online cycling despite offline skill.",
+    "Scale mismatch and high dimensionality: maintaining and processing high-resolution 3D state increment data globally requires massive storage, necessitating aggressive spatial subsampling or spectral truncation."
+  ],
+  "extraction_notes": "Robert Pincus is affiliated with LEAP. Online coupling is implemented as a 6-hourly file-based restart update for sequential DA and extended 10-day forecasts.",
+  "dataset_ids": [
+    "a0fd01786052-01",
+    "a0fd01786052-02"
+  ]
+}

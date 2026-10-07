@@ -1,0 +1,46 @@
+{
+  "paper_id": "db3e36e4e6c9",
+  "year": "5",
+  "filename": "A Turbulence Model for Velocity Distribution in Open-Channel Flows Through Mangrove Trees.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "A Turbulence Model for Velocity Distribution in Open-Channel Flows Through Mangrove Trees",
+  "authors": [
+    "Zerun Tang",
+    "Wei-Jie Wang",
+    "Saiyu Yuan",
+    "Shuolin Li",
+    "Pei Xin"
+  ],
+  "pub_year": 2025,
+  "venue": "Water Resources Research",
+  "doi_or_url": "https://doi.org/10.1029/2024WR039599",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "coastal hydrodynamics",
+  "processes": [
+    "canopy drag",
+    "turbulent momentum transport",
+    "Reynolds shear stress closure",
+    "open-channel flow through vegetation"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": "turbulent shear stress in vegetated canopy flows",
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The study does not develop machine learning models and validates an analytical/numerical turbulence closure against small sets of 1D profile observations (8 profiles total).",
+  "pain_points": [
+    "Conventional single mixing-length models fail to capture multi-scale turbulent eddy structures created by complex prop root morphology",
+    "The spectral velocity model approximates the inertial subrange with canonical Kolmogorov scaling and neglects the canopy drag-induced spectral bump ('von Kármán street' wake production)",
+    "Significant sensitivity to drag coefficient (Cd) formulation and uncertainty in measuring root frontal area vertical distributions"
+  ],
+  "extraction_notes": "Funded in part by the NSF LEAP STC (award 2019625, S. Li). The paper does not use machine learning; it formulates a physical co-spectral budget (CSB) turbulence closure and derives an approximate analytical solution for velocity profiles.",
+  "dataset_ids": [
+    "db3e36e4e6c9-01",
+    "db3e36e4e6c9-02"
+  ]
+}

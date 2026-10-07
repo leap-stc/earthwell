@@ -1,0 +1,18 @@
+{
+  "dataset_id": "d606ef6024cb-02",
+  "paper_id": "d606ef6024cb",
+  "name": "SPCESM2 Earth-like simulations (-4K, +0K, +4K)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "SPCESM2 (Super-Parameterized Community Earth System Model version 2)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "several TB",
+  "size_gb_estimate": null,
+  "resolution": "2.5° × 1.9° × 30 levels × 15 min",
+  "produced_in_this_study": true,
+  "access": "The full simulations output, which is several TB, is archived on the GreenPlanet cluster at UC Irvine and available upon request. We additionally archived the input data and run scripts necessary to re-run all three simulations as part of the manuscript's accompanying data using Zenodo https://zenodo.org/record/5775541#.YbeMHNDMKUl. Also at https://doi.org/10.5281/zenodo.8140536",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,46 @@
+{
+  "paper_id": "195230d140fe",
+  "year": "4",
+  "filename": "Exploring Parametric and Structural Uncertainties of Bulk and Lagrangian Ice Microphysical Schemes in Large Eddy Simulations Abstract.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Exploring Parametric and Structural Uncertainties of Bulk and Lagrangian Ice Microphysical Schemes in Large Eddy Simulations",
+  "authors": [
+    "Joseph Ko"
+  ],
+  "pub_year": 2025,
+  "venue": "105th American Meteorological Society Annual Meeting",
+  "doi_or_url": "https://ams.confex.com/ams/105ANNUAL/meetingapp.cgi/Paper/453425",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "cloud microphysics",
+  "processes": [
+    "ice microphysics",
+    "cirrus cloud formation",
+    "vapor depositional growth"
+  ],
+  "ml_methods": [
+    "variational autoencoders"
+  ],
+  "ml_tasks": [
+    "parameter_calibration",
+    "clustering_dimensionality_reduction",
+    "uncertainty_quantification"
+  ],
+  "parameterization_target": "ice microphysics",
+  "online_coupled": false,
+  "host_model": "Cloud Model 1 (CM1)",
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract without direct data links or statements of public data availability.",
+  "pain_points": [
+    "Lagrangian superdroplet microphysics methods are prohibitively expensive for large-scale weather and climate simulations",
+    "Structural and parametric uncertainties exist between bulk and superdroplet microphysics schemes even under equivalent dynamical and theoretical settings",
+    "Evaluating and comparing high-dimensional simulation outputs and radar observations across different microphysical models is challenging"
+  ],
+  "extraction_notes": "Conference abstract from AMS 105th Annual Meeting (Session J5B.4). Only Joseph Ko is listed under co-authors/presenter in the provided excerpt.",
+  "dataset_ids": [
+    "195230d140fe-01",
+    "195230d140fe-02",
+    "195230d140fe-03"
+  ]
+}

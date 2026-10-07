@@ -1,0 +1,52 @@
+{
+  "paper_id": "4ac6067043b2",
+  "year": "5",
+  "filename": "Financial losses associated with US floods occur with frequent low-return-period precipitation.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Financial losses associated with US floods occur with frequent low-return-period precipitation",
+  "authors": [
+    "Adam Nayak",
+    "Pierre Gentine",
+    "Upmanu Lall"
+  ],
+  "pub_year": 2025,
+  "venue": "Nature Water",
+  "doi_or_url": "https://doi.org/10.1038/s44221-025-00506-8",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "extreme precipitation",
+    "flooding",
+    "pluvial flooding",
+    "compound flood events"
+  ],
+  "ml_methods": [
+    "DBSCAN",
+    "ST-DBSCAN"
+  ],
+  "ml_tasks": [
+    "clustering_dimensionality_reduction"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": "All associated project code in Python and RStudio for data preprocessing, analysis and evaluation is available via GitHub at https://github.com/adamnayak/USA_return_periods.",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study focuses on hydroclimatological statistical analysis and spatiotemporal clustering of historical financial flood losses and precipitation events, not on climate physical parameterization or emulation testbeds.",
+  "pain_points": [
+    "Subdaily and county-level spatial averaging smooths rainfall fields in localized damage-inducing events",
+    "Discrepancies in multi-decadal trends between different precipitation reanalysis datasets (e.g., ERA5 vs. MSWEP)",
+    "DBSCAN/ST-DBSCAN parameterization sensitivity and difficulty validating threshold parameters",
+    "Human error and temporal reporting lags (up to 60 days) in FEMA claim and disaster declaration dates relative to physical precipitation events"
+  ],
+  "extraction_notes": "The machine learning aspect of this study is unsupervised spatiotemporal clustering (DBSCAN and ST-DBSCAN) used to group damage records and precipitation into synoptically driven storm events across space and time.",
+  "dataset_ids": [
+    "4ac6067043b2-01",
+    "4ac6067043b2-02",
+    "4ac6067043b2-03",
+    "4ac6067043b2-04",
+    "4ac6067043b2-05",
+    "4ac6067043b2-06"
+  ]
+}

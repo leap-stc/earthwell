@@ -1,0 +1,52 @@
+{
+  "paper_id": "d3f424c93cff",
+  "year": "5",
+  "filename": "Representing subgrid-scale cloud effects in a radiation parameterization using machine learning_ MLE-radiation v1.0",
+  "model": "gemini-3.8-flash",
+  "title": "Representing subgrid-scale cloud effects in a radiation parameterization using machine learning: MLe-radiation v1.0",
+  "authors": [
+    "Katharina Hafner",
+    "Sara Shamekh",
+    "Guillaume Bertoli",
+    "Axel Lauer",
+    "Robert Pincus",
+    "Julien Savre",
+    "Veronika Eyring"
+  ],
+  "pub_year": 2026,
+  "venue": "Geoscientific Model Development",
+  "doi_or_url": "https://doi.org/10.5194/gmd-19-3875-2026",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "Atmospheric Science",
+  "processes": [
+    "radiative transfer",
+    "cloud-radiation interactions",
+    "subgrid-scale cloudiness",
+    "atmospheric heating rates"
+  ],
+  "ml_methods": [
+    "Bidirectional Long Short-Term Memory (BiLSTM)"
+  ],
+  "ml_tasks": [
+    "parameterization"
+  ],
+  "parameterization_target": "cloud radiative impact on shortwave and longwave heating rates",
+  "online_coupled": false,
+  "host_model": "ICON-A",
+  "code_availability": "The software code for the ICON model is available at https://doi.org/10.35089/WDCC/IconRelease01 under the BSD-3C license. The exact version for high-resolution simulations is icon-2024.10 and for coarse-resolution, version 2.6.4 is archived at https://doi.org/10.5281/zenodo.18853569. The pyRTE+RRTMGP front-end code is archived at https://doi.org/10.5281/zenodo.16644555. Training and plotting code is archived at https://doi.org/10.5281/zenodo.17280639.",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution global storm-resolving simulation data (coarse-grained to ESM grid) paired with radiative transfer baseline calculations are publicly available on Zenodo along with complete open-source training and evaluation code, making it an ideal testbed for subgrid cloud radiative parameterization.",
+  "pain_points": [
+    "Formula differences in converting radiative flux divergence to heating rates (cv vs. cp) between model versions caused massive initial biases (up to 10 K/day) that required scaling.",
+    "Global storm-resolving resolution of 5 km remains too coarse to resolve shallow convection, leaving planetary boundary layer cloud radiative effects partially unresolved.",
+    "Offline evaluation only; stability and coupling performance in an active GCM run remain to be tested.",
+    "Aerosols and spatially varying trace gases were omitted from the high-resolution run, preventing direct learning of secondary radiative interactions.",
+    "Grid mismatch and elevation discrepancies over complex terrain caused by rotated/shifted coarse grid required discarding misaligned cells."
+  ],
+  "extraction_notes": "The ML model (MLe-radiation v1.0) predicts only the cloud radiative impact (CRI) residual heating rates, which are added to physics-calculated clear-sky heating rates computed with pyRTE (RTE+RRTMGP). The evaluation is entirely offline against coarse-grained QUBICC data.",
+  "dataset_ids": [
+    "d3f424c93cff-01",
+    "d3f424c93cff-02"
+  ]
+}

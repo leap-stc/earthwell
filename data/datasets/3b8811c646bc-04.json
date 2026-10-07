@@ -1,0 +1,19 @@
+{
+  "dataset_id": "3b8811c646bc-04",
+  "paper_id": "3b8811c646bc",
+  "name": "Processed spectral metrics and data analysis package",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "36 km x 36 km global grid",
+  "produced_in_this_study": true,
+  "access": "https://purr.purdue.edu/publications/3999/1",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,53 @@
+{
+  "paper_id": "fccd93cf30fa",
+  "year": "3",
+  "filename": "Enhancing Satellite Data Coverage Leveraging Multiple Sensors to Bridge Information Gaps in Urban Flood Mapping - Astrophysics Data System.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Enhancing Satellite Data Coverage: Leveraging Multiple Sensors to Bridge Information Gaps in Urban Flood Mapping",
+  "authors": [
+    "Ariful Islam",
+    "Zhijie Zhang",
+    "Rohit Mukherjee",
+    "Upmanu Lall",
+    "Pierre Gentine",
+    "Venkataraman (Venkat) Lakshmi",
+    "Beth Tellman"
+  ],
+  "pub_year": 2023,
+  "venue": "AGU Fall Meeting 2023",
+  "doi_or_url": "https://ui.adsabs.harvard.edu/abs/2023AGUFM.H33D..04I/abstract",
+  "doc_kind": "conference_abstract",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "flood inundation",
+    "surface hydrology",
+    "precipitation"
+  ],
+  "ml_methods": [
+    "convolutional neural networks (CNN)"
+  ],
+  "ml_tasks": [
+    "reconstruction_gapfilling",
+    "downscaling_superres"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Conference abstract describing remote sensing satellite fusion for urban flood mapping; does not provide accessible benchmark data or target physical parameterization/emulation in Earth system models.",
+  "pain_points": [
+    "Persistent cloud cover and limited satellite revisit frequency",
+    "Spatial and temporal trade-offs across different satellite sensors",
+    "Rapidly evolving flood patterns in complex urban environments"
+  ],
+  "extraction_notes": "Conference abstract only; details on specific data repositories, data sizes, code availability, and satellite product identifiers are omitted.",
+  "dataset_ids": [
+    "fccd93cf30fa-01",
+    "fccd93cf30fa-02",
+    "fccd93cf30fa-03",
+    "fccd93cf30fa-04",
+    "fccd93cf30fa-05"
+  ]
+}

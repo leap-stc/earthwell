@@ -1,0 +1,19 @@
+{
+  "dataset_id": "42f5f359f9b5-04",
+  "paper_id": "42f5f359f9b5",
+  "name": "NOAA Greenhouse Gas Reference Marine Boundary Layer CO2 Product",
+  "role": "forcing_or_input",
+  "source_kind": "observation",
+  "model_or_instrument": "NOAA ESRL carbon cycle cooperative global air sampling network",
+  "scale": "global_obs",
+  "data_types": [
+    "time_series",
+    "spatial_2d"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "monthly mean",
+  "produced_in_this_study": false,
+  "access": "https://gml.noaa.gov/ccgg/mbl/data.php",
+  "access_kind": "public_url_or_doi"
+}

@@ -1,0 +1,53 @@
+{
+  "paper_id": "542a4bcfeeb7",
+  "year": "5",
+  "filename": "Inter-Comparison of Deep Learning Models for Flood Forecasting in Ethiopia’s Upper Awash Basin.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Inter-Comparison of Deep Learning Models for Flood Forecasting in Ethiopia’s Upper Awash Basin",
+  "authors": [
+    "Girma Moges Mengistu",
+    "Addisu G. Semie",
+    "Gulilat T. Diro",
+    "Natei Ermias Benti",
+    "Emiola O. Gbobaniyi",
+    "Yonas Mersha"
+  ],
+  "pub_year": 2026,
+  "venue": "Water",
+  "doi_or_url": "https://doi.org/10.3390/w18030397",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "hydrology",
+  "processes": [
+    "rainfall-runoff processes",
+    "streamflow routing",
+    "flood generation"
+  ],
+  "ml_methods": [
+    "CNN",
+    "LSTM",
+    "GRU",
+    "BiLSTM",
+    "Hybrid CNN-LSTM"
+  ],
+  "ml_tasks": [
+    "forecasting"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "Focuses on catchment-scale daily streamflow forecasting with empirical time series, not an atmospheric/oceanic subgrid parameterization or process emulation testbed.",
+  "pain_points": [
+    "Underestimation of peak-flow magnitudes across all deep learning architectures due to MSE loss prioritizing average conditions over rare extremes",
+    "Generalization gap between validation and test datasets due to climate/interannual variability and unseen extremes",
+    "Reduced performance during dry season / low-flow conditions where baseflow dynamics dominate over direct rainfall response",
+    "Absence of uncertainty quantification limiting operational early-warning deployment"
+  ],
+  "extraction_notes": "Author Addisu G. Semie acknowledges funding from the NSF LEAP STC (Award #2019625). Baseline models include long-term daily climatology and a calibrated conceptual HBV rainfall-runoff model.",
+  "dataset_ids": [
+    "542a4bcfeeb7-01",
+    "542a4bcfeeb7-02"
+  ]
+}

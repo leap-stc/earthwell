@@ -1,0 +1,18 @@
+{
+  "dataset_id": "01340dcd75f7-01",
+  "paper_id": "01340dcd75f7",
+  "name": "Airborne Cloud Particle Imager (CPI) imagery dataset",
+  "role": "training",
+  "source_kind": "observation",
+  "model_or_instrument": "Cloud Particle Imager (CPI)",
+  "scale": "point_or_site",
+  "data_types": [
+    "images"
+  ],
+  "size_as_stated": "millions of images",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

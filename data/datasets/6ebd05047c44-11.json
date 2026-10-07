@@ -1,0 +1,18 @@
+{
+  "dataset_id": "6ebd05047c44-11",
+  "paper_id": "6ebd05047c44",
+  "name": "JRA-55 reanalysis",
+  "role": "forcing_or_input",
+  "source_kind": "reanalysis",
+  "model_or_instrument": "JRA-55",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "0.50°, 3 h",
+  "produced_in_this_study": false,
+  "access": null,
+  "access_kind": "not_stated"
+}

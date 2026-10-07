@@ -1,0 +1,18 @@
+{
+  "dataset_id": "02bea554d4bc-04",
+  "paper_id": "02bea554d4bc",
+  "name": "CESM2 Large Ensemble (CESM2-LE2 / SMILE)",
+  "role": "evaluation",
+  "source_kind": "simulation",
+  "model_or_instrument": "CESM2",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "40 ensemble members",
+  "size_gb_estimate": null,
+  "resolution": "Regridded to 1° × 1°, 3-day means, 1950–2100",
+  "produced_in_this_study": false,
+  "access": "Output from the Community Earth System Model Version 2 Large Ensemble community project (CESM2-LE2) are available from the National Center for Atmospheric Research (NCAR) Climate Data Gateway at https://www.cesm.ucar.edu/community-projects/lens2/data-sets",
+  "access_kind": "public_url_or_doi"
+}

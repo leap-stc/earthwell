@@ -1,0 +1,18 @@
+{
+  "dataset_id": "bf899599c4e8-11",
+  "paper_id": "bf899599c4e8",
+  "name": "LDEO-HPD reconstructed surface ocean pCO2",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": "LDEO-HPD (XGBoost + 9 GOBMs hybrid)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": "1° x 1°, monthly (1982–2018)",
+  "produced_in_this_study": true,
+  "access": "https://zenodo.org/record/4760205",
+  "access_kind": "public_url_or_doi"
+}

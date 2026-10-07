@@ -1,0 +1,19 @@
+{
+  "dataset_id": "5319b2b73897-01",
+  "paper_id": "5319b2b73897",
+  "name": "CAM6 Perturbed Parameter Ensemble (PPE)",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": "CAM6",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal",
+    "tabular"
+  ],
+  "size_as_stated": "262 ensemble members each with a unique combination of 45 parameter values; 2 years (2019–2020) for PI and PD emissions",
+  "size_gb_estimate": null,
+  "resolution": "Monthly mean, global grid",
+  "produced_in_this_study": false,
+  "access": "PPE output is available online (Eidhammer, 2023): https://doi.org/10.26024/bzne‐yf09",
+  "access_kind": "public_url_or_doi"
+}

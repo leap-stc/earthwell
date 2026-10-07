@@ -1,0 +1,19 @@
+{
+  "dataset_id": "143b352946ff-01",
+  "paper_id": "143b352946ff",
+  "name": "Computationally generated bullet rosette ice crystal dataset",
+  "role": "both",
+  "source_kind": "simulation",
+  "model_or_instrument": null,
+  "scale": "other",
+  "data_types": [
+    "images",
+    "spatial_3d"
+  ],
+  "size_as_stated": "10,000 geometrically-diverse bullet rosette ice crystals",
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": true,
+  "access": null,
+  "access_kind": "not_stated"
+}

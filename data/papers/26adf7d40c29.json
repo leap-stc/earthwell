@@ -1,0 +1,66 @@
+{
+  "paper_id": "26adf7d40c29",
+  "year": "2",
+  "filename": "Modeling wildfire activity in the western United States with machine learning.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Modeling wildfire activity in the western United States with machine learning",
+  "authors": [
+    "Jatan Buch",
+    "A. Park Williams",
+    "Caroline S Juang",
+    "Winslow D. Hansen",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2022,
+  "venue": "AGU Advances",
+  "doi_or_url": "https://doi.org/10.1002/essoar.10512545.1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "biogeosciences",
+  "processes": [
+    "wildfire ignition and frequency",
+    "wildfire burned area and size distribution",
+    "fuel moisture dynamics",
+    "fire weather interactions",
+    "land-atmosphere interactions"
+  ],
+  "ml_methods": [
+    "Mixture Density Network",
+    "Zero-inflated Poisson lognormal distribution",
+    "Generalized Pareto distribution",
+    "Lognormal distribution",
+    "Spline regression",
+    "SHAP (KernelExplainer)"
+  ],
+  "ml_tasks": [
+    "forecasting",
+    "uncertainty_quantification",
+    "interpretability_xai"
+  ],
+  "parameterization_target": null,
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "The code for reproducing all the figures in this paper is available at: https://github.com/jtbuch/ml-fires.",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study provides a well-defined 12 km regional benchmark dataset across the western US combining comprehensive climate, fuel, and human predictors with publicly accessible fire occurrence and burned area records (WUMI on Dryad) and an open-source GitHub repository.",
+  "pain_points": [
+    "Severe class imbalance: the overwhelming majority of spatiotemporal grid cells have zero fires, requiring downsampling/upsampling techniques and spline calibration.",
+    "Nonstationarity in fire size distributions over multidecadal timescales: fire size extremes shifted significantly post-2004, requiring piecewise reweighting / breakpoint modeling.",
+    "Missing observational data: underrepresentation of small fires (<4 km2) in recent federal agency records (2018-2020) and missing lightning records prior to 1987.",
+    "High false-positive rate when predicting fire occurrences over millions of zero-fire cells.",
+    "Difficulty modeling anomalously extreme years (e.g., 2020) where fire sizes substantially exceeded the historical training distribution."
+  ],
+  "extraction_notes": "The manuscript was submitted to AGU Advances and posted as an ESSOAr preprint in late 2022. It models monthly fire frequency and size distributions at 12 km x 12 km resolution across 18 western US ecoregions using Mixture Density Networks.",
+  "dataset_ids": [
+    "26adf7d40c29-01",
+    "26adf7d40c29-02",
+    "26adf7d40c29-03",
+    "26adf7d40c29-04",
+    "26adf7d40c29-05",
+    "26adf7d40c29-06",
+    "26adf7d40c29-07",
+    "26adf7d40c29-08",
+    "26adf7d40c29-09",
+    "26adf7d40c29-10"
+  ]
+}

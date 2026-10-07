@@ -1,0 +1,18 @@
+{
+  "dataset_id": "fd4ac0550b6f-01",
+  "paper_id": "fd4ac0550b6f",
+  "name": "MetaFlux",
+  "role": "both",
+  "source_kind": "derived_product",
+  "model_or_instrument": "Ensemble of meta-trained deep models (MLP, LSTM, BiLSTM)",
+  "scale": "global_obs",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": "around 50GB",
+  "size_gb_estimate": 50.0,
+  "resolution": "0.25-degree, daily and monthly, 2001-2021",
+  "produced_in_this_study": true,
+  "access": "https://doi.org/10.5281/zenodo.7761881",
+  "access_kind": "public_url_or_doi"
+}

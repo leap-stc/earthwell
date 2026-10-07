@@ -1,0 +1,50 @@
+{
+  "paper_id": "494584d3acc0",
+  "year": "3",
+  "filename": "Learning Atmospheric Boundary Layer Turbulence.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Learning Atmospheric Boundary Layer Turbulence",
+  "authors": [
+    "Sara Shamekh",
+    "Pierre Gentine"
+  ],
+  "pub_year": 2023,
+  "venue": "Journal of Advances in Modeling Earth Systems",
+  "doi_or_url": "https://doi.org/10.22541/essoar.168748456.60017486/v1",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "atmospheric_science",
+  "processes": [
+    "planetary boundary layer turbulence",
+    "vertical turbulent flux",
+    "convective boundary layer mixing",
+    "turbulent kinetic energy transport",
+    "entrainment"
+  ],
+  "ml_methods": [
+    "encoder-decoder",
+    "variational autoencoder",
+    "feed-forward neural network"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "clustering_dimensionality_reduction",
+    "interpretability_xai"
+  ],
+  "parameterization_target": "vertical turbulent fluxes of heat, TKE, and passive tracers",
+  "online_coupled": false,
+  "host_model": null,
+  "code_availability": "https://doi.org/10.5281/zenodo.8039033",
+  "testbed_candidate": true,
+  "testbed_rationale": "High-resolution LES dataset across six shear-to-convection regimes coarse-grained to 1.5 km, designed specifically for training and validating subgrid vertical turbulent flux parameterizations with processing scripts and neural network models archived on Zenodo.",
+  "pain_points": [
+    "Scale and grid dependence: trained on a single horizontal coarse-graining scale (1.5 km, gray zone) and fixed vertical grid discretization rather than being scale-adaptive or grid-agnostic",
+    "Extrapolation failure when generalizing to lower instability parameters (near-neutral / strongly shear-driven regimes) due to lack of self-similarity",
+    "Latent space entanglement in standard VAEs, necessitating a specialized dual-branch encoder-decoder architecture to separate horizontal and vertical TKE modes",
+    "Inability to account for horizontal transport and heterogeneity with a 1D vertical column approach, leading to smoothing of individual profile fluctuations"
+  ],
+  "extraction_notes": "The document is an ESSOAr preprint submitted to JAMES. The Open Research section notes that ML tools and scripts for pre- and post-processing are released at Zenodo (10.5281/zenodo.8039033).",
+  "dataset_ids": [
+    "494584d3acc0-01"
+  ]
+}

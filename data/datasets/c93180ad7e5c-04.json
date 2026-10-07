@@ -1,0 +1,18 @@
+{
+  "dataset_id": "c93180ad7e5c-04",
+  "paper_id": "c93180ad7e5c",
+  "name": "WHO/UNICEF Joint Monitoring Programme (JMP) statistics",
+  "role": "evaluation",
+  "source_kind": "derived_product",
+  "model_or_instrument": null,
+  "scale": "regional",
+  "data_types": [
+    "tabular"
+  ],
+  "size_as_stated": "48 countries for piped water; 27 countries for sanitation",
+  "size_gb_estimate": null,
+  "resolution": "national",
+  "produced_in_this_study": false,
+  "access": "WHO/UNICEF Joint Monitoring Programme for Water Supply and Sanitation (2024)",
+  "access_kind": "public_url_or_doi"
+}

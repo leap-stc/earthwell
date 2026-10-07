@@ -1,0 +1,58 @@
+{
+  "paper_id": "e71b14b65755",
+  "year": "5",
+  "filename": "PIXAL_ A Physics-Informed Explainable Machine Learning Architecture for Greenland Ice Albedo Modeling.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "PIXAL: A Physics-Informed Explainable Machine Learning Architecture for Greenland Ice Albedo Modeling",
+  "authors": [
+    "Raf Antwerpen",
+    "Marco Tedesco",
+    "Pierre Gentine",
+    "Willem Jan van de Berg",
+    "Xavier Fettweis"
+  ],
+  "pub_year": 2026,
+  "venue": "EGUsphere",
+  "doi_or_url": "https://doi.org/10.5194/egusphere-2025-6143",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "cryosphere",
+  "processes": [
+    "ice albedo",
+    "surface melt",
+    "surface mass balance",
+    "snow-ice albedo feedback",
+    "radiative transfer"
+  ],
+  "ml_methods": [
+    "XGBoost",
+    "SHAP",
+    "Random Forest",
+    "symbolic regression"
+  ],
+  "ml_tasks": [
+    "parameterization",
+    "interpretability_xai",
+    "equation_discovery"
+  ],
+  "parameterization_target": "bare-ice albedo",
+  "online_coupled": false,
+  "host_model": "MAR",
+  "code_availability": "The MAR code and output are available from ftp://ftp.climato.be/fettweis/MARv3.12. The code used to analyze the model and satellite data is available upon request from the corresponding author",
+  "testbed_candidate": true,
+  "testbed_rationale": "The study creates a 22-year daily gridded dataset pairing regional climate model (MAR) features with satellite-derived (MODIS) bare ice albedo over southwest Greenland, well suited for training and evaluating scientific ML parameterizations of ice albedo.",
+  "pain_points": [
+    "Analysis and machine learning code are only available upon request from the corresponding author.",
+    "Input MAR features may carry biases caused by MAR's inaccurate native ice albedo parameterization (feedback error propagation).",
+    "Offline parameterization: model was not yet coupled online into MAR or Earth system models.",
+    "Lack of direct representation of light-absorbing constituents (algal blooms, black carbon, mineral dust) and related positive feedbacks.",
+    "Potential out-of-distribution generalization issues for surface elevation under future warming as bare ice expands into higher elevations."
+  ],
+  "extraction_notes": "The preprint date is given as 17 February 2026 on EGUsphere, with DOI registered under 2025 (egusphere-2025-6143). Symbolic regression via PySR and Random Forest were tested as alternative architectures to XGBoost.",
+  "dataset_ids": [
+    "e71b14b65755-01",
+    "e71b14b65755-02",
+    "e71b14b65755-03",
+    "e71b14b65755-04"
+  ]
+}

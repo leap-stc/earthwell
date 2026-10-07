@@ -1,0 +1,44 @@
+{
+  "paper_id": "7d40e13682f1",
+  "year": "4",
+  "filename": "Path-Conservative Well-Balanced High-Order Finite-Volume Solver for the Volume-Averaged Navier–Stokes Equations with Discontinuous Porosity.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "Path-conservative well-balanced high-order finite-volume solver for the volume-averaged Navier–Stokes equations with discontinuous porosity",
+  "authors": [
+    "Jaeyoung Jung",
+    "Manuel Schmid",
+    "Jacob Fish",
+    "Ensheng Weng",
+    "Marco Giometto"
+  ],
+  "pub_year": 2024,
+  "venue": null,
+  "doi_or_url": "https://ssrn.com/abstract=4968375",
+  "doc_kind": "preprint",
+  "in_scope": true,
+  "research_field": "other",
+  "processes": [
+    "canopy flow",
+    "porous media flow",
+    "sub-grid scale turbulence"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": null,
+  "code_availability": null,
+  "testbed_candidate": false,
+  "testbed_rationale": "The paper does not provide machine learning benchmarks or datasets; it introduces a numerical finite-volume solver and exact Riemann solver for 1D idealized volume-averaged Navier-Stokes equations.",
+  "pain_points": [
+    "Discontinuous porosity generates non-conservative products where gradients cannot be defined in classical or distributional senses",
+    "Elliptic pressure Poisson solver in incompressible flow becomes challenging in the presence of discontinuities",
+    "Lack of standardized criteria for choosing physically admissible paths in path-conservative schemes across non-conservative jumps"
+  ],
+  "extraction_notes": "Supported by NSF STC LEAP (Award # 2019625-STC). This is a purely numerical/CFD methodology paper focusing on artificial compressibility, path-conservative WENO methods, and well-balanced schemes for volume-averaged Navier-Stokes equations with discontinuous porosity; no ML models or training are present.",
+  "dataset_ids": [
+    "7d40e13682f1-01"
+  ]
+}

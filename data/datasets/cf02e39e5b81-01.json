@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cf02e39e5b81-01",
+  "paper_id": "cf02e39e5b81",
+  "name": "Community Land Model perturbed physics ensemble",
+  "role": "training",
+  "source_kind": "simulation",
+  "model_or_instrument": "Community Land Model, version 5 (CLM5)",
+  "scale": "GCM_ESM",
+  "data_types": [
+    "spatiotemporal"
+  ],
+  "size_as_stated": null,
+  "size_gb_estimate": null,
+  "resolution": null,
+  "produced_in_this_study": false,
+  "access": "https://doi.org/10.5194/ascmo-6-223-2020",
+  "access_kind": "public_url_or_doi"
+}

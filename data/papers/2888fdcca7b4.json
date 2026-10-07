@@ -1,0 +1,51 @@
+{
+  "paper_id": "2888fdcca7b4",
+  "year": "3",
+  "filename": "How Does the Pinatubo Eruption Influence Our Understanding of Long-Term Changes in Ocean Biogeochemistry_.pdf",
+  "model": "gemini-3.8-flash",
+  "title": "How Does the Pinatubo Eruption Influence Our Understanding of Long-Term Changes in Ocean Biogeochemistry?",
+  "authors": [
+    "Holly C. Olivarez",
+    "Nicole S. Lovenduski",
+    "Yassir A. Eddebbar",
+    "Amanda R. Fay",
+    "Galen A. McKinley",
+    "Michael N. Levy",
+    "Matthew C. Long"
+  ],
+  "pub_year": 2024,
+  "venue": "Geophysical Research Letters",
+  "doi_or_url": "https://doi.org/10.1029/2023GL105431",
+  "doc_kind": "journal_article",
+  "in_scope": true,
+  "research_field": "ocean_biogeochemistry",
+  "processes": [
+    "ocean carbon cycle",
+    "ocean ventilation",
+    "ocean deoxygenation",
+    "apparent oxygen utilization",
+    "air-sea gas exchange",
+    "volcanic aerosol radiative forcing"
+  ],
+  "ml_methods": [],
+  "ml_tasks": [
+    "none"
+  ],
+  "parameterization_target": null,
+  "online_coupled": null,
+  "host_model": "CESM1",
+  "code_availability": "The CESM source code is freely available from NCAR's Community Earth System Model version 2 (CESM2) (Danabasoglu et al., 2020). The code used to generate the main text figures can be found on Zenodo (Olivarez et al., 2023, https://doi.org/10.5281/zenodo.8145484).",
+  "testbed_candidate": false,
+  "testbed_rationale": "The study does not develop, evaluate, or provide data specifically structured for machine learning parameterizations or emulators; it performs climate and ocean biogeochemistry diagnostics using CESM1 large ensembles.",
+  "pain_points": [
+    "Horizontal resolution of the model (~100 km) is coarser than hydrographic measurement spacing (~20 km), requiring spatial aggregation that misses fine-scale structure",
+    "Missing volcanic ash micro-nutrients that can stimulate marine ecosystem carbon uptake",
+    "Ensemble size limits (29 members) when separating forced signals from high internal variability"
+  ],
+  "extraction_notes": "The research focuses purely on Earth System Model ensemble analysis and climate attribution regarding the 1991 Pinatubo eruption's footprint on repeat hydrography biogeochemical indicators. No machine learning techniques are used.",
+  "dataset_ids": [
+    "2888fdcca7b4-01",
+    "2888fdcca7b4-02",
+    "2888fdcca7b4-03"
+  ]
+}
