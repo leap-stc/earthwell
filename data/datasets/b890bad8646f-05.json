@@ -15,5 +15,22 @@
   "resolution": "GCM grid, subsetted to New York City coordinates [40.7°N, -74.0°W]",
   "produced_in_this_study": false,
   "access": "ESGF distributed index API",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM",
+      "regional"
+    ],
+    "dx_min_m": 50000.0,
+    "dx_max_m": 250000.0,
+    "extent_m": 100000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 2710000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CMIP6 multi-model ensemble SSP2-4.5 temperature projections spatially subsetted to NYC (2015-2100, annual means).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": 25.0,
+    "dx_max_m": 50.0,
+    "extent_m": 6400.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 21600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "135 CM1-TAU bin microphysics LES runs based on the standard DYCOMS-II RF02 stratocumulus setup (Ackerman et al. 2009; typically 6.4 km domain, 6 h simulation with statistics over last 2 h).",
+    "model": "gemini-3.8-flash"
+  }
 }

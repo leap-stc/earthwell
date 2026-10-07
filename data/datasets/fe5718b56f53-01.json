@@ -15,5 +15,21 @@
   "resolution": "LLC270 grid (~1/3 degree)",
   "produced_in_this_study": true,
   "access": "http://data.nas.nasa.gov/ecco/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 18000.0,
+    "dx_max_m": 40000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1167696000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ECCO LLC270 grid has variable resolution of ~1/3 degree (approx. 18 to 40 km); simulations run from 1985 to 2021 (37 years) with monthly to annual flux outputs analyzed.",
+    "model": "gemini-3.8-flash"
+  }
 }

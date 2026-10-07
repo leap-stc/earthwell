@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "DNS"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Conference abstract provides no numerical spatial or temporal parameters for the fine-resolution canopy flow reference simulations.",
+    "model": "gemini-3.8-flash"
+  }
 }

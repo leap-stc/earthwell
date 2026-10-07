@@ -14,5 +14,23 @@
   "resolution": "1.9°×2.5°×15 min, 30 vertical levels, embedded CRM 4 km resolution",
   "produced_in_this_study": true,
   "access": "Codebase archived at https://github.com/mspritch/UltraCAM-spcam2_0_cesm1_1_1",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM",
+      "CRM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 900.0,
+    "dt_max_s": 900.0,
+    "duration_s": 315360000.0,
+    "size_gb": 3400.0,
+    "basis": "stated",
+    "note": "10-year (3650 days) SPCAM5 simulation at 1.9x2.5 deg with 4 km embedded CRM columns; size stated as 1.3 TB for 100 days and 3.4 TB for 90 days.",
+    "model": "gemini-3.8-flash"
+  }
 }

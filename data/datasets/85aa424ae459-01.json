@@ -14,5 +14,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 31000.0,
+    "dx_max_m": 31000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 1420000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Standard ERA5 reanalysis resolution (~0.25 degree / 31 km hourly globally, spanning 1979 to present).",
+    "model": "gemini-3.8-flash"
+  }
 }

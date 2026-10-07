@@ -14,5 +14,21 @@
   "resolution": "1.5 degree (or 0.25 degree), daily (00UTC), 1979 to present",
   "produced_in_this_study": true,
   "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1420000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5-Land (LRA5) reanalysis sampled daily at 00UTC on a 1.5 deg grid across 45 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

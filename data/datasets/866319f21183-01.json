@@ -15,5 +15,21 @@
   "resolution": "0.9° x 1.25°, 32 vertical levels (analyzed between 65.5°S and 65.5°N)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.22943628",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 99900.0,
+    "dx_max_m": 138750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 94608000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CAM6 0.9x1.25 degree 3-year PPE simulations (100 members) with monthly archived output, analyzed between 65.5S and 65.5N.",
+    "model": "gemini-3.8-flash"
+  }
 }

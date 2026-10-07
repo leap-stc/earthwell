@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 7000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ModelE-BiomeE demographic vegetation model simulations over South America driven by processed 0.25 degree ERA5 data.",
+    "model": "gemini-3.8-flash"
+  }
 }

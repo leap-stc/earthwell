@@ -14,5 +14,22 @@
   "resolution": "1.27° × 2.5°",
   "produced_in_this_study": false,
   "access": "https://ads.atmosphere.copernicus.eu/datasets/cams-global-greenhouse-gas-inversion?tab=overview",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 141000.0,
+    "dx_max_m": 278000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 631152000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CAMS greenhouse gas inversion grid specified at 1.27° × 2.5° horizontal resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

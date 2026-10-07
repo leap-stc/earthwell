@@ -15,5 +15,21 @@
   "resolution": "1/4° (coarse/parameterized) and 1/32° (reference)",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.16058005 (simulation data) and https://doi.org/10.26024/f130-ev71 (high-resolution baseline)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3469.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 7770000.0,
+    "dt_min_s": null,
+    "dt_max_s": 432000.0,
+    "duration_s": 2592000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NeverWorld2 idealized basin (70 deg extent ~7770 km, 15 layers) simulated at 1/32 deg to 1/4 deg for 30,000 days (2.59e9 s); 160 snapshots across last 800 days (~5-day / 4.32e5 s interval).",
+    "model": "gemini-3.8-flash"
+  }
 }

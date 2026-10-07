@@ -14,5 +14,21 @@
   "resolution": "0.1°, resampled to 0.083° x 0.083°",
   "produced_in_this_study": false,
   "access": "http://www.gloh2o.org/mswep/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 9213.0,
+    "dx_max_m": 11100.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 118000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "MSWEP v2.8 3-hourly 0.1-degree precipitation dataset resampled to 0.083 degrees",
+    "model": "gemini-3.8-flash"
+  }
 }

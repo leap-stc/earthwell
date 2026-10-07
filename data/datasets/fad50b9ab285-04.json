@@ -15,5 +15,21 @@
   "resolution": "59 Community Board district polygons (DISs)",
   "produced_in_this_study": false,
   "access": "https://data.cityofnewyork.us",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": 3700.0,
+    "extent_m": 50000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Static GIS geospatial datasets (elevation points, slope, building footprints, land area, impervious cover) aggregated to 59 NYC districts.",
+    "model": "gemini-3.8-flash"
+  }
 }

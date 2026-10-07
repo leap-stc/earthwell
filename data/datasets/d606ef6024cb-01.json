@@ -14,5 +14,22 @@
   "resolution": "(2.8°×2.8°) T42 × 30 levels × 30 min",
   "produced_in_this_study": true,
   "access": "Raw output of the (+0K) simulation can be found at https://zenodo.org/record/1402384#.YaUCsdDMI-w. The full simulations output, which is several TB, is archived on the GreenPlanet cluster at UC Irvine and available upon request. Data accompanying paper: https://doi.org/10.5281/zenodo.8140536",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 310800.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 63072000.0,
+    "size_gb": 3000.0,
+    "basis": "estimated_from_paper",
+    "note": "2-year global aquaplanet simulation; coarse GCM resolution is T42 (~2.8 deg, ~311 km) with 30-min output; embedded SAM CRM has 4 km resolution; size described as several TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

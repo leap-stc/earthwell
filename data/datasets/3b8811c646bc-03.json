@@ -14,5 +14,21 @@
   "resolution": "Hourly aggregated to daily, 0.25° x 0.25°; 2015-04-01 to 2020-12-31",
   "produced_in_this_study": false,
   "access": "https://cds.climate.copernicus.eu/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 181526400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "ERA5 hourly total precipitation and evaporation aggregated to daily, 0.25 deg resolution (~28 km), spanning 2015-04-01 to 2020-12-31.",
+    "model": "gemini-3.8-flash"
+  }
 }

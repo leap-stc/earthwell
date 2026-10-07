@@ -15,5 +15,21 @@
   "resolution": "Individual observations and 4° x 5° grid",
   "produced_in_this_study": false,
   "access": "https://www.ncei.noaa.gov/data/oceans/ncei/ocads/metadata/0160492.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 444000.0,
+    "dx_max_m": 555000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1956500000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "LDEO surface pCO2 database spanning 1957 to 2019, gridded on a global 4x5 degree monthly climatology",
+    "model": "gemini-3.8-flash"
+  }
 }

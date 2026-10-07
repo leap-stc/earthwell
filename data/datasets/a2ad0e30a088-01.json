@@ -14,5 +14,21 @@
   "resolution": "2° latitude by 2.5° longitude (90 x 144 grid), 62 vertical levels, 30-minute intervals",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Global simulation of 1950-1951 (35,040 half-hour timesteps) at 2° latitude by 2.5° longitude.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "1.5° (121x240 grid), daily temporal resolution, 8 atmospheric variables/levels",
   "produced_in_this_study": false,
   "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 2180.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1420000000.0,
+    "size_gb": 15.3,
+    "basis": "estimated_from_paper",
+    "note": "ChaosBench S2S atmospheric data spanning 1979-2023 (45 years) at daily resolution on a global 1.5 degree grid with 8 variables",
+    "model": "gemini-3.8-flash"
+  }
 }

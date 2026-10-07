@@ -15,5 +15,21 @@
   "resolution": "N320 reduced Gaussian and T639 spectral remapped to ~80 km ICON grid with 27 vertical levels",
   "produced_in_this_study": false,
   "access": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS), doi: 10.24381/cds.bd0915c6",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 31000.0,
+    "dx_max_m": 80000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 1357000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5/ERA5.1 reanalysis from 1979 to 2021 sampled the first day of each quarter at 3-hourly intervals, remapped to ~80 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

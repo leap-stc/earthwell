@@ -14,5 +14,22 @@
   "resolution": "1.5° (21,600 columns on cube-sphere grid), 60 vertical levels, 20-min timestep",
   "produced_in_this_study": true,
   "access": "https://huggingface.co/datasets/LEAP/ClimSim_high-res",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1200.0,
+    "dt_max_s": 1200.0,
+    "duration_s": 315360000.0,
+    "size_gb": 41200.0,
+    "basis": "stated",
+    "note": "Horizontal resolution stated as ~1.5 degrees (166.5 km) on a cube-sphere mesh with 21,600 columns; 10 years at 20-min frequency.",
+    "model": "gemini-3.8-flash"
+  }
 }

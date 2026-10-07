@@ -15,5 +15,21 @@
   "resolution": "1 degree climatological grid",
   "produced_in_this_study": false,
   "access": "https://www.ncei.noaa.gov/archive/accession/NCEI-WOA18",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "World Ocean Atlas 2018 (WOA18) 1-degree climatological gridded fields used for SST validation.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "Multi-model",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.8335419 via LEAP-Pangeo",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 250000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CMIP6 multi-model historical and SSP2-4.5 ensemble simulations analyzed for 1990–2019 annual-mean SST trends.",
+    "model": "gemini-3.8-flash"
+  }
 }

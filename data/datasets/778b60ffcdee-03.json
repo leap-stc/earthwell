@@ -14,5 +14,22 @@
   "resolution": "Horizontal 25–50 m, vertical 5 m near inversion",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES",
+      "column_or_box"
+    ],
+    "dx_min_m": 25.0,
+    "dx_max_m": 50.0,
+    "extent_m": 5000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CGILS LES intercomparison simulations with 25 to 50 m horizontal resolution over domains a few kilometers across at three Pacific locations.",
+    "model": "gemini-3.8-flash"
+  }
 }

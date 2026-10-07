@@ -15,5 +15,22 @@
   "resolution": "Coarse horizontal resolution ~300 km near equator, 30 vertical hybrid levels, 30-min time step; embedded CRM has 8 2D columns at 4 km sub-grid resolution and 20 s time step",
   "produced_in_this_study": false,
   "access": "The full SPCAM raw data, of the order of several TBs, is archived on the GreenPlanet cluster at UC Irvine and available upon request. Additionally the preprocessed SPCAM data, of the order of 1 TB, used in this study is archived on DKRZ and is also available upon request. An example of SPCAM data was archived on Zenodo for Rasp et al. (2018) and can be found here: https://zenodo.org/record/2559313#.YlVG0tPP25c.",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 300000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 63072000.0,
+    "size_gb": 1000.0,
+    "basis": "stated",
+    "note": "2-year global aquaplanet SPCAM v3.0 simulation on ~300 km GCM grid with embedded 4 km CRM columns; saved at 30-min output interval (~1 TB preprocessed data).",
+    "model": "gemini-3.8-flash"
+  }
 }

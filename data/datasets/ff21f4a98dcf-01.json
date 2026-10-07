@@ -15,5 +15,22 @@
   "resolution": "half-hourly/hourly and integrated daily",
   "produced_in_this_study": false,
   "access": "https://fluxnet.org/data/fluxnet2015-dataset/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 86400.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "FLUXNET2015 FULLSET observations from 212 globally distributed towers with half-hourly to daily intervals.",
+    "model": "gemini-3.8-flash"
+  }
 }

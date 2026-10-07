@@ -15,5 +15,21 @@
   "resolution": "1 km spatial, 1-hour temporal",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.56272/fpib2524",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 1000.0,
+    "extent_m": 200000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 157788000.0,
+    "size_gb": 72.0,
+    "basis": "estimated_from_paper",
+    "note": "Cropped 200x200 pixel scenes at 1 km resolution with hourly temporal sampling across 2018-2022 (5 years); ~18,000 hourly observations with 25 satellite and ERA5 channels.",
+    "model": "gemini-3.8-flash"
+  }
 }

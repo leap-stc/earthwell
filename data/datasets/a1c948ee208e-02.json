@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "Placing data and code on GitHub allowed outsiders to download, run themselves, and explore places where something could be going wrong.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "US state and national polling and economic data updated daily during the presidential campaign.",
+    "model": "gemini-3.8-flash"
+  }
 }

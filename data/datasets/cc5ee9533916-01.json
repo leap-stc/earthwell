@@ -14,5 +14,21 @@
   "resolution": "256x256 (3.9 km) highres and 64x64 (15.6 km) lowres, 2 vertical layers; domain 10^6 m x 10^6 m",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.6609034",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3906.25,
+    "dx_max_m": 15625.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 7200.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Idealized 2-layer quasi-geostrophic ocean model on a 1000 km periodic domain; high-res (256x256, dt=1 h) and low-res (64x64, dt=2 h) simulations run for 10 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

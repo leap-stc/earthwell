@@ -15,5 +15,21 @@
   "resolution": "1° x 1° gridded / point observations",
   "produced_in_this_study": false,
   "access": "https://www.socat.info; doi:10.25921/4xkx-ss49",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1576800000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "SOCAT compiles multi-decadal (1970–2020, ~50 yr) surface pCO2 data, commonly mapped onto monthly to annual 1° x 1° grids.",
+    "model": "gemini-3.8-flash"
+  }
 }

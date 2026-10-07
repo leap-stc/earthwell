@@ -15,5 +15,22 @@
   "resolution": "resampled to 1.5-degree grid, daily",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site",
+      "global_obs"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 725846400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CPC global rain gauge precipitation resampled to 1.5-degree daily grid over 2000-2022.",
+    "model": "gemini-3.8-flash"
+  }
 }

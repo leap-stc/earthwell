@@ -15,5 +15,21 @@
   "resolution": "daily, 0.5 m vertical depth intervals",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "column_or_box"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 6325.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1096502400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "1D thermodynamic lake model (GLM) daily simulations resolved vertically at 0.5 m intervals for Lake Mendota (approx. 40 km^2 area) from 1980-04-02 to 2014-12-30.",
+    "model": "gemini-3.8-flash"
+  }
 }

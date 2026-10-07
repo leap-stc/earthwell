@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 55000.0,
+    "dx_max_m": 55000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 2019686400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "JRA55-do surface atmospheric forcing and runoff data set (T319, ~55 km, 3-hourly) used to drive SPEAR ice-ocean from 1958 through 2021.",
+    "model": "gemini-3.8-flash"
+  }
 }

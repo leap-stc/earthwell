@@ -14,5 +14,21 @@
   "resolution": "0.05 degree, 4-day",
   "produced_in_this_study": false,
   "access": "https://osf.io/8xqy6/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 5550.0,
+    "dx_max_m": 5550.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 345600.0,
+    "duration_s": 650000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CSIF product provided at 0.05 degree, 4-day interval, resampled to daily.",
+    "model": "gemini-3.8-flash"
+  }
 }

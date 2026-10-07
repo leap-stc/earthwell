@@ -14,5 +14,21 @@
   "resolution": "1 km lateral resolution, 5 vertical layers (0.1, 0.3, 0.6, 1.0, and 100 m thick), 120 h simulation duration",
   "produced_in_this_study": true,
   "access": "The ParFlow hydrologic model is available in GitHub at: https://github.com/parflow/parflow (accessed on 21 November 2021). The ParFlow-ML emulator is available in GitHub at: https://github.com/hoangtv1899/ParFlow-NN (accessed on 21 November 2021).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 1000.0,
+    "extent_m": 35000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 432000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ParFlow simulations on Taylor River (1236 km^2, ~35 km extent) and Little Washita (600 km^2) basins across 24 120-hour scenarios output hourly.",
+    "model": "gemini-3.8-flash"
+  }
 }

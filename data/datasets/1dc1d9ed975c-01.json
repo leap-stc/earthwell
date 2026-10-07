@@ -15,5 +15,23 @@
   "resolution": "Host GCM: 1.9° x 2.5°; Embedded CRM: 128 columns spaced 4 km apart (512 km physical extent), 30 vertical levels; 15S-15N latitude band",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "CRM",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": 3400.0,
+    "basis": "stated",
+    "note": "SPCAM MMF with embedded 4 km CRM (512 km extent) in a 1.9 x 2.5 deg GCM analyzed across the 15S-15N tropical belt; 3.4 TB total data volume stated.",
+    "model": "gemini-3.8-flash"
+  }
 }

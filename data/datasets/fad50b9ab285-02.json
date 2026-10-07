@@ -15,5 +15,21 @@
   "resolution": "4 km by 4 km, hourly totals aggregated to daily max hourly rainfall (MR), 2010-01-01 to 2019-12-31",
   "produced_in_this_study": false,
   "access": "https://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=21.093",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 4000.0,
+    "extent_m": 50000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 315532800.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NCEP/EMC Stage IV 4 km gridded radar rainfall gathered at hourly resolution and aggregated to daily maximum hourly rainfall over NYC for 2010-2019.",
+    "model": "gemini-3.8-flash"
+  }
 }

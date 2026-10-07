@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://pan.bnu.edu.cn/l/KnHzUj and https://isp.uv.es/code/try.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 50000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Static global upscaled maps of terrestrial N and P resorption efficiency and leaf concentrations.",
+    "model": "gemini-3.8-flash"
+  }
 }

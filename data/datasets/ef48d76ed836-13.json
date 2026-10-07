@@ -14,5 +14,22 @@
   "resolution": "0.5° × 0.5°",
   "produced_in_this_study": false,
   "access": "https://esgf-node.llnl.gov/search/create-ip/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 55500.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2592000.0,
+    "duration_s": 1293840000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NCEP CFSR global reanalysis SWE dataset at 0.5° x 0.5° spanning 1979-2019.",
+    "model": "gemini-3.8-flash"
+  }
 }

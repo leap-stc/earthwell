@@ -14,5 +14,21 @@
   "resolution": "1° x 1°, monthly (1959–2020)",
   "produced_in_this_study": false,
   "access": "Friedlingstein et al. (2022) / Global Carbon Budget",
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1957000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Eight GOBM simulations covering 1959 to 2020 regridded to 1° x 1° monthly resolution",
+    "model": "gemini-3.8-flash"
+  }
 }

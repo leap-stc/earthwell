@@ -14,5 +14,21 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 441763200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "FLUXCOM and FLUXCOM-X daily GPP products extracted and evaluated at tower site locations over the study period.",
+    "model": "gemini-3.8-flash"
+  }
 }

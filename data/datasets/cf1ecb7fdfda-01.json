@@ -14,5 +14,21 @@
   "resolution": "half-hourly",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.7078500",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Half-hourly eddy covariance flux measurements across 6 selected forest and grassland sites from FLUXNET 2015 Tier 1",
+    "model": "gemini-3.8-flash"
+  }
 }

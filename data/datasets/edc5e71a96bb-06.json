@@ -15,5 +15,22 @@
   "resolution": "Monthly climatology (2002-2017)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1029/2021MS002620, https://doi.org/10.1029/2021MS002960",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 504921600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Observation-based surface ocean pCO2 reconstructions on a 1x1 degree grid, analyzed as 2002-2017 monthly climatology.",
+    "model": "gemini-3.8-flash"
+  }
 }

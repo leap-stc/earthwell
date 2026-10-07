@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 86400.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global network of over 100 in-situ eddy covariance tower sites; typically half-hourly to daily measurements.",
+    "model": "gemini-3.8-flash"
+  }
 }

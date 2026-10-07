@@ -14,5 +14,21 @@
   "resolution": "2° × 2°, monthly",
   "produced_in_this_study": false,
   "access": "https://psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1136073600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA ERSST v5 monthly sea surface temperature on a 2-degree global grid (89x180) over 1979-2014 (36 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -17,5 +17,22 @@
   "resolution": "2.3 µm pixel size for imagery; 10-minute intervals along 7-hour back-trajectories (L=50 timesteps); WRF nested grids at 25, 5, and 1 km",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.19995429",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site",
+      "regional"
+    ],
+    "dx_min_m": 2.3e-06,
+    "dx_max_m": 25000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 600.0,
+    "dt_max_s": 600.0,
+    "duration_s": 2678400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CPI pixel resolution is 2.3 um; WRF domains are 1-25 km across ~2500 km outer domain; 10-min trajectory steps over July 2002 campaign.",
+    "model": "gemini-3.8-flash"
+  }
 }

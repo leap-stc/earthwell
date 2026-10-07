@@ -14,5 +14,21 @@
   "resolution": "167 counties across New York, California, and Michigan (2014)",
   "produced_in_this_study": false,
   "access": "https://www2.census.gov/programs-surveys/acs/data/pums/ and https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/2021-measures",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "2014 county-level socioeconomic and health survey data for 167 counties across New York, California, and Michigan.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,22 @@
   "resolution": "point-wise in situ profiles and transects",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 947000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "In situ validation observations from time-series stations and ship cruises over 1990–2019",
+    "model": "gemini-3.8-flash"
+  }
 }

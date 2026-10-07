@@ -14,5 +14,21 @@
   "resolution": "0.25 degree, 3-hourly (and hourly), 5x5 degree boxes around stations, 1979-2017",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1002/qj.3803",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 555000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 1230768000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 reanalysis variables extracted on 20x20 grid cells (5x5 degrees, ~0.25 degree resolution) around each station, 3-hourly from 1979 to 2017.",
+    "model": "gemini-3.8-flash"
+  }
 }

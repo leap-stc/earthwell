@@ -15,5 +15,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 11000.0,
+    "dx_max_m": 280000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ClimateBench v2 composite benchmark collection including global observation grids (0.1 deg IMERG to 2.5 deg GPCP/CERES), daily to monthly intervals, and ESMs/paleo records.",
+    "model": "gemini-3.8-flash"
+  }
 }

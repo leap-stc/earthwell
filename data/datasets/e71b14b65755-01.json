@@ -16,5 +16,21 @@
   "resolution": "6.5 km grid, daily (JJA 2000-2021)",
   "produced_in_this_study": true,
   "access": "ftp://ftp.climato.be/fettweis/MARv3.12",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 6500.0,
+    "dx_max_m": 6500.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 694310400.0,
+    "size_gb": 0.3,
+    "basis": "estimated_from_paper",
+    "note": "MAR v3.12 run at 6.5 km grid spacing over the Greenland Ice Sheet with daily outputs for JJA 2000-2021.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "0.50°, 3 h",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 55500.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 1956528000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Japanese 55-year Reanalysis (JRA-55) at 0.5° spatial, 3-hourly temporal resolution, 1958-present.",
+    "model": "gemini-3.8-flash"
+  }
 }

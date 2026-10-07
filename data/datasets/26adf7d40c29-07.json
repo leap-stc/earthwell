@@ -14,5 +14,21 @@
   "resolution": "Monthly strike density (1987-2020) at 12 km x 12 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 1072958400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NLDN lightning strike density aggregated to monthly 12 km grid; active 1987-2020 (34 years)",
+    "model": "gemini-3.8-flash"
+  }
 }

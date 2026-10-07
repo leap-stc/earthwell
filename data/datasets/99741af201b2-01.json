@@ -15,5 +15,21 @@
   "resolution": "128 × 128 × 288 (interpolated to 128 × 128 × 64); domain [0, 2πh] × [0, 4/3 πh] × [0, h]",
   "produced_in_this_study": true,
   "access": "Scripts and datasets generated as part of this study are available from the corresponding author on reasonable request.",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "DNS"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": 75.5,
+    "basis": "estimated_from_paper",
+    "note": "Dimensionless DNS open-channel flow (Re_tau = 250); SI length/time scales not defined. Size estimated for 6,000 snapshots of interpolated 128x128x64 grid with 3 velocity components in 32-bit float.",
+    "model": "gemini-3.8-flash"
+  }
 }

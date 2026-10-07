@@ -15,5 +15,21 @@
   "resolution": "(1.4 × 1.8) km2 footprint, 16-day revisit",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1400.0,
+    "dx_max_m": 1800.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1382400.0,
+    "dt_max_s": 1382400.0,
+    "duration_s": 31622400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CloudSat footprint is 1.4 x 1.8 km2 with a 16-day revisit time; year 2008 subset is used.",
+    "model": "gemini-3.8-flash"
+  }
 }

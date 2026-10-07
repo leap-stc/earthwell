@@ -14,5 +14,23 @@
   "resolution": "embedded 2D CRM with 32 columns at 4-km horizontal resolution, 30-minute timestep, 30 vertical levels; aquaplanet",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM",
+      "CRM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 310000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "SPCAM 3 aquaplanet runs with embedded 32-column 4-km CRM in standard T42 (~2.8 deg / 310 km) host GCM; 30-min timestep evaluated over 1-year coupled runs.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "0.1° ocean, 0.5° atmosphere",
   "produced_in_this_study": false,
   "access": "The raw data used in this study is available in cloud storage (urls can be found in the above code https://github.com/ocean-transport/scale-aware-air-sea).",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 630720000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GFDL CM2.6 coupled model with 0.1 degree ocean and 0.5 degree atmosphere, using daily averages over 20 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

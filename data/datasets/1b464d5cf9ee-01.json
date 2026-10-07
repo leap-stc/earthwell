@@ -14,5 +14,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://doi.org/10.48550/arXiv.2306.08754",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1200.0,
+    "dt_max_s": 1200.0,
+    "duration_s": 315360000.0,
+    "size_gb": 42000.0,
+    "basis": "estimated_from_paper",
+    "note": "ClimSim benchmark dataset generated with E3SM-MMF (~100-110 km grid, 20-min timestep, 10-year simulation length, ~42 TB uncompressed).",
+    "model": "gemini-3.8-flash"
+  }
 }

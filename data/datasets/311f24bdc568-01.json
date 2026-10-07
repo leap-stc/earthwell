@@ -14,5 +14,21 @@
   "resolution": "1.40625° horizontal grid, 13 pressure levels (50–1000 hPa), 6-hour temporal intervals",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 156094.0,
+    "dx_max_m": 156094.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 1230883200.0,
+    "size_gb": 480.0,
+    "basis": "estimated_from_paper",
+    "note": "Regridded ERA5 global data at 1.40625 degrees on a 256x128 grid across 69 variables, 6-hourly intervals from 1979 through 2017.",
+    "model": "gemini-3.8-flash"
+  }
 }

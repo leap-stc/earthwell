@@ -14,5 +14,21 @@
   "resolution": "monthly 1°x1°",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.10621538",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1293840000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CMIP6 ESM testbed re-gridded and sampled monthly at 1x1 degree resolution over 1982-2022 across 45 ensemble members.",
+    "model": "gemini-3.8-flash"
+  }
 }

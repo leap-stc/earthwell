@@ -14,5 +14,21 @@
   "resolution": "Remapped to 73 × 144 (Z500), 72 × 144 (precip), 89 × 180 (SST)",
   "produced_in_this_study": false,
   "access": "https://leap-stc.github.io/intro.html",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1167609600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Monthly CMIP6 historical model runs remapped to 2.5-degree atmospheric grids and 2.0-degree SST grid across 1979-2014/2015.",
+    "model": "gemini-3.8-flash"
+  }
 }

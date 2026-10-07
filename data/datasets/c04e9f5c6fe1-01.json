@@ -14,5 +14,21 @@
   "resolution": "Employer, firm, occupation, industry, and MSA level (2012-2024 annual)",
   "produced_in_this_study": true,
   "access": "Data and code for peer review are available at the Harvard Dataverse: https://dataverse.harvard.edu/previewurl.xhtml?token=6b2aaf09-ee12-4e75-b830-36889c01800e. The data will be made publicly available via a public-facing website, an anonymized version of which is available here: https://pow-anon.vercel.app/.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 409968000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Annual organizational and demographic panel dataset spanning 2012-2024 (13 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

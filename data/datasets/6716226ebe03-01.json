@@ -15,5 +15,21 @@
   "resolution": "1D vertical profiles",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "column_or_box"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "1D vertical single-column second-moment closure (SMC) simulations of ocean surface boundary layer turbulence.",
+    "model": "gemini-3.8-flash"
+  }
 }

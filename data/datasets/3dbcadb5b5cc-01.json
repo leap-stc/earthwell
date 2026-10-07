@@ -15,5 +15,22 @@
   "resolution": "2.5 km horizontal, 75 vertical layers, hourly output",
   "produced_in_this_study": false,
   "access": "Primary data used in this work is archived by the Max Planck Institute for Meteorology (contact: marco.giorgetta@mpimet.mpg.de).",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "CRM",
+      "regional"
+    ],
+    "dx_min_m": 2500.0,
+    "dx_max_m": 2500.0,
+    "extent_m": 9200000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 6195600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Limited-area storm-resolving ICON simulations covering 10S-20N, 68W-15E over ~2 months (1721 hourly output steps) across 75 vertical levels.",
+    "model": "gemini-3.8-flash"
+  }
 }

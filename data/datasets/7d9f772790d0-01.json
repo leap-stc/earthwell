@@ -14,5 +14,21 @@
   "resolution": "T31 (monthly climatology)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.18334906",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 444000.0,
+    "dx_max_m": 444000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2592000.0,
+    "dt_max_s": 2592000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Monthly SST climatology derived from 1979-2008 ERA-Interim reanalysis interpolated to T31 resolution (~4 degrees).",
+    "model": "gemini-3.8-flash"
+  }
 }

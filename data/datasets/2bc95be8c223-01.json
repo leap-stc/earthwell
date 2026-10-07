@@ -15,5 +15,21 @@
   "resolution": "half-hourly to hourly",
   "produced_in_this_study": false,
   "access": "https://ameriflux.lbl.gov/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 115000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Half-hourly to hourly observations from 77 AmeriFlux eddy covariance sites across CONUS from May 2017 to December 2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

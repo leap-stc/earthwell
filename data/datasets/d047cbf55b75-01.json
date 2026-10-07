@@ -14,5 +14,22 @@
   "resolution": "256 x 256 px",
   "produced_in_this_study": false,
   "access": "Retrieved using Google Earth Engine API",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 10.0,
+    "dx_max_m": 30.0,
+    "extent_m": 8000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 94608000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Sentinel-2 (10 m) and Landsat 8 (30 m) optical imagery covering 50 African countries across 2019-2021",
+    "model": "gemini-3.8-flash"
+  }
 }

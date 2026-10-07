@@ -14,5 +14,22 @@
   "resolution": "256x256 high-resolution filtered and coarse-grained to 64x64, 2 vertical layers",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "LES",
+      "regional"
+    ],
+    "dx_min_m": 3906.25,
+    "dx_max_m": 15625.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Pyqg 2-layer quasi-geostrophic ocean model on a standard 1000 km square domain; 256x256 high-resolution downsampled to 64x64.",
+    "model": "gemini-3.8-flash"
+  }
 }

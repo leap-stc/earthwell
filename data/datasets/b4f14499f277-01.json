@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": "https://dataverse.jpl.nasa.gov/dataverse/jor",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Mentioned in Open Research section for flux footprints and column uncertainty analysis without specific spatio-temporal parameters.",
+    "model": "gemini-3.8-flash"
+  }
 }

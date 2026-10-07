@@ -14,5 +14,21 @@
   "resolution": "High resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 10000.0,
+    "dx_max_m": 25000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": 2592000.0,
+    "duration_s": 978307200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CESM1 MESACLIP high-resolution coupled simulations evaluating sea level variability from 1993 to 2023 (31 years) with ~0.1° ocean and ~0.25° atmosphere.",
+    "model": "gemini-3.8-flash"
+  }
 }

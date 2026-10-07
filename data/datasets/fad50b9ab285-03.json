@@ -14,5 +14,21 @@
   "resolution": "Daily totals of precipitation (TR) and snow (SN), 2010-01-01 to 2019-12-31",
   "produced_in_this_study": false,
   "access": "https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 315532800.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NOAA GHCN-Daily weather station measurements at Central Park, NY (daily total rainfall and snowfall) for 2010-2019 (3652 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

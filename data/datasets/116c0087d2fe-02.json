@@ -15,5 +15,21 @@
   "resolution": "925 hPa profile level / global",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Suite of 36 global satellite observational datasets representing the program of record (POR) for atmospheric state and cloud baseline constraints.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "25 km EASE-Grid, 2002-2011 (AMSR-E) and 2015-2020 (AMSR2)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5067/AMSR-E/AE_LAND3.002 and https://doi.org/10.5067/IKQ0G7ODMLC7",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 25000.0,
+    "dx_max_m": 25000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 574000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "AMSR-E (2002-2011) and AMSR2 (2015-2020) brightness temperature on 25 km EASE-Grid.",
+    "model": "gemini-3.8-flash"
+  }
 }

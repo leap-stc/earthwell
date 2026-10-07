@@ -14,5 +14,21 @@
   "resolution": "64 x 64 regular grid, 6-hour cadence",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 347155200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 patch over North America interpolated to 64x64 grid at 6-hour cadence (21600 s) spanning 2006-2016 (11 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

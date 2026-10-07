@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "Walker, 1980; Pyle 1989; Bonadonna and Costa, 2012",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 123000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Extent estimated from the square root of the thinnest isopach area (123 km) for the Taupo Pumice Fall deposit.",
+    "model": "gemini-3.8-flash"
+  }
 }

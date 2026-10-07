@@ -15,5 +15,21 @@
   "resolution": "Coarsened to coastal masks around Greenland and Antarctica",
   "produced_in_this_study": false,
   "access": "https://portal.nccs.nasa.gov/datashare/GISS_modelE/modelE_input_data/fw_anom/v1.0/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 500000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Reconstructed annual freshwater flux anomalies from Greenland and Antarctic ice sheets/shelves mapped onto ~100–500 km coastal masks.",
+    "model": "gemini-3.8-flash"
+  }
 }

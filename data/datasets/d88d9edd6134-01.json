@@ -14,5 +14,21 @@
   "resolution": "1° horizontal resolution, 5-day mean / cycles",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.7818178",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 432000.0,
+    "dt_max_s": 432000.0,
+    "duration_s": 1136073600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "SPEAR MOM6-SIS2 DA simulation (1982-2017 = 36 years), 1° resolution, 5-day cycle increments",
+    "model": "gemini-3.8-flash"
+  }
 }

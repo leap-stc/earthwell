@@ -14,5 +14,21 @@
   "resolution": "96km × 96km (coarse-grained by factor of 8) × 48 levels × 180 min",
   "produced_in_this_study": false,
   "access": "The initial sounding, meridional surface temperature profile, and source code to re-run the simulation can be found at https://zenodo.org/record/4118346#.YaT_WtBKg-w. The output from the SAM simulations, which is several TB, is archived at MIT and is available upon request. Paper accompanying data: https://doi.org/10.5281/zenodo.8140536",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "CRM"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 96000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 50716800.0,
+    "size_gb": 3000.0,
+    "basis": "estimated_from_paper",
+    "note": "Quasi-global aquaplanet CRM coarse-grained by factor of 8 to 96 km with 180-min sampling; run span covers at least 587 days; size stated as several TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

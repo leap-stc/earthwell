@@ -14,5 +14,22 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": "waterdata.usgs.gov",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 2500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 2840140800.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "117 USGS stream gauges across the Mississippi River Basin with daily records spanning 1936-2025 (90 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

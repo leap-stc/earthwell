@@ -14,5 +14,21 @@
   "resolution": "1° latitude by 1° longitude, monthly, 1959–2020",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 1956528000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Eight GOBM models standardized/analyzed on a 1 degree by 1 degree grid at monthly resolution from 1959 to 2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

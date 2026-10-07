@@ -14,5 +14,22 @@
   "resolution": "Household / county level",
   "produced_in_this_study": false,
   "access": "Full Risk Rating 2.0 (RR2) premiums may be obtained from FEMA via a Freedom of Information Act (FOIA) (60) request (reference request, #2024-FEFO-00939).",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 5000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Full Risk Rating 2.0 premium dataset from FEMA FOIA request at county and household levels for CONUS.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,22 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1100000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CAMELS provides daily streamflow gauge observations across 671 basins in the contiguous United States typically spanning 1980 to 2014.",
+    "model": "gemini-3.8-flash"
+  }
 }

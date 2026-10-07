@@ -15,5 +15,22 @@
   "resolution": "daily 500 m (MCD43A4), daily 0.05 deg (MCD43C4), annual 0.05 deg (MCD12C1)",
   "produced_in_this_study": false,
   "access": "The data used in this study have been properly cited and are publicly available (see table S6).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 500.0,
+    "dx_max_m": 5550.0,
+    "extent_m": 4500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 31500000.0,
+    "duration_s": 115000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "MODIS daily BRDF-corrected surface reflectance (MCD43A4 500 m, MCD43C4 0.05 deg) and annual land cover (MCD12C1 0.05 deg).",
+    "model": "gemini-3.8-flash"
+  }
 }

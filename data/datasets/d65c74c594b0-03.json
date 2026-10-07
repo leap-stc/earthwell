@@ -14,5 +14,21 @@
   "resolution": "500 m, 4-day (aggregated to daily)",
   "produced_in_this_study": false,
   "access": "https://lpdaac.usgs.gov/products/mcd15a3hv006/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 500.0,
+    "dx_max_m": 500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 345600.0,
+    "dt_max_s": 345600.0,
+    "duration_s": 694310400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "MODIS MCD15A3H 4-day 500 m LAI covering 2002 to present.",
+    "model": "gemini-3.8-flash"
+  }
 }

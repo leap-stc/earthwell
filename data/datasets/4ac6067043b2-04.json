@@ -14,5 +14,22 @@
   "resolution": "county-level and household records (1978 to 2024)",
   "produced_in_this_study": false,
   "access": "https://www.fema.gov/about/openfema/data-sets",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1480000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "OpenFEMA flood loss, insurance claims, aid, and buyout records from 1978 through May 2024.",
+    "model": "gemini-3.8-flash"
+  }
 }

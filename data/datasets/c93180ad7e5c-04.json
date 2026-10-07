@@ -14,5 +14,21 @@
   "resolution": "national",
   "produced_in_this_study": false,
   "access": "WHO/UNICEF Joint Monitoring Programme for Water Supply and Sanitation (2024)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 8000000.0,
+    "dt_min_s": 63072000.0,
+    "dt_max_s": 63072000.0,
+    "duration_s": 788400000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "National-level WHO/UNICEF JMP statistics published biennially for drinking water and sanitation coverage across Africa.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "1 day, 0.5° × 0.5°",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 55500.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 10368000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GPCP v3.2 daily precipitation product at 0.5 degree resolution evaluated for February-May 2013 (120 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

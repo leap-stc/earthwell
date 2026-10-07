@@ -14,5 +14,21 @@
   "resolution": "1979-2019 detrended SST anomalies and thermocline depth across regional climate mode indices",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 1293840000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ORAS5 ocean reanalysis at 0.25-degree resolution with monthly data over 1979-2019 used to define regional SST indices.",
+    "model": "gemini-3.8-flash"
+  }
 }

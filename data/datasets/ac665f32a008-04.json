@@ -15,5 +15,21 @@
   "resolution": "48 km x 48 km square patches (32 x 32 pixels at 1.5 km resolution), 7 infrared channels",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.26208/6Y59-0R80",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1500.0,
+    "dx_max_m": 1500.0,
+    "extent_m": 2200000.0,
+    "dt_min_s": 600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 34128000.0,
+    "size_gb": 2.7,
+    "basis": "estimated_from_paper",
+    "note": "94,618 samples of 32x32 patches (48 km x 48 km at 1.5 km resolution) across 7 IR channels spanning June-July 2020 and June 2021.",
+    "model": "gemini-3.8-flash"
+  }
 }

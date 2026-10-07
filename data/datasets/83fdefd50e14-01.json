@@ -14,5 +14,21 @@
   "resolution": "Standard resolution (~1°)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": 2592000.0,
+    "duration_s": 2712960000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CESM2 Large Ensemble SSP3-7.0 future scenario projections (2015-2100, 86 years) at standard ~1 degree nominal resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

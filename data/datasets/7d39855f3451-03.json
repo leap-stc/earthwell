@@ -16,5 +16,21 @@
   "resolution": "50 m",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": 50.0,
+    "dx_max_m": 50.0,
+    "extent_m": 12800.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NCAR CM1 LES cirrus ensemble; 50 m horizontal resolution on a 12.8 km x 12.8 km domain.",
+    "model": "gemini-3.8-flash"
+  }
 }

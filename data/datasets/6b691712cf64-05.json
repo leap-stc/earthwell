@@ -14,5 +14,22 @@
   "resolution": "10–100 m segments",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 10.0,
+    "dx_max_m": 100.0,
+    "extent_m": 550000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GSHHG coastline database used at highest resolution with 10-100 m segments.",
+    "model": "gemini-3.8-flash"
+  }
 }

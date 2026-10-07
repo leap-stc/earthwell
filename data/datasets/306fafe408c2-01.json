@@ -14,5 +14,21 @@
   "resolution": "georeferenced survey locations",
   "produced_in_this_study": false,
   "access": "Afrobarometer. Afrobarometer surveys: Rounds 7–9 (2019–2023), 2023. Accessed 2026-02-07.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 8000000.0,
+    "dt_min_s": 63000000.0,
+    "dt_max_s": 63000000.0,
+    "duration_s": 126000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Georeferenced survey responses across Africa for Afrobarometer rounds 7 to 9 (2019, 2021, 2023).",
+    "model": "gemini-3.8-flash"
+  }
 }

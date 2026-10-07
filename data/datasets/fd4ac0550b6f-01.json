@@ -14,5 +14,21 @@
   "resolution": "0.25-degree, daily and monthly, 2001-2021",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.7761881",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 662688000.0,
+    "size_gb": 50.0,
+    "basis": "stated",
+    "note": "Global 0.25-degree daily and monthly GPP and Reco carbon flux product from 2001 to 2021 (21 years), size stated as ~50GB.",
+    "model": "gemini-3.8-flash"
+  }
 }

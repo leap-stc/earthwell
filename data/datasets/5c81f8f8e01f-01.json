@@ -15,5 +15,21 @@
   "resolution": "Hourly, 2017-2021",
   "produced_in_this_study": false,
   "access": "https://www.arb.ca.gov/aqmis2/aqmis2.php and https://www.epa.gov/outdoor-air-quality-data",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 1000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 157788000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "112 PM2.5 monitor stations across California recorded at hourly intervals from 2017 through 2021 (5 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

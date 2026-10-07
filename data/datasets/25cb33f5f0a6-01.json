@@ -16,5 +16,22 @@
   "resolution": "Annual, global and gridded (0.25° to model resolution)",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.18160/GCP-2024",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 8680000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global synthesis covers 1750–2024 with gridded models/products ranging from 0.25° to ~2° and annual resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

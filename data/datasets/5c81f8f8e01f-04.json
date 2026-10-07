@@ -14,5 +14,22 @@
   "resolution": "Incident-level latitude, longitude, and duration",
   "produced_in_this_study": false,
   "access": "https://data.ca.gov/dataset/prescribed-burns",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 1000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 126230400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Incident-level prescribed burns across California used for 2018-2021 fire simulations.",
+    "model": "gemini-3.8-flash"
+  }
 }

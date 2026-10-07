@@ -14,5 +14,21 @@
   "resolution": "4 km x 4 km, daily",
   "produced_in_this_study": false,
   "access": "The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 4000.0,
+    "extent_m": 146000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1262304000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "EMI 4 km gridded precipitation covering the Upper Awash Basin (1981–2020); domain extent estimated from basin bounding coordinates.",
+    "model": "gemini-3.8-flash"
+  }
 }

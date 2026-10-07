@@ -15,5 +15,21 @@
   "resolution": "40 m spatial resolution, domain 25.6 x 25.6 x 3 km, snapshots every 10 minutes for 8 hours simulated time, 33 mass-doubling bins",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": 40.0,
+    "dx_max_m": 40.0,
+    "extent_m": 25600.0,
+    "dt_min_s": 600.0,
+    "dt_max_s": 600.0,
+    "duration_s": 28800.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "25.6x25.6x3 km domain at 40 m grid resolution with 3D snapshots every 10 min over 8 h of simulated time across 3 aerosol concentration runs.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "Annual national and global",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.13981696",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 8645000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Tabular country and global annual fossil emissions spanning 1750–2023.",
+    "model": "gemini-3.8-flash"
+  }
 }

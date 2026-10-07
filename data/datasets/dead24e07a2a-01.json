@@ -16,5 +16,21 @@
   "resolution": "1/4° horizontal resolution; 75 vertical layers",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.8408242",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1262304000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GFDL OM4 1/4-degree ocean-ice global simulations integrated from 1958 to 1997 (40 years); daily SSH and monthly/time-mean fields analyzed.",
+    "model": "gemini-3.8-flash"
+  }
 }

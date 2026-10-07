@@ -14,5 +14,21 @@
   "resolution": "1D domain x in [-50, 50], 1000 cells",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": 0.1,
+    "dx_max_m": 0.1,
+    "extent_m": 100.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 0.3,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "1D benchmark domain x in [-50, 50] with 1000 uniform cells (dx = 0.1) evaluated at t = 0.3 s.",
+    "model": "gemini-3.8-flash"
+  }
 }

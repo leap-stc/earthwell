@@ -15,5 +15,21 @@
   "resolution": "100 m horizontal and vertical, 5 s time step (Truth); coarse-grained to 600 m horizontal, 300 m vertical, 15 s time step; domain 24 km x 24 km x 12 km",
   "produced_in_this_study": true,
   "access": "Related data used in this study to produce the figures can be accessed from Zenodo under https://doi.org/10.5281/zenodo.15730773 (Zhu et al., 2025b). The data and scaling parameters used for model training are provided on Zenodo under https://doi.org/10.5281/zenodo.18411485 (Zhu et al., 2026).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": 100.0,
+    "dx_max_m": 600.0,
+    "extent_m": 24000.0,
+    "dt_min_s": 5.0,
+    "dt_max_s": 15.0,
+    "duration_s": 1800.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Idealized 3D rising thermal bubble runs in a 24 km x 24 km x 12 km domain; HighRes uses dx=100 m and dt=5 s, coarse-grained uses dx=600 m and dt=15 s with durations up to 30 min (1800 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

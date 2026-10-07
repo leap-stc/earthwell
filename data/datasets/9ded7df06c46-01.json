@@ -15,5 +15,21 @@
   "resolution": "2.5 x 2.0 degrees horizontal, 110 vertical layers, 1-year simulations",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.13765601",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GISS ModelE version E3 simulations run on 2.5 x 2.0 degree grid with 1-year integrations; 6-hourly output saved for tropical cyclone tracking.",
+    "model": "gemini-3.8-flash"
+  }
 }

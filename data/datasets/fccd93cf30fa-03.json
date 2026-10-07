@@ -15,5 +15,22 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 250.0,
+    "dx_max_m": 1000.0,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "MODIS bands/products range from 250 m to 1000 m; abstract explicitly notes daily availability.",
+    "model": "gemini-3.8-flash"
+  }
 }

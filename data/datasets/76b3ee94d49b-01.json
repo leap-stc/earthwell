@@ -15,5 +15,21 @@
   "resolution": "C180 (approx. 0.5 deg or 55 km), 6-hourly snapshots and monthly means",
   "produced_in_this_study": true,
   "access": "Jupyter notebooks used to do the analysis and data files necessary to reproduce figures are posted online at https://doi.org/10.5281/zenodo.5542663",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 55000.0,
+    "dx_max_m": 55000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 662688000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GISS-E3 C180 (~55 km / 0.5 deg). 20-year runs (1980-2000, 21 years = 6.63e8 s) plus 1-year sensitivity runs; output saved 6-hourly to monthly.",
+    "model": "gemini-3.8-flash"
+  }
 }

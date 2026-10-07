@@ -14,5 +14,21 @@
   "resolution": "6-hourly tropical cyclone tracks",
   "produced_in_this_study": false,
   "access": "https://www.aoml.noaa.gov/hrd/hurdat/Data_Storm.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 8000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 1483344000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA HURDAT2 6-hourly Atlantic hurricane track data evaluated over the 1978-2024 analysis window.",
+    "model": "gemini-3.8-flash"
+  }
 }

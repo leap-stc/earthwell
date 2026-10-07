@@ -14,5 +14,22 @@
   "resolution": "~1.5 horizontal resolution, 20-minute temporal intervals",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.11578/E3SM/dc.20230110.5",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1200.0,
+    "dt_max_s": 1200.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "E3SM-MMF global output at approximately 1.5 degrees resolution with 20-minute interval across 10 simulation years.",
+    "model": "gemini-3.8-flash"
+  }
 }

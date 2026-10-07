@@ -15,5 +15,21 @@
   "resolution": "1° horizontal grid (60°S–60°N), monthly",
   "produced_in_this_study": false,
   "access": "https://github.com/FabriFalasca/Linear-Response-and-Causal-Inference",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 9467280000.0,
+    "size_gb": 0.45,
+    "basis": "stated",
+    "note": "GFDL-CM4 piControl monthly SST regridded to 1° between 60°S and 60°N (31,141 grid points) over a 300-year integration (3,612 monthly steps).",
+    "model": "gemini-3.8-flash"
+  }
 }

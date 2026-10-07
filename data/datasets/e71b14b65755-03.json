@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5194/tc-8-1509-2014",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 90.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Static ice mask and DEM from the Greenland Ice Mapping Project covering the Greenland ice sheet.",
+    "model": "gemini-3.8-flash"
+  }
 }

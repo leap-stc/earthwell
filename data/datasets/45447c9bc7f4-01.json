@@ -14,5 +14,21 @@
   "resolution": "box model / 0D",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "column_or_box"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Zero-dimensional box model simulations of super-droplets; no specific grid, temporal resolution, or duration is provided in the abstract.",
+    "model": "gemini-3.8-flash"
+  }
 }

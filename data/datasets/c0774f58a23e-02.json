@@ -15,5 +15,21 @@
   "resolution": "30 mins, 0.1° × 0.1°",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 11100.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 10368000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GPM IMERG v07 half-hourly precipitation at 0.1 degree resolution evaluated for February-May 2013 (120 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

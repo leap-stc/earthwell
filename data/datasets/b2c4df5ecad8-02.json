@@ -14,5 +14,21 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 31000.0,
+    "dx_max_m": 31000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1262304000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Standard global ERA5 reanalysis (0.25 deg resolution) daily meteorological inputs from 1982 to 2021 (40 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

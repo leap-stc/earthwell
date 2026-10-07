@@ -14,5 +14,21 @@
   "resolution": "2° latitude by 2.5° longitude, 62 vertical layers (first 20 levels / up to 656 hPa used in ML), half-hour intervals",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 252288000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global ModelE3 simulation at 2 deg x 2.5 deg resolution with 30-minute timesteps across 8 total years (1851-1853, 2010-2012, 2020-2021).",
+    "model": "gemini-3.8-flash"
+  }
 }

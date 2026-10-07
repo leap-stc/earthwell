@@ -14,5 +14,22 @@
   "resolution": "0.25-degree harmonized, daily and monthly",
   "produced_in_this_study": false,
   "access": "https://cds.climate.copernicus.eu/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 662688000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 meteorological reanalysis harmonized to 0.25-degree spatial resolution across 2001-2021.",
+    "model": "gemini-3.8-flash"
+  }
 }

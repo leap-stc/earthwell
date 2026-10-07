@@ -14,5 +14,21 @@
   "resolution": "Annual global mean (1850–2100)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7921104000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Annual global-mean CO2 equivalent concentration time series from MCE v1.2 spanning 1850–2100 across 3 SSP scenarios.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,22 @@
   "resolution": "Annual radiative forcings (solar, volcanic, CO2) and Niño 3.4 index, 1880-2012",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 4196889600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Annual global radiative forcings (GISS Model E2) and Nino 3.4 SST index matching 1880 to 2012.",
+    "model": "gemini-3.8-flash"
+  }
 }

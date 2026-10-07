@@ -15,5 +15,21 @@
   "resolution": "60-meter spatial resolution, 285 wavelength bands (380-2500 nm)",
   "produced_in_this_study": false,
   "access": "https://www.earthdata.nasa.gov/about/open-science",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 60.0,
+    "dx_max_m": 60.0,
+    "extent_m": 76800.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": 1.8,
+    "basis": "estimated_from_paper",
+    "note": "Single EMIT granule array of 1280x1240 pixels at 60 m resolution across 285 spectral channels (approx. 1.8 GB raw uncompressed float volume).",
+    "model": "gemini-3.8-flash"
+  }
 }

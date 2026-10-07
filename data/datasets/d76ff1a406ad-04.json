@@ -15,5 +15,21 @@
   "resolution": "daily, state-level (48 US states + DC), July 2018 to April 2023",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.10161493",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 152409600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Processed daily state-level electricity generation, carbon emissions, and population-weighted temperature for 48 U.S. states + DC (July 2018 to April 2023) hosted on Zenodo.",
+    "model": "gemini-3.8-flash"
+  }
 }

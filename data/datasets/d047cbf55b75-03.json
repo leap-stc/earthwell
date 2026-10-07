@@ -14,5 +14,21 @@
   "resolution": "high-resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 30.0,
+    "extent_m": 8000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Meta High Resolution Population Density maps provide 1 arc-second (~30 m) gridded data across Africa",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://data.gulfresearchinitiative.org/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1.0,
+    "dx_max_m": 1000000.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 7776000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GLAD experiment in the Gulf of Mexico (297 surface drifters, 90 days sampling in July-August 2012, separation scales O(10^-3) to O(10^3) km).",
+    "model": "gemini-3.8-flash"
+  }
 }

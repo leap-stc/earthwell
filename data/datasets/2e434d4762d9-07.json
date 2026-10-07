@@ -15,5 +15,21 @@
   "resolution": "30 m",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 284018400.0,
+    "duration_s": 852055200.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NLCD 30 m land cover classifications (1992-2019, 9 epochs), interpolated annually and aggregated into vegetation fractions at 12 km grid cells.",
+    "model": "gemini-3.8-flash"
+  }
 }

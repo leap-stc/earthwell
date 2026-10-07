@@ -15,5 +15,21 @@
   "resolution": "1/4° eddy-permitting",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.16058005",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1892160000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global ocean-ice model OM4 at nominal 1/4 deg resolution (~27.75 km) run for 60 years (1948-2007 = ~1.89e9 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

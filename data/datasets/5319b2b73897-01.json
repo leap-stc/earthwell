@@ -15,5 +15,21 @@
   "resolution": "Monthly mean, global grid",
   "produced_in_this_study": false,
   "access": "PPE output is available online (Eidhammer, 2023): https://doi.org/10.26024/bzne‐yf09",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CAM6 perturbed parameter ensemble integrated for 2 years (2019–2020) at standard ~1 degree resolution with monthly mean output.",
+    "model": "gemini-3.8-flash"
+  }
 }

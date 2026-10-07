@@ -14,5 +14,22 @@
   "resolution": "regional clusters in U.S. and Africa",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": 50000.0,
+    "dx_max_m": 50000.0,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NASA POWER meteorological data retrieved for regional clusters in U.S. and Africa; grid resolution (~0.5 deg / 50 km) and daily sampling interval estimated from standard POWER API characteristics.",
+    "model": "gemini-3.8-flash"
+  }
 }

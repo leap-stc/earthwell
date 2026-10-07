@@ -14,5 +14,21 @@
   "resolution": "atmospheric surface forcing 1958-2017",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1016/j.ocemod.2018.07.002",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 55000.0,
+    "dx_max_m": 55000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 1893456000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "JRA55-do surface atmospheric forcing dataset covering 1958-2017 (60 years) at standard ~55 km resolution and 3-hourly frequency.",
+    "model": "gemini-3.8-flash"
+  }
 }

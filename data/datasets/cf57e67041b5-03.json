@@ -15,5 +15,22 @@
   "resolution": "High-res: 256 × 256 (dx ≈ 3906 m); Low-res: 64 × 64 (dx = 15,625 m); dt = 1 hr",
   "produced_in_this_study": true,
   "access": "https://github.com/zwhou99/Distribution-Informed-Prediction",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional",
+      "other"
+    ],
+    "dx_min_m": 3906.0,
+    "dx_max_m": 15625.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600000.0,
+    "duration_s": 309600000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Two-layer QG model on square domain L = 10^6 m, dt=1 hr, 86,000 hr run with evaluation snapshots every 1,000 hr.",
+    "model": "gemini-3.8-flash"
+  }
 }

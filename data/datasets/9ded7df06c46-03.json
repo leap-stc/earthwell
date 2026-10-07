@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://data.giss.nasa.gov/clouds/casccad/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2592000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CASCCAD cloud cover dataset derived from CloudSat-CALIPSO observations, typically analyzed as multi-year climatologies.",
+    "model": "gemini-3.8-flash"
+  }
 }

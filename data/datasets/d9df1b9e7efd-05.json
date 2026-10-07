@@ -14,5 +14,21 @@
   "resolution": "1978 to 2024",
   "produced_in_this_study": false,
   "access": "CPI-U time series are provided by the US Bureau of Labor Statistics for inflation adjustment.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31500000.0,
+    "duration_s": 1480000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "US BLS CPI-U monthly/annual economic inflation series spanning 1978 to 2024.",
+    "model": "gemini-3.8-flash"
+  }
 }

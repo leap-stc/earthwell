@@ -14,5 +14,22 @@
   "resolution": "half-hourly native 0.1° × 0.1° aggregated to hourly and regridded to 1.0° × 1.0°",
   "produced_in_this_study": false,
   "access": "https://planetarycomputer.microsoft.com/dataset/gpm-imerg-hhr",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 3330000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 662709600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GPM IMERG V06 half-hourly 0.1° precipitation aggregated to hourly and regridded to 1.0° over South Asia (5–25°N, 60–90°E) for June–August 2000–2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

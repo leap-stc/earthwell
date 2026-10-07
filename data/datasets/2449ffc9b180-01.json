@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Conference abstract mentions CM1 LES simulations for ICEBall cirrus case but does not specify spatial or temporal grid parameters.",
+    "model": "gemini-3.8-flash"
+  }
 }

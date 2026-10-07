@@ -15,5 +15,23 @@
   "resolution": "11.5° × 11.5° (384 columns on ne4pg2 cubed-sphere grid), 60 vertical levels, 20 min timestep; embedded 2D CRM with 64 columns at 2 km horizontal grid spacing",
   "produced_in_this_study": false,
   "access": "https://hf.co/collections/jlin404/climsim-kaggle-models and https://zenodo.org/records/18883121",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM",
+      "CRM"
+    ],
+    "dx_min_m": 2000.0,
+    "dx_max_m": 1276500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1200.0,
+    "dt_max_s": 14400.0,
+    "duration_s": 315360000.0,
+    "size_gb": 245.4,
+    "basis": "stated",
+    "note": "ClimSim 10-year simulation on ne4pg2 grid (11.5 degrees horizontal resolution, ~1276.5 km) with embedded 2 km 2D CRM; data sampled at 20-min timestep (up to 12-timestep subsampling for testing); preprocessed data sizes sum to 245.4 GB.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1400.0,
+    "dx_max_m": 1700.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Standard CloudSat Cloud Profiling Radar (CPR) footprint (~1.4 km x 1.7 km) sampling warm marine clouds across 60°S–60°N.",
+    "model": "gemini-3.8-flash"
+  }
 }

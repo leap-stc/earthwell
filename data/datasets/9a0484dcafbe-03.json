@@ -15,5 +15,21 @@
   "resolution": "2.3 um pixel resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": 2.3e-06,
+    "dx_max_m": 2.3e-06,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CPI imaging across 11 airborne campaigns with stated 2.3 um pixel resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

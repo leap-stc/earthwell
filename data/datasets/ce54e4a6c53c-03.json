@@ -15,5 +15,21 @@
   "resolution": "0.1° grid, filtered at 5° Gaussian scale",
   "produced_in_this_study": true,
   "access": "https://nyu1.osn.mghpcc.org/leap-pubs/busecke_balwada_et_al_GRL/",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 555000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 630720000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Offline turbulent heat fluxes computed on the 0.1° grid and filtered at 5° (555 km) scale using daily averaged model fields over 20 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

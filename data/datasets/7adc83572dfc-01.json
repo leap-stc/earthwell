@@ -15,5 +15,21 @@
   "resolution": "1 km spatial resolution, 5-minute granules",
   "produced_in_this_study": false,
   "access": "https://github.com/EyringMLClimateGroup/kaps22tgrs_ml_cloud_eval",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 1000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 172800.0,
+    "duration_s": 31622400.0,
+    "size_gb": 4750.0,
+    "basis": "estimated_from_paper",
+    "note": "MODIS MYD06 1 km data for the year 2008 (~48000 granules of 1354x2030 pixels); size estimated from ~9 float32 variables per pixel.",
+    "model": "gemini-3.8-flash"
+  }
 }

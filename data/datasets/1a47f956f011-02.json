@@ -14,5 +14,21 @@
   "resolution": "1/32° reference run, 1/4° coarse runs; 15 isopycnal layers",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.26024/f130-ev71, https://doi.org/10.5281/zenodo.12682093",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3469.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 15540000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 2592000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Idealized MOM6 NeverWorld2 basin spanning 70°S-70°N (140° meridional extent) and 60° zonal width with 15 isopycnal layers, evaluated at 1/32° reference and 1/4° coarse runs for 30,000 days.",
+    "model": "gemini-3.8-flash"
+  }
 }

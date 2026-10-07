@@ -14,5 +14,21 @@
   "resolution": "Monthly mean",
   "produced_in_this_study": false,
   "access": "CMIP6 data is available through the Earth System Grid Federation (CMIP6 Earth System Grid Federation, 2023).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 50000.0,
+    "dx_max_m": 250000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CMIP6 piClim-aer and piClim-control 30-year integrations across multiple GCMs evaluated as monthly mean output.",
+    "model": "gemini-3.8-flash"
+  }
 }

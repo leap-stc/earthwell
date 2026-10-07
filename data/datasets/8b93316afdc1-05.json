@@ -14,5 +14,21 @@
   "resolution": "quarterly measurements (2015-2022)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 800000.0,
+    "dt_min_s": 7776000.0,
+    "dt_max_s": 7776000.0,
+    "duration_s": 252288000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Quarterly ice-velocity measurements from Sentinel-1 from 2015 to 2022 (quarterly dt ~ 90 days = 7.78e6 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

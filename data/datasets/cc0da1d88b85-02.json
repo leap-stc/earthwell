@@ -15,5 +15,22 @@
   "resolution": "Station locations interpolated to 1.4° grid, 12-hour intervals",
   "produced_in_this_study": false,
   "access": "The GDAS observational BUFR files can be accessed via the NCEI Archive Information Request System (AIRS) at https://www.ncei.noaa.gov/has/HAS.DsSelect.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs",
+      "point_or_site"
+    ],
+    "dx_min_m": 156000.0,
+    "dx_max_m": 156000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 43200.0,
+    "dt_max_s": 43200.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GDAS surface (ADPSFC) and radiosonde (ADPUPA) observations for 2017 interpolated to the 1.4-degree model grid at 12-hour intervals.",
+    "model": "gemini-3.8-flash"
+  }
 }

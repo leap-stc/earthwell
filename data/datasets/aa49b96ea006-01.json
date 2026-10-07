@@ -14,5 +14,21 @@
   "resolution": "256x256 high-resolution ground truth on 1,000 km x 1,000 km domain; coarse-grained to 32x32 mesh; temporal resolution 1 hour (daily sampling for training trajectories)",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3906.25,
+    "dx_max_m": 31250.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Idealized two-layer QG turbulence in a 1,000 km square domain; high-res 256x256 grid and coarse-grained 32x32 mesh; 10-year runs (5-year spin-up excluded).",
+    "model": "gemini-3.8-flash"
+  }
 }

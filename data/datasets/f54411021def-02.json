@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://doi.org/10.21979/N9/OUJPZQ",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 3500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Multi-hazard probabilistic simulations (697,080 runs across 40 volcanoes in Indonesia and the Philippines) spanning a regional domain extent up to ~3500 km; grid spacing not stated.",
+    "model": "gemini-3.8-flash"
+  }
 }

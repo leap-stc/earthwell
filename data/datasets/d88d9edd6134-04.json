@@ -14,5 +14,21 @@
   "resolution": "0.25° daily",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5194/essd-8-165-2016",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1325433600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA OISSTv2 daily 0.25° grid (1981-present, used for nudging SST)",
+    "model": "gemini-3.8-flash"
+  }
 }

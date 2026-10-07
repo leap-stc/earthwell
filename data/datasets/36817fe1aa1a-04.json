@@ -14,5 +14,21 @@
   "resolution": "1° horizontal resolution, 13 pressure levels, 12-hour cadence",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 43200.0,
+    "dt_max_s": 43200.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global ERA5 data at 1 degree resolution (111 km) at 12-hour cadence (43200 s) across 13 pressure levels used for GenCast.",
+    "model": "gemini-3.8-flash"
+  }
 }

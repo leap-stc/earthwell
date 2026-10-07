@@ -14,5 +14,21 @@
   "resolution": "1° horizontal, daily / 5-day intervals",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.10359842",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 432000.0,
+    "duration_s": 157680000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "5-year ice-ocean simulations (1 Jan 2018 to 1 Jan 2023, no-leap calendar) at 1° resolution",
+    "model": "gemini-3.8-flash"
+  }
 }

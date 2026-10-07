@@ -16,5 +16,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://www.socat.info/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": 2600000.0,
+    "duration_s": 2020000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "SOCATv2021 database provides in situ and gridded surface ocean pCO2 cruise observations globally spanning 1957 to 2020",
+    "model": "gemini-3.8-flash"
+  }
 }

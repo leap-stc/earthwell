@@ -15,5 +15,21 @@
   "resolution": "1° x 1° or finer, monthly climatology",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.25921/qb25-f418",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "MPI-ULB-SOMFFN monthly climatology representing one climatological annual cycle at 1° resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

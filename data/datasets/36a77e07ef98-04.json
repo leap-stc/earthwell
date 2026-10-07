@@ -14,5 +14,21 @@
   "resolution": "hourly",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Hourly electricity transformer temperature dataset covering 2 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

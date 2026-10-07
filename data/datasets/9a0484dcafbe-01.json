@@ -15,5 +15,21 @@
   "resolution": "224 x 224 pixels",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.17147955",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Computationally generated 3D CAD models and 2D orthographic projections (224x224 pixels) of synthetic ice crystal rosettes.",
+    "model": "gemini-3.8-flash"
+  }
 }

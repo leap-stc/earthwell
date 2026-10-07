@@ -14,5 +14,21 @@
   "resolution": "sub-meter high resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 0.5,
+    "dx_max_m": 2.0,
+    "extent_m": 800000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 252288000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Sub-meter high-resolution panchromatic WorldView optical imagery across Amundsen Sea glaciers.",
+    "model": "gemini-3.8-flash"
+  }
 }

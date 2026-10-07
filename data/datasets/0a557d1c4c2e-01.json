@@ -14,5 +14,21 @@
   "resolution": "2.5° × 2.0°, 110 vertical layers",
   "produced_in_this_study": false,
   "access": "The datasets used in this work can be found in the supporting documents of this work. The codes and datasets used in this work are also made available on github (https://github.com/yiqioyang/ppesage).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Atmosphere-only 1-year simulations at 2.5 deg lon x 2.0 deg lat with 110 vertical layers and prescribed SSTs.",
+    "model": "gemini-3.8-flash"
+  }
 }

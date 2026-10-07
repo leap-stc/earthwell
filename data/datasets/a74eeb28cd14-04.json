@@ -15,5 +15,22 @@
   "resolution": "kilometer-scale (<= 5 km), 3-hour snapshot interval",
   "produced_in_this_study": false,
   "access": "DYAMOND data management provided by the German Climate Computing Center (DKRZ) under project IDs bk1040 and bb1153",
-  "access_kind": "hpc_only"
+  "access_kind": "hpc_only",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "CRM",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 2000.0,
+    "dx_max_m": 5000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 3456000.0,
+    "size_gb": 2000000.0,
+    "basis": "stated",
+    "note": "DYAMOND global storm-resolving models with 40-day simulations at <=5 km grid spacing and nearly 2 PB per model.",
+    "model": "gemini-3.8-flash"
+  }
 }

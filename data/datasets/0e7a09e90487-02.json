@@ -14,5 +14,21 @@
   "resolution": "25 km EASE-2 grid, daily descending orbit, March 31, 2015 to August 27, 2020",
   "produced_in_this_study": false,
   "access": "https://nsidc.org",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 25000.0,
+    "dx_max_m": 25000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 170700000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Daily descending orbit SMAP enhanced product on 25 km EASE-2 grid from March 31, 2015 to August 27, 2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

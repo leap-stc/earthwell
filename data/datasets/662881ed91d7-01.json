@@ -15,5 +15,22 @@
   "resolution": "daily; 42 river segments (lengths 48 to 23,120 m)",
   "produced_in_this_study": false,
   "access": "https://waterdata.usgs.gov/nwis and https://www.waterqualitydata.us/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": 48.0,
+    "dx_max_m": 23120.0,
+    "extent_m": 200000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1136073600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "River segment lengths range from 48 to 23,120 m across 42 segments over 13,149 daily dates (Oct 1980 - Sep 2016).",
+    "model": "gemini-3.8-flash"
+  }
 }

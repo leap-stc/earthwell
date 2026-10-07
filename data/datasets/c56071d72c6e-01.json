@@ -14,5 +14,21 @@
   "resolution": "high-resolution (spanning 1981–2023 across CONUS)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 1357000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "HSCI covers CONUS (~4,500 km across) spanning 1981-2023 (43 years). Exact spatial resolution and temporal frequency not explicitly stated.",
+    "model": "gemini-3.8-flash"
+  }
 }

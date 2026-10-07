@@ -15,5 +15,21 @@
   "resolution": "Point profiles and 1° x 1° on 33 standard depth levels",
   "produced_in_this_study": false,
   "access": "https://glodap.info/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 1609400000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GLODAPv2 bottle cruise compilation and 1x1 degree 33-depth-level climatology based on observations from 1972 to 2023",
+    "model": "gemini-3.8-flash"
+  }
 }

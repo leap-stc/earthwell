@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "All the materials from the most recent iteration of this class are available here (just send a sharing request, so I can keep track of who has access).",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Astronomical photometric and spectroscopic galaxy survey dataset without Earth-system spatial or temporal dimensions.",
+    "model": "gemini-3.8-flash"
+  }
 }

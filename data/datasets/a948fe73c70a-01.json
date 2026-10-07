@@ -14,5 +14,22 @@
   "resolution": "1 Hz, cropped to 500 s (interpolated/extrapolated up to 1000 s)",
   "produced_in_this_study": false,
   "access": "doi:10.26208/dd1w-wa17, doi:10.26208/z7bf-nq20, doi:10.26208/htw5-q166",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "point_or_site",
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 1.0,
+    "dt_max_s": 1.0,
+    "duration_s": 500.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Laboratory levitation diffusion chamber records of 290 ice crystals sampled at 1 Hz and cropped to 500 s (tested up to 1000 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

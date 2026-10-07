@@ -15,5 +15,21 @@
   "resolution": "subsampled along GO-SHIP hydrographic transects",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.8145484",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1104624000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Processed annual ensemble mean differences subsampled along global repeat hydrography cruise tracks across 1990-2025.",
+    "model": "gemini-3.8-flash"
+  }
 }

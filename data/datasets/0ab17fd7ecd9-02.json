@@ -14,5 +14,22 @@
   "resolution": "0.1° x 0.1°, half-hourly",
   "produced_in_this_study": false,
   "access": "https://planetarycomputer.microsoft.com/dataset/gpm-imerg-hhr",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 663000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "IMERG V06 half-hourly 0.1° precipitation regridded and matched to ERA5 hourly 0.25° grid for 2000-2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

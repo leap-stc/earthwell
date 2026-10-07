@@ -15,5 +15,22 @@
   "resolution": "daily; basin-aggregated",
   "produced_in_this_study": false,
   "access": "https://ral.ucar.edu/solutions/products/camels",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 662709600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Lumped catchment/basin-aggregated daily meteorology and streamflow across 531 US basins (CONUS) spanning 1989-2009 (21 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

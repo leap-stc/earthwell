@@ -14,5 +14,21 @@
   "resolution": "80 µs duration, 400 time steps (dt = 0.2 µs)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.15800436",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 2e-07,
+    "dt_max_s": 2e-07,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Laboratory single-particle SP2 laser-induced incandescence time series sampled at 5 MHz (dt = 0.2 µs) over 400 points (80 µs per event).",
+    "model": "gemini-3.8-flash"
+  }
 }

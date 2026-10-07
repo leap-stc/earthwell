@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 1420070400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Fully coupled SPEAR climate model simulations covering a 7-year run and a 45-year historical run (1970-2014).",
+    "model": "gemini-3.8-flash"
+  }
 }

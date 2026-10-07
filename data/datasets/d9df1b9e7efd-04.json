@@ -15,5 +15,21 @@
   "resolution": "daily gridded, 0.1°",
   "produced_in_this_study": false,
   "access": "All precipitation data can be accessed through GloH2O.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 11100.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1450000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global daily 0.1-degree MSWEP V2 precipitation data used to compute flood-associated precipitation return periods.",
+    "model": "gemini-3.8-flash"
+  }
 }

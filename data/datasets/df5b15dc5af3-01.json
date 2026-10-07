@@ -15,5 +15,21 @@
   "resolution": "dt = 0.005; 4 large-scale variables (k=4) and 32 small-scale variables (J=8)",
   "produced_in_this_study": true,
   "access": "No external observational data sets were used in this study; all Lorenz ’96 simulation outputs were generated as described in the manuscript. Codes for probabilistic data assimilation for ensemble distribution projections with generative machine learning are available via S. Li (2025): https://doi.org/10.5281/zenodo.15320151",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Lorenz '96 is a non-spatial idealized dynamical system with dimensionless model time units (MTUs).",
+    "model": "gemini-3.8-flash"
+  }
 }

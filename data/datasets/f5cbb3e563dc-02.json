@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2592000.0,
+    "dt_max_s": 315360000.0,
+    "duration_s": 7915392000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CESM2 Large Ensemble runs at nominal 1-degree resolution across 1850-2100; multi-year monthly/decadal climatological anomalies were derived for 1850s and 2090s.",
+    "model": "gemini-3.8-flash"
+  }
 }

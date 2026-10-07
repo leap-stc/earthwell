@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7922816000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CESM2 Large Ensemble has standard nominal 1-degree resolution spanning 1850-2100; monthly/annual climatologies used to derive climate change anomalies.",
+    "model": "gemini-3.8-flash"
+  }
 }

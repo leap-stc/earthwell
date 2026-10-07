@@ -15,5 +15,21 @@
   "resolution": "1/48° native resolution, coarsened to 1/12°, 1/8°, 1/4°, 1/2°, 1°; 12-hour time averages over 14 months (Sep 2011 to Nov 2012)",
   "produced_in_this_study": false,
   "access": "Variables from the LLC4320 output in the regions used in this study are stored on the LEAP-Catalog https://catalog.leap.columbia.edu/feedstock/highresolution-ocean-simulation-llc4320-12hourly-averaged-3d-regions. Data from the LLC4320 simulation can be accessed using the llcreader Python package (Abernathey, 2019).",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 2312.5,
+    "dx_max_m": 111000.0,
+    "extent_m": 1665000.0,
+    "dt_min_s": 43200.0,
+    "dt_max_s": 43200.0,
+    "duration_s": 36800000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Twelve 15x15 degree regions sampled from 1/48 deg LLC4320, 12-hourly averaged and coarse-grained up to 1 deg over 14 months.",
+    "model": "gemini-3.8-flash"
+  }
 }

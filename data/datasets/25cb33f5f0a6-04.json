@@ -14,5 +14,21 @@
   "resolution": "Monthly / annual global marine surface average",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.15138/DVNP-F961",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1390000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Zonally averaged marine boundary layer CO2 reference product spanning 1980–2023 at monthly to annual intervals.",
+    "model": "gemini-3.8-flash"
+  }
 }

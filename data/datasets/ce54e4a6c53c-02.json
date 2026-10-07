@@ -14,5 +14,21 @@
   "resolution": "0.1° ocean, 0.25° atmosphere; daily averages over 2 years",
   "produced_in_this_study": false,
   "access": "Atmospheric fields: https://ncsa.osn.xsede.org/Pangeo/pangeo-forge-test/prod/recipe-run-502/pangeo-forge/cesm-atm-025deg-feedstock/cesm-atm-025deg.zarr; Ocean fields: gs://pangeo-cesm-pop/control",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CESM 1.1 coupled simulation with 0.1° ocean and 0.25° atmosphere daily average output evaluated over 2 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

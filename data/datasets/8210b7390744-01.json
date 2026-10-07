@@ -15,5 +15,21 @@
   "resolution": "C192 (~50 km) coarsened/sampled to T21 (~64x32 grid), 127 vertical levels, 6-hourly over 15 months",
   "produced_in_this_study": true,
   "access": "https://github.com/NOAA-PSL/model_error_correction",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 50000.0,
+    "dx_max_m": 625000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 40262400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA FV3-GFS at C192 (~50 km) downsampled/truncated to T21 (~625 km); 6-hourly replay increments over a 15-month period (20 Nov 2019 to 1 Mar 2021).",
+    "model": "gemini-3.8-flash"
+  }
 }

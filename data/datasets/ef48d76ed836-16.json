@@ -14,5 +14,22 @@
   "resolution": "2.5° × 2.5° (re-gridded to 0.5° × 0.5°)",
   "produced_in_this_study": false,
   "access": "https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 55500.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2592000.0,
+    "duration_s": 1104624000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NCEP-DOE AMIP-II Reanalysis 2 SWE product at 2.5° x 2.5° covering 1979 to present.",
+    "model": "gemini-3.8-flash"
+  }
 }

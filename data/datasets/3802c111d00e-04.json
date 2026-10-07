@@ -14,5 +14,21 @@
   "resolution": "64 x 128 horizontal grid, annual (1850-2098)",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.15001003",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 312500.0,
+    "dx_max_m": 312500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7858656000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Pretrained and transfer-learned DNN ensemble annual global temperature field predictions and benchmark comparisons on 64x128 grid (1850-2098).",
+    "model": "gemini-3.8-flash"
+  }
 }

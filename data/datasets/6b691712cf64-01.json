@@ -15,5 +15,21 @@
   "resolution": "Interpolated to 150 m x 150 m grid",
   "produced_in_this_study": false,
   "access": "https://zenodo.org/records/11354663",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 150.0,
+    "dx_max_m": 150.0,
+    "extent_m": 550000.0,
+    "dt_min_s": 16020.0,
+    "dt_max_s": 102180.0,
+    "duration_s": 275220.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Satellite-derived oil slick shapefiles interpolated to a 150 m grid for the Baniyas spill.",
+    "model": "gemini-3.8-flash"
+  }
 }

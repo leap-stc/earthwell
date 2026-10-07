@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": "osf.io/2q5cw",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 10500000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Non-spatial behavioral experiment on Amazon Mechanical Turk conducted in May 2019 with follow-up survey in September 2019 (~4 months duration).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,22 @@
   "resolution": "in situ profile observations",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.17882/42182",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs",
+      "point_or_site"
+    ],
+    "dx_min_m": 300000.0,
+    "dx_max_m": 300000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 864000.0,
+    "dt_max_s": 864000.0,
+    "duration_s": 473350000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global Argo float array profiling data evaluated over 2003-2017 (15 years) with standard ~10-day sampling cycle and ~300 km nominal spacing.",
+    "model": "gemini-3.8-flash"
+  }
 }

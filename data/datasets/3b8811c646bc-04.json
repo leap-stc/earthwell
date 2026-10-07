@@ -15,5 +15,21 @@
   "resolution": "36 km x 36 km global grid",
   "produced_in_this_study": true,
   "access": "https://purr.purdue.edu/publications/3999/1",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 36000.0,
+    "dx_max_m": 36000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 181526400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Processed spectral metrics and data hosted at Purdue PURR repository on 36 km grid.",
+    "model": "gemini-3.8-flash"
+  }
 }

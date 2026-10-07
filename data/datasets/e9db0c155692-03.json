@@ -15,5 +15,22 @@
   "resolution": "Daily-mean / 3-day averaged sea-level pressure (1948–2017)",
   "produced_in_this_study": false,
   "access": "Public reanalysis and CMIP archives",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 259200.0,
+    "duration_s": 2209032000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Daily and 3-day mean SLP from NCEP-NCAR reanalysis (2.5 deg) and CMIP models over 1948-2017 (70 years)",
+    "model": "gemini-3.8-flash"
+  }
 }

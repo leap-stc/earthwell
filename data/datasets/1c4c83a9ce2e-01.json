@@ -15,5 +15,21 @@
   "resolution": "5-1000 μm drop radii in ~10 cm⁻³ sample volume",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 2000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "In situ airborne holographic droplet measurements from ACE-ENA (North Atlantic) and CSET (East Pacific) campaigns (~10 cm³ sample volume per hologram).",
+    "model": "gemini-3.8-flash"
+  }
 }

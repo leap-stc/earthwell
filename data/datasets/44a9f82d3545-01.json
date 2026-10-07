@@ -14,5 +14,23 @@
   "resolution": "2.8° x 2.8° horizontal resolution, 30 vertical levels (up to 3.5 hPa), 30 min CAM timestep; embedded CRM with eight 4-km columns, 20 s timestep",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.2559313",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "CRM",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 310800.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 31536000.0,
+    "size_gb": 86.0,
+    "basis": "estimated_from_paper",
+    "note": "SPCAM v3.0 aquaplanet with 2.8° CAM grid (dx ~311 km) and 4 km embedded CRM; 30-min coupling/output interval across training, validation, test, and 1-year prognostic runs.",
+    "model": "gemini-3.8-flash"
+  }
 }

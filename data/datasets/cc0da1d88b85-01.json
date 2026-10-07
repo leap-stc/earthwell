@@ -14,5 +14,21 @@
   "resolution": "1.4° latitude/longitude, 13 pressure levels + surface, hourly to 6-hourly",
   "produced_in_this_study": false,
   "access": "The ERA5 dataset is available from the official website of Climate Data Store (CDS) at https://cds.climate.copernicus.eu/.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 156000.0,
+    "dx_max_m": 156000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 1230800000.0,
+    "size_gb": 3100.0,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 reanalysis regridded to 1.40625 degrees (128x256 grid) across 1979-2017 with 69 atmospheric variables, used hourly for autoencoder training and 6-hourly for forecast modeling.",
+    "model": "gemini-3.8-flash"
+  }
 }

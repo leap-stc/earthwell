@@ -14,5 +14,21 @@
   "resolution": "120x240 equiangular grid, snapshot dt = 5 hours",
   "produced_in_this_study": true,
   "access": "Synthetic data is generated according to the script provided in https://github.com/juannat7/cohesion.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": 2180.0,
+    "dx_max_m": 166800.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 18000.0,
+    "dt_max_s": 18000.0,
+    "duration_s": 1036800.0,
+    "size_gb": 7.6,
+    "basis": "estimated_from_paper",
+    "note": "Global spherical shallow water equation runs on Earth radius; 12-day integration saved every 5 hours on 120x240 grid",
+    "model": "gemini-3.8-flash"
+  }
 }

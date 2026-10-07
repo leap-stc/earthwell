@@ -14,5 +14,21 @@
   "resolution": "Climatology 1981-2010",
   "produced_in_this_study": false,
   "access": "https://oaflux.whoi.edu/data-access/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "OAFlux surface heat flux dataset averaged over 1981-2010 (30 years) at 1 degree resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

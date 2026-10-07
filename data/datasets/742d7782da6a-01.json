@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": "The ACE-E3SMv2 AMIP climatology used to generate Figure 1 are available from Duan (2024): https://doi.org/10.5281/zenodo.13994330",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2592000.0,
+    "dt_max_s": 7776000.0,
+    "duration_s": 1140000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "AMIP climatology from ACE trained on E3SMv2 (nominally ~1 degree global resolution, ~36-year AMIP baseline evaluated on seasonal means).",
+    "model": "gemini-3.8-flash"
+  }
 }

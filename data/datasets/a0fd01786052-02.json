@@ -16,5 +16,21 @@
   "resolution": "operational IFS resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "proprietary"
+  "access_kind": "proprietary",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 9000.0,
+    "dx_max_m": 9000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 39398400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Operational ECMWF IFS analysis (native operational resolution HRES ~9 km) provided as 6-hourly targets across the 15-month replay period.",
+    "model": "gemini-3.8-flash"
+  }
 }

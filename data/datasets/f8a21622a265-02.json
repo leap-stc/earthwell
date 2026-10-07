@@ -15,5 +15,21 @@
   "resolution": "time step Δt = 0.005, K=8, J=32; observation interval Δtobs = 0.2",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 5400.0,
+    "dt_max_s": 216000.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Non-spatial two-scale Lorenz 96 system; paper equates dt_obs = 0.2 to ~2.5 days (216,000 s), implying solver dt = 0.005 is 5,400 s.",
+    "model": "gemini-3.8-flash"
+  }
 }

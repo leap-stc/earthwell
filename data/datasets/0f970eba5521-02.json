@@ -16,5 +16,21 @@
   "resolution": "1/4° (88x80), 1/8°, 1/16°, 1/32° (704x640); 2 vertical layers",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.7663128",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3000.0,
+    "dx_max_m": 24000.0,
+    "extent_m": 2220000.0,
+    "dt_min_s": 135.0,
+    "dt_max_s": 1080.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Idealized two-layer wind-driven double gyre (22 deg lon x 20 deg lat) across R4 to R32 resolutions for 10 years",
+    "model": "gemini-3.8-flash"
+  }
 }

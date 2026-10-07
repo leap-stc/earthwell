@@ -16,5 +16,21 @@
   "resolution": "daily, 1975–2017",
   "produced_in_this_study": true,
   "access": "All data that support the findings of this study are included within the article (and any supplementary files).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1357000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global land surface latent and sensible heat flux ensemble estimated daily from 1975 to 2017 (43 years); spatial grid resolution not explicitly stated.",
+    "model": "gemini-3.8-flash"
+  }
 }

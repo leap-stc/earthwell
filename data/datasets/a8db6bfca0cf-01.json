@@ -15,5 +15,21 @@
   "resolution": "variable GCM resolutions",
   "produced_in_this_study": false,
   "access": "The CMIP6 and CMIP5 data are available through the Earth System Grid Federation system (ESGF; https://esgf-node.llnl.gov/search/cmip6/, https://esgf-node.llnl.gov/search/cmip5/, respectively), and the models and ensemble members used in this study are listed in Table S1 and S2 in Supporting Information S1 and in Figure 1.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 100000.0,
+    "dx_max_m": 250000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7922816000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "28 CMIP5/CMIP6 AOGCMs covering historical and RCP8.5/SSP585 runs (1850-2100 = 251 years) with standard ~1-2.5 degree horizontal grids.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -16,5 +16,21 @@
   "resolution": "400-cluster sparse grid based on nominal 2°",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5061/dryad.j6q573nsn",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 315360000.0,
+    "duration_s": 315360000.0,
+    "size_gb": 0.7,
+    "basis": "stated",
+    "note": "Post-processed ensemble dataset of ~700 MB spanning 10-year analysis periods across 2,000+ simulations on a 400-cluster sparse grid based on 2-degree resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

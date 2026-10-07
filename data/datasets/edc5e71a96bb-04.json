@@ -15,5 +15,22 @@
   "resolution": "4 km horizontal grid, monthly climatology (2002-2017)",
   "produced_in_this_study": false,
   "access": "Copernicus Marine Environmental Service (CMEMS)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 4000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 504921600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CMEMS GlobColour merged multi-satellite surface chlorophyll-a on a 4 km grid, analyzed as 2002-2017 monthly climatology.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "6-hourly operational resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "proprietary"
+  "access_kind": "proprietary",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 9000.0,
+    "dx_max_m": 9000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 40262400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ECMWF operational IFS analysis used as replay target every 6 hours over the 15-month study period; operational IFS HRES resolution is ~9 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

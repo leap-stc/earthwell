@@ -14,5 +14,21 @@
   "resolution": "64 x 128 horizontal grid (remapped to CanESM5-CanOE), annual (1850-2098)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.24381/cds.c866074c",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 312500.0,
+    "dx_max_m": 312500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7858656000.0,
+    "size_gb": 0.54,
+    "basis": "estimated_from_paper",
+    "note": "22 CMIP6 models remapped to 64x128 grid (CanESM5-CanOE) at annual resolution from 1850 to 2098 (249 years across 3 SSP scenarios).",
+    "model": "gemini-3.8-flash"
+  }
 }

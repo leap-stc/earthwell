@@ -38,12 +38,16 @@ set -a; . ~/.claude/credentials/credentials.env; set +a            # loads GEMIN
 .venv/bin/python scripts/extract_metadata.py --year 1             # Gemini API -> data/papers/, data/datasets/; also --limit N; no flags = all
 python3 scripts/summarize.py > data/summary/summary.md         # DOI dedupe, DNS/LES/CRM table, domain summary -> data/summary/*.csv
 python3 scripts/plot_domains_by_year.py                           # Figures/papers_by_domain_by_year.{png,pdf,csv} (needs matplotlib; IceSciML env has it)
+(cd scripts && ../.venv/bin/python extract_scales.py)              # 2nd Gemini pass: numeric dx/extent/dt/duration/size/domain -> "scales" key in data/datasets/*.json
+python3 scripts/plot_scales.py                                     # Figures/dataset_scales.{png,pdf,csv}: Stommel-style space-time diagram
 ```
 
 - `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.
 - Output is one JSON file per paper, `data/papers/<sha>.json` (`paper_id` = inventory `sha`), and one per dataset, `data/datasets/<sha>-<nn>.json`. They're linked both ways: the paper has `dataset_ids`, each dataset has `paper_id`. The same real-world dataset (e.g. SPCAM) used by several papers is **not** deduplicated yet.
 - `extract_metadata.py` is resumable: papers with an existing `data/papers/<sha>.json` are skipped, and failed papers write nothing, so a rerun retries them. To re-extract a paper, delete its paper file. The model is pinned in `MODEL`. `SCHEMA` and `PROMPT` in the same file define what gets extracted (Gemini `response_json_schema`). Only `PROMPT` text reaches the model, so field definitions go there, not in code comments.
 - `summarize.py` drops papers that were filed twice as different PDFs (same DOI + title start). Domains come from keyword rules over research_field + title (`DOMAINS`), which is a heuristic. Add a domain field to `SCHEMA` if it needs to be exact.
+- `extract_scales.py` sends each paper plus its existing dataset list, so dataset IDs stay stable. It is resumable: papers whose datasets all have `scales` are skipped. In `scales`, `domain` is a per-dataset Earth-system component (more reliable than the keyword `DOMAINS` in summarize.py) and `scales` is a multi-label list that tags ClimSim/SPCAM-type data as `MMF_superparameterized`. Most values are `estimated_from_paper` (see `basis`).
+- The process ellipses in `plot_scales.py` (`PROCESSES`) were traced by eye from the LEAP multi-scale slide (atmosphere/ocean only).
 - Venv setup: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `data/text/` and `.venv/` are gitignored. Pushing anything to GitHub, or sending papers to an API, needs the user's confirmation (global rule).
 
 ## Tools available

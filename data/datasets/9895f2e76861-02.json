@@ -15,5 +15,21 @@
   "resolution": "0.5 - 2 km, 10 min",
   "produced_in_this_study": false,
   "access": "https://registry.opendata.aws/noaa-goes/ and https://registry.opendata.aws/noaa-himawari/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 500.0,
+    "dx_max_m": 2000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 600.0,
+    "dt_max_s": 600.0,
+    "duration_s": 157788000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "GOES-16/17 and Himawari-8 geostationary full-disk imagery: 10 min cadence, 0.5 to 2 km spatial resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

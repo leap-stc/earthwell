@@ -15,5 +15,21 @@
   "resolution": "Daily storm surge estimates at 124 European tide gauges, 1850-2100",
   "produced_in_this_study": true,
   "access": "Will be published on Zenodo at a later stage (DOI to be added)",
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 7922000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Statistically modelled daily maximum storm surges at 124 European tide gauges forced by CMIP6 simulations over 1850-2100.",
+    "model": "gemini-3.8-flash"
+  }
 }

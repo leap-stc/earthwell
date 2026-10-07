@@ -14,5 +14,21 @@
   "resolution": "4 km, monthly (1923-2023)",
   "produced_in_this_study": false,
   "access": "https://prism.oregonstate.edu/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 4000.0,
+    "extent_m": 4500000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 3190000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "PRISM monthly precipitation at 4 km resolution across CONUS from 1923 to 2023.",
+    "model": "gemini-3.8-flash"
+  }
 }

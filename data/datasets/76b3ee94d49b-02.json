@@ -14,5 +14,21 @@
   "resolution": "6-hourly best-track points (1980-2000)",
   "produced_in_this_study": false,
   "access": "https://www.ncdc.noaa.gov/ibtracs/index.php?name=ib-v4-access",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 662688000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "IBTrACS TC track dataset from 1980-2000 sampled at 0, 6, 12, 18 UTC (dt = 6 h).",
+    "model": "gemini-3.8-flash"
+  }
 }

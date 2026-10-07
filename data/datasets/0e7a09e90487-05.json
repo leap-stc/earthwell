@@ -14,5 +14,21 @@
   "resolution": "Point/site-level, top 5 cm soil, 3-day averaged (2002-2020)",
   "produced_in_this_study": false,
   "access": "https://ismn.earth",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 259200.0,
+    "dt_max_s": 259200.0,
+    "duration_s": 574000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "367 in-situ soil moisture stations from ISMN globally, aggregated to 3-day means over 2002-2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

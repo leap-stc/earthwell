@@ -14,5 +14,21 @@
   "resolution": "< 1 m vertical (Rayleigh), 5 m horizontal",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 5.0,
+    "dx_max_m": 5.0,
+    "extent_m": 500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "UHF (600-900 MHz) radar along airborne survey tracks: 5 m horizontal trace spacing, <1 m vertical resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

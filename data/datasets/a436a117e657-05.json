@@ -15,5 +15,22 @@
   "resolution": "Monthly",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 1000000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 536000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Monthly water balance data (GPCC 0.25-deg P, GRUN runoff, GRACE TWS) evaluated across 189 global large river basins",
+    "model": "gemini-3.8-flash"
+  }
 }

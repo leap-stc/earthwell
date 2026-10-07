@@ -14,5 +14,21 @@
   "resolution": "decadal (1990, 2000, 2010), interpolated to annual, aggregated to 12 km x 12 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 315360000.0,
+    "duration_s": 631152000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "SILVIS decadal WUI population and housing density data for 1990, 2000, and 2010, linearly interpolated to annual timescales and aggregated to 12 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

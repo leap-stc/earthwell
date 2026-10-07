@@ -14,5 +14,21 @@
   "resolution": "5° x 5°",
   "produced_in_this_study": false,
   "access": "https://www.metoffice307.gov.uk/hadobs/hadsst4/data/netcdf/HadSST.4.0.1.0median.nc",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 555000.0,
+    "dx_max_m": 555000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "HadSST4 monthly gridded observed sea surface temperatures at 5°x5° resolution, evaluated for 1990–2019.",
+    "model": "gemini-3.8-flash"
+  }
 }

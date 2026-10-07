@@ -15,5 +15,21 @@
   "resolution": "nominal 1° horizontal, 60 ocean vertical levels, 30 atmospheric levels",
   "produced_in_this_study": true,
   "access": "The model outputs described in this paper can be accessed at www.earthsystemgrid.org.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1136000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "29 ensemble members run for 1990-2025 (36 years) at nominal 1-degree resolution with monthly output analyzed.",
+    "model": "gemini-3.8-flash"
+  }
 }

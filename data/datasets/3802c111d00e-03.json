@@ -14,5 +14,21 @@
   "resolution": "annual (1850-2098)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 7858656000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global annually averaged effective radiative forcing and derived CO2 equivalent time series from MCE v1.2 covering 1850-2098.",
+    "model": "gemini-3.8-flash"
+  }
 }

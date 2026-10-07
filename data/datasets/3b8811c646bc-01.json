@@ -14,5 +14,21 @@
   "resolution": "Daily temporal resolution; varying spatial resolutions from 128x64 to 320x160; 1950-01-01 to 2005-12-31",
   "produced_in_this_study": false,
   "access": "https://esgf-node.llnl.gov/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 125000.0,
+    "dx_max_m": 312500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1767283200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "14 CMIP5 models spanning 1950-01-01 to 2005-12-31 (56 years) at daily resolution; resolutions range from 320x160 (~1.125 deg) to 128x64 (~2.8 deg).",
+    "model": "gemini-3.8-flash"
+  }
 }

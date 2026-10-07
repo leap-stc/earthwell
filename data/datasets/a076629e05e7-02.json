@@ -15,5 +15,21 @@
   "resolution": "1 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 1000.0,
+    "extent_m": 35000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Static surface and subsurface spatial inputs (HydroSHEDS, NLCD, SSURGO, Gleeson permeability) regridded to 1 km over the river basins.",
+    "model": "gemini-3.8-flash"
+  }
 }

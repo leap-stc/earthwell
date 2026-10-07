@@ -15,5 +15,21 @@
   "resolution": "Friction Reynolds numbers Re_tau = 309, 554, 1243; coarse-grained to vertical grid spacing Delta+z = 6, 10, 11, 21, 42, 64",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.7916/d8-y850-6w35",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "DNS"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "DNS datasets of convective boundary layers and channel flow reported only in non-dimensional and inner wall units.",
+    "model": "gemini-3.8-flash"
+  }
 }

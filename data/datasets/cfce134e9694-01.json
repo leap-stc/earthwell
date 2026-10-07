@@ -16,5 +16,22 @@
   "resolution": "1.9° x 2.5° finite-volume dynamical core (96 x 144 grid cells), 26 vertical levels, 30 min ESM timestep (subsampled by factor of 2), 32 CRM columns, 25 CRM vertical levels",
   "produced_in_this_study": true,
   "access": "https://github.com/bhouri0412/MF_RPN_SPCAM_cv_param",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 210900.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 7689600.0,
+    "size_gb": 11.8,
+    "basis": "estimated_from_paper",
+    "note": "CESM SPCAM5 historical run on 1.9x2.5 degree grid, 30 min time step subsampled by 2x (1 hr), spanning 89 days (Feb 1 - Apr 30 2003; 29.5M points).",
+    "model": "gemini-3.8-flash"
+  }
 }

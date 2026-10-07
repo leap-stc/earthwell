@@ -14,5 +14,21 @@
   "resolution": "Averaged from 0.0083° x 0.0083° to 0.083° x 0.083°",
   "produced_in_this_study": false,
   "access": "http://thredds-gfnl.usc.es/thredds/catalog/GLOBALWTDFTP/annualmeans/catalog.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 921.3,
+    "dx_max_m": 9213.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 347000000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Modelled equilibrium water table depth from Fan et al. (2017) over 2004-2014, upscaled from 0.0083 to 0.083 degrees",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "Decadal (1990, 2000, 2010) linearly interpolated, aggregated to 12 km x 12 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 315360000.0,
+    "duration_s": 631152000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "SILVIS housing and population density decadal data (1990, 2000, 2010) linearly interpolated to annual",
+    "model": "gemini-3.8-flash"
+  }
 }

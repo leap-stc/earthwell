@@ -16,5 +16,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 978000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GLODAP and LDEO independent global in situ pCO2 observation databases evaluated over 1990–2020",
+    "model": "gemini-3.8-flash"
+  }
 }

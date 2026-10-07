@@ -15,5 +15,21 @@
   "resolution": "hourly; 0.25 deg for SW, ~2 km for LST",
   "produced_in_this_study": false,
   "access": "The data used in this study have been properly cited and are publicly available (see table S6).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 2000.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 4500000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 63100000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Hourly GOES-16 ABI LST (~2 km) and downwelling shortwave radiation (0.25 deg) over CONUS.",
+    "model": "gemini-3.8-flash"
+  }
 }

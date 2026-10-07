@@ -15,5 +15,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": 10.0,
+    "dx_max_m": 60.0,
+    "extent_m": null,
+    "dt_min_s": 432000.0,
+    "dt_max_s": 1036800.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Sentinel-1 SAR (10-20 m) and Sentinel-2 MSI (10-60 m) with 5-12 day revisit times.",
+    "model": "gemini-3.8-flash"
+  }
 }

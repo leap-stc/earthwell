@@ -15,5 +15,22 @@
   "resolution": "30-minute temporal resolution, 46 canopy layers",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site",
+      "column_or_box"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 2678400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Single-column multilayer canopy model simulation evaluated at 30-minute intervals over 31 days (May 2007, 1,488 timesteps) with 46 vertical layers.",
+    "model": "gemini-3.8-flash"
+  }
 }

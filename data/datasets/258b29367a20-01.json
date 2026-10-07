@@ -14,5 +14,21 @@
   "resolution": "Hourly subsampled to 3-hourly, 1979-2017 across 9 European stations",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.31223/X5MP65",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 2300000.0,
+    "dt_min_s": 10800.0,
+    "dt_max_s": 10800.0,
+    "duration_s": 1230768000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GESLA3 hourly tide-gauge records subsampled to 3-hourly intervals across 9 European stations spanning 1979 to 2017 (39 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

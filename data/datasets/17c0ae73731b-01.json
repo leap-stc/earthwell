@@ -15,5 +15,22 @@
   "resolution": "1.5 deg horizontal (unstructured cubed-sphere grid ne30, 21,600 columns), 60 vertical levels, 20-min timestep; nested CRM has 64 columns with 2 km spacing",
   "produced_in_this_study": true,
   "access": "https://huggingface.co/datasets/LEAP/ClimSim_high-res",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1200.0,
+    "dt_max_s": 1200.0,
+    "duration_s": 315360000.0,
+    "size_gb": 41200.0,
+    "basis": "stated",
+    "note": "Host cubed-sphere grid ne30 with ~1.5 degree (166.5 km) spacing and 21,600 columns; 20-min timestep over 10 simulated years (3,650 days). Embedded CRM had 2 km spacing.",
+    "model": "gemini-3.8-flash"
+  }
 }

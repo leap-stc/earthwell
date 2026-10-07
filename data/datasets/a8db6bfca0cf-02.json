@@ -15,5 +15,21 @@
   "resolution": "coarse resolution",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 310000.0,
+    "dx_max_m": 310000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 33767280000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global ocean MITgcm parameter ensemble (Huber & Zanna 2017) at coarse ~2.8 degree resolution, spun up for 1,000 years plus 70 years of 1%CO2 to doubling.",
+    "model": "gemini-3.8-flash"
+  }
 }

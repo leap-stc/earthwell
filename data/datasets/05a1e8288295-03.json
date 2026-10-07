@@ -14,5 +14,22 @@
   "resolution": "5-min reporting intervals (position error < 10 m), low-pass filtered with a 1-h cutoff and subsampled to 15 min",
   "produced_in_this_study": false,
   "access": "https://data.gulfresearchinitiative.org/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 1000000.0,
+    "dt_min_s": 900.0,
+    "dt_max_s": 900.0,
+    "duration_s": 5184000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "LASER surface drifter deployment in Gulf of Mexico: January-March 2016 (~60 days), subsampled to 15 min; pair separations analyzed up to 1000 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

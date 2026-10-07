@@ -15,5 +15,21 @@
   "resolution": "Individual position and user level (April 2025 extraction)",
   "produced_in_this_study": false,
   "access": "The Revelio and L2 datasets used in this paper are commercial datasets whose license terms prohibit disclosure.",
-  "access_kind": "proprietary"
+  "access_kind": "proprietary",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Online workforce profile and employment history dataset captured in April 2025.",
+    "model": "gemini-3.8-flash"
+  }
 }

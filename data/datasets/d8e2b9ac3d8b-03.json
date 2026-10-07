@@ -14,5 +14,21 @@
   "resolution": "Daily maximum non-tidal residuals (1979-2014)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1136073600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Daily maximum non-tidal residuals at 124 European tide gauges over 1979-2014 (36 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

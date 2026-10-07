@@ -15,5 +15,21 @@
   "resolution": "sparse grid using clustering (14x faster than equivalent 2deg model)",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 5492000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CLM6 global land ensemble spanning 1850-2023 (174 years) on a sparse grid based on an equivalent 2-degree resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

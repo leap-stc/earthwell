@@ -15,5 +15,21 @@
   "resolution": "25 m horizontal, 2015-2022",
   "produced_in_this_study": true,
   "access": "NSIDC (fracture fields); GitHub repo: https://github.com/hoffmaao/thwaites_crevasses",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 25.0,
+    "dx_max_m": 25.0,
+    "extent_m": 800000.0,
+    "dt_min_s": 1036800.0,
+    "dt_max_s": 7776000.0,
+    "duration_s": 252288000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Mapped crevasse fields at 25 m resolution from Sentinel-1A (2015-2022, 3-month rolling median filtered products available at NSIDC).",
+    "model": "gemini-3.8-flash"
+  }
 }

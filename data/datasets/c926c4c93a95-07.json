@@ -14,5 +14,21 @@
   "resolution": "discrete temporal observations",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 946728000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "BATS and HOT discrete site time series sampled roughly monthly from 1990 to 2019 (30 yrs).",
+    "model": "gemini-3.8-flash"
+  }
 }

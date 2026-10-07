@@ -14,5 +14,21 @@
   "resolution": "nominal 1° horizontal resolution (320 × 360 global tripolar grid), 5-day assimilation cycles",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.7818178",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 432000.0,
+    "dt_max_s": 432000.0,
+    "duration_s": 1135296000.0,
+    "size_gb": 43.0,
+    "basis": "estimated_from_paper",
+    "note": "SPEAR SIS2-MOM6 nominal 1-degree global grid (320x360), 5-day data assimilation increments over 1982-2017 (2,618 cycles).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "5 km horizontal, 191 vertical layers, hourly output",
   "produced_in_this_study": false,
   "access": "Primary data used in this work is archived by the Max Planck Institute for Meteorology (contact: marco.giorgetta@mpimet.mpg.de).",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "CRM"
+    ],
+    "dx_min_m": 5000.0,
+    "dx_max_m": 5000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 7783200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global storm-resolving ICON simulations for three one-month hindcast periods (2162 hourly output steps) across 191 vertical levels.",
+    "model": "gemini-3.8-flash"
+  }
 }

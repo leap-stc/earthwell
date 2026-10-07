@@ -14,5 +14,21 @@
   "resolution": "Original LES: 256^3 cubic domain, dx=dy=24 m, dz=6 m; coarse-grained horizontally to 1.5 km (4x4 grids) and 128 vertical levels",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.8039033",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": 24.0,
+    "dx_max_m": 1536.0,
+    "extent_m": 6144.0,
+    "dt_min_s": 60.0,
+    "dt_max_s": 60.0,
+    "duration_s": 75000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "LES domain 256x24 m = 6144 m; coarse-grained by factor of 64 to 1536 m (4x4 grids); 1250 1-minute snapshots per simulation yielding 20,000 column samples.",
+    "model": "gemini-3.8-flash"
+  }
 }

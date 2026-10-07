@@ -14,5 +14,21 @@
   "resolution": "1.5 degree, daily forecasts up to 60-day lead time, 2016 to present (3 ensemble + 1 control)",
   "produced_in_this_study": false,
   "access": "https://huggingface.co/datasets/LEAP/ChaosBench",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 252500000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "UKMO GloSea6 daily forecasts regridded to 1.5 deg with 60-day lead time evaluated over 2016-2023 (8 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

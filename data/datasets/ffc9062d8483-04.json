@@ -14,5 +14,22 @@
   "resolution": "Monthly (1959–2014)",
   "produced_in_this_study": false,
   "access": "http://icdc.cen.uni-hamburg.de/thredds/catalog/ftpthredds/EASYInit/oras5/catalog.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 28000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1768000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ECMWF ORAS5 ocean reanalysis monthly data (1959–2014), natively 0.25° and regridded to 1° for analysis.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "S = 200 timesteps, delta_s = 0.01",
   "produced_in_this_study": true,
   "access": "https://github.com/MB-29/constrained-sampling",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 0.01,
+    "dt_max_s": 0.01,
+    "duration_s": 2.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Planar quadrotor trajectory planning with S=200 steps at delta_s=0.01 seconds; spatial units are non-dimensional.",
+    "model": "gemini-3.8-flash"
+  }
 }

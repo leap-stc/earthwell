@@ -15,5 +15,21 @@
   "resolution": "Dx = Dy ~ 3.9 km, nx = ny = 256, Lx = Ly = 1000 km, daily averaged",
   "produced_in_this_study": true,
   "access": "The code for the PyQG model is made available at https://doi.org/10.5281/zenodo.6380711, and documentation is available at https://pyqg.readthedocs.io/en/latest/. Python code for processing the GLAD and LASER drifter datasets, running the QG simulation, and estimating structure functions and spectral fluxes using regularized least squares is available at https://github.com/manuelogtzv/SF3_RLS.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 3900.0,
+    "dx_max_m": 3900.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 473040000.0,
+    "size_gb": 0.07,
+    "basis": "stated",
+    "note": "PyQG idealized 2-layer model: 1000 km x 1000 km, 256x256 grid (~3.9 km), daily output over 15 years analysis period (or 5 years in parts, 15 years duration is 4.73e8 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

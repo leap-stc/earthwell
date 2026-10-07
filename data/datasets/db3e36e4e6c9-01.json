@@ -14,5 +14,21 @@
   "resolution": "Vertical velocity profiles across 4 flow conditions (water depths 0.2–0.4 m)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1016/j.jher.2014.07.010",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Laboratory flume experiment using a 1:7.5 scale mangrove model from Zhang et al. (2015); physical flume dimensions and sampling durations are not provided in the paper.",
+    "model": "gemini-3.8-flash"
+  }
 }

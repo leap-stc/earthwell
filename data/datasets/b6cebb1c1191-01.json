@@ -14,5 +14,21 @@
   "resolution": "R2B5 triangular grid (~80 km horizontal), 47 vertical levels (sigma coordinates, up to 80 km), 5-hourly instantaneous output sampled 1 day every 2 weeks, physics/radiation timestep 6 min",
   "produced_in_this_study": true,
   "access": "The code will be published under https://github.com/EyringMLClimateGroup/hafner24jgrml MLradiationemulation offline. The software code for the ICON model is available from https://icon-model.org.",
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 80000.0,
+    "dx_max_m": 80000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 18000.0,
+    "dt_max_s": 18000.0,
+    "duration_s": 31536000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "ICON-A R2B5 triangular grid (~80 km), 5-hourly instantaneous output sampled across 1979 (1 year).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -15,5 +15,21 @@
   "resolution": "Daily, monthly, and annual means (2003-2019)",
   "produced_in_this_study": true,
   "access": "All data and code support for this study can be available upon request from the first author (shihaiyang16@mails.ucas.ac.cn).",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 31500000.0,
+    "duration_s": 536000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Machine-learning estimated ET at 6277 global weather stations at daily, monthly, and annual resolutions from 2003-2019",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "Year 2010 static map, aggregated to 12 km x 12 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Spawn et al. 2020 biomass map for the year 2010 used as static spatial predictor aggregated to 12 km",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "county level",
   "produced_in_this_study": false,
   "access": "https://www.cdc.gov/nchs/data-analysis-tools/urban-rural.html",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 4500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "County-level urban-rural categorical classification for the contiguous United States.",
+    "model": "gemini-3.8-flash"
+  }
 }

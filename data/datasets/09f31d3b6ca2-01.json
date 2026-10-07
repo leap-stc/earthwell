@@ -14,5 +14,21 @@
   "resolution": "0.1°",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 11100.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global 0.1 degree MOM6 ocean simulation snapshot (0.1 degree approx. 11.1 km); temporal extent unspecified.",
+    "model": "gemini-3.8-flash"
+  }
 }

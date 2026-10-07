@@ -14,5 +14,21 @@
   "resolution": "Various native grids bilinearly interpolated to 1.5° x 1.5°, daily frequency (1850-2100)",
   "produced_in_this_study": false,
   "access": "https://pangeo-data.github.io/pangeo-cmip6-cloud/ held in public Google Cloud Storage",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 62000.0,
+    "dx_max_m": 311000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 7922000000.0,
+    "size_gb": 20000.0,
+    "basis": "stated",
+    "note": "Analysis-Ready Cloud Optimized daily CMIP6 simulations (1850-2100) from 27 models regridded to 1.5 deg; stated size > 20 TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

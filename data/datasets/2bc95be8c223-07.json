@@ -14,5 +14,21 @@
   "resolution": "hourly, ~0.025 deg",
   "produced_in_this_study": true,
   "access": "All data needed to evaluate the conclusions in the paper are present in the paper and/or the Supplementary Materials.",
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 2775.0,
+    "dx_max_m": 2775.0,
+    "extent_m": 4500000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 63100000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Cubist-modeled hourly GPP at 0.025 deg resolution across CONUS for August 2018–2020.",
+    "model": "gemini-3.8-flash"
+  }
 }

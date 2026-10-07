@@ -16,5 +16,22 @@
   "resolution": "400-cluster representative sparse grid subsampled from 2°",
   "produced_in_this_study": true,
   "access": "https://webext.cgd.ucar.edu/I2000/PPEn11_OAAT",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "GCM_ESM",
+      "other"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": 31536000.0,
+    "duration_s": 4733640000.0,
+    "size_gb": 2000.0,
+    "basis": "estimated_from_paper",
+    "note": "Subsampled from a 2-degree rectilinear grid onto 400 sparse grid cells; 150-year simulations per ensemble member; raw size stated as >2TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

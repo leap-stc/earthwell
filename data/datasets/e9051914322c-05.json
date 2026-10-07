@@ -14,5 +14,21 @@
   "resolution": "time series at 26.5°N",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/33826d6e-801c-b0a7-e063-7086abc0b9db",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 6000000.0,
+    "dt_min_s": 43200.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 599184000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "RAPID mooring array across Atlantic at 26.5 deg N (~6000 km section width), standard 12-hour to daily output, 2004-2023 (19 years = ~5.99e8 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

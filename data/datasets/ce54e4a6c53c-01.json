@@ -14,5 +14,21 @@
   "resolution": "0.1° ocean, 0.5° atmosphere; daily averages over 20 years",
   "produced_in_this_study": false,
   "access": "gs://cmip6/GFDL_CM2_6/",
-  "access_kind": "pangeo_or_cloud"
+  "access_kind": "pangeo_or_cloud",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 11100.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 630720000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CM2.6 coupled model run with 0.1° ocean (~11 km) and 0.5° atmosphere (~55 km) daily average output over the last 20 years of simulation.",
+    "model": "gemini-3.8-flash"
+  }
 }

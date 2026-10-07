@@ -15,5 +15,21 @@
   "resolution": "Daily, 2003-2019",
   "produced_in_this_study": false,
   "access": "the global weather station data are from the weather records of the Global Daily Summary (GSOD), which are available from the National Centers for Environmental Information (NCEI) (www.ncei.noaa.gov/data/global-summary-of-the-day/archive/)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 536000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global Daily Summary (GSOD) network with over 8000 weather stations spanning 2003 to 2019 (17 years)",
+    "model": "gemini-3.8-flash"
+  }
 }

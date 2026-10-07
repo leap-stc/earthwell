@@ -15,5 +15,21 @@
   "resolution": "30 m original resolution aggregated to 12 km x 12 km fractions",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 31536000.0,
+    "dt_max_s": 315360000.0,
+    "duration_s": 852038400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "NLCD 30 m product aggregated to 12 km grid fractions from 1992 to 2019",
+    "model": "gemini-3.8-flash"
+  }
 }

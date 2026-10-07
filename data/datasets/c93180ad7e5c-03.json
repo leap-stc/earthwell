@@ -14,5 +14,21 @@
   "resolution": "30 × 30 m",
   "produced_in_this_study": false,
   "access": "Meta and Center for International Earth Science Information Network (CIESIN), Columbia University (2022); population density patches archived at https://zenodo.org/records/19156085",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 30.0,
+    "extent_m": 8000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Meta High Resolution Population Density Maps at 30 m grid resolution covering 50 African countries.",
+    "model": "gemini-3.8-flash"
+  }
 }

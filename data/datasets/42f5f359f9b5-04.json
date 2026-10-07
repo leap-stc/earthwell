@@ -15,5 +15,21 @@
   "resolution": "monthly mean",
   "produced_in_this_study": false,
   "access": "https://gml.noaa.gov/ccgg/mbl/data.php",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1325376000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA marine boundary layer monthly globally averaged atmospheric xCO2 product from 1982-2023.",
+    "model": "gemini-3.8-flash"
+  }
 }

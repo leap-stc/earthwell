@@ -14,5 +14,21 @@
   "resolution": "64x128 grid (~250 km), daily resolution (1850–2100)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 250000.0,
+    "dx_max_m": 250000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 7921104000.0,
+    "size_gb": 45.6,
+    "basis": "stated",
+    "note": "Regridded daily global surface temperature fields on a 64x128 grid (~250 km) covering 1850–2100 across 9 CMIP6 models and 3 SSP scenarios.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "1/64° (1.5 km), 1/16°, 1/8°, 1/7°, 1/6°, 1/5°, 1/4°, 1/3°, 1/2°; 2 vertical layers",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.12682093",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1500.0,
+    "dx_max_m": 48500.0,
+    "extent_m": 2220000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 631152000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Idealized MOM6 2-layer Double Gyre domain spanning 20° x 20° (30°N-50°N, 0°-20°E) run for 20 years across resolutions from 1/64° (1.5 km) to 1/2° (48.5 km).",
+    "model": "gemini-3.8-flash"
+  }
 }

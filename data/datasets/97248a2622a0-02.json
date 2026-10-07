@@ -14,5 +14,22 @@
   "resolution": "~31 km horizontal resolution, 137 vertical levels, reprojected to MAR grid",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 31000.0,
+    "dx_max_m": 31000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1452076800.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 reanalysis variables reprojected to Greenland domain for 1979–2024; native horizontal resolution ~31 km with daily aggregations used for emulator training.",
+    "model": "gemini-3.8-flash"
+  }
 }

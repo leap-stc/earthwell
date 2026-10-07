@@ -14,5 +14,21 @@
   "resolution": "Regridded to 1° × 1° monthly (1959–2014)",
   "produced_in_this_study": false,
   "access": "http://esgf-node.llnl.gov/projects/cmip6 and Pangeo cloud (http://pangeo.io)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1768000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CMIP6 historical simulation outputs (1959–2014) regridded to a uniform 1° × 1° horizontal grid with monthly resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

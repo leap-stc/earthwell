@@ -14,5 +14,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 5500000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Satellite observations over Canadian wildfire areas across 2023-2024; specific satellite instruments and spatial/temporal resolutions not specified.",
+    "model": "gemini-3.8-flash"
+  }
 }

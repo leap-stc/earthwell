@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://www.cloudsat.cira.colostate.edu/data-products/2c-ice",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1400.0,
+    "dx_max_m": 1700.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "CloudSat 2C-ICE radar-lidar along-track profile product with footprint sampling ~1.4 x 1.7 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

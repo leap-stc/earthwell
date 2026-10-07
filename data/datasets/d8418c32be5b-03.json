@@ -14,5 +14,21 @@
   "resolution": "monthly timescale, 1 deg by 1 deg",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5281/zenodo.7679402",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Suite of 8 global observation-based surface ocean pCO2 and flux products analyzed on a monthly 1x1 degree grid for the 2010-2019 modern baseline.",
+    "model": "gemini-3.8-flash"
+  }
 }

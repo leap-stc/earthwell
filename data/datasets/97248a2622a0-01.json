@@ -14,5 +14,21 @@
   "resolution": "daily, 1979–2024",
   "produced_in_this_study": false,
   "access": "https://zenodo.org/records/17942115",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 2500000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1452076800.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "MAR simulated daily surface energy balance and meltwater over the Greenland Ice Sheet from 1979 to 2024 (46 years); specific MAR horizontal grid spacing is not stated.",
+    "model": "gemini-3.8-flash"
+  }
 }

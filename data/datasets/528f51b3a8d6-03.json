@@ -15,5 +15,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1325000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Standard NOAA OISST v2 dataset (Reynolds et al., 2007) is global 0.25-degree daily SST product spanning 1981 to present (~42 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

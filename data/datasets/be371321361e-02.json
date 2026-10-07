@@ -15,5 +15,21 @@
   "resolution": "0.05° (~6 km) resolution, 6-hr time steps",
   "produced_in_this_study": false,
   "access": "https://www.rms.com/event-response/hwind/legacy-archive",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 5550.0,
+    "dx_max_m": 6000.0,
+    "extent_m": 6000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 347155200.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "HWind gridded surface wind fields at 0.05 degrees (~6 km) and 6-hr timesteps for North Atlantic tropical cyclones from 2003 to 2013 (11 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

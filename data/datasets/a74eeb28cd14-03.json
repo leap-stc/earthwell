@@ -14,5 +14,21 @@
   "resolution": "1.9°×2.5°×15 min, 93 days",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 210900.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 900.0,
+    "dt_max_s": 900.0,
+    "duration_s": 8035200.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CAM5 standard parameterization run for 93 days at 1.9x2.5 deg with 15-min timestep.",
+    "model": "gemini-3.8-flash"
+  }
 }

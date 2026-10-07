@@ -15,5 +15,22 @@
   "resolution": "Claim level, 1978-2024/2025",
   "produced_in_this_study": false,
   "access": "https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 5000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1483344000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "OpenFEMA NFIP redacted claim records at daily resolution across CONUS from 1978 to 2024 (47 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1175/JCLI-D-20-0166.1",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 157788000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NOAA Daily OISST v2.1 0.25-degree gridded observational dataset used over the 2018-2022 analysis period.",
+    "model": "gemini-3.8-flash"
+  }
 }

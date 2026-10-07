@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": true,
   "access": "https://m2lines.github.io/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global simulations with GFDL OM4 and CM4; exact resolution and run lengths are not specified in the abstract.",
+    "model": "gemini-3.8-flash"
+  }
 }

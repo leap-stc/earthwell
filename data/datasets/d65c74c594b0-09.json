@@ -14,5 +14,21 @@
   "resolution": "daily at 63 EC sites",
   "produced_in_this_study": true,
   "access": "https://github.com/Weiwei047/iWUE_CO2",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 725800000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Daily aggregated site analysis dataset for 63 EC sites provided on GitHub.",
+    "model": "gemini-3.8-flash"
+  }
 }

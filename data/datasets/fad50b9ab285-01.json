@@ -15,5 +15,22 @@
   "resolution": "Daily counts aggregated to 59 Community District boundaries and 6 flood zones, 2010-01-01 to 2019-12-31",
   "produced_in_this_study": false,
   "access": "http://data.cityofnewyork.us",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": 3700.0,
+    "extent_m": 50000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 315532800.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "NYC311 crowdsourced coordinate records aggregated daily across 59 Community Board districts (average district extent ~3.7 km) spanning NYC (800 km2, ~50 km extent) over 2010-2019 (3652 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

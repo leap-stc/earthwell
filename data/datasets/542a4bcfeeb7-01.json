@@ -14,5 +14,21 @@
   "resolution": "daily",
   "produced_in_this_study": false,
   "access": "The original contributions presented in this study are included in the article. Further inquiries can be directed to the corresponding author.",
-  "access_kind": "on_request"
+  "access_kind": "on_request",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1262304000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Daily river discharge observations at Hombole gauge station (1981–2020, 14,610 daily records).",
+    "model": "gemini-3.8-flash"
+  }
 }

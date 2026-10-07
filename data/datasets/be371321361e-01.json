@@ -15,5 +15,21 @@
   "resolution": "0.25° regular latitude-longitude grid, hourly intervals",
   "produced_in_this_study": false,
   "access": "Copernicus Climate Change Service (C3S) Climate Data Store (CDS). https://doi.org/10.24381/cds.adbb2d47",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 378691200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 is a global reanalysis (0.25 degrees, ~27.75 km) with native 1-hr output sampled or mapped at 6-hr intervals for 85 tropical cyclones across 2003-2014 (12 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

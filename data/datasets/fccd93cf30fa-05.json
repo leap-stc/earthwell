@@ -15,5 +15,21 @@
   "resolution": "30-meter resolution every three days",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 30.0,
+    "extent_m": null,
+    "dt_min_s": 259200.0,
+    "dt_max_s": 259200.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Inundation map target resolution stated as 30-meter resolution every three days (259,200 s).",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "~2 degrees horizontal, 30 vertical levels, 30 min time step",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 189216000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Standard CAM3 aquaplanet simulation at ~2 degree resolution and 30-min time step; 1-yr spin-up plus 5 years analyzed.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "64x64 grid (downsampled from 256x256), snapshot dt = 0.2 MTU",
   "produced_in_this_study": true,
   "access": "Synthetic data is generated according to the script provided in https://github.com/juannat7/cohesion.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "DNS"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": 8.6,
+    "basis": "estimated_from_paper",
+    "note": "Dimensionless 2D Kolmogorov flow simulation on [0, 2pi]^2 domain; physical dimensions in meters and seconds are not defined",
+    "model": "gemini-3.8-flash"
+  }
 }

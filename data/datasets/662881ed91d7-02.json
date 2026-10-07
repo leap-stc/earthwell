@@ -15,5 +15,21 @@
   "resolution": "daily; 42 river segments",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 48.0,
+    "dx_max_m": 23120.0,
+    "extent_m": 200000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1136073600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Simulated hydrologic and temperature variables for 42 river segments over 13,149 daily dates.",
+    "model": "gemini-3.8-flash"
+  }
 }

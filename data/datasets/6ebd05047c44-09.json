@@ -14,5 +14,21 @@
   "resolution": "0.25°, 6 h",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 1009152000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "CCMPv2 0.25° grid, 6-hourly temporal resolution, available 1988-present (analyzed 1990-2019).",
+    "model": "gemini-3.8-flash"
+  }
 }

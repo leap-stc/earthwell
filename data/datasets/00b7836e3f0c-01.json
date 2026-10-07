@@ -14,5 +14,21 @@
   "resolution": "1D atmospheric column (optical depth / multi-layer)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "column_or_box"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "1D plane-parallel radiative transfer benchmark problems; steady-state column calculations with no horizontal or temporal discretization.",
+    "model": "gemini-3.8-flash"
+  }
 }

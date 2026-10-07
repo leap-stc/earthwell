@@ -15,5 +15,22 @@
   "resolution": "Point/cruise track observations",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.25921/r7xa-bt92",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 60.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 2082844800.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "In situ surface ocean fCO2 observations along cruise tracks and mooring sites globally spanning 1957 to 2022.",
+    "model": "gemini-3.8-flash"
+  }
 }

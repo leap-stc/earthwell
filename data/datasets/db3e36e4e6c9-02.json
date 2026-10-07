@@ -14,5 +14,21 @@
   "resolution": "Vertical velocity profiles across 4 tidal ebb conditions (water depths 0.21–0.53 m)",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.1029/2021JC018320",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Intertidal mangrove field site in Aklan, Philippines from Yoshikai et al. (2022); measurement duration and exact sensor spacing across the four profiles are not reported.",
+    "model": "gemini-3.8-flash"
+  }
 }

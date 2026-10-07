@@ -15,5 +15,21 @@
   "resolution": "1.5-km uniform horizontal mesh (remapped from native ~2-km mesh), 32x32 pixels (48 km x 48 km square patches); lead times from 10 to 60 minutes",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.26208/6Y59-0R80",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 1500.0,
+    "dx_max_m": 2000.0,
+    "extent_m": 2100000.0,
+    "dt_min_s": 120.0,
+    "dt_max_s": 300.0,
+    "duration_s": 34100000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GOES-16 ABI 7 IR channels remapped to 1.5 km (native ~2 km) with 5-min cadence; MRMS at 0.01 deg (~1.1 km) at 2-min cadence. Samples cover US Great Plains across June-July 2020 and June 2021 (~13-month span).",
+    "model": "gemini-3.8-flash"
+  }
 }

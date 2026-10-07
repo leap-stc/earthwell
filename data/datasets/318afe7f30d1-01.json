@@ -15,5 +15,21 @@
   "resolution": "K=8 slow variables, J=32 fast variables per slow variable (total dim 264); simulated dt=0.005, sub-sampled to 1t=0.01; t=0 to 100 MTU (500 ATM days)",
   "produced_in_this_study": true,
   "access": "https://github.com/bhouri0412/Hist_Bayesian_Closure",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 4320.0,
+    "dt_max_s": 4320.0,
+    "duration_s": 43200000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Lorenz '96 dynamical system without spatial metric coordinates; 1 MTU = 5 atmospheric days (432,000 s), sampled at dt = 0.01 MTU (4,320 s) over 100 MTU (500 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

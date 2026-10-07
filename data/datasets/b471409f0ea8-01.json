@@ -14,5 +14,21 @@
   "resolution": "2° latitude x 2.5° longitude, 62 vertical layers, 30-minute timestep",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 63072000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Grid resolution given as 2° latitude by 2.5° longitude at 30-minute intervals over 2 historical years (1950–1951, 35,040 timesteps).",
+    "model": "gemini-3.8-flash"
+  }
 }

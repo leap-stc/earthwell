@@ -15,5 +15,21 @@
   "resolution": "county level",
   "produced_in_this_study": false,
   "access": "All NFIP and disaster data are publicly accessible and can be accessed through FEMA’s OpenFEMA portal.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 5000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1480000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Presidential disaster declarations and county-level individual assistance disbursements across the US.",
+    "model": "gemini-3.8-flash"
+  }
 }

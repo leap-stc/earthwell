@@ -14,5 +14,22 @@
   "resolution": "Policy level",
   "produced_in_this_study": false,
   "access": "https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional",
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 5000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "OpenFEMA NFIP redacted policy dataset providing policy counts and coverage limits across CONUS.",
+    "model": "gemini-3.8-flash"
+  }
 }

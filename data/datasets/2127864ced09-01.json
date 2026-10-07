@@ -15,5 +15,22 @@
   "resolution": "hourly-averaged",
   "produced_in_this_study": false,
   "access": "https://downloads.psl.noaa.gov/psd3/cruises/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "point_or_site",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 946700000.0,
+    "size_gb": 0.001,
+    "basis": "estimated_from_paper",
+    "note": "NOAA PSL research cruise dataset spanning multiple decades (from the 1990s through recent campaigns, ~30 years) with about 10,000 hourly ship-borne eddy-covariance samples across global oceans.",
+    "model": "gemini-3.8-flash"
+  }
 }

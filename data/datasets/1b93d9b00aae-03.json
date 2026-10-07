@@ -14,5 +14,21 @@
   "resolution": "half-hourly, growing season 2016 (DOY 120 to 248)",
   "produced_in_this_study": false,
   "access": "The Cheorwon site observations are public on the FLUXNET website (https://fluxnet.org/doi/FLUXNET-CH4/KR-CRK).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 1800.0,
+    "dt_max_s": 1800.0,
+    "duration_s": 11145600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Automated spectroscopy system and eddy covariance measurements from DOY 120 to 248, 2016 (129 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

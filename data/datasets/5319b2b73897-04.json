@@ -15,5 +15,21 @@
   "resolution": "1°, monthly mean",
   "produced_in_this_study": false,
   "access": "MAC‐LWP is available through the Goddard Earth Sciences Data and Information Services Center (GES DISC, current hosting: http://disc.sci.gsfc.nasa.gov)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 536457600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "MAC-LWP monthly mean data constructed at 0.25 degrees and aggregated to 1 degree over the 2000–2016 period.",
+    "model": "gemini-3.8-flash"
+  }
 }

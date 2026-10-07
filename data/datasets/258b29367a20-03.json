@@ -14,5 +14,22 @@
   "resolution": "Hourly, 1979-2017",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.3389/fmars.2020.00263",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "regional",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 1250.0,
+    "dx_max_m": 50000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 1230768000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Global Tide and Surge Model (GTSMv3.0) flexible-mesh hydrodynamic simulation outputs forced with hourly ERA5 spanning 1979-2017.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "10 m",
   "produced_in_this_study": false,
   "access": "Extracted via Google Earth Engine processing workflow",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 10.0,
+    "dx_max_m": 10.0,
+    "extent_m": 8000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 126000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "1,453,663 Sentinel-2 256x256 image patches over Africa at 10 m native pixel resolution matching Afrobarometer round periods (2019-2023).",
+    "model": "gemini-3.8-flash"
+  }
 }

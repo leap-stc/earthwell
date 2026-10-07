@@ -14,5 +14,21 @@
   "resolution": "30 m",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 30.0,
+    "dx_max_m": 30.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Copernicus GLO-30 global digital elevation model provides surface elevation at 30 m resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

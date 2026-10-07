@@ -14,5 +14,21 @@
   "resolution": "256 x 256",
   "produced_in_this_study": false,
   "access": "From The Well (Ohana et al., 2024)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 0.25,
+    "dt_max_s": 0.25,
+    "duration_s": 20.0,
+    "size_gb": 51.3,
+    "basis": "stated",
+    "note": "Active Matter dataset from The Well with 81 snapshots at dt = 0.25 s across 20 s total duration; spatial domain Lx = Ly = 10 is unitless.",
+    "model": "gemini-3.8-flash"
+  }
 }

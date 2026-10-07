@@ -15,5 +15,21 @@
   "resolution": "128 x 256 grid (1.40625 degrees), 13 pressure levels (50 to 1000 hPa), 6-hourly",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 156094.0,
+    "dx_max_m": 156094.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 157788000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 regridded to 128x256 (1.40625 deg) global grid at 6-h intervals; duration estimated across documented 2016-2020 usage.",
+    "model": "gemini-3.8-flash"
+  }
 }

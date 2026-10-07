@@ -15,5 +15,22 @@
   "resolution": "1.5-degree grid, daily, 10 pressure levels (10, 50, 100, 200, 300, 500, 700, 850, 925, 1000 hPa)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM",
+      "global_obs"
+    ],
+    "dx_min_m": 166500.0,
+    "dx_max_m": 166500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 725846400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 temperature on 10 pressure levels resampled to a global 1.5-degree daily grid for 2000-2022 (23 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

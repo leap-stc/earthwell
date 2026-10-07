@@ -14,5 +14,21 @@
   "resolution": "4-day, 500m",
   "produced_in_this_study": false,
   "access": "NASA EOSDIS Land Processes Distributed Active Archive Center (https://doi.org/10.5067/MODIS/MOD15A2H.006)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": 500.0,
+    "dx_max_m": 500.0,
+    "extent_m": null,
+    "dt_min_s": 345600.0,
+    "dt_max_s": 345600.0,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "MODIS MOD15A2H Leaf Area Index 500 m sinusoidal grid product with 4-day temporal resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

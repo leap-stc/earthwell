@@ -14,5 +14,21 @@
   "resolution": "2.3 μm pixel resolution, resized to 28x28 and 224x224",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": 2.3e-06,
+    "dx_max_m": 2.3e-06,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "In situ Cloud Particle Imager (CPI) images with 2.3 micrometer pixel resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

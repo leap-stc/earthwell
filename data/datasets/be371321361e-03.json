@@ -15,5 +15,22 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site",
+      "global_obs"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 40000000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 378691200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "IBTrACS point best-track records compared at 6-hr timesteps across the 85 tropical cyclone events (2003-2014).",
+    "model": "gemini-3.8-flash"
+  }
 }

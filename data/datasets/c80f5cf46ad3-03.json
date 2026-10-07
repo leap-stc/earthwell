@@ -14,5 +14,21 @@
   "resolution": "1 to 100 km2 footprint",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 1000.0,
+    "dx_max_m": 10000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 189216000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "OCO-2 satellite footprint spans 1 to 100 km2 (~1–10 km width); mission launched in 2014 with data analyzed through 2020 (~6 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

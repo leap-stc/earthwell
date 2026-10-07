@@ -15,5 +15,21 @@
   "resolution": "128 samples per top-of-domain pixel; solar zenith angles 0 to 80 deg in 10 deg increments; azimuth angles spaced by 72 deg",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.18164866",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "LES"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Monte Carlo ray tracer 1D and 3D surface fluxes for 9,348 pairs across 228 LES snapshots; pixel dimensions depend on underlying LES grids.",
+    "model": "gemini-3.8-flash"
+  }
 }

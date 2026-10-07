@@ -14,5 +14,21 @@
   "resolution": "0.25° × 0.25°, 6-hourly",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 7100000.0,
+    "dt_min_s": 21600.0,
+    "dt_max_s": 21600.0,
+    "duration_s": 345600.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5 total precipitation at 0.25-degree resolution cropped to Europe (256x256 grid) across 4 days (reference + 3 lead days).",
+    "model": "gemini-3.8-flash"
+  }
 }

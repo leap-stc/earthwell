@@ -16,5 +16,22 @@
   "resolution": "3.9 km horizontal grid spacing (256x256), 2 vertical layers (500 m, 2000 m), daily averages",
   "produced_in_this_study": true,
   "access": "https://github.com/manuelogtzv/SF3_RLS and https://doi.org/10.5281/zenodo.6380711",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "regional",
+      "other"
+    ],
+    "dx_min_m": 3906.0,
+    "dx_max_m": 3906.0,
+    "extent_m": 1000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 473040000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "PyQG two-layer idealized model on a 1000 km x 1000 km domain with 256x256 grid points (dx ~ 3.9 km); 15-year post-spinup run with daily and hourly outputs.",
+    "model": "gemini-3.8-flash"
+  }
 }

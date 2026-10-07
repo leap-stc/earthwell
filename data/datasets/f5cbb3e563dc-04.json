@@ -14,5 +14,21 @@
   "resolution": "400-cluster sparse grid based on nominal 2°",
   "produced_in_this_study": true,
   "access": "NSF-NCAR computing system (Cheyenne / CISL)",
-  "access_kind": "hpc_only"
+  "access_kind": "hpc_only",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2592000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 4730400000.0,
+    "size_gb": 2000.0,
+    "basis": "stated",
+    "note": "Raw simulation outputs (>2 TB stated) from >2,000 simulations running 150-year integrations (140 spinup + 10 production) on a 400-cluster sparse grid (nominal 2-degree).",
+    "model": "gemini-3.8-flash"
+  }
 }

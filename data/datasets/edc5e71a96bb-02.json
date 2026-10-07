@@ -15,5 +15,21 @@
   "resolution": "Vertical profiles in upper 2000 m, 2002-2017, North Atlantic (15°N to 70°N)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": 6100000.0,
+    "dt_min_s": 864000.0,
+    "dt_max_s": 864000.0,
+    "duration_s": 504921600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Autonomous profiling floats sampling upper 2000 m every 10 days in the North Atlantic (15N-70N) between 2002 and 2017.",
+    "model": "gemini-3.8-flash"
+  }
 }

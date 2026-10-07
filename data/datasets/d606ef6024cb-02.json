@@ -14,5 +14,22 @@
   "resolution": "2.5° × 1.9° × 30 levels × 15 min",
   "produced_in_this_study": true,
   "access": "The full simulations output, which is several TB, is archived on the GreenPlanet cluster at UC Irvine and available upon request. We additionally archived the input data and run scripts necessary to re-run all three simulations as part of the manuscript's accompanying data using Zenodo https://zenodo.org/record/5775541#.YbeMHNDMKUl. Also at https://doi.org/10.5281/zenodo.8140536",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 210900.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 900.0,
+    "dt_max_s": 900.0,
+    "duration_s": 63072000.0,
+    "size_gb": 3000.0,
+    "basis": "estimated_from_paper",
+    "note": "2-year Earth-like SPCESM2 simulations at 2.5 deg x 1.9 deg (~278 km x ~211 km) with 15-min output; size stated as several TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

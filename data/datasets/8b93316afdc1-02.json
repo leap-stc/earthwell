@@ -14,5 +14,21 @@
   "resolution": "25 m",
   "produced_in_this_study": true,
   "access": "https://github.com/hoffmaao/EarthMasker",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 25.0,
+    "dx_max_m": 25.0,
+    "extent_m": 800000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 252288000.0,
+    "size_gb": 1.0,
+    "basis": "estimated_from_paper",
+    "note": "144 base scenes augmented to >1000 patches of 500x500 pixels at 25 m grid spacing.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "1/4 degree nominal horizontal grid, 1958-2017 forced run",
   "produced_in_this_study": true,
   "access": "https://doi.org/10.5281/zenodo.8293998",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 27750.0,
+    "dx_max_m": 27750.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 31536000.0,
+    "duration_s": 1893456000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GFDL OM4.0 1/4-degree forced ocean-ice model simulations run over 1958-2017 (60 years) with monthly to annual analysis diagnostics.",
+    "model": "gemini-3.8-flash"
+  }
 }

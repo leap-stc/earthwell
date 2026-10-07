@@ -14,5 +14,21 @@
   "resolution": "5 m x 20 m native, resampled to 25 m",
   "produced_in_this_study": false,
   "access": "Alaska Satellite Facility Vertex search tool (ASF DAAC, 2014-2022)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 5.0,
+    "dx_max_m": 25.0,
+    "extent_m": 800000.0,
+    "dt_min_s": 1036800.0,
+    "dt_max_s": 2592000.0,
+    "duration_s": 252288000.0,
+    "size_gb": 150.0,
+    "basis": "estimated_from_paper",
+    "note": "Native resolution 5x20 m, resampled to 25 m; 12-day repeat (1.037e6 s); >300 scenes at >500 MB each (~150 GB); 2015-2022 (8 years).",
+    "model": "gemini-3.8-flash"
+  }
 }

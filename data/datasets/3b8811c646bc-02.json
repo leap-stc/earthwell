@@ -14,5 +14,21 @@
   "resolution": "Daily, 36 km x 36 km EASE-Grid 2.0; 2015-04-01 to 2020-12-31",
   "produced_in_this_study": false,
   "access": "https://earthdata.nasa.gov/ (doi: 10.5067/HH4SZ2PXSP6A)",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 36000.0,
+    "dx_max_m": 36000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 181526400.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "SMAP L3 daily 36 km EASE-Grid 2.0 soil moisture, 2015-04-01 to 2020-12-31 (~5.75 years, 2101 days).",
+    "model": "gemini-3.8-flash"
+  }
 }

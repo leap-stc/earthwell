@@ -14,5 +14,21 @@
   "resolution": "Monthly, aggregated to 12 km x 12 km",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 12000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2500000.0,
+    "dt_min_s": 2628000.0,
+    "dt_max_s": 2628000.0,
+    "duration_s": 1167609600.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "PRISM dew point temperature aggregated to 12 km grid, monthly, 1984-2020",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -14,5 +14,21 @@
   "resolution": "Regridded to 1° × 1°, 3-day means, historical (1950–2014) and SSP3-7.0 (2015–2100)",
   "produced_in_this_study": false,
   "access": "CMIP6 coupled models outputs are available from the ESGF portal (https://aims2.llnl.gov/search/cmip6/ )",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "coupled_earth_system",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 111000.0,
+    "dx_max_m": 111000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 259200.0,
+    "dt_max_s": 259200.0,
+    "duration_s": 4767216000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "12 CMIP6 models regridded to 1x1 degree and 3-day means spanning historical (1950–2014) and SSP3-7.0 (2015–2100).",
+    "model": "gemini-3.8-flash"
+  }
 }

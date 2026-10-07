@@ -14,5 +14,21 @@
   "resolution": "re-gridded to 0.5° × 0.5°",
   "produced_in_this_study": false,
   "access": "https://opendata.dwd.de/climate_environment/GPCC/full_data_daily_v2022/",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 55500.0,
+    "dx_max_m": 55500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 1041379200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GPCC daily precipitation product, evaluated over 1982-2014 at 0.5° x 0.5° resolution.",
+    "model": "gemini-3.8-flash"
+  }
 }

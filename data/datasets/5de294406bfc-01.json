@@ -14,5 +14,21 @@
   "resolution": "Vertical profile across flow depth H (200 interpolated points per run)",
   "produced_in_this_study": false,
   "access": "All data used are collected from the reported laboratory measurements (Lü, 2008) in the literature reported elsewhere (Huai et al., 2020) and no new data are generated in this work. https://d.wanfangdata.com.cn/thesis/Y1268411; https://doi.org/10.1029/2019WR027012",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Laboratory flume steady-state vertical profile measurements; channel dimensions and duration are not stated in the text.",
+    "model": "gemini-3.8-flash"
+  }
 }

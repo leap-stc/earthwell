@@ -14,5 +14,21 @@
   "resolution": "R2B5 (~80 km horizontal), 47 height-based vertical levels up to 83 km",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "GCM_ESM"
+    ],
+    "dx_min_m": 80000.0,
+    "dx_max_m": 80000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 360.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 315360000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "ICON-A AMIP-like simulations (ICON-AML, ICON-AHF, ICON-ALF) at R2B5 resolution; radiation evaluated every 6 to 60 minutes for up to 10 years.",
+    "model": "gemini-3.8-flash"
+  }
 }

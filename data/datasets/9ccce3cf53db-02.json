@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "global_obs"
+    ],
+    "dx_min_m": 9000.0,
+    "dx_max_m": 9000.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 86400.0,
+    "duration_s": 757382400.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "ERA5-Land standard native grid spacing is ~9 km (0.1 degree); covering 2001-2024.",
+    "model": "gemini-3.8-flash"
+  }
 }

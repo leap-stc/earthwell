@@ -14,5 +14,23 @@
   "resolution": "1.9°×2.5°×15 min, embedded CRM 4 km resolution",
   "produced_in_this_study": true,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "MMF_superparameterized",
+      "GCM_ESM",
+      "CRM"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 277500.0,
+    "extent_m": 40000000.0,
+    "dt_min_s": 900.0,
+    "dt_max_s": 900.0,
+    "duration_s": 7776000.0,
+    "size_gb": 3400.0,
+    "basis": "stated",
+    "note": "SPCAM5 +4K SST simulation running for 90 days at 1.9x2.5 deg with 4 km CRM grid spacing; stated data volume 3.4 TB.",
+    "model": "gemini-3.8-flash"
+  }
 }

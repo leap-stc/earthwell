@@ -14,5 +14,21 @@
   "resolution": "4 km daily, aggregated to 12 km x 12 km monthly",
   "produced_in_this_study": false,
   "access": "https://doi.org/10.5067/0GGPB220EX6A",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "cryosphere",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 4000.0,
+    "dx_max_m": 12000.0,
+    "extent_m": 2000000.0,
+    "dt_min_s": 86400.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 1168243200.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Daily 4 km gridded NSIDC SWE dataset, used to derive monthly mean and 3-month antecedent average snow water equivalent aggregated to 12 km.",
+    "model": "gemini-3.8-flash"
+  }
 }

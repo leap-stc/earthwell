@@ -14,5 +14,22 @@
   "resolution": "High-resolution and coarse-resolution grids",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "ocean",
+    "scales": [
+      "LES",
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Idealized high- and coarse-resolution ocean turbulence simulations; exact grid parameters not stated",
+    "model": "gemini-3.8-flash"
+  }
 }

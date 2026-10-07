@@ -14,5 +14,21 @@
   "resolution": null,
   "produced_in_this_study": false,
   "access": "All data used are collected from the reported laboratory measurements in the literature reported elsewhere (Ali & Dey, 2024; Dey & Ali, 2024) and no new data are generated in this work.",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "idealized_or_other",
+    "scales": [
+      "other"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "unknown",
+    "note": "Compiled dataset of 484 equilibrium scour depth observations from 16 flume experimental studies reported as bulk dimensionless quantities and scalar values.",
+    "model": "gemini-3.8-flash"
+  }
 }

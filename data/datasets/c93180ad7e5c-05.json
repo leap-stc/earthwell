@@ -14,5 +14,21 @@
   "resolution": "~2.56 km",
   "produced_in_this_study": true,
   "access": "Available at https://zenodo.org/records/19156085",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "regional"
+    ],
+    "dx_min_m": 2560.0,
+    "dx_max_m": 2560.0,
+    "extent_m": 8000000.0,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": 157680000.0,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Gridded piped water and sewage system access predictions across 50 African countries at 256x256 pixel patch scale (~2.56 km).",
+    "model": "gemini-3.8-flash"
+  }
 }

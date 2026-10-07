@@ -15,5 +15,21 @@
   "resolution": "224 x 224 pixels with in situ environmental data (pressure, temperature, ice water content)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": 2.3e-06,
+    "dx_max_m": 2.3e-06,
+    "extent_m": null,
+    "dt_min_s": null,
+    "dt_max_s": null,
+    "duration_s": null,
+    "size_gb": null,
+    "basis": "stated",
+    "note": "Subset of ~524,000 CPI images paired with aircraft in-situ atmospheric environmental measurements.",
+    "model": "gemini-3.8-flash"
+  }
 }

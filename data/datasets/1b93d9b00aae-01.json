@@ -14,5 +14,21 @@
   "resolution": "hourly, growing season (May to October) 2013 and 2014",
   "produced_in_this_study": false,
   "access": "The eddy-covariance and SIF observations of the Harvard Forest site are available from the Harvard Forest Data Archive (https://harvardforest.fas.harvard.edu/harvard-forest-data-archive).",
-  "access_kind": "public_url_or_doi"
+  "access_kind": "public_url_or_doi",
+  "scales": {
+    "domain": "land_hydrology",
+    "scales": [
+      "point_or_site"
+    ],
+    "dx_min_m": null,
+    "dx_max_m": null,
+    "extent_m": null,
+    "dt_min_s": 3600.0,
+    "dt_max_s": 3600.0,
+    "duration_s": 47347200.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "Tower eddy-covariance and SIF measurements during the growing seasons (May to October) of 2013 and 2014.",
+    "model": "gemini-3.8-flash"
+  }
 }

@@ -1,0 +1,812 @@
+dataset_id,name,domain,scales,dx_m,dx_max_m,extent_m,dt_s,dt_max_s,duration_s,size_gb,basis,plotted
+00b7836e3f0c-01,DISORT standard test problems,atmosphere,column_or_box,,,,,,,,unknown,False
+01340dcd75f7-01,Airborne Cloud Particle Imager (CPI) imagery dataset,atmosphere,point_or_site,,,,,,,,unknown,False
+02bea554d4bc-01,ERA5 and ERA5-Land,coupled_earth_system,global_obs,111000.0,111000.0,40000000.0,259200.0,259200.0,2336083200.0,,stated,True
+02bea554d4bc-02,E-OBS,atmosphere,regional;global_obs,111000.0,111000.0,5000000.0,259200.0,259200.0,1420070400.0,,estimated_from_paper,True
+02bea554d4bc-03,CMIP6 multi-model ensemble,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,259200.0,259200.0,4767216000.0,,stated,True
+02bea554d4bc-04,CESM2 Large Ensemble (CESM2-LE2 / SMILE),coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,259200.0,259200.0,4767216000.0,,stated,True
+04acd3abf92c-01,SOCAT (Surface Ocean CO2 Atlas) v2022,ocean,global_obs;point_or_site,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1924000000.0,,estimated_from_paper,True
+04acd3abf92c-02,SeaFlux,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,978000000.0,,estimated_from_paper,True
+04acd3abf92c-03,GLODAP / GO-SHIP interior ocean carbon measurements,ocean,global_obs,50000.0,111000.0,40000000.0,315360000.0,315360000.0,757000000.0,,estimated_from_paper,True
+04acd3abf92c-04,CESM-ETHZ ocean model simulations,ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,315360000.0,915000000.0,,estimated_from_paper,True
+05a1e8288295-01,Two-layer QG model simulation (PyQG),idealized_or_other,regional,3900.0,3900.0,1000000.0,86400.0,86400.0,473040000.0,0.07,stated,True
+05a1e8288295-02,Grand Lagrangian Deployment (GLAD) drifter dataset,ocean,regional;point_or_site,,,1000000.0,900.0,900.0,7776000.0,,stated,False
+05a1e8288295-03,Lagrangian Submesoscale Experiment (LASER) drifter dataset,ocean,regional;point_or_site,,,1000000.0,900.0,900.0,5184000.0,,stated,False
+08404f14aec9-01,MITgcm llc4320 simulation,ocean,regional,2300.0,2300.0,400000.0,86400.0,432000.0,23587200.0,,stated,True
+08404f14aec9-02,GLAD (Grand LAgrangian Deployment) drifter dataset,ocean,regional,1.0,1000000.0,1000000.0,,,7776000.0,,estimated_from_paper,False
+08404f14aec9-03,LASER (LAgrangian Submesoscale ExpeRiment) drifter dataset,ocean,regional,1.0,1000000.0,1000000.0,,,5184000.0,,estimated_from_paper,False
+09c672f0e443-01,CAMELS (Catchment Attributes and MEteorology for Large-sample Studies),land_hydrology,regional;point_or_site,,,4500000.0,86400.0,86400.0,662709600.0,,estimated_from_paper,False
+09f31d3b6ca2-01,Global 0.1° MOM6 simulation snapshot,ocean,GCM_ESM,11100.0,11100.0,40000000.0,,,,,estimated_from_paper,False
+0a557d1c4c2e-01,ModelE3 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,,,31536000.0,,estimated_from_paper,False
+0a557d1c4c2e-02,CESM2 CAM6 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,99900.0,122100.0,40000000.0,,,94608000.0,,estimated_from_paper,False
+0ab17fd7ecd9-01,ERA5 global reanalysis (ARCO-ERA5),atmosphere,regional;GCM_ESM,27750.0,27750.0,40000000.0,3600.0,3600.0,663000000.0,,stated,True
+0ab17fd7ecd9-02,GPM IMERG Final Precipitation L3 Half Hourly V06,atmosphere,regional;global_obs,11100.0,27750.0,40000000.0,1800.0,3600.0,663000000.0,,stated,True
+0ab262982a54-01,SPCAM aquaplanet simulations,atmosphere,MMF_superparameterized;CRM;GCM_ESM,4000.0,222000.0,40000000.0,1800.0,1800.0,189216000.0,,estimated_from_paper,True
+0ab262982a54-02,CTRLCAM standard parameterization simulation,atmosphere,GCM_ESM,222000.0,222000.0,40000000.0,1800.0,1800.0,189216000.0,,estimated_from_paper,True
+0acda7ad1125-01,Isotropic quasi-geostrophic turbulence simulations,idealized_or_other,other,,,,,,,,unknown,False
+0acda7ad1125-02,Gulf of Mexico drifter datasets,ocean,regional;point_or_site,,,,,,,,unknown,False
+0acda7ad1125-03,Regional California Current model simulation,ocean,regional,,,,,,,,unknown,False
+0b71525b629f-01,CESM2 CAM6 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+0b71525b629f-02,GISS ModelE3 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+0e7a09e90487-01,CASM (Consistent AI-based Soil Moisture dataset),land_hydrology,global_obs,25000.0,25000.0,40000000.0,259200.0,259200.0,574000000.0,,stated,True
+0e7a09e90487-02,NASA SMAP Enhanced Passive Soil Moisture (L3E),land_hydrology,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,170700000.0,,stated,True
+0e7a09e90487-03,SMOS L3TB Brightness Temperature,land_hydrology,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,335200000.0,,stated,True
+0e7a09e90487-04,AMSR-E and AMSR2 Level-2B Unified Land Product,land_hydrology,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,574000000.0,,stated,True
+0e7a09e90487-05,International Soil Moisture Network (ISMN) in-situ SM,land_hydrology,point_or_site,,,40000000.0,259200.0,259200.0,574000000.0,,estimated_from_paper,False
+0f970eba5521-01,GFDL CM2.6 ocean surface velocity fields (GZ21 training dataset),ocean,GCM_ESM;regional,10000.0,10000.0,40000000.0,,,,,estimated_from_paper,False
+0f970eba5521-02,"MOM6 idealized two-layer wind-driven double gyre simulations (R4, R8, R16, R32)",ocean,regional,3000.0,24000.0,2220000.0,135.0,1080.0,315360000.0,,stated,True
+116c0087d2fe-01,GISS-E3 Calibrated Physics Ensemble (CPE) and Climate OSSE proof-of-concept dataset,atmosphere,GCM_ESM,220000.0,280000.0,40000000.0,2600000.0,2600000.0,157788000.0,,estimated_from_paper,True
+116c0087d2fe-02,Program of record (POR) satellite observation baseline constraints,atmosphere,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+11a897504521-01,CausalDynamics Benchmark,idealized_or_other,other,,,,,,,,unknown,False
+11a897504521-02,ECMWF ORAS5 Ocean Reanalysis,ocean,GCM_ESM,27750.0,27750.0,40000000.0,2628000.0,2628000.0,1293840000.0,,estimated_from_paper,True
+143b352946ff-01,Computationally generated bullet rosette ice crystal dataset,idealized_or_other,other,,,,,,,,unknown,False
+143b352946ff-02,Cloud particle imager (CPI) single-particle images,atmosphere,point_or_site,,,,,,,,unknown,False
+152833564544-01,MITgcm-LLC4320 (12 sampled regions),ocean,regional,2312.5,111000.0,1665000.0,43200.0,43200.0,36800000.0,,estimated_from_paper,True
+1639c364ca7e-01,ERA5 reanalysis,atmosphere,GCM_ESM,156094.0,156094.0,40000000.0,21600.0,21600.0,1325419200.0,555.0,estimated_from_paper,True
+176be8e93348-01,Global Carbon Budget 2020 Ocean Biogeochemical Model Hindcasts,ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,915148800.0,,stated,True
+176be8e93348-02,SeaFlux Observation-Based pCO2 Products,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,915148800.0,,estimated_from_paper,True
+17a61548389e-01,DYAMOND (Summer and Winter) coarse-grained ICON simulations,atmosphere,CRM;GCM_ESM,2470.0,80000.0,40000000.0,10800.0,10800.0,6912000.0,3000.0,estimated_from_paper,True
+17a61548389e-02,ERA5 meteorological reanalysis,atmosphere,GCM_ESM,31000.0,80000.0,40000000.0,10800.0,10800.0,1357000000.0,,estimated_from_paper,True
+17c0ae73731b-01,ClimSim_high-res,atmosphere,MMF_superparameterized;GCM_ESM,166500.0,166500.0,40000000.0,1200.0,1200.0,315360000.0,41200.0,stated,True
+17c0ae73731b-02,ClimSim_low-res,atmosphere,MMF_superparameterized;GCM_ESM,1110000.0,1110000.0,40000000.0,1200.0,1200.0,315360000.0,744.0,stated,True
+17c0ae73731b-03,ClimSim_low-res_aqua-planet,atmosphere,MMF_superparameterized;GCM_ESM,1110000.0,1110000.0,40000000.0,1200.0,1200.0,315360000.0,744.0,stated,True
+18541d990180-01,FLUXNET2015,land_hydrology,point_or_site,,,,1800.0,1800.0,157788000.0,,estimated_from_paper,False
+18541d990180-02,TROPOMI far-red solar-induced chlorophyll fluorescence (SIF),land_hydrology,global_obs,5550.0,9213.0,40000000.0,31536000.0,31536000.0,31536000.0,,estimated_from_paper,True
+18541d990180-03,ERA5-Land reanalysis,land_hydrology,global_obs,5550.0,9000.0,40000000.0,2628000.0,31536000.0,31536000.0,,estimated_from_paper,True
+18541d990180-04,MODIS MCD12C1 Land Cover Type Yearly L3 Global (v006),land_hydrology,global_obs,5550.0,5550.0,40000000.0,31536000.0,31536000.0,31536000.0,,stated,True
+18541d990180-05,TerraClimate Wetness Index,land_hydrology,global_obs,4000.0,5550.0,40000000.0,,,946728000.0,,estimated_from_paper,False
+18541d990180-06,Global apparent rooting depths (Zr),land_hydrology,global_obs,5550.0,5550.0,40000000.0,,,,,estimated_from_paper,False
+18541d990180-07,Global ecosystem-scale plant hydraulic traits (Psi50),land_hydrology,global_obs,5550.0,5550.0,40000000.0,,,,,estimated_from_paper,False
+18541d990180-08,Global degrees of anisohydricity,land_hydrology,global_obs,5550.0,5550.0,40000000.0,,,,,estimated_from_paper,False
+18541d990180-09,Global canopy height model (2020),land_hydrology,global_obs,10.0,5550.0,40000000.0,,,31536000.0,,stated,False
+195230d140fe-01,CM1 bulk large eddy simulations perturbed parameter ensemble,atmosphere,LES,,,,,,,,unknown,False
+195230d140fe-02,CM1 Lagrangian superdroplet cirrus cloud simulations,atmosphere,LES,,,,,,,,unknown,False
+195230d140fe-03,Ka-band Scanning ARM Cloud Radar observations during ICEBall,atmosphere,point_or_site,,,,,,,,unknown,False
+1a47f956f011-01,MOM6 Double Gyre simulations,ocean,regional,1500.0,48500.0,2220000.0,,,631152000.0,,stated,False
+1a47f956f011-02,NeverWorld2 (NW2) simulations,ocean,regional,3469.0,27750.0,15540000.0,,,2592000000.0,,estimated_from_paper,False
+1b464d5cf9ee-01,ClimSim,atmosphere,MMF_superparameterized;GCM_ESM,111000.0,111000.0,40000000.0,1200.0,1200.0,315360000.0,42000.0,estimated_from_paper,True
+1b464d5cf9ee-02,ClimateBench v1.0,coupled_earth_system,GCM_ESM,250000.0,250000.0,40000000.0,31536000.0,31536000.0,7915000000.0,,estimated_from_paper,True
+1b464d5cf9ee-03,ClimateNet,atmosphere,GCM_ESM,25000.0,25000.0,40000000.0,10800.0,10800.0,,,estimated_from_paper,True
+1b93d9b00aae-01,Harvard Forest tower-based eddy covariance and SIF measurements,land_hydrology,point_or_site,,,,3600.0,3600.0,47347200.0,,estimated_from_paper,False
+1b93d9b00aae-02,Avignon wheat cropland eddy covariance and SIF measurements,land_hydrology,point_or_site,,,,1800.0,1800.0,11404800.0,,estimated_from_paper,False
+1b93d9b00aae-03,Cheorwon rice paddy eddy covariance and SIF measurements,land_hydrology,point_or_site,,,,1800.0,1800.0,11145600.0,,estimated_from_paper,False
+1b93d9b00aae-04,MODIS Leaf Area Index (MCD15A3H),land_hydrology,point_or_site;global_obs,500.0,500.0,500.0,345600.0,345600.0,599616000.0,,stated,True
+1b93d9b00aae-05,Synthetic Harvard Forest SCOPE simulations,land_hydrology,column_or_box;point_or_site,,,,3600.0,3600.0,47347200.0,,estimated_from_paper,False
+1c4c83a9ce2e-01,HOLODEC in situ drop size distribution measurements (ACE-ENA and CSET),atmosphere,point_or_site,,,2000000.0,,,,,estimated_from_paper,False
+1c4c83a9ce2e-02,CM1 bin microphysics (TAU) LES ensemble simulations of marine stratocumulus,atmosphere,LES,25.0,50.0,6400.0,,,21600.0,,estimated_from_paper,False
+1c4c83a9ce2e-03,CloudSat radar reflectivity observations,atmosphere,global_obs,1400.0,1700.0,40000000.0,,,,,estimated_from_paper,False
+1dc1d9ed975c-01,SPCAM Control and +4K Warmed simulations,atmosphere,MMF_superparameterized;CRM;GCM_ESM,4000.0,277500.0,40000000.0,,,,3400.0,stated,False
+1ed8dea7a984-01,ERA5,atmosphere,regional,27750.0,27750.0,3885000.0,86400.0,86400.0,1041379200.0,,estimated_from_paper,True
+2127864ced09-01,NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset,coupled_earth_system,point_or_site;global_obs,,,40000000.0,3600.0,3600.0,946700000.0,0.001,estimated_from_paper,False
+2127864ced09-02,Ocean Weather Station (OWS) Papa Meteorological and Oceanic Observations,ocean,point_or_site;column_or_box,,,,3600.0,3600.0,126230400.0,,estimated_from_paper,False
+22396cba1b19-01,DYAMOND ICON Summer and Winter coarse-grained cloud cover dataset,atmosphere,CRM;GCM_ESM,2500.0,80000.0,40000000.0,,,5270400.0,3000.0,estimated_from_paper,False
+22396cba1b19-02,GFS v16 RRTM shortwave radiative transfer dataset,atmosphere,column_or_box;GCM_ESM,27750.0,27750.0,40000000.0,21600.0,21600.0,73008000.0,,stated,True
+22396cba1b19-03,SAM-DYAMOND coarse-grained tropical precipitation dataset,atmosphere,CRM;regional,4340.0,138900.0,40000000.0,900.0,900.0,864000.0,,stated,True
+2449ffc9b180-01,CM1 LES particle-based Lagrangian cirrus cloud simulations (ICEBall case),atmosphere,LES,,,,,,,,unknown,False
+256b2a11ab7f-01,100-member PPE from CESM2 CAM6 with ML-based warm rain microphysics parameterization,atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+258b29367a20-01,GESLA3 (Global Extreme Sea Level Analysis version 3),ocean,point_or_site,,,2300000.0,10800.0,10800.0,1230768000.0,,estimated_from_paper,False
+258b29367a20-02,ERA5 atmospheric reanalysis,atmosphere,regional,27750.0,27750.0,555000.0,10800.0,10800.0,1230768000.0,,estimated_from_paper,True
+258b29367a20-03,GTSMv3.0 (Global Tide and Surge Model) simulations,ocean,regional;GCM_ESM,1250.0,50000.0,40000000.0,3600.0,3600.0,1230768000.0,,estimated_from_paper,True
+25cb33f5f0a6-01,Global Carbon Budget 2024 Synthesis Dataset,coupled_earth_system,GCM_ESM;global_obs,27750.0,222000.0,40000000.0,31536000.0,31536000.0,8680000000.0,,estimated_from_paper,True
+25cb33f5f0a6-02,Global Carbon Project fossil CO2 emissions dataset (2024v17),atmosphere,global_obs,,,40000000.0,31536000.0,31536000.0,8645000000.0,,estimated_from_paper,False
+25cb33f5f0a6-03,Surface Ocean CO2 Atlas Database Version 2024 (SOCATv2024),ocean,global_obs;point_or_site,111000.0,111000.0,40000000.0,3600.0,2600000.0,2110000000.0,,estimated_from_paper,True
+25cb33f5f0a6-04,NOAA Greenhouse Gas Marine Boundary Layer Reference – CO2,atmosphere,global_obs,,,40000000.0,2600000.0,31536000.0,1390000000.0,,estimated_from_paper,False
+25cb33f5f0a6-05,GCP-GridFEDv2024.0,atmosphere,regional;global_obs,11100.0,11100.0,40000000.0,2600000.0,31536000.0,2050000000.0,,estimated_from_paper,True
+26adf7d40c29-01,Western US MTBS-Interagency (WUMI) wildfire dataset,land_hydrology,regional,12000.0,12000.0,2500000.0,2628000.0,31536000.0,1167609600.0,,stated,True
+26adf7d40c29-02,NOAA Climgrid,atmosphere,regional,12000.0,12000.0,2500000.0,2628000.0,31536000.0,1167609600.0,,stated,True
+26adf7d40c29-03,PRISM dew point temperature,atmosphere,regional,12000.0,12000.0,2500000.0,2628000.0,2628000.0,1167609600.0,,stated,True
+26adf7d40c29-04,gridMET surface meteorological data (FM1000 and FFWI),land_hydrology,regional,12000.0,12000.0,2500000.0,86400.0,2628000.0,1167609600.0,,stated,True
+26adf7d40c29-05,UCLA ERA5-WRF reanalysis,atmosphere,regional,12000.0,12000.0,2500000.0,86400.0,2628000.0,1167609600.0,,stated,True
+26adf7d40c29-06,NSIDC daily 4 km gridded SWE and Snow Depth,cryosphere,regional,4000.0,12000.0,2500000.0,86400.0,2628000.0,1167609600.0,,stated,True
+26adf7d40c29-07,Vaisala National Lightning Detection Network (NLDN),atmosphere,regional,12000.0,12000.0,2500000.0,2628000.0,2628000.0,1072958400.0,,stated,True
+26adf7d40c29-08,National Land Cover Database (NLCD),land_hydrology,regional,30.0,12000.0,2500000.0,31536000.0,315360000.0,852038400.0,,stated,True
+26adf7d40c29-09,Global Aboveground Biomass Carbon Density map (Spawn et al. 2020),land_hydrology,regional,12000.0,12000.0,2500000.0,,,,,stated,False
+26adf7d40c29-10,SILVIS housing and population density,land_hydrology,regional,12000.0,12000.0,2500000.0,31536000.0,315360000.0,631152000.0,,stated,True
+282aba541bcf-01,NASA GISS ModelE3 simulation ensemble,atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+282aba541bcf-02,"NASA satellite observational products (Aqua/AIRS, GPM, CloudSat, CALIPSO)",atmosphere,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-01,1815 Tambora eruption isopach dataset,idealized_or_other,regional,,,2070000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-02,Taupo Pumice Fall isopach dataset,idealized_or_other,regional,,,123000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-03,Cotopaxi Layer 5 isopach dataset,idealized_or_other,regional,,,25000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-04,Hatepe tephra isopach dataset,idealized_or_other,regional,,,96000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-05,Minoan tephra isopach dataset,idealized_or_other,regional,,,437000.0,,,,,estimated_from_paper,False
+2869e5f2ad35-06,1980 Mt. St. Helens tephra isopach dataset,idealized_or_other,regional,,,408000.0,,,,,estimated_from_paper,False
+2888fdcca7b4-01,CESM large ensemble with different pinatubo forcings (LENS and NoPin),coupled_earth_system,GCM_ESM,100000.0,111000.0,40000000.0,2592000.0,31536000.0,1136073600.0,,stated,True
+2888fdcca7b4-02,"LENS and NoPin (NP) ensemble means for apparent oxygen utilization (AOU), anthropogenic and preindustrial carbon, pCFC-12, and ideal age",ocean,GCM_ESM,100000.0,111000.0,40000000.0,31536000.0,31536000.0,1104624000.0,,estimated_from_paper,True
+2888fdcca7b4-03,GO-SHIP and historical repeat hydrography / GLODAPv2.2022,ocean,global_obs,20000.0,20000.0,40000000.0,,,1577880000.0,,stated,False
+2ae43c907021-01,"Eddy Covariance Flux Tower Network (FLUXNET, AmeriFlux, ICOS, JapanFlux)",land_hydrology,point_or_site,,,40000000.0,86400.0,86400.0,757382400.0,,stated,False
+2ae43c907021-02,MODIS Surface Reflectance and Land Cover (MOD09GA and MCD12Q1),land_hydrology,point_or_site,500.0,500.0,40000000.0,86400.0,86400.0,757382400.0,,stated,True
+2ae43c907021-03,ERA5-Land reanalysis,land_hydrology,global_obs,11100.0,11100.0,40000000.0,86400.0,86400.0,757382400.0,,estimated_from_paper,True
+2ae43c907021-04,FLUXCOM-X-BASE,land_hydrology,global_obs,5550.0,5550.0,40000000.0,3600.0,86400.0,757382400.0,,estimated_from_paper,True
+2bc95be8c223-01,AmeriFlux eddy covariance flux dataset,land_hydrology,point_or_site,,,4500000.0,1800.0,3600.0,115000000.0,,stated,False
+2bc95be8c223-02,"GOES-16 ABI LST and SW products (ABI-L2-LSTC, ABI-L2-DSRC)",land_hydrology,regional,2000.0,27750.0,4500000.0,3600.0,3600.0,63100000.0,,stated,True
+2bc95be8c223-03,"MODIS BRDF-corrected surface reflectance (MCD43A4, MCD43C4) and land cover (MCD12C1)",land_hydrology,regional;global_obs,500.0,5550.0,4500000.0,86400.0,31500000.0,115000000.0,,stated,True
+2bc95be8c223-04,ERA5-Land reanalysis,land_hydrology,regional;global_obs,11100.0,11100.0,4500000.0,3600.0,3600.0,115000000.0,,stated,True
+2bc95be8c223-05,MERRA-2 reanalysis,atmosphere,regional;GCM_ESM,55500.0,69300.0,4500000.0,86400.0,86400.0,663000000.0,,estimated_from_paper,True
+2bc95be8c223-06,Global Aridity Index and Potential Evapo-Transpiration Climate Database v2,land_hydrology,global_obs,1000.0,1000.0,40000000.0,,,,,estimated_from_paper,False
+2bc95be8c223-07,CONUS hourly GPP estimates (August 2018–2020),land_hydrology,regional,2775.0,2775.0,4500000.0,3600.0,3600.0,63100000.0,,stated,True
+2d5a8ad16a10-01,PYROCAST Database,coupled_earth_system,regional,1000.0,1000.0,200000.0,3600.0,3600.0,157766400.0,,stated,True
+2d5a8ad16a10-02,ERA5 Global Reanalysis,atmosphere,GCM_ESM,31000.0,31000.0,40000000.0,3600.0,3600.0,157766400.0,,estimated_from_paper,True
+2d5a8ad16a10-03,World Digital Elevation Model (ETOPO5),land_hydrology,global_obs,9260.0,9260.0,40000000.0,,,,,estimated_from_paper,False
+2e434d4762d9-01,Western US MTBS-Interagency (WUMI) wildfire dataset,land_hydrology,regional,12000.0,12000.0,2000000.0,2600000.0,31536000.0,1168243200.0,,stated,True
+2e434d4762d9-02,NOAA ClimGrid,atmosphere,regional,5000.0,12000.0,2000000.0,2600000.0,2600000.0,1168243200.0,,estimated_from_paper,True
+2e434d4762d9-03,PRISM dew point temperature,atmosphere,regional,4000.0,12000.0,2000000.0,2600000.0,2600000.0,1168243200.0,,estimated_from_paper,True
+2e434d4762d9-04,gridMET 1000-hour dead fuel moisture (FM1000),land_hydrology,regional,4000.0,12000.0,2000000.0,2600000.0,2600000.0,1168243200.0,,estimated_from_paper,True
+2e434d4762d9-05,UCLA ERA5-WRF reanalysis,atmosphere,regional,9000.0,12000.0,2000000.0,86400.0,2600000.0,1168243200.0,,stated,True
+2e434d4762d9-06,Vaisala National Lightning Detection Network (NLDN),atmosphere,regional,12000.0,12000.0,2000000.0,2600000.0,2600000.0,1073520000.0,,stated,True
+2e434d4762d9-07,National Land Cover Database (NLCD),land_hydrology,regional,30.0,12000.0,2000000.0,31536000.0,284018400.0,852055200.0,,stated,True
+2e434d4762d9-08,"Global above- and below-ground biomass carbon density (Spawn et al., 2020)",land_hydrology,global_obs;regional,300.0,12000.0,40000000.0,,,31536000.0,,estimated_from_paper,False
+2e434d4762d9-09,NSIDC Gridded Snow Water Equivalent (SWE),cryosphere,regional,4000.0,12000.0,2000000.0,86400.0,2600000.0,1168243200.0,,stated,True
+2e434d4762d9-10,SILVIS Wildland-Urban Interface housing and population density,land_hydrology,regional,12000.0,12000.0,2000000.0,31536000.0,315360000.0,631152000.0,,estimated_from_paper,True
+2f4dbd4b7f4d-01,CESM-LENS2,coupled_earth_system,GCM_ESM,100000.0,111000.0,40000000.0,3600.0,2600000.0,7915000000.0,,estimated_from_paper,True
+2f4dbd4b7f4d-02,CMIP6,coupled_earth_system,GCM_ESM,25000.0,250000.0,40000000.0,3600.0,2600000.0,7915000000.0,,estimated_from_paper,True
+306fafe408c2-01,Afrobarometer rounds 7–9,idealized_or_other,point_or_site,,,8000000.0,63000000.0,63000000.0,126000000.0,,estimated_from_paper,False
+306fafe408c2-02,Sentinel-2 MSI imagery patches,land_hydrology,regional,10.0,10.0,8000000.0,,,126000000.0,,estimated_from_paper,False
+306fafe408c2-03,High Resolution Settlement Layer (HRSL),idealized_or_other,regional,30.0,30.0,8000000.0,,,,,estimated_from_paper,False
+306fafe408c2-04,WHO/UNICEF Joint Monitoring Programme (JMP) WASH country estimates,idealized_or_other,regional,,,8000000.0,31500000.0,31500000.0,,,estimated_from_paper,False
+3090eb822021-01,CAM6-ML 100-member Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,100000.0,111000.0,40000000.0,2600000.0,94608000.0,94608000.0,,estimated_from_paper,True
+3090eb822021-02,"CAM6-ML Iteration 1 and Iteration 2 (2a, 2b, 2c) Calibrated Parameter Ensembles",atmosphere,GCM_ESM,100000.0,111000.0,40000000.0,2600000.0,94608000.0,94608000.0,,estimated_from_paper,True
+3090eb822021-03,CERES-EBAF-Ed4.2 TOA radiative flux climatology,atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,757382400.0,757382400.0,,estimated_from_paper,True
+3090eb822021-04,Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv),atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,1104624000.0,1104624000.0,,estimated_from_paper,True
+3090eb822021-05,GPCP V2.3 and TRMM TMPA V7 Surface Precipitation Rate (PRECT/pr),atmosphere,global_obs,27750.0,277500.0,40000000.0,2600000.0,1136073600.0,1136073600.0,,estimated_from_paper,True
+3090eb822021-06,MAC-LWP Cloud Liquid Water Path (TGCLDLWP/clwp),atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,,,,estimated_from_paper,True
+3090eb822021-07,ISCCP Total Cloud Fraction (CLDTOT_ISCCP/clt_isccp),atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,,,,estimated_from_paper,True
+30c9d9a843b6-01,LES bin and Lagrangian super droplet microphysics benchmark simulations,atmosphere,LES,,,,,,,,unknown,False
+30c9d9a843b6-02,LES BOSS microphysics simulation ensemble,atmosphere,LES,,,,,,,,unknown,False
+311f24bdc568-01,ERA5 reanalysis,atmosphere,GCM_ESM,156094.0,156094.0,40000000.0,21600.0,21600.0,1230883200.0,480.0,estimated_from_paper,True
+311f24bdc568-02,2017 GDAS observations,atmosphere,point_or_site;global_obs,156094.0,156094.0,40000000.0,21600.0,43200.0,31536000.0,,estimated_from_paper,True
+318afe7f30d1-01,Two-scale Lorenz '96 simulation dataset,idealized_or_other,other,,,,4320.0,4320.0,43200000.0,,estimated_from_paper,False
+3296742c595f-01,CAM6 KK2000 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+3296742c595f-02,CAM6 TAU-ML Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+3296742c595f-03,Observational benchmark data,atmosphere,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+35cb03483079-01,CESM Perturbed Parameter Ensembles (PPEs),atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+35cb03483079-02,Observational data,atmosphere,global_obs,,,,,,,,unknown,False
+36817fe1aa1a-01,1D Kuramoto–Sivashinsky (KS) simulation dataset,idealized_or_other,other,,,,,,,,stated,False
+36817fe1aa1a-02,2D Kolmogorov Flow simulation dataset,idealized_or_other,DNS,,,,,,,,stated,False
+36817fe1aa1a-03,Compact ERA5 500 hPa North America dataset,atmosphere,regional,,,,21600.0,21600.0,347155200.0,,estimated_from_paper,False
+36817fe1aa1a-04,ERA5 Global atmospheric fields for GenCast assimilation,atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,43200.0,43200.0,,,estimated_from_paper,True
+36a77e07ef98-01,"FLUXNET2015 (DE-HAI, ES-LJU, AT-NEU)",land_hydrology,point_or_site,,,,86400.0,86400.0,,,stated,False
+36a77e07ef98-02,ERA5 Reanalysis Meteorological Drivers,atmosphere,point_or_site,31000.0,31000.0,,86400.0,86400.0,,,estimated_from_paper,True
+36a77e07ef98-03,MODIS Leaf Area Index (MOD15A2H),land_hydrology,point_or_site,500.0,500.0,,345600.0,345600.0,,,stated,True
+36a77e07ef98-04,Electricity Transformer Temperature (ETTh1),idealized_or_other,other,,,,3600.0,3600.0,63072000.0,,stated,False
+36a77e07ef98-05,Electricity Consuming Load (ECL),idealized_or_other,other,,,,3600.0,3600.0,94608000.0,,stated,False
+36a77e07ef98-06,Exchange Rate,idealized_or_other,other,,,,86400.0,86400.0,662688000.0,,stated,False
+3768091195d8-01,Pangeo-ESGF CMIP6 Zarr Data (CMIP6 testbed),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1293840000.0,,stated,True
+3768091195d8-02,Surface Ocean CO2 Atlas Database Version 2023 (SOCATv2023),ocean,global_obs;point_or_site,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1293840000.0,,stated,True
+3768091195d8-03,"SeaFlux ancillary environmental drivers (EN4.2.2, OISSTv2, ERA5, CCMP2, JRA-55)",ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1293840000.0,,estimated_from_paper,True
+3802c111d00e-01,CMIP6 Earth system model surface air temperature projections,atmosphere,GCM_ESM,312500.0,312500.0,40000000.0,31536000.0,31536000.0,7858656000.0,0.54,estimated_from_paper,True
+3802c111d00e-02,Berkeley Earth Surface Temperatures (BEST),atmosphere,global_obs,111000.0,312500.0,40000000.0,31536000.0,31536000.0,1388563200.0,,estimated_from_paper,True
+3802c111d00e-03,Minimal CMIP Emulator v1.2 effective radiative forcing and derived CO2 equivalent data,atmosphere,other,,,,31536000.0,31536000.0,7858656000.0,,estimated_from_paper,False
+3802c111d00e-04,Constrained climate projection model outputs and processed benchmark data,atmosphere,GCM_ESM,312500.0,312500.0,40000000.0,31536000.0,31536000.0,7858656000.0,,estimated_from_paper,True
+3a1c0bd4e637-01,GOES-16 satellite infrared observations,atmosphere,regional,2000.0,2000.0,,,,,,estimated_from_paper,False
+3acff62a394f-01,pyqg 2-layer quasi-geostrophic turbulence simulation dataset,ocean,LES;regional,3906.25,15625.0,1000000.0,,,,,estimated_from_paper,False
+3b8811c646bc-01,CMIP5 historical daily simulation archive (14 ESMs),coupled_earth_system,GCM_ESM,125000.0,312500.0,40000000.0,86400.0,86400.0,1767283200.0,,estimated_from_paper,True
+3b8811c646bc-02,"SMAP Level 3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 7",land_hydrology,global_obs,36000.0,36000.0,40000000.0,86400.0,86400.0,181526400.0,,stated,True
+3b8811c646bc-03,"ERA5 Reanalysis hourly total precipitation, evaporation, and potential evaporation",land_hydrology,global_obs,27750.0,27750.0,40000000.0,3600.0,86400.0,181526400.0,,stated,True
+3b8811c646bc-04,Processed spectral metrics and data analysis package,land_hydrology,global_obs,36000.0,36000.0,40000000.0,86400.0,86400.0,181526400.0,,estimated_from_paper,True
+3c4ad273daa5-01,Compiled flume pier scour equilibrium dataset,idealized_or_other,other,,,,,,,,unknown,False
+3dbcadb5b5cc-01,ICON NARVAL storm-resolving simulations (NARVALI and NARVALII),atmosphere,CRM;regional,2500.0,2500.0,9200000.0,3600.0,3600.0,6195600.0,,estimated_from_paper,True
+3dbcadb5b5cc-02,"ICON QUBICC storm-resolving simulations (hc2, hc3, hc4)",atmosphere,CRM,5000.0,5000.0,40000000.0,3600.0,3600.0,7783200.0,,estimated_from_paper,True
+3dbcadb5b5cc-03,Coarse-grained NARVAL and QUBICC dataset (R2B4 and R2B5 grids),atmosphere,GCM_ESM,80000.0,160000.0,40000000.0,3600.0,3600.0,7783200.0,3000.0,estimated_from_paper,True
+40b2429ef7ac-01,Bin microphysics droplet size distribution simulations,atmosphere,column_or_box,,,,,,,,unknown,False
+42f5f359f9b5-01,SOCATv2024 (Surface Ocean CO2 Atlas Database Version 2024),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-02,CMIP6-testbed,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-03,Pangeo-ESGF CMIP6 Zarr Data,coupled_earth_system,GCM_ESM,25000.0,250000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-04,NOAA Greenhouse Gas Reference Marine Boundary Layer CO2 Product,atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,False
+42f5f359f9b5-05,ERA5 Reanalysis,atmosphere,GCM_ESM,31000.0,111000.0,40000000.0,3600.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-06,EN4.2.2 Salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-07,HadISST Sea Ice Fraction,cryosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+42f5f359f9b5-08,LDEO ΔResidualOPT Surface Ocean fCO2 and Air-Sea CO2 Flux Reconstruction (1982-2023),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1325376000.0,,estimated_from_paper,True
+43919dc711c4-01,CLM perturbed parameter ensemble (PPE) simulations,land_hydrology,GCM_ESM,,,40000000.0,2600000.0,2600000.0,,,estimated_from_paper,False
+43919dc711c4-02,FLUXCOM observational data,land_hydrology,global_obs,,,40000000.0,2600000.0,2600000.0,,,estimated_from_paper,False
+44a9f82d3545-01,SPCAM v3.0 aquaplanet simulation dataset (reference and +/-4K SST perturbations),atmosphere,MMF_superparameterized;CRM;GCM_ESM,4000.0,310800.0,40000000.0,1800.0,1800.0,31536000.0,86.0,estimated_from_paper,True
+45164f241e60-01,CLM6 Perturbed Parameter Ensemble (PPE),land_hydrology,GCM_ESM,222000.0,222000.0,40000000.0,,,5492000000.0,,estimated_from_paper,False
+45164f241e60-02,ILAMB observational benchmark constraints,land_hydrology,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+45447c9bc7f4-01,Super-droplet box model simulations,atmosphere,column_or_box,,,,,,,,unknown,False
+46c045c7a54e-01,The Well - Turbulent Radiative Layer 2D (TRL),idealized_or_other,other,,,,,,,6.9,stated,False
+46c045c7a54e-02,The Well - Rayleigh–Bénard Convection (RB),idealized_or_other,other,,,,,,,342.0,stated,False
+46c045c7a54e-03,The Well - Active Matter (AM),idealized_or_other,other,,,,0.25,0.25,20.0,51.3,stated,False
+4837d04b99a1-01,Large Ensemble Testbed (GOBM simulations),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1106400000.0,,estimated_from_paper,True
+4837d04b99a1-02,Surface Ocean CO2 Atlas (SOCAT),ocean,point_or_site;global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1106400000.0,,estimated_from_paper,True
+4837d04b99a1-03,"Input predictor observational datasets (OISSTv2, GlobColour, EN4, GLOBALVIEW)",ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1106400000.0,,estimated_from_paper,True
+4837d04b99a1-04,Global gridded monthly pCO2 estimates (1982–2017),ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1104500000.0,,estimated_from_paper,True
+48f5873212ef-01,NOAA Weather Modification Project Reports Archive,atmosphere,regional;point_or_site,,,4500000.0,,,788940000.0,,estimated_from_paper,False
+48f5873212ef-02,Cloud seeding activities in the United States (2000-2025),atmosphere,regional;point_or_site,,,4500000.0,,,788940000.0,,estimated_from_paper,False
+494584d3acc0-01,Coarse-grained LES dry convective boundary layer simulation suite,atmosphere,LES,24.0,1536.0,6144.0,60.0,60.0,75000.0,,estimated_from_paper,True
+4a2b596c8646-01,ClimSim High-Resolution (real-geography),atmosphere,MMF_superparameterized;GCM_ESM,166500.0,166500.0,40000000.0,1200.0,1200.0,315360000.0,41200.0,stated,True
+4a2b596c8646-02,ClimSim Low-Resolution (real-geography),atmosphere,MMF_superparameterized;GCM_ESM,1665000.0,1665000.0,40000000.0,1200.0,1200.0,315360000.0,744.0,estimated_from_paper,True
+4a2b596c8646-03,ClimSim Low-Resolution Aquaplanet,atmosphere,MMF_superparameterized;GCM_ESM,1665000.0,1665000.0,40000000.0,1200.0,1200.0,315360000.0,744.0,estimated_from_paper,True
+4ac6067043b2-01,MSWEP daily precipitation,atmosphere,global_obs;regional,11100.0,11100.0,40000000.0,86400.0,86400.0,1330000000.0,,stated,True
+4ac6067043b2-02,ECMWF ERA5 single-level daily precipitation,atmosphere,GCM_ESM;regional,27750.0,27750.0,40000000.0,86400.0,86400.0,2650000000.0,,stated,True
+4ac6067043b2-03,PRISM monthly precipitation,atmosphere,regional,4000.0,4000.0,4500000.0,2600000.0,2600000.0,3190000000.0,,stated,True
+4ac6067043b2-04,"OpenFEMA flood loss datasets (NFIP Claims, Hazard Mitigation Assistance Buyouts, Disaster Aid Individual Assistance)",land_hydrology,point_or_site;regional,,,4500000.0,86400.0,86400.0,1480000000.0,,stated,False
+4ac6067043b2-05,NCHS Urban-Rural Classification Scheme for Counties,idealized_or_other,regional,,,4500000.0,,,,,estimated_from_paper,False
+4ac6067043b2-06,US Census Bureau TIGER/Line Shapefiles,idealized_or_other,regional,,,4500000.0,,,,,estimated_from_paper,False
+4b22f66c6db8-01,ERA5 Reanalysis,atmosphere,global_obs;regional,27750.0,27750.0,40000000.0,3600.0,3600.0,315360000.0,,estimated_from_paper,True
+4b22f66c6db8-02,ModelE-BiomeE South America forest simulation runs,land_hydrology,regional,27750.0,27750.0,7000000.0,,,,,estimated_from_paper,False
+4dc1d86041a1-01,Ocean CO2 products synthesis catalogue,ocean,global_obs;regional;point_or_site;GCM_ESM,9200.0,555000.0,40000000.0,3600.0,31536000.0,23668200000.0,,estimated_from_paper,True
+4dc1d86041a1-02,SOCAT (Surface Ocean CO2 Atlas),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,2114000000.0,,estimated_from_paper,True
+4dc1d86041a1-03,GLODAPv2 (Global Ocean Data Analysis Project Version 2),ocean,global_obs,111000.0,111000.0,40000000.0,,,1609400000.0,,estimated_from_paper,False
+4dc1d86041a1-04,LDEO Surface pCO2 Database,ocean,global_obs,444000.0,555000.0,40000000.0,2600000.0,2600000.0,1956500000.0,,estimated_from_paper,True
+4e066ebddc28-01,ClimSim Low-Resolution Real-Geography Dataset,atmosphere,MMF_superparameterized;GCM_ESM;CRM,2000.0,1276500.0,40000000.0,1200.0,14400.0,315360000.0,245.4,stated,True
+4e066ebddc28-02,Hybrid Physics-ML and Reference E3SM-MMF Online Simulations,atmosphere,MMF_superparameterized;GCM_ESM,1276500.0,1276500.0,40000000.0,1200.0,1200.0,157680000.0,,estimated_from_paper,True
+4ff01187f117-01,CLM6 perturbed parameter ensemble (PPE) simulations,land_hydrology,GCM_ESM,,,40000000.0,31536000.0,31536000.0,,,estimated_from_paper,False
+4ff01187f117-02,Accepted benchmarks for SM-ET coupling,land_hydrology,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+50adaee28640-01,North Temperate Lakes LTER Lake Mendota water temperature observations,land_hydrology,column_or_box;point_or_site,,,6325.0,86400.0,86400.0,1096502400.0,,estimated_from_paper,False
+50adaee28640-02,Lake Mendota surface meteorological drivers,atmosphere,point_or_site,,,,86400.0,86400.0,1096502400.0,,estimated_from_paper,False
+50adaee28640-03,General Lake Model (GLM) simulated lake temperature profiles,land_hydrology,column_or_box,,,6325.0,86400.0,86400.0,1096502400.0,,estimated_from_paper,False
+50d1cf9096ea-01,GFDL CM2.6 high-resolution coupled simulation,coupled_earth_system,GCM_ESM,11100.0,55500.0,40000000.0,86400.0,86400.0,630720000.0,,estimated_from_paper,True
+50d1cf9096ea-02,CESM 1.1 high-resolution simulation,coupled_earth_system,GCM_ESM,11100.0,27750.0,40000000.0,86400.0,86400.0,63072000.0,,estimated_from_paper,True
+52671b22a1d8-01,AIDA cloud chamber cirrus cloud simulation experiments,idealized_or_other,point_or_site;column_or_box,,,,,,,,unknown,False
+528f51b3a8d6-01,CESM-LE-NoPin (CESM Large Ensemble without Pinatubo),coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1136000000.0,,stated,True
+528f51b3a8d6-02,"CESM-LE (CESM Large Ensemble, 29 re-run members)",coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1136000000.0,,stated,True
+528f51b3a8d6-03,NOAA Optimum Interpolation Sea Surface Temperature (OISST),ocean,global_obs,27750.0,27750.0,40000000.0,86400.0,86400.0,1325000000.0,,estimated_from_paper,True
+52c83b9e8a59-01,Large Ensemble Testbed (LET),coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1104624000.0,,estimated_from_paper,True
+52c83b9e8a59-02,Float and SOCAT sampling masks,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1104624000.0,,estimated_from_paper,True
+5319b2b73897-01,CAM6 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,100000.0,111000.0,40000000.0,2600000.0,2600000.0,63072000.0,,estimated_from_paper,True
+5319b2b73897-02,CMIP6 piClim-aer and piClim-control simulations,atmosphere,GCM_ESM,50000.0,250000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+5319b2b73897-03,MODIS cloud droplet number concentration (Nd),atmosphere,global_obs,111000.0,111000.0,40000000.0,86400.0,86400.0,410227200.0,,stated,True
+5319b2b73897-04,Multi-Sensor Advanced Climatology of Liquid Water Path (MAC-LWP),atmosphere,global_obs,27750.0,111000.0,40000000.0,2600000.0,2600000.0,536457600.0,,stated,True
+5319b2b73897-05,CERES EBAF Ed4.1 TOA Radiative Fluxes,atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,536457600.0,,estimated_from_paper,True
+5319b2b73897-06,MERRA-2 Reanalysis,atmosphere,GCM_ESM,50000.0,62500.0,40000000.0,10800.0,21600.0,63072000.0,,estimated_from_paper,True
+53e678284355-01,ChaosBench (ERA5 atmospheric reanalysis subset),atmosphere,GCM_ESM,27750.0,166500.0,40000000.0,86400.0,86400.0,1420000000.0,,estimated_from_paper,True
+53e678284355-02,ChaosBench (ORAS5 ocean and sea ice reanalysis subset),ocean,GCM_ESM,27750.0,166500.0,40000000.0,86400.0,86400.0,1420000000.0,,estimated_from_paper,True
+53e678284355-03,ChaosBench (LRA5 / ERA5-Land reanalysis subset),land_hydrology,GCM_ESM,27750.0,166500.0,40000000.0,86400.0,86400.0,1420000000.0,,estimated_from_paper,True
+53e678284355-04,UKMO GloSea6 S2S forecasts,coupled_earth_system,GCM_ESM,166500.0,166500.0,40000000.0,86400.0,86400.0,252500000.0,,estimated_from_paper,True
+53e678284355-05,NCEP CFSv2 S2S forecasts,coupled_earth_system,GCM_ESM,166500.0,166500.0,40000000.0,86400.0,86400.0,252500000.0,,estimated_from_paper,True
+53e678284355-06,CMA BCC-CSM2-HR S2S forecasts,coupled_earth_system,GCM_ESM,166500.0,166500.0,40000000.0,86400.0,86400.0,252500000.0,,estimated_from_paper,True
+53e678284355-07,ECMWF IFS CY41R1 S2S forecasts,coupled_earth_system,GCM_ESM,166500.0,166500.0,40000000.0,86400.0,86400.0,252500000.0,,estimated_from_paper,True
+542a4bcfeeb7-01,Hombole gauge station daily discharge,land_hydrology,point_or_site,,,,86400.0,86400.0,1262304000.0,,stated,False
+542a4bcfeeb7-02,Ethiopian Meteorological Institute (EMI) gridded daily rainfall,atmosphere,regional,4000.0,4000.0,146000.0,86400.0,86400.0,1262304000.0,,estimated_from_paper,True
+566e8ae88e3e-01,Global Carbon Budget 2023 Data Package,coupled_earth_system,global_obs;GCM_ESM;regional,27750.0,222000.0,40000000.0,2600000.0,31536000.0,8646912000.0,,estimated_from_paper,True
+566e8ae88e3e-02,Surface Ocean CO2 Atlas Database Version 2023 (SOCATv2023),ocean,point_or_site;global_obs,,,40000000.0,60.0,86400.0,2082844800.0,,estimated_from_paper,False
+566e8ae88e3e-03,NOAA/GML Global Greenhouse Gas Reference Network Atmospheric CO2 Measurements,atmosphere,point_or_site;global_obs,,,40000000.0,3600.0,31536000.0,1356974400.0,,estimated_from_paper,False
+566e8ae88e3e-04,GCP-GridFEDv2023.1 Gridded Fossil CO2 Emissions,atmosphere,global_obs;regional,11100.0,11100.0,40000000.0,2600000.0,31536000.0,2019686400.0,,estimated_from_paper,True
+589440f0ebac-01,"Eddy Covariance Tower Data (ES-BB, CN-Du2, US-Var, US-Wkg, ES-LM2, US-SRM)",land_hydrology,point_or_site,,,1000.0,1800.0,86400.0,378691200.0,,stated,False
+589440f0ebac-02,Contiguous Solar-Induced Chlorophyll Fluorescence (CSIF),land_hydrology,global_obs,5550.0,5550.0,40000000.0,86400.0,345600.0,650000000.0,,stated,True
+589440f0ebac-03,"MODIS Land Surface Products (MCD15A3H LAI, MCD43A3 Albedo, MOD11_L2/MYD11_L2 LST, MCD12C1/MCD12Q1 Land Cover)",land_hydrology,global_obs,500.0,5550.0,40000000.0,86400.0,345600.0,650000000.0,,stated,True
+589440f0ebac-04,ERA5-Land Hourly Reanalysis,land_hydrology,regional;global_obs,11100.0,11100.0,40000000.0,3600.0,3600.0,31536000.0,,stated,True
+589440f0ebac-05,OCO-3 SIF v10,land_hydrology,point_or_site;global_obs,1290.0,2250.0,40000000.0,1800.0,1800.0,94608000.0,,stated,True
+589440f0ebac-06,"Gridded GPP benchmark products (MODIS GPP, PML GPP, FLUXCOM GPP)",land_hydrology,global_obs,500.0,9250.0,40000000.0,86400.0,691200.0,315360000.0,,estimated_from_paper,True
+5b39153c87f9-01,1D kinematic driver model with TAU spectral bin microphysics simulations,atmosphere,column_or_box,,,,5.0,5.0,57600.0,,stated,False
+5b59e74827e4-01,CLM perturbed parameter simulation ensemble outputs,land_hydrology,regional;GCM_ESM,,,,,,,,unknown,False
+5bc100f8d9c2-01,CAMELS (Catchment Attributes and Meteorology for Large-sample Studies),land_hydrology,point_or_site;regional,,,4500000.0,86400.0,86400.0,1104624000.0,,estimated_from_paper,False
+5bc100f8d9c2-02,Caravan,land_hydrology,point_or_site;global_obs,,,40000000.0,86400.0,86400.0,1262304000.0,,estimated_from_paper,False
+5bc100f8d9c2-03,StreamCat,land_hydrology,regional,,,4500000.0,,,,,estimated_from_paper,False
+5bc100f8d9c2-04,GAGES-II,land_hydrology,point_or_site;regional,,,5000000.0,,,,,estimated_from_paper,False
+5c81f8f8e01f-01,California Air Resources Board and EPA PM2.5 monitor data,atmosphere,point_or_site,,,1000000.0,3600.0,3600.0,157788000.0,,estimated_from_paper,False
+5c81f8f8e01f-02,ERA5 Reanalysis,atmosphere,regional,28000.0,31000.0,1000000.0,3600.0,3600.0,157788000.0,,estimated_from_paper,True
+5c81f8f8e01f-03,VIIRS 375 m Active Fire Detection Product (FRP),land_hydrology,regional,375.0,375.0,1000000.0,3600.0,3600.0,157788000.0,,estimated_from_paper,True
+5c81f8f8e01f-04,Cal Fire Prescribed Burns database,land_hydrology,point_or_site;regional,,,1000000.0,,,126230400.0,,estimated_from_paper,False
+5de294406bfc-01,"Laboratory vegetated flume suspended sediment concentration dataset (Lü, 2008 / Huai et al., 2020)",idealized_or_other,other,,,,,,,,unknown,False
+5f8da0241680-01,CLM5 Perturbed Parameter Ensemble (PPE) LAI outputs,land_hydrology,regional;GCM_ESM,222000.0,222000.0,5000000.0,2600000.0,2600000.0,3598000000.0,0.08,estimated_from_paper,True
+5f8da0241680-02,GSWP3 historical atmospheric forcing dataset,atmosphere,regional;GCM_ESM,222000.0,222000.0,5000000.0,2600000.0,2600000.0,3598000000.0,,estimated_from_paper,True
+63349f954d04-01,CHATS7 walnut orchard meteorological forcing data,atmosphere,point_or_site,,,,1800.0,1800.0,2678400.0,,stated,False
+63349f954d04-02,CLM-ml-v2 Fortran reference oracle I/O and validation outputs,land_hydrology,point_or_site;column_or_box,,,,1800.0,1800.0,2678400.0,,estimated_from_paper,False
+63fd0cbfe99b-01,TROPOMI Solar-Induced Chlorophyll Fluorescence (SIF),land_hydrology,global_obs,9213.0,9213.0,40000000.0,691200.0,691200.0,118000000.0,,stated,True
+63fd0cbfe99b-02,MCD18C2 Photosynthetically Active Radiation (PAR),atmosphere,global_obs,5550.0,9213.0,40000000.0,10800.0,86400.0,118000000.0,,estimated_from_paper,True
+63fd0cbfe99b-03,ERA5-Land surface net radiation and 2m air temperature,land_hydrology,global_obs,9213.0,11100.0,40000000.0,3600.0,3600.0,118000000.0,,estimated_from_paper,True
+63fd0cbfe99b-04,MSWEP precipitation v2.8,atmosphere,global_obs,9213.0,11100.0,40000000.0,10800.0,10800.0,118000000.0,,estimated_from_paper,True
+63fd0cbfe99b-05,Modelled global water table depth (WTD),land_hydrology,global_obs,921.3,9213.0,40000000.0,31536000.0,31536000.0,347000000.0,,stated,True
+63fd0cbfe99b-06,MODIS land cover MCD12C1v006,land_hydrology,global_obs,5550.0,9213.0,40000000.0,31536000.0,31536000.0,,,estimated_from_paper,True
+63fd0cbfe99b-07,SMAP SPL3SMP_E Version 5 Soil Moisture,land_hydrology,global_obs,9000.0,9213.0,40000000.0,86400.0,86400.0,118000000.0,,stated,True
+66232d5a5ef7-01,FLUXNET2015 (Mediterranean sites),land_hydrology,point_or_site,,,,1800.0,86400.0,441763200.0,,estimated_from_paper,False
+66232d5a5ef7-02,Copernicus Reanalysis Snow Depth,cryosphere,point_or_site,,,,3600.0,86400.0,441763200.0,,estimated_from_paper,False
+66232d5a5ef7-03,FLUXCOM and FLUXCOM-X (X-BASE),land_hydrology,point_or_site,,,,86400.0,86400.0,441763200.0,,estimated_from_paper,False
+662881ed91d7-01,Delaware River Basin streamflow and water temperature observations (USGS NWIS & Water Quality Portal),land_hydrology,regional;point_or_site,48.0,23120.0,200000.0,86400.0,86400.0,1136073600.0,,stated,True
+662881ed91d7-02,PRMS-SNTemp simulated hydrologic and thermal states,land_hydrology,regional,48.0,23120.0,200000.0,86400.0,86400.0,1136073600.0,,stated,True
+662881ed91d7-03,Daymet gridded meteorological dataset,atmosphere,regional,1000.0,1000.0,200000.0,86400.0,86400.0,1136073600.0,,estimated_from_paper,True
+6716226ebe03-01,Second-Moment Closure (SMC) OSBL training data,ocean,column_or_box,,,,,,,,estimated_from_paper,False
+6716226ebe03-02,NOAA GFDL CM2.6 surface velocity and eddy resolving data,coupled_earth_system,GCM_ESM,11100.0,11100.0,40000000.0,,,,,estimated_from_paper,False
+6716226ebe03-03,GFDL OM4 60-year global hybrid ocean-ice simulation runs,ocean,GCM_ESM,27750.0,27750.0,40000000.0,,,1893456000.0,,stated,False
+6716226ebe03-04,GFDL SPEAR fully coupled hybrid simulations,coupled_earth_system,GCM_ESM,,,40000000.0,,,1420070400.0,,estimated_from_paper,False
+6716226ebe03-05,NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1),ocean,global_obs,27750.0,27750.0,40000000.0,86400.0,86400.0,157788000.0,,estimated_from_paper,True
+6716226ebe03-06,NSIDC NASA Team passive microwave sea ice concentration,cryosphere,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,157788000.0,,estimated_from_paper,True
+6716226ebe03-07,ARGO and World Ocean Database Mixed Layer Depth Climatology,ocean,global_obs,,,40000000.0,,,1641532800.0,,estimated_from_paper,False
+67996bc53014-01,Energy-constrained 2D fluid stationary field simulation,idealized_or_other,other,,,,,,,,unknown,False
+67996bc53014-02,Inviscid Burgers equation simulation trajectories,idealized_or_other,other,,,,,,,,unknown,False
+67996bc53014-03,Planar quadrotor trajectory planning dataset,idealized_or_other,other,,,,0.01,0.01,2.0,,estimated_from_paper,False
+67996bc53014-04,"Darcy Flow, Navier-Stokes, and 2D Poisson PDE datasets",idealized_or_other,other,,,,,,,,unknown,False
+6b691712cf64-01,iMagine UC4 Segmented Oil Spills (Baniyas spill),ocean,regional,150.0,150.0,550000.0,16020.0,102180.0,275220.0,,estimated_from_paper,True
+6b691712cf64-02,Mediterranean Sea physical reanalysis (CMEMS med-currents),ocean,regional,4500.0,4500.0,550000.0,3600.0,86400.0,388800.0,,estimated_from_paper,True
+6b691712cf64-03,ERA5 reanalysis single levels 10 m wind,atmosphere,regional;GCM_ESM,25000.0,25000.0,550000.0,3600.0,86400.0,388800.0,,estimated_from_paper,True
+6b691712cf64-04,GEBCO 2024 Bathymetry,ocean,regional;global_obs,450.0,450.0,550000.0,,,,,estimated_from_paper,False
+6b691712cf64-05,"Global Self-consistent, Hierarchical, High-resolution Geography Database (GSHHG)",ocean,regional;global_obs,10.0,100.0,550000.0,,,,,stated,False
+6c6a9d06bf58-01,Coarse-resolution bulk formula inputs and subgrid heat flux data,coupled_earth_system,regional;GCM_ESM,111000.0,111000.0,,,,,,estimated_from_paper,False
+6e5a3fae6660-01,Midwestern U.S. 450 lakes temperature profile dataset,land_hydrology,regional;point_or_site,,,,,,,,unknown,False
+6ebd05047c44-01,SeaFlux ensemble dataset,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,stated,True
+6ebd05047c44-02,CMEMS-FFNN pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-03,CSIR-ML6 pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-04,JENA-MLS pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-05,JMA-MLR pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-06,MPI-SOMFFN pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-07,NIES-FNN pCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-08,MPI-ULB-SOMFFN combined climatology,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,31536000.0,,stated,True
+6ebd05047c44-09,CCMPv2 wind velocity product,atmosphere,global_obs,27750.0,27750.0,40000000.0,21600.0,21600.0,1009152000.0,,stated,True
+6ebd05047c44-10,ECMWF ERA5 reanalysis,atmosphere,GCM_ESM,27750.0,27750.0,40000000.0,3600.0,3600.0,1293840000.0,,stated,True
+6ebd05047c44-11,JRA-55 reanalysis,atmosphere,GCM_ESM,55500.0,55500.0,40000000.0,10800.0,10800.0,1956528000.0,,stated,True
+6ebd05047c44-12,NOAA OISSTv2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-13,EN4 salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+6ebd05047c44-14,NOAA ESRL marine boundary layer CO2 (xCO2),atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,False
+6f02cee5c651-01,Synthetic double-gamma DSD dataset for DSD inversion neural network,atmosphere,column_or_box,,,,,,,,stated,False
+6f02cee5c651-02,TAU bin solver collision-coalescence tendencies dataset for direct ML (SLC-DML),atmosphere,column_or_box,,,,,,,,stated,False
+6f02cee5c651-03,591 warm rain initiation box model simulation ensemble,atmosphere,column_or_box,,,,1.0,1.0,1200.0,,stated,False
+6ff16973fcd5-01,"West Antarctic glaciers dataset (Pine Island, Thwaites, Dotson-Crosson)",cryosphere,regional,,,800000.0,,,,,estimated_from_paper,False
+72a736c33094-01,ClimSim low-resolution real-geography dataset,atmosphere,MMF_superparameterized;GCM_ESM,1276500.0,1276500.0,40000000.0,1200.0,8400.0,315360000.0,744.0,stated,True
+72a736c33094-02,E3SM-MMF reference and hybrid 5-year online simulation dataset,atmosphere,MMF_superparameterized;GCM_ESM,1276500.0,1276500.0,40000000.0,1200.0,3600.0,160488000.0,,estimated_from_paper,True
+7354fab2c747-01,Synthetic ice growth dataset,idealized_or_other,point_or_site,,,,,,,,unknown,False
+7354fab2c747-02,Levitation diffusion chamber ice crystal mass measurements,idealized_or_other,point_or_site,,,,,,,,unknown,False
+7354fab2c747-03,AIDA adiabatic expansion cloud chamber experiments,idealized_or_other,point_or_site,,,,,,,,unknown,False
+73f1128aadad-01,CAM6 TAU-ML and KK2000 perturbed-parameter ensemble (PPE) simulations,atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+73f1128aadad-02,Observational precipitation datasets (satellite observations),atmosphere,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+742d7782da6a-01,ACE-E3SMv2 AMIP Climatology,atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,2592000.0,7776000.0,1140000000.0,,estimated_from_paper,True
+742d7782da6a-02,Idealized Baroclinic Wave Test Results from SFNO,atmosphere,GCM_ESM,28000.0,28000.0,40000000.0,21600.0,21600.0,432000.0,,estimated_from_paper,True
+742d7782da6a-03,ERA5 Reanalysis,atmosphere,GCM_ESM;global_obs,28000.0,28000.0,40000000.0,3600.0,2592000.0,1420000000.0,,estimated_from_paper,True
+742d7782da6a-04,Global Precipitation Climatology Project (GPCP) v2.3,atmosphere,global_obs,277500.0,277500.0,40000000.0,2592000.0,2592000.0,1260000000.0,,estimated_from_paper,True
+74b02ecb7bd9-01,Catchment Attributes and Meteorology for Large-sample Studies (CAMELS),land_hydrology,regional;point_or_site,,,5000000.0,86400.0,86400.0,1104516000.0,,estimated_from_paper,False
+74b02ecb7bd9-02,MODIS Evapotranspiration,land_hydrology,regional,13875.0,13875.0,5000000.0,31536000.0,31536000.0,,,estimated_from_paper,True
+76b3ee94d49b-01,GISS-E3 20-year and 1-year sensitivity simulations,atmosphere,GCM_ESM,55000.0,55000.0,40000000.0,21600.0,2628000.0,662688000.0,,stated,True
+76b3ee94d49b-02,IBTrACS (International Best Track Archive for Climate Stewardship),atmosphere,global_obs,,,40000000.0,21600.0,21600.0,662688000.0,,stated,False
+76b3ee94d49b-03,HadISST 2.1 (Met Office Hadley Centre sea ice and SST dataset),ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,662688000.0,,estimated_from_paper,True
+76b3ee94d49b-04,ERA-Interim reanalysis,atmosphere,GCM_ESM,79000.0,79000.0,40000000.0,2628000.0,2628000.0,946728000.0,,estimated_from_paper,True
+76b3ee94d49b-05,GPCP v2.3 and CMAP precipitation,atmosphere,global_obs,277500.0,277500.0,40000000.0,2628000.0,2628000.0,946728000.0,,estimated_from_paper,True
+76b3ee94d49b-06,CERES EBAF Ed4.0,atmosphere,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,568080000.0,,estimated_from_paper,True
+76b3ee94d49b-07,ISCCP cloud properties,atmosphere,global_obs,277500.0,277500.0,40000000.0,2628000.0,2628000.0,833760000.0,,estimated_from_paper,True
+76b3ee94d49b-08,OAFlux net surface heat flux,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,946728000.0,,estimated_from_paper,True
+778b60ffcdee-01,HR-MMF 5-year global climate simulations (0 K control and +4 K warmed),atmosphere,CRM;MMF_superparameterized;GCM_ESM,200.0,166500.0,40000000.0,2.0,2592000.0,158000000.0,,stated,True
+778b60ffcdee-02,CERES-SYN 1° daily dataset (Edition 4A),atmosphere,global_obs,111000.0,111000.0,40000000.0,86400.0,86400.0,315000000.0,,stated,True
+778b60ffcdee-03,CGILS LES intercomparison baseline and single-LES CCF sensitivity data,atmosphere,LES;column_or_box,25.0,50.0,5000.0,,,,,stated,False
+778b60ffcdee-04,ERA5 reanalysis cloud fraction climatology,atmosphere,GCM_ESM,31000.0,31000.0,40000000.0,2592000.0,2592000.0,,,estimated_from_paper,True
+778b60ffcdee-05,NOAA prescribed monthly mean SST and sea ice data,ocean,global_obs,111000.0,111000.0,40000000.0,2592000.0,2592000.0,158000000.0,,estimated_from_paper,True
+7887057fecea-01,USGS streamflow observations across Mississippi River Basin,land_hydrology,point_or_site;regional,,,2500000.0,86400.0,86400.0,2840140800.0,,estimated_from_paper,False
+7887057fecea-02,"NOAA climate indices (Niño3.4, NAO, PDO, GTA)",coupled_earth_system,global_obs,,,40000000.0,2628000.0,2628000.0,2840140800.0,,estimated_from_paper,False
+7887057fecea-03,Simulated multisite flood risk catalogs and hydrographs,land_hydrology,point_or_site;regional,,,2500000.0,86400.0,2628000.0,252288000.0,,estimated_from_paper,False
+78aa7b6cb614-01,"NASA GISS-ModelE3 OMA simulation runs (E3OMA1850M, E3OMA2010D, E3OMA2020D)",atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,1800.0,1800.0,252288000.0,,estimated_from_paper,True
+7adc83572dfc-01,CUMULO dataset (MODIS MYD06 and CloudSat 2B-CLDCLASS-LIDAR),atmosphere,global_obs,1000.0,1000.0,40000000.0,86400.0,172800.0,31622400.0,4750.0,estimated_from_paper,True
+7adc83572dfc-02,CloudSat 2B-CLDCLASS-LIDAR (P1-R05),atmosphere,global_obs,1400.0,1800.0,40000000.0,1382400.0,1382400.0,31622400.0,,stated,True
+7adc83572dfc-03,ESA Cloud_cci L3U (AVHRR-PMv3),atmosphere,global_obs,5550.0,5550.0,40000000.0,43200.0,86400.0,78900000.0,,estimated_from_paper,True
+7adc83572dfc-04,ESA Cloud_cci L3C,atmosphere,global_obs,55500.0,55500.0,40000000.0,2600000.0,2600000.0,1040000000.0,,estimated_from_paper,True
+7c554cd4cfeb-01,SPEAR sea ice data assimilation increments and forecast states (1982-2017),cryosphere,GCM_ESM,111000.0,111000.0,40000000.0,432000.0,432000.0,1135296000.0,43.0,estimated_from_paper,True
+7c554cd4cfeb-02,SPEAR extended sea ice DA experiment (2018-2021),cryosphere,GCM_ESM,111000.0,111000.0,40000000.0,432000.0,432000.0,126144000.0,4.8,estimated_from_paper,True
+7c554cd4cfeb-03,NSIDC NASA Team Sea Ice Concentrations,cryosphere,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,1261440000.0,,estimated_from_paper,True
+7c554cd4cfeb-04,OISSTv2 sea-surface temperature,ocean,global_obs,111000.0,111000.0,40000000.0,86400.0,86400.0,1261440000.0,,estimated_from_paper,True
+7c554cd4cfeb-05,JRA55-do atmospheric forcing,atmosphere,global_obs,55000.0,55000.0,40000000.0,10800.0,10800.0,2019686400.0,,estimated_from_paper,True
+7cc314e993c8-01,SPCAM Control (0K) and Warmed (+4K) simulations,atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,277500.0,40000000.0,14400.0,14400.0,7776000.0,3400.0,stated,True
+7d39855f3451-01,Synthetic bullet rosette 3-D models and 2-D projections,idealized_or_other,other,,,,,,,,stated,False
+7d39855f3451-02,Cloud Particle Imager (CPI) in situ imagery dataset,atmosphere,point_or_site,2.3e-06,2.3e-06,,,,,,stated,False
+7d39855f3451-03,ICEBall cirrus LES simulations ensemble,atmosphere,LES,50.0,50.0,12800.0,,,,,stated,False
+7d40e13682f1-01,1D synthetic Riemann problem benchmarks for VANSE,idealized_or_other,other,0.1,0.1,100.0,,,0.3,,estimated_from_paper,False
+7d9f772790d0-01,ERA-Interim monthly sea-surface temperature climatology (1979-2008),ocean,GCM_ESM,444000.0,444000.0,40000000.0,2592000.0,2592000.0,946728000.0,,estimated_from_paper,True
+7d9f772790d0-02,JCM and SPEEDY 3-year simulation output datasets,atmosphere,GCM_ESM,444000.0,444000.0,40000000.0,2400.0,2400.0,94608000.0,,stated,True
+7fee1a0d6f87-01,Synthetic 3D Bullet Rosette Crystal Dataset and 2D Projections,atmosphere,other,,,,,,,,unknown,False
+7fee1a0d6f87-02,Cloud Particle Imager (CPI) Aircraft Field Campaign Images,atmosphere,point_or_site,,,,,,,,unknown,False
+80cd46ed8b4a-01,GOTM single-column k-epsilon turbulence simulations,ocean,column_or_box,,,,3600.0,3600.0,518400.0,,stated,False
+80cd46ed8b4a-02,JRA-55 based surface dataset (JRA55-do),atmosphere,global_obs,55000.0,55000.0,40000000.0,10800.0,10800.0,1893456000.0,,estimated_from_paper,True
+80cd46ed8b4a-03,Argo float data,ocean,global_obs;point_or_site,300000.0,300000.0,40000000.0,864000.0,864000.0,473350000.0,,estimated_from_paper,True
+80cd46ed8b4a-04,World Ocean Atlas 2018 (WOA18),ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,31536000.0,,,estimated_from_paper,True
+80cd46ed8b4a-05,GFDL OM4.0 MOM6 simulation outputs (ePBL vs ePBL_NN),ocean,GCM_ESM,27750.0,27750.0,40000000.0,2628000.0,31536000.0,1893456000.0,,estimated_from_paper,True
+8210b7390744-01,FV3-GFS Replay Analysis Increments Dataset,atmosphere,GCM_ESM,50000.0,625000.0,40000000.0,21600.0,21600.0,40262400.0,,estimated_from_paper,True
+8210b7390744-02,ECMWF Operational IFS Analysis,atmosphere,GCM_ESM,9000.0,9000.0,40000000.0,21600.0,21600.0,40262400.0,,estimated_from_paper,True
+830d30232ab2-01,NCAR SCAM Perturbed Parameter Ensemble (PPE) SPARTICUS simulations,atmosphere,column_or_box,,,,,,,,unknown,False
+830d30232ab2-02,SPARTICUS Campaign observational data,atmosphere,point_or_site,,,,,,,,unknown,False
+83de885b0808-01,Satellite wildfire and GPP observations,land_hydrology,regional;global_obs,,,5500000.0,,,63072000.0,,estimated_from_paper,False
+83fdefd50e14-01,CESM2 Large Ensemble (SSP3-7.0),coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,,2592000.0,2712960000.0,,estimated_from_paper,False
+83fdefd50e14-02,MESACLIP High-Resolution Simulations,coupled_earth_system,GCM_ESM,10000.0,25000.0,40000000.0,,2592000.0,978307200.0,,estimated_from_paper,False
+83fdefd50e14-03,CESM3 Spinup and Development Simulations,coupled_earth_system,GCM_ESM;CRM,3500.0,111000.0,40000000.0,,,31536000000.0,,estimated_from_paper,False
+85aa424ae459-01,ERA5,atmosphere,GCM_ESM;global_obs,31000.0,31000.0,40000000.0,3600.0,3600.0,1420000000.0,,estimated_from_paper,True
+85aa424ae459-02,ClimateBench v2 benchmark data collection,coupled_earth_system,GCM_ESM;global_obs,11000.0,280000.0,40000000.0,86400.0,2600000.0,,,estimated_from_paper,True
+866319f21183-01,CAM6 KK2000 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,99900.0,138750.0,40000000.0,2600000.0,2600000.0,94608000.0,,estimated_from_paper,True
+866319f21183-02,CAM6 TAU-ML Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,99900.0,138750.0,40000000.0,2600000.0,2600000.0,94608000.0,,estimated_from_paper,True
+866319f21183-03,CERES-EBAF-Ed4.2 monthly TOA radiation climatology,atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,694000000.0,,estimated_from_paper,True
+866319f21183-04,MAC-LWP monthly total liquid water path climatology,atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,915000000.0,,estimated_from_paper,True
+8b93316afdc1-01,Sentinel-1A SAR Level-1 Ground Range Detected (GRD) imagery,cryosphere,regional,5.0,25.0,800000.0,1036800.0,2592000.0,252288000.0,150.0,estimated_from_paper,True
+8b93316afdc1-02,Labeled crevasse mask training dataset,cryosphere,regional,25.0,25.0,800000.0,,,252288000.0,1.0,estimated_from_paper,False
+8b93316afdc1-03,WorldView optical imagery,cryosphere,regional,0.5,2.0,800000.0,,,252288000.0,,estimated_from_paper,False
+8b93316afdc1-04,Ultra-wideband UHF ice-penetrating radar data,cryosphere,regional,5.0,5.0,500000.0,,,,,stated,False
+8b93316afdc1-05,Sentinel-1 derived ice velocity time series,cryosphere,regional,,,800000.0,7776000.0,7776000.0,252288000.0,,estimated_from_paper,False
+8b93316afdc1-06,Mapped fracture fields and crevasse masks for Amundsen Sea glaciers,cryosphere,regional,25.0,25.0,800000.0,1036800.0,7776000.0,252288000.0,,estimated_from_paper,True
+8d3638a0d126-01,Coupled and Land-Only Perturbed Parameter Ensemble (PPE) in CESM2,coupled_earth_system,GCM_ESM,100000.0,111000.0,40000000.0,31500000.0,31500000.0,4420000000.0,,estimated_from_paper,True
+8d3638a0d126-02,CLM5 Perturbed Parameter Ensemble (CLM5 PPE),land_hydrology,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+8d5a2534ce39-01,"Thwaites and Dotson glaciers glaciological, geological, and inverted basal properties",cryosphere,regional,,,,,,,,unknown,False
+8d5a2534ce39-02,"Pine Island Glacier (PIG) glaciological, geological, and velocity data",cryosphere,regional,,,,,,,,unknown,False
+903d7cbc6583-01,CM1 LES ICEBall cirrus cloud supercrystal trajectories,atmosphere,LES,,,,,,,,unknown,False
+910cf5fa4e6f-01,Two-scale Lorenz '96 model simulation data,idealized_or_other,other,,,,2160.0,4320.0,43200000.0,0.0003,estimated_from_paper,False
+9571bcf512aa-01,CMIP6 Analysis-Ready Cloud Optimized (ARCO) simulations,coupled_earth_system,GCM_ESM,25000.0,111000.0,40000000.0,2600000.0,2600000.0,7922880000.0,,estimated_from_paper,True
+9571bcf512aa-02,DUACS multimission global ocean gridded L4 sea surface heights,ocean,global_obs,13875.0,111000.0,40000000.0,2600000.0,2600000.0,946728000.0,,stated,True
+9571bcf512aa-03,Permanent Service for Mean Sea Level (PSMSL) tide-gauge records,ocean,point_or_site,,,40000000.0,2600000.0,2600000.0,946728000.0,,stated,False
+9571bcf512aa-04,ERA5 atmospheric reanalysis sea-level pressure,atmosphere,GCM_ESM,31000.0,31000.0,40000000.0,2600000.0,2600000.0,946728000.0,,estimated_from_paper,True
+9571bcf512aa-05,Annual sea-level cycle changes based on CMIP6 simulations dataset,ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,3408800000.0,,estimated_from_paper,True
+964cd1a50705-01,Coupled Rössler oscillators simulation data,idealized_or_other,other,,,,,,,,estimated_from_paper,False
+964cd1a50705-02,2D Reaction-diffusion equation simulation data,idealized_or_other,other,,,,,,,,estimated_from_paper,False
+964cd1a50705-03,Idealized ENSO model (Jin 1997) simulation data,idealized_or_other,column_or_box,,,,,,,,estimated_from_paper,False
+964cd1a50705-04,eXtended nonlinear Recharge Oscillator (XRO) model simulation data,idealized_or_other,column_or_box,,,,,,,,estimated_from_paper,False
+964cd1a50705-05,ECMWF Ocean Reanalysis System 5 (ORAS5),ocean,global_obs;GCM_ESM,27750.0,27750.0,40000000.0,2600000.0,2600000.0,1320000000.0,,estimated_from_paper,True
+97248a2622a0-01,MAR simulation daily surface fields and meltwater production over Greenland (1979–2024),cryosphere,regional,,,2500000.0,86400.0,86400.0,1452076800.0,,estimated_from_paper,False
+97248a2622a0-02,ERA5 global reanalysis near-surface and flux variables over Greenland,atmosphere,regional;GCM_ESM,31000.0,31000.0,2500000.0,86400.0,86400.0,1452076800.0,,estimated_from_paper,True
+984ddfea1c66-01,GFDL-CM4 piControl sea surface temperature (SST),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,9467280000.0,0.45,stated,True
+984ddfea1c66-02,Synthetic 3-variable linear Markov process,idealized_or_other,column_or_box,,,,,,,0.001,stated,False
+9895f2e76861-01,PYROCAST database,atmosphere,regional,1000.0,1000.0,200000.0,3600.0,3600.0,157788000.0,72.0,estimated_from_paper,True
+9895f2e76861-02,NOAA GOES-16/17 and JMA Himawari-8 geostationary satellite imagery,atmosphere,global_obs,500.0,2000.0,40000000.0,600.0,600.0,157788000.0,,stated,True
+9895f2e76861-03,ERA5 reanalysis,atmosphere,GCM_ESM;global_obs,31000.0,31000.0,40000000.0,3600.0,3600.0,157788000.0,,estimated_from_paper,True
+989d48eda0d5-01,SPCAM 3 reference simulations (colder and +4K warmer climates),atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,310000.0,40000000.0,1800.0,1800.0,31536000.0,,estimated_from_paper,True
+99741af201b2-01,DNS of turbulent open-channel flow at Re_tau = 250,idealized_or_other,DNS,,,,,,,75.5,estimated_from_paper,False
+9a0484dcafbe-01,Synthetic ice crystal rosette dataset,idealized_or_other,other,,,,,,,,stated,False
+9a0484dcafbe-02,ICEBall field campaign SEM dataset,atmosphere,point_or_site,,,,,,1814400.0,,stated,False
+9a0484dcafbe-03,COCPIT (Classification of Cloud Particle Images with Transferability) dataset,atmosphere,other,2.3e-06,2.3e-06,,,,,,stated,False
+9ccce3cf53db-01,MODIS reflectances,land_hydrology,global_obs,250.0,1000.0,40000000.0,86400.0,86400.0,757382400.0,,estimated_from_paper,True
+9ccce3cf53db-02,ERA5-Land meteorological inputs,atmosphere,global_obs,9000.0,9000.0,40000000.0,3600.0,86400.0,757382400.0,,estimated_from_paper,True
+9ccce3cf53db-03,Eddy covariance (EC) measurements (flux tower sites),land_hydrology,point_or_site,,,40000000.0,1800.0,86400.0,,,estimated_from_paper,False
+9ccce3cf53db-04,DeepCarbon,land_hydrology,global_obs,5550.0,5550.0,40000000.0,86400.0,86400.0,757382400.0,,stated,True
+9ccce3cf53db-05,"FLUXCOM-X-BASE, MetaFlux, and MiCASA",land_hydrology,global_obs,5550.0,27750.0,40000000.0,86400.0,2592000.0,,,estimated_from_paper,True
+9cd496de67bd-01,ClimateNet expert-labeled dataset,atmosphere,GCM_ESM,25000.0,25000.0,40000000.0,10800.0,10800.0,546000000.0,,estimated_from_paper,True
+9cd496de67bd-02,"CESM1.3 high-resolution historical, RCP2.6, and RCP8.5 simulations",coupled_earth_system,GCM_ESM,27750.0,27750.0,40000000.0,10800.0,10800.0,946700000.0,,estimated_from_paper,True
+9cd496de67bd-03,MERRA-2 ARTMIP Tier 1 and Tier 2 catalogues and source data,atmosphere,GCM_ESM,55500.0,69375.0,40000000.0,3600.0,10800.0,1183000000.0,,estimated_from_paper,True
+9cd496de67bd-04,ERA5 ARTMIP Tier 2 catalogue and source data,atmosphere,GCM_ESM,27750.0,27750.0,40000000.0,3600.0,3600.0,631200000.0,,estimated_from_paper,True
+9cd496de67bd-05,Machine learning-based detection of atmospheric rivers in CESM1.3 catalogue,atmosphere,GCM_ESM,27750.0,27750.0,40000000.0,10800.0,10800.0,946700000.0,,estimated_from_paper,True
+9ded7df06c46-01,GISS-E3 Model perturbed parameter ensemble (PPE) and calibrated physics ensemble (CPE) output,atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,21600.0,31536000.0,31536000.0,,stated,True
+9ded7df06c46-02,obs4MIPs satellite and reanalysis data products,atmosphere,global_obs,111000.0,277500.0,40000000.0,2592000.0,31536000.0,,,estimated_from_paper,True
+9ded7df06c46-03,Cumulus And Stratocumulus Cloudsat-CALIPSO Dataset (CASCCAD),atmosphere,global_obs,222000.0,222000.0,40000000.0,2592000.0,31536000.0,,,estimated_from_paper,True
+9ded7df06c46-04,GPM DPR and GMI combined stratiform heating L2 (CSH),atmosphere,global_obs,5000.0,5000.0,40000000.0,5400.0,5400.0,,,stated,True
+9ded7df06c46-05,Multi-Sensor Advanced Climatology of Liquid Water Path (MAC-LWP),atmosphere,global_obs,111000.0,111000.0,40000000.0,2592000.0,2592000.0,,,stated,True
+9ded7df06c46-06,CloudSat 2C-ICE,atmosphere,global_obs,1400.0,1700.0,40000000.0,,,,,estimated_from_paper,False
+9ded7df06c46-07,International Best Track Archive for Climate Stewardship (IBTrACS),atmosphere,global_obs;point_or_site,,,40000000.0,10800.0,21600.0,,,estimated_from_paper,False
+a076629e05e7-01,ParFlow synthetic rainfall-runoff simulations for Taylor River and Little Washita basins,land_hydrology,regional,1000.0,1000.0,35000.0,3600.0,3600.0,432000.0,,estimated_from_paper,True
+a076629e05e7-02,"HydroSHEDS, NLCD, SSURGO, and Gleeson et al. permeability map basin inputs",land_hydrology,regional,1000.0,1000.0,35000.0,,,,,estimated_from_paper,False
+a185a58af4a1-01,COCPIT database,atmosphere,point_or_site,,,,,,,,unknown,False
+a185a58af4a1-02,Precipitation Imaging Package (PIP) dataset,atmosphere,point_or_site,,,,,,,,unknown,False
+a185a58af4a1-03,MASCDB (Multi-Angle Snowflake Camera database),atmosphere,point_or_site,,,,,,,,unknown,False
+a185a58af4a1-04,DOE ARM airborne field campaign data products (2013-2018),atmosphere,point_or_site,,,,,,189345600.0,,estimated_from_paper,False
+a185a58af4a1-05,BAECC (Biogenic Aerosols - Effects on Clouds and Climate) dataset,atmosphere,point_or_site,,,,,,,,unknown,False
+a289dbb4d9dd-01,"DYAMOND II simulation outputs (ICON, IFS, NICAM, UM, SHIELD, GEM, SAM, ARPEGE)",atmosphere,CRM,2000.0,5000.0,40000000.0,10800.0,10800.0,3456000.0,2000000.0,stated,True
+a289dbb4d9dd-02,SPCAM v5 (control and +4K SST warming),atmosphere,MMF_superparameterized;GCM_ESM,4000.0,4000.0,40000000.0,900.0,10800.0,46656000.0,,estimated_from_paper,True
+a2ad0e30a088-01,NASA GISS ModelE3 1950–1951 simulation output,atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,1800.0,1800.0,63072000.0,,stated,True
+a2ad0e30a088-02,NASA GISS ModelE3 2010 simulation output,atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,1800.0,1800.0,31536000.0,,stated,True
+a3f77201a4b0-01,Kolmogorov flow synthetic simulation dataset,idealized_or_other,DNS,,,,,,,8.6,estimated_from_paper,False
+a3f77201a4b0-02,Spherical shallow water equations dataset,atmosphere,other,2180.0,166800.0,40000000.0,18000.0,18000.0,1036800.0,7.6,estimated_from_paper,True
+a3f77201a4b0-03,ChaosBench S2S climate benchmark dataset,atmosphere,GCM_ESM,2180.0,166500.0,40000000.0,86400.0,86400.0,1420000000.0,15.3,estimated_from_paper,True
+a436a117e657-01,FLUXNET2015,land_hydrology,point_or_site,,,40000000.0,1800.0,86400.0,,,estimated_from_paper,False
+a436a117e657-02,Global Daily Summary (GSOD) weather station observations,atmosphere,point_or_site,,,40000000.0,86400.0,86400.0,536000000.0,,estimated_from_paper,False
+a436a117e657-03,MODIS biophysical data (LAI and MCD12Q1 Land Cover),land_hydrology,global_obs,500.0,500.0,40000000.0,691200.0,31500000.0,536000000.0,,stated,True
+a436a117e657-04,Weather station ET estimates (ET_WS),land_hydrology,point_or_site,,,40000000.0,86400.0,31500000.0,536000000.0,,estimated_from_paper,False
+a436a117e657-05,"Basin water balance datasets (GPCC, GRUN, GRACE)",land_hydrology,regional;global_obs,27750.0,1000000.0,40000000.0,2600000.0,2600000.0,536000000.0,,estimated_from_paper,True
+a4d0f7df7f2c-01,PINACLES LES simulations,atmosphere,LES,,,,,,,,unknown,False
+a4e4dff190c8-01,SOCAT v2021 gridded fCO2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1200000000.0,,estimated_from_paper,True
+a4e4dff190c8-02,NOAA OISSTv2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1200000000.0,,estimated_from_paper,True
+a4e4dff190c8-03,Met Office EN4 Salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1200000000.0,,estimated_from_paper,True
+a4e4dff190c8-04,NOAA GLOBALVIEW Atmospheric CO2,atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,1200000000.0,,estimated_from_paper,False
+a4e4dff190c8-05,ESA GlobColour Chlorophyll-a,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,694000000.0,,estimated_from_paper,True
+a4e4dff190c8-06,de Boyer Montégut Mixed Layer Depth Climatology,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,31536000.0,,estimated_from_paper,True
+a4e4dff190c8-07,"Independent validation datasets (BATS, HOT, LDEO, GLODAPv2)",ocean,global_obs;point_or_site,,,40000000.0,,,947000000.0,,estimated_from_paper,False
+a4e4dff190c8-08,pCO2-Residual reconstructed pCO2 and air-sea CO2 fluxes,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1200000000.0,,estimated_from_paper,True
+a5b5446f7e93-01,"LES simulations with bin microphysics, Lagrangian super droplet microphysics, and BOSS",atmosphere,LES,,,,,,,,unknown,False
+a74eeb28cd14-01,SPCAM5 real-geography 10-year simulation,atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,277500.0,40000000.0,900.0,900.0,315360000.0,3400.0,stated,True
+a74eeb28cd14-02,SPCAM3 aqua-planet simulation,atmosphere,MMF_superparameterized;GCM_ESM,4000.0,310800.0,40000000.0,1800.0,1800.0,8035200.0,,stated,True
+a74eeb28cd14-03,CAM5 standard parameterization simulation,atmosphere,GCM_ESM,210900.0,277500.0,40000000.0,900.0,900.0,8035200.0,,stated,True
+a74eeb28cd14-04,DYAMOND Initiative global storm-resolving models,atmosphere,CRM;GCM_ESM,2000.0,5000.0,40000000.0,10800.0,10800.0,3456000.0,2000000.0,stated,True
+a74eeb28cd14-05,SPCAM5 +4K warmed simulation,atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,277500.0,40000000.0,900.0,900.0,7776000.0,3400.0,stated,True
+a7a033624df2-01,Satellite-era observations (1980–present),coupled_earth_system,global_obs,,,40000000.0,,,1420000000.0,,estimated_from_paper,False
+a7a033624df2-02,"Paleoclimate reconstructions (LGM, LIG, Mid-Holocene)",coupled_earth_system,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+a7a033624df2-03,CMIP archive,coupled_earth_system,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+a8db6bfca0cf-01,CMIP5 and CMIP6 multi-model ensemble simulations,coupled_earth_system,GCM_ESM,100000.0,250000.0,40000000.0,2600000.0,31536000.0,7922816000.0,,estimated_from_paper,True
+a8db6bfca0cf-02,MITgcm parameter perturbation ensemble,ocean,GCM_ESM,310000.0,310000.0,40000000.0,31536000.0,31536000.0,33767280000.0,,estimated_from_paper,True
+a948fe73c70a-01,Button Electrode Levitation (BEL) thermal gradient diffusion chamber dataset,idealized_or_other,point_or_site;other,,,,1.0,1.0,500.0,,stated,False
+a948fe73c70a-02,Synthetic levitation diffusion chamber dataset,idealized_or_other,other,,,,1.0,1.0,500.0,,stated,False
+a948fe73c70a-03,AIDA Aerosol and Cloud Chamber dataset (IsoCloud 4 campaigns),idealized_or_other,point_or_site;other,,,,,,600.0,,estimated_from_paper,False
+aa27e37a9374-01,FEMA NFIP Redacted Claims - v2,land_hydrology,regional;point_or_site,,,5000000.0,86400.0,86400.0,1483344000.0,,estimated_from_paper,False
+aa27e37a9374-02,FEMA NFIP Redacted Policies - v2,land_hydrology,regional;point_or_site,,,5000000.0,,,,,estimated_from_paper,False
+aa27e37a9374-03,FEMA Full Risk Rating 2.0 (RR2) Premiums,land_hydrology,regional;point_or_site,,,5000000.0,31536000.0,31536000.0,31536000.0,,estimated_from_paper,False
+aa27e37a9374-04,NOAA HURDAT2 Atlantic Hurricane Database,atmosphere,regional,,,8000000.0,21600.0,21600.0,1483344000.0,,estimated_from_paper,False
+aa27e37a9374-05,ERA5 hourly data on single levels,atmosphere,GCM_ESM;global_obs,27750.0,27750.0,40000000.0,3600.0,3600.0,1483344000.0,,estimated_from_paper,True
+aa27e37a9374-06,MSWEP (Multi-Source Weighted-Ensemble Precipitation),land_hydrology,regional;global_obs,11100.0,11100.0,40000000.0,10800.0,86400.0,1483344000.0,,estimated_from_paper,True
+aa27e37a9374-07,Bootstrapped NFIP state and national pool balance simulations,land_hydrology,regional,,,5000000.0,31536000.0,31536000.0,3153600000.0,,stated,False
+aa49b96ea006-01,Two-layer quasi-geostrophic (QG) model simulations,idealized_or_other,regional,3906.25,31250.0,1000000.0,3600.0,86400.0,315360000.0,,estimated_from_paper,True
+aa8f63ee2fb1-01,Numerically generated black carbon fractal aggregate optical properties dataset,atmosphere,other,,,,,,,,unknown,False
+abec22acf841-01,SOCATv2021 (Surface Ocean CO2 Atlas version 2021),ocean,global_obs;point_or_site,,,40000000.0,,2600000.0,2020000000.0,,estimated_from_paper,False
+abec22acf841-02,"Global Ocean Biogeochemical Models (GOBM) ensemble output (8 models: CESM-ETHZ, FESOM2-REcoM, MICOM-HAMOCC, MOM6-COBALT, MPIOM-HAMOCC6, NEMO-PlankTOM5, NEMO-PISCES, NEMO3.6-PISCESv2-gas)",ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1957000000.0,,stated,True
+abec22acf841-03,EN4.2.2 ocean salinity and temperature analyses,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1957000000.0,,estimated_from_paper,True
+abec22acf841-04,"ERA5 monthly averaged data on single levels (winds, SLP, SST)",atmosphere,GCM_ESM,28000.0,28000.0,40000000.0,2600000.0,2600000.0,2240000000.0,,estimated_from_paper,True
+abec22acf841-05,GLODAP and LDEO independent pCO2 databases,ocean,global_obs;point_or_site,,,40000000.0,,,978000000.0,,estimated_from_paper,False
+abec22acf841-06,Extended LDEO-HPD pCO2 and air-sea CO2 flux product (1959–2020),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1957000000.0,,stated,True
+ac432f3da31a-01,Machine learning-detected ship track climatology,atmosphere,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+ac432f3da31a-02,Fully coupled CESM2 ensemble simulations,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+ac432f3da31a-03,CAM6 aerosol forcing simulations,atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+ac665f32a008-01,MRMS composite reflectivity,atmosphere,regional,1110.0,1110.0,2200000.0,120.0,120.0,34128000.0,,estimated_from_paper,True
+ac665f32a008-02,GOES-16 ABI infrared brightness temperatures and ACHA products,atmosphere,regional,1500.0,3000.0,2200000.0,300.0,300.0,34128000.0,,estimated_from_paper,True
+ac665f32a008-03,GTOPO30 elevation dataset,land_hydrology,global_obs,1000.0,1000.0,40000000.0,,,,,estimated_from_paper,False
+ac665f32a008-04,Processed CI nowcasting dataset,atmosphere,regional,1500.0,1500.0,2200000.0,600.0,3600.0,34128000.0,2.7,estimated_from_paper,True
+ad7bf4fe6756-01,Global ML-augmented ocean and sea-ice simulations in OM4/CM4,coupled_earth_system,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+b06f80e974c0-01,Two-layer QG model simulation (PyQG),idealized_or_other,regional;other,3906.0,3906.0,1000000.0,3600.0,86400.0,473040000.0,,stated,True
+b06f80e974c0-02,Grand Lagrangian Deployment (GLAD),ocean,regional,,,450000.0,900.0,900.0,7776000.0,,stated,False
+b06f80e974c0-03,Lagrangian Submesoscale Experiment (LASER),ocean,regional,,,450000.0,900.0,900.0,5184000.0,,stated,False
+b0ae81292189-01,In situ cloud microphysics observations,atmosphere,point_or_site,,,,,,,,unknown,False
+b10f4cc342fd-01,GRAiCE,land_hydrology,global_obs,55500.0,55500.0,40000000.0,2600000.0,2600000.0,1200000000.0,,stated,True
+b10f4cc342fd-02,GRACE and GRACE-FO JPL mascon solutions (JPL-RL06.1Mv03),land_hydrology,global_obs,55500.0,55500.0,40000000.0,2600000.0,2600000.0,622000000.0,,stated,True
+b10f4cc342fd-03,"ERA5-Land (PCP, SWE, SRAD)",land_hydrology,global_obs,11100.0,11100.0,40000000.0,2600000.0,2600000.0,1262000000.0,,stated,True
+b10f4cc342fd-04,"Essential Climate Variables from ERA5 (TMP, RH)",atmosphere,global_obs,27750.0,27750.0,40000000.0,2600000.0,2600000.0,1262000000.0,,stated,True
+b10f4cc342fd-05,Long-term contiguous solar-induced fluorescence (LCSIF),land_hydrology,global_obs,5550.0,5550.0,40000000.0,2600000.0,2600000.0,1262000000.0,,stated,True
+b10f4cc342fd-06,GRACE-REC,land_hydrology,global_obs,55500.0,55500.0,40000000.0,2600000.0,2600000.0,3754000000.0,,stated,True
+b10f4cc342fd-07,Basin-Scale Water-Balance dataset (BSWB),land_hydrology,regional,,,40000000.0,2600000.0,2600000.0,1168000000.0,,stated,False
+b10f4cc342fd-08,Total Water Storage Change reconstruction (TWSC-rec),land_hydrology,regional,,,40000000.0,2600000.0,2600000.0,852000000.0,,stated,False
+b10f4cc342fd-09,SAtellite Water Cycle (SAWC) dataset,land_hydrology,regional,,,3000000.0,2600000.0,2600000.0,1136000000.0,,estimated_from_paper,False
+b2c4df5ecad8-01,Global solar-induced fluorescence (LCSIF / CSIF),land_hydrology,global_obs,5550.0,5550.0,40000000.0,86400.0,86400.0,1262304000.0,,estimated_from_paper,True
+b2c4df5ecad8-02,ERA5 reanalysis data (1982 to 2021),atmosphere,GCM_ESM,31000.0,31000.0,40000000.0,86400.0,86400.0,1262304000.0,,estimated_from_paper,True
+b2c4df5ecad8-03,Global LAI data,land_hydrology,global_obs,,,40000000.0,86400.0,86400.0,,,estimated_from_paper,False
+b471409f0ea8-01,NASA GISS ModelE3 historical simulation (1950–1951),atmosphere,GCM_ESM,222000.0,277500.0,40000000.0,1800.0,1800.0,63072000.0,,estimated_from_paper,True
+b4f14499f277-01,Model simulation of flux footprints and uncertainty for partial and total GHG column analysis,atmosphere,regional,,,,,,,,unknown,False
+b4f6a6f64861-01,CAMELS streamflow benchmark,land_hydrology,point_or_site;regional,,,4500000.0,86400.0,86400.0,1100000000.0,,estimated_from_paper,False
+b4f6a6f64861-02,NLDAS forcing dataset,atmosphere,regional,13875.0,13875.0,4500000.0,86400.0,86400.0,1100000000.0,,estimated_from_paper,True
+b65cac097878-01,ERA5,atmosphere,regional;GCM_ESM,27750.0,111000.0,3330000.0,3600.0,3600.0,662709600.0,,estimated_from_paper,True
+b65cac097878-02,GPM IMERG V06,atmosphere,regional;global_obs,11100.0,111000.0,3330000.0,1800.0,3600.0,662709600.0,,estimated_from_paper,True
+b6cebb1c1191-01,ICON-A AMIP-like simulation output (year 1979),atmosphere,GCM_ESM,80000.0,80000.0,40000000.0,18000.0,18000.0,31536000.0,,stated,True
+b890bad8646f-01,"AutoClimDS Knowledge Graph Metadata (NASA CMR, NOAA OneStop, ERA5, CMIP6)",idealized_or_other,other,,,,,,,,unknown,False
+b890bad8646f-02,CESM Variable Catalog for ClimateBERT Fine-tuning,coupled_earth_system,GCM_ESM;other,,,,,,,,unknown,False
+b890bad8646f-03,Battery Park Sea Level / NPCC4 Climate Risk Records,ocean,point_or_site,,,,31536000.0,31536000.0,5200000000.0,,estimated_from_paper,False
+b890bad8646f-04,ERA5 Global Reanalysis NYC Subset,atmosphere,regional;global_obs,28000.0,28000.0,100000.0,31536000.0,31536000.0,2050000000.0,,estimated_from_paper,True
+b890bad8646f-05,CMIP6 Multi-Model Ensemble Temperature Projections (SSP2-4.5),coupled_earth_system,GCM_ESM;regional,50000.0,250000.0,100000.0,31536000.0,31536000.0,2710000000.0,,estimated_from_paper,True
+b9f244519383-01,CRYSTAL-FACE Cloud Particle Imager (CPI) imagery paired with WRF-HYSPLIT thermodynamic back-trajectories,atmosphere,point_or_site;regional,2.3e-06,25000.0,2500000.0,600.0,600.0,2678400.0,,estimated_from_paper,True
+ba2366f1978a-01,FLUXNET2015,land_hydrology,point_or_site;global_obs,,,40000000.0,86400.0,86400.0,94608000.0,,estimated_from_paper,False
+ba2366f1978a-02,CARAVAN-GB,land_hydrology,regional;point_or_site,,,1000000.0,86400.0,86400.0,631152000.0,,estimated_from_paper,False
+ba2366f1978a-03,Synthetic multimodal regression dataset,idealized_or_other,other,,,,,,,,estimated_from_paper,False
+bae3097cae52-01,GOES-16 ABI infrared brightness temperatures and MRMS composite reflectivity dataset for convective initiation nowcasting,atmosphere,regional,1500.0,2000.0,2100000.0,120.0,300.0,34100000.0,,estimated_from_paper,True
+bc690e71bdc9-01,Western US MTBS-Interagency (WUMI) wildfire dataset / SMLFire1.0,land_hydrology,regional,12000.0,12000.0,2000000.0,2628000.0,2628000.0,1168000000.0,,estimated_from_paper,True
+bd2e6ef762ef-01,CMIP6 multi-model daily surface temperature simulations,atmosphere,GCM_ESM,250000.0,250000.0,40000000.0,86400.0,86400.0,7921104000.0,45.6,stated,True
+bd2e6ef762ef-02,Minimal CMIP Emulator v1.2 (MCE v1.2) CO2 equivalent concentrations,atmosphere,GCM_ESM,,,40000000.0,31536000.0,31536000.0,7921104000.0,,stated,False
+be371321361e-01,ERA5 reanalysis,atmosphere,GCM_ESM,27750.0,27750.0,40000000.0,3600.0,21600.0,378691200.0,,estimated_from_paper,True
+be371321361e-02,HWind Legacy Archive,atmosphere,regional,5550.0,6000.0,6000000.0,21600.0,21600.0,347155200.0,,stated,True
+be371321361e-03,IBTrACS (International Best Track Archive for Climate Stewardship),atmosphere,point_or_site;global_obs,,,40000000.0,21600.0,21600.0,378691200.0,,estimated_from_paper,False
+bec8e33adb6f-01,ERA5 Precipitation,atmosphere,regional,27750.0,27750.0,7100000.0,21600.0,21600.0,345600.0,,estimated_from_paper,True
+bec8e33adb6f-02,NCEP-DOE Reanalysis II Z500,atmosphere,GCM_ESM,277500.0,277500.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bec8e33adb6f-03,"CMIP6 ESM Simulations (CESM2-FV2, CMCC-CM2-HR4, GFDL-ESM4)",coupled_earth_system,GCM_ESM,222000.0,277500.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bec8e33adb6f-04,Global Precipitation Climatology Project (GPCP) v2.3,atmosphere,global_obs,277500.0,277500.0,40000000.0,2600000.0,2600000.0,1136073600.0,,estimated_from_paper,True
+bec8e33adb6f-05,NOAA Extended Reconstructed Sea Surface Temperature (ERSST) v5,ocean,global_obs,222000.0,222000.0,40000000.0,2600000.0,2600000.0,1136073600.0,,estimated_from_paper,True
+bf899599c4e8-01,SOCAT v2019 monthly gridded fCO2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bf899599c4e8-02,Global Ocean Biogeochemical Models (GOBMs) ensemble from GCB 2020,ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bf899599c4e8-03,NOAA OISSTv2 Sea Surface Temperature and Ice Fraction,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bf899599c4e8-04,Met Office EN4 Sea Surface Salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bf899599c4e8-05,NOAA GLOBALVIEW atmospheric CO2 mixing ratio (xCO2),atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,False
+bf899599c4e8-06,de Boyer Montégut Mixed Layer Depth Climatology,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,31536000.0,,estimated_from_paper,True
+bf899599c4e8-07,ESA GlobColour Chlorophyll-a,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+bf899599c4e8-08,LDEO Database v2018,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,915148800.0,,estimated_from_paper,True
+bf899599c4e8-09,GLODAPv2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,915148800.0,,estimated_from_paper,True
+bf899599c4e8-10,BATS and HOT time-series,ocean,point_or_site,,,,2600000.0,2600000.0,946728000.0,,estimated_from_paper,False
+bf899599c4e8-11,LDEO-HPD reconstructed surface ocean pCO2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1167609600.0,,estimated_from_paper,True
+c0774f58a23e-01,SPCESM2 subgrid and large-scale simulation dataset,atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,277500.0,40000000.0,1800.0,1800.0,410227200.0,3000.0,estimated_from_paper,True
+c0774f58a23e-02,GPM IMERG v07,atmosphere,global_obs,11100.0,11100.0,40000000.0,1800.0,1800.0,10368000.0,,stated,True
+c0774f58a23e-03,GPCP v3.2 daily,atmosphere,global_obs,55500.0,55500.0,40000000.0,86400.0,86400.0,10368000.0,,stated,True
+c12ada1cad6b-01,Microscopic unit cell stationary Navier-Stokes simulations,atmosphere,DNS,,,,,,,,unknown,False
+c12ada1cad6b-02,Fine-resolution reference simulations in an idealized multiscale plant canopy environment,atmosphere,DNS,,,,,,,,unknown,False
+c1a8dd04e194-01,nextGEMS Cycle 3 ICON simulations,atmosphere,CRM;GCM_ESM,6300.0,63000.0,40000000.0,10800.0,10800.0,173577600.0,,stated,True
+c26112c02ff3-01,GISS-E2.1-G anomalous freshwater historical ensemble simulations,coupled_earth_system,GCM_ESM,111000.0,277500.0,40000000.0,2600000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-02,Anomalous Freshwater from Greenland and Antarctica (1990–2019),cryosphere,regional,100000.0,500000.0,40000000.0,31536000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-03,ERSSTv5,ocean,global_obs,222000.0,222000.0,40000000.0,2600000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-04,HadSST4,ocean,global_obs,555000.0,555000.0,40000000.0,2600000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-05,NOAA/NSIDC CDRv4 passive microwave sea ice concentration,cryosphere,global_obs,25000.0,25000.0,40000000.0,86400.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-06,CORA5 (v5.2) in-situ ocean reanalysis,ocean,global_obs,55500.0,55500.0,40000000.0,2600000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c26112c02ff3-07,CMIP6 multi-model historical and SSP2-4.5 ensemble SST data,coupled_earth_system,GCM_ESM,100000.0,250000.0,40000000.0,2600000.0,31536000.0,946728000.0,,estimated_from_paper,True
+c4f36a0b7a77-01,SPCAM aquaplanet 2-year simulation,atmosphere,MMF_superparameterized;GCM_ESM;CRM,4000.0,300000.0,40000000.0,1800.0,1800.0,63072000.0,1000.0,stated,True
+c56071d72c6e-01,Heat Severity and Coverage Index (HSCI) fields,atmosphere,regional,,,4500000.0,,,1357000000.0,,estimated_from_paper,False
+c56071d72c6e-02,"Climate teleconnection indices (PNA, NAO, PDO, AO, ENSO)",coupled_earth_system,global_obs,,,40000000.0,,,1357000000.0,,estimated_from_paper,False
+c6a5e8968ce0-01,Synthetic cloud-aerosol-radiation toy dataset,idealized_or_other,other,,,,,,,,unknown,False
+c769439315e0-01,SP2 Laser-Induced Incandescent Signals of Laboratory Aerosols,idealized_or_other,point_or_site,,,,2e-07,2e-07,,,stated,False
+c80f5cf46ad3-01,SOCAT (Surface Ocean CO2 Atlas),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,31536000.0,1576800000.0,,estimated_from_paper,True
+c80f5cf46ad3-02,GLODAPv2 (Global Ocean Data Analysis Project),ocean,global_obs,,,40000000.0,,,1513728000.0,,estimated_from_paper,False
+c80f5cf46ad3-03,OCO-2 XCO2 and SIF products,atmosphere,global_obs,1000.0,10000.0,40000000.0,86400.0,2600000.0,189216000.0,,estimated_from_paper,True
+c80f5cf46ad3-04,"Global Living Biomass Carbon Density Maps (Spawn et al., 2020)",land_hydrology,global_obs,5000.0,5000.0,40000000.0,,,31536000.0,,stated,False
+c846a2323199-01,PINACLES LES trade cumuli (ATEX) bin microphysics simulations,atmosphere,LES,40.0,40.0,25600.0,600.0,600.0,28800.0,,stated,True
+c926c4c93a95-01,SOCAT v2021 monthly gridded fCO2 product,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1262304000.0,,estimated_from_paper,True
+c926c4c93a95-02,NOAA OISSTv2 High Resolution SST,ocean,global_obs,27750.0,111000.0,40000000.0,86400.0,2628000.0,1198368000.0,,estimated_from_paper,True
+c926c4c93a95-03,Met Office EN4 Salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1198368000.0,,estimated_from_paper,True
+c926c4c93a95-04,NOAA GLOBALVIEW Atmospheric CO2,atmosphere,global_obs,,,40000000.0,2628000.0,2628000.0,1198368000.0,,estimated_from_paper,False
+c926c4c93a95-05,ESA GlobColour Chlorophyll-a,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,694310400.0,,estimated_from_paper,True
+c926c4c93a95-06,de Boyer Montegut Mixed Layer Depth Climatology,ocean,global_obs,111000.0,222000.0,40000000.0,2628000.0,2628000.0,31536000.0,,estimated_from_paper,True
+c926c4c93a95-07,Independent Ocean Time-Series (BATS and HOT),ocean,point_or_site,,,,2628000.0,2628000.0,946728000.0,,estimated_from_paper,False
+c926c4c93a95-08,LDEO and GLODAPv2 independent pCO2 datasets,ocean,global_obs,,,40000000.0,,,946728000.0,,estimated_from_paper,False
+c926c4c93a95-09,SeaFlux harmonised data and wind products,ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,946728000.0,,estimated_from_paper,True
+c926c4c93a95-10,Large Ensemble Testbed ESM simulations,coupled_earth_system,GCM_ESM,100000.0,200000.0,40000000.0,2628000.0,2628000.0,1262304000.0,,estimated_from_paper,True
+c926c4c93a95-11,Reconstructed global surface ocean pCO2-Residual and air-sea CO2 flux product (1982-2019),ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1198368000.0,,stated,True
+c93180ad7e5c-01,Sentinel-2 MSI satellite imagery,land_hydrology,regional,10.0,10.0,8000000.0,2600000.0,2600000.0,157680000.0,275.0,estimated_from_paper,True
+c93180ad7e5c-02,Afrobarometer household survey data (Rounds 7–9),idealized_or_other,point_or_site,,,8000000.0,63072000.0,63072000.0,157680000.0,,estimated_from_paper,False
+c93180ad7e5c-03,Meta High Resolution Population Density Maps,idealized_or_other,regional,30.0,30.0,8000000.0,,,,,stated,False
+c93180ad7e5c-04,WHO/UNICEF Joint Monitoring Programme (JMP) statistics,idealized_or_other,regional,,,8000000.0,63072000.0,63072000.0,788400000.0,,estimated_from_paper,False
+c93180ad7e5c-05,Continental piped water and sewage system access map predictions,land_hydrology,regional,2560.0,2560.0,8000000.0,,,157680000.0,,stated,False
+c97c62d08369-01,CESM2.2-CAM6 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,99900.0,122100.0,40000000.0,86400.0,2600000.0,94608000.0,,stated,True
+c97c62d08369-02,CERES_EBAF_Ed4.1_2001-2020 subset,atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,631152000.0,,estimated_from_paper,True
+c97c62d08369-03,Multisensor Advanced Climatology of Liquid Water Path (MAC-LWP),atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,,,estimated_from_paper,True
+c9e59ec15801-01,SPCAM3 Aquaplanet Simulation Data,atmosphere,MMF_superparameterized;GCM_ESM,4000.0,312000.0,40000000.0,1800.0,1800.0,37411200.0,22.3,estimated_from_paper,True
+c9e59ec15801-02,"SPCAM3 Multiclimate Simulation Data (-4K, +0K, +4K SST)",atmosphere,MMF_superparameterized;GCM_ESM,4000.0,312000.0,40000000.0,1800.0,1800.0,10540800.0,16.5,estimated_from_paper,True
+cac32102873b-01,Berkeley Earth daily TAVG full dataset,atmosphere,global_obs,,,40000000.0,86400.0,86400.0,4196889600.0,,estimated_from_paper,False
+cac32102873b-02,NASA GISS Model E2 historical radiative forcings and Niño 3.4 index,coupled_earth_system,GCM_ESM;global_obs,,,40000000.0,31536000.0,31536000.0,4196889600.0,,estimated_from_paper,False
+cac32102873b-03,American Community Survey (ACS) PUMS and County Health Rankings,idealized_or_other,regional,,,4000000.0,31536000.0,31536000.0,31536000.0,,estimated_from_paper,False
+cb988a1eedbe-01,Large ensemble test bed (LET),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1104624000.0,,stated,True
+cb988a1eedbe-02,SOCAT+USV sampling masks,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1104624000.0,,stated,True
+cb988a1eedbe-03,"Observational flux ancillary datasets (EN4 salinity, NOAA OI SST v2, ECMWF ERA5 winds)",coupled_earth_system,global_obs,28000.0,111000.0,40000000.0,3600.0,2600000.0,1009843200.0,,estimated_from_paper,True
+cc0da1d88b85-01,ERA5 reanalysis,atmosphere,GCM_ESM,156000.0,156000.0,40000000.0,3600.0,21600.0,1230800000.0,3100.0,estimated_from_paper,True
+cc0da1d88b85-02,GDAS conventional observations,atmosphere,global_obs;point_or_site,156000.0,156000.0,40000000.0,43200.0,43200.0,31536000.0,,estimated_from_paper,True
+cc287b2f2a69-01,CLM5.1-BGC One-at-a-time Perturbed Parameter Ensemble (OAAT PPE),land_hydrology,GCM_ESM;other,222000.0,222000.0,40000000.0,,31536000.0,4733640000.0,2000.0,estimated_from_paper,False
+cc287b2f2a69-02,GSWP3v1 atmospheric forcing,atmosphere,global_obs,55500.0,55500.0,40000000.0,10800.0,10800.0,315576000.0,,estimated_from_paper,True
+cc287b2f2a69-03,CESM2 Large Ensemble climate change anomalies,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2628000.0,31536000.0,7922816000.0,,estimated_from_paper,True
+cc5ee9533916-01,pyqg subgrid forcing and reference simulations dataset,ocean,regional,3906.25,15625.0,1000000.0,3600.0,7200.0,315360000.0,,stated,True
+ce54e4a6c53c-01,GFDL CM2.6 Control Simulation Output,coupled_earth_system,GCM_ESM,11100.0,55500.0,40000000.0,86400.0,86400.0,630720000.0,,estimated_from_paper,True
+ce54e4a6c53c-02,CESM 1.1 High-Resolution Simulation Output,coupled_earth_system,GCM_ESM,11100.0,27750.0,40000000.0,86400.0,86400.0,63072000.0,,estimated_from_paper,True
+ce54e4a6c53c-03,Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset,coupled_earth_system,GCM_ESM,11100.0,555000.0,40000000.0,86400.0,86400.0,630720000.0,,estimated_from_paper,True
+ce8197c246db-01,SOCATv2024 (Surface Ocean CO2 Atlas version 2024),ocean,global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1072958400.0,,estimated_from_paper,True
+ce8197c246db-02,"Global Carbon Budget 2024 surface ocean fCO2 products (CMEMS, fCO2-Residual, SOM-FFN, OceanSODAv2)",ocean,global_obs,27750.0,111000.0,40000000.0,691200.0,2628000.0,1072958400.0,,stated,True
+ce8197c246db-03,Global Ocean Biogeochemical Model hindcast simulations (CESM-ETHZ and FESOM-REcoM),ocean,GCM_ESM,30000.0,125000.0,40000000.0,2628000.0,2628000.0,1072958400.0,,estimated_from_paper,True
+ce8197c246db-04,TAO170W and BATS ocean pCO2 time series,ocean,point_or_site,,,,10800.0,2628000.0,1104624000.0,,estimated_from_paper,False
+cf02e39e5b81-01,Community Land Model perturbed physics ensemble,land_hydrology,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+cf02e39e5b81-02,Climate model simulations of weather fronts and atmospheric rivers,atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+cf1ecb7fdfda-01,FLUXNET 2015 Tier 1 dataset (selected forest and grassland sites),land_hydrology,point_or_site,,,,1800.0,1800.0,,,stated,False
+cf57e67041b5-01,Community Earth System Model Large Ensemble (CESM-LENS) pCO2 testbed (CESM001 & CESM002),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1104624000.0,,stated,True
+cf57e67041b5-02,Surface Ocean CO2 Atlas (SOCAT),ocean,global_obs;point_or_site,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1104624000.0,,estimated_from_paper,True
+cf57e67041b5-03,Two-layer quasi-geostrophic turbulence simulations (pyqg),idealized_or_other,regional;other,3906.0,15625.0,1000000.0,3600.0,3600000.0,309600000.0,,stated,True
+cfce134e9694-01,SPCAM5 Historical Run Simulation Dataset,atmosphere,MMF_superparameterized;GCM_ESM,210900.0,277500.0,40000000.0,3600.0,3600.0,7689600.0,11.8,estimated_from_paper,True
+cfce134e9694-02,CAM5 +8K Prescribed SST Simulation Dataset,atmosphere,GCM_ESM,210900.0,277500.0,40000000.0,3600.0,3600.0,31536000.0,48.4,estimated_from_paper,True
+cfce134e9694-03,SPCAM5 +4K Prescribed SST Simulation Dataset,atmosphere,MMF_superparameterized;GCM_ESM,210900.0,277500.0,40000000.0,3600.0,3600.0,31536000.0,48.4,estimated_from_paper,True
+d047cbf55b75-01,Landsat 8 and Sentinel-2 imagery,land_hydrology,regional;global_obs,10.0,30.0,8000000.0,,,94608000.0,,estimated_from_paper,False
+d047cbf55b75-02,Afrobarometer survey data (Round 7 and Round 8),land_hydrology,point_or_site;regional,,,8000000.0,,,94608000.0,,estimated_from_paper,False
+d047cbf55b75-03,Meta's High-Resolution Population Density dataset (Data for Good),idealized_or_other,regional,30.0,30.0,8000000.0,,,,,estimated_from_paper,False
+d047cbf55b75-04,UN Joint Monitoring Program (JMP) statistics,land_hydrology,regional,,,8000000.0,31536000.0,31536000.0,,,estimated_from_paper,False
+d167792ab2ac-01,SOCATv2023,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1040000000.0,,estimated_from_paper,True
+d167792ab2ac-02,SOCATv2024,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,True
+d167792ab2ac-03,CMIP6 ESM Testbed Ensemble,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1040000000.0,,estimated_from_paper,True
+d167792ab2ac-04,"ERA5 Reanalysis (SST, SLP, 10m Wind)",atmosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,True
+d167792ab2ac-05,EN4.2.2 Salinity,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,True
+d167792ab2ac-06,HadISST Sea Ice Concentration,cryosphere,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,True
+d167792ab2ac-07,NOAA Greenhouse Gas Marine Boundary Layer Reference xCO2,atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,False
+d167792ab2ac-08,Global Carbon Budget 2023 & 2024 fCO2 and Flux Products,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1070000000.0,,estimated_from_paper,True
+d2ef340cbf2d-01,CPI-3M,atmosphere,point_or_site,2.3e-06,2.3e-06,,,,,,stated,False
+d2ef340cbf2d-02,CPI-H-1M,atmosphere,point_or_site,2.3e-06,2.3e-06,,,,,,stated,False
+d2ef340cbf2d-03,CPI-21K,atmosphere,point_or_site,2.3e-06,2.3e-06,,,,,,stated,False
+d2ef340cbf2d-04,CPI-ENV-500K,atmosphere,point_or_site,2.3e-06,2.3e-06,,,,,,stated,False
+d3028eaacf65-01,ClimSim,atmosphere,MMF_superparameterized;GCM_ESM,110000.0,110000.0,40000000.0,1200.0,1200.0,315360000.0,45000.0,estimated_from_paper,True
+d3028eaacf65-02,NASA POWER climate dataset,atmosphere,regional;point_or_site,50000.0,50000.0,,86400.0,86400.0,,,estimated_from_paper,True
+d3028eaacf65-03,Give Me Some Credit (Financial delinquency dataset),idealized_or_other,other,,,,,,,,unknown,False
+d3028eaacf65-04,Synthetic Gaussian dataset,idealized_or_other,other,,,,,,,,unknown,False
+d3f424c93cff-01,QUBICC high-resolution ICON simulation (coarse-grained),atmosphere,CRM;GCM_ESM,5000.0,80000.0,40000000.0,11520.0,11520.0,3456000.0,,stated,True
+d3f424c93cff-02,ICON-A coarse-scale simulation,atmosphere,GCM_ESM,80000.0,80000.0,40000000.0,360.0,11520.0,3456000.0,,stated,True
+d49ba8f5815b-01,"High-resolution CESM model output (Krumhardt et al., 2024)",ocean,GCM_ESM,11100.0,11100.0,40000000.0,,,,,estimated_from_paper,False
+d49ba8f5815b-02,Surface ocean fCO2 observational sampling coverage,ocean,global_obs;point_or_site,,,40000000.0,,,,,estimated_from_paper,False
+d5f7c11dafb5-01,Aerosol Interaction and Dynamics in the Atmosphere (AIDA) cloud chamber observations,idealized_or_other,column_or_box,,,,,,,,unknown,False
+d606ef6024cb-01,"SPCAM3 aquaplanet simulations (-4K, +0K, +4K)",atmosphere,MMF_superparameterized;GCM_ESM,4000.0,310800.0,40000000.0,1800.0,1800.0,63072000.0,3000.0,estimated_from_paper,True
+d606ef6024cb-02,"SPCESM2 Earth-like simulations (-4K, +0K, +4K)",atmosphere,MMF_superparameterized;GCM_ESM,210900.0,277500.0,40000000.0,900.0,900.0,63072000.0,3000.0,estimated_from_paper,True
+d606ef6024cb-03,"SAM quasi-global aquaplanet hypohydrostatic simulations (-4K, +0K)",atmosphere,CRM,12000.0,96000.0,40000000.0,10800.0,10800.0,50716800.0,3000.0,estimated_from_paper,True
+d65c74c594b0-01,"Eddy Covariance Network Observations (FLUXNET2015, AmeriFlux FLUXNET, AmeriFlux BASE, ICOS, OzFlux)",land_hydrology,point_or_site,,,40000000.0,1800.0,86400.0,725800000.0,,estimated_from_paper,False
+d65c74c594b0-02,CASM (Consistent Artificial Intelligence-based Soil Moisture) dataset,land_hydrology,point_or_site;global_obs,9000.0,36000.0,40000000.0,86400.0,86400.0,631152000.0,,estimated_from_paper,True
+d65c74c594b0-03,MODIS Leaf Area Index (MCD15A3H),land_hydrology,global_obs,500.0,500.0,40000000.0,345600.0,345600.0,694310400.0,,stated,True
+d65c74c594b0-04,LCSIF NIRv (Long-term Contiguous SIF-informed vegetation proxy),land_hydrology,global_obs,5000.0,5000.0,40000000.0,86400.0,86400.0,1325400000.0,,estimated_from_paper,True
+d65c74c594b0-05,CAMS atmospheric greenhouse gas inversion CO2 dataset,atmosphere,regional;global_obs,141000.0,278000.0,40000000.0,86400.0,86400.0,631152000.0,,stated,True
+d65c74c594b0-06,NOAA Cooperative Global Air Sampling Network flask CO2,atmosphere,point_or_site;global_obs,,,40000000.0,604800.0,604800.0,1262304000.0,,estimated_from_paper,False
+d65c74c594b0-07,Global terrestrial N and P resorption efficiency and concentration datasets,land_hydrology,global_obs,1000.0,50000.0,40000000.0,,,,,estimated_from_paper,False
+d65c74c594b0-08,CMIP6 1pctCO2-bgc Earth System Model simulations,coupled_earth_system,GCM_ESM,100000.0,250000.0,40000000.0,86400.0,2600000.0,4415040000.0,,estimated_from_paper,True
+d65c74c594b0-09,iWUE_CO2 site analysis dataset,land_hydrology,point_or_site,,,40000000.0,86400.0,86400.0,725800000.0,,estimated_from_paper,False
+d76ff1a406ad-01,EIA Real-time hourly balancing authority-level electricity net generation dataset by energy source,idealized_or_other,regional,,,4500000.0,3600.0,3600.0,152409600.0,,estimated_from_paper,False
+d76ff1a406ad-02,GPWv4 population density dataset,idealized_or_other,global_obs,1000.0,1000.0,40000000.0,157788000.0,157788000.0,631152000.0,,estimated_from_paper,True
+d76ff1a406ad-03,ERA5-Land reanalysis air temperature dataset,land_hydrology,regional;global_obs,9000.0,9000.0,4500000.0,86400.0,86400.0,1051920000.0,,estimated_from_paper,True
+d76ff1a406ad-04,"Processed state-level electricity generation, carbon emissions, and population-weighted temperature dataset",idealized_or_other,regional,,,4500000.0,86400.0,86400.0,152409600.0,,stated,False
+d8418c32be5b-01,CMIP6 ESM air-sea CO2 flux simulations (fgco2),ocean,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,2714000000.0,,stated,True
+d8418c32be5b-02,MAGICC7 reduced-complexity model simulations,coupled_earth_system,column_or_box,,,40000000.0,31536000.0,31536000.0,2714000000.0,,estimated_from_paper,False
+d8418c32be5b-03,Observation-based surface ocean pCO2 and air-sea CO2 flux products,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,315360000.0,,stated,True
+d88d9edd6134-01,SPEAR ice-ocean DA simulation increments (DAZ21),cryosphere,GCM_ESM,111000.0,111000.0,40000000.0,432000.0,432000.0,1136073600.0,,stated,True
+d88d9edd6134-02,NSIDC NASA Team Sea Ice Concentration (version 1 and version 2),cryosphere,global_obs,25000.0,25000.0,40000000.0,86400.0,86400.0,1388534400.0,,estimated_from_paper,True
+d88d9edd6134-03,JRA55-do atmospheric forcing (version 1.5),atmosphere,global_obs,55000.0,55000.0,40000000.0,10800.0,10800.0,1924934400.0,,estimated_from_paper,True
+d88d9edd6134-04,OISSTv2 sea surface temperature,ocean,global_obs,27750.0,27750.0,40000000.0,86400.0,86400.0,1325433600.0,,estimated_from_paper,True
+d88d9edd6134-05,"SPEAR 2018–2022 ice-ocean simulations (FREE, DAZ21, CNNG23, CNNopt)",cryosphere,GCM_ESM,111000.0,111000.0,40000000.0,86400.0,432000.0,157680000.0,,stated,True
+d8e2b9ac3d8b-01,Pangeo / ESGF Cloud Data Working Group Analysis-Ready Cloud Optimized CMIP6,coupled_earth_system,GCM_ESM,62000.0,311000.0,40000000.0,86400.0,86400.0,7922000000.0,20000.0,stated,True
+d8e2b9ac3d8b-02,ERA5 Reanalysis,atmosphere,global_obs,27750.0,166500.0,40000000.0,86400.0,86400.0,1262304000.0,,estimated_from_paper,True
+d8e2b9ac3d8b-03,GESLA2 (Global Extreme Sea Level Analysis version 2),ocean,point_or_site,,,4000000.0,86400.0,86400.0,1136073600.0,,estimated_from_paper,False
+d8e2b9ac3d8b-04,CoDEC (Coastal Dataset for the Evaluation of Climate Impact),ocean,point_or_site,,,4000000.0,86400.0,86400.0,1136073600.0,,estimated_from_paper,False
+d8e2b9ac3d8b-05,CMIP6 statistically modelled storm surges and joint extremes projections,ocean,point_or_site,,,4000000.0,86400.0,86400.0,7922000000.0,,estimated_from_paper,False
+d9df1b9e7efd-01,OpenFEMA NFIP Flood Insurance Claims and Policy Records,land_hydrology,regional,,,5000000.0,86400.0,31500000.0,1480000000.0,,estimated_from_paper,False
+d9df1b9e7efd-02,FEMA Multiple-Loss Properties Database,land_hydrology,regional,,,5000000.0,,,1480000000.0,,estimated_from_paper,False
+d9df1b9e7efd-03,FEMA Presidential Disaster Declarations and Individual Assistance Records,land_hydrology,regional,,,5000000.0,86400.0,86400.0,1480000000.0,,estimated_from_paper,False
+d9df1b9e7efd-04,Multi-Source Weighted-Ensemble Precipitation (MSWEP) V2,atmosphere,global_obs,11100.0,11100.0,40000000.0,86400.0,86400.0,1450000000.0,,estimated_from_paper,True
+d9df1b9e7efd-05,US Bureau of Labor Statistics Consumer Price Index for All Urban Consumers (CPI-U),idealized_or_other,other,,,,2600000.0,31500000.0,1480000000.0,,estimated_from_paper,False
+db3e36e4e6c9-01,Mangrove prop root flume experiment dataset from Zhang et al. (2015),idealized_or_other,other,,,,,,,,unknown,False
+db3e36e4e6c9-02,Rhizophora mangrove forest field hydrodynamics dataset from Yoshikai et al. (2022),ocean,point_or_site,,,,,,,,unknown,False
+db84b215c346-01,Cloud Botany shallow cumulus scenes,atmosphere,LES,,,,,,,,unknown,False
+db84b215c346-02,EAGLES / PINACLES stratocumulus scenes,atmosphere,LES,,,,,,,,unknown,False
+db84b215c346-03,TRMM LBA deep convection scenes,atmosphere,LES;CRM,,,,,,,,unknown,False
+db84b215c346-04,Monte Carlo ray tracer 1D and 3D surface flux dataset,atmosphere,LES,,,,,,,,unknown,False
+dca5bcbe8120-01,CESM2 CAM6 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+dca5bcbe8120-02,GISS ModelE3 Perturbed Parameter Ensemble (PPE),atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+dead24e07a2a-01,"GFDL OM4 global ice-ocean model simulations (REF, BS, and regionally masked backscatter experiments)",ocean,GCM_ESM,27750.0,27750.0,40000000.0,86400.0,2600000.0,1262304000.0,,estimated_from_paper,True
+dead24e07a2a-02,PCMDI reconstructed SST observational dataset (PCMDI-AMIP-1.1.8),ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,631152000.0,,estimated_from_paper,True
+df5b15dc5af3-01,Synthetic two-scale Lorenz '96 simulation runs,idealized_or_other,other,,,,,,,,unknown,False
+e00413d4876d-01,AIDA cloud chamber experimental observations,idealized_or_other,point_or_site,,,,,,,,unknown,False
+e00413d4876d-02,DiSKICE bin microphysics model simulations,idealized_or_other,column_or_box,,,,,,,,unknown,False
+e05df4a965f6-01,High-resolution and coarse-grained rising thermal bubble simulations (LEX / CM1),atmosphere,LES,100.0,600.0,24000.0,5.0,15.0,1800.0,,stated,True
+e114a41a0632-01,"Coarse-grained DNS convective boundary layer and channel flow datasets (Sh2, Sh5, Sh20, Channel1)",atmosphere,DNS,,,,,,,,unknown,False
+e114a41a0632-02,A posteriori (online) LES simulation outputs,atmosphere,LES,,,,,,14760.0,,stated,False
+e381babe14cf-01,ClimSim,atmosphere,MMF_superparameterized;GCM_ESM,166500.0,166500.0,40000000.0,1200.0,1200.0,315360000.0,,stated,True
+e381babe14cf-02,MITgcm mesoscale eddy simulations,ocean,regional,,,,,,,,unknown,False
+e381babe14cf-03,Two-layer quasi-geostrophic channel turbulence simulations,idealized_or_other,other,,,,3600000.0,3600000.0,315360000.0,,stated,False
+e381babe14cf-04,NASA EMIT Imaging Spectrometer data,land_hydrology,regional,60.0,60.0,76800.0,,,,1.8,estimated_from_paper,False
+e381babe14cf-05,Lorenz '96 multi-scale simulation dataset,idealized_or_other,other,,,,,,,,unknown,False
+e381babe14cf-06,ChaosBench benchmark dataset (ERA5),atmosphere,GCM_ESM;global_obs,27750.0,27750.0,40000000.0,86400.0,86400.0,1419984000.0,,estimated_from_paper,True
+e381babe14cf-07,Large Ensemble Testbed GOBM simulations and SOCAT v2,ocean,GCM_ESM;global_obs,111000.0,111000.0,40000000.0,2628000.0,2628000.0,1136088000.0,,stated,True
+e5f1791220ab-01,ICON-AHF simulation dataset (high-frequency reference and training data),atmosphere,GCM_ESM,80000.0,80000.0,40000000.0,360.0,360.0,31536000.0,,stated,True
+e5f1791220ab-02,"ICON AMIP-like online experiment simulations (ICON-AML, ICON-AHF, ICON-ALF)",atmosphere,GCM_ESM,80000.0,80000.0,40000000.0,360.0,3600.0,315360000.0,,stated,True
+e71b14b65755-01,MAR v3.12 simulations,cryosphere,regional,6500.0,6500.0,2500000.0,86400.0,86400.0,694310400.0,0.3,estimated_from_paper,True
+e71b14b65755-02,MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6),cryosphere,regional;global_obs,500.0,6500.0,2500000.0,86400.0,86400.0,694310400.0,,stated,True
+e71b14b65755-03,Greenland Ice Mapping Project (GIMP) DEM and ice mask,cryosphere,regional,30.0,90.0,2500000.0,,,,,estimated_from_paper,False
+e71b14b65755-04,ECMWF ERA5 reanalysis,atmosphere,GCM_ESM,31000.0,31000.0,40000000.0,21600.0,21600.0,694310400.0,,estimated_from_paper,True
+e7888f8e7019-01,Global Soil Wetness Project Phase 3 atmospheric boundary conditions (GSWP3v2),atmosphere,GCM_ESM,55500.0,55500.0,40000000.0,10800.0,10800.0,473364000.0,,stated,True
+e7888f8e7019-02,CLM and CLM-FATES One-At-A-Time Parameter Perturbation Ensembles (PPE),land_hydrology,GCM_ESM,222000.0,222000.0,40000000.0,2628000.0,31536000.0,473364000.0,3.0,stated,True
+e9051914322c-01,CM2.6 filtered and coarse-grained eddy dataset,ocean,GCM_ESM,11100.0,166500.0,40000000.0,,,378432000.0,,estimated_from_paper,False
+e9051914322c-02,NeverWorld2 (NW2) MOM6 simulations,idealized_or_other,regional,3469.0,27750.0,7770000.0,,432000.0,2592000000.0,,estimated_from_paper,False
+e9051914322c-03,OM4 global ocean-sea-ice model simulations,coupled_earth_system,GCM_ESM,27750.0,27750.0,40000000.0,,31536000.0,1892160000.0,,estimated_from_paper,False
+e9051914322c-04,World Ocean Atlas 2018 (WOA18),ocean,global_obs,27750.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+e9051914322c-05,RAPID-MOCHA-WBTS 26N AMOC array observations,ocean,point_or_site,,,6000000.0,43200.0,86400.0,599184000.0,,estimated_from_paper,False
+e9db0c155692-01,FLUXNET eddy-covariance flux tower database,land_hydrology,point_or_site,,,40000000.0,86400.0,86400.0,,,estimated_from_paper,False
+e9db0c155692-02,Earth System Data Lab (ESDL) carbon and water cycle data,land_hydrology,global_obs,27750.0,27750.0,40000000.0,691200.0,691200.0,347140800.0,,stated,True
+e9db0c155692-03,NCEP-NCAR Reanalysis and CMIP climate model daily sea level pressure,atmosphere,GCM_ESM;global_obs,100000.0,277500.0,40000000.0,86400.0,259200.0,2209032000.0,,estimated_from_paper,True
+e9db0c155692-04,Idealized ocean turbulence simulations (eddy and jet regimes),ocean,LES;other,,,,,,,,unknown,False
+ea382254fcae-01,Airborne Cloud Particle Imager (CPI) in situ imagery,atmosphere,point_or_site,,,,,,,,unknown,False
+ec62100735c6-01,ERA5 reanalysis,atmosphere,GCM_ESM,156094.0,156094.0,40000000.0,21600.0,21600.0,157788000.0,,estimated_from_paper,True
+ec62100735c6-02,Global Data Assimilation System (GDAS) conventional observations,atmosphere,global_obs;point_or_site,156094.0,156094.0,40000000.0,43200.0,43200.0,31536000.0,,estimated_from_paper,True
+edc5e71a96bb-01,"ASTE-BGC Model Simulations (B1, B2, B3, Opt)",ocean,regional,14000.0,22000.0,14000000.0,2600000.0,2600000.0,504921600.0,,stated,True
+edc5e71a96bb-02,BGC-Argo float profiles (O2 and NO3),ocean,point_or_site,,,6100000.0,864000.0,864000.0,504921600.0,,stated,False
+edc5e71a96bb-03,GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology,ocean,regional;point_or_site,111000.0,111000.0,6100000.0,,,504921600.0,,stated,False
+edc5e71a96bb-04,CMEMS GlobColour merged surface chlorophyll-a,ocean,regional;global_obs,4000.0,4000.0,40000000.0,2600000.0,2600000.0,504921600.0,,stated,True
+edc5e71a96bb-05,GOBAI-O2,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,441763200.0,,stated,True
+edc5e71a96bb-06,LDEO-HPD and pCO2-Residual surface ocean pCO2,ocean,regional;global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,504921600.0,,estimated_from_paper,True
+ef48d76ed836-01,"CMIP6 multi-model simulations (historical and SSP126, SSP245, SSP370, SSP585)",coupled_earth_system,GCM_ESM,55500.0,55500.0,40000000.0,86400.0,2592000.0,3755289600.0,,estimated_from_paper,True
+ef48d76ed836-02,"CMIP5 multi-model simulations (RCP45, RCP85)",coupled_earth_system,GCM_ESM,55500.0,55500.0,40000000.0,86400.0,2592000.0,3755289600.0,,estimated_from_paper,True
+ef48d76ed836-03,CMIP6 LS3MIP (LMIP and LFMIP experiments),land_hydrology,GCM_ESM,55500.0,55500.0,40000000.0,86400.0,2592000.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-04,Berkeley Earth land daily temperature record,atmosphere,global_obs,55500.0,55500.0,40000000.0,86400.0,86400.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-05,GPCC daily precipitation product,atmosphere,global_obs,55500.0,55500.0,40000000.0,86400.0,86400.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-06,CPC daily precipitation,atmosphere,global_obs,55500.0,55500.0,40000000.0,86400.0,86400.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-07,MSWEP precipitation,atmosphere,global_obs,11100.0,55500.0,40000000.0,86400.0,86400.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-08,GlobSnow-v3 SWE,cryosphere,global_obs,25000.0,55500.0,20000000.0,86400.0,2592000.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-09,SnowCCI-v2 SWE,cryosphere,global_obs,25000.0,55500.0,20000000.0,86400.0,2592000.0,1041379200.0,,estimated_from_paper,True
+ef48d76ed836-10,MERRA-2 SWE and temperature,cryosphere,GCM_ESM;global_obs,55500.0,69375.0,40000000.0,86400.0,2592000.0,1104624000.0,,stated,True
+ef48d76ed836-11,ERA5-Land SWE and temperature,cryosphere,GCM_ESM;global_obs,55500.0,83250.0,40000000.0,86400.0,2592000.0,1041379200.0,,stated,True
+ef48d76ed836-12,ERA5 SWE,cryosphere,GCM_ESM;global_obs,27750.0,55500.0,40000000.0,86400.0,2592000.0,1041379200.0,,stated,True
+ef48d76ed836-13,CFSR SWE,cryosphere,GCM_ESM;global_obs,55500.0,55500.0,40000000.0,86400.0,2592000.0,1293840000.0,,stated,True
+ef48d76ed836-14,GLDAS-v2 SWE,land_hydrology,GCM_ESM;global_obs,11100.0,55500.0,40000000.0,86400.0,2592000.0,2114352000.0,,stated,True
+ef48d76ed836-15,FLDAS SWE,land_hydrology,GCM_ESM;global_obs,11100.0,55500.0,40000000.0,86400.0,2592000.0,1041379200.0,,stated,True
+ef48d76ed836-16,NCEP2 SWE,cryosphere,GCM_ESM;global_obs,55500.0,277500.0,40000000.0,86400.0,2592000.0,1104624000.0,,stated,True
+ef48d76ed836-17,JRA-55 daily temperature,atmosphere,GCM_ESM;global_obs,55500.0,55500.0,40000000.0,86400.0,86400.0,1735747200.0,,estimated_from_paper,True
+f3a4cfe4debc-01,ERA5 reanalysis,atmosphere,GCM_ESM;global_obs,166500.0,166500.0,40000000.0,86400.0,86400.0,725846400.0,,estimated_from_paper,True
+f3a4cfe4debc-02,Climate Prediction Center (CPC) Global Daily Precipitation,atmosphere,point_or_site;global_obs,166500.0,166500.0,40000000.0,86400.0,86400.0,725846400.0,,estimated_from_paper,True
+f3a4cfe4debc-03,NOAA Interpolated Outgoing Longwave Radiation (OLR),atmosphere,global_obs,166500.0,166500.0,40000000.0,86400.0,86400.0,725846400.0,,estimated_from_paper,True
+f3caafa5b08c-01,NASA GISS ESMModelE atmosphere component PPE,atmosphere,GCM_ESM,,,40000000.0,,,,,estimated_from_paper,False
+f54411021def-01,LandScan Global 2018,idealized_or_other,global_obs,1000.0,1000.0,40000000.0,31536000.0,31536000.0,31536000.0,,stated,True
+f54411021def-02,"Probabilistic Volcanic Hazard Simulations and Exposure Results (Jenkins et al. 2022a, b)",idealized_or_other,regional,,,3500000.0,,,,,estimated_from_paper,False
+f54411021def-03,Copernicus GLO-30 DEM,land_hydrology,global_obs,30.0,30.0,40000000.0,,,,,stated,False
+f5cbb3e563dc-01,GSWP3v1 atmospheric forcing,atmosphere,GCM_ESM;global_obs,55500.0,55500.0,40000000.0,10800.0,10800.0,315360000.0,,estimated_from_paper,True
+f5cbb3e563dc-02,CESM2 Large Ensemble climate change anomalies,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2592000.0,315360000.0,7915392000.0,,estimated_from_paper,True
+f5cbb3e563dc-03,CLM5.1-BGC One-at-a-Time Perturbed Parameter Ensemble (PPE) post-processed dataset,land_hydrology,GCM_ESM,222000.0,222000.0,40000000.0,31536000.0,315360000.0,315360000.0,0.7,stated,True
+f5cbb3e563dc-04,CLM5.1-BGC One-at-a-Time Perturbed Parameter Ensemble (PPE) raw dataset,land_hydrology,GCM_ESM,222000.0,222000.0,40000000.0,2592000.0,31536000.0,4730400000.0,2000.0,stated,True
+f8a21622a265-01,Lorenz 63 synthetic simulation and assimilation dataset,idealized_or_other,other,,,,,,,,unknown,False
+f8a21622a265-02,Two-scale Lorenz 96 synthetic simulation and assimilation dataset,idealized_or_other,other,,,,5400.0,216000.0,,,estimated_from_paper,False
+f8a21622a265-03,Kuramoto-Sivashinsky (KS) equation synthetic simulation and assimilation dataset,idealized_or_other,other,,,,,,,,unknown,False
+f944e0338f4e-01,SAM DYAMOND Phase 2 simulation,atmosphere,CRM;GCM_ESM,4200.0,200000.0,40000000.0,900.0,900.0,864000.0,,stated,True
+fa2ea0f0cf4b-01,Global satellite observations,land_hydrology,global_obs,,,40000000.0,,,,,estimated_from_paper,False
+fa2ea0f0cf4b-02,Global eddy covariance observations,land_hydrology,point_or_site,,,40000000.0,,,,,estimated_from_paper,False
+fad50b9ab285-01,"NYC311 street flooding, sewer backup, and catch basin blockage reports",land_hydrology,regional;point_or_site,,3700.0,50000.0,86400.0,86400.0,315532800.0,,estimated_from_paper,False
+fad50b9ab285-02,NCEP/EMC Stage IV 4km Gridded Radar Rainfall Data,atmosphere,regional,4000.0,4000.0,50000.0,3600.0,86400.0,315532800.0,,stated,True
+fad50b9ab285-03,NOAA GHCN-Daily NYC Central Park Station Data,atmosphere,point_or_site,,,,86400.0,86400.0,315532800.0,,stated,False
+fad50b9ab285-04,NYC Open Data static topographical and urban GIS layers,land_hydrology,regional,,3700.0,50000.0,,,,,estimated_from_paper,False
+fafdf830ed94-01,CAM6 Parameter Perturbed Ensemble (PPE),atmosphere,GCM_ESM,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+fccd93cf30fa-01,PlanetScope,land_hydrology,regional;global_obs,3.0,3.0,,86400.0,86400.0,,,estimated_from_paper,True
+fccd93cf30fa-02,Sentinel-1 and Sentinel-2,land_hydrology,regional;global_obs,10.0,60.0,,432000.0,1036800.0,,,estimated_from_paper,True
+fccd93cf30fa-03,MODIS,land_hydrology,regional;global_obs,250.0,1000.0,,86400.0,86400.0,,,estimated_from_paper,True
+fccd93cf30fa-04,Precipitation and passive microwave data,land_hydrology,regional;global_obs,,,,,,,,unknown,False
+fccd93cf30fa-05,Probabilistic urban flood inundation maps,land_hydrology,regional,30.0,30.0,,259200.0,259200.0,,,stated,True
+fd4ac0550b6f-01,MetaFlux,land_hydrology,global_obs,27750.0,27750.0,40000000.0,86400.0,2628000.0,662688000.0,50.0,stated,True
+fd4ac0550b6f-02,FLUXNET2015,land_hydrology,point_or_site,,,,86400.0,2628000.0,,,estimated_from_paper,False
+fd4ac0550b6f-03,ERA5 reanalysis,atmosphere,global_obs;GCM_ESM,27750.0,27750.0,40000000.0,86400.0,2628000.0,662688000.0,,estimated_from_paper,True
+fd4ac0550b6f-04,MODIS Leaf Area Index (LAI),land_hydrology,global_obs,27750.0,27750.0,40000000.0,86400.0,2628000.0,662688000.0,,estimated_from_paper,True
+fd4ac0550b6f-05,CSIF and TROPOMI SIF,land_hydrology,global_obs,,,40000000.0,2628000.0,2628000.0,630720000.0,,estimated_from_paper,False
+fd4ac0550b6f-06,FLUXCOM,land_hydrology,global_obs,,,40000000.0,2628000.0,2628000.0,630720000.0,,estimated_from_paper,False
+fe5718b56f53-01,"ECCO-Darwin simulations (Baseline, Constant Climate, Linear Atm)",ocean,GCM_ESM,18000.0,40000.0,40000000.0,2600000.0,31536000.0,1167696000.0,,estimated_from_paper,True
+fe5718b56f53-02,NOAA atmospheric xCO2 / Greenhouse Gas Reference,atmosphere,global_obs,,,40000000.0,2600000.0,2600000.0,1167696000.0,,estimated_from_paper,False
+fe5718b56f53-03,ECMWF ERA5 and ERA-Interim Atmospheric Reanalysis,atmosphere,GCM_ESM,31000.0,79000.0,40000000.0,3600.0,21600.0,1167696000.0,,estimated_from_paper,True
+ff21f4a98dcf-01,FLUXNET2015 FULLSET dataset,land_hydrology,point_or_site;global_obs,,,40000000.0,1800.0,86400.0,,,estimated_from_paper,False
+ff21f4a98dcf-02,Global Daily Summary (GSOD) weather records,atmosphere,point_or_site;global_obs,,,40000000.0,86400.0,86400.0,1357000000.0,,estimated_from_paper,False
+ff21f4a98dcf-03,Observation-derived global land LE and H ensemble,land_hydrology,global_obs,,,40000000.0,86400.0,86400.0,1357000000.0,,estimated_from_paper,False
+ffc9062d8483-01,CMIP6 Historical Ocean and Biogeochemical Simulations,coupled_earth_system,GCM_ESM,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1768000000.0,,estimated_from_paper,True
+ffc9062d8483-02,SeaFlux pCO2 products and wind products,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,788900000.0,,estimated_from_paper,True
+ffc9062d8483-03,GLODAPv2.2021,ocean,global_obs,111000.0,111000.0,40000000.0,,,,,estimated_from_paper,False
+ffc9062d8483-04,ECMWF ORAS5,ocean,GCM_ESM;global_obs,28000.0,111000.0,40000000.0,2600000.0,2600000.0,1768000000.0,,estimated_from_paper,True
+ffc9062d8483-05,HadISST,ocean,global_obs,111000.0,111000.0,40000000.0,2600000.0,2600000.0,1768000000.0,,estimated_from_paper,True

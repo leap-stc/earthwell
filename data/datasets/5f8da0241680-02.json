@@ -15,5 +15,22 @@
   "resolution": "2° sparse grid (29 CONUS cells), monthly (TSA and PRECIP)",
   "produced_in_this_study": false,
   "access": null,
-  "access_kind": "not_stated"
+  "access_kind": "not_stated",
+  "scales": {
+    "domain": "atmosphere",
+    "scales": [
+      "regional",
+      "GCM_ESM"
+    ],
+    "dx_min_m": 222000.0,
+    "dx_max_m": 222000.0,
+    "extent_m": 5000000.0,
+    "dt_min_s": 2600000.0,
+    "dt_max_s": 2600000.0,
+    "duration_s": 3598000000.0,
+    "size_gb": null,
+    "basis": "estimated_from_paper",
+    "note": "GSWP3 near-surface air temperature and precipitation subsetted over 29 CONUS sparse-grid cells (1901-2014) aggregated to monthly timesteps",
+    "model": "gemini-3.8-flash"
+  }
 }
