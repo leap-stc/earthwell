@@ -41,6 +41,7 @@ python3 scripts/plot_domains_by_year.py                           # Figures/pape
 (cd scripts && ../.venv/bin/python extract_scales.py)              # 2nd Gemini pass: numeric dx/extent/dt/duration/size/domain -> "scales" key in data/datasets/*.json
 python3 scripts/plot_scales.py                                     # Figures/dataset_scales.{png,pdf,csv}: Stommel-style space-time diagram
 python3 scripts/plot_authors.py                                    # Figures/author_network.{png,pdf} + nodes/edges CSVs (needs networkx)
+python3 scripts/plot_testbed.py                                    # Figures/testbed_scales.{png,pdf,csv}: testbed families on one space-time plot, colored by discipline
 ```
 
 - `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.

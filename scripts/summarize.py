@@ -128,6 +128,13 @@ def load():
     return papers, datasets, dropped
 
 
+def testbed_datasets(papers, datasets):
+    """Datasets of papers flagged testbed_candidate that are used for training/evaluation and not proprietary."""
+    return [d for d in datasets
+            if papers[d["paper_id"]]["testbed_candidate"] and papers[d["paper_id"]]["in_scope"]
+            and d["role"] in ("training", "both", "evaluation") and d["access_kind"] != "proprietary"]
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     papers, datasets, dropped = load()
@@ -187,11 +194,8 @@ def main():
 
     # --- testbed candidates: datasets of papers flagged testbed_candidate, used for training/evaluation
     tb = []
-    for d in datasets:
+    for d in testbed_datasets(papers, datasets):
         p = papers[d["paper_id"]]
-        if not (p["testbed_candidate"] and p["in_scope"]) or d["role"] not in ("training", "both", "evaluation") \
-                or d["access_kind"] == "proprietary":
-            continue
         sc = d.get("scales", {})
         tb.append({"family": family(d["name"]), "dataset": d["name"], "domain": sc.get("domain", ""),
                    "scales": ";".join(sc.get("scales", [])), "access_kind": d["access_kind"],

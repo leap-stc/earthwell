@@ -1,0 +1,68 @@
+family,datasets,papers,domain,dx_min_m,extent_m,dt_min_s,duration_s,size_gb,access,plotted
+"ASTE-BGC Model Simulations (B1, B2, B3, Opt)",1,1,ocean,14000.0,14000000.0,2600000.0,504921600.0,,public,True
+Argo / BGC-Argo floats,3,3,ocean,300000.0,40000000.0,864000.0,1641532800.0,,public,True
+Berkeley Earth Surface Temperatures (BEST),1,1,atmosphere,111000.0,40000000.0,31536000.0,1388563200.0,,public,True
+CAM5 +8K Prescribed SST Simulation Dataset,1,1,atmosphere,210900.0,40000000.0,3600.0,31536000.0,48.4,public,True
+CERES radiative fluxes,4,4,atmosphere,111000.0,40000000.0,86400.0,757382400.0,,public,True
+CESM2/CAM6 perturbed parameter ensembles,5,4,atmosphere,99900.0,40000000.0,86400.0,94608000.0,,public,True
+CLM5 perturbed parameter ensembles,5,4,land_hydrology,222000.0,40000000.0,2592000.0,4733640000.0,2000.0,public,True
+CMEMS GlobColour merged surface chlorophyll-a,1,1,ocean,4000.0,40000000.0,2600000.0,504921600.0,,public,True
+CMIP archive,1,1,coupled_earth_system,,40000000.0,,,,not_stated,False
+CMIP6 Earth system model surface air temperature projections,1,1,atmosphere,312500.0,40000000.0,31536000.0,7858656000.0,0.54,public,True
+CTRLCAM standard parameterization simulation,1,1,atmosphere,222000.0,40000000.0,1800.0,189216000.0,,not_stated,True
+ChaosBench S2S benchmark,4,2,atmosphere,2180.0,40000000.0,86400.0,1420000000.0,15.3,public,True
+ClimSim (E3SM-MMF),8,4,atmosphere,2000.0,40000000.0,1200.0,315360000.0,41200.0,public,True
+Cloud-scene LES + 3D radiation (Powell),1,1,atmosphere,,,,,,public,False
+Constrained climate projection model outputs and processed benchmark data,1,1,atmosphere,312500.0,40000000.0,31536000.0,7858656000.0,,public,True
+Convective boundary layer LES/DNS,3,2,atmosphere,24.0,6144.0,60.0,75000.0,,public,True
+Coupled and Land-Only Perturbed Parameter Ensemble (PPE) in CESM2,1,1,coupled_earth_system,100000.0,40000000.0,31500000.0,4420000000.0,,public,True
+"DYAMOND / ICON storm-resolving (NARVAL, QUBICC)",9,6,atmosphere,2000.0,40000000.0,900.0,7783200.0,2000000.0,public,True
+E3SM-MMF online / hybrid runs,3,3,atmosphere,200.0,40000000.0,2.0,160488000.0,,public,True
+ERA5 reanalysis,2,2,atmosphere,31000.0,40000000.0,10800.0,1357000000.0,,public,True
+FLUXNET / FLUXCOM eddy covariance,5,3,land_hydrology,27750.0,40000000.0,1800.0,662688000.0,50.0,public,True
+Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset,1,1,coupled_earth_system,11100.0,40000000.0,86400.0,630720000.0,,public,True
+GESLA3 (Global Extreme Sea Level Analysis version 3),1,1,ocean,,2300000.0,10800.0,1230768000.0,,public,False
+GFDL CM2.6 eddy-resolving,2,2,coupled_earth_system,11100.0,40000000.0,,378432000.0,,public,False
+GFDL OM4 / MOM6 ocean runs,3,3,ocean,27750.0,40000000.0,2628000.0,1893456000.0,,public,True
+GFDL SPEAR sea-ice DA increments,5,3,cryosphere,111000.0,40000000.0,86400.0,1420070400.0,43.0,public,True
+GFS v16 RRTM shortwave radiative transfer dataset,1,1,atmosphere,27750.0,40000000.0,21600.0,73008000.0,,public,True
+GISS ModelE PPE / calibrated physics ensemble,2,2,atmosphere,222000.0,40000000.0,21600.0,31536000.0,,public,True
+GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology,1,1,ocean,111000.0,6100000.0,,504921600.0,,public,False
+GOBAI-O2,1,1,ocean,111000.0,40000000.0,2600000.0,441763200.0,,public,True
+General Lake Model (GLM) simulated lake temperature profiles,1,1,land_hydrology,,6325.0,86400.0,1096502400.0,,not_stated,False
+Global gridded monthly pCO2 estimates (1982–2017),1,1,ocean,111000.0,40000000.0,2628000.0,1104500000.0,,public,True
+Ice-growth cloud/diffusion chamber data,3,1,idealized_or_other,,,1.0,600.0,,public,False
+JCM and SPEEDY 3-year simulation output datasets,1,1,atmosphere,444000.0,40000000.0,2400.0,94608000.0,,public,True
+Kolmogorov flow synthetic simulation dataset,1,1,idealized_or_other,,,,,8.6,public,False
+LDEO-HPD and pCO2-Residual surface ocean pCO2,1,1,ocean,111000.0,40000000.0,2600000.0,504921600.0,,public,True
+MAC-LWP liquid water path,2,2,atmosphere,27750.0,40000000.0,2600000.0,536457600.0,,public,True
+MAR simulation daily surface fields and meltwater production over Greenland (1979–2024),1,1,cryosphere,,2500000.0,86400.0,1452076800.0,,public,False
+MITgcm LLC4320,1,1,ocean,2312.5,1665000.0,43200.0,36800000.0,,public,True
+MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6),1,1,cryosphere,500.0,2500000.0,86400.0,694310400.0,,public,True
+MODIS cloud droplet number concentration (Nd),1,1,atmosphere,111000.0,40000000.0,86400.0,410227200.0,,public,True
+"MOM6 idealized (NeverWorld2, double gyre)",4,3,ocean,1500.0,15540000.0,135.0,2592000000.0,,public,True
+NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1),1,1,ocean,27750.0,40000000.0,86400.0,157788000.0,,public,True
+NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset,1,1,coupled_earth_system,,40000000.0,3600.0,946700000.0,0.001,public,False
+NSIDC sea-ice concentration,2,2,cryosphere,25000.0,40000000.0,86400.0,1388534400.0,,public,True
+North Temperate Lakes LTER Lake Mendota water temperature observations,1,1,land_hydrology,,6325.0,86400.0,1096502400.0,,public,False
+Numerically generated black carbon fractal aggregate optical properties dataset,1,1,atmosphere,,,,,,public,False
+Ocean boundary-layer single-column (GOTM / SMC),2,2,ocean,,,3600.0,518400.0,,public,False
+"Paleoclimate reconstructions (LGM, LIG, Mid-Holocene)",1,1,coupled_earth_system,,40000000.0,,,,not_stated,False
+ParFlow synthetic rainfall-runoff simulations for Taylor River and Little Washita basins,1,1,land_hydrology,1000.0,35000.0,3600.0,432000.0,,public,True
+Quasi-geostrophic turbulence (pyqg),2,2,ocean,3906.0,1000000.0,3600.0,315360000.0,,public,True
+Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv),1,1,atmosphere,111000.0,40000000.0,2600000.0,1104624000.0,,public,True
+Rising thermal bubble LES (LEX / CM1),1,1,atmosphere,100.0,24000.0,5.0,1800.0,,public,True
+"S2S forecast archives (ECMWF, NCEP, UKMO, CMA)",4,1,coupled_earth_system,166500.0,40000000.0,86400.0,252500000.0,,public,True
+SAM hypohydrostatic aquaplanet,1,1,atmosphere,12000.0,40000000.0,10800.0,50716800.0,3000.0,public,True
+SOCAT surface ocean CO2,2,2,ocean,111000.0,40000000.0,2628000.0,1106400000.0,,public,True
+SPCAM / SPCESM superparameterized runs,12,8,atmosphere,4000.0,40000000.0,900.0,410227200.0,3400.0,public,True
+"Satellite precipitation (GPCP, IMERG)",4,3,atmosphere,11100.0,40000000.0,1800.0,1136073600.0,,public,True
+Satellite-era observations (1980–present),1,1,coupled_earth_system,,40000000.0,,1420000000.0,,not_stated,False
+Site eddy covariance + SIF,4,2,land_hydrology,,40000000.0,1800.0,630720000.0,,public,False
+Spherical shallow water equations dataset,1,1,atmosphere,2180.0,40000000.0,18000.0,1036800.0,7.6,public,True
+Synthetic Harvard Forest SCOPE simulations,1,1,land_hydrology,,,3600.0,47347200.0,,public,False
+The Well (Polymathic AI),3,1,idealized_or_other,,,0.25,20.0,342.0,public,False
+WUMI wildfire dataset,2,2,land_hydrology,12000.0,2500000.0,2600000.0,1168243200.0,,public,True
+Warm-rain bin microphysics box/column (TAU),4,2,atmosphere,,,1.0,57600.0,,public,False
+World Ocean Atlas 2018 (WOA18),1,1,ocean,111000.0,40000000.0,2628000.0,,,public,True
+pCO2 Large Ensemble Testbed,2,2,ocean,111000.0,40000000.0,2628000.0,1106400000.0,,public,True
