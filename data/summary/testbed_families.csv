@@ -9,24 +9,23 @@ E3SM-MMF online / hybrid runs,atmosphere,CRM;GCM_ESM;MMF_superparameterized,3,3,
 ChaosBench S2S benchmark,atmosphere,GCM_ESM,4,2,public_url_or_doi,False,15.3,"Nathaniel 2024, Nathaniel 2026",https://huggingface.co/datasets/LEAP/ChaosBench
 Convective boundary layer LES/DNS,atmosphere,DNS;LES,3,2,public_url_or_doi,False,,"Cheng 2022, Shamekh 2023",https://doi.org/10.7916/d8-y850-6w35
 ERA5 reanalysis,atmosphere,GCM_ESM,2,2,public_url_or_doi,False,,"Grundner 2024, Peng 2025","Copernicus Climate Change Service (C3S) Climate Data Store (CDS), doi: 10.24381/cds.bd0915c6"
-GISS ModelE PPE / calibrated physics ensemble,atmosphere,GCM_ESM,2,2,public_url_or_doi,False,,"Elsaesser 2025, Yang 2024",https://doi.org/10.5281/zenodo.13765601
+GISS ModelE runs (incl. PPE/CPE),atmosphere,GCM_ESM,2,2,public_url_or_doi,False,,"Elsaesser 2025, Yang 2024",https://doi.org/10.5281/zenodo.13765601
 MAC-LWP liquid water path,atmosphere,global_obs,2,2,public_url_or_doi,False,,"Eidhammer 2024, Song 2024","MAC‐LWP is available through the Goddard Earth Sciences Data and Information Services Center (GES DISC, current hosting: http://disc.sci.gsfc.nasa.gov)"
+MODIS products,atmosphere,global_obs;regional,2,2,public_url_or_doi,False,,"Antwerpen 2026, Song 2024",https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD10A1 and https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09GA
 Warm-rain bin microphysics box/column (TAU),atmosphere,column_or_box,4,2,public_url_or_doi,False,,"Lamb 2023, Morrison 2025",https://doi.org/10.5281/zenodo.7487288
 Berkeley Earth Surface Temperatures (BEST),atmosphere,global_obs,1,1,public_url_or_doi,False,,Immorlano 2025,https://berkeleyearth.org/data/
 CAM5 +8K Prescribed SST Simulation Dataset,atmosphere,GCM_ESM,1,1,public_url_or_doi,False,48.4,Bhouri 2023,https://github.com/bhouri0412/MF_RPN_SPCAM_cv_param
-CMIP6 Earth system model surface air temperature projections,atmosphere,GCM_ESM,1,1,public_url_or_doi,False,0.54,Immorlano 2025,https://doi.org/10.24381/cds.c866074c
 CTRLCAM standard parameterization simulation,atmosphere,GCM_ESM,1,1,not_stated,False,,Rasp 2018,
 Cloud-scene LES + 3D radiation (Powell),atmosphere,LES,1,1,public_url_or_doi,False,,Powell 2026,https://doi.org/10.5281/zenodo.18164866
 Constrained climate projection model outputs and processed benchmark data,atmosphere,GCM_ESM,1,1,public_url_or_doi,False,,Immorlano 2025,https://doi.org/10.5281/zenodo.15001003
 GFS v16 RRTM shortwave radiative transfer dataset,atmosphere,GCM_ESM;column_or_box,1,1,public_url_or_doi,False,,Beucler 2025,https://doi.org/10.5281/zenodo.13159877
 JCM and SPEEDY 3-year simulation output datasets,atmosphere,GCM_ESM,1,1,public_url_or_doi,False,,Davenport 2026,https://doi.org/10.5281/zenodo.18334906
-MODIS cloud droplet number concentration (Nd),atmosphere,global_obs,1,1,public_url_or_doi,False,,Song 2024,"Cloud droplet number concentration from MODIS is available at online in NetCDF format from the Centre for European Data Analysis (CEDA) (D. Grosvenor & Wood, 2018)."
+MERRA-2 reanalysis,atmosphere,global_obs,1,1,public_url_or_doi,False,,Yang 2026,Obs4MIPS archive
 Numerically generated black carbon fractal aggregate optical properties dataset,atmosphere,other,1,1,public_url_or_doi,False,,Lamb 2023,10.5281/zenodo.5108834
-Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv),atmosphere,global_obs,1,1,public_url_or_doi,False,,Yang 2026,Obs4MIPS archive
 Rising thermal bubble LES (LEX / CM1),atmosphere,LES,1,1,public_url_or_doi,False,,Zhu 2026,"Related data used in this study to produce the figures can be accessed from Zenodo under https://doi.org/10.5281/zenodo.15730773 (Zhu et al., 2025b). The data and scaling parameters used for model training are provided on Zenodo under https://doi.org/10.5281/zenodo.18411485 (Zhu et al., 2026)."
 SAM hypohydrostatic aquaplanet,atmosphere,CRM,1,1,public_url_or_doi,False,3000.0,Beucler 2024,"The initial sounding, meridional surface temperature profile, and source code to re-run the simulation can be found at https://zenodo.org/record/4118346#.YaT_WtBKg-w. The output from the SAM simulations, which is several TB, is archived at MIT and is available upon request. Paper accompanying data: https://doi.org/10.5281/zenodo.8140536"
 Spherical shallow water equations dataset,atmosphere,other,1,1,public_url_or_doi,False,7.6,Nathaniel 2026,Synthetic data is generated according to the script provided in https://github.com/juannat7/cohesion.
-CMIP archive,coupled_earth_system,GCM_ESM,1,1,not_stated,False,,Watson-Parris 2025,
+CMIP5/6 multi-model archive,coupled_earth_system,GCM_ESM,2,2,public_url_or_doi,False,0.54,"Immorlano 2025, Watson-Parris 2025",https://doi.org/10.24381/cds.c866074c
 Coupled and Land-Only Perturbed Parameter Ensemble (PPE) in CESM2,coupled_earth_system,GCM_ESM,1,1,public_url_or_doi,False,,Zarakas 2024,https://doi.org/10.5061/dryad.0k6djhb73
 Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset,coupled_earth_system,GCM_ESM,1,1,pangeo_or_cloud,True,,Busecke 2025,https://nyu1.osn.mghpcc.org/leap-pubs/busecke_balwada_et_al_GRL/
 NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset,coupled_earth_system,global_obs;point_or_site,1,1,public_url_or_doi,False,0.001,Wu 2025,https://downloads.psl.noaa.gov/psd3/cruises/
@@ -36,7 +35,6 @@ Satellite-era observations (1980–present),coupled_earth_system,global_obs,1,1,
 GFDL SPEAR sea-ice DA increments,cryosphere,GCM_ESM,5,3,public_url_or_doi,False,43.0,"Gregory 2023, Gregory 2024, Zanna 2025",https://doi.org/10.5281/zenodo.10359842
 NSIDC sea-ice concentration,cryosphere,global_obs,2,2,public_url_or_doi,False,,"Gregory 2024, Zanna 2025",https://doi.org/10.5067/MPYG15WAA4WX
 MAR simulation daily surface fields and meltwater production over Greenland (1979–2024),cryosphere,regional,1,1,public_url_or_doi,False,,Tedesco 2026,https://zenodo.org/records/17942115
-MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6),cryosphere,global_obs;regional,1,1,public_url_or_doi,False,,Antwerpen 2026,https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD10A1 and https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD09GA
 Ice-growth cloud/diffusion chamber data,idealized_or_other,other;point_or_site,3,1,public_url_or_doi,False,,Lamb 2025,https://zenodo.org/records/7986868
 Kolmogorov flow synthetic simulation dataset,idealized_or_other,DNS,1,1,public_url_or_doi,False,8.6,Nathaniel 2026,Synthetic data is generated according to the script provided in https://github.com/juannat7/cohesion.
 The Well (Polymathic AI),idealized_or_other,other,3,1,public_url_or_doi,False,342.0,Accarino 2026,"From The Well (Ohana et al., 2024)"
@@ -59,10 +57,10 @@ pCO2 Large Ensemble Testbed,ocean,GCM_ESM,2,2,public_url_or_doi,False,,"Hou 2025
 "ASTE-BGC Model Simulations (B1, B2, B3, Opt)",ocean,regional,1,1,public_url_or_doi,False,,Moseley 2025,Monthly mean (2002–2017) ASTE-BGC Opt model fields are available on Zenodo: (will insert Zenodo link before publication – had to request a quota increase to accommodate the large dataset size).
 CMEMS GlobColour merged surface chlorophyll-a,ocean,global_obs;regional,1,1,public_url_or_doi,False,,Moseley 2025,Copernicus Marine Environmental Service (CMEMS)
 GESLA3 (Global Extreme Sea Level Analysis version 3),ocean,point_or_site,1,1,public_url_or_doi,False,,Hermans 2025,https://doi.org/10.31223/X5MP65
-GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology,ocean,point_or_site;regional,1,1,public_url_or_doi,False,,Moseley 2025,https://doi.org/10.5194/essd-8-297-2016
+GLODAP ocean carbon/bottle data,ocean,point_or_site;regional,1,1,public_url_or_doi,False,,Moseley 2025,https://doi.org/10.5194/essd-8-297-2016
 GOBAI-O2,ocean,global_obs,1,1,public_url_or_doi,False,,Moseley 2025,https://doi.org/10.5194/essd-15-4481-2023
 Global gridded monthly pCO2 estimates (1982–2017),ocean,global_obs,1,1,public_url_or_doi,False,,Kim 2024,Dataset is freely available at https://zenodo.org/records/12726686
 LDEO-HPD and pCO2-Residual surface ocean pCO2,ocean,global_obs;regional,1,1,public_url_or_doi,False,,Moseley 2025,"https://doi.org/10.1029/2021MS002620, https://doi.org/10.1029/2021MS002960"
 MITgcm LLC4320,ocean,regional,1,1,pangeo_or_cloud,True,,Bodner 2025,"Variables from the LLC4320 output in the regions used in this study are stored on the LEAP-Catalog https://catalog.leap.columbia.edu/feedstock/highresolution-ocean-simulation-llc4320-12hourly-averaged-3d-regions. Data from the LLC4320 simulation can be accessed using the llcreader Python package (Abernathey, 2019)."
-NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1),ocean,global_obs,1,1,public_url_or_doi,False,,Zanna 2025,https://doi.org/10.1175/JCLI-D-20-0166.1
+NOAA OISST sea surface temperature,ocean,global_obs,1,1,public_url_or_doi,False,,Zanna 2025,https://doi.org/10.1175/JCLI-D-20-0166.1
 World Ocean Atlas 2018 (WOA18),ocean,global_obs,1,1,public_url_or_doi,False,,Sane 2023,https://www.ncei.noaa.gov/archive/accession/NCEI-WOA18

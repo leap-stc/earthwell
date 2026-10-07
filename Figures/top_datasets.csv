@@ -1,0 +1,51 @@
+family,papers,conference,domain,leap_years
+ERA5 reanalysis,52,6,atmosphere,1;2;3;4;5
+CMIP5/6 multi-model archive,21,1,coupled_earth_system,2;3;4;5
+SOCAT surface ocean CO2,17,0,ocean,1;2;3;4;5
+MODIS products,16,3,land_hydrology,1;2;3;4;5
+GISS ModelE runs (incl. PPE/CPE),14,5,atmosphere,1;2;3;4;5
+FLUXNET / FLUXCOM eddy covariance,13,3,land_hydrology,1;2;3;4;5
+SPCAM / SPCESM superparameterized runs,12,1,atmosphere,1;2;3
+CESM2/CAM6 perturbed parameter ensembles,10,2,atmosphere,3;4;5
+CLM5 perturbed parameter ensembles,10,2,land_hydrology,4;5
+GLODAP ocean carbon/bottle data,10,0,ocean,1;2;3;4;5
+NOAA OISST sea surface temperature,9,0,ocean,1;2;3;4;5
+CESM / multi-model large ensembles,8,0,coupled_earth_system,2;3;4;5
+Quasi-geostrophic turbulence (pyqg),8,3,idealized_or_other,2;3;5
+ClimSim (E3SM-MMF),7,1,atmosphere,3;4;5
+"DYAMOND / ICON storm-resolving (NARVAL, QUBICC)",7,0,atmosphere,1;2;3;4;5
+Met Office EN4 temperature/salinity,7,0,ocean,1;2;4;5
+"Satellite precipitation (GPCP, IMERG)",7,0,atmosphere,1;3;4;5
+Site eddy covariance + SIF,7,0,land_hydrology,1;3;5
+CERES radiative fluxes,6,0,atmosphere,1;3;4;5
+NSIDC sea-ice concentration,6,0,cryosphere,2;3;5
+GFDL CM2.6 eddy-resolving,5,0,coupled_earth_system,3;4;5
+GFDL OM4 / MOM6 ocean runs,5,1,ocean,3;5
+GOES geostationary imagery,5,2,atmosphere,2;3;5
+Ice-growth cloud/diffusion chamber data,5,4,idealized_or_other,3;4
+JRA-55 reanalysis / JRA55-do forcing,5,0,atmosphere,1;3;4
+Lorenz-96 / Lorenz systems,5,0,idealized_or_other,3;5
+MAC-LWP liquid water path,5,0,atmosphere,3;4;5
+MERRA-2 reanalysis,5,0,atmosphere,3;4;5
+pCO2 Large Ensemble Testbed,5,0,ocean,1;4;5
+CAMELS catchment dataset,4,1,land_hydrology,1;2;3;4
+CloudSat / CALIPSO,4,1,atmosphere,1;2;4
+Argo / BGC-Argo floats,3,0,ocean,3;4;5
+ChaosBench S2S benchmark,3,1,atmosphere,3;5
+Cloud-scene LES + 3D radiation (Powell),3,1,atmosphere,3;4;5
+Convective boundary layer LES/DNS,3,0,atmosphere,1;3;4
+E3SM-MMF online / hybrid runs,3,0,atmosphere,4;5
+ESA GlobColour Chlorophyll-a,3,0,ocean,1;2
+GFDL SPEAR sea-ice DA increments,3,0,cryosphere,3;5
+IBTrACS tropical cyclone tracks,3,0,atmosphere,1;4
+"MOM6 idealized (NeverWorld2, double gyre)",3,0,ocean,3;5
+WUMI wildfire dataset,3,0,land_hydrology,2;3
+Warm-rain bin microphysics box/column (TAU),3,0,atmosphere,3;4;5
+GSWP3v1 atmospheric forcing,2,0,atmosphere,4;5
+MITgcm LLC4320,2,0,ocean,3;5
+NOAA GLOBALVIEW Atmospheric CO2,2,0,atmosphere,1;2
+National Land Cover Database (NLCD),2,0,land_hydrology,2
+Ocean boundary-layer single-column (GOTM / SMC),2,0,ocean,3;5
+PRISM dew point temperature,2,0,atmosphere,2
+Vaisala National Lightning Detection Network (NLDN),2,0,atmosphere,2
+World Ocean Atlas 2018 (WOA18),2,0,ocean,3;5

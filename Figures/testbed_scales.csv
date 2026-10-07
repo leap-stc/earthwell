@@ -7,8 +7,7 @@ CERES radiative fluxes,4,4,atmosphere,111000.0,40000000.0,86400.0,757382400.0,,p
 CESM2/CAM6 perturbed parameter ensembles,5,4,atmosphere,99900.0,40000000.0,86400.0,94608000.0,,public,True
 CLM5 perturbed parameter ensembles,5,4,land_hydrology,222000.0,40000000.0,2592000.0,4733640000.0,2000.0,public,True
 CMEMS GlobColour merged surface chlorophyll-a,1,1,ocean,4000.0,40000000.0,2600000.0,504921600.0,,public,True
-CMIP archive,1,1,coupled_earth_system,,40000000.0,,,,not_stated,False
-CMIP6 Earth system model surface air temperature projections,1,1,atmosphere,312500.0,40000000.0,31536000.0,7858656000.0,0.54,public,True
+CMIP5/6 multi-model archive,2,2,atmosphere,312500.0,40000000.0,31536000.0,7858656000.0,0.54,public,True
 CTRLCAM standard parameterization simulation,1,1,atmosphere,222000.0,40000000.0,1800.0,189216000.0,,not_stated,True
 ChaosBench S2S benchmark,4,2,atmosphere,2180.0,40000000.0,86400.0,1420000000.0,15.3,public,True
 ClimSim (E3SM-MMF),8,4,atmosphere,2000.0,40000000.0,1200.0,315360000.0,41200.0,public,True
@@ -26,8 +25,8 @@ GFDL CM2.6 eddy-resolving,2,2,coupled_earth_system,11100.0,40000000.0,,378432000
 GFDL OM4 / MOM6 ocean runs,3,3,ocean,27750.0,40000000.0,2628000.0,1893456000.0,,public,True
 GFDL SPEAR sea-ice DA increments,5,3,cryosphere,111000.0,40000000.0,86400.0,1420070400.0,43.0,public,True
 GFS v16 RRTM shortwave radiative transfer dataset,1,1,atmosphere,27750.0,40000000.0,21600.0,73008000.0,,public,True
-GISS ModelE PPE / calibrated physics ensemble,2,2,atmosphere,222000.0,40000000.0,21600.0,31536000.0,,public,True
-GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology,1,1,ocean,111000.0,6100000.0,,504921600.0,,public,False
+GISS ModelE runs (incl. PPE/CPE),2,2,atmosphere,222000.0,40000000.0,21600.0,31536000.0,,public,True
+GLODAP ocean carbon/bottle data,1,1,ocean,111000.0,6100000.0,,504921600.0,,public,False
 GOBAI-O2,1,1,ocean,111000.0,40000000.0,2600000.0,441763200.0,,public,True
 General Lake Model (GLM) simulated lake temperature profiles,1,1,land_hydrology,,6325.0,86400.0,1096502400.0,,not_stated,False
 Global gridded monthly pCO2 estimates (1982–2017),1,1,ocean,111000.0,40000000.0,2628000.0,1104500000.0,,public,True
@@ -37,11 +36,11 @@ Kolmogorov flow synthetic simulation dataset,1,1,idealized_or_other,,,,,8.6,publ
 LDEO-HPD and pCO2-Residual surface ocean pCO2,1,1,ocean,111000.0,40000000.0,2600000.0,504921600.0,,public,True
 MAC-LWP liquid water path,2,2,atmosphere,27750.0,40000000.0,2600000.0,536457600.0,,public,True
 MAR simulation daily surface fields and meltwater production over Greenland (1979–2024),1,1,cryosphere,,2500000.0,86400.0,1452076800.0,,public,False
+MERRA-2 reanalysis,1,1,atmosphere,111000.0,40000000.0,2600000.0,1104624000.0,,public,True
 MITgcm LLC4320,1,1,ocean,2312.5,1665000.0,43200.0,36800000.0,,public,True
-MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6),1,1,cryosphere,500.0,2500000.0,86400.0,694310400.0,,public,True
-MODIS cloud droplet number concentration (Nd),1,1,atmosphere,111000.0,40000000.0,86400.0,410227200.0,,public,True
+MODIS products,2,2,atmosphere,500.0,40000000.0,86400.0,694310400.0,,public,True
 "MOM6 idealized (NeverWorld2, double gyre)",4,3,ocean,1500.0,15540000.0,135.0,2592000000.0,,public,True
-NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1),1,1,ocean,27750.0,40000000.0,86400.0,157788000.0,,public,True
+NOAA OISST sea surface temperature,1,1,ocean,27750.0,40000000.0,86400.0,157788000.0,,public,True
 NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset,1,1,coupled_earth_system,,40000000.0,3600.0,946700000.0,0.001,public,False
 NSIDC sea-ice concentration,2,2,cryosphere,25000.0,40000000.0,86400.0,1388534400.0,,public,True
 North Temperate Lakes LTER Lake Mendota water temperature observations,1,1,land_hydrology,,6325.0,86400.0,1096502400.0,,public,False
@@ -50,7 +49,6 @@ Ocean boundary-layer single-column (GOTM / SMC),2,2,ocean,,,3600.0,518400.0,,pub
 "Paleoclimate reconstructions (LGM, LIG, Mid-Holocene)",1,1,coupled_earth_system,,40000000.0,,,,not_stated,False
 ParFlow synthetic rainfall-runoff simulations for Taylor River and Little Washita basins,1,1,land_hydrology,1000.0,35000.0,3600.0,432000.0,,public,True
 Quasi-geostrophic turbulence (pyqg),2,2,ocean,3906.0,1000000.0,3600.0,315360000.0,,public,True
-Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv),1,1,atmosphere,111000.0,40000000.0,2600000.0,1104624000.0,,public,True
 Rising thermal bubble LES (LEX / CM1),1,1,atmosphere,100.0,24000.0,5.0,1800.0,,public,True
 "S2S forecast archives (ECMWF, NCEP, UKMO, CMA)",4,1,coupled_earth_system,166500.0,40000000.0,86400.0,252500000.0,,public,True
 SAM hypohydrostatic aquaplanet,1,1,atmosphere,12000.0,40000000.0,10800.0,50716800.0,3000.0,public,True

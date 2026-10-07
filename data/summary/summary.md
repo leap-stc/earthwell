@@ -54,7 +54,7 @@
 | Climate system / methods (general) | 12 | 0 | 28 | 0 | 1 | classification_detection (5), emulation (2), forecasting (2), interpretability_xai (2) | regional (21), point_or_site (3), other (2), GCM_ESM (1), global_obs (1) |
 | Out of scope | 18 | 1 | 20 | 0 | 0 | uncertainty_quantification (3), forecasting (1), classification_detection (1), reconstruction_gapfilling (1) | other (16), point_or_site (2), regional (1), global_obs (1) |
 
-## Testbed candidate datasets (152 datasets in 67 families)
+## Testbed candidate datasets (152 datasets in 65 families)
 
 | family | domain | scales | papers | best_access | max_size_gb | authors |
 |---|---|---|---|---|---|---|
@@ -68,24 +68,23 @@
 | ChaosBench S2S benchmark | atmosphere | GCM_ESM | 2 | public_url_or_doi | 15.3 | Nathaniel 2024, Nathaniel 2026 |
 | Convective boundary layer LES/DNS | atmosphere | DNS;LES | 2 | public_url_or_doi |  | Cheng 2022, Shamekh 2023 |
 | ERA5 reanalysis | atmosphere | GCM_ESM | 2 | public_url_or_doi |  | Grundner 2024, Peng 2025 |
-| GISS ModelE PPE / calibrated physics ensemble | atmosphere | GCM_ESM | 2 | public_url_or_doi |  | Elsaesser 2025, Yang 2024 |
+| GISS ModelE runs (incl. PPE/CPE) | atmosphere | GCM_ESM | 2 | public_url_or_doi |  | Elsaesser 2025, Yang 2024 |
 | MAC-LWP liquid water path | atmosphere | global_obs | 2 | public_url_or_doi |  | Eidhammer 2024, Song 2024 |
+| MODIS products | atmosphere | global_obs;regional | 2 | public_url_or_doi |  | Antwerpen 2026, Song 2024 |
 | Warm-rain bin microphysics box/column (TAU) | atmosphere | column_or_box | 2 | public_url_or_doi |  | Lamb 2023, Morrison 2025 |
 | Berkeley Earth Surface Temperatures (BEST) | atmosphere | global_obs | 1 | public_url_or_doi |  | Immorlano 2025 |
 | CAM5 +8K Prescribed SST Simulation Dataset | atmosphere | GCM_ESM | 1 | public_url_or_doi | 48.4 | Bhouri 2023 |
-| CMIP6 Earth system model surface air temperature projections | atmosphere | GCM_ESM | 1 | public_url_or_doi | 0.54 | Immorlano 2025 |
 | CTRLCAM standard parameterization simulation | atmosphere | GCM_ESM | 1 | not_stated |  | Rasp 2018 |
 | Cloud-scene LES + 3D radiation (Powell) | atmosphere | LES | 1 | public_url_or_doi |  | Powell 2026 |
 | Constrained climate projection model outputs and processed benchmark data | atmosphere | GCM_ESM | 1 | public_url_or_doi |  | Immorlano 2025 |
 | GFS v16 RRTM shortwave radiative transfer dataset | atmosphere | GCM_ESM;column_or_box | 1 | public_url_or_doi |  | Beucler 2025 |
 | JCM and SPEEDY 3-year simulation output datasets | atmosphere | GCM_ESM | 1 | public_url_or_doi |  | Davenport 2026 |
-| MODIS cloud droplet number concentration (Nd) | atmosphere | global_obs | 1 | public_url_or_doi |  | Song 2024 |
+| MERRA-2 reanalysis | atmosphere | global_obs | 1 | public_url_or_doi |  | Yang 2026 |
 | Numerically generated black carbon fractal aggregate optical properties dataset | atmosphere | other | 1 | public_url_or_doi |  | Lamb 2023 |
-| Remote Sensing Systems / MERRA-2 Precipitable Water Vapor (TMQ/pwv) | atmosphere | global_obs | 1 | public_url_or_doi |  | Yang 2026 |
 | Rising thermal bubble LES (LEX / CM1) | atmosphere | LES | 1 | public_url_or_doi |  | Zhu 2026 |
 | SAM hypohydrostatic aquaplanet | atmosphere | CRM | 1 | public_url_or_doi | 3000.0 | Beucler 2024 |
 | Spherical shallow water equations dataset | atmosphere | other | 1 | public_url_or_doi | 7.6 | Nathaniel 2026 |
-| CMIP archive | coupled_earth_system | GCM_ESM | 1 | not_stated |  | Watson-Parris 2025 |
+| CMIP5/6 multi-model archive | coupled_earth_system | GCM_ESM | 2 | public_url_or_doi | 0.54 | Immorlano 2025, Watson-Parris 2025 |
 | Coupled and Land-Only Perturbed Parameter Ensemble (PPE) in CESM2 | coupled_earth_system | GCM_ESM | 1 | public_url_or_doi |  | Zarakas 2024 |
 | Filtered Sub-Grid Air-Sea Heat Flux Analysis Dataset | coupled_earth_system | GCM_ESM | 1 | pangeo_or_cloud |  | Busecke 2025 |
 | NOAA Physical Sciences Lab (PSL) Research Cruises Eddy-Covariance Dataset | coupled_earth_system | global_obs;point_or_site | 1 | public_url_or_doi | 0.001 | Wu 2025 |
@@ -95,7 +94,6 @@
 | GFDL SPEAR sea-ice DA increments | cryosphere | GCM_ESM | 3 | public_url_or_doi | 43.0 | Gregory 2023, Gregory 2024, Zanna 2025 |
 | NSIDC sea-ice concentration | cryosphere | global_obs | 2 | public_url_or_doi |  | Gregory 2024, Zanna 2025 |
 | MAR simulation daily surface fields and meltwater production over Greenland (1979–2024) | cryosphere | regional | 1 | public_url_or_doi |  | Tedesco 2026 |
-| MODIS Terra broadband albedo and surface reflectance (MOD10A1 and MOD09GA v6) | cryosphere | global_obs;regional | 1 | public_url_or_doi |  | Antwerpen 2026 |
 | Ice-growth cloud/diffusion chamber data | idealized_or_other | other;point_or_site | 1 | public_url_or_doi |  | Lamb 2025 |
 | Kolmogorov flow synthetic simulation dataset | idealized_or_other | DNS | 1 | public_url_or_doi | 8.6 | Nathaniel 2026 |
 | The Well (Polymathic AI) | idealized_or_other | other | 1 | public_url_or_doi | 342.0 | Accarino 2026 |
@@ -118,12 +116,39 @@
 | ASTE-BGC Model Simulations (B1, B2, B3, Opt) | ocean | regional | 1 | public_url_or_doi |  | Moseley 2025 |
 | CMEMS GlobColour merged surface chlorophyll-a | ocean | global_obs;regional | 1 | public_url_or_doi |  | Moseley 2025 |
 | GESLA3 (Global Extreme Sea Level Analysis version 3) | ocean | point_or_site | 1 | public_url_or_doi |  | Hermans 2025 |
-| GLODAPv2 bottle data and GLODAPv2.2016b mapped climatology | ocean | point_or_site;regional | 1 | public_url_or_doi |  | Moseley 2025 |
+| GLODAP ocean carbon/bottle data | ocean | point_or_site;regional | 1 | public_url_or_doi |  | Moseley 2025 |
 | GOBAI-O2 | ocean | global_obs | 1 | public_url_or_doi |  | Moseley 2025 |
 | Global gridded monthly pCO2 estimates (1982–2017) | ocean | global_obs | 1 | public_url_or_doi |  | Kim 2024 |
 | LDEO-HPD and pCO2-Residual surface ocean pCO2 | ocean | global_obs;regional | 1 | public_url_or_doi |  | Moseley 2025 |
 | MITgcm LLC4320 | ocean | regional | 1 | pangeo_or_cloud |  | Bodner 2025 |
-| NOAA Optimum Interpolation Sea Surface Temperature (DOISST v2.1) | ocean | global_obs | 1 | public_url_or_doi |  | Zanna 2025 |
+| NOAA OISST sea surface temperature | ocean | global_obs | 1 | public_url_or_doi |  | Zanna 2025 |
 | World Ocean Atlas 2018 (WOA18) | ocean | global_obs | 1 | public_url_or_doi |  | Sane 2023 |
+
+## Pain points (1071 from 270 papers; multi-label)
+
+| category | papers | pct_of_papers | mentions | top_domains | example |
+|---|---|---|---|---|---|
+| Computational cost / scaling | 93 | 34 | 107 | Atmosphere (57), Land & hydrology (31), Ocean (15) | Tuning tradeoffs and high computational cost of full coupled spin-up (Lawrence 2024) |
+| Sparse / limited observations | 86 | 31 | 109 | Atmosphere (38), Ocean (35), Land & hydrology (32) | Scarcity of target abnormal/extreme event samples (Kalan 2025) |
+| Uncertainty quantification / ensembles | 82 | 30 | 97 | Atmosphere (49), Ocean (26), Land & hydrology (21) | Parametric uncertainty linked to physical parameter values (Lamb 2026) |
+| Scale mismatch / resolution / subgrid | 80 | 29 | 99 | Atmosphere (50), Ocean (23), Land & hydrology (22) | High data volume for high-resolution dataset (41.2 TB) (Yu 2023) |
+| Online stability / offline–online gap | 80 | 29 | 107 | Atmosphere (53), Ocean (25), Land & hydrology (17) | MLP models crash online within 1-3 months (Hu 2025) |
+| Structural / model error & biases | 76 | 28 | 91 | Atmosphere (43), Ocean (20), Land & hydrology (17) | Structural uncertainty across different parameterization designs (Loftus 2023) |
+| Generalization / out-of-distribution | 65 | 24 | 72 | Atmosphere (36), Ocean (19), Land & hydrology (19) | Poor out-of-sample generalization to unseen regimes (Willard 2020) |
+| Missing / simplified process representation | 59 | 21 | 65 | Atmosphere (35), Land & hydrology (14), Ocean (13) | Scale separation assumption inherent in MMF (laterally periodic CRM) (Yu 2023) |
+| Parameter calibration / tuning | 58 | 21 | 70 | Atmosphere (35), Land & hydrology (19), Ocean (12) | High dimensionality of parameter space and sparse sampling (Carslaw 2026) |
+| Measurement noise / data quality | 56 | 20 | 61 | Atmosphere (36), Land & hydrology (18), Ocean (9) | Sensitivity of inversion techniques to measurement errors. (Matai 2024) |
+| Extremes / tails / imbalance | 55 | 20 | 70 | Atmosphere (31), Land & hydrology (25), Ocean (8) | Scarcity of target abnormal/extreme event samples (Kalan 2025) |
+| Nonlinearity / high dimensionality | 54 | 20 | 66 | Atmosphere (40), Land & hydrology (13), Ocean (11) | High dimensionality of parameter space and sparse sampling (Carslaw 2026) |
+| Numerics / boundaries / discretization | 54 | 20 | 68 | Atmosphere (36), Ocean (14), Land & hydrology (11) | Vanishing gradients in recurrent/time-stepping models (Shen 2023) |
+| Interpretability / causality / equifinality | 47 | 17 | 67 | Atmosphere (27), Land & hydrology (20), Ocean (10) | Unidentifiability when backdoor paths cannot be blocked (Massmann 2021) |
+| Predictability / initialization / skill | 43 | 16 | 51 | Atmosphere (31), Ocean (11), Land & hydrology (11) | Sensitivity to simulation initialization dates causing initialization shocks. (Behrens 2025) |
+| Software / model–ML integration | 39 | 14 | 47 | Atmosphere (23), Land & hydrology (11), Ocean (9) | API costs and daily rate limits associated with OCR and LLM services (Donohue 2025) |
+| Physical consistency / conservation | 36 | 13 | 47 | Atmosphere (24), Ocean (12), Land & hydrology (7) | Mass and energy conservation must be explicitly enforced (Yu 2023) |
+| Smoothing / loss of small-scale variance | 33 | 12 | 39 | Atmosphere (21), Ocean (9), Land & hydrology (7) | Spectral over-smoothing in deterministic regression-based PDE surrogates (Accarino 2026) |
+| Data harmonization / mismatch | 26 | 9 | 27 | Atmosphere (12), Land & hydrology (11), Ocean (6) | Need to harmonize heterogeneous datasets across space and time (Lahlou 2025) |
+| Data volume / access / storage | 22 | 8 | 23 | Atmosphere (17), Land & hydrology (8), Ocean (3) | Large data volumes produced by extensive ensembles (Carslaw 2026) |
+| Ill-posed inverse problems / non-uniqueness | 12 | 4 | 13 | Atmosphere (7), Land & hydrology (6), Ocean (3) | Unidentifiability when backdoor paths cannot be blocked (Massmann 2021) |
+| Other | 141 | 51 | 202 | Atmosphere (77), Land & hydrology (47), Ocean (32) | Choosing appropriate custom loss functions (Krell 2025) |
 
 CSVs -> /Users/karalamb/Columbia/Projects/EarthWell/data/summary

@@ -42,28 +42,41 @@ FAMILIES = [
     (r"tau |tau\)|kinematic driver|warm rain initiation|dsd", "Warm-rain bin microphysics box/column (TAU)"),
     (r"aida|levitation|button electrode", "Ice-growth cloud/diffusion chamber data"),
     (r"cam6.*ppe|cam6.*perturbed|cam6-ml", "CESM2/CAM6 perturbed parameter ensembles"),
-    (r"clm", "CLM5 perturbed parameter ensembles"),
-    (r"giss|modele", "GISS ModelE PPE / calibrated physics ensemble"),
+    (r"\bclm", "CLM5 perturbed parameter ensembles"),
+    (r"giss|\bmodele\b|modele3", "GISS ModelE runs (incl. PPE/CPE)"),
     (r"cesm2.*coupled and land", "CESM2 coupled + land PPE"),
     (r"chaosbench", "ChaosBench S2S benchmark"),
     (r"s2s forecasts", "S2S forecast archives (ECMWF, NCEP, UKMO, CMA)"),
     (r"neverworld|double gyre", "MOM6 idealized (NeverWorld2, double gyre)"),
     (r"pyqg|quasi-geostrophic", "Quasi-geostrophic turbulence (pyqg)"),
     (r"cm2\.6", "GFDL CM2.6 eddy-resolving"),
-    (r"om4|mom6.*epbl", "GFDL OM4 / MOM6 ocean runs"),
+    (r"\bom4|mom6.*epbl", "GFDL OM4 / MOM6 ocean runs"),
     (r"spear", "GFDL SPEAR sea-ice DA increments"),
     (r"gotm|second-moment closure", "Ocean boundary-layer single-column (GOTM / SMC)"),
     (r"llc4320", "MITgcm LLC4320"),
     (r"the well", "The Well (Polymathic AI)"),
-    (r"lens|large ensemble testbed", "pCO2 Large Ensemble Testbed"),
+    (r"large ensemble testbed|pco2.*testbed", "pCO2 Large Ensemble Testbed"),
+    (r"\blens\b|large ensemble|cesm.?le\b|cesm2?-le", "CESM / multi-model large ensembles"),
     (r"socat", "SOCAT surface ocean CO2"),
-    (r"argo", "Argo / BGC-Argo floats"),
+    (r"\bargo\b", "Argo / BGC-Argo floats"),
     (r"ceres", "CERES radiative fluxes"),
     (r"era5", "ERA5 reanalysis"),
+    (r"\bcmip", "CMIP5/6 multi-model archive"),
+    (r"\bmodis\b", "MODIS products"),
+    (r"oisst|optimum interpolation sea surface", "NOAA OISST sea surface temperature"),
+    (r"glodap", "GLODAP ocean carbon/bottle data"),
+    (r"\ben4\b|en4\.", "Met Office EN4 temperature/salinity"),
+    (r"\bjra|jra-?55", "JRA-55 reanalysis / JRA55-do forcing"),
+    (r"merra", "MERRA-2 reanalysis"),
+    (r"lorenz", "Lorenz-96 / Lorenz systems"),
+    (r"\bcamels\b", "CAMELS catchment dataset"),
+    (r"cloudsat|calipso", "CloudSat / CALIPSO"),
+    (r"\bgoes\b", "GOES geostationary imagery"),
+    (r"ibtracs", "IBTrACS tropical cyclone tracks"),
     (r"gpcp|imerg|trmm tmpa", "Satellite precipitation (GPCP, IMERG)"),
     (r"mac-lwp|liquid water path", "MAC-LWP liquid water path"),
     (r"fluxnet|fluxcom|metaflux", "FLUXNET / FLUXCOM eddy covariance"),
-    (r"eddy covariance and sif|sif", "Site eddy covariance + SIF"),
+    (r"eddy covariance and sif|\bsif\b", "Site eddy covariance + SIF"),
     (r"nsidc", "NSIDC sea-ice concentration"),
     (r"wumi", "WUMI wildfire dataset"),
 ]
@@ -72,6 +85,38 @@ FAMILIES = [
 def family(name):
     n = name.lower()
     return next((f for pat, f in FAMILIES if re.search(pat, n)), name)
+
+
+# Pain-point categories: keyword rules over the extracted pain_points text (multi-label). ponytail: ~80% of the
+# 1071 pain points match at least one; the rest are one-off issues and land in "Other". Upgrade: LLM labelling.
+PAIN_POINTS = [  # (category, regex); multi-label, a pain point can hit several
+ ("Online stability / offline–online gap", r"online|offline|coupled (run|simulation|model)|prognostic|instabilit|unstable|drift|crash|blow.?up|a posteriori|when coupled"),
+ ("Generalization / out-of-distribution", r"generali[sz]|out.of.(distribution|sample)|extrapolat|unseen|transferab|warmer climate|climate change.*(fail|limit)|\+\s?\d\s?k\b|different climate|new (region|site|climate)|domain shift|distribution shift"),
+ ("Sparse / limited observations", r"sparse|sparsit|scarc|limited (observ|data|sampl|measure|in.situ)|lack of (observ|data|measure|in.situ|ground)|gaps? in|coverage|few (observ|sample|site|station)|undersampl|paucity|unobserved|partial observ|lack of (direct |continuous |temporal )?(daytime )?(observ|data|satellite|measure|continuity)|absence of (observ|data)|go offline"),
+ ("Computational cost / scaling", r"comput\w* (cost|expens|burden|demand|resourc|intens)|expensive|prohibitiv|cost of|runtime|inference (cost|time)|memory|scal(e|ing) (to|up)|gpu|cpu|flops|wall.?clock"),
+ ("Data volume / access / storage", r"storage|data volume|terabyte|petabyte|\btb\b|\bpb\b|archiv|data access|availab\w+ of data|not (publicly )?available|unavailab|proprietary|download|data management|i/o"),
+ ("Physical consistency / conservation", r"conserv|physical(ly)? (consisten|inconsisten|constrain|implausib|realis)|non.?physical|unphysical|negative (value|concentration|diffusiv|precip)|positivity|energy balance|mass balance|violat"),
+ ("Uncertainty quantification / ensembles", r"uncertaint|ensemble spread|probabilist|stochastic|aleatoric|epistemic|calibrat\w* (of )?uncertain|confidence interval|underdispers|\bspread\b|ensemble size|members"),
+ ("Extremes / tails / imbalance", r"extreme|\btails?\b|\brare\b|imbalanc|false.positive|zero.?inflat|underestimat\w* (of )?(peak|high|intens)|intensity|regression toward|toward the mean"),
+ ("Smoothing / loss of small-scale variance", r"blur|smooth|fine.scale (detail|variance|structure)|small.scale variance|spectral|variance (loss|underestim)|mse|double penalty|underpredict\w* variance"),
+ ("Interpretability / causality / equifinality", r"interpretab|explainab|black.box|causal|equifinal|compensat\w* error|error compensation|identifiab|attribution|confound|spurious"),
+ ("Structural / model error & biases", r"structural (error|uncertaint)|model (bias|error)|systematic (bias|error)|\bbias(ed|es)?\b|compensat|parametri[sz]ation (error|deficien)|inherit"),
+ ("Scale mismatch / resolution / subgrid", r"resolution|scale (mismatch|aware|separat|gap)|coarse.grain|subgrid|sub.grid|footprint|representativ|spatial mismatch|grid.?scale|downscal|upscal|heterogeneit"),
+ ("Measurement noise / data quality", r"label|outlier|noise|noisy|measurement (error|uncertaint)|observation(al)? (error|uncertaint|noise)|bias.correct|quality control|retriev\w* (error|uncertaint)|artifact|inconsisten\w* (between|across) (data|product|observ)"),
+ ("Ill-posed inverse problems / non-uniqueness", r"ill.posed|non.?uniqu|inverse (problem|model|mapping)|invert|identifiab|degenera"),
+ ("Nonlinearity / high dimensionality", r"non.?linear|high.dimension|dimensionalit|intrinsic dimension|parameter interaction|curse of"),
+ ("Software / model–ML integration", r"fortran|python|interoperab|adjoint|tangent.linear|legacy|api\b|workflow|infrastructure|maintenance|software|implementation|bridg|forpy|differentiab"),
+ ("Missing / simplified process representation", r"neglect|omit|ignor|exclu|absence of (dynamic|coupled|explicit)|lack of (direct )?representation|incomplete (physical )?understanding|not (explicitly )?(represent|resolv|includ|account)|missing (process|physics)|simplif|idealiz|assum"),
+ ("Data harmonization / mismatch", r"regrid|coloc|mismatch|harmoni|different (grid|period|definition)|inconsistent (scaling|definition)|alignment|reconcil|distinct (spatial )?grid|fragment|heterogeneous (file|format|data)|file format"),
+ ("Predictability / initialization / skill", r"predictab|initiali[sz]|lead time|horizon|skill|forecast"),
+ ("Numerics / boundaries / discretization", r"boundar(y|ies)|padding|discretiz|numerical|time.?step|stiff|solver|grid.?point"),
+ ("Parameter calibration / tuning", r"calibrat|tuning|tune|parameter (estimation|space|uncertaint|sensitiv|inference)|hyperparameter|perturbed parameter"),
+]
+
+
+def pain_categories(text):
+    t = text.lower()
+    return [c for c, pat in PAIN_POINTS if re.search(pat, t)] or ["Other"]
 
 
 def doi_key(p):
@@ -227,6 +272,31 @@ def main():
     write_csv("testbed_families.csv", frows, list(frows[0]))
     print(f"\n## Testbed candidate datasets ({len(tb)} datasets in {len(frows)} families)\n")
     print(md_table(frows, ["family", "domain", "scales", "papers", "best_access", "max_size_gb", "authors"]))
+
+    # --- pain points: one row per extracted pain point, then a category summary
+    pain = [{"paper_id": p["paper_id"], "leap_year": p["year"], "first_author": (p["authors"] or [""])[0],
+             "pub_year": p["pub_year"] or "", "domains": "; ".join(p["domains"]), "title": p["title"],
+             "pain_point": x, "categories": "; ".join(pain_categories(x))}
+            for p in papers.values() if p["in_scope"] for x in p["pain_points"]]
+    write_csv("pain_points.csv", pain, list(pain[0]))
+    n_scope = sum(p["in_scope"] for p in papers.values())
+    by_cat = collections.defaultdict(list)
+    for r in pain:
+        for c in r["categories"].split("; "):
+            by_cat[c].append(r)
+    crow = []
+    for c, rs in by_cat.items():
+        pids = {r["paper_id"] for r in rs}
+        doms = collections.Counter(d for pid in pids for d in papers[pid]["domains"])
+        example = min((r for r in rs if 40 < len(r["pain_point"]) < 140), key=lambda r: len(r["pain_point"]),
+                      default=rs[0])
+        crow.append({"category": c, "papers": len(pids), "pct_of_papers": round(100 * len(pids) / n_scope),
+                     "mentions": len(rs), "top_domains": top(doms, 3),
+                     "example": f'{example["pain_point"]} ({example["first_author"].split()[-1] if example["first_author"] else "?"} {example["pub_year"]})'})
+    crow.sort(key=lambda r: (r["category"] == "Other", -r["papers"]))
+    write_csv("pain_categories.csv", crow, list(crow[0]))
+    print(f"\n## Pain points ({len(pain)} from {len({r['paper_id'] for r in pain})} papers; multi-label)\n")
+    print(md_table(crow, ["category", "papers", "pct_of_papers", "mentions", "top_domains", "example"]))
     print(f"\nCSVs -> {OUT}")
 
 

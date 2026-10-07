@@ -36,12 +36,13 @@ There is no code yet — this is currently a corpus plus a brief. Git repo on `m
 python3 scripts/extract_text.py                                    # PDFs -> data/text/<sha>.txt + data/inventory.csv (local, ~90s, cached by hash)
 set -a; . ~/.claude/credentials/credentials.env; set +a            # loads GEMINI_API_KEY
 .venv/bin/python scripts/extract_metadata.py --year 1             # Gemini API -> data/papers/, data/datasets/; also --limit N; no flags = all
-python3 scripts/summarize.py > data/summary/summary.md         # DOI dedupe, DNS/LES/CRM table, domain summary, testbed families -> data/summary/*.csv
+python3 scripts/summarize.py > data/summary/summary.md         # DOI dedupe, DNS/LES/CRM table, domains, testbed families, pain points -> data/summary/*.csv
 python3 scripts/plot_domains_by_year.py                           # Figures/papers_by_domain_by_year.{png,pdf,csv} (needs matplotlib; IceSciML env has it)
 (cd scripts && ../.venv/bin/python extract_scales.py)              # 2nd Gemini pass: numeric dx/extent/dt/duration/size/domain -> "scales" key in data/datasets/*.json
 python3 scripts/plot_scales.py                                     # Figures/dataset_scales.{png,pdf,csv}: Stommel-style space-time diagram
 python3 scripts/plot_authors.py                                    # Figures/author_network.{png,pdf} + nodes/edges CSVs (needs networkx)
 python3 scripts/plot_testbed.py                                    # Figures/testbed_scales.{png,pdf,csv}: testbed families on one space-time plot, colored by discipline
+python3 scripts/plot_top_datasets.py                               # Figures/top_datasets.{png,pdf,csv}: top-10 dataset families by number of publications
 ```
 
 - `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.
@@ -52,6 +53,8 @@ python3 scripts/plot_testbed.py                                    # Figures/tes
 - The process ellipses in `plot_scales.py` (`PROCESSES`) were traced by eye from the LEAP multi-scale slide (atmosphere/ocean only).
 - `plot_authors.py` merges author names on first initial + surname (`author_key`), so two people who share both are merged. Papers with more than `MAX_AUTHORS` (30) authors add no co-author links.
 - The testbed tables (`testbed_datasets.csv`, `testbed_families.csv`) group dataset names into families via the hand-written `FAMILIES` regex list in summarize.py (first match wins; unmatched names stay as their own row).
+- Pain points are categorized by the keyword rules in `PAIN_POINTS` (summarize.py), multi-label. About 19% fall to "Other".
+- `FAMILIES` is shared by the testbed tables/figure and top_datasets. After editing it, rerun summarize.py, plot_testbed.py and plot_top_datasets.py.
 - Venv setup: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `data/text/` and `.venv/` are gitignored. Pushing anything to GitHub, or sending papers to an API, needs the user's confirmation (global rule).
 
 ## Tools available
