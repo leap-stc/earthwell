@@ -3,3 +3,5 @@
 Kara_s hackathon project - Publications and conferences/
 .DS_Store
 .idea/
+data/text/
+.venv/

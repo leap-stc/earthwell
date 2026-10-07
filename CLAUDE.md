@@ -30,6 +30,19 @@ There is no code yet — this is currently a corpus plus a brief. Git repo on `m
 - The corpus includes "synergistic" papers outside climate ML (e.g. corporate sustainability, social cognition, electricity trading). Filter or flag these rather than forcing them into the dataset schema.
 - Filenames have spaces, `_` substituted for `:`/`?`, and non-ASCII characters — always quote paths.
 
+## Pipeline
+
+```
+python3 scripts/extract_text.py                                    # PDFs -> data/text/<sha>.txt + data/inventory.csv (local, ~90s, cached by hash)
+set -a; . ~/.claude/credentials/credentials.env; set +a            # loads GEMINI_API_KEY
+.venv/bin/python scripts/extract_metadata.py --year 1             # Gemini API -> data/papers/, data/datasets/; also --limit N; no flags = all
+```
+
+- `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.
+- Output is one JSON file per paper, `data/papers/<sha>.json` (`paper_id` = inventory `sha`), and one per dataset, `data/datasets/<sha>-<nn>.json`. They're linked both ways: the paper has `dataset_ids`, each dataset has `paper_id`. The same real-world dataset (e.g. SPCAM) used by several papers is **not** deduplicated yet.
+- `extract_metadata.py` is resumable: papers with an existing `data/papers/<sha>.json` are skipped, and failed papers write nothing, so a rerun retries them. To re-extract a paper, delete its paper file. The model is pinned in `MODEL`. `SCHEMA` and `PROMPT` in the same file define what gets extracted (Gemini `response_json_schema`). Only `PROMPT` text reaches the model, so field definitions go there, not in code comments.
+- Venv setup: `python3 -m venv .venv && .venv/bin/pip install -r requirements.txt`. `data/text/` and `.venv/` are gitignored. Pushing anything to GitHub, or sending papers to an API, needs the user's confirmation (global rule).
+
 ## Tools available
 
 - `pdftotext` (poppler) and `python3` are on PATH via the `IceSciML` conda env (`/opt/anaconda3/envs/IceSciML`). PyMuPDF (`fitz`) is not installed.
