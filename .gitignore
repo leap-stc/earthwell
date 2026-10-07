@@ -1,0 +1,5 @@
+# ponytail: corpus is ~1.6 GB of third-party PDFs; keep out of git (use LFS or shared drive if needed)
+*.zip
+Kara_s hackathon project - Publications and conferences/
+.DS_Store
+.idea/
