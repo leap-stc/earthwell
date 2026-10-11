@@ -1,1 +1,4 @@
 google-genai
+streamlit
+networkx
+matplotlib

@@ -45,6 +45,7 @@ python3 scripts/plot_testbed.py                                    # Figures/tes
 python3 scripts/plot_top_datasets.py                               # Figures/top_datasets.{png,pdf,csv}: top-10 dataset families by number of publications
 python3 scripts/plot_pain_points.py                                # Figures/pain_points.{png,pdf,csv}: pain-point categories overall + per-domain heatmap
 python3 scripts/plot_scales_families.py                            # Figures/dataset_scales_families.{png,pdf,csv}: all datasets by family, legoESM-style ellipses per domain
+.venv/bin/streamlit run scripts/app.py                             # interactive explorer: datasets page (filters, space-time scatter, click for metadata) + Authors page (scripts/pages/, co-authorship network)
 ```
 
 - `inventory.csv`: one row per file. `dup_of` points to the first copy (same hash or same normalized title), and only rows with an empty `dup_of` go to the API. `needs_ocr` rows (image-only PDFs) are sent as the PDF itself; the rest go as extracted text.
