@@ -6,3 +6,6 @@ Kara_s hackathon project - Publications and conferences/
 data/text/
 .venv/
 __pycache__/
+# reference images (not ours to publish)
+legoesm_dataset_scales.png
+multiscalefigure.png
